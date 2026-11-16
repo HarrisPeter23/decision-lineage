@@ -64,11 +64,11 @@ def test_tables():
     H = json.loads(f.read_text(encoding="utf-8"))
     X = json.loads((ROOT / "results/phase7/extra_tests.json").read_text(encoding="utf-8"))
     D = json.loads((ROOT / "results/lineage_f1_dev.json").read_text(encoding="utf-8"))["cited"]
-    T = lambda t: f"{t['diff']:+.3f} [{t['ci'][0]:+.2f}, {t['ci'][1]:+.2f}]"
+    T = lambda t: f"{t['diff']:+.2f} [{t['ci'][0]:+.2f}, {t['ci'][1]:+.2f}]"   # D-48: deltas and CIs at 2 decimals
     # primary: all 22 sets and the failure-free subset (D-35)
     L = [r"\begin{table}[t]\centering", r"\caption{TEST primary test (H1): cited-lineage F1, ours minus baseline, paired bootstrap over sets (10,000 resamples, "
-         r"one-sided; raw $p$, compared with Holm thresholds over the two tests; two-sided 95\% percentile CIs). Lower block: the 18 failure-free sets (secondary analysis).}\label{tab:test_primary}",
-         r"\resizebox{\columnwidth}{!}{\begin{tabular}{llccc}\toprule", r"Sets & Ours vs & $\Delta$F1 [95\% CI] & $p$ & $H_0$ rejected \\ \midrule"]
+         r"one-sided; raw $p$, compared with Holm thresholds over the two tests; two-sided 95\% percentile CIs; Rej.: $H_0$ rejected). Lower block: the 18 failure-free sets (secondary analysis).}\label{tab:test_primary}",
+         r"\resizebox{\columnwidth}{!}{\begin{tabular}{llccc}\toprule", r"Sets & vs & $\Delta$F1 [95\% CI] & $p$ & Rej. \\ \midrule"]
     for blk, tests, n in (("all 22", H["primary"], 22), ("failure-free 18", X["d35"]["tests"], X["d35"]["n_sets"])):
         for t in tests:
             L.append(f"{blk} & {NAMES[t['vs']]} & {T(t)} & {t['p']:.4f} & {'yes' if t['reject_H0'] else 'no'} \\\\")
@@ -82,10 +82,10 @@ def test_tables():
     rows = [("Ours (full)", "mine", M["mine"]), ("Vector RAG", "vector_rag", M["vector_rag"]), ("EvoWiki-style", "evowiki_style", M["evowiki_style"]),
             ("Graphiti", "graphiti", M["graphiti"]), None, ("\\quad no role typing", "no_typing", A["no_typing"]),
             ("\\quad no conflict resolution", "no_conflict_resolution", A["no_conflict_resolution"]), ("\\quad static graph", "static_graph", A["static_graph"])]
-    L = [r"\begin{table}[t]\centering", r"\caption{TEST means on the 65 headline questions (pool size 1; 95\% CIs over sets for F1): cited-lineage F1, precision, "
-         r"recall, NLI-accepted claim rate (conservative), answer correctness; exact-match correctness on the 66 lookup and as-of questions (H2); and DEV F1. Rows "
+    L = [r"\begin{table}[t]\centering", r"\caption{TEST means on the 65 headline questions (pool size 1; 95\% CIs over sets for F1): cited-lineage F1, precision (P), "
+         r"recall (R), NLI-accepted claim rate (conservative), answer correctness (Cor.); H2: exact-match correctness on the 66 lookup and as-of questions; DEV: DEV F1. Rows "
          r"below the line are ablations of ours (descriptive).}\label{tab:test_means}",
-         r"\resizebox{\columnwidth}{!}{\begin{tabular}{lccccccc}\toprule", r"System & F1 [95\% CI] & P & R & NLI & Corr. & H2 corr. & DEV F1 \\ \midrule"]
+         r"\resizebox{\columnwidth}{!}{\begin{tabular}{lccccccc}\toprule", r"System & F1 [CI] & P & R & NLI & Cor. & H2 & DEV \\ \midrule"]
     for r in rows:
         if r is None:
             L.append(r"\midrule")
@@ -97,7 +97,7 @@ def test_tables():
     (OUT / "test_means.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
     # secondary family (supplementary)
     L = [r"\begin{table}[t]\centering\caption{TEST secondary family (19 tests; Holm within the family).}\label{tab:test_secondary}",
-         r"\resizebox{\columnwidth}{!}{\begin{tabular}{llccc}\toprule", r"Metric & Ours vs & $\Delta$ [95\% CI] & $p$ & rejected \\ \midrule"]
+         r"\resizebox{\columnwidth}{!}{\begin{tabular}{llccc}\toprule", r"Metric & vs & $\Delta$ [95\% CI] & $p$ & Rej. \\ \midrule"]
     for t in H["secondary"]:
         L.append(f"{t['metric'].replace('_', '-')} & {NAMES[t['vs']]} & {T(t)} & {t['p']:.4f} & {'yes' if t['reject_H0'] else 'no'} \\\\")
     L += [r"\bottomrule\end{tabular}}\end{table}"]
@@ -118,7 +118,7 @@ def stage_table():
          r"\caption{Where our pipeline loses the gold lineage on TEST (post-hoc): " + f"{S['pairs']} question--link pairs from the "
          + f"{S['headline_questions']} headline questions ({S['unique_links']} unique links). Retrieval and generation are counted jointly."
          + r"}\label{tab:stage_loss}",
-         r"\resizebox{\columnwidth}{!}{\begin{tabular}{lrrl}\toprule", r"Stage & Pairs & Share & Reading \\ \midrule"]
+         r"\resizebox{\columnwidth}{!}{\begin{tabular}{lrrl}\toprule", r"Stage & Pairs & Share & Reading \\ \midrule"]   # headers already short
     L += [f"{a} & {S[k]} & {pc(k)} & {b} \\\\" for a, k, b in rows]
     L += [r"\midrule",
           rf"\multicolumn{{4}}{{l}}{{Answer level: false premise rejected in {S['false_premise_rejected']} of {S['false_premise_questions']}; "
