@@ -1,0 +1,48 @@
+{
+ "split": "dev",
+ "n_items": 112,
+ "judged": {
+  "gemini": 8
+ },
+ "results": {
+  "gemini": {
+   "evowiki_style/faithfulness": {
+    "n": 4,
+    "win": 4,
+    "tie": 0,
+    "loss": 0,
+    "unparsed": 0,
+    "position_bias": 0.0,
+    "n_order_pairs": 2
+   },
+   "evowiki_style/completeness": {
+    "n": 4,
+    "win": 4,
+    "tie": 0,
+    "loss": 0,
+    "unparsed": 0,
+    "position_bias": 0.0,
+    "n_order_pairs": 2
+   },
+   "graphiti/faithfulness": {
+    "n": 4,
+    "win": 4,
+    "tie": 0,
+    "loss": 0,
+    "unparsed": 0,
+    "position_bias": 0.0,
+    "n_order_pairs": 2
+   },
+   "graphiti/completeness": {
+    "n": 4,
+    "win": 4,
+    "tie": 0,
+    "loss": 0,
+    "unparsed": 0,
+    "position_bias": 0.0,
+    "n_order_pairs": 2
+   }
+  }
+ },
+ "inter_judge": null
+}

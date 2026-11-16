@@ -1,0 +1,44 @@
+[
+ {
+  "meeting_id": "mtg_0001",
+  "episode": "mtg_0001",
+  "date": "2025-07-23",
+  "ok": false,
+  "error": "JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)",
+  "tb": "          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/client.py\", line 146, in _generate_response_with_retry\n    return await self._generate_response(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 171, in _generate_response\n    return json.loads(self._strip_code_fences(result))\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 361, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)\n",
+  "seconds": 2504.2,
+  "llm_calls": 230
+ },
+ {
+  "meeting_id": "mtg_0002",
+  "episode": "mtg_0002",
+  "date": "2025-07-30",
+  "ok": true,
+  "episode_uuid": "492fcb19-b512-43d9-8cbf-46257797288c",
+  "n_nodes": 25,
+  "n_edges": 58,
+  "seconds": 682.5,
+  "llm_calls": 47
+ },
+ {
+  "meeting_id": "mtg_0003",
+  "episode": "mtg_0003",
+  "date": "2025-08-06",
+  "ok": false,
+  "error": "APITimeoutError: Request timed out.",
+  "tb": "        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 157, in _generate_response\n    response = await self.client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"/kaggle/src/script.py\", line 77, in create\n    r = await orig(*a, **kw)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/resources/chat/completions/completions.py\", line 2907, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n    ...<55 lines>...\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1992, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1727, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+  "seconds": 2740.1,
+  "llm_calls": 313
+ },
+ {
+  "meeting_id": "mtg_0004",
+  "episode": "mtg_0004",
+  "date": "2025-08-13",
+  "ok": true,
+  "episode_uuid": "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06",
+  "n_nodes": 11,
+  "n_edges": 21,
+  "seconds": 2427.8,
+  "llm_calls": 287
+ }
+]

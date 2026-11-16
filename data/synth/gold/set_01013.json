@@ -1,0 +1,424 @@
+{
+ "set_id": "set_01013",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "seed": 1013,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 80
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 120
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 94
+   }
+  ],
+  "models": {
+   "generator": "claude-opus-5.5"
+  }
+ },
+ "topic": "how the Leeds service-parts depot gets restocked",
+ "options": {
+  "A": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+  "B": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month"
+ },
+ "cast": [
+  {
+   "name": "Yuki",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Hana",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Mei",
+   "slot": "challenger",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Arjun",
+   "slot": "supporter",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Zainab",
+   "slot": "observer",
+   "style": "big-picture, vague on details"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    28
+   ],
+   "gist": "Hana proposes moving the Leeds depot to a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month, starting on 26 June.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    36,
+    37
+   ],
+   "gist": "Hana argues that about 60 percent of the depot's lines are slow movers, so consolidating drops would cut freight spend by roughly 38 percent.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    66
+   ],
+   "gist": "Yuki settles it: Leeds moves to the twice-weekly Northway run.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    35,
+    36
+   ],
+   "gist": "Zainab reports that the expedite log shows 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, against about 3 in a normal week.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    46,
+    47
+   ],
+   "gist": "Mei objects that the savings are being eaten by expedites and that two field engineers missed the four-hour response term in the Harlow service contract.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    30,
+    31
+   ],
+   "gist": "Yuki reopens the restocking question after a second week of the expedite log came in as bad as the first.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    60,
+    61,
+    62
+   ],
+   "gist": "Mei argues that a daily Brackenfield cross-dock at 5,300 pounds a month is cheaper overall, because it would remove almost all of the courier orders and the Harlow penalty exposure.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    82
+   ],
+   "gist": "Yuki gives the go-ahead for the Brackenfield daily cross-dock without naming it, by telling someone to start the paperwork.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month",
+   "implicit": true,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01013-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the Leeds service-parts depot gets restocked?",
+   "answer_text": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month",
+   "answer_facts": {
+    "option": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01013-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the Leeds service-parts depot gets restocked?",
+   "answer_text": "meeting 1: Yuki - Yuki settles it: Leeds moves to the twice-weekly Northway run.; meeting 3: Yuki - Yuki gives the go-ahead for the Brackenfield daily cross-dock without naming it, by telling someone to start the paperwork.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01013-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the Leeds service-parts depot gets restocked as of the end of meeting 2?",
+   "answer_text": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01013-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the Leeds service-parts depot gets restocked as of the end of meeting 3?",
+   "answer_text": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01013-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the Leeds service-parts depot gets restocked change over time?",
+   "answer_text": "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month (from meeting 1) -> a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month",
+     "a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01013-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how the Leeds service-parts depot gets restocked changed?",
+   "answer_text": "Before: a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month, because Hana argues that about 60 percent of the depot's lines are slow movers, so consolidating drops would cut freight spend by roughly 38 percent. Triggered by: Zainab (evidence): Zainab reports that the expedite log shows 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, against about 3 in a normal week. Mei (challenge): Mei objects that the savings are being eaten by expedites and that two field engineers missed the four-hour response term in the Harlow service contract. Yuki (reconsideration): Yuki reopens the restocking question after a second week of the expedite log came in as bad as the first. After: a daily cross-dock delivery through Brackenfield Logistics at 5,300 pounds a month, because Mei argues that a daily Brackenfield cross-dock at 5,300 pounds a month is cheaper overall, because it would remove almost all of the courier orders and the Harlow penalty exposure.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01013-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the Leeds service-parts depot gets restocked?",
+   "answer_text": "Hana",
+   "answer_facts": {
+    "speaker": "Hana"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01013-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the Leeds service-parts depot gets restocked?",
+   "answer_text": "Zainab (evidence): Zainab reports that the expedite log shows 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, against about 3 in a normal week. Mei (challenge): Mei objects that the savings are being eaten by expedites and that two field engineers missed the four-hour response term in the Harlow service contract.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01013-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the Leeds service-parts depot gets restocked?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01013-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the Leeds service-parts depot gets restocked from proposal to final outcome.",
+   "answer_text": "meeting 1 - Hana [proposal]: Hana proposes moving the Leeds depot to a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month, starting on 26 June. | meeting 1 - Hana [rationale]: Hana argues that about 60 percent of the depot's lines are slow movers, so consolidating drops would cut freight spend by roughly 38 percent. | meeting 1 - Yuki [resolution]: Yuki settles it: Leeds moves to the twice-weekly Northway run. | meeting 2 - Zainab [evidence]: Zainab reports that the expedite log shows 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, against about 3 in a normal week. | meeting 2 - Mei [challenge]: Mei objects that the savings are being eaten by expedites and that two field engineers missed the four-hour response term in the Harlow service contract. | meeting 3 - Yuki [reconsideration]: Yuki reopens the restocking question after a second week of the expedite log came in as bad as the first. | meeting 3 - Mei [rationale]: Mei argues that a daily Brackenfield cross-dock at 5,300 pounds a month is cheaper overall, because it would remove almost all of the courier orders and the Harlow penalty exposure. | meeting 3 - Yuki [resolution]: Yuki gives the go-ahead for the Brackenfield daily cross-dock without naming it, by telling someone to start the paperwork.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

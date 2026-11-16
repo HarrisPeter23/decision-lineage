@@ -1,0 +1,336 @@
+{
+ "set_id": "ami_ES2013",
+ "meta": {
+  "arc_type": "no_reversal",
+  "n_meetings": 4,
+  "source": "ami",
+  "series": "ES2013",
+  "ami_meetings": [
+   "ES2013a",
+   "ES2013b",
+   "ES2013c",
+   "ES2013d"
+  ],
+  "drafted_by": "agent (claude-opus-5-5)",
+  "verification": "none",
+  "notes": "Control series: the energy decision is made in c and kept in d (summaries: c and d both 'will use a kinetic battery'). There is no serious challenge; the only doubt is missing cost information (B3)."
+ },
+ "topic": "the remote's energy source",
+ "options": {
+  "A": "kinetic energy",
+  "B": "a standard battery"
+ },
+ "cast": [
+  "PM",
+  "ME",
+  "UI",
+  "ID"
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "option_text": "kinetic energy",
+   "valid_from": 3,
+   "valid_to": null
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ID",
+   "utterance_idxs": [
+    106
+   ],
+   "gist": "The Industrial Designer proposes the kinetic energy source, where the user powers the remote by moving it.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "PM",
+   "utterance_idxs": [
+    281
+   ],
+   "gist": "The Project Manager summarises that kinetic power only needs the remote to be moved, unlike a battery that must be recharged or replaced.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B3",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ID",
+   "utterance_idxs": [
+    284
+   ],
+   "gist": "The Industrial Designer says he has no costing information; the two workable front-runners are a standard battery or kinetic.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B4",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ME",
+   "utterance_idxs": [
+    288
+   ],
+   "gist": "The Marketing Expert says kinetic watches are very handy because you do not even notice it.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B5",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "PM",
+   "utterance_idxs": [
+    297
+   ],
+   "gist": "The Project Manager concludes that the consensus is to use kinetic if at all possible.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "UI",
+   "utterance_idxs": [
+    206
+   ],
+   "gist": "The User Interface Designer raises the energy question again in the last meeting, asking whether it is kinetic.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "ME",
+   "utterance_idxs": [
+    212
+   ],
+   "gist": "The Marketing Expert says kinetic can be marketed as cost-saving and environmentally friendly.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": true,
+   "option": "kinetic energy"
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "UI",
+   "utterance_idxs": [
+    262
+   ],
+   "gist": "Filling in the component sheet, the User Interface Designer confirms just kinetic.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": true,
+   "option": "kinetic energy"
+  }
+ ],
+ "changes": [],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "ami_ES2013-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the remote's energy source?",
+   "answer_text": "kinetic energy",
+   "answer_facts": {
+    "option": "kinetic energy"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the remote's energy source?",
+   "answer_text": "meeting 3: PM - The Project Manager concludes that the consensus is to use kinetic if at all possible.; meeting 4: UI - Filling in the component sheet, the User Interface Designer confirms just kinetic.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "kinetic energy",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "kinetic energy",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B5",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q03",
+   "type": "as_of",
+   "question": "What was the decision about the remote's energy source as of the end of meeting 1?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 1,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "ami_ES2013-q04",
+   "type": "as_of",
+   "question": "What was the decision about the remote's energy source as of the end of meeting 3?",
+   "answer_text": "kinetic energy",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "kinetic energy"
+   },
+   "supporting_links": [
+    "B5"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the remote's energy source change over time?",
+   "answer_text": "It did not change: kinetic energy was decided in meeting 3 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B5",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about the remote's energy source?",
+   "answer_text": "It did not change. The team kept kinetic energy. Concerns raised: The Industrial Designer says he has no costing information; the two workable front-runners are a standard battery or kinetic. Why it stayed: The Marketing Expert says kinetic can be marketed as cost-saving and environmentally friendly.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the remote's energy source?",
+   "answer_text": "ID",
+   "answer_facts": {
+    "speaker": "ID"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the remote's energy source?",
+   "answer_text": "ID (evidence): The Industrial Designer says he has no costing information; the two workable front-runners are a standard battery or kinetic.",
+   "answer_facts": {
+    "evidence": [
+     "B3"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B6"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the remote's energy source?",
+   "answer_text": "meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2013-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the remote's energy source from proposal to final outcome.",
+   "answer_text": "meeting 3 - ID [proposal]: The Industrial Designer proposes the kinetic energy source, where the user powers the remote by moving it. | meeting 3 - PM [rationale]: The Project Manager summarises that kinetic power only needs the remote to be moved, unlike a battery that must be recharged or replaced. | meeting 3 - ID [evidence]: The Industrial Designer says he has no costing information; the two workable front-runners are a standard battery or kinetic. | meeting 3 - ME [rationale]: The Marketing Expert says kinetic watches are very handy because you do not even notice it. | meeting 3 - PM [resolution]: The Project Manager concludes that the consensus is to use kinetic if at all possible. | meeting 4 - UI [reconsideration]: The User Interface Designer raises the energy question again in the last meeting, asking whether it is kinetic. | meeting 4 - ME [rationale]: The Marketing Expert says kinetic can be marketed as cost-saving and environmentally friendly. | meeting 4 - UI [resolution]: Filling in the component sheet, the User Interface Designer confirms just kinetic.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

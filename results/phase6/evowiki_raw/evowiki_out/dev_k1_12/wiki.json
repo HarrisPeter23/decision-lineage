@@ -1,0 +1,234 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Rota",
+   "attribute": "Saturday cover at Leeds and Hull",
+   "states": [
+    {
+     "value": "Saturday cover at Leeds and Hull",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-19",
+     "evidence": [
+      24,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Scanning solution",
+   "attribute": "deliverable",
+   "states": [
+    {
+     "value": "One-pager by Henrik",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-26",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Scanning solution",
+   "attribute": "additional input",
+   "states": [
+    {
+     "value": "Noor to time a delivery",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-26",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Scanning App",
+   "attribute": "device usage",
+   "states": [
+    {
+     "value": "tablets and phones already in use",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Training",
+   "attribute": "duration per person",
+   "states": [
+    {
+     "value": "ten minutes",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Training",
+   "attribute": "method",
+   "states": [
+    {
+     "value": "written card",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      11
+     ]
+    },
+    {
+     "value": "video",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Gloves",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "touch gloves compatible with phones",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Gloves",
+   "attribute": "purchase",
+   "states": [
+    {
+     "value": "to be bought",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Budget",
+   "attribute": "annual cost",
+   "states": [
+    {
+     "value": "thirty-five hundred dollars, plus gloves",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Implementation",
+   "attribute": "stores first",
+   "states": [
+    {
+     "value": "Leeds and Hull",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Implementation",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "Leeds and Hull first, then the rest over three weeks",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-02",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S5",
+   0,
+   1,
+   3
+  ]
+ ]
+}

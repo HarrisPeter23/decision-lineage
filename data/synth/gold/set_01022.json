@@ -1,0 +1,459 @@
+{
+ "set_id": "set_01022",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "marketing team",
+  "seed": 1022,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 112
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 90
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 92
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "where the third-quarter campaign budget goes",
+ "options": {
+  "A": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+  "B": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads"
+ },
+ "cast": [
+  {
+   "name": "Lakshmi",
+   "slot": "manager",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Greta",
+   "slot": "proposer",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Mateo",
+   "slot": "challenger",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Amara",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Henrik",
+   "slot": "observer",
+   "style": "quiet, speaks up rarely"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "spend the full 120,000 dollars on paid search and paid social across the quarter"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Greta proposes putting the whole 120,000 dollar third-quarter budget into paid search and paid social.",
+   "version": 1,
+   "option_key": "A",
+   "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    20,
+    21
+   ],
+   "gist": "Greta argues that search cost 62 dollars a lead last quarter against 95 for events, and the pipeline target needs about 1,900 leads.",
+   "version": 1,
+   "option_key": "A",
+   "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    80
+   ],
+   "gist": "Lakshmi agrees without naming the channel, by telling Greta to book the media plan.",
+   "version": 1,
+   "option_key": "A",
+   "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    12
+   ],
+   "gist": "Lakshmi reports that finance cut the third-quarter marketing budget by 35 percent, from 120,000 to 78,000 dollars, with immediate effect after the product launch slipped.",
+   "version": 1,
+   "option_key": "A",
+   "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    18
+   ],
+   "gist": "Lakshmi reopens the budget question, since at 78,000 dollars paid search would deliver only about 1,260 leads.",
+   "version": 1,
+   "option_key": "A",
+   "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    34,
+    35
+   ],
+   "gist": "Amara argues for partner webinars plus retargeting because partners bring their own lists, last year's one co-hosted webinar produced 410 leads for 14,000 dollars, and three of them plus retargeting on the remaining 36,000 gets close to the 1,900 target.",
+   "version": 2,
+   "option_key": "B",
+   "option": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    50
+   ],
+   "gist": "Lakshmi decides the budget goes to three partner webinars and retargeting.",
+   "version": 2,
+   "option_key": "B",
+   "option": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "the sender name on the monthly newsletter",
+  "option": "send the monthly newsletter from the content lead's name instead of the company name",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Amara",
+    "utterance_idxs": [
+     71
+    ],
+    "gist": "Amara suggests sending the monthly newsletter from the content lead's name instead of the company name.",
+    "version": null,
+    "option_key": null,
+    "option": "send the monthly newsletter from the content lead's name instead of the company name",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Amara",
+    "utterance_idxs": [
+     75
+    ],
+    "gist": "Amara points out that a named sender lifted the open rate by 14 percent in the last two test sends.",
+    "version": null,
+    "option_key": null,
+    "option": "send the monthly newsletter from the content lead's name instead of the company name",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Lakshmi",
+    "utterance_idxs": [
+     80
+    ],
+    "gist": "Lakshmi approves sending the newsletter from the content lead's name.",
+    "version": null,
+    "option_key": null,
+    "option": "send the monthly newsletter from the content lead's name instead of the company name",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01022-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about where the third-quarter campaign budget goes?",
+   "answer_text": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads",
+   "answer_facts": {
+    "option": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about where the third-quarter campaign budget goes?",
+   "answer_text": "meeting 1: Lakshmi - Lakshmi agrees without naming the channel, by telling Greta to book the media plan.; meeting 2: Lakshmi - Lakshmi decides the budget goes to three partner webinars and retargeting.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q03",
+   "type": "as_of",
+   "question": "What was the decision about where the third-quarter campaign budget goes as of the end of meeting 1?",
+   "answer_text": "spend the full 120,000 dollars on paid search and paid social across the quarter",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "spend the full 120,000 dollars on paid search and paid social across the quarter"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01022-q04",
+   "type": "as_of",
+   "question": "What was the decision about where the third-quarter campaign budget goes as of the end of meeting 2?",
+   "answer_text": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about where the third-quarter campaign budget goes change over time?",
+   "answer_text": "spend the full 120,000 dollars on paid search and paid social across the quarter (from meeting 1) -> co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "spend the full 120,000 dollars on paid search and paid social across the quarter",
+     "co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01022-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about where the third-quarter campaign budget goes changed?",
+   "answer_text": "Before: spend the full 120,000 dollars on paid search and paid social across the quarter, because Greta argues that search cost 62 dollars a lead last quarter against 95 for events, and the pipeline target needs about 1,900 leads. Triggered by: Lakshmi (evidence): Lakshmi reports that finance cut the third-quarter marketing budget by 35 percent, from 120,000 to 78,000 dollars, with immediate effect after the product launch slipped. Lakshmi (reconsideration): Lakshmi reopens the budget question, since at 78,000 dollars paid search would deliver only about 1,260 leads. After: co-host three partner webinars at about 14,000 dollars each and put the rest into retargeting ads, because Amara argues for partner webinars plus retargeting because partners bring their own lists, last year's one co-hosted webinar produced 410 leads for 14,000 dollars, and three of them plus retargeting on the remaining 36,000 gets close to the 1,900 target.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about where the third-quarter campaign budget goes?",
+   "answer_text": "Greta",
+   "answer_facts": {
+    "speaker": "Greta"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01022-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about where the third-quarter campaign budget goes?",
+   "answer_text": "Lakshmi (evidence): Lakshmi reports that finance cut the third-quarter marketing budget by 35 percent, from 120,000 to 78,000 dollars, with immediate effect after the product launch slipped.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01022-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about where the third-quarter campaign budget goes?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about where the third-quarter campaign budget goes from proposal to final outcome.",
+   "answer_text": "meeting 1 - Greta [proposal]: Greta proposes putting the whole 120,000 dollar third-quarter budget into paid search and paid social. | meeting 1 - Greta [rationale]: Greta argues that search cost 62 dollars a lead last quarter against 95 for events, and the pipeline target needs about 1,900 leads. | meeting 1 - Lakshmi [resolution]: Lakshmi agrees without naming the channel, by telling Greta to book the media plan. | meeting 2 - Lakshmi [evidence]: Lakshmi reports that finance cut the third-quarter marketing budget by 35 percent, from 120,000 to 78,000 dollars, with immediate effect after the product launch slipped. | meeting 2 - Lakshmi [reconsideration]: Lakshmi reopens the budget question, since at 78,000 dollars paid search would deliver only about 1,260 leads. | meeting 2 - Amara [rationale]: Amara argues for partner webinars plus retargeting because partners bring their own lists, last year's one co-hosted webinar produced 410 leads for 14,000 dollars, and three of them plus retargeting on the remaining 36,000 gets close to the 1,900 target. | meeting 2 - Lakshmi [resolution]: Lakshmi decides the budget goes to three partner webinars and retargeting.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01022-q11",
+   "type": "distractor",
+   "question": "What was decided about the sender name on the monthly newsletter?",
+   "answer_text": "send the monthly newsletter from the content lead's name instead of the company name",
+   "answer_facts": {
+    "option": "send the monthly newsletter from the content lead's name instead of the company name"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

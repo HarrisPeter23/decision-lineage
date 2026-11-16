@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01000-q01",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3730b07c-b78d-4f48-9a10-499e6d4ed2f2",
+    "name": "PRICING_MODEL",
+    "fact": "The per-seat pricing model is set at twelve dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q02",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3730b07c-b78d-4f48-9a10-499e6d4ed2f2",
+    "name": "PRICING_MODEL",
+    "fact": "The per-seat pricing model is set at twelve dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q03",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "80589d3d-6105-4cb7-9374-224f92984921",
+    "name": "NOT_APPLICABLE_TO",
+    "fact": "The per-seat pricing model does not apply to free trial accounts, as they are not paying customers.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q04",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "80589d3d-6105-4cb7-9374-224f92984921",
+    "name": "NOT_APPLICABLE_TO",
+    "fact": "The per-seat pricing model does not apply to free trial accounts, as they are not paying customers.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q05",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec6ff92d-5a0e-4cc0-8e51-1dc7b2836c82",
+    "name": "MONITORING_TOOL",
+    "fact": "Sven can add a filter to the dashboard to monitor churn among accounts with over forty users.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22d4ac28-74ab-469c-baeb-7d5c44c5fcf3",
+    "name": "INFORMED",
+    "fact": "Sven informed Diego that the pilot export revealed that three accounts had teams over forty people, and two of those accounts found the pricing steep.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q06",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3730b07c-b78d-4f48-9a10-499e6d4ed2f2",
+    "name": "PRICING_MODEL",
+    "fact": "The per-seat pricing model is set at twelve dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a123635e-cd03-4a8e-bcfe-9316c8b80a69",
+    "name": "COMPETITOR_PRACTICE",
+    "fact": "Competitors use a per-seat pricing model ranging from fifteen to twenty dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q07",
+  "facts": [
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3730b07c-b78d-4f48-9a10-499e6d4ed2f2",
+    "name": "PRICING_MODEL",
+    "fact": "The per-seat pricing model is set at twelve dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q08",
+  "facts": [
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a123635e-cd03-4a8e-bcfe-9316c8b80a69",
+    "name": "COMPETITOR_PRACTICE",
+    "fact": "Competitors use a per-seat pricing model ranging from fifteen to twenty dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q09",
+  "facts": [
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "58d8203b-4eca-4380-8c5b-5c48493a7488",
+    "name": "RESPONSIBLE_FOR",
+    "fact": "Wei is responsible for the landing page copy, which includes the price of twelve dollars per seat.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3730b07c-b78d-4f48-9a10-499e6d4ed2f2",
+    "name": "PRICING_MODEL",
+    "fact": "The per-seat pricing model is set at twelve dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q10",
+  "facts": [
+   {
+    "uuid": "f9b002fd-5f3f-4e18-90c6-4919bc1a27d7",
+    "name": "DECISION",
+    "fact": "Diego agrees to proceed with the per-seat pricing model for the analytics add-on at twelve dollars per seat per month for the launch.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eacf4faf-828f-4f84-b844-77d272b12788",
+    "name": "PRICING_MODEL",
+    "fact": "Henrik states that the pricing model for the analytics add-on is twelve dollars per seat per month, on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "607eaa02-df2d-48e3-8da9-a3b0af0d78af",
+    "name": "MONITORING_METRIC",
+    "fact": "The per-seat pricing model will be monitored for churn among accounts with over forty users after the first billing cycle.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a123635e-cd03-4a8e-bcfe-9316c8b80a69",
+    "name": "COMPETITOR_PRACTICE",
+    "fact": "Competitors use a per-seat pricing model ranging from fifteen to twenty dollars per seat per month.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92d93ae2-7a23-429d-9980-87a1d6d1f048",
+    "name": "RAISED_CONCERN",
+    "fact": "Ingrid raised a concern with Diego that big teams might balk at a pricing model that grows with each new hire, suggesting flat pricing or tiers as alternatives.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "075ce067-4185-4913-bfe5-0acf6eb317df",
+    "name": "APPLIES_TO",
+    "fact": "The per-seat pricing model applies to enterprise contracts, where prices are negotiated individually.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01000-q11",
+  "facts": [
+   {
+    "uuid": "2a207dfa-2d38-4502-b91a-d91f9158dda9",
+    "name": "ORGANIZED",
+    "fact": "Wei was assigned by Diego to organize the calendar invites for the weekly demo.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b22f55c-7596-4367-a476-22280067543d",
+    "name": "SCHEDULED",
+    "fact": "Diego scheduled the weekly demo to take place on Thursday afternoons, starting next week.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dde23777-6c0d-4051-984d-c4f00f567a5b",
+    "name": "PROPOSED_CHANGE",
+    "fact": "Wei proposed to Diego that the weekly demo should be moved from Friday afternoon to Thursday afternoon to ensure better attendance.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7dddecb8-6892-40b3-9ed7-0430678371aa",
+    "name": "FEEDBACK",
+    "fact": "Wei comments that the usage-based pricing model was a mess and caused weekly support tickets.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd5d01ea-204a-4e15-a6e3-0644faf15d01",
+    "name": "DECISION_MAKER",
+    "fact": "Diego is the decision-maker for keeping the per-seat pricing model at twelve dollars for the product launch.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e53eb90e-29b9-4303-8daa-0b98f243a217",
+    "name": "ALTERNATIVE_MODEL",
+    "fact": "Henrik mentions that the usage-based pricing model was tried in the beta but caused confusion and was not adopted.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e0b5634-862c-442c-bd07-ad690f0e8f3f",
+    "name": "PROMISED_TO_BRING_DATA",
+    "fact": "Sven promised Diego to bring the actual numbers on who said what from the pilot data to the next meeting.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "565f493c-1fb1-4b73-a90b-c08fb675f965",
+    "name": "COMPLETION",
+    "fact": "Sven mentions that the pilot export has finished and he will go through it this week.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee478f1e-1f4b-4df5-a150-02fef22e7257",
+    "name": "CONCERNED_PARTY",
+    "fact": "Ingrid is concerned about the per-seat pricing model's impact on large teams and suggests monitoring churn.",
+    "episodes": [
+     "f235685b-f150-48a3-b9d6-55316ea1aa3e"
+    ],
+    "valid_at": "2025-09-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30bea5b9-8c18-4b1b-85d5-73f8adb4e572",
+    "name": "RELATIONSHIP",
+    "fact": "Diego confirms that the analytics add-on pricing is on top of the base plan.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cadad7f2-71ed-445b-ab68-2ae14cf90b1c",
+    "name": "ACTION",
+    "fact": "Diego asks Ingrid to send him the shorter version of the onboarding checklist for review.",
+    "episodes": [
+     "ae64f8a1-bbea-4e91-b673-ad5a7a75e501"
+    ],
+    "valid_at": "2025-09-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22d4ac28-74ab-469c-baeb-7d5c44c5fcf3",
+    "name": "INFORMED",
+    "fact": "Sven informed Diego that the pilot export revealed that three accounts had teams over forty people, and two of those accounts found the pricing steep.",
+    "episodes": [
+     "1a523940-2c94-4d5a-a68d-83bc69995a99"
+    ],
+    "valid_at": "2025-09-20T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

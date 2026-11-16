@@ -1,0 +1,1503 @@
+{
+ "set_id": "test_k10_02",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Hold more stock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Hold more stock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Hold more stock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use old supplier"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use old supplier"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Dock appointment windows",
+   "option": "Two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Fire door signage",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Fire door signage",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Supplier scorecard",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Supplier scorecard",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Supplier scorecard",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Supplier scorecard",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Supplier scorecard",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Offsite meeting",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Offsite meeting",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Offsite meeting",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Offsite meeting",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Offsite meeting",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    110
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "Use Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.8,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "South-east parcel carrier selection",
+   "option": "Move all south-east parcels to Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "South-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier selection",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier selection",
+   "option": "Eastline and Southgate"
+  }
+ ]
+}

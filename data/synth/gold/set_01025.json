@@ -1,0 +1,460 @@
+{
+ "set_id": "set_01025",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "supply chain and operations team",
+  "seed": 1025,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 106
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 70
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 118
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how the northern warehouse's packaging stock is replenished",
+ "options": {
+  "A": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+  "B": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse"
+ },
+ "cast": [
+  {
+   "name": "Tomas",
+   "slot": "manager",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Lena",
+   "slot": "proposer",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Priya",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Ingrid",
+   "slot": "supporter",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "detail-oriented, quotes numbers"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Lena proposes a weekly standing order with Calder Packaging for the northern warehouse's corrugated and void-fill stock.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    20,
+    21
+   ],
+   "gist": "Lena argues that Calder delivers within 48 hours, so the warehouse holds only five days of stock, freeing about 140 pallet positions at 11 pounds a position per month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    87
+   ],
+   "gist": "Tomas settles it: the northern warehouse is replenished by the weekly Calder standing order.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    10
+   ],
+   "gist": "Tomas reports that Calder is closing its northern depot in six weeks, so deliveries will come from the Midlands with a five-day lead time and a 450 pound surcharge per drop.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    16
+   ],
+   "gist": "Tomas reopens the replenishment question because the closure removes the 48-hour delivery that the five-day stock level relied on.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Ingrid",
+   "utterance_idxs": [
+    32,
+    36,
+    38
+   ],
+   "gist": "Ingrid argues for the monthly Fenmoor bulk order because Fenmoor quotes 8 percent less per tonne, and the three-week buffer needs about 90 pallet positions, roughly 1,000 pounds a month, against about 1,800 a month in Calder surcharges for four weekly drops.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    51
+   ],
+   "gist": "Tomas decides the warehouse moves to the monthly Fenmoor bulk order with a three-week buffer.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "the carrier dock appointment windows",
+  "option": "give carriers two-hour dock appointment windows instead of all-day windows",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Ingrid",
+    "utterance_idxs": [
+     60
+    ],
+    "gist": "Ingrid suggests giving carriers two-hour dock appointment windows instead of all-day windows.",
+    "version": null,
+    "option_key": null,
+    "option": "give carriers two-hour dock appointment windows instead of all-day windows",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Ingrid",
+    "utterance_idxs": [
+     66
+    ],
+    "gist": "Ingrid points out that trucks currently wait an average of 95 minutes on the yard and the dock sits idle for three hours most afternoons.",
+    "version": null,
+    "option_key": null,
+    "option": "give carriers two-hour dock appointment windows instead of all-day windows",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Tomas",
+    "utterance_idxs": [
+     75
+    ],
+    "gist": "Tomas approves two-hour dock appointment windows.",
+    "version": null,
+    "option_key": null,
+    "option": "give carriers two-hour dock appointment windows instead of all-day windows",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01025-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the northern warehouse's packaging stock is replenished?",
+   "answer_text": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse",
+   "answer_facts": {
+    "option": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the northern warehouse's packaging stock is replenished?",
+   "answer_text": "meeting 1: Tomas - Tomas settles it: the northern warehouse is replenished by the weekly Calder standing order.; meeting 2: Tomas - Tomas decides the warehouse moves to the monthly Fenmoor bulk order with a three-week buffer.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the northern warehouse's packaging stock is replenished as of the end of meeting 1?",
+   "answer_text": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01025-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the northern warehouse's packaging stock is replenished as of the end of meeting 3?",
+   "answer_text": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the northern warehouse's packaging stock is replenished change over time?",
+   "answer_text": "a weekly standing order with Calder Packaging for all corrugated and void-fill stock (from meeting 1) -> a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "a weekly standing order with Calder Packaging for all corrugated and void-fill stock",
+     "a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01025-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how the northern warehouse's packaging stock is replenished changed?",
+   "answer_text": "Before: a weekly standing order with Calder Packaging for all corrugated and void-fill stock, because Lena argues that Calder delivers within 48 hours, so the warehouse holds only five days of stock, freeing about 140 pallet positions at 11 pounds a position per month. Triggered by: Tomas (evidence): Tomas reports that Calder is closing its northern depot in six weeks, so deliveries will come from the Midlands with a five-day lead time and a 450 pound surcharge per drop. Tomas (reconsideration): Tomas reopens the replenishment question because the closure removes the 48-hour delivery that the five-day stock level relied on. After: a monthly bulk order from Fenmoor Paper with a three-week buffer stock held at the warehouse, because Ingrid argues for the monthly Fenmoor bulk order because Fenmoor quotes 8 percent less per tonne, and the three-week buffer needs about 90 pallet positions, roughly 1,000 pounds a month, against about 1,800 a month in Calder surcharges for four weekly drops.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the northern warehouse's packaging stock is replenished?",
+   "answer_text": "Lena",
+   "answer_facts": {
+    "speaker": "Lena"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01025-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the northern warehouse's packaging stock is replenished?",
+   "answer_text": "Tomas (evidence): Tomas reports that Calder is closing its northern depot in six weeks, so deliveries will come from the Midlands with a five-day lead time and a 450 pound surcharge per drop.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01025-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the northern warehouse's packaging stock is replenished?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the northern warehouse's packaging stock is replenished from proposal to final outcome.",
+   "answer_text": "meeting 1 - Lena [proposal]: Lena proposes a weekly standing order with Calder Packaging for the northern warehouse's corrugated and void-fill stock. | meeting 1 - Lena [rationale]: Lena argues that Calder delivers within 48 hours, so the warehouse holds only five days of stock, freeing about 140 pallet positions at 11 pounds a position per month. | meeting 1 - Tomas [resolution]: Tomas settles it: the northern warehouse is replenished by the weekly Calder standing order. | meeting 2 - Tomas [evidence]: Tomas reports that Calder is closing its northern depot in six weeks, so deliveries will come from the Midlands with a five-day lead time and a 450 pound surcharge per drop. | meeting 2 - Tomas [reconsideration]: Tomas reopens the replenishment question because the closure removes the 48-hour delivery that the five-day stock level relied on. | meeting 2 - Ingrid [rationale]: Ingrid argues for the monthly Fenmoor bulk order because Fenmoor quotes 8 percent less per tonne, and the three-week buffer needs about 90 pallet positions, roughly 1,000 pounds a month, against about 1,800 a month in Calder surcharges for four weekly drops. | meeting 2 - Tomas [resolution]: Tomas decides the warehouse moves to the monthly Fenmoor bulk order with a three-week buffer.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01025-q11",
+   "type": "distractor",
+   "question": "What was decided about the carrier dock appointment windows?",
+   "answer_text": "give carriers two-hour dock appointment windows instead of all-day windows",
+   "answer_facts": {
+    "option": "give carriers two-hour dock appointment windows instead of all-day windows"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

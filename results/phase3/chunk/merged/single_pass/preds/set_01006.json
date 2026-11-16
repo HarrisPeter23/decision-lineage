@@ -1,0 +1,627 @@
+{
+ "set_id": "set_01006",
+ "method": "single_pass",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Meera",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Meera",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Priya",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Meera",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8
+  }
+ ]
+}

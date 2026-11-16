@@ -1,0 +1,109 @@
+Meeting: mtg_0019
+Date: 2025-06-12
+Participants: Arjun, Sven, Henrik, Rohan, Hana
+
+Arjun: Okay, is everyone, um, Rohan you're on mute, I think-
+Rohan: Sorry, yeah. Got it. Morning all.
+Arjun: Morning. So before the main thing, the on-call handoff doc. Henrik, is that updated?
+Henrik: Half of it. Anders still owes me his section.
+Arjun: Right, I'll nudge Anders after this.
+Hana: Oh, Anders said something yesterday about the staging box being, I don't know, flaky since the-
+Arjun: Hana, hold that thought, we've got the preferences service to get through first.
+Hana: Sure, sure. Later.
+Arjun: So, the notification-preferences thing. We need to land the datastore this week or Davor's team can't start on the client.
+Rohan: Yeah, and I mean, the whole point is that every push and email checks it before sending, right?
+Arjun: Right. Every send.
+Henrik: So it's hot path.
+Rohan: Pretty hot, yeah. I don't have the exact, um, I'd have to look at what marketing is planning for Q3.
+Sven: I've got some numbers on that, actually. I pulled the push logs last week.
+Arjun: Okay, good. Go ahead, but, uh, start with what you'd, what you're thinking-
+Sven: Well, so, I looked at the, hang on, let me find the sheet.
+Hana: While he's finding it, can I ask who's, like, owning the schema? Because last time with the consent flags-
+Arjun: That was a different service, Hana.
+Hana: Yeah, no, I know, I just meant the same thing happened where nobody-
+Henrik: Schema's us. Same team.
+Hana: Okay. Fine. Good.
+Rohan: Is there a, like, existing pattern we copy? Something from the billing side?
+Arjun: Not really. Billing is all relational and it's, uh, a different shape.
+Sven: Okay, got it. So, um, what if we just used the managed key-value store for this one? The one we already have an account for.
+Henrik: For all of it?
+Sven: Well, yeah, the preferences, every user's settings in one record.
+Arjun: Why that over, um, I mean what's the argument?
+Sven: So the reads are basically all single-key, right? You get a user id, you pull their record, done. No joins, nothing.
+Sven: And at peak, during the campaign pushes, I'm seeing about nine thousand a second. That's from the logs, the worst hour in May.
+Rohan: Nine thousand, okay. That sounds like a lot but also, you know, not insane.
+Sven: Per second, yeah. And on this store you pay per request, so it works out around six hundred a month.
+Henrik: Versus?
+Sven: The relational cluster. To take that peak we'd need the primary plus two more replicas, and that's roughly twenty-one hundred.
+Hana: Wait, twenty-one hundred a month?
+Sven: Yeah. A month. Give or take, I rounded the instance sizes.
+Arjun: So it's, what, about a third, or-
+Sven: Little under that. Closer to, um, twenty-eight percent.
+Arjun: Okay.
+Rohan: And the six hundred, that holds even if the volume goes up?
+Sven: It scales with the requests, so no, if it doubles that doubles. But the baseline is tiny outside the campaigns.
+Rohan: Right, right. I just like knowing it's not a cliff.
+Henrik: Latency?
+Sven: Single digit milliseconds on the reads, at least on the test table I made. I didn't push it to the peak.
+Henrik: Fine.
+Hana: Um, one thing, the tenant tiers. Didn't we say enterprise tenants want their data separated?
+Sven: Yeah, that's why one table per tier. Free, standard, enterprise. So three tables to start.
+Hana: Oh okay, so it's not per tenant, it's per tier.
+Sven: Right. Per tier.
+Arjun: That's what, the last doc said too, I think?
+Hana: I thought it said per tenant, but maybe I misread. I did read it on my phone.
+Sven: It was per tier. I can fix the wording in the doc.
+Arjun: Hana, what was it you were going to say earlier, about staging?
+Hana: Oh. Right, so Anders mentioned that the staging box restarts every night around two. Somebody changed a job.
+Henrik: Probably Goran.
+Hana: Maybe? I didn't ask.
+Arjun: Okay, can you find out who? It's breaking the overnight tests.
+Hana: Yeah, I'll message them after.
+Rohan: Back to the thing for a sec. Is there anything we lose by not having, like, queries? Like if product wants to ask how many users turned off email?
+Sven: You can't ask that easily, no. You'd export or scan. But that's analytics, we'd send it to the warehouse anyway.
+Rohan: Okay, yeah, that's, I mean that's probably fine then.
+Henrik: Who needs that report?
+Rohan: Magnus asked once. Just once.
+Henrik: Then warehouse.
+Arjun: Okay. Any other, uh, any worries?
+Hana: Only the backups. Does it, like, back up on its own?
+Sven: Point in time recovery is a checkbox. I'd turn it on.
+Hana: Good. Okay.
+Rohan: I'm good with it, honestly. I can't think of anything big.
+Henrik: Same.
+Arjun: Yeah. Alright, Sven, open the infra ticket for it, and put the three tables and the peak numbers in the description so Rui can size the limits.
+Sven: Will do. Today?
+Arjun: Today's fine. Tag Rui so he sees it.
+Sven: Okay.
+Rohan: Should I tell Davor's team?
+Arjun: Yeah, Rohan, give Davor a heads up once the ticket exists. Not before.
+Rohan: Got it.
+Hana: Can I bring up the offsite thing now?
+Arjun: Quickly.
+Hana: So the venue wants a headcount by Friday and I only have, like, three yeses.
+Arjun: Three out of?
+Hana: Of, um, twelve? Thirteen with Tadeusz if he's coming.
+Arjun: He's coming. I think. I'll confirm.
+Henrik: I can't do the Thursday.
+Hana: It's Wednesday and Thursday, so is that-
+Henrik: Thursday's the problem.
+Hana: Okay, so a maybe. Noted.
+Rohan: I'll be there both days, I guess.
+Arjun: Put me down as a yes. Just the Wednesday, probably.
+Hana: Probably. Okay, that's, uh, I'll write it as a probably.
+Arjun: Okay. Sven, how's the pager rotation thing coming?
+Sven: I drafted a new schedule, it's on the wiki. Four-week cycle instead of three.
+Arjun: Why four?
+Sven: Because Goran's team joins in July and we'd have six people. Three doesn't divide.
+Arjun: Right, six. Yeah. Okay, I'll read it before Monday.
+Henrik: Is the handoff doc supposed to change with that?
+Arjun: Probably a bit. Let's see the schedule first.
+Henrik: Fine.
+Hana: Oh, one more, the status page thing, I keep forgetting-
+Arjun: Is it quick?
+Hana: It's, um, it's the subscribe link is broken. On the footer.
+Henrik: I'll look.
+Hana: Thanks. That's all.
+Arjun: Okay. I have a hard stop at the top of the hour, so, I'm going to jump. Thanks everyone.
+Rohan: Thanks.
+Sven: Bye.

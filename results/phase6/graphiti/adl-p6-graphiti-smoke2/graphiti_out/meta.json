@@ -1,0 +1,21 @@
+{
+ "config": {
+  "model": "qwen3:14b",
+  "embed_model": "all-minilm",
+  "embed_dim": 384,
+  "ctx": 16384,
+  "max_tokens": 4096,
+  "k": 12,
+  "graphiti_version": "0.31.2",
+  "neo4j_version": "5.26.17",
+  "time_budget_s": 7200
+ },
+ "digests": {
+  "all-minilm:latest": "1b226e2802dbb772b5fc32a58f103ca1804ef7501331012de126ab22f67475ef",
+  "qwen3:14b": "bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8"
+ },
+ "wall_s": 843,
+ "llm_calls": 83,
+ "llm_s": 1762.3652739524841,
+ "llm_errors": 0
+}

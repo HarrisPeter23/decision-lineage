@@ -1,0 +1,109 @@
+Camila: Okay, can everyone hear me? Diego, I think you're on mute.
+Diego: Sorry. Yeah, uh, better now.
+Camila: Good. So, um, the contractor thing. We've been circling it since, what, January?
+Zainab: February, but yeah-
+Camila: February. Right. Anyway, where are we on it?
+Kwame: On what, the access list or the devices?
+Camila: Devices. Access list is, I mean, Tomasz has that.
+Chloe: Oh, Tomasz sent a new version Friday? Or Thursday. He added a column for the agency name, which honestly I'd been asking for since-
+Zainab: Chloe, sorry, can we stay on devices?
+Chloe: Yeah, yeah, go ahead.
+Camila: So the big picture is contractors get into prod from, you know, whatever they've got at home. Which isn't great.
+Kwame: Define whatever. Some are on agency machines, no?
+Diego: A few, I think.
+Zainab: Okay so what if we just buy laptops. Ours, managed, for all thirty-eight who have prod data access. @B1
+Kwame: All thirty-eight? Not the staging-only people?
+Zainab: Staging-only isn't in the thirty-eight. That's the prod list.
+Kwame: Okay. Just checking.
+Camila: That's, like, a lot of laptops though.
+Zainab: It is, but the audit last quarter - remember? Twelve of them were reaching prod from their own machines. No disk encryption on any of them. @B2
+Chloe: Was that the one with the auditor's follow-up call?
+Zainab: That one, yes. Follow-up's still open, actually.
+Zainab: And a managed one runs about eleven-fifty each, so that's what it takes to close that. @B2
+Kwame: Devil's advocate. That's forty-something thousand, for people who leave in six months.
+Camila: Not all of them leave in six months.
+Kwame: Some do. Rania's two went in January.
+Diego: Those were, um, the data migration pair. Short contract.
+Kwame: Right, so that's exactly my point.
+Zainab: Laptops come back though. You wipe them, reissue-
+Kwame: If they come back.
+Zainab: That's what the return form is for.
+Chloe: We had that with the loaner batch two years ago, half of them took ages to come back. Someone's sister had one for like a year. Anyway.
+Camila: Chloe, focus.
+Chloe: Sorry. Anyway, the form helps.
+Kwame: Who ships them? Who images them?
+Diego: We do. It's maybe, uh, two hours each with the profile.
+Kwame: Two hours times thirty-eight. Sione's already underwater with onboarding.
+Camila: Sione's fine, we'll work it out. That's details.
+Zainab: Imaging can be batched, it's not two hours of hands-on.
+Diego: Yeah, most of it's waiting.
+Kwame: Okay, fair.
+Chloe: Can I ask something totally different? Did anyone see the thing about the train strike next week? I'm supposed to be in Rotterdam Tuesday for Daan's workshop and-
+Zainab: Chloe-
+Chloe: -and apparently the whole line's out, so I'm looking at buses, which is four hours, and I get motion sick, which I never told anyone.
+Camila: Is Daan's thing mandatory?
+Chloe: He says optional. He says everything is optional.
+Camila: Then dial in. Okay, back.
+Chloe: Yeah, sorry. Back.
+Kwame: So the laptops. What do the contractors say? Has anyone asked them?
+Camila: Alejandra said a couple were okay with it, I think. Not everyone.
+Kwame: A couple.
+Camila: It's a security thing. They don't get much of a vote, really.
+Zainab: Most already carry two machines anyway.
+Diego: Some do. The agency ones.
+Kwame: And the unmanaged ones, where do they stand after? We just cut them off?
+Camila: I mean, once they have a laptop it's moot, no?
+Zainab: Right, the laptop becomes the access path. That's-
+Kwame: I'm just saying there'll be a gap while they're being issued.
+Zainab: A few weeks, sure.
+Camila: Few weeks. Okay.
+Chloe: Budget though. Where does it come from, ours or each project's?
+Camila: Finance has a line for it. Probably. I'll check with them.
+Kwame: Probably.
+Camila: Well, there's a hardware line. I'll confirm.
+Zainab: Last year the hardware line had room, because we didn't replace the-
+Chloe: The conference-room screens, yes.
+Zainab: Right.
+Diego: The screens got pushed to Q3, I think.
+Camila: Okay, noted.
+Kwame: Can I push on the audit number once more? Twelve of thirty-eight is a third, give or take. The rest are already on something.
+Zainab: The rest are on something of ours or something we can see. The twelve we couldn't verify.
+Kwame: Couldn't or didn't?
+Zainab: Couldn't. Auditor flagged it, no way to check the disk.
+Kwame: Hm. Okay.
+Camila: Side note, did the ticket queue thing get fixed? Milan said escalations were landing in the wrong place.
+Diego: Yeah, I changed the routing Monday.
+Camila: Great. Thanks, Diego.
+Chloe: He did mention that, and also the headset thing. Milan's headset died again.
+Camila: Order him one. Small thing.
+Chloe: I'll put it on my list. Which is long.
+Zainab: Back to this. Where do we land? Because Tomasz wants an answer for the next contractor onboarding batch.
+Kwame: Tomasz wants a lot of things.
+Zainab: He wants this one by Friday.
+Camila: Um. Hang on, let me think about it.
+Kwame: One more worry. If we do this for the prod people, the staging folks will ask.
+Camila: They'll ask. That's a different conversation.
+Chloe: Yeah, that's a whole other list.
+Diego: Uh, one question. Do the laptops get the same image as ours?
+Zainab: Same base, trimmed. Without the internal wiki stuff.
+Diego: Okay. That works.
+Camila: Okay. So, big picture, our own managed laptops go to every contractor who's in prod. Zainab, you and Diego put the order together and run the numbers past finance. @B3
+Zainab: Yep, I'll draft the request tomorrow.
+Diego: Sure.
+Kwame: Fine by me. I'll stop playing devil's advocate.
+Chloe: You never stop.
+Kwame: True.
+Camila: Okay, last bit, Daan covers the on-call swap next week while Chloe's on a bus.
+Chloe: I'll be on a bus, dialed in.
+Camila: Right. Who has the notes?
+Diego: I can take them.
+Camila: Thanks. Zainab, send me the audit page for finance.
+Zainab: It's page four. Or five. I'll send the whole thing.
+Camila: Perfect. Anything else?
+Chloe: Is anyone going to Sione's thing Thursday?
+Kwame: What thing?
+Chloe: The, um, welcome lunch. Place on the corner.
+Kwame: I'll come if it's noon.
+Zainab: Noon works.
+Camila: I have a hard stop, I'm sorry. I have to jump to another call.
+Camila: Thanks, everyone.

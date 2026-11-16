@@ -1,0 +1,3886 @@
+{
+ "set_id": "ami_TS3012",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    192
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    193
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    194
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    197
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    198
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    199
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    202
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    202
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    207
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    209
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    210
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    213
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    214
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    224
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    233
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    236
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    238
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    241
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    247
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    248
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    251
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    252
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    254
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    256
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the user interface intuitive",
+   "option": "intuitive user interface"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    257
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the user interface intuitive",
+   "option": "intuitive user interface"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    258
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    260
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    262
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    263
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    266
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    270
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    271
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    271
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    274
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    276
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    277
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    279
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    290
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    292
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    293
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    294
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    295
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    296
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    297
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    300
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    301
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    302
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    303
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    309
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    310
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    311
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    342
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    342
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    344
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    347
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    349
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    352
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    353
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    354
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    355
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    356
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    368
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    368
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    406
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    407
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    416
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    424
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    424
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    425
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    427
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    431
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    432
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    436
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    437
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    438
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    439
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    440
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    440
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    441
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    442
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    443
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    444
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    445
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    446
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    447
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    448
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    448
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    449
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    449
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    450
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    451
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    452
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    453
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    454
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with flat remote"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    454
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    455
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a rechargeable remote control",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    457
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Separate signal station"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    458
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design of remote control base station",
+   "option": "Separate signal station"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    462
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Brilliant product"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    463
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Brilliant product"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    465
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Brilliant product"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    467
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of remote control base station",
+   "option": "Brilliant product"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    472
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Twenty five Euros sales price"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    479
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Twenty five Euros sales price"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    481
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Essentials of what people want"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    482
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Essentials of what people want"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    501
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Marketing report"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    502
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Marketing report"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    506
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Teletext button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    508
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Teletext button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    511
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Design ideas for next meeting"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    512
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Design ideas for next meeting"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    521
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Post designs on product share"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    522
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Post designs on product share"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    524
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Remote controls are always lost"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    525
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Remote controls are always lost"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    527
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Product design and features",
+   "option": "Fewer buttons for easier learning"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    528
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Fewer buttons for easier learning"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    531
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Cover all functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    532
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Cover all functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    534
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Adjust brightness"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    535
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Adjust brightness"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    538
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Product design and features",
+   "option": "Menu button for advanced functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    539
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Menu button for advanced functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    546
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Research on TV functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    547
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Research on TV functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    551
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Research on TV functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    552
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Target market and features",
+   "option": "Younger than forty"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    552
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Research on TV functions"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    553
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "Younger than forty"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    561
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "Younger than forty"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    565
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "Younger than forty"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    570
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "Younger than forty"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    573
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Target market and features",
+   "option": "Speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    574
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "Speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    578
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Target market and features",
+   "option": "LCD screen"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    579
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "LCD screen"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    580
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "LCD screen"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    581
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "LCD screen"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    587
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Financial information"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    588
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Financial information"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    595
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Design improvements"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    596
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Design improvements"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    597
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Different colours"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    598
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Different colours"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    603
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Futuristic design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    604
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Futuristic design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    605
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    606
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    614
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    615
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    619
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    620
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    631
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    632
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    634
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    635
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    643
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    644
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    647
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    648
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    651
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    652
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "LCD screen placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    655
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    656
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    657
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    658
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    661
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    662
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    664
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    665
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    666
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    667
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Button placement"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    671
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    672
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    674
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    675
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    680
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    681
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    701
+   ],
+   "speaker": "ID",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    702
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    703
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    704
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    705
+   ],
+   "speaker": "PM",
+   "confidence": 0.5,
+   "decision": "Product design and features",
+   "option": "Product name"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "whether to include speech recognition component",
+   "option": "include speech recognition component"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to include speech recognition component",
+   "option": "include speech recognition component"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include speech recognition component",
+   "option": "include speech recognition component"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use basic battery or other energy sources",
+   "option": "basic battery"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    117
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    118
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    122
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    126
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    127
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    128
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use plastic or other materials for remote control",
+   "option": "plastic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    132
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use rubber for remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    133
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use rubber for remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    145
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to use rubber for remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    146
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use rubber for remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    149
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use rubber for remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    155
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "whether to target younger or older people",
+   "option": "younger people"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    156
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to target younger or older people",
+   "option": "younger people"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    157
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to target younger or older people",
+   "option": "younger people"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    160
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    162
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    167
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    174
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    179
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    180
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use push-buttons or other interface options",
+   "option": "push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    181
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    184
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    185
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    187
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    188
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    189
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    190
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to use scroll-wheel or other interface options",
+   "option": "scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    197
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    208
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    209
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    211
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    215
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    216
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    217
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include L_C_D_ screen",
+   "option": "include L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    219
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    220
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    222
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    223
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    225
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    227
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    228
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    229
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    230
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    233
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    234
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    235
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    236
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    237
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    238
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    239
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    240
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    241
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    242
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    243
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    244
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    246
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    248
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    249
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    250
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    251
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    252
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    253
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    254
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    256
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    257
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    258
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    259
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    261
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    262
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "whether to include voice recognition",
+   "option": "include voice\u5370\u8c61"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    770
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    773
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    774
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    775
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    779
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    780
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    782
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    783
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    787
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    790
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "whether to include a scroll-wheel",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    795
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a scroll-wheel",
+   "option": "exclude scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    797
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a scroll-wheel",
+   "option": "exclude scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    808
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "whether to use yellow rubber",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    809
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use yellow rubber",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    810
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use yellow rubber",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    811
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to use yellow rubber",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    812
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to use yellow rubber",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    354,
+    355,
+    356
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "overall product score",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    383,
+    384,
+    385
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "overall product score",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    390,
+    391,
+    392
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "use of L_C_D_ display",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    398,
+    399,
+    400
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "overall product score",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    408,
+    409,
+    410
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "value of L_C_D_ display vs speech recognition",
+   "option": "L_C_D_ display"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    415,
+    416,
+    417
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "product evaluation",
+   "option": "positive"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    435,
+    436,
+    437
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "need for better communication",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    469,
+    470,
+    471
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "SMARTboard usability",
+   "option": "improve response time"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    480,
+    481,
+    482
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "need for real-time information sharing",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    525
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "need a product name"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    529
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "cook up a product name"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    532
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "fruit name"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    535
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    537
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    549
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "Real Reaction"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    551
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "something on the website"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    553
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "the reaction deluxe"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    554
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "future R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    556
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "a catchy slogan"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    558
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "Control your remote control"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    559
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "the real reactor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    561
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "Real react"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    562
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "future R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    564
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "The Real Reactor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    572
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "The Real Reactor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    575
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "the"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    576
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "one option"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    577
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "Real reactor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    581
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "banana down"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    583
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "take a banana"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    588
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "banana recei R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    589
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    590
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    592
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "R_ three C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    596
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "Real Reaction Remote Control"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    601
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    605
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "triple stripe"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    606
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    608
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    610
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    612
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "R_ s R_ three C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    614
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "R_ dash C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    616
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "R_ dash C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    619
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_ dash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    620
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "do both"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    622
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    628
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_C_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    630
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple R_s"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    631
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "triple remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    634
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "another option"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    637
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    638
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "scratch"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    639
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "banana"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    641
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "banana"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    642
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "product name",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    643
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "this one"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    644
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "product name",
+   "option": "deluxe"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    645
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    647
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    648
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    649
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    651
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    652
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "product name",
+   "option": "triple R_"
+  }
+ ]
+}

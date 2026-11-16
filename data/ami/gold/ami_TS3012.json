@@ -1,0 +1,370 @@
+{
+ "set_id": "ami_TS3012",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "n_meetings": 4,
+  "source": "ami",
+  "series": "TS3012",
+  "ami_meetings": [
+   "TS3012a",
+   "TS3012b",
+   "TS3012c",
+   "TS3012d"
+  ],
+  "drafted_by": "agent (claude-opus-5-5)",
+  "verification": "none",
+  "notes": "Summary of meeting b lists both 'The remote will only be used for TV' and 'The remote is going to be a universal one'; the transcript supports the change to universal at b[192-202]. B1 and B2 share one utterance because the brief is stated and justified in a single line."
+ },
+ "topic": "whether the remote controls only the TV or is a universal remote",
+ "options": {
+  "A": "a remote for the TV only",
+  "B": "a universal remote for several devices"
+ },
+ "cast": [
+  "PM",
+  "ME",
+  "UI",
+  "ID"
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "option_text": "a remote for the TV only",
+   "valid_from": 1,
+   "valid_to": 2
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "option_text": "a universal remote for several devices",
+   "valid_from": 2,
+   "valid_to": null
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "PM",
+   "utterance_idxs": [
+    129
+   ],
+   "gist": "The Project Manager says the project he was given is for a TV-only remote.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a remote for the TV only"
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "PM",
+   "utterance_idxs": [
+    129
+   ],
+   "gist": "The reason given is the project brief itself: it asks for a TV remote control.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a remote for the TV only"
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "UI",
+   "utterance_idxs": [
+    130
+   ],
+   "gist": "The User Interface Designer accepts that it is just a TV remote control.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a remote for the TV only"
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "ID",
+   "utterance_idxs": [
+    124
+   ],
+   "gist": "The Industrial Designer explains that a universal remote needs the processor to send different codes per device, which makes it much more complex.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a remote for the TV only"
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "ID",
+   "utterance_idxs": [
+    192
+   ],
+   "gist": "The Industrial Designer asks the team to decide now whether the remote is universal, since it determines all of his design work.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a remote for the TV only"
+  },
+  {
+   "link_id": "B6",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "PM",
+   "utterance_idxs": [
+    193
+   ],
+   "gist": "The Project Manager says he thinks it is universal.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a universal remote for several devices"
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "PM",
+   "utterance_idxs": [
+    194
+   ],
+   "gist": "The Project Manager argues for universal because the company makes separate remote controls to sell to many different people.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a universal remote for several devices"
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "PM",
+   "utterance_idxs": [
+    202
+   ],
+   "gist": "The Project Manager confirms that universal is good.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a universal remote for several devices"
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B5",
+    "B4"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "ami_TS3012-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about whether the remote controls only the TV or is a universal remote?",
+   "answer_text": "a universal remote for several devices",
+   "answer_facts": {
+    "option": "a universal remote for several devices"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about whether the remote controls only the TV or is a universal remote?",
+   "answer_text": "meeting 1: UI - The User Interface Designer accepts that it is just a TV remote control.; meeting 2: PM - The Project Manager confirms that universal is good.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a remote for the TV only",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "a universal remote for several devices",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q03",
+   "type": "as_of",
+   "question": "What was the decision about whether the remote controls only the TV or is a universal remote as of the end of meeting 3?",
+   "answer_text": "a universal remote for several devices",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "a universal remote for several devices"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q04",
+   "type": "as_of",
+   "question": "What was the decision about whether the remote controls only the TV or is a universal remote as of the end of meeting 4?",
+   "answer_text": "a universal remote for several devices",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "a universal remote for several devices"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about whether the remote controls only the TV or is a universal remote change over time?",
+   "answer_text": "a remote for the TV only (from meeting 1) -> a universal remote for several devices (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "a remote for the TV only",
+     "a universal remote for several devices"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about whether the remote controls only the TV or is a universal remote changed?",
+   "answer_text": "Before: a remote for the TV only, because The reason given is the project brief itself: it asks for a TV remote control. Triggered by: ID (evidence): The Industrial Designer explains that a universal remote needs the processor to send different codes per device, which makes it much more complex. ID (reconsideration): The Industrial Designer asks the team to decide now whether the remote is universal, since it determines all of his design work. After: a universal remote for several devices, because The Project Manager argues for universal because the company makes separate remote controls to sell to many different people.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about whether the remote controls only the TV or is a universal remote?",
+   "answer_text": "PM",
+   "answer_facts": {
+    "speaker": "PM"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about whether the remote controls only the TV or is a universal remote?",
+   "answer_text": "ID (evidence): The Industrial Designer explains that a universal remote needs the processor to send different codes per device, which makes it much more complex.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about whether the remote controls only the TV or is a universal remote?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_TS3012-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about whether the remote controls only the TV or is a universal remote from proposal to final outcome.",
+   "answer_text": "meeting 1 - PM [proposal]: The Project Manager says the project he was given is for a TV-only remote. | meeting 1 - PM [rationale]: The reason given is the project brief itself: it asks for a TV remote control. | meeting 1 - UI [resolution]: The User Interface Designer accepts that it is just a TV remote control. | meeting 2 - ID [evidence]: The Industrial Designer explains that a universal remote needs the processor to send different codes per device, which makes it much more complex. | meeting 2 - ID [reconsideration]: The Industrial Designer asks the team to decide now whether the remote is universal, since it determines all of his design work. | meeting 2 - PM [proposal]: The Project Manager says he thinks it is universal. | meeting 2 - PM [rationale]: The Project Manager argues for universal because the company makes separate remote controls to sell to many different people. | meeting 2 - PM [resolution]: The Project Manager confirms that universal is good.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

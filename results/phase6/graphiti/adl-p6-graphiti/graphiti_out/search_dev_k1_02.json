@@ -1,0 +1,1520 @@
+[
+ {
+  "qid": "set_01004-q01",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "df53c4f5-8a5d-4b08-8094-da162bc05978",
+    "name": "mentions",
+    "fact": "Omar mentions that Slack and similar companies did not ask for a card early on.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "cd4406cd-1d32-4655-90c1-4c2047bc1bfd",
+    "name": "mentions",
+    "fact": "Omar mentions that the blue in the new logo is too corporate.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9924f1d-ddfe-4a46-bf1a-f461c48a152f",
+    "name": "responds_to",
+    "fact": "Omar responds to Sofia's question about what stops someone from signing up forty times.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807597+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "04a769b9-8cd9-4575-9876-06a8a4d30e5f",
+    "name": "REPORTS",
+    "fact": "Marco reports that there are nineteen hundred trial signups.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112436+00:00"
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q02",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "41116079-4b12-463f-8539-0185c9bc3727",
+    "name": "reported",
+    "fact": "Marco reported that total paid conversions were eleven, versus about fifty-nine before the change.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "04a769b9-8cd9-4575-9876-06a8a4d30e5f",
+    "name": "REPORTS",
+    "fact": "Marco reports that there are nineteen hundred trial signups.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112436+00:00"
+   },
+   {
+    "uuid": "a9924f1d-ddfe-4a46-bf1a-f461c48a152f",
+    "name": "responds_to",
+    "fact": "Omar responds to Sofia's question about what stops someone from signing up forty times.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807597+00:00"
+   },
+   {
+    "uuid": "cd4406cd-1d32-4655-90c1-4c2047bc1bfd",
+    "name": "mentions",
+    "fact": "Omar mentions that the blue in the new logo is too corporate.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q03",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dae11814-42f4-499d-ba97-c57203d5de5d",
+    "name": "suggested",
+    "fact": "Nadia suggested watching the compute number weekly to know what was happening.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "6babfa2a-a3a1-4701-86a7-a75d8b357c2f",
+    "name": "EXPLAINED_LOST_VOLUME",
+    "fact": "Omar explained that the volume lost was the good volume, as big companies need approvals and procurement.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bbff1469-1336-4035-8147-494c7c6e657b",
+    "name": "REPORTS",
+    "fact": "Marco reports that about forty percent of the signups used throwaway or fake emails.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919106+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "d9ccd0f3-a749-4006-a8b4-fd1e7e1a3047",
+    "name": "SUGGESTED_WAITING",
+    "fact": "Nadia suggested waiting one more week to see the impact of the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "04a769b9-8cd9-4575-9876-06a8a4d30e5f",
+    "name": "REPORTS",
+    "fact": "Marco reports that there are nineteen hundred trial signups.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112436+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q04",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dae11814-42f4-499d-ba97-c57203d5de5d",
+    "name": "suggested",
+    "fact": "Nadia suggested watching the compute number weekly to know what was happening.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "6babfa2a-a3a1-4701-86a7-a75d8b357c2f",
+    "name": "EXPLAINED_LOST_VOLUME",
+    "fact": "Omar explained that the volume lost was the good volume, as big companies need approvals and procurement.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bbff1469-1336-4035-8147-494c7c6e657b",
+    "name": "REPORTS",
+    "fact": "Marco reports that about forty percent of the signups used throwaway or fake emails.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919106+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "d9ccd0f3-a749-4006-a8b4-fd1e7e1a3047",
+    "name": "SUGGESTED_WAITING",
+    "fact": "Nadia suggested waiting one more week to see the impact of the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eb5a42ab-4dc5-4112-894f-60137cac4f4a",
+    "name": "PROPOSES",
+    "fact": "Sofia proposes a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919025+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q05",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "3ccc8393-e14c-40e0-b34d-6d476c812317",
+    "name": "ASKED_FOR_NUMBERS",
+    "fact": "Diego asked Nadia for numbers two weeks after the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41116079-4b12-463f-8539-0185c9bc3727",
+    "name": "reported",
+    "fact": "Marco reported that total paid conversions were eleven, versus about fifty-nine before the change.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "df53c4f5-8a5d-4b08-8094-da162bc05978",
+    "name": "mentions",
+    "fact": "Omar mentions that Slack and similar companies did not ask for a card early on.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d9ccd0f3-a749-4006-a8b4-fd1e7e1a3047",
+    "name": "SUGGESTED_WAITING",
+    "fact": "Nadia suggested waiting one more week to see the impact of the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a398ec9-4703-431c-b1e8-8ae76b8006f1",
+    "name": "changed",
+    "fact": "Nadia agreed to change the signup page again.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q06",
+  "facts": [
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "010839e7-6a8c-45fd-8d29-d9d38b57d0cb",
+    "name": "noted",
+    "fact": "Sofia noted that the conversion rate was higher after the change, at eight point four percent.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ccc8393-e14c-40e0-b34d-6d476c812317",
+    "name": "ASKED_FOR_NUMBERS",
+    "fact": "Diego asked Nadia for numbers two weeks after the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "df53c4f5-8a5d-4b08-8094-da162bc05978",
+    "name": "mentions",
+    "fact": "Omar mentions that Slack and similar companies did not ask for a card early on.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41116079-4b12-463f-8539-0185c9bc3727",
+    "name": "reported",
+    "fact": "Marco reported that total paid conversions were eleven, versus about fifty-nine before the change.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a398ec9-4703-431c-b1e8-8ae76b8006f1",
+    "name": "changed",
+    "fact": "Nadia agreed to change the signup page again.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "d9ccd0f3-a749-4006-a8b4-fd1e7e1a3047",
+    "name": "SUGGESTED_WAITING",
+    "fact": "Nadia suggested waiting one more week to see the impact of the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q07",
+  "facts": [
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "010839e7-6a8c-45fd-8d29-d9d38b57d0cb",
+    "name": "noted",
+    "fact": "Sofia noted that the conversion rate was higher after the change, at eight point four percent.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ccc8393-e14c-40e0-b34d-6d476c812317",
+    "name": "ASKED_FOR_NUMBERS",
+    "fact": "Diego asked Nadia for numbers two weeks after the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "df53c4f5-8a5d-4b08-8094-da162bc05978",
+    "name": "mentions",
+    "fact": "Omar mentions that Slack and similar companies did not ask for a card early on.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41116079-4b12-463f-8539-0185c9bc3727",
+    "name": "reported",
+    "fact": "Marco reported that total paid conversions were eleven, versus about fifty-nine before the change.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a398ec9-4703-431c-b1e8-8ae76b8006f1",
+    "name": "changed",
+    "fact": "Nadia agreed to change the signup page again.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "d9ccd0f3-a749-4006-a8b4-fd1e7e1a3047",
+    "name": "SUGGESTED_WAITING",
+    "fact": "Nadia suggested waiting one more week to see the impact of the change.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q08",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "cd4406cd-1d32-4655-90c1-4c2047bc1bfd",
+    "name": "mentions",
+    "fact": "Omar mentions that the blue in the new logo is too corporate.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eb5a42ab-4dc5-4112-894f-60137cac4f4a",
+    "name": "PROPOSES",
+    "fact": "Sofia proposes a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919025+00:00"
+   },
+   {
+    "uuid": "d7547d54-e559-4023-a552-612914666c3f",
+    "name": "mentions",
+    "fact": "Sofia mentions that she likes the blue in the new logo.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "04a769b9-8cd9-4575-9876-06a8a4d30e5f",
+    "name": "REPORTS",
+    "fact": "Marco reports that there are nineteen hundred trial signups.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112436+00:00"
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q09",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "a9924f1d-ddfe-4a46-bf1a-f461c48a152f",
+    "name": "responds_to",
+    "fact": "Omar responds to Sofia's question about what stops someone from signing up forty times.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807597+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "dae11814-42f4-499d-ba97-c57203d5de5d",
+    "name": "suggested",
+    "fact": "Nadia suggested watching the compute number weekly to know what was happening.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd4406cd-1d32-4655-90c1-4c2047bc1bfd",
+    "name": "mentions",
+    "fact": "Omar mentions that the blue in the new logo is too corporate.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e272b501-37c6-4a92-a9ed-e2c3d5f1ecd8",
+    "name": "mentioned",
+    "fact": "Omar mentioned the new logo, but Diego interrupted him.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q10",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "d7547d54-e559-4023-a552-612914666c3f",
+    "name": "mentions",
+    "fact": "Sofia mentions that she likes the blue in the new logo.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "04a769b9-8cd9-4575-9876-06a8a4d30e5f",
+    "name": "REPORTS",
+    "fact": "Marco reports that there are nineteen hundred trial signups.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112436+00:00"
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "f2c218b6-d638-4878-b4e2-0d65d641dec9",
+    "name": "mentioned",
+    "fact": "Marco mentioned that the retention report was late and suggested talking about it next week.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd4406cd-1d32-4655-90c1-4c2047bc1bfd",
+    "name": "mentions",
+    "fact": "Omar mentions that the blue in the new logo is too corporate.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa4253b-2df9-41d3-ace5-eb40e4e828ec",
+    "name": "informed",
+    "fact": "Diego informed sales about the news today.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01004-q11",
+  "facts": [
+   {
+    "uuid": "c93bc5b7-d856-4f59-8e2a-6cd288fec657",
+    "name": "approves",
+    "fact": "Diego approves of the fourteen day free trial, no card, for launch.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807581+00:00"
+   },
+   {
+    "uuid": "bb489d91-afaa-4936-8ca1-58613edfe1b5",
+    "name": "mentions",
+    "fact": "Omar mentions that email verification will be implemented to prevent abuse of the free trial.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807671+00:00"
+   },
+   {
+    "uuid": "c8c5c364-20d7-456c-8d4e-defe94c71bb0",
+    "name": "reopened",
+    "fact": "Diego reopened the trial policy again after looking at the signup drop and the enterprise prospects that fell out at the card step.",
+    "episodes": [
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e52ad8e7-8d28-4776-9bcb-bb7e63745cf2",
+    "name": "proposes",
+    "fact": "Omar proposes a fourteen day free trial, no credit card needed.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7",
+     "e194510a-01cf-44f4-bf5b-521d88258ef0"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807573+00:00"
+   },
+   {
+    "uuid": "364f87a6-d315-4dfa-979f-86cb8fe4a7a2",
+    "name": "REQUESTED_CONVERSION_NUMBERS",
+    "fact": "Diego requested conversion numbers for the cohort with the card requirement from Marco.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2c0cd39-2b8e-45fc-b25d-527ca5b1c79d",
+    "name": "DECIDES_TO_IMPLEMENT",
+    "fact": "Diego decides to implement a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919032+00:00"
+   },
+   {
+    "uuid": "b5f40bf7-004f-4a62-9c6f-16fa24373c7a",
+    "name": "REPORTS",
+    "fact": "Marco reports that three point one percent of trial signups converted to paid.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-30T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:52:31.112419+00:00"
+   },
+   {
+    "uuid": "a9924f1d-ddfe-4a46-bf1a-f461c48a152f",
+    "name": "responds_to",
+    "fact": "Omar responds to Sofia's question about what stops someone from signing up forty times.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": "2025-01-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:40:40.807597+00:00"
+   },
+   {
+    "uuid": "bbff1469-1336-4035-8147-494c7c6e657b",
+    "name": "REPORTS",
+    "fact": "Marco reports that about forty percent of the signups used throwaway or fake emails.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919106+00:00"
+   },
+   {
+    "uuid": "eb5a42ab-4dc5-4112-894f-60137cac4f4a",
+    "name": "PROPOSES",
+    "fact": "Sofia proposes a seven-day trial with a credit card required up front.",
+    "episodes": [
+     "9a74bd81-2466-46ff-80d5-4057b89730d1"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:45:31.919025+00:00"
+   },
+   {
+    "uuid": "0c5f5d59-845e-483f-87ab-dfe01bb7bc54",
+    "name": "REPLIED_TO_ARGUMENT",
+    "fact": "Sofia replied to Omar's argument, stating that real teams would still use the seven-day trial.",
+    "episodes": [
+     "5d3d128f-31bc-4bab-8fa8-92e7bc306ce0"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d7547d54-e559-4023-a552-612914666c3f",
+    "name": "mentions",
+    "fact": "Sofia mentions that she likes the blue in the new logo.",
+    "episodes": [
+     "a3b05abb-df67-4f54-9360-b401eb358bf7"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

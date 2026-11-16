@@ -1,0 +1,7 @@
+{"SYSTEM_MODEL": {"tag": "qwen3:14b", "digest": "bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8", "reasoning_effort": "none", "num_ctx": 16384, "temperature": 0},
+ "CONTROL_WRITER": {"tag": "mistral-nemo:12b", "digest": "e7e06d107c6c86ed0cf45445f1790720b5092149c4c95f4d965844e9afbfdc89"},
+ "JUDGE_SECONDARY": {"tag": "granite4.2:8b", "digest": "f586c02fdecdf151b656207c339aa003997345774a41768bac1fd6d2fb85913b", "reasoning_effort": "none"},
+ "JUDGE_PRIMARY": {"provider": "gemini_free", "model": "gemini-3.5-flash-lite", "rpm": 15},
+ "NLI_MODEL": {"hf": "cross-encoder/nli-deberta-v3-small", "revision": "fa2804872c3b"},
+ "EMBED_MODEL": {"hf": "sentence-transformers/all-MiniLM-L6-v2", "revision": "1110a243fdf4"},
+ "runtime": {"ollama": "0.40.13", "kaggle_gpu": "2 x Tesla T4, 15360 MiB each"}}

@@ -1,0 +1,455 @@
+{
+ "set_id": "set_01033",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "mobile app team",
+  "seed": 1033,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 107
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 93
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 80
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how the new in-app checkout screen is built",
+ "options": {
+  "A": "build the checkout in the cross-platform framework already used for the settings screens",
+  "B": "build the checkout natively on each platform"
+ },
+ "cast": [
+  {
+   "name": "Priya",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Fatima",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Sven",
+   "slot": "challenger",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Wei",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "tends to interrupt others"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "build the checkout in the cross-platform framework already used for the settings screens"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Fatima proposes building the new checkout in the cross-platform framework the app already uses for settings.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    29,
+    30,
+    31
+   ],
+   "gist": "Fatima argues that one codebase is estimated at nine weeks against fifteen for two native builds, and two of the four engineers already know the framework.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    69
+   ],
+   "gist": "Priya agrees without naming the approach, by asking Wei to set up the epics and the sprint board.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    14,
+    15
+   ],
+   "gist": "Elif reports that in a prototype the cross-platform checkout dropped to 38 frames per second while scrolling on a four-year-old Android model that 22 percent of users still have, where the native prototype held 58.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    22,
+    23
+   ],
+   "gist": "Sven objects that checkout is the highest-revenue screen and a janky experience on 22 percent of devices will cost conversions.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Priya reopens the question of how the checkout is built.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    32,
+    34,
+    36
+   ],
+   "gist": "Fatima answers that the drops come from an unoptimised list of 40 saved addresses, that with a virtualised list the same phone reached 55 frames per second in a quick test, and that calling the platform payment sheets through native modules adds only three days to the nine weeks.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    77
+   ],
+   "gist": "Priya confirms the cross-platform checkout.",
+   "version": 1,
+   "option_key": "A",
+   "option": "build the checkout in the cross-platform framework already used for the settings screens",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "who writes the app store release notes",
+  "option": "product writes the release notes instead of engineering",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Wei",
+    "utterance_idxs": [
+     42
+    ],
+    "gist": "Wei suggests that product, not engineering, writes the app store release notes.",
+    "version": null,
+    "option_key": null,
+    "option": "product writes the release notes instead of engineering",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Wei",
+    "utterance_idxs": [
+     44,
+     45
+    ],
+    "gist": "Wei points out that the release notes were late for four of the last six releases and engineers' wording often misdescribes the feature.",
+    "version": null,
+    "option_key": null,
+    "option": "product writes the release notes instead of engineering",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Priya",
+    "utterance_idxs": [
+     53
+    ],
+    "gist": "Priya approves product writing the release notes.",
+    "version": null,
+    "option_key": null,
+    "option": "product writes the release notes instead of engineering",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01033-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the new in-app checkout screen is built?",
+   "answer_text": "build the checkout in the cross-platform framework already used for the settings screens",
+   "answer_facts": {
+    "option": "build the checkout in the cross-platform framework already used for the settings screens"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the new in-app checkout screen is built?",
+   "answer_text": "meeting 1: Priya - Priya agrees without naming the approach, by asking Wei to set up the epics and the sprint board.; meeting 3: Priya - Priya confirms the cross-platform checkout.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "build the checkout in the cross-platform framework already used for the settings screens",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "build the checkout in the cross-platform framework already used for the settings screens",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the new in-app checkout screen is built as of the end of meeting 1?",
+   "answer_text": "build the checkout in the cross-platform framework already used for the settings screens",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "build the checkout in the cross-platform framework already used for the settings screens"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01033-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the new in-app checkout screen is built as of the end of meeting 3?",
+   "answer_text": "build the checkout in the cross-platform framework already used for the settings screens",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "build the checkout in the cross-platform framework already used for the settings screens"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01033-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the new in-app checkout screen is built change over time?",
+   "answer_text": "It did not change: build the checkout in the cross-platform framework already used for the settings screens was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about how the new in-app checkout screen is built?",
+   "answer_text": "It did not change. The team kept build the checkout in the cross-platform framework already used for the settings screens. Concerns raised: Sven objects that checkout is the highest-revenue screen and a janky experience on 22 percent of devices will cost conversions. Elif reports that in a prototype the cross-platform checkout dropped to 38 frames per second while scrolling on a four-year-old Android model that 22 percent of users still have, where the native prototype held 58. Why it stayed: Fatima answers that the drops come from an unoptimised list of 40 saved addresses, that with a virtualised list the same phone reached 55 frames per second in a quick test, and that calling the platform payment sheets through native modules adds only three days to the nine weeks.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the new in-app checkout screen is built?",
+   "answer_text": "Fatima",
+   "answer_facts": {
+    "speaker": "Fatima"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01033-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the new in-app checkout screen is built?",
+   "answer_text": "Elif (evidence): Elif reports that in a prototype the cross-platform checkout dropped to 38 frames per second while scrolling on a four-year-old Android model that 22 percent of users still have, where the native prototype held 58. Sven (challenge): Sven objects that checkout is the highest-revenue screen and a janky experience on 22 percent of devices will cost conversions.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01033-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the new in-app checkout screen is built?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the new in-app checkout screen is built from proposal to final outcome.",
+   "answer_text": "meeting 1 - Fatima [proposal]: Fatima proposes building the new checkout in the cross-platform framework the app already uses for settings. | meeting 1 - Fatima [rationale]: Fatima argues that one codebase is estimated at nine weeks against fifteen for two native builds, and two of the four engineers already know the framework. | meeting 1 - Priya [resolution]: Priya agrees without naming the approach, by asking Wei to set up the epics and the sprint board. | meeting 2 - Elif [evidence]: Elif reports that in a prototype the cross-platform checkout dropped to 38 frames per second while scrolling on a four-year-old Android model that 22 percent of users still have, where the native prototype held 58. | meeting 2 - Sven [challenge]: Sven objects that checkout is the highest-revenue screen and a janky experience on 22 percent of devices will cost conversions. | meeting 3 - Priya [reconsideration]: Priya reopens the question of how the checkout is built. | meeting 3 - Fatima [rationale]: Fatima answers that the drops come from an unoptimised list of 40 saved addresses, that with a virtualised list the same phone reached 55 frames per second in a quick test, and that calling the platform payment sheets through native modules adds only three days to the nine weeks. | meeting 3 - Priya [resolution]: Priya confirms the cross-platform checkout.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01033-q11",
+   "type": "distractor",
+   "question": "What was decided about who writes the app store release notes?",
+   "answer_text": "product writes the release notes instead of engineering",
+   "answer_facts": {
+    "option": "product writes the release notes instead of engineering"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

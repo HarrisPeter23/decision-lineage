@@ -1,0 +1,1217 @@
+{
+ "set_id": "test_k1_11",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "whether to retrain the baseline model",
+   "option": "retrain the baseline"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Elif",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.95,
+   "decision": "whether to use the boosted model",
+   "option": "boosted model"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "when to hold data-quality review",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "whether to retrain the baseline model",
+   "option": "retrain the baseline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "whether to retrain the baseline model",
+   "option": "retrain the baseline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "whether to retrain the baseline model",
+   "option": "retrain the baseline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.75,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "which model to ship",
+   "option": "gradient-boosted model"
+  }
+ ]
+}

@@ -1,0 +1,460 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Halden Foods ticket",
+   "attribute": "resolution",
+   "states": [
+    {
+     "value": "Yuki will run a clean test on their dataset tonight, and Meera will send a note to their account manager by noon tomorrow",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-07",
+     "evidence": [
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "SOC 2 questionnaire",
+   "attribute": "distribution of questions",
+   "states": [
+    {
+     "value": "Nine questions are security's, five are ours",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-07",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Insights entitlement switch",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "staging by the 20th",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 4,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-07",
+     "evidence": [
+      87,
+      88
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-08-21",
+       "evidence": [
+        14,
+        15
+       ]
+      }
+     ]
+    },
+    {
+     "value": "flipped back by tomorrow",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Pricing page",
+   "attribute": "copy deadline",
+   "states": [
+    {
+     "value": "final copy from Meera next Tuesday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-07",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Launch email story",
+   "attribute": "draft deadline",
+   "states": [
+    {
+     "value": "first draft by the 15th",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-07",
+     "evidence": [
+      97,
+      98
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Insights",
+   "attribute": "trial period",
+   "states": [
+    {
+     "value": "30 days",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-14",
+     "evidence": [
+      76
+     ]
+    },
+    {
+     "value": "14 days",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      63
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Insights",
+   "attribute": "signup requirement",
+   "states": [
+    {
+     "value": "card required",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-14",
+     "evidence": [
+      76
+     ]
+    },
+    {
+     "value": "no card required",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 4,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      63
+     ]
+    },
+    {
+     "value": "goes away",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Release notes",
+   "attribute": "frequency",
+   "states": [
+    {
+     "value": "monthly",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-14",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Insights",
+   "attribute": "release notes email frequency",
+   "states": [
+    {
+     "value": "monthly",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-14",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Release notes",
+   "attribute": "footer status",
+   "states": [
+    {
+     "value": "done",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 4,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      11,
+      12
+     ]
+    },
+    {
+     "value": "Tuesday, 2nd",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Page copy",
+   "attribute": "review status",
+   "states": [
+    {
+     "value": "reviewed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      18,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Page copy",
+   "attribute": "typo fixes",
+   "states": [
+    {
+     "value": "two typos fixed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Terms document",
+   "attribute": "delivery status",
+   "states": [
+    {
+     "value": "delivered to Priya",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Per-account figure",
+   "attribute": "delivery status",
+   "states": [
+    {
+     "value": "with Dmitri",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Tomas's sheet",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "carried a long way",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Launch date",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "9th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      84,
+      85,
+      86
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Next meeting",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "28th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-21",
+     "evidence": [
+      107,
+      116
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Cost per trial account",
+   "attribute": "current cost",
+   "states": [
+    {
+     "value": "0.30 dollars",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-28",
+     "evidence": [
+      45,
+      46
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S9",
+   0,
+   1,
+   4
+  ],
+  [
+   "S5",
+   0,
+   1,
+   4
+  ],
+  [
+   "S6",
+   0,
+   1,
+   4
+  ],
+  [
+   "S2",
+   0,
+   1,
+   4
+  ],
+  [
+   "S6",
+   1,
+   2,
+   4
+  ]
+ ]
+}

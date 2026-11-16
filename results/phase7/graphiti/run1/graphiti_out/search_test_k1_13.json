@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01022-q01",
+  "facts": [
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q02",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q03",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q04",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q05",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5cbbdf2-777d-477a-8778-0c8eb604a0d2",
+    "name": "mentions_retrospective",
+    "fact": "Mateo mentions the need to get the retrospective on the calendar for the spring campaign.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q06",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5cbbdf2-777d-477a-8778-0c8eb604a0d2",
+    "name": "mentions_retrospective",
+    "fact": "Mateo mentions the need to get the retrospective on the calendar for the spring campaign.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q07",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q08",
+  "facts": [
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5cbbdf2-777d-477a-8778-0c8eb604a0d2",
+    "name": "mentions_retrospective",
+    "fact": "Mateo mentions the need to get the retrospective on the calendar for the spring campaign.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d45ed401-6a69-4028-ba97-95052ebb747b",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's budget depends on the Denver thing being accounted for in the budget.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q09",
+  "facts": [
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae14c0-c9ba-4655-9e18-cfec6169a123",
+    "name": "questions_budget_details",
+    "fact": "Mateo questions Greta about the budget details, noting that the ninety-five for events included the booth at the Denver thing.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5cbbdf2-777d-477a-8778-0c8eb604a0d2",
+    "name": "mentions_retrospective",
+    "fact": "Mateo mentions the need to get the retrospective on the calendar for the spring campaign.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q10",
+  "facts": [
+   {
+    "uuid": "46eeb541-bb9d-42b6-aef2-b7cdc042cd4f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Paolo's decisions regarding the launch date.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9a64fa3-093a-4782-bfa9-4a294ca58c89",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Clara's team handling the paperwork for payments.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a468b027-2a0e-4111-9fce-58fd11351cb4",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Greta about the third quarter budget changes and the media plan.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dbf32cd0-afc8-4141-a858-19f8750802e8",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Henrik about the retro invite and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64007ef0-7e68-48a7-83b4-6c3993842cc6",
+    "name": "provides_budget_details",
+    "fact": "Greta provides budget details, stating that last quarter search came in at about sixty-two a lead and the events were ninety-five.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f481ef0d-1fe1-4a0f-b5c9-0a161dcd970f",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The third quarter marketing budget depends on Emeka providing partner names for the webinars.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "449b5caa-a207-4a08-ae12-75a1b1ad52c6",
+    "name": "questions_budget_allocation",
+    "fact": "Amara questions Greta's proposal, suggesting that the budget allocation feels narrow and lacks brand focus.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1dafdb7e-863f-4308-9dab-85a07d3031e7",
+    "name": "questions_budget_details",
+    "fact": "Amara questions Greta about the budget details, noting that if the algorithm changes, they might lose a month, not the quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "36bc7d4b-7b60-488d-962c-676e2b372c22",
+    "name": "proposes_budget_allocation",
+    "fact": "Greta proposes to allocate all of the hundred twenty into search ads and social ads for the third quarter.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5cbbdf2-777d-477a-8778-0c8eb604a0d2",
+    "name": "mentions_retrospective",
+    "fact": "Mateo mentions the need to get the retrospective on the calendar for the spring campaign.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a548ea9c-c506-4754-a379-372fb770dd1a",
+    "name": "assigns_retrospective",
+    "fact": "Lakshmi assigns the retrospective on the spring campaign to be scheduled for next week, possibly on Wednesday.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01022-q11",
+  "facts": [
+   {
+    "uuid": "50c29967-05f4-4beb-8786-de1117225968",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "The newsletter depends on Rosa's return to handle the sender name change.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": "2025-06-11T00:00:00+00:00",
+    "expired_at": "2026-11-08T03:06:55.453598+00:00"
+   },
+   {
+    "uuid": "8edabb00-afa8-4f16-8dcd-a30057e0ba53",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Amara's newsletter sender name change depends on Rosa's return to handle the sender name change.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": "2025-06-11T00:00:00+00:00",
+    "expired_at": "2026-11-08T03:06:55.453595+00:00"
+   },
+   {
+    "uuid": "ce6716de-bf74-4100-827f-ba4c378dd0f8",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Amara's newsletter sender name change depends on Henrik providing the newsletter template.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eff5cace-f07e-4a69-90d5-ff771267f9b2",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Amara's newsletter sender name change depends on Lakshmi approving it.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": "2025-06-11T00:00:00+00:00",
+    "expired_at": "2026-11-08T03:06:55.453609+00:00"
+   },
+   {
+    "uuid": "a5fbf716-2bd5-4897-8c23-1fb8be9301b4",
+    "name": "confirmed",
+    "fact": "Amara confirmed that the newsletter was sent from the content lead's name in the last issue.",
+    "episodes": [
+     "68fcacb3-804c-42b2-b3f3-953390a75e18"
+    ],
+    "valid_at": "2025-06-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4a4d7204-d3ee-42ba-bf54-3c0d08f5e9e4",
+    "name": "HAS_DEPENDENCY_ON",
+    "fact": "Lakshmi's newsletter depends on the newsletter being sent from the content lead's name.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": "2025-06-11T00:00:00+00:00",
+    "expired_at": "2026-11-08T03:06:55.453613+00:00"
+   },
+   {
+    "uuid": "b67ee28b-9975-404c-a94e-9317c17402dd",
+    "name": "instructed_to",
+    "fact": "Lakshmi instructed Amara to send the newsletter from the content lead's name.",
+    "episodes": [
+     "68fcacb3-804c-42b2-b3f3-953390a75e18"
+    ],
+    "valid_at": "2025-06-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d66068a-b74c-4e9b-89ee-b756fcbf1faf",
+    "name": "provides_newsletter_template",
+    "fact": "Henrik provides Amara with a link to a newsletter template.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dd7de31a-200b-4773-acc8-16d630c0d940",
+    "name": "CONFERS_WITH",
+    "fact": "Lakshmi conferred with Amara about the newsletter and the third quarter budget changes.",
+    "episodes": [
+     "d8e77643-b9a0-4f90-bc0f-d4a8ce3e6b40"
+    ],
+    "valid_at": "2025-06-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d24e81a-2f25-4a0c-988e-6cdca82fa7a5",
+    "name": "assigns_newsletter_coverage",
+    "fact": "Lakshmi assigns Amara to cover the newsletter while Rosa is away, noting that it has been scheduled since the schedule she sent last week.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6707cd87-0f20-4515-98a8-3f8b1a355262",
+    "name": "mentions_newsletter_coverage",
+    "fact": "Henrik mentions that Amara is covering the newsletter while Rosa is away.",
+    "episodes": [
+     "ea37fca7-9fc9-4a34-b88a-246bff21b935"
+    ],
+    "valid_at": "2025-05-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47699401-1ace-4e15-9fb2-7f705011248e",
+    "name": "received_company_name_from",
+    "fact": "Amara received a company name from Emeka for a potential partner.",
+    "episodes": [
+     "68fcacb3-804c-42b2-b3f3-953390a75e18"
+    ],
+    "valid_at": "2025-06-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

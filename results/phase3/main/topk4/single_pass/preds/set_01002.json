@@ -1,0 +1,114 @@
+{
+ "set_id": "set_01002",
+ "method": "single_pass+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9
+  }
+ ]
+}

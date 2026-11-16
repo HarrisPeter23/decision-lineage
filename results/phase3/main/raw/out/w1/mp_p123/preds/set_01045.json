@@ -1,0 +1,706 @@
+{
+ "set_id": "set_01045",
+ "method": "multipass:1,2,3:verify=False",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, can you two sort that out offline?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Lena",
+   "quote": "Camila, the store listing screenshots, did those come back from design?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Lena",
+   "quote": "Monday's fine, as long as it's before the submission.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lena",
+   "quote": "Okay. So the other thing, and this one's got a clock on it, is the push thing. The contract with the provider runs out at the end of the month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Pavel",
+   "quote": "Just renew the push provider contract for a year at nine hundred a month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Pavel",
+   "quote": "It already does the segmentation for us, all the audience groups marketing set up.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Pavel",
+   "quote": "That's four point two million pushes a month right now.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sana",
+   "quote": "Six weeks is generous, I'd say, because the retry logic alone-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Lena",
+   "quote": "Right. So nobody's super excited about building it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Lena",
+   "quote": "Anyone have a reason not to do it?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sven",
+   "quote": "Uh, honestly, no. The only thing I'd say is the annual part, if we change our minds mid-year are we stuck?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Pavel",
+   "quote": "Yes. That's the trade.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, so we're renewing the push provider for the year at nine hundred a month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Pavel",
+   "quote": "I'll send Sanne the yes today for the push provider contract renewal.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "quote": "Thanks. And copy me so I can forward to Davor for the push provider contract renewal.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "quote": "Will do for the push provider contract renewal.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Camila",
+   "quote": "I got two quotes. One is a hotel conference room, the other is a co-working space for the team offsite in January.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Lena",
+   "quote": "Okay. Can you send me both quotes for the team offsite venue options?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "quote": "Twentieth, I think. I'll confirm the date for the team offsite.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Camila",
+   "quote": "Okay. I'll add him to the headcount for the venue for the team offsite.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "quote": "So I want to take the whole push question back off the shelf before anything else goes out to them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Pavel",
+   "quote": "Fine by me.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sven",
+   "quote": "Sure.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sana",
+   "quote": "What's the other option, though? Building it ourselves?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Pavel",
+   "quote": "You did say more.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Sana",
+   "quote": "I still think more. The retry stuff, the-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, okay. Camila, so against twenty-seven hundred, what does that look like?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Camila",
+   "quote": "We'd save two thousand something a month once it's live.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Pavel",
+   "quote": "Five months. Not bad.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Pavel",
+   "quote": "So what's the catch.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Camila",
+   "quote": "The upkeep, mostly. And it's four weeks those two aren't doing the other thing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Lena",
+   "quote": "I'd say about the four. I'll talk to Thandi.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "quote": "She'll want a date.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "quote": "She'll get a date.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Sana",
+   "quote": "Does the contract let us out of anything, now that their pricing changed?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "quote": "That's what I want to find out. I'll ask Sanne to send over the actual terms.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "quote": "Sanne's going to be thrilled.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Lena",
+   "quote": "She emails us enough.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sven",
+   "quote": "She emailed me again this morning. About a laptop.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, so, on the push piece. I've heard enough. We're building our own sending service.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Camila",
+   "quote": "Okay. Yes. I can do that.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Camila",
+   "quote": "Wednesday's good.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Pavel",
+   "quote": "Want me to loop Sana in?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Sana",
+   "quote": "Please. I've got opinions on the retry thing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Pavel",
+   "quote": "We know.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Lena",
+   "quote": "I think so. Anything blocking?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Sana",
+   "quote": "The flaky settings test is fixed. Sven, it was the timeout.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Sven",
+   "quote": "Two seconds. I told you.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Sana",
+   "quote": "You did tell you- me. You did tell me.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Sven",
+   "quote": "Hardcoded. In a helper. Somebody should be shamed.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Pavel",
+   "quote": "Somebody was you.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Sven",
+   "quote": "It was before I was here. Possibly.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Lena",
+   "quote": "Offsite, quickly. Camila, did the quotes come through?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Camila",
+   "quote": "I sent both Friday. The co-working one's a lot cheaper.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Lena",
+   "quote": "I saw. I'll confirm the date this week. Sven, hold off on flights.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Sven",
+   "quote": "Holding.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Lena",
+   "quote": "So that's a cleanup job. Is that in the skeleton?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Lena",
+   "quote": "Mm. Okay. Put a rough number next to it when you can.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Lena",
+   "quote": "Then fix it, as long as it doesn't move the date.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "quote": "Good. Now, the offsite. I confirmed the date, it's the twentieth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "quote": "Yes. So you can book now.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "quote": "Camila, the co-working space, did they confirm?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Lena",
+   "quote": "And food. Do we need to think about food?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Pavel",
+   "quote": "Can we go back to the push thing for a second?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Camila",
+   "quote": "Honestly, someone to say who looks after it once it's running. I keep leaving it blank in the doc.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Camila",
+   "quote": "It can. It just looks odd.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Lena",
+   "quote": "I know. I'll come back to it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Pavel",
+   "quote": "I need a staging setup for the queue. Who do I ask?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Sana",
+   "quote": "And a test device account for each platform, so we're not sending to real people.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Camila",
+   "quote": "Only that I'd like a second pair of eyes on the numbers before it goes further. The cost side especially.",
+   "confidence": 0.9
+  }
+ ]
+}

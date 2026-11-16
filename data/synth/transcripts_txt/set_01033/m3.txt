@@ -1,0 +1,94 @@
+Meeting: m3
+Date: 2025-08-10
+Participants: Priya, Fatima, Sven, Wei, Elif
+
+Priya: Okay, um, I think maybe we can start. Who's still missing, is it Elif?
+Elif: Here, here. Sorry, the call before ran over.
+Priya: No, no, that's fine. Wei, Sven, Fatima, you're all on?
+Wei: Yep.
+Sven: Here.
+Fatima: Here.
+Priya: Great. So, um, the demo on Thursday went okay, I thought?
+Sven: Address step looked fine. Camille had a question about the empty state.
+Priya: Right, the, uh, the empty state. Is that written down somewhere?
+Sven: It's a ticket now. Low priority.
+Wei: Fine.
+Priya: Okay. Um. Before anything else, did the laptop forms all go in?
+Elif: I did mine. Under protest.
+Priya: Thank you, Elif. Sven?
+Sven: Sent it Friday. Purchase date was March 2022, it turned out, not spring. The sticker was right.
+Priya: Oh good, okay. So procurement should be, yeah.
+Wei: Anyone know if the new ones have the bigger screen option?
+Priya: I don't, I'd have to ask. Not today, though.
+Elif: I heard Leila's team got theirs already. The ones from the first batch, so-
+Priya: Oh, really? Hm. I'll ask Leila then.
+Wei: Ok.
+Priya: Alright. So, the checkout thing. Um. I've been, honestly, I've been going back and forth on it since last week. Elif's numbers from the old Android have been sitting with me.
+Elif: They're pretty ugly.
+Priya: They are, I mean, thirty-eight frames, and a fifth of the users. So I'd like us to, to look at it again properly, the way we're building it. Is that okay with everyone?
+Sven: Yes, please. I'd rather do it now than in week five.
+Wei: Sure.
+Elif: Good. I've been wanting to say, I still think native is the safe-
+Priya: Let's, um, let's hear the sheet first. Fatima, you redid the estimate, didn't you?
+Fatima: Yeah. Um. I did, Wednesday night.
+Priya: And there was something you wanted to say about the drops.
+Fatima: Mm, yes. So I went back into Elif's build and I sort of poked around where the stutter was coming from.
+Sven: Which screen was it in?
+Fatima: The saved addresses. Elif's test account has about forty in there, and the list just renders every row at once, nothing optimised.
+Elif: Right, I did use my big account. It's the one with all the, yeah.
+Fatima: So it's not really the framework, I think. I swapped in a virtualised list, quick try, and on the same old phone it got up to fifty-five.
+Wei: Fifty-five where it was thirty-eight?
+Fatima: Yeah, same handset, same forty. And the phone makers' payment sheets, you can still call those from the shared code through native modules. It costs about three extra days on the nine weeks.
+Priya: Okay. Oh. That's, um, that's interesting.
+Sven: That's close to the native number you had. Fifty-eight.
+Elif: Close, yeah. But that's one list on one phone.
+Fatima: Sure. I only had the afternoon.
+Priya: And the, the estimate? With the perf week?
+Fatima: Kept the review week in. I didn't want to cut it.
+Sven: Three days. Okay, that's way less than the review week I thought we'd lose.
+Fatima: I kept the review week. I didn't want to cut it.
+Sven: Good.
+Priya: So nine weeks and three days, roughly.
+Elif: Ten weeks if you're being, you know, honest about the upgrade.
+Sven: The framework upgrade is separate, it was already in the risks.
+Elif: I know, I'm just saying-
+Wei: Native is still fifteen.
+Elif: Fifteen, sure, but I'm not arguing that now. I'm asking about the card field.
+Sven: Ines said the wrapper works on both. Tested on our framework version.
+Elif: Right, you told us. Okay.
+Priya: Um, can I ask, how long ago was the old phone even bought? Sorry, that's a tangent.
+Elif: Caio said it's from about four years ago. Someone left it in a drawer.
+Priya: Right. And is that the only one? The old phone?
+Elif: I found a second. A different brand, and it was fine, honestly. Around fifty on the existing version.
+Sven: So the first one is the outlier.
+Elif: It's the small screen, yeah. I wouldn't call it an outlier at twenty-two percent though.
+Sven: No, fair.
+Wei: Should we put the virtualised list in the settings screen too?
+Fatima: Probably. Settings has the same long list, actually.
+Sven: That explains last time. The stutter Wei mentioned in the first meeting.
+Wei: Told you.
+Sven: You did.
+Priya: Okay. Um. Does anybody still have a concern about this that we haven't, uh, said out loud?
+Elif: Animations. The confirmation slide. I think it'll feel a bit flat.
+Sven: I can do a version of it. We did something like it for the toggle in settings.
+Elif: Okay. If it's not flat, I'm fine.
+Priya: Wei?
+Wei: No.
+Priya: Fatima?
+Fatima: No, I'm okay. I just want to make sure the list gets properly tuned before we call it done.
+Sven: Add it to the acceptance criteria. A frame floor on the old phone.
+Fatima: Fifty, maybe?
+Sven: Fifty is good.
+Priya: Okay. So, um, after hearing all that, the drops are the list and not the framework, and the extra cost is small. I'm comfortable, we're building the checkout in the cross-platform framework, same as settings.
+Elif: Okay. Fine. I'd still test it a lot.
+Priya: Yes, please, that's, that would be great, Elif.
+Wei: Board is the same, then.
+Priya: Yes, nothing to change. Wei, thank you.
+Sven: I'll add the frame floor to the criteria tonight.
+Fatima: And I'll put the list fix in as its own story.
+Priya: Good. Um, oh, one more. Sven, you're away on the twelfth, did Wei swap the on-call?
+Wei: Done. I'm covering.
+Sven: Thanks, Wei. I owe you one.
+Priya: Okay, and the retro, is that Thursday still?
+Elif: Thursday at three, I think, before my four o'clock.
+Priya: Yes, three. Okay. Um, I have to jump, I have a one-to-one. Thanks all.

@@ -1,0 +1,453 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Mid-market territories",
+   "attribute": "division method",
+   "states": [
+    {
+     "value": "six postcode patches, one rep per patch",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-01",
+     "evidence": [
+      5,
+      10,
+      11,
+      12,
+      13,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Mid-market territories",
+   "attribute": "effective date",
+   "states": [
+    {
+     "value": "first of next month",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-01",
+     "evidence": [
+      87,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Expense reports",
+   "attribute": "due date",
+   "states": [
+    {
+     "value": "this Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-01",
+     "evidence": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Expense reports",
+   "attribute": "receipt format",
+   "states": [
+    {
+     "value": "photos",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-01",
+     "evidence": [
+      68,
+      69,
+      70,
+      71,
+      72
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-10-08",
+       "evidence": [
+        10
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Next meeting",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Monday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-01",
+     "evidence": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Quota setup",
+   "attribute": "Change",
+   "states": [
+    {
+     "value": "Starting next quarter, numbers get reported per sector - healthcare, financial services, public sector - and the regional ones are being dropped",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Account assignment",
+   "attribute": "Method",
+   "states": [
+    {
+     "value": "Mid-market goes to named-account assignment across the three verticals, healthcare, financial services and public sector, two reps each",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Account list",
+   "attribute": "Rebuild",
+   "states": [
+    {
+     "value": "Diego will rebuild the account list",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      58
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Ingrid",
+   "attribute": "Sending list",
+   "states": [
+    {
+     "value": "Today",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      62
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Territory field",
+   "attribute": "Dropdown",
+   "states": [
+    {
+     "value": "Marisol added the dropdown on Thursday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Email template",
+   "attribute": "Action",
+   "states": [
+    {
+     "value": "Rewrite it for sectors",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-08",
+     "evidence": [
+      98
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Account list sorting",
+   "attribute": "method",
+   "states": [
+    {
+     "value": "billing revenue for sector allocation",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Account list sorting",
+   "attribute": "registered office vs billing address",
+   "states": [
+    {
+     "value": "billing address takes precedence",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Account list sorting",
+   "attribute": "discrepancy handling",
+   "states": [
+    {
+     "value": "manual correction in spreadsheet",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      23
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Dropdown list",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "live before anyone moves into it",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Dropdown list",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Diego",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Account handover",
+   "attribute": "transition period",
+   "states": [
+    {
+     "value": "for a transition period",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Sanne",
+   "attribute": "plan",
+   "states": [
+    {
+     "value": "pairs with someone in Healthcare",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Account list",
+   "attribute": "finalization",
+   "states": [
+    {
+     "value": "reps get a day to check accounts",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Open deals",
+   "attribute": "handling",
+   "states": [
+    {
+     "value": "stay with original rep until close",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Offsite",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "22nd",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      62
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Account list",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "mid-November",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-15",
+     "evidence": [
+      33
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": []
+}

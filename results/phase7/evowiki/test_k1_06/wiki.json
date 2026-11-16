@@ -1,0 +1,638 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "notification-preferences datastore",
+   "attribute": "storage solution",
+   "states": [
+    {
+     "value": "managed key-value store",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      23,
+      27,
+      30,
+      32,
+      36,
+      39
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "notification-preferences datastore",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "six hundred a month",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      30,
+      32,
+      36,
+      39,
+      69,
+      70
+     ]
+    },
+    {
+     "value": "shared relational cluster with two extra read replicas",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      62
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "notification-preferences datastore",
+   "attribute": "tables",
+   "states": [
+    {
+     "value": "three tables (free, standard, enterprise)",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      45,
+      47,
+      50,
+      69,
+      70,
+      71
+     ]
+    },
+    {
+     "value": "consistent reads",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      20,
+      23,
+      24,
+      25,
+      26,
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "notification-preferences datastore",
+   "attribute": "backup",
+   "states": [
+    {
+     "value": "point in time recovery enabled",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      65,
+      69,
+      70,
+      71,
+      73,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "notification-preferences datastore",
+   "attribute": "infrastructure ticket",
+   "states": [
+    {
+     "value": "opened by Sven",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      69,
+      70,
+      71,
+      73,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "notification-preferences datastore",
+   "attribute": "peak usage",
+   "states": [
+    {
+     "value": "nine thousand requests per second",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      28,
+      30,
+      32,
+      36,
+      39,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "notification-preferences datastore",
+   "attribute": "latency",
+   "states": [
+    {
+     "value": "single digit milliseconds",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      42,
+      69,
+      70,
+      71,
+      73,
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "pager rotation",
+   "attribute": "schedule",
+   "states": [
+    {
+     "value": "four-week cycle",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      90,
+      92,
+      93,
+      94,
+      95,
+      96
+     ]
+    },
+    {
+     "value": "Sven's team",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "staging-job",
+   "attribute": "rescheduled-date",
+   "states": [
+    {
+     "value": "Sunday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "staging-job",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Goran's team",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "offsite-headcount",
+   "attribute": "number-of-attendees",
+   "states": [
+    {
+     "value": "11",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      7
+     ]
+    },
+    {
+     "value": "indoor venue",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "offsite-headcount",
+   "attribute": "henrik-s-attendance",
+   "states": [
+    {
+     "value": "Wednesday only",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "offsite-headcount",
+   "attribute": "lunch-count-deadline",
+   "states": [
+    {
+     "value": "Monday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "offsite-headcount",
+   "attribute": "lunch-count-owner",
+   "states": [
+    {
+     "value": "Hana",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "pager-rotation",
+   "attribute": "goran-s-team-start-date",
+   "states": [
+    {
+     "value": "7th",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "handoff-doc",
+   "attribute": "merge-deadline",
+   "states": [
+    {
+     "value": "Tomorrow",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "preferences-service-ticket",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "with Rui",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "preferences-service-ticket",
+   "attribute": "open-date",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "preferences-service-ticket",
+   "attribute": "questions-resolved",
+   "states": [
+    {
+     "value": "two questions on request limits",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "davor",
+   "attribute": "status-update-date",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "load-test",
+   "attribute": "rerun-with-consistent-reads",
+   "states": [
+    {
+     "value": "Sven will rerun it tomorrow morning",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "logging-bill",
+   "attribute": "debug-logs-retention",
+   "states": [
+    {
+     "value": "cut from thirty days to fourteen",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      60
+     ]
+    },
+    {
+     "value": "implemented",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      78,
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "logging-bill",
+   "attribute": "debug-logs-retention-owner",
+   "states": [
+    {
+     "value": "Rohan",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "logging-bill",
+   "attribute": "debug-logs-retention-deadline",
+   "states": [
+    {
+     "value": "today or tomorrow",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      71
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "status-page-footer",
+   "attribute": "subscribe-link",
+   "states": [
+    {
+     "value": "fixed",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "policy-opt-out",
+   "attribute": "window-for-opt-out",
+   "states": [
+    {
+     "value": "immediately upon request, no grace period",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      13,
+      14,
+      15,
+      16
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S7",
+   0,
+   1,
+   2
+  ],
+  [
+   "S2",
+   0,
+   1,
+   3
+  ],
+  [
+   "S1",
+   0,
+   1,
+   3
+  ],
+  [
+   "S10",
+   0,
+   1,
+   3
+  ],
+  [
+   "S21",
+   0,
+   1,
+   3
+  ]
+ ]
+}

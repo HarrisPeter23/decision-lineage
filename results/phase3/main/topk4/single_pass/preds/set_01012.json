@@ -1,0 +1,114 @@
+{
+ "set_id": "set_01012",
+ "method": "single_pass+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9
+  }
+ ]
+}

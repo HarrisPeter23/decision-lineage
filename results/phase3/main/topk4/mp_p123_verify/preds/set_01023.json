@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01023",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "quote": "We should use the approval module that comes with the ERP we already have.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Camila",
+   "quote": "It's priced, yeah, eleven thousand a year. But hold on, that's the part-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Camila",
+   "quote": "It's not, but let me finish. We're already licensed for the platform, so there's no new vendor, no new contract, nothing to onboard.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Camila",
+   "quote": "And configuring it is about two weeks, they said. Two weeks of setup. There's no data migration, because the vendors and the GL codes are already sitting in there.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "quote": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract.",
+   "confidence": 0.98
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Aisha",
+   "quote": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Camila",
+   "quote": "Is it really a problem? A year of use is a year of use. We could just replace it later.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Pavel",
+   "quote": "So the thing is, it's got its own support team. If something breaks, it's their problem, not some ticket with the ERP people that sits for a month.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Aisha",
+   "quote": "I think maybe Thursday is better because of the close.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Camila",
+   "quote": "Thursday's fine with me. As long as it's the afternoon, I have the, the thing with the auditors in the morning.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "quote": "So Thursday afternoon then, for that. I'll confirm with them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Aisha",
+   "quote": "He, um, he looked at the number. He said the finance committee meets the week after the demo, so, we'll bring it there.",
+   "confidence": 0.9
+  }
+ ]
+}

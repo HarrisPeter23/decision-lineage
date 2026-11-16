@@ -1,0 +1,1235 @@
+[
+ {
+  "qid": "set_01019-q01",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "46226872-9704-4ba9-9f36-b97536ad4e70",
+    "name": "USED",
+    "fact": "The data team used a take-home exercise last spring.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6c06c2e2-1df0-4f82-8b2a-a0c8bc4f2e45",
+    "name": "SENT_TO",
+    "fact": "The data team sent the take-home exercise to 120 people.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95020e08-689d-43c4-a6e0-65eb1a20223a",
+    "name": "AUTHORIZED",
+    "fact": "Bashir authorized Jonas to tell IT about sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q02",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95020e08-689d-43c4-a6e0-65eb1a20223a",
+    "name": "AUTHORIZED",
+    "fact": "Bashir authorized Jonas to tell IT about sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "94c2bab6-f4d7-4297-aea4-143af522c83f",
+    "name": "STARTED_WITH",
+    "fact": "Bashir started with sending laptops to new hires the Friday before they start.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77e5857d-8348-4483-9222-a40bac0e6825",
+    "name": "ASSIGNED",
+    "fact": "Bashir assigned Jonas to tell IT about the new plan to ship laptops to new hires' homes the Friday before they start.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q03",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11af611e-ebf9-408a-83e0-92d48ab89d9a",
+    "name": "DISCUSSED",
+    "fact": "Diego discussed with Priya the idea of using a video screen with two interviewers and a shared rubric as an alternative to the take-home exercise.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "465b5008-8562-4693-ba23-a6fb9f2645fe",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Priya provided information to Bashir about the video screen option, including that it has the same consistency as the take-home but with less risk of losing candidates.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "53d8b6e8-f87e-48f3-abef-bef582530492",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned to Jonas that he would do the offsite headcount form after the meeting.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1584659f-84e7-4beb-8526-f98175a141bd",
+    "name": "DISCUSSED",
+    "fact": "Aisha discussed with Priya the concerns about the take-home exercise, including the risk of losing candidates and the time it would take.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e5b3f71-81af-4021-9fd7-2e5238af4bc4",
+    "name": "HAD_A_MEETING_AT",
+    "fact": "Aisha had a meeting at two o'clock.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af36b5e3-967d-416f-845b-d61bae215926",
+    "name": "MENTIONED",
+    "fact": "Aisha mentioned to Bashir that she had to leave the meeting because she had a call at half past.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q04",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11af611e-ebf9-408a-83e0-92d48ab89d9a",
+    "name": "DISCUSSED",
+    "fact": "Diego discussed with Priya the idea of using a video screen with two interviewers and a shared rubric as an alternative to the take-home exercise.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "465b5008-8562-4693-ba23-a6fb9f2645fe",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Priya provided information to Bashir about the video screen option, including that it has the same consistency as the take-home but with less risk of losing candidates.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "53d8b6e8-f87e-48f3-abef-bef582530492",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned to Jonas that he would do the offsite headcount form after the meeting.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e5b3f71-81af-4021-9fd7-2e5238af4bc4",
+    "name": "HAD_A_MEETING_AT",
+    "fact": "Aisha had a meeting at two o'clock.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af36b5e3-967d-416f-845b-d61bae215926",
+    "name": "MENTIONED",
+    "fact": "Aisha mentioned to Bashir that she had to leave the meeting because she had a call at half past.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd1967f5-de62-490c-b069-ac7f01f3a996",
+    "name": "DISCUSSED",
+    "fact": "Bashir and Priya discussed the offsite headcount form, with a deadline of Wednesday noon.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q05",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1584659f-84e7-4beb-8526-f98175a141bd",
+    "name": "DISCUSSED",
+    "fact": "Aisha discussed with Priya the concerns about the take-home exercise, including the risk of losing candidates and the time it would take.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "94c2bab6-f4d7-4297-aea4-143af522c83f",
+    "name": "STARTED_WITH",
+    "fact": "Bashir started with sending laptops to new hires the Friday before they start.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b93f0968-3845-4b17-81d3-76d52cf577ae",
+    "name": "TOOK",
+    "fact": "The take-home exercise took 3 hours for some people.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q06",
+  "facts": [
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "11af611e-ebf9-408a-83e0-92d48ab89d9a",
+    "name": "DISCUSSED",
+    "fact": "Diego discussed with Priya the idea of using a video screen with two interviewers and a shared rubric as an alternative to the take-home exercise.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "a51cc113-c206-4833-9e42-06b66e322b85",
+    "name": "DISCUSSED",
+    "fact": "Aisha discussed with Priya the concerns about the video screen option, including the worry that it would take a lot of hours.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "465b5008-8562-4693-ba23-a6fb9f2645fe",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Priya provided information to Bashir about the video screen option, including that it has the same consistency as the take-home but with less risk of losing candidates.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6066420-6dad-4ead-b86d-edcefa2dbb42",
+    "name": "ASKED",
+    "fact": "Priya asked Stefan about the video screen option and he said one a week is fine if it's on the calendar ahead of time.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee934330-5eaa-45f9-8a83-5102e017592e",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the issue of providing feedback to candidates who fail the take-home exercise.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e5b3f71-81af-4021-9fd7-2e5238af4bc4",
+    "name": "HAD_A_MEETING_AT",
+    "fact": "Aisha had a meeting at two o'clock.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q07",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95020e08-689d-43c4-a6e0-65eb1a20223a",
+    "name": "AUTHORIZED",
+    "fact": "Bashir authorized Jonas to tell IT about sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "53d8b6e8-f87e-48f3-abef-bef582530492",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned to Jonas that he would do the offsite headcount form after the meeting.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77e5857d-8348-4483-9222-a40bac0e6825",
+    "name": "ASSIGNED",
+    "fact": "Bashir assigned Jonas to tell IT about the new plan to ship laptops to new hires' homes the Friday before they start.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q08",
+  "facts": [
+   {
+    "uuid": "c90be480-b2ec-402f-affc-6f7585c4989f",
+    "name": "DISCUSSED",
+    "fact": "Priya and Jonas discussed the first round for engineering hires.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cf6a5036-e944-4cb4-a0b2-280d1493aa73",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the idea of replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff131f50-6d5f-42d1-ac42-246403aa37a3",
+    "name": "PROPOSED",
+    "fact": "Diego proposed a structured video interview with two people scoring against a rubric.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688861+00:00"
+   },
+   {
+    "uuid": "936b2a34-7c2c-475a-9a8b-6316c5bcfd07",
+    "name": "PROPOSED_TO_ADD",
+    "fact": "Priya proposed to add a column for the video interview option in the sheet.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74434468-a372-4c7a-a542-66d617ef0dad",
+    "name": "PROPOSED",
+    "fact": "Priya proposed replacing the phone screen with a take-home exercise for engineering candidates.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": "2025-05-15T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:22:21.688879+00:00"
+   },
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11af611e-ebf9-408a-83e0-92d48ab89d9a",
+    "name": "DISCUSSED",
+    "fact": "Diego discussed with Priya the idea of using a video screen with two interviewers and a shared rubric as an alternative to the take-home exercise.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95020e08-689d-43c4-a6e0-65eb1a20223a",
+    "name": "AUTHORIZED",
+    "fact": "Bashir authorized Jonas to tell IT about sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ee934330-5eaa-45f9-8a83-5102e017592e",
+    "name": "DISCUSSED",
+    "fact": "Priya and Aisha discussed the issue of providing feedback to candidates who fail the take-home exercise.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77e5857d-8348-4483-9222-a40bac0e6825",
+    "name": "ASSIGNED",
+    "fact": "Bashir assigned Jonas to tell IT about the new plan to ship laptops to new hires' homes the Friday before they start.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "804bd844-5ab3-4fb9-be10-d5334413d01b",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Priya provided information to Bashir about the take-home exercise, including that it had a high drop-off rate and that it took candidates three hours to complete.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01019-q09",
+  "facts": [
+   {
+    "uuid": "ed9b363d-bd10-44b8-8bbf-1878c117c01b",
+    "name": "USED",
+    "fact": "IT used insurance for laptops sent to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aca398dd-e2cd-470b-92ae-d6a5df8e6517",
+    "name": "DECIDED",
+    "fact": "Bashir decided that the video screen, the forty-five minute one with two of us scoring on the shared rubric, is the one for first-round engineering. The phone screen goes, and no take-home.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95020e08-689d-43c4-a6e0-65eb1a20223a",
+    "name": "AUTHORIZED",
+    "fact": "Bashir authorized Jonas to tell IT about sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fa92a05-e28e-4a1c-bf72-7039b8d1acaf",
+    "name": "COORDINATED_WITH",
+    "fact": "Jonas coordinated with IT to send laptops to new hires' homes.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77e5857d-8348-4483-9222-a40bac0e6825",
+    "name": "ASSIGNED",
+    "fact": "Bashir assigned Jonas to tell IT about the new plan to ship laptops to new hires' homes the Friday before they start.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ee1e17b-533f-4856-816a-3a6a10ed773e",
+    "name": "PROPOSED_TO_SEND",
+    "fact": "Jonas proposed to send laptops to new hires' homes the Friday before they start.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1cdc0d8e-e9d5-4098-b592-9c0c0e4526b3",
+    "name": "MESSAGED",
+    "fact": "Jonas messaged Daan to coordinate sending laptops to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "94c2bab6-f4d7-4297-aea4-143af522c83f",
+    "name": "STARTED_WITH",
+    "fact": "Bashir started with sending laptops to new hires the Friday before they start.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54e2bf57-b8dc-4481-89f3-37c141aa270e",
+    "name": "SENT",
+    "fact": "IT sent credentials separately to new hires.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6c06c2e2-1df0-4f82-8b2a-a0c8bc4f2e45",
+    "name": "SENT_TO",
+    "fact": "The data team sent the take-home exercise to 120 people.",
+    "episodes": [
+     "0b63c175-aa7a-43a0-ba84-ea98c9996f2f"
+    ],
+    "valid_at": "2025-05-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5f4a661-6904-4126-85a8-17d4629903c3",
+    "name": "MENTIONED",
+    "fact": "Diego mentioned that the data team's experience with a similar take-home exercise was around the time of the audit.",
+    "episodes": [
+     "197ace46-ce1f-406c-b393-93abae0ccbf1"
+    ],
+    "valid_at": "2025-05-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d2edab1e-b97b-4626-8ee9-4692b4ec7548",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned to Bashir that Nadia pinged him about the offsite form and that she is still missing two people.",
+    "episodes": [
+     "a6a20eb2-8a95-4d92-a700-9df4176b19ae"
+    ],
+    "valid_at": "2025-05-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,580 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Model for account managers",
+   "attribute": "scoring frequency",
+   "states": [
+    {
+     "value": "weekly",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-23",
+     "evidence": [
+      52,
+      53,
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Model for account managers",
+   "attribute": "rollback option",
+   "states": [
+    {
+     "value": "available if first month looks bad",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-23",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Model for account managers",
+   "attribute": "first run date",
+   "states": [
+    {
+     "value": "Monday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-23",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Model selection",
+   "attribute": "chosen model",
+   "states": [
+    {
+     "value": "logistic regression model",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-30",
+     "evidence": [
+      48
+     ]
+    },
+    {
+     "value": "gradient-boosted model",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Packaging",
+   "attribute": "contribution table",
+   "states": [
+    {
+     "value": "dropped",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-30",
+     "evidence": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Data-quality review",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "Thursday afternoon starting next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-30",
+     "evidence": [
+      71
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Weekly job",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "live on the old cluster",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      6,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Rosa's column",
+   "attribute": "pointing at",
+   "states": [
+    {
+     "value": "the table",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Enterprise tier accounts",
+   "attribute": "number of accounts",
+   "states": [
+    {
+     "value": "40",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Enterprise tier accounts",
+   "attribute": "renewal rate last quarter",
+   "states": [
+    {
+     "value": "31%",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Enterprise tier accounts",
+   "attribute": "renewal rate this quarter",
+   "states": [
+    {
+     "value": "12%",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Enterprise tier accounts",
+   "attribute": "renewal revenue percentage",
+   "states": [
+    {
+     "value": "58%",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Model accuracy",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "investigate further",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      44,
+      59,
+      60,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Enterprise accounts",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "check for double counting",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      71,
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Scores column",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "stays as it is this week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Rosa",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "tell her it's being looked at",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Next meeting",
+   "attribute": "agenda",
+   "states": [
+    {
+     "value": "bring the forty accounts split out",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Rohan",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "send what he has tonight",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      97
+     ]
+    },
+    {
+     "value": "put the query in the doc",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-06",
+     "evidence": [
+      98
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Cluster migration",
+   "attribute": "schema change",
+   "states": [
+    {
+     "value": "same name, new host",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Model decision",
+   "attribute": "reason codes",
+   "states": [
+    {
+     "value": "per-account reason codes",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Model decision",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "flag to switch between models",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Model decision",
+   "attribute": "documentation",
+   "states": [
+    {
+     "value": "reason codes in plain words",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 4,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      43
+     ]
+    },
+    {
+     "value": "Chloe will write the communication, Rosa will check it",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      88
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Model decision",
+   "attribute": "communication",
+   "states": [
+    {
+     "value": "inform account managers of the change and reason codes",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      86
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Model decision",
+   "attribute": "rollback",
+   "states": [
+    {
+     "value": "flag to switch back if needed",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      91
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Model decision",
+   "attribute": "schema change communication",
+   "states": [
+    {
+     "value": "send schema change to Zofia",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Model decision",
+   "attribute": "code packaging",
+   "states": [
+    {
+     "value": "Diego will package the codes today",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Model decision",
+   "attribute": "flag activation",
+   "states": [
+    {
+     "value": "Rohan will flip the flag when the table has the columns",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-08-13",
+     "evidence": [
+      101
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S17",
+   0,
+   1,
+   3
+  ],
+  [
+   "S3",
+   0,
+   1,
+   4
+  ],
+  [
+   "S21",
+   0,
+   1,
+   4
+  ]
+ ]
+}

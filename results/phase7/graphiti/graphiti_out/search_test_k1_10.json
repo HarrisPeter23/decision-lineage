@@ -1,0 +1,1236 @@
+[
+ {
+  "qid": "set_01039-q01",
+  "facts": [
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "801524a5-53f8-4412-aee7-4e735db7457b",
+    "name": "NOTED",
+    "fact": "Hana noted that they would not decide on the cleaning contract today and that she had not read the Kestrel Facilities contract yet.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c029d48-5a02-4c65-b0b9-a2a0a060e715",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Tomas asked him to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992823+00:00"
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   },
+   {
+    "uuid": "1e2e9614-fda9-4ee7-913d-3289d65dd634",
+    "name": "MENTIONS",
+    "fact": "Marco notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b430cd9-178c-499f-a08c-6a8cd501074c",
+    "name": "implemented_recycling_changes",
+    "fact": "Hana implemented recycling changes in the Leeds office, including removing desk bins and replacing them with shared bins on each floor.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q02",
+  "facts": [
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "8c029d48-5a02-4c65-b0b9-a2a0a060e715",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Tomas asked him to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992823+00:00"
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   },
+   {
+    "uuid": "7b430cd9-178c-499f-a08c-6a8cd501074c",
+    "name": "implemented_recycling_changes",
+    "fact": "Hana implemented recycling changes in the Leeds office, including removing desk bins and replacing them with shared bins on each floor.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98079923-7bbb-4bd8-97f7-51f3886b372e",
+    "name": "MENTIONS",
+    "fact": "Marco notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q03",
+  "facts": [
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6de967b3-31df-445e-9600-8c8d6def4115",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b592d82b-faeb-40d4-a394-c7e3b8075a94",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992814+00:00"
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "f273b514-1251-4a78-a0f7-38e18219e469",
+    "name": "notified_thanks_for_rate_lock",
+    "fact": "Hana notified Brightwash thanks for holding the rate lock until the end of the week.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q04",
+  "facts": [
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6de967b3-31df-445e-9600-8c8d6def4115",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b592d82b-faeb-40d4-a394-c7e3b8075a94",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992814+00:00"
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "f273b514-1251-4a78-a0f7-38e18219e469",
+    "name": "notified_thanks_for_rate_lock",
+    "fact": "Hana notified Brightwash thanks for holding the rate lock until the end of the week.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q05",
+  "facts": [
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   },
+   {
+    "uuid": "d7e85487-c497-4d2f-8f63-87f6ed8025e1",
+    "name": "NOTED",
+    "fact": "Hana noted that people would grumble about the change but agreed with Tomas' suggestion based on the cleaning minutes and contamination audit.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b430cd9-178c-499f-a08c-6a8cd501074c",
+    "name": "implemented_recycling_changes",
+    "fact": "Hana implemented recycling changes in the Leeds office, including removing desk bins and replacing them with shared bins on each floor.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6de967b3-31df-445e-9600-8c8d6def4115",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1e2e9614-fda9-4ee7-913d-3289d65dd634",
+    "name": "MENTIONS",
+    "fact": "Marco notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q06",
+  "facts": [
+   {
+    "uuid": "911fa711-a258-48dc-a2a1-ee3d28f685fe",
+    "name": "better_exit_clause_than",
+    "fact": "Kestrel Facilities has a better exit clause than Brightwash, allowing for termination after ninety days, whereas Brightwash requires a two-year commitment.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0f43d9e9-2c15-46c8-8860-faab10d96b39",
+    "name": "SUGGESTED",
+    "fact": "Diego suggested that they move to Kestrel Facilities because it was cheaper and had an exit clause.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b60c3b2-2267-479e-8321-2b2a4e1896fd",
+    "name": "shorter_commitment_than",
+    "fact": "Kestrel Facilities offers a shorter commitment than Brightwash, with an exit clause of ninety days after month three.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "074ce048-372c-4386-a438-ff7d7a572caa",
+    "name": "will_organize_exit_clause",
+    "fact": "Hana will organize the exit clause in the Kestrel Facilities contract.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3802cf6e-feb2-45b9-9f4e-47cec9f72cd9",
+    "name": "REPLIED_TO",
+    "fact": "Elif replied that two quotes had come in on Friday, one was much higher and could be ignored, and the other was from Kestrel Facilities, which came in at forty-one thousand a year.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ce5e445-521e-4711-9009-df9539395b63",
+    "name": "INFORMED_ABOUT",
+    "fact": "Elif informed Hana that Kestrel Facilities offered credits if they missed a visit and allowed for ninety days' notice to exit the contract.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715383+00:00"
+   },
+   {
+    "uuid": "8a0f2ca7-159a-44ab-b896-f485ffff8cff",
+    "name": "includes_supplies",
+    "fact": "Kestrel Facilities includes supplies in their contract, whereas Brightwash bills supplies separately, capped at 1,800 per year.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a464f08-ecf8-4430-8d81-6f035ebec598",
+    "name": "cheaper_than",
+    "fact": "Kestrel Facilities is cheaper than Brightwash by approximately 3,000 per year.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "981e8ccf-6cd7-4664-99da-597e03f8ec69",
+    "name": "requested_supplies_wording_change",
+    "fact": "Hana requested a change to the supplies wording in the Kestrel Facilities contract before signing.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e40abbcb-ab1d-46f6-9f7c-069ff270e6eb",
+    "name": "will_organize_named_contact",
+    "fact": "Hana will organize a named contact for the handover with Kestrel Facilities.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9568835-28ff-49c8-9e9b-7d1edaa647f0",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that there is a clause in the Brightwash contract about consumables being extra, capped at \u00a31,800 per year.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6e09f21a-c202-454d-865e-df37221e8422",
+    "name": "will_organize_insurance_coverage",
+    "fact": "Hana will organize the insurance coverage in the Kestrel Facilities contract.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q07",
+  "facts": [
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6de967b3-31df-445e-9600-8c8d6def4115",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9e665dc8-6fc5-4e67-9eee-38705d03372c",
+    "name": "MENTIONS",
+    "fact": "Diego notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98079923-7bbb-4bd8-97f7-51f3886b372e",
+    "name": "MENTIONS",
+    "fact": "Marco notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1e2e9614-fda9-4ee7-913d-3289d65dd634",
+    "name": "MENTIONS",
+    "fact": "Marco notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q08",
+  "facts": [
+   {
+    "uuid": "7c232c97-fbca-4b7c-8ccd-bea7d6b1c298",
+    "name": "HAS_OFFICE_IN",
+    "fact": "Hana notes that the conversation is about the Leeds office, including the fire door sign-off, cleaning contract, and printer lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992809+00:00"
+   },
+   {
+    "uuid": "03b40064-880f-42de-aa31-17fa15ec6f39",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Hana notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715443+00:00"
+   },
+   {
+    "uuid": "b001c700-d877-4317-b76b-70897a3ef7fd",
+    "name": "HAS_CONTRACT_WITH",
+    "fact": "Marco notes that Brightwash is the current cleaning contractor in Leeds, with a contract up at the end of the month.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715450+00:00"
+   },
+   {
+    "uuid": "9ce850a2-7e90-40d1-8737-ca951e1f9061",
+    "name": "chose_cleaning_service",
+    "fact": "Hana chose Kestrel Facilities as the cleaning service for Leeds.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "72b0c4af-1aa3-45f7-b71c-b93ca1bac4e6",
+    "name": "MENTIONS",
+    "fact": "Northgate is a firm in Manchester that might be a competitor for the cleaning contract in Leeds.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715374+00:00"
+   },
+   {
+    "uuid": "2dc37105-f28a-4586-9b9f-bfc7d60fa8c8",
+    "name": "ASKED_ABOUT",
+    "fact": "Hana asked Tomas about the recycling issue from the Leeds survey and wanted to give it ten minutes.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8d1c06c-510b-4e0a-9fa3-f5785933b86b",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that the cleaning contract in Leeds is up for renewal, with Brightwash offering a 6% increase on the current rate.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-17T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:41:36.715484+00:00"
+   },
+   {
+    "uuid": "f54bd90b-632d-4284-b987-16aee22d7f25",
+    "name": "MENTIONS",
+    "fact": "Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a82bf526-5df8-4447-aa93-263e422d7835",
+    "name": "NOTES_ABOUT",
+    "fact": "Hamid mentioned there is a meeting about a potential floor reduction in the Leeds lease.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b430cd9-178c-499f-a08c-6a8cd501074c",
+    "name": "implemented_recycling_changes",
+    "fact": "Hana implemented recycling changes in the Leeds office, including removing desk bins and replacing them with shared bins on each floor.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "9e665dc8-6fc5-4e67-9eee-38705d03372c",
+    "name": "MENTIONS",
+    "fact": "Diego notes that Joao mentioned a firm in Manchester called Northgate, which might be a competitor for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01039-q09",
+  "facts": [
+   {
+    "uuid": "7b430cd9-178c-499f-a08c-6a8cd501074c",
+    "name": "implemented_recycling_changes",
+    "fact": "Hana implemented recycling changes in the Leeds office, including removing desk bins and replacing them with shared bins on each floor.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a644ead5-88b8-4723-91e3-82dc54117fa9",
+    "name": "REPLIED_TO",
+    "fact": "Tomas replied that he had a view on the recycling issue and suggested removing the little bins at every desk and replacing them with shared ones on each floor.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2bbbf9b-53ae-45f8-8654-4eeb61df53b7",
+    "name": "ASKED_ABOUT",
+    "fact": "Hana asked Diego to coordinate with Hedda to roll out the shared floor bins and pull the desk bins.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c4502ef4-3be7-4826-b3dd-1d8468a6fb72",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that Elif mentioned the desk booking system in Leeds has issues with the screen showing desks as free that are already taken.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c028d53-8413-44fc-a86d-8aff923b15da",
+    "name": "NOTES_ABOUT",
+    "fact": "Hana notes that Elif mentioned the desk booking system in Leeds has issues with the screen showing desks as free that are already taken.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14e882cd-4bcc-4087-a342-df1d4403583b",
+    "name": "NOTES_ABOUT",
+    "fact": "Elif notes that people in Leeds keep saying the desk booking system has issues with the screen showing desks as free that are already taken.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7519f55b-aeb6-4f3a-b8ac-a0bcaa4edb07",
+    "name": "ASKED_ABOUT",
+    "fact": "Tomas asked Elif what happened with Northgate and if anyone had called them.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98161ebe-3313-467c-85fb-a023e93460ab",
+    "name": "NOTES_ABOUT",
+    "fact": "Tomas notes that he asked Marco to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992820+00:00"
+   },
+   {
+    "uuid": "54436daf-56f2-4fab-949e-111b882dffca",
+    "name": "ASKED_ABOUT",
+    "fact": "Hana asked Elif to draft an email to inform people about the change in the bin system.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d",
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "337cac55-6e4c-46b5-b86c-cf00db3529e9",
+    "name": "REPLIED_TO",
+    "fact": "Elif replied that the badge reader quote was sent on Tuesday, and it was for the second floor only, costing 2,350 fitted.",
+    "episodes": [
+     "946d3539-73e7-4a26-b98b-1a58a6c3be7d"
+    ],
+    "valid_at": "2025-03-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c029d48-5a02-4c65-b0b9-a2a0a060e715",
+    "name": "NOTES_ABOUT",
+    "fact": "Marco notes that Tomas asked him to find out what a competitor would charge for the cleaning contract.",
+    "episodes": [
+     "407e1d36-7119-4fae-83c6-bfe666443c41"
+    ],
+    "valid_at": "2025-03-03T00:00:00+00:00",
+    "invalid_at": "2025-03-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:32:42.992823+00:00"
+   },
+   {
+    "uuid": "0c97a3d1-733e-4b6f-ae0e-0e89ca9d45ce",
+    "name": "assigned_recycling_questions",
+    "fact": "Hana assigned the recycling questions to Diego for the rollout with Hedda.",
+    "episodes": [
+     "9f6f8cc4-7013-432d-805e-9db4075ac190"
+    ],
+    "valid_at": "2025-03-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

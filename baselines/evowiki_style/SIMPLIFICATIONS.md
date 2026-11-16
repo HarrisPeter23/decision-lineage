@@ -1,0 +1,19 @@
+# evowiki_style: what differs from EvoWiki (Chen, Wang, Que, arXiv 2608.23265v1, read in full on 2026-11-06)
+
+The authors have not released code or data ("will be released upon acceptance"), so this is a re-implementation from the paper's text. Every prompt below is mine.
+
+| Paper | This re-implementation | Why / effect |
+|---|---|---|
+| Build runs four steps per meeting: Resolve (temporal alignment + intra-meeting micro-evolution), Coref, Extract, Route (eq. 4) | The same four steps in two LLM calls: call 1 = Resolve + Extract (timeline, proposal -> discussion -> decision, candidate updates with stage and evidence spans); call 2 = Coref + Route against the current Wiki index | Fewer calls on a 14B model. Each step's function is kept. The prompts are not the paper's (unpublished) |
+| Build model: DeepSeek-V4-Flash; reader: DeepSeek-V4-Flash or Qwen3.5-397B | SYSTEM_MODEL qwen3:14b for Build and Read | Rule 4: every system uses the same model. Absolute numbers will be far below the paper's |
+| State-Overwrite Protocol: at most one Active state per entity-attribute; old state kept, labelled Overturned, interval closed, version edge added (eq. 7-8) | Implemented exactly, deterministically (`Wiki.overwrite`). Relations from call 2: same / replace / revise / revoke / add. "same" adds no version but keeps the provenance of the reaffirmation | Faithful |
+| "Facts that do not conflict with the attribute remain in their respective slots" | A non-conflicting fact gets its own slot when call 2 says NEW. An "add" into an occupied slot makes the newest state Active and keeps the old one as Overturned | The paper does not say how two non-conflicting values of one slot are held. Keeping eq. 8 (one Active per slot) was chosen |
+| Candidate plans are not written as final states | Only updates with stage "decided" become states; proposals and discussion are parsed in call 1 but not stored | Faithful. The paper stores no rationale either, and neither does this |
+| Provenance anchor = (meeting, span) | (meeting id, utterance indexes from call 1) | Faithful. Needed for lineage completeness and NLI faithfulness on source text |
+| Read: the complete serialized Wiki is the sole context; no top-k; no raw-meeting fallback (eq. 9) | Same. Every state (Active and Overturned, with validity and meeting) is a numbered evidence item for the shared generator. Capped at 6,000 estimated tokens; above that, Overturned states are dropped oldest first, then Active states of the least recently updated slots | The cap comes from the 8,192-token context of SYSTEM_MODEL (the paper used 256K-1M windows). Truncations are counted and reported |
+| Read output: answer + supporting Wiki-state ids (only the answer is evaluated) | Answer + sentences citing state ids, through the generator prompt shared by all systems | Rule 4 (same answer interface). Citations let the same faithfulness metric apply |
+| Chunking | The FREEZE section 9 rule on call 1; synthetic meetings always fit one window | Same rule for every system |
+| Write-time coreference handles aliases, job titles, ellipsis | Delegated to call 2, which sees the full slot index (entity, attribute, active value). If call 2 fails or names no slot, an exact name match to an existing slot is tried, else a new slot is opened | A cheap fallback for a parse failure; it can only merge identical names |
+| Evaluation: Judge Accuracy (Gemini 3.1 Pro, 0/0.5/1) | The project's metrics: exact match / granite rubric (same 0/0.5/1 scale), NLI faithfulness, lineage completeness | Rule 4: same metrics for every system |
+
+**Not available to this baseline (by its method):** rationale, evidence, challenge or reconsideration typing; supersession reasons. It answers why_changed only from what its states and their provenance spans contain. That is the comparison H1 is about.

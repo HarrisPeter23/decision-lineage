@@ -1,0 +1,160 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Operating budget",
+   "attribute": "committed portion",
+   "states": [
+    {
+     "value": "62% tied up in multi-year contracts",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      19,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Expense limit",
+   "attribute": "manager-only limit",
+   "states": [
+    {
+     "value": "1000 dollars",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      64,
+      76,
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Expense limit",
+   "attribute": "implementation date",
+   "states": [
+    {
+     "value": "first of next month",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Lock date",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "24th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Budget cut",
+   "attribute": "target",
+   "states": [
+    {
+     "value": "8%",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      65
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Budget cut",
+   "attribute": "scope",
+   "states": [
+    {
+     "value": "Travel, contractors and events, only the uncommitted lines in those",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      65
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Draft communication",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "Draft it tomorrow, we'll fix it Thursday.",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Flat one vs aiming",
+   "attribute": "decision",
+   "states": [
+    {
+     "value": "The flat one is chosen",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      65
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": []
+}

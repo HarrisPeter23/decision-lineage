@@ -1,0 +1,326 @@
+{
+ "set_id": "test_k1_06",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "offsite attendance",
+   "option": "headcount by Friday"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "offsite attendance",
+   "option": "headcount by Friday"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "pager rotation schedule",
+   "option": "four-week cycle"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "pager rotation schedule",
+   "option": "four-week cycle"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "pager rotation schedule",
+   "option": "four-week cycle"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.95,
+   "decision": "datastore for notification preferences",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "shared relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "datastore for notification preferences",
+   "option": "managed key-value store"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "datastore for notification preferences",
+   "option": "shared relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "datastore for notification preferences",
+   "option": "shared relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "datastore for notification preferences",
+   "option": "shared relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.95,
+   "decision": "datastore for notification preferences",
+   "option": "shared relational cluster"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "offsite attendance",
+   "option": "indoor venue"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "offsite attendance",
+   "option": "indoor venue"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "debug log change",
+   "option": "implemented"
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "set_id": "set_01015",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.75,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.65,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.85,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Christmas Party Invoice Discrepancy",
+   "option": "Kwame to chase the venue for the correct amount"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20,
+    21,
+    22,
+    23
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.95,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    33,
+    34
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    54,
+    55,
+    56
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.75,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    64,
+    65,
+    66
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.6,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Cleaning contract renewal",
+   "option": "Cleaning contract renewal"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "Cleaning contract renewal",
+   "option": "Cleaning contract renewal"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Cleaning contract renewal",
+   "option": "Cleaning contract renewal"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Cleaning contract renewal",
+   "option": "Cleaning contract renewal"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Cleaning contract renewal",
+   "option": "Cleaning contract renewal"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    23,
+    24,
+    25
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    50,
+    51
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    77,
+    78,
+    79
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.6,
+   "decision": "Christmas Party Invoice Discrepancy",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    87,
+    88,
+    89,
+    90,
+    91
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Christmas Party Invoice Discrepancy",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Fourth Floor Refit Noise Solution",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.6,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.6,
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "Cleaning contract renewal",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.6,
+   "decision": "Cleaning contract renewal",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

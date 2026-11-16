@@ -1,0 +1,248 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Pricing page",
+   "attribute": "update",
+   "states": [
+    {
+     "value": "to be done by Sana by end of the week",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-02",
+     "evidence": [
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Offsite dates",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "third week of September",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-09",
+     "evidence": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-06-16",
+       "evidence": [
+        85,
+        86
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Discount policy",
+   "attribute": "annual discount",
+   "states": [
+    {
+     "value": "10% with 24-month price lock",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-09",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Discount policy",
+   "attribute": "CFO approval",
+   "states": [
+    {
+     "value": "not required",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-09",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Price lock",
+   "attribute": "duration",
+   "states": [
+    {
+     "value": "24 months",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-09",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Price lock",
+   "attribute": "scope",
+   "states": [
+    {
+     "value": "applies to the plan, not add-ons",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-09",
+     "evidence": [
+      62
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Pricing page",
+   "attribute": "lock information",
+   "states": [
+    {
+     "value": "Displayed as a line under the price, e.g., 'your rate holds for two years'",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-16",
+     "evidence": [
+      22,
+      25,
+      26,
+      28,
+      48,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Pricing page",
+   "attribute": "lock information in confirmation email",
+   "states": [
+    {
+     "value": "Proposed to include",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-16",
+     "evidence": [
+      25,
+      27,
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Pricing page",
+   "attribute": "lock information on add-ons",
+   "states": [
+    {
+     "value": "Not included, only the plan itself",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-16",
+     "evidence": [
+      43,
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Pricing page",
+   "attribute": "lock information in small print",
+   "states": [
+    {
+     "value": "Proposed to include in smaller text",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-16",
+     "evidence": [
+      46,
+      47,
+      48,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Analytics renewal",
+   "attribute": "number of seats",
+   "states": [
+    {
+     "value": "Estimated at 45",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-16",
+     "evidence": [
+      52,
+      53,
+      54,
+      55,
+      56
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": []
+}

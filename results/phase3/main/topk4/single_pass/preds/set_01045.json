@@ -1,0 +1,114 @@
+{
+ "set_id": "set_01045",
+ "method": "single_pass+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8
+  }
+ ]
+}

@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01002-q01",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8378f920-93f8-4410-bf27-fdd339e5ff2d",
+    "name": "PLANNING_DATE",
+    "fact": "The invite-only reception will take place on the last night of the virtual product showcase in late November.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": "2025-02-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:39:24.894203+00:00"
+   },
+   {
+    "uuid": "d46e5600-c98d-44f7-9819-6c47d7d1b566",
+    "name": "APPROVED",
+    "fact": "Greta approved the content for the newsletter about the showcase, which Ivan wrote.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41576c4b-ac91-499d-b076-d74ac1dfafff",
+    "name": "PLANNING_TO_MENTION",
+    "fact": "Greta plans to inform customers about the change in the newsletter once the platform is confirmed.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q02",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc6fca61-bd5a-4726-853d-3c421889652e",
+    "name": "proposes_content_for",
+    "fact": "Ivan proposes to write a short ask for rep sign-ups in the customer newsletter.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d46e5600-c98d-44f7-9819-6c47d7d1b566",
+    "name": "APPROVED",
+    "fact": "Greta approved the content for the newsletter about the showcase, which Ivan wrote.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41576c4b-ac91-499d-b076-d74ac1dfafff",
+    "name": "PLANNING_TO_MENTION",
+    "fact": "Greta plans to inform customers about the change in the newsletter once the platform is confirmed.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q03",
+  "facts": [
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "82d225cc-7b21-448b-aa8e-bbca77bb4cb3",
+    "name": "CLOSING_FOR_RENOVATION",
+    "fact": "Harborview is closing the ballroom for renovation through the end of the year, which affects the summit.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc120e1d-f417-48a3-9c8e-40cc84792c04",
+    "name": "NOTIFYING_ABOUT_CANCELLATION",
+    "fact": "Greta received an email from Harborview stating that the ballroom is closed for renovation through the end of the year.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2b1db514-c1dd-4076-99ae-07085a863b0e",
+    "name": "RECEIVING_CANCELLATION_NOTICE",
+    "fact": "Greta received a notice from Harborview that the ballroom is closed for renovation through the end of the year.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q04",
+  "facts": [
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "82d225cc-7b21-448b-aa8e-bbca77bb4cb3",
+    "name": "CLOSING_FOR_RENOVATION",
+    "fact": "Harborview is closing the ballroom for renovation through the end of the year, which affects the summit.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "2b1db514-c1dd-4076-99ae-07085a863b0e",
+    "name": "RECEIVING_CANCELLATION_NOTICE",
+    "fact": "Greta received a notice from Harborview that the ballroom is closed for renovation through the end of the year.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc120e1d-f417-48a3-9c8e-40cc84792c04",
+    "name": "NOTIFYING_ABOUT_CANCELLATION",
+    "fact": "Greta received an email from Harborview stating that the ballroom is closed for renovation through the end of the year.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q05",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "41576c4b-ac91-499d-b076-d74ac1dfafff",
+    "name": "PLANNING_TO_MENTION",
+    "fact": "Greta plans to inform customers about the change in the newsletter once the platform is confirmed.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "4a2534a6-f19c-4306-b4ad-acfdfc5702cf",
+    "name": "PLANNING_DATE",
+    "fact": "The virtual product showcase will stream over a week in late November.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": "2025-02-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:39:24.894199+00:00"
+   },
+   {
+    "uuid": "8378f920-93f8-4410-bf27-fdd339e5ff2d",
+    "name": "PLANNING_DATE",
+    "fact": "The invite-only reception will take place on the last night of the virtual product showcase in late November.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": "2025-02-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:39:24.894203+00:00"
+   },
+   {
+    "uuid": "5debd226-0cc0-4e2a-b050-18c956c0d4a0",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to switch the summit to a virtual product showcase due to the venue closure and budget constraints.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q06",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41576c4b-ac91-499d-b076-d74ac1dfafff",
+    "name": "PLANNING_TO_MENTION",
+    "fact": "Greta plans to inform customers about the change in the newsletter once the platform is confirmed.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5198d991-f6f9-4ab6-bbc6-8f6e8fc986de",
+    "name": "SKETCHING_LAYOUT",
+    "fact": "Lakshmi was asked by Greta to sketch the reception layout, which will be finalized next week.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q07",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "e934bf20-de54-40f3-b9a4-def55868eb94",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a small invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c476aa8-ba55-46c4-bdfa-3ac4c5822749",
+    "name": "PROPOSING_FORMAT",
+    "fact": "Noor proposed a virtual product showcase with a small invite-only reception as an alternative to the summit.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc6fca61-bd5a-4726-853d-3c421889652e",
+    "name": "proposes_content_for",
+    "fact": "Ivan proposes to write a short ask for rep sign-ups in the customer newsletter.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q08",
+  "facts": [
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f47bbbcc-29fe-4b78-be58-9d471e5d4665",
+    "name": "REQUIREMENT_CHECK",
+    "fact": "Noor is checking the event platform to confirm its availability and cost for the virtual product showcase.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "41576c4b-ac91-499d-b076-d74ac1dfafff",
+    "name": "PLANNING_TO_MENTION",
+    "fact": "Greta plans to inform customers about the change in the newsletter once the platform is confirmed.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5debd226-0cc0-4e2a-b050-18c956c0d4a0",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to switch the summit to a virtual product showcase due to the venue closure and budget constraints.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q09",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "4c117636-1754-4fa3-b08e-cb5053188025",
+    "name": "notes_content_guideline_for",
+    "fact": "Greta notes that the customer newsletter should not mention the date until the booking is confirmed.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d46e5600-c98d-44f7-9819-6c47d7d1b566",
+    "name": "APPROVED",
+    "fact": "Greta approved the content for the newsletter about the showcase, which Ivan wrote.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2960b802-8595-4c72-b61c-2ebde0a4c1b0",
+    "name": "APPROVED",
+    "fact": "Greta approved the forty-one rep sign-ups, which is ahead of the target for the smaller event.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d4067fd-7755-43b0-833b-e27fa8e47b70",
+    "name": "WRITTEN_CONTENT",
+    "fact": "Ivan wrote the content for the newsletter about the showcase, which he plans to send to Greta for review.",
+    "episodes": [
+     "ce2a046c-961b-4a58-ae6c-7638330a9d36"
+    ],
+    "valid_at": "2025-02-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01002-q10",
+  "facts": [
+   {
+    "uuid": "386cff37-b7ed-4fd8-9087-65f1b126a3ca",
+    "name": "organizes",
+    "fact": "Greta is organizing the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340071+00:00"
+   },
+   {
+    "uuid": "09892c55-8441-49f9-8481-ffd526851e06",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340125+00:00"
+   },
+   {
+    "uuid": "d94181fc-12cc-463b-a6b0-a8530c5f7eeb",
+    "name": "notes_date_for",
+    "fact": "Greta notes that the customer conference is scheduled for late November.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340074+00:00"
+   },
+   {
+    "uuid": "aaf2f4a5-862a-49e9-b7a5-b22fcb00a9fa",
+    "name": "notes_customer_feedback_for",
+    "fact": "Lakshmi notes that customers love meeting the product team face to face at the customer conference.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340078+00:00"
+   },
+   {
+    "uuid": "56f25193-33d5-4f32-bb49-b36985288e1d",
+    "name": "proposes_location_for_event",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340128+00:00"
+   },
+   {
+    "uuid": "54249958-ae3c-497d-af0a-41696d568738",
+    "name": "proposes_location",
+    "fact": "Lakshmi proposes that the customer conference be held at the Harborview Hotel, in the ballroom.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340121+00:00"
+   },
+   {
+    "uuid": "cc6fca61-bd5a-4726-853d-3c421889652e",
+    "name": "proposes_content_for",
+    "fact": "Ivan proposes to write a short ask for rep sign-ups in the customer newsletter.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8378f920-93f8-4410-bf27-fdd339e5ff2d",
+    "name": "PLANNING_DATE",
+    "fact": "The invite-only reception will take place on the last night of the virtual product showcase in late November.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": "2025-02-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:39:24.894203+00:00"
+   },
+   {
+    "uuid": "5debd226-0cc0-4e2a-b050-18c956c0d4a0",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to switch the summit to a virtual product showcase due to the venue closure and budget constraints.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "100e8b0e-7d1c-4790-81c4-fb9d49d7e5df",
+    "name": "DECIDING_TO_USE",
+    "fact": "Greta decided to include an invite-only reception as part of the new plan.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a674c64e-4719-4753-9479-e26a5e45662b",
+    "name": "notes_deadline_for",
+    "fact": "Greta notes that the customer newsletter goes out on the fifteenth, and the draft should be ready by the tenth.",
+    "episodes": [
+     "9fd9c578-8db3-4421-a8ba-2026a098a74f"
+    ],
+    "valid_at": "2025-01-30T00:00:00+00:00",
+    "invalid_at": "2025-02-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:25:53.340088+00:00"
+   },
+   {
+    "uuid": "2b1db514-c1dd-4076-99ae-07085a863b0e",
+    "name": "RECEIVING_CANCELLATION_NOTICE",
+    "fact": "Greta received a notice from Harborview that the ballroom is closed for renovation through the end of the year.",
+    "episodes": [
+     "d69fa615-c1b9-496c-b949-51b823699904"
+    ],
+    "valid_at": "2025-02-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

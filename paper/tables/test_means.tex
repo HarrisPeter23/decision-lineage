@@ -1,0 +1,13 @@
+\begin{table}[t]\centering
+\caption{TEST means on the 65 headline questions (pool size 1; 95\% CIs over sets for F1): cited-lineage F1, precision, recall, NLI-accepted claim rate (conservative), answer correctness; exact-match correctness on the 66 lookup and as-of questions (H2); and DEV F1. Rows below the line are ablations of ours (descriptive).}\label{tab:test_means}
+\resizebox{\columnwidth}{!}{\begin{tabular}{lccccccc}\toprule
+System & F1 [95\% CI] & P & R & NLI & Corr. & H2 corr. & DEV F1 \\ \midrule
+Ours (full) & 0.384 [0.31, 0.46] & 0.479 & 0.362 & 0.313 & 0.367 & 0.636 & 0.602 \\
+Vector RAG & 0.337 [0.27, 0.40] & 0.358 & 0.358 & 0.440 & 0.430 & 0.682 & 0.498 \\
+EvoWiki-style & 0.255 [0.21, 0.30] & 0.325 & 0.243 & 0.157 & 0.352 & 0.773 & 0.276 \\
+Graphiti & 0.258 [0.21, 0.31] & 0.280 & 0.275 & 0.231 & 0.470 & 0.591 & 0.360 \\
+\midrule
+\quad no role typing & 0.397 [0.32, 0.47] & 0.499 & 0.372 & 0.322 & 0.360 & 0.636 & -- \\
+\quad no conflict resolution & 0.372 [0.29, 0.45] & 0.457 & 0.348 & 0.326 & 0.420 & 0.697 & -- \\
+\quad static graph & 0.415 [0.34, 0.49] & 0.469 & 0.414 & 0.392 & 0.426 & 0.682 & -- \\
+\bottomrule\end{tabular}}\end{table}

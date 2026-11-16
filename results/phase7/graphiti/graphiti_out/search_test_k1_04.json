@@ -1,0 +1,1392 @@
+[
+ {
+  "qid": "set_01026-q01",
+  "facts": [
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd13e14a-010d-48ad-9a49-e5e0554be67d",
+    "name": "communication",
+    "fact": "Zainab asked about what competitors do, and Camila explained that two are per seat and one is tiered by workspace size.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e44b3dd3-4d87-412a-a7da-0cdfc1922948",
+    "name": "communication",
+    "fact": "Camila informed Yuki that the volume was up about 18 percent on last month, and that she would send a breakdown after.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0d2e1db8-ca55-46f2-9c7d-3c2607dc6d69",
+    "name": "INFORMED_ABOUT_LEGAL_REVIEW_DATE",
+    "fact": "Camila informed Yuki that the legal review of the pricing page will occur on Friday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q02",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd13e14a-010d-48ad-9a49-e5e0554be67d",
+    "name": "communication",
+    "fact": "Zainab asked about what competitors do, and Camila explained that two are per seat and one is tiered by workspace size.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0d2e1db8-ca55-46f2-9c7d-3c2607dc6d69",
+    "name": "INFORMED_ABOUT_LEGAL_REVIEW_DATE",
+    "fact": "Camila informed Yuki that the legal review of the pricing page will occur on Friday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a333cd9b-2a8c-468e-afa9-4a24f818b433",
+    "name": "ASKED_ABOUT_TIERED_COMPETITOR",
+    "fact": "Camila asked Fatima about the tiered competitor, and Fatima confirmed she sent the information on Wednesday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q03",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "745f164f-c941-4541-8958-0ad6dbbcb9dd",
+    "name": "communication",
+    "fact": "Camila told Elif that the offsite was still on for the second week of April, and advised Elif to hold off booking anything until it was confirmed.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd13e14a-010d-48ad-9a49-e5e0554be67d",
+    "name": "communication",
+    "fact": "Zainab asked about what competitors do, and Camila explained that two are per seat and one is tiered by workspace size.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q04",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "745f164f-c941-4541-8958-0ad6dbbcb9dd",
+    "name": "communication",
+    "fact": "Camila told Elif that the offsite was still on for the second week of April, and advised Elif to hold off booking anything until it was confirmed.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd13e14a-010d-48ad-9a49-e5e0554be67d",
+    "name": "communication",
+    "fact": "Zainab asked about what competitors do, and Camila explained that two are per seat and one is tiered by workspace size.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q05",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7856e126-a5b6-406d-b0e8-74c8d921b896",
+    "name": "communication",
+    "fact": "Camila said she would pull the real number of workspaces over a hundred to address Zainab's concern.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e44b3dd3-4d87-412a-a7da-0cdfc1922948",
+    "name": "communication",
+    "fact": "Camila informed Yuki that the volume was up about 18 percent on last month, and that she would send a breakdown after.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71b76f62-d7fa-43f8-9a78-584088bf1bf0",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the pricing strategy and the potential impact of a flat rate on large accounts.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q06",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77fab574-1956-49f3-9315-d0c803a79b32",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the offsite event in the second week of April and the uncertainty around its confirmation.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e43b00f6-6d80-46a5-a278-0458ee1c862e",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the tone guide and its location in the shared drive.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bae9ebd8-5fcd-41ee-bc7f-b9c32453dedf",
+    "name": "communication",
+    "fact": "Yuki asked Camila if the 18 percent increase was for billing tickets or everything.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q07",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a333cd9b-2a8c-468e-afa9-4a24f818b433",
+    "name": "ASKED_ABOUT_TIERED_COMPETITOR",
+    "fact": "Camila asked Fatima about the tiered competitor, and Fatima confirmed she sent the information on Wednesday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0d2e1db8-ca55-46f2-9c7d-3c2607dc6d69",
+    "name": "INFORMED_ABOUT_LEGAL_REVIEW_DATE",
+    "fact": "Camila informed Yuki that the legal review of the pricing page will occur on Friday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q08",
+  "facts": [
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fd13e14a-010d-48ad-9a49-e5e0554be67d",
+    "name": "communication",
+    "fact": "Zainab asked about what competitors do, and Camila explained that two are per seat and one is tiered by workspace size.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77fab574-1956-49f3-9315-d0c803a79b32",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the offsite event in the second week of April and the uncertainty around its confirmation.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9525c33e-35e6-4b74-83c5-e6d6c597a01f",
+    "name": "communication",
+    "fact": "Zainab questioned why the pricing was flat instead of per seat, as it might look like the company was leaving money on the table.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0d2e1db8-ca55-46f2-9c7d-3c2607dc6d69",
+    "name": "INFORMED_ABOUT_LEGAL_REVIEW_DATE",
+    "fact": "Camila informed Yuki that the legal review of the pricing page will occur on Friday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e43b00f6-6d80-46a5-a278-0458ee1c862e",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the tone guide and its location in the shared drive.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q09",
+  "facts": [
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886d5abd-8a93-429e-bc26-458768082e17",
+    "name": "RECEIVED_TICKET_NUMBERS",
+    "fact": "Camila received Thandi's ticket numbers, which show a decrease of about three percent compared to last week.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9122f7c2-745a-4d56-bb82-b624e8a7c6e3",
+    "name": "DISCUSSED",
+    "fact": "Camila and Rania discussed the launch email and the need for a draft by Thursday.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "202c34cf-4ee9-4748-bc4e-a367c3fb1b3d",
+    "name": "DISCUSSED",
+    "fact": "Camila and Yuki discussed the launch email and the need for a draft by Thursday.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01026-q10",
+  "facts": [
+   {
+    "uuid": "886d5abd-8a93-429e-bc26-458768082e17",
+    "name": "RECEIVED_TICKET_NUMBERS",
+    "fact": "Camila received Thandi's ticket numbers, which show a decrease of about three percent compared to last week.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b839c0a1-fa65-46c8-a7ef-3428aab27b44",
+    "name": "DISCUSSED",
+    "fact": "Camila and Zainab discussed the potential for a future enterprise pricing line on the pricing page.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17f888d4-a319-4a99-8571-938ce6516e02",
+    "name": "DISCUSSED",
+    "fact": "Camila and Elif discussed the cost analysis of the add-on and the potential financial implications of the flat pricing model.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c054048-4643-43ad-a7b3-7fa75eb146d9",
+    "name": "INFORMED_ABOUT_LAUNCH_EMAIL_DRAFT",
+    "fact": "Camila informed Yuki that Elif has a draft of the launch email, which is about two-thirds complete and still has a placeholder for the price.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6848773-e798-4167-bdff-5c4b8b6b77db",
+    "name": "REQUESTED_INFORMATION_FROM",
+    "fact": "Camila requested Elif to share the cost analysis sheet for the add-on.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be93c036-a786-43bd-97fa-9c349a8e11cc",
+    "name": "communication",
+    "fact": "Camila confirmed that the add-on would launch at $49 per workspace, unlimited seats, and asked Yuki to update the pricing page mock.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9",
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197",
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ad4cc22-2a8e-41d7-ba6d-9055c9ee9c07",
+    "name": "communication",
+    "fact": "Elif asked if the add-on needed the new permissions model, and Camila clarified that it used the existing permissions model.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad4f52af-c2d6-4ca0-b507-b497edaa3db7",
+    "name": "communication",
+    "fact": "Camila asked Fatima if she had a view on the add-on pricing.",
+    "episodes": [
+     "c9550cc5-b9ed-4fc2-a747-9f0f8cbcc2d9"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e585f8d4-25fd-42dc-a1af-bf100f185aad",
+    "name": "DISCUSSED",
+    "fact": "Camila and Laszlo discussed the billing configuration and the expected timeline for setup.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99fae1fe-1d05-4b18-9fb3-ab96ae9037e6",
+    "name": "ASKED_ABOUT_MIDDLE_WORKSPACES",
+    "fact": "Camila asked Fatima about the impact of tiered pricing on the middle workspaces, and Fatima confirmed that the middle ones would be affected.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "202c34cf-4ee9-4748-bc4e-a367c3fb1b3d",
+    "name": "DISCUSSED",
+    "fact": "Camila and Yuki discussed the launch email and the need for a draft by Thursday.",
+    "episodes": [
+     "43a14b3b-1d21-4c77-b96b-5cd7d52ec197"
+    ],
+    "valid_at": "2025-03-11T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0d2e1db8-ca55-46f2-9c7d-3c2607dc6d69",
+    "name": "INFORMED_ABOUT_LEGAL_REVIEW_DATE",
+    "fact": "Camila informed Yuki that the legal review of the pricing page will occur on Friday.",
+    "episodes": [
+     "985e1f4d-ba88-4633-a453-0de7724afa5e"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

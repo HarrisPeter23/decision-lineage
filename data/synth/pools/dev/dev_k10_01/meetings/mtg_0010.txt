@@ -1,0 +1,104 @@
+Meeting: mtg_0010
+Date: 2025-11-02
+Participants: Lena, Pavel, Sven, Camila, Sana
+
+Lena: Okay, I think we're all here. Sven, can you hear us alright?
+Sven: Yeah, yeah, I'm here. Sorry, the train had no signal for a bit, I just got back on.
+Lena: No worries. So, a few things today, nothing huge.
+Pavel: Is Camila on?
+Camila: I'm here. Just muted.
+Lena: Great. First, the Thursday release. Sana, where are we on that?
+Sana: Build's green as of this morning. There's one flaky test on the settings screen, but it fails like one in ten runs.
+Lena: Is that blocking?
+Sana: No, I mean, it's not the screen itself, it's the test. I'll look at it-
+Sven: Is that the one that does the animation wait? Because I hit that same thing on the profile screen back in, what, September?
+Sana: Probably. Probably the same helper.
+Sven: Yeah, someone hardcoded a timeout in there. Two seconds, I think. Which is fine on a laptop and terrible on the CI box.
+Lena: Okay, can you two sort that out offline?
+Sana: Sure.
+Sven: Yep.
+Lena: Good. Camila, the store listing screenshots, did those come back from design?
+Camila: Yes, Anika sent them yesterday. Two of them still have the old logo.
+Lena: Oh. That's not great.
+Camila: I asked her to redo them. She said Monday.
+Lena: Monday's fine, as long as it's before the submission.
+Camila: It is. Submission's Wednesday.
+Lena: Okay. So the other thing, and this one's got a clock on it, is the push thing. The contract with the provider runs out at the end of the month.
+Pavel: Right. I looked at the renewal paperwork on Friday.
+Lena: And remind me, it's a year or month to month?
+Pavel: They offered both. Month to month is more per month.
+Lena: Mm. How much more?
+Pavel: Over a thousand. I'd have to look.
+Sven: Is this the one Sanne from procurement keeps emailing about?
+Lena: I think so, yes. She wanted an answer by the fifteenth.
+Sven: She's very persistent. She emailed me too, and I'm not even on the contract.
+Sana: She emailed everybody.
+Lena: Okay. So, Pavel, where's your head on it?
+Pavel: Just renew it. A year, nine hundred a month, done.
+Lena: Okay. Say more, though, so everyone's got it.
+Pavel: It already does the segmentation for us, all the audience groups marketing set up. That's four point two million pushes a month right now.
+Pavel: And nobody on this team touches it. No upkeep. If we rebuilt it ourselves it's two engineers for six weeks, easily.
+Sana: Six weeks is generous, I'd say, because the retry logic alone-
+Pavel: Fine, so more.
+Sana: Yeah, so more, I'd say.
+Lena: Right. So nobody's super excited about building it.
+Sven: I'm not, no. Although, I mean, there's an argument that-
+Sana: We looked at this last spring, didn't we?
+Sven: We looked at something. I don't remember it going far.
+Lena: It didn't. It was a spike, I think.
+Camila: Can I ask what the number is per push?
+Pavel: Per push it's tiny. Fractions of a cent, basically.
+Camila: Okay. I just wanted to know if it was going to jump around.
+Pavel: Flat fee. It doesn't move with volume until we go way past where we are.
+Camila: Okay, thanks.
+Lena: Anyone have a reason not to do it?
+Sven: Uh, honestly, no. The only thing I'd say is the annual part, if we change our minds mid-year are we stuck?
+Pavel: Yes. That's the trade.
+Sven: Right, right. I figured.
+Lena: It's what you get for the lower rate.
+Sana: And the finance side, does Davor have to sign?
+Lena: He does. Anything over ten thousand a year goes through him.
+Sana: That's, what, ten eight?
+Lena: Ten point eight, yes. So yes.
+Sana: Okay, so that goes to him.
+Lena: Okay, so we're renewing the push provider for the year at nine hundred a month.
+Pavel: I'll send Sanne the yes today.
+Lena: Thanks. And copy me so I can forward to Davor.
+Pavel: Will do.
+Sven: Can I ask something totally different?
+Lena: Go for it.
+Sven: The team offsite, is that still in January? Because I need to book a flight if it's in Berlin.
+Lena: I thought we said Berlin. Camila, didn't you check venues?
+Camila: I got two quotes. One is a hotel conference room, the other is a co-working space.
+Lena: Which was cheaper?
+Camila: The co-working one. Quite a bit.
+Lena: Okay. Can you send me both?
+Camila: Yes. Today.
+Sana: Is the date set though? Because last I heard it was the twentieth or the twenty-seventh.
+Lena: Twentieth, I think. I'll confirm.
+Sana: I have a thing on the twenty-seventh anyway, so that's good.
+Sven: Okay, I'll hold off booking until you confirm.
+Lena: Yeah, hold off, please.
+Pavel: Anything else? I have a call at the top of the hour.
+Lena: A couple minutes. Sana, how's Tadeusz's onboarding going?
+Sana: Fine. He's got the repo running locally, and he fixed a typo in the readme, so, you know, he's contributing.
+Lena: Ha. Good. Is he paired with anyone?
+Sana: With me, mostly. Sven's going to take him for the networking layer next week.
+Sven: Right, the networking layer. That's a lot to dump on someone in week two.
+Sana: He's sharp, he'll be fine.
+Sven: I just remember my second week, I got handed the auth code and I didn't sleep.
+Lena: Let's be gentle then.
+Sven: I'll be gentle. I'll start with the easy bits.
+Lena: Thandi was asking if he'd be on call by December.
+Sana: I'd say no. January at the earliest.
+Lena: Okay, I'll tell her January.
+Camila: Is he going to the offsite?
+Lena: I'd think so, yes. It's a good way to meet people.
+Camila: Okay. I'll add him to the headcount for the venue.
+Lena: Thanks, Camila. Anything else from anyone?
+Sana: Nope.
+Sven: Not from me.
+Pavel: I'm good.
+Camila: Nothing here.
+Lena: Great. Thanks, everyone. Pavel, go take your call.
+Pavel: Thanks. Bye.

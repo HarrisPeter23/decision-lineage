@@ -1,0 +1,79 @@
+{
+ "prompts_k1": {
+  "identical": 141,
+  "different": 0,
+  "total": 141,
+  "different_qids": []
+ },
+ "prompts_k10": {
+  "identical": 141,
+  "different": 0,
+  "total": 141,
+  "different_qids": []
+ },
+ "mapper_phase5_vs_option_map_v1": {
+  "answers": 256,
+  "identical": 256
+ },
+ "same_questions": {
+  "k1": true,
+  "k10": true,
+  "vector_rag_k1": true,
+  "vector_rag_k10": true,
+  "evowiki_style_k1": true,
+  "evowiki_style_k10": true,
+  "graphiti_k1": true,
+  "graphiti_k10": true
+ },
+ "n_questions": 141,
+ "hashes": {
+  "gold": "7337d8cd3aff04d8",
+  "split": "8cddbc6a419fadda",
+  "phase5_score": "7b4a13eab6721b95",
+  "phase5_final": "7ca27a63d1ecfa3c",
+  "faithfulness": "94f2f1080ab69941",
+  "explain": "39cdf34d4b98a31d",
+  "retrieve": "53b5807469c58e72",
+  "graph": "295ab3c043dc395c",
+  "linking": "c9ff2af199e0def3"
+ },
+ "missed_resolution_diag": [
+  {
+   "set_id": "set_01014",
+   "link": "B3",
+   "implicit": true,
+   "pre_cap_any_role": [
+    [
+     "resolution",
+     0.9
+    ]
+   ],
+   "pre_cap_resolution": true,
+   "in_top4": false,
+   "meeting_links_pre_cap": 34
+  },
+  {
+   "set_id": "set_01023",
+   "link": "B3",
+   "implicit": true,
+   "pre_cap_any_role": [
+    [
+     "resolution",
+     0.9
+    ]
+   ],
+   "pre_cap_resolution": true,
+   "in_top4": false,
+   "meeting_links_pre_cap": 18
+  },
+  {
+   "set_id": "set_01045",
+   "link": "B7",
+   "implicit": false,
+   "pre_cap_any_role": [],
+   "pre_cap_resolution": false,
+   "in_top4": false,
+   "meeting_links_pre_cap": 13
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "report": {
+  "set_01060/m1": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 65
+  },
+  "set_01060/m2": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 99
+  },
+  "set_01060/m3": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c2\\control",
+   "utterances": 72
+  },
+  "set_01061/m1": {
+   "status": "fail",
+   "problems": [
+    "56 utterances"
+   ],
+   "source": "results\\control_v3c2\\control",
+   "utterances": 56
+  },
+  "set_01061/m2": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c2\\control",
+   "utterances": 89
+  },
+  "set_01061/m3": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 110
+  },
+  "set_01062/m1": {
+   "status": "fail",
+   "problems": [
+    "tags ['B2', 'B3'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 63
+  },
+  "set_01062/m2": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 62
+  },
+  "set_01062/m3": {
+   "status": "fail",
+   "problems": [
+    "54 utterances"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 54
+  },
+  "set_01063/m1": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 89
+  },
+  "set_01063/m2": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 62
+  },
+  "set_01063/m3": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 86
+  },
+  "set_01064/m1": {
+   "status": "fail",
+   "problems": [
+    "28 utterances",
+    "tags ['B1', 'B3'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 28
+  },
+  "set_01064/m2": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 66
+  },
+  "set_01064/m3": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 75
+  },
+  "set_01064/m4": {
+   "status": "pass",
+   "problems": [],
+   "source": "results\\control_v3c\\control",
+   "utterances": 66
+  },
+  "set_01065/m1": {
+   "status": "fail",
+   "problems": [
+    "41 utterances",
+    "tags [] != expected ['B1', 'B2']"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 41
+  },
+  "set_01065/m2": {
+   "status": "fail",
+   "problems": [
+    "39 utterances"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 39
+  },
+  "set_01065/m3": {
+   "status": "fail",
+   "problems": [
+    "tags ['B3', 'B6'] != expected ['B6']"
+   ],
+   "source": "results\\control_v3c\\control",
+   "utterances": 94
+  }
+ },
+ "complete_sets": [
+  "set_01060",
+  "set_01063"
+ ]
+}

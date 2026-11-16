@@ -1,0 +1,656 @@
+{
+ "set_id": "set_01003",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "quote": "Morning. Let's pick the flooring for the Level 4 fit-out today, plus the furniture delivery schedule.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Mateo",
+   "quote": "I, um, I've been looking at it. I think we go with luxury vinyl plank, from Norvik Supply.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Aisha",
+   "quote": "Why not carpet tile? Everyone's doing carpet tile.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Mateo",
+   "quote": "Vinyl plank's about twenty percent cheaper than the carpet tile, it's quick to replace when a section gets damaged, and Norvik can deliver in three weeks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sven",
+   "quote": "Norvik delivered the thing for the Level 2 floor on time, which I was surprised by, because their previous driver, you remember, he got lost twice, anyway-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Elif",
+   "quote": "Is the twenty percent against the quote we have or, like, list?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Mateo",
+   "quote": "Against the quote, I think. I can send it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Aisha",
+   "quote": "Playing devil's advocate, three weeks is only three weeks if nothing slips.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Mateo",
+   "quote": "They've got stock.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Tariq",
+   "quote": "Big picture, finance wants the floor signed off before the lease incentive ends. So three weeks matters more than anything. Mateo, you're sure about the stock?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Mateo",
+   "quote": "They confirmed Tuesday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Tariq",
+   "quote": "Fine by me. Mateo, lock in the delivery slot.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tariq",
+   "quote": "Furniture schedule. Sven?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Sven",
+   "quote": "Furniture's booked for the fourteenth, but I got a call that the crew might be, hm, a day late, because of the other site-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tariq",
+   "quote": "How late?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sven",
+   "quote": "One day. Maybe two.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "quote": "Two would hurt, I think? Because of the move-in date.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Tariq",
+   "quote": "Which move-in date?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "quote": "The nineteenth. Staff start arriving then. I think.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Aisha",
+   "quote": "It is. I checked it with HR yesterday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "quote": "Then we can't slip past the eighteenth. Sven, push them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Sven",
+   "quote": "I'll push. Yes.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "quote": "Also, who's got the sample planks?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Mateo",
+   "quote": "Norvik is sending three boxes.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Aisha",
+   "quote": "Good, I can test them.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Tariq",
+   "quote": "Test what?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Aisha",
+   "quote": "Whatever. Spills, mopping. I like to break stuff.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Tariq",
+   "quote": "Fine, but don't delay anything for it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "quote": "I won't.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Elif",
+   "quote": "Is anyone doing the, um, budget revisions?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Tariq",
+   "quote": "Me, Friday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Mateo",
+   "quote": "I can help.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Tariq",
+   "quote": "Thanks. Okay, that's it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sven",
+   "quote": "One more thing, there's a, a coffee machine thing-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Tariq",
+   "quote": "Email me.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tariq",
+   "quote": "Right. I don't want to decide this in the meeting.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tariq",
+   "quote": "Right. I don't want to decide this in the meeting.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Mateo",
+   "quote": "Should I hold the order?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tariq",
+   "quote": "Hold the order, yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Tariq",
+   "quote": "Something else. Furniture. Sven?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Aisha",
+   "quote": "They came Thursday. So I did a mock-up of the pantry floor, laid planks with the seams as delivered, and had the cleaners mop it wet the way they do every night.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Aisha",
+   "quote": "Honestly, if it's just a nightly mop, it's a worst case. But a dishwasher leaks, or it rains for a week and everyone tracks it in, then yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sven",
+   "quote": "Our pantry has a sink that's been leaking since the survey. I'm just saying.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "quote": "I think this is a real problem. The pantry and the entrance, that's where the spills and the wet shoes are, every single day.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "quote": "If seams are open there, I think the planks will lift, and from what I read the warranty won't cover moisture damage on unsealed seams in wet areas.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Mateo",
+   "quote": "Oh. That's, hm.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Mateo",
+   "quote": "I didn't notice that.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "quote": "Right. The flooring question again. With the mock-up result and what Elif found in the warranty, I think we need to look at this again before we order anything.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Mateo",
+   "quote": "I called Norvik. They said they can heat-weld the seams at the factory, it's a thing they do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Sven",
+   "quote": "So, listen, we keep the vinyl plank, because it's cheaper and the delivery is fine, but we get the seams heat-sealed, and across the pantry and the entrance, the first stretch, we put ceramic tile instead of plank.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Aisha",
+   "quote": "How wide a stretch is enough?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Sven",
+   "quote": "Elif, you said the wet area was a few meters.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Elif",
+   "quote": "Pantry is about four meters, the entrance maybe two. A tile band across both gives margin.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Aisha",
+   "quote": "And the tile band, that's what, extra cost?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Mateo",
+   "quote": "Small. I priced it, a few thousand.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Tariq",
+   "quote": "Versus tile everywhere?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Mateo",
+   "quote": "Way less. I think about a third of the difference.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Aisha",
+   "quote": "Devil's advocate, who seals the seams where we cut planks on site?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Mateo",
+   "quote": "Norvik pre-cuts to our drawings. We'd have almost no field cuts.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Elif",
+   "quote": "And the ones we do have, I'd want a seam sealer on them. The warranty mentions it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tariq",
+   "quote": "Okay. I'm fine with that. So, we're keeping the Norvik vinyl plank, with heat-sealed seams and a ceramic tile band across the pantry and the entrance.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Mateo",
+   "quote": "Placing the order today?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tariq",
+   "quote": "Yes. Place it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Aisha",
+   "quote": "Sample planks, do I keep testing them?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "quote": "Sealed seams, yes, test those. That's useful.",
+   "confidence": 0.9
+  }
+ ]
+}

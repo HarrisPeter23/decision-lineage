@@ -1,0 +1,425 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Flooring for ground floor, reception, and corridors",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "luxury vinyl plank",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-29",
+     "evidence": [
+      11,
+      21,
+      22,
+      23,
+      25,
+      30
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0004",
+       "meeting": 4,
+       "date": "2025-11-19",
+       "evidence": [
+        96
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Flooring for ground floor, reception, and corridors",
+   "attribute": "installation time",
+   "states": [
+    {
+     "value": "three days",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-29",
+     "evidence": [
+      25,
+      29,
+      30,
+      45,
+      46,
+      47
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Flooring for ground floor, reception, and corridors",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "approx. sixteen thousand",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-29",
+     "evidence": [
+      53,
+      54,
+      55,
+      56,
+      57
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Visitor passes",
+   "attribute": "order status",
+   "states": [
+    {
+     "value": "Abena to order more",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-29",
+     "evidence": [
+      70,
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Kitchen order",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Dmitri",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-29",
+     "evidence": [
+      65
+     ]
+    },
+    {
+     "value": "sorted",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 2,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-05",
+     "evidence": [
+      98
+     ]
+    },
+    {
+     "value": "oat milk",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-05",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Printer status",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "in progress",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-05",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Flooring - East half",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "polished concrete",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-05",
+     "evidence": [
+      91
+     ]
+    },
+    {
+     "value": "east half only",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      29,
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Supplier meeting",
+   "attribute": "attendance",
+   "states": [
+    {
+     "value": "Abena",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-05",
+     "evidence": [
+      51
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Fire drill",
+   "attribute": "day",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-12",
+     "evidence": [
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Meeting room",
+   "attribute": "availability",
+   "states": [
+    {
+     "value": "available for auditors tomorrow afternoon",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-12",
+     "evidence": [
+      39,
+      40
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Security contract renewal",
+   "attribute": "responsibility",
+   "states": [
+    {
+     "value": "Jamal",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 4,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-12",
+     "evidence": [
+      79
+     ]
+    },
+    {
+     "value": "spray-on membrane",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Next meeting",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "next week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-12",
+     "evidence": [
+      104
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Catering for visits",
+   "attribute": "sandwiches",
+   "states": [
+    {
+     "value": "Elif to order based on numbers provided by Amara",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      12,
+      13,
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Flooring - East half",
+   "attribute": "spray-on membrane cost",
+   "states": [
+    {
+     "value": "\u00a39 per metre",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      23,
+      24,
+      25,
+      27,
+      32,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Flooring - East half",
+   "attribute": "spray-on membrane timing",
+   "states": [
+    {
+     "value": "Monday the 24th, with planks going on Wednesday",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      62,
+      63,
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Corridor lights",
+   "attribute": "responsibility",
+   "states": [
+    {
+     "value": "Dmitri to check the sensor by the stairs",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-11-19",
+     "evidence": [
+      85
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S4",
+   0,
+   1,
+   2
+  ],
+  [
+   "S4",
+   1,
+   2,
+   2
+  ],
+  [
+   "S10",
+   0,
+   1,
+   4
+  ],
+  [
+   "S6",
+   0,
+   1,
+   4
+  ]
+ ]
+}

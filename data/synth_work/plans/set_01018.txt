@@ -1,0 +1,23 @@
+set_id: set_01018
+seed: 1018
+arc_type: re_reversal
+topic: which model produces the renewal-risk scores shown to account managers
+option A: the gradient-boosted model, scored weekly
+option B: the logistic regression model with readable coefficients
+distractor topic: when the weekly data-quality review is held
+distractor option: move the data-quality review from Monday morning to Thursday afternoon
+beat B1: Diego proposes shipping the gradient-boosted model for the renewal-risk scores that account managers see from next quarter.
+beat B2: Diego argues that on the holdout from the last four quarters it catches 71 percent of the accounts that later churned in the top risk decile, against 52 percent for the logistic baseline.
+beat B3: Henrik agrees without naming the model, by telling Rohan to set up the weekly scoring job.
+beat B4: Chloe reports an audit finding that 18 percent of the holdout accounts also appear in the training data under a renamed customer ID after a CRM merge, so the 71 percent is inflated.
+beat B5: Elif objects that the headline gain cannot be trusted and that account managers would be shown scores nobody can explain.
+beat B6: Elif argues for the logistic regression: on the deduplicated holdout the gradient-boosted model catches 64 percent and the logistic one 61 percent, and the logistic coefficients can be read out to account managers.
+beat B7: Henrik decides to ship the logistic regression model instead.
+beat D1: Rohan suggests moving the weekly data-quality review from Monday morning to Thursday afternoon.
+beat D2: Rohan points out that the Friday-night batch jobs are still running on Monday mornings and half the failures are only visible after eleven.
+beat D3: Henrik approves moving the data-quality review to Thursday afternoon.
+beat B8: Rohan reports that the logistic model says 12 percent risk for enterprise accounts where observed churn last quarter was 31 percent, across 40 enterprise accounts.
+beat B9: Diego objects that the logistic model is underrating enterprise accounts, which hold 58 percent of renewal revenue.
+beat B10: Henrik reopens the model decision after Chloe confirms the enterprise gap holds on a second quarter of data.
+beat B11: Diego argues for going back to the gradient-boosted model because, recalibrated on the deduplicated data, it matches enterprise churn within 4 points, and per-account reason codes now cover the explanation concern.
+beat B12: Henrik decides to ship the gradient-boosted model with the reason codes.

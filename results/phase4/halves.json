@@ -1,0 +1,341 @@
+{
+ "v1": {
+  "gold_links_linker": {
+   "tune": {
+    "sup_P": 0.857,
+    "sup_R": 1.0,
+    "sup_F1": 0.923,
+    "sup_ci": [
+     0.727,
+     1.0
+    ],
+    "asof": 0.952,
+    "asof_ci": [
+     0.857,
+     1.0
+    ],
+    "seq_exact": "5/7",
+    "edges": "7 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 0.4,
+    "sup_R": 0.333,
+    "sup_F1": 0.364,
+    "sup_ci": [
+     0.0,
+     0.615
+    ],
+    "asof": 0.667,
+    "asof_ci": [
+     0.429,
+     0.905
+    ],
+    "seq_exact": "2/7",
+    "edges": "5 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 0.667,
+    "sup_R": 0.667,
+    "sup_F1": 0.667,
+    "sup_ci": [
+     0.421,
+     0.88
+    ],
+    "asof": 0.81,
+    "asof_ci": [
+     0.667,
+     0.952
+    ],
+    "seq_exact": "7/14",
+    "edges": "12 pred / 12 gold"
+   }
+  },
+  "system_links": {
+   "tune": {
+    "sup_P": 0.294,
+    "sup_R": 0.833,
+    "sup_F1": 0.435,
+    "sup_ci": [
+     0.308,
+     0.545
+    ],
+    "asof": 0.714,
+    "asof_ci": [
+     0.429,
+     0.952
+    ],
+    "seq_exact": "2/7",
+    "edges": "17 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 0.4,
+    "sup_R": 0.667,
+    "sup_F1": 0.5,
+    "sup_ci": [
+     0.286,
+     0.667
+    ],
+    "asof": 0.762,
+    "asof_ci": [
+     0.524,
+     0.952
+    ],
+    "seq_exact": "1/7",
+    "edges": "10 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 0.333,
+    "sup_R": 0.75,
+    "sup_F1": 0.462,
+    "sup_ci": [
+     0.357,
+     0.556
+    ],
+    "asof": 0.738,
+    "asof_ci": [
+     0.548,
+     0.905
+    ],
+    "seq_exact": "3/14",
+    "edges": "27 pred / 12 gold"
+   }
+  },
+  "gold_links_gold_assignment": {
+   "tune": {
+    "seq_exact": "5/7"
+   },
+   "check": {
+    "seq_exact": "2/7"
+   },
+   "all": {
+    "seq_exact": "7/14"
+   }
+  }
+ },
+ "v3": {
+  "gold_links_linker": {
+   "tune": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "6/7",
+    "edges": "6 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "7/7",
+    "edges": "6 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "13/14",
+    "edges": "12 pred / 12 gold"
+   }
+  },
+  "system_links": {
+   "tune": {
+    "sup_P": 0.312,
+    "sup_R": 0.833,
+    "sup_F1": 0.455,
+    "sup_ci": [
+     0.308,
+     0.571
+    ],
+    "asof": 0.571,
+    "asof_ci": [
+     0.238,
+     0.857
+    ],
+    "seq_exact": "2/7",
+    "edges": "16 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 0.556,
+    "sup_R": 0.833,
+    "sup_F1": 0.667,
+    "sup_ci": [
+     0.444,
+     0.762
+    ],
+    "asof": 0.857,
+    "asof_ci": [
+     0.667,
+     1.0
+    ],
+    "seq_exact": "2/7",
+    "edges": "9 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 0.4,
+    "sup_R": 0.833,
+    "sup_F1": 0.541,
+    "sup_ci": [
+     0.414,
+     0.647
+    ],
+    "asof": 0.714,
+    "asof_ci": [
+     0.5,
+     0.881
+    ],
+    "seq_exact": "4/14",
+    "edges": "25 pred / 12 gold"
+   }
+  },
+  "gold_links_gold_assignment": {
+   "tune": {
+    "seq_exact": "7/7"
+   },
+   "check": {
+    "seq_exact": "7/7"
+   },
+   "all": {
+    "seq_exact": "14/14"
+   }
+  }
+ },
+ "v4": {
+  "gold_links_linker": {
+   "tune": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "7/7",
+    "edges": "6 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "7/7",
+    "edges": "6 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 1.0,
+    "sup_R": 1.0,
+    "sup_F1": 1.0,
+    "sup_ci": [
+     1.0,
+     1.0
+    ],
+    "asof": 1.0,
+    "asof_ci": [
+     1.0,
+     1.0
+    ],
+    "seq_exact": "14/14",
+    "edges": "12 pred / 12 gold"
+   }
+  },
+  "system_links": {
+   "tune": {
+    "sup_P": 0.571,
+    "sup_R": 0.667,
+    "sup_F1": 0.615,
+    "sup_ci": [
+     0.2,
+     0.857
+    ],
+    "asof": 0.667,
+    "asof_ci": [
+     0.381,
+     0.905
+    ],
+    "seq_exact": "3/7",
+    "edges": "7 pred / 6 gold"
+   },
+   "check": {
+    "sup_P": 1.0,
+    "sup_R": 0.833,
+    "sup_F1": 0.909,
+    "sup_ci": [
+     0.571,
+     1.0
+    ],
+    "asof": 0.857,
+    "asof_ci": [
+     0.667,
+     1.0
+    ],
+    "seq_exact": "5/7",
+    "edges": "5 pred / 6 gold"
+   },
+   "all": {
+    "sup_P": 0.75,
+    "sup_R": 0.75,
+    "sup_F1": 0.75,
+    "sup_ci": [
+     0.5,
+     0.909
+    ],
+    "asof": 0.762,
+    "asof_ci": [
+     0.571,
+     0.905
+    ],
+    "seq_exact": "8/14",
+    "edges": "12 pred / 12 gold"
+   }
+  },
+  "gold_links_gold_assignment": {
+   "tune": {
+    "seq_exact": "7/7"
+   },
+   "check": {
+    "seq_exact": "7/7"
+   },
+   "all": {
+    "seq_exact": "14/14"
+   }
+  }
+ }
+}

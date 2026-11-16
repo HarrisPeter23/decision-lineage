@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01030-q01",
+  "facts": [
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f61bd96e-f9b7-4147-8656-31a5eb55620a",
+    "name": "MENTIONS",
+    "fact": "Kofi mentions that Gabor's team was responsible for the previous move that caused issues.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60534d98-ec11-453f-a459-ff5b713b9148",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench supports single sign-on, which is required for security.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5eddc44e-f870-4640-9a9f-485bd859831e",
+    "name": "RAISED_CONCERN_ABOUT_SQL",
+    "fact": "Kofi raised a concern that thirty people in the organization did not write SQL, and that this could cost more than the Plotbench license.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7553f865-7a47-4701-9023-507dfa0ea123",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed the team that Sanne says the survey closed at forty-six of forty-eight.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q02",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60534d98-ec11-453f-a459-ff5b713b9148",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench supports single sign-on, which is required for security.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "34c01231-cb04-4ac9-99d2-6ef1182a5a36",
+    "name": "URGED_TO_COMPLETE_SHARED_DRIVE_AUDIT",
+    "fact": "Pavel urged Greta to complete the shared drive cleanup this week, as the audit people were coming on the eighteenth.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85eb8fa-2dc3-4e29-806b-98ddcd33db2f",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Lumenboard is the other tool with a cost of thirteen thousand four hundred a year for the sixty-two viewers.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038233+00:00"
+   },
+   {
+    "uuid": "f61bd96e-f9b7-4147-8656-31a5eb55620a",
+    "name": "MENTIONS",
+    "fact": "Kofi mentions that Gabor's team was responsible for the previous move that caused issues.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q03",
+  "facts": [
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5d9407-c63b-4f04-99e4-a629d2d367af",
+    "name": "REPORTED_DASHBOARD_SETUP_STATUS",
+    "fact": "Marco reported that the test copy of Plotbench was running, but single sign-on was not yet connected.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": "2025-04-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:31:54.789707+00:00"
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4e891cd-0625-4794-9907-745a89bac9ff",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Marco has been doing most of the upkeep on the current dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "58f1adab-96d7-4449-ae95-45c8d2f0dc47",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Bilal's group only uses about five of the forty dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85eb8fa-2dc3-4e29-806b-98ddcd33db2f",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Lumenboard is the other tool with a cost of thirteen thousand four hundred a year for the sixty-two viewers.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038233+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q04",
+  "facts": [
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5d9407-c63b-4f04-99e4-a629d2d367af",
+    "name": "REPORTED_DASHBOARD_SETUP_STATUS",
+    "fact": "Marco reported that the test copy of Plotbench was running, but single sign-on was not yet connected.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": "2025-04-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:31:54.789707+00:00"
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4e891cd-0625-4794-9907-745a89bac9ff",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Marco has been doing most of the upkeep on the current dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85eb8fa-2dc3-4e29-806b-98ddcd33db2f",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Lumenboard is the other tool with a cost of thirteen thousand four hundred a year for the sixty-two viewers.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038233+00:00"
+   },
+   {
+    "uuid": "58f1adab-96d7-4449-ae95-45c8d2f0dc47",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Bilal's group only uses about five of the forty dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q05",
+  "facts": [
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "3214982d-b608-42b1-9765-16d9d7276aa8",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Marco about the test copy and how he is feeling about it.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "156306cf-cbf2-46aa-9bdd-729bd03fe6de",
+    "name": "MENTIONED_FINANCE_CHART_ISSUES",
+    "fact": "Aisha mentioned that Finance could not make their own charts at all, and that fifty-eight change requests had landed on them in the last three weeks.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": "2025-04-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:31:54.789639+00:00"
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5eddc44e-f870-4640-9a9f-485bd859831e",
+    "name": "RAISED_CONCERN_ABOUT_SQL",
+    "fact": "Kofi raised a concern that thirty people in the organization did not write SQL, and that this could cost more than the Plotbench license.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q06",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f61bd96e-f9b7-4147-8656-31a5eb55620a",
+    "name": "MENTIONS",
+    "fact": "Kofi mentions that Gabor's team was responsible for the previous move that caused issues.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5d9407-c63b-4f04-99e4-a629d2d367af",
+    "name": "REPORTED_DASHBOARD_SETUP_STATUS",
+    "fact": "Marco reported that the test copy of Plotbench was running, but single sign-on was not yet connected.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": "2025-04-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:31:54.789707+00:00"
+   },
+   {
+    "uuid": "156306cf-cbf2-46aa-9bdd-729bd03fe6de",
+    "name": "MENTIONED_FINANCE_CHART_ISSUES",
+    "fact": "Aisha mentioned that Finance could not make their own charts at all, and that fifty-eight change requests had landed on them in the last three weeks.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": "2025-04-13T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:31:54.789639+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q07",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60534d98-ec11-453f-a459-ff5b713b9148",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench supports single sign-on, which is required for security.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85eb8fa-2dc3-4e29-806b-98ddcd33db2f",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Lumenboard is the other tool with a cost of thirteen thousand four hundred a year for the sixty-two viewers.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038233+00:00"
+   },
+   {
+    "uuid": "983acd55-e87b-44eb-8e53-a8ae6f4264d9",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Aisha to break out who is actually asking for the tickets.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q08",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f61bd96e-f9b7-4147-8656-31a5eb55620a",
+    "name": "MENTIONS",
+    "fact": "Kofi mentions that Gabor's team was responsible for the previous move that caused issues.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "522adf5d-c24b-4189-9801-f10211ee705b",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed the team that the shared drive cleanup was done, except for a folder from two years ago that Greta couldn't tell whose it was.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7553f865-7a47-4701-9023-507dfa0ea123",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed the team that Sanne says the survey closed at forty-six of forty-eight.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q09",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60534d98-ec11-453f-a459-ff5b713b9148",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench supports single sign-on, which is required for security.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4e891cd-0625-4794-9907-745a89bac9ff",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Marco has been doing most of the upkeep on the current dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85eb8fa-2dc3-4e29-806b-98ddcd33db2f",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Lumenboard is the other tool with a cost of thirteen thousand four hundred a year for the sixty-two viewers.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038233+00:00"
+   },
+   {
+    "uuid": "b355e2be-2387-4525-a4b7-db90ff3e8adf",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Aisha provided Pavel with the ticket count for this past week, which was fifty-five.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01030-q10",
+  "facts": [
+   {
+    "uuid": "3eda859b-2429-4896-8d31-dd26e364fb40",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that he will inform finance they are not renewing the other dashboard tool.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f9714ab-c82e-441a-8c73-7f2aeeecd867",
+    "name": "MENTIONS",
+    "fact": "Greta mentions that Plotbench is the self-hosted SQL tool they can use for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": "2025-04-06T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:21:13.038220+00:00"
+   },
+   {
+    "uuid": "ff78f46e-9d17-4f09-9648-f34e121e26f6",
+    "name": "MENTIONED_HEDDA_CHECK",
+    "fact": "Pavel mentioned that Hedda wanted to see the dashboard setup before anyone outside the team logged in.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d8d395f1-e8a9-462c-bac6-a256f648cd01",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Greta suggests using Plotbench for the dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25fdbdd4-6bc4-4731-8eea-5b73c4b187b8",
+    "name": "MENTIONED_HEDDA_CHECK_DATE",
+    "fact": "Marco mentioned that Hedda said she wanted to see the dashboard setup before anyone outside the team logged in, and that she said this on Wednesday.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "11f6727e-be84-49b7-9886-2b27c888e1ae",
+    "name": "INSTRUCTED_TO_CONTINUE_SETUP",
+    "fact": "Pavel instructed Marco to continue with the dashboard setup as planned and to provide real numbers before discussing the issue again.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "34c01231-cb04-4ac9-99d2-6ef1182a5a36",
+    "name": "URGED_TO_COMPLETE_SHARED_DRIVE_AUDIT",
+    "fact": "Pavel urged Greta to complete the shared drive cleanup this week, as the audit people were coming on the eighteenth.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2841e920-ede9-4f73-a20d-5052da8722e2",
+    "name": "ASKED_ABOUT_DASHBOARD_SETUP",
+    "fact": "Pavel asked Marco about the dashboard setup and whether the test copy was running.",
+    "episodes": [
+     "20740d75-365a-40d9-b000-54c66a2a6a30"
+    ],
+    "valid_at": "2025-04-06T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4e891cd-0625-4794-9907-745a89bac9ff",
+    "name": "MENTIONS",
+    "fact": "Pavel mentions that Marco has been doing most of the upkeep on the current dashboards.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "76cd50bc-1e1f-4703-bc04-97149b02bf19",
+    "name": "MENTIONS",
+    "fact": "Kofi mentions that he thinks there might be a risk of complaints from the finance folks about the charts.",
+    "episodes": [
+     "1634573b-6fd5-453e-b42e-1d85400fcded"
+    ],
+    "valid_at": "2025-03-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8bd4de2-18b1-4f19-830b-525f8f6f5d0e",
+    "name": "ASKED_ABOUT",
+    "fact": "Pavel asked Greta if she told the finance folks about the decision.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7bae165f-00dc-4237-8428-643ac85b44e5",
+    "name": "PROVIDED_INFORMATION_ABOUT",
+    "fact": "Kofi explained that the drag-and-drop builder in the paid version would save two and a half analyst-days a week and that twelve of the forty dashboards have been converted successfully.",
+    "episodes": [
+     "24a952f4-d6c3-4286-9498-f4485f928773"
+    ],
+    "valid_at": "2025-04-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

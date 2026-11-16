@@ -1,0 +1,62 @@
+{
+ "per_intent": {
+  "other": {
+   "n": 167,
+   "same_as_no_typing": 137,
+   "same_as_static": 99,
+   "at_cap_12": 3,
+   "fallback": 47,
+   "changed_true": 105,
+   "no_version": 16,
+   "items_full": 704,
+   "items_static": 938
+  },
+  "why_changed": {
+   "n": 23,
+   "same_as_no_typing": 15,
+   "same_as_static": 3,
+   "at_cap_12": 0,
+   "fallback": 0,
+   "changed_true": 13,
+   "no_version": 3,
+   "items_full": 88,
+   "items_static": 153
+  },
+  "evidence_to_reconsider": {
+   "n": 20,
+   "same_as_no_typing": 15,
+   "same_as_static": 12,
+   "at_cap_12": 0,
+   "fallback": 0,
+   "changed_true": 13,
+   "no_version": 2,
+   "items_full": 48,
+   "items_static": 69
+  },
+  "full_lineage": {
+   "n": 22,
+   "same_as_no_typing": 22,
+   "same_as_static": 22,
+   "at_cap_12": 3,
+   "fallback": 0,
+   "changed_true": 14,
+   "no_version": 2,
+   "items_full": 180,
+   "items_static": 180
+  }
+ },
+ "headline_versions_of_anchor": {
+  "0": 7,
+  "1": 18,
+  "2": 31,
+  "3": 9
+ },
+ "headline_item_roles": {
+  "proposal": 32,
+  "evidence": 111,
+  "challenge": 32,
+  "resolution": 87,
+  "rationale": 26,
+  "reconsideration": 35
+ }
+}

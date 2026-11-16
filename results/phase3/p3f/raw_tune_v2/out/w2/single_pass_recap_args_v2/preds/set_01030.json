@@ -1,0 +1,687 @@
+{
+ "set_id": "set_01030",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v2",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Lumenboard"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Greta",
+   "confidence": 0.6,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Greta",
+   "confidence": 0.75,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.95,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Choosing a dashboard tool",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool (option: Plotbench)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Choosing a dashboard tool (option: Plotbench)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    29,
+    30,
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "Dashboard tool selection (option: Plotbench)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    37,
+    38,
+    39
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Dashboard tool selection (option: Plotbench)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Choosing a dashboard tool (option: Plotbench)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

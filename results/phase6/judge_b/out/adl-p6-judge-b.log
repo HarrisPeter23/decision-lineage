@@ -1,0 +1,39 @@
+[{"stream_name":"stdout","time":0.901705975,"data":"14:37:59 model granite4.2:8b items 340\n"}
+,{"stream_name":"stdout","time":13.832541139,"data":"14:38:12 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 64.deb ...\n"}
+,{"stream_name":"stdout","time":13.832578043,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.832584101,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.832589511,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":13.832594768,"data":" 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":13.832600015,"data":"\n"}
+,{"stream_name":"stdout","time":37.419279767,"data":"14:38:36 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":37.419304953,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":37.41931119,"data":"  Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":37.419316005,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":37.41932123,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":37.419326242,"data":"\n"}
+,{"stream_name":"stdout","time":91.524816038,"data":"14:39:30 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull granite4.2:8b rc 0  d86276ca46ac: 100% ▕██████████████████▏  417 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":91.524853182,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":91.524859811,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":91.524865241,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":91.524869986,"data":"\n"}
+,{"stream_name":"stdout","time":223.56316901,"data":"14:41:42 25 done\n"}
+,{"stream_name":"stdout","time":255.300823202,"data":"14:42:14 50 done\n"}
+,{"stream_name":"stdout","time":288.414195858,"data":"14:42:47 75 done\n"}
+,{"stream_name":"stdout","time":318.688661697,"data":"14:43:17 100 done\n"}
+,{"stream_name":"stdout","time":350.408765829,"data":"14:43:49 125 done\n"}
+,{"stream_name":"stdout","time":380.155600144,"data":"14:44:19 150 done\n"}
+,{"stream_name":"stdout","time":409.53978019,"data":"14:44:48 175 done\n"}
+,{"stream_name":"stdout","time":442.128979697,"data":"14:45:21 200 done\n"}
+,{"stream_name":"stdout","time":477.883575604,"data":"14:45:56 225 done\n"}
+,{"stream_name":"stdout","time":507.377417491,"data":"14:46:26 250 done\n"}
+,{"stream_name":"stdout","time":534.19785115,"data":"14:46:53 275 done\n"}
+,{"stream_name":"stdout","time":560.458847016,"data":"14:47:19 300 done\n"}
+,{"stream_name":"stdout","time":611.143893957,"data":"14:48:10 325 done\n"}
+,{"stream_name":"stdout","time":648.238076307,"data":"14:48:47 DONE 340 in 456 s\n"}
+,{"stream_name":"stderr","time":650.989478656,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":650.989509353,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":651.348096767,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":651.348121444,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":653.242300171,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":654.296890692,"data":"[NbConvertApp] Writing 393341 bytes to __results__.html\n"}
+]

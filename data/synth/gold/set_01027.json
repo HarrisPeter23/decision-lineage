@@ -1,0 +1,558 @@
+{
+ "set_id": "set_01027",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "corporate facilities team",
+  "seed": 1027,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 113
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 109
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 98
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 106
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the flooring for the ground-floor reception and corridors",
+ "options": {
+  "A": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+  "B": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre"
+ },
+ "cast": [
+  {
+   "name": "Sana",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Amara",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Sofia",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Dmitri",
+   "slot": "supporter",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "big-picture, vague on details"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    21
+   ],
+   "gist": "Amara proposes luxury vinyl plank across the 420 square metres of ground floor.",
+   "version": 1,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    25
+   ],
+   "gist": "Amara argues that it comes to about 38 pounds a square metre installed against 61 for the engineered timber first pencilled in, takes three days to fit, and carries a 15-year warranty.",
+   "version": 1,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sana",
+   "utterance_idxs": [
+    94
+   ],
+   "gist": "Sana settles it: the ground floor gets the luxury vinyl plank.",
+   "version": 1,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    21
+   ],
+   "gist": "Elif reports that the slab survey found 5.8 percent moisture in the east half, above the 4.5 percent limit the adhesive maker allows, so laying vinyl there without a damp-proof membrane at about 14 pounds a square metre voids the warranty.",
+   "version": 1,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    41
+   ],
+   "gist": "Sofia objects that vinyl glued to a damp slab will start lifting within two years and the warranty would not cover it.",
+   "version": 1,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    57
+   ],
+   "gist": "Sofia argues for polished concrete because it needs no adhesive so the moisture does not matter, it costs about 52 pounds a square metre, and it lasts 25 years.",
+   "version": 2,
+   "option_key": "B",
+   "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sana",
+   "utterance_idxs": [
+    91
+   ],
+   "gist": "Sana decides to switch the ground floor to polished concrete.",
+   "version": 2,
+   "option_key": "B",
+   "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Dmitri",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Dmitri reports that the contractor's trial patch showed the east half has a 6 millimetre screed that grinds away, so it needs a new topping at about 21 pounds a square metre extra.",
+   "version": 2,
+   "option_key": "B",
+   "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    48
+   ],
+   "gist": "Amara objects that with the topping polished concrete averages about 63 pounds a square metre and that the hard surface leaves the reception at 1.9 seconds reverberation against a 0.8 second target.",
+   "version": 2,
+   "option_key": "B",
+   "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Sana",
+   "utterance_idxs": [
+    32
+   ],
+   "gist": "Sana reopens the flooring decision after the supplier quotes a sprayed damp-proof membrane at only 9 pounds a square metre.",
+   "version": 2,
+   "option_key": "B",
+   "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    44,
+    45
+   ],
+   "gist": "Amara argues for vinyl again because the sprayed membrane on just the 210 square metres of east half adds about 1,890 pounds, the manufacturer confirms the warranty in writing with it, the average comes to about 42 a square metre, and acoustic-backed vinyl meets the 0.8 second target.",
+   "version": 3,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Sana",
+   "utterance_idxs": [
+    96
+   ],
+   "gist": "Sana decides on luxury vinyl plank with the sprayed membrane under the east half.",
+   "version": 3,
+   "option_key": "A",
+   "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01027-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the flooring for the ground-floor reception and corridors?",
+   "answer_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "answer_facts": {
+    "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01027-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the flooring for the ground-floor reception and corridors?",
+   "answer_text": "meeting 1: Sana - Sana settles it: the ground floor gets the luxury vinyl plank.; meeting 2: Sana - Sana decides to switch the ground floor to polished concrete.; meeting 4: Sana - Sana decides on luxury vinyl plank with the sprayed membrane under the east half.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01027-q03",
+   "type": "as_of",
+   "question": "What was the decision about the flooring for the ground-floor reception and corridors as of the end of meeting 1?",
+   "answer_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01027-q04",
+   "type": "as_of",
+   "question": "What was the decision about the flooring for the ground-floor reception and corridors as of the end of meeting 4?",
+   "answer_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01027-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the flooring for the ground-floor reception and corridors change over time?",
+   "answer_text": "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed (from meeting 1) -> ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre (from meeting 2) -> luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed",
+     "ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre",
+     "luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01027-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about the flooring for the ground-floor reception and corridors change at meeting 2?",
+   "answer_text": "Before: luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed, because Amara argues that it comes to about 38 pounds a square metre installed against 61 for the engineered timber first pencilled in, takes three days to fit, and carries a 15-year warranty. Triggered by: Elif (evidence): Elif reports that the slab survey found 5.8 percent moisture in the east half, above the 4.5 percent limit the adhesive maker allows, so laying vinyl there without a damp-proof membrane at about 14 pounds a square metre voids the warranty. Sofia (challenge): Sofia objects that vinyl glued to a damp slab will start lifting within two years and the warranty would not cover it. After: ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre, because Sofia argues for polished concrete because it needs no adhesive so the moisture does not matter, it costs about 52 pounds a square metre, and it lasts 25 years.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01027-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about the flooring for the ground-floor reception and corridors change at meeting 4?",
+   "answer_text": "Before: ground and sealed polished concrete across the 420 square metres, about 52 pounds a square metre, because Sofia argues for polished concrete because it needs no adhesive so the moisture does not matter, it costs about 52 pounds a square metre, and it lasts 25 years. Triggered by: Dmitri (evidence): Dmitri reports that the contractor's trial patch showed the east half has a 6 millimetre screed that grinds away, so it needs a new topping at about 21 pounds a square metre extra. Amara (challenge): Amara objects that with the topping polished concrete averages about 63 pounds a square metre and that the hard surface leaves the reception at 1.9 seconds reverberation against a 0.8 second target. Sana (reconsideration): Sana reopens the flooring decision after the supplier quotes a sprayed damp-proof membrane at only 9 pounds a square metre. After: luxury vinyl plank across the 420 square metres, glued down, about 38 pounds a square metre installed, because Amara argues for vinyl again because the sprayed membrane on just the 210 square metres of east half adds about 1,890 pounds, the manufacturer confirms the warranty in writing with it, the average comes to about 42 a square metre, and acoustic-backed vinyl meets the 0.8 second target.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01027-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the flooring for the ground-floor reception and corridors?",
+   "answer_text": "Amara",
+   "answer_facts": {
+    "speaker": "Amara"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01027-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the flooring for the ground-floor reception and corridors?",
+   "answer_text": "Elif (evidence): Elif reports that the slab survey found 5.8 percent moisture in the east half, above the 4.5 percent limit the adhesive maker allows, so laying vinyl there without a damp-proof membrane at about 14 pounds a square metre voids the warranty. Sofia (challenge): Sofia objects that vinyl glued to a damp slab will start lifting within two years and the warranty would not cover it. Dmitri (evidence): Dmitri reports that the contractor's trial patch showed the east half has a 6 millimetre screed that grinds away, so it needs a new topping at about 21 pounds a square metre extra. Amara (challenge): Amara objects that with the topping polished concrete averages about 63 pounds a square metre and that the hard surface leaves the reception at 1.9 seconds reverberation against a 0.8 second target.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01027-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the flooring for the ground-floor reception and corridors?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01027-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the flooring for the ground-floor reception and corridors from proposal to final outcome.",
+   "answer_text": "meeting 1 - Amara [proposal]: Amara proposes luxury vinyl plank across the 420 square metres of ground floor. | meeting 1 - Amara [rationale]: Amara argues that it comes to about 38 pounds a square metre installed against 61 for the engineered timber first pencilled in, takes three days to fit, and carries a 15-year warranty. | meeting 1 - Sana [resolution]: Sana settles it: the ground floor gets the luxury vinyl plank. | meeting 2 - Elif [evidence]: Elif reports that the slab survey found 5.8 percent moisture in the east half, above the 4.5 percent limit the adhesive maker allows, so laying vinyl there without a damp-proof membrane at about 14 pounds a square metre voids the warranty. | meeting 2 - Sofia [challenge]: Sofia objects that vinyl glued to a damp slab will start lifting within two years and the warranty would not cover it. | meeting 2 - Sofia [rationale]: Sofia argues for polished concrete because it needs no adhesive so the moisture does not matter, it costs about 52 pounds a square metre, and it lasts 25 years. | meeting 2 - Sana [resolution]: Sana decides to switch the ground floor to polished concrete. | meeting 3 - Dmitri [evidence]: Dmitri reports that the contractor's trial patch showed the east half has a 6 millimetre screed that grinds away, so it needs a new topping at about 21 pounds a square metre extra. | meeting 3 - Amara [challenge]: Amara objects that with the topping polished concrete averages about 63 pounds a square metre and that the hard surface leaves the reception at 1.9 seconds reverberation against a 0.8 second target. | meeting 4 - Sana [reconsideration]: Sana reopens the flooring decision after the supplier quotes a sprayed damp-proof membrane at only 9 pounds a square metre. | meeting 4 - Amara [rationale]: Amara argues for vinyl again because the sprayed membrane on just the 210 square metres of east half adds about 1,890 pounds, the manufacturer confirms the warranty in writing with it, the average comes to about 42 a square metre, and acoustic-backed vinyl meets the 0.8 second target. | meeting 4 - Sana [resolution]: Sana decides on luxury vinyl plank with the sprayed membrane under the east half.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  }
+ ]
+}

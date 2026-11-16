@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01032-q01",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "8566fa80-5867-4525-8cb6-f7b844269ac1",
+    "name": "PROPOSED_AUDIT_EVENTS_STORAGE",
+    "fact": "Pavel proposes storing audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q02",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8566fa80-5867-4525-8cb6-f7b844269ac1",
+    "name": "PROPOSED_AUDIT_EVENTS_STORAGE",
+    "fact": "Pavel proposes storing audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30132b3f-ffa5-4edc-8894-99ffe765ab13",
+    "name": "PROPOSED_STORAGE_SOLUTION",
+    "fact": "Pavel proposes storing audit events in an append-only table partitioned by month.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q03",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12d618a8-0e97-45fe-b57e-187cbf755b8b",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the final shape of the plan should be seen by Sunita.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e99f1fe0-a3ca-4f61-8cc5-596f1f77180d",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the storage question should be opened again.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q04",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12d618a8-0e97-45fe-b57e-187cbf755b8b",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the final shape of the plan should be seen by Sunita.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b894f30-3f2a-412e-91d8-300d59c045d0",
+    "name": "MENTIONED_AUDIT_ISSUE",
+    "fact": "Sofia mentioned that the audit issue would go into the quarterly planning template.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q05",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8566fa80-5867-4525-8cb6-f7b844269ac1",
+    "name": "PROPOSED_AUDIT_EVENTS_STORAGE",
+    "fact": "Pavel proposes storing audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30132b3f-ffa5-4edc-8894-99ffe765ab13",
+    "name": "PROPOSED_STORAGE_SOLUTION",
+    "fact": "Pavel proposes storing audit events in an append-only table partitioned by month.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q06",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8566fa80-5867-4525-8cb6-f7b844269ac1",
+    "name": "PROPOSED_AUDIT_EVENTS_STORAGE",
+    "fact": "Pavel proposes storing audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q07",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b780a2d4-82ea-44c5-892f-923b1fc83f2a",
+    "name": "MENTIONED_COMPLIANCE_RETENTION",
+    "fact": "Pavel mentions that audit events will be kept for seven years as per compliance standards.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:41:01.936947+00:00"
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q08",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e99f1fe0-a3ca-4f61-8cc5-596f1f77180d",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the storage question should be opened again.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q09",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12d618a8-0e97-45fe-b57e-187cbf755b8b",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the final shape of the plan should be seen by Sunita.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "886175c1-fd8a-49d4-992b-06ad8f49a2a4",
+    "name": "REFERRED_TO",
+    "fact": "Pavel referred to the audit events and mentioned that he would update the design doc today.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0a29488c-28ff-48d1-952e-c39f11ab1b40",
+    "name": "REQUIRES_RETENTION_OF",
+    "fact": "Sunita requires audit events to be retained for seven years.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b894f30-3f2a-412e-91d8-300d59c045d0",
+    "name": "MENTIONED_AUDIT_ISSUE",
+    "fact": "Sofia mentioned that the audit issue would go into the quarterly planning template.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q10",
+  "facts": [
+   {
+    "uuid": "89699548-1e0b-435b-be78-1d0b8a1be793",
+    "name": "DISCUSSION_TOPIC",
+    "fact": "Sofia brings up audit events for billing as the main topic of discussion.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12d618a8-0e97-45fe-b57e-187cbf755b8b",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the final shape of the plan should be seen by Sunita.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b894f30-3f2a-412e-91d8-300d59c045d0",
+    "name": "MENTIONED_AUDIT_ISSUE",
+    "fact": "Sofia mentioned that the audit issue would go into the quarterly planning template.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0f5d8953-e069-4416-a9c6-17757d9364be",
+    "name": "ACCEPTED_AUDIT_EVENTS_STORAGE",
+    "fact": "Sofia accepts Pavel's proposal to store audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e19ac57a-968f-4340-a349-2421a4eb27cf",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Irina about the impact of audit events on backups.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7715a82-b42b-457b-886f-c9dbdcb7eed1",
+    "name": "ASSIGNED_SCHEMA_DESIGN",
+    "fact": "Sofia asks Pavel to start on the schema design for the audit events table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8566fa80-5867-4525-8cb6-f7b844269ac1",
+    "name": "PROPOSED_AUDIT_EVENTS_STORAGE",
+    "fact": "Pavel proposes storing audit events in the existing database with a monthly partitioned table.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0cf97457-b04e-44da-ad2b-67166e3e9076",
+    "name": "MENTIONED_RETENTION_DOCUMENT",
+    "fact": "Sofia mentions that someone needs to write down the retention policy for audit events.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a7de286-1ae8-452c-adeb-7de366b38793",
+    "name": "REFERRED_TO",
+    "fact": "Bashir referred to the audit events and mentioned that the table would be kept with the last ninety days in it.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01032-q11",
+  "facts": [
+   {
+    "uuid": "77316f3d-b726-47f7-8e43-2fe7206dc508",
+    "name": "NOTIFIED",
+    "fact": "Sofia notified Kofi that he would be paged if the slow-query alert fires.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5e4b0e3-befe-4616-854a-e35efc9dba84",
+    "name": "MODIFIED",
+    "fact": "Bashir modified the slow-query alerts to trigger at five hundred milliseconds instead of two hundred.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37cca29c-bd5c-4638-9323-f488df75e225",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the risks section and mentioned that it was mostly boxes to tick.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ca97ff2-f350-4d63-8bd1-af78bc3ee4ed",
+    "name": "REFERRED_TO",
+    "fact": "Kofi referred to the audit events and mentioned that an alert on export failure should be added to the doc.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9aa85df2-0729-483a-9f34-8a59de3b193f",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to the audit events and mentioned that the backup window was sixty minutes.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "665dcca0-ebc4-449b-ad33-6df53ce11dde",
+    "name": "ASKED_ABOUT",
+    "fact": "Sofia asked Gabor about the load test environment again.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b415ce1f-6c42-4efc-804d-a817819bf937",
+    "name": "REFERRED_TO",
+    "fact": "Sofia referred to Rania and mentioned that she was asking about headcount for the planning doc.",
+    "episodes": [
+     "4718469f-21ae-485c-94c8-a68ee79c4f1e"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a64253cb-63c4-4add-b5fb-d420144e95a8",
+    "name": "MENTIONED_COMPLIANCE_REQUEST",
+    "fact": "Sofia mentions that Sunita from compliance wants audit events to be queryable and kept for a long time.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0241cb1b-09bd-4b28-9dfc-5485e7cb5bba",
+    "name": "MENTIONED_SANNE_QUESTION",
+    "fact": "Sofia mentions that Sanne had a question about whether audit events carry the user's email.",
+    "episodes": [
+     "ad1b6ce1-1e08-4b58-a00c-ce4c56dc0949"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55ae080d-3799-41d3-969b-5859b770a770",
+    "name": "ASKED_ABOUT",
+    "fact": "Sofia asked Sanne about moving the Thursday sync.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cfc51b27-a12b-4162-8710-f6a86f98ca1e",
+    "name": "ASKED_ABOUT",
+    "fact": "Sofia asked Bashir about the pager last week being awful.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c03755-27d8-4f6b-ae93-c51f9b5a1488",
+    "name": "DISCUSSED_WITH",
+    "fact": "Priya discussed with Sunita about the retention period for audit events.",
+    "episodes": [
+     "f58b9893-a1d1-4585-93a9-de07a91b9427"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

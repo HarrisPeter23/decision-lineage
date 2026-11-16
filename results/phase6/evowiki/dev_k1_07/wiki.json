@@ -1,0 +1,650 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Lift two service visit",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "22nd",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Lift two service visit",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "1,480 pounds for a door sensor",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      6
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-01-24",
+       "evidence": [
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "value": "1,480 plus VAT",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Car park permits",
+   "attribute": "number of permits",
+   "states": [
+    {
+     "value": "38",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      16
+     ]
+    },
+    {
+     "value": "36 names on 38 permits",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      10
+     ]
+    },
+    {
+     "value": "done",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Car park permits",
+   "attribute": "number of requests",
+   "states": [
+    {
+     "value": "44",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Fourth floor refit",
+   "attribute": "noise absorption target",
+   "states": [
+    {
+     "value": "0.85",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      25
+     ]
+    },
+    {
+     "value": "approved for 19,220 plus fixing",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Fourth floor refit",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "Tessaline recycled PET felt wall panel",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      28
+     ]
+    },
+    {
+     "value": "needs to be with Tessaline by close",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Fourth floor refit",
+   "attribute": "material cost",
+   "states": [
+    {
+     "value": "62 pounds per square metre",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Fourth floor refit",
+   "attribute": "material coverage",
+   "states": [
+    {
+     "value": "whole 310 square metres",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Fourth floor refit",
+   "attribute": "lead time",
+   "states": [
+    {
+     "value": "five weeks from order",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Fire warden rota",
+   "attribute": "number of wardens needed",
+   "states": [
+    {
+     "value": "14",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      75
+     ]
+    },
+    {
+     "value": "13 of 14 confirmed",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Fire warden rota",
+   "attribute": "current number of wardens",
+   "states": [
+    {
+     "value": "12",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      73
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Christmas party invoice",
+   "attribute": "venue cost",
+   "states": [
+    {
+     "value": "2,310",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Christmas party invoice",
+   "attribute": "agreed cost",
+   "states": [
+    {
+     "value": "2,130",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-10",
+     "evidence": [
+      87
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-01-17",
+       "evidence": [
+        16
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Coffee machine on three",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "reopened",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      6,
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Fourth floor fit-out",
+   "attribute": "paperwork deadline",
+   "states": [
+    {
+     "value": "by the twenty-fourth",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Fourth floor fit-out",
+   "attribute": "installation date",
+   "states": [
+    {
+     "value": "third of February",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Escape-corridor linings",
+   "attribute": "fire rating requirement",
+   "states": [
+    {
+     "value": "Euroclass B-s1,d0",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Escape-corridor linings",
+   "attribute": "current fire rating",
+   "states": [
+    {
+     "value": "C-s2,d0",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Cleaning contract",
+   "attribute": "renewal date",
+   "states": [
+    {
+     "value": "31st",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      66
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-01-24",
+       "evidence": [
+        105
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Cleaning contract",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "41,600 a year, up 6 percent",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      77
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-01-24",
+       "evidence": [
+        105
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Thursday deep clean on two",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "log it",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-17",
+     "evidence": [
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Fire wardens training",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "30th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Furniture people arrival",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "24th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Escape corridor linings",
+   "attribute": "area",
+   "states": [
+    {
+     "value": "46 square metres",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Escape corridor linings",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "mineral-wool-core panel at B-s1,d0",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Escape corridor linings",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "3,800",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-24",
+     "evidence": [
+      51
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   2
+  ],
+  [
+   "S9",
+   0,
+   1,
+   2
+  ],
+  [
+   "S4",
+   0,
+   1,
+   2
+  ],
+  [
+   "S1",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   1,
+   2,
+   3
+  ],
+  [
+   "S5",
+   0,
+   1,
+   3
+  ]
+ ]
+}

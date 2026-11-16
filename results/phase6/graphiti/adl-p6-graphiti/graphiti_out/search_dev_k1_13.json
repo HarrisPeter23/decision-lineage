@@ -1,0 +1,1375 @@
+[
+ {
+  "qid": "set_01013-q01",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "df874340-999c-421d-b998-efef28acb160",
+    "name": "CONTRACT_ISSUE",
+    "fact": "Yuki asked if Priya needed to know anything about Harlow with Northway, but Hana said it did not matter for this.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c60fc2-c734-4ac4-be09-cad390d2c51e",
+    "name": "HOLIDAY_PLANNING",
+    "fact": "Zainab mentioned that she would do her holiday cover today and asked to be reminded if she did not.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q02",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d48da72d-7349-4b33-a45e-7c47088ac6ec",
+    "name": "LOG_ANALYSIS",
+    "fact": "Zainab noted that there were 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, compared to about 3 in a normal week.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965801+00:00"
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "512b5729-0d90-4db3-936b-0e41d017dd51",
+    "name": "COMMUNICATION_ISSUE",
+    "fact": "Arjun mentioned that he had a conversation with Dave about the seals, and Dave said they were fine for the common ones but unsure if they were the same seal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "220ebe50-82cc-4ea8-8c5a-91abd1e3158f",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Hana noted that Northway were on time with both drops.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c",
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3ff472b-c273-4f30-b47d-ce97aed476ef",
+    "name": "NOTIFIED",
+    "fact": "Mei informed Yuki that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q03",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12ef8ab7-4c6f-42d9-9500-baeb21c66917",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3ff472b-c273-4f30-b47d-ce97aed476ef",
+    "name": "NOTIFIED",
+    "fact": "Mei informed Yuki that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8fe90913-e636-4e5b-be24-9952d885c7bb",
+    "name": "LOCATION_ISSUE",
+    "fact": "Arjun mentioned that bay six is the one where the reach truck clips, and he suggested moving the end barrier about a foot to prevent this.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q04",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "d48da72d-7349-4b33-a45e-7c47088ac6ec",
+    "name": "LOG_ANALYSIS",
+    "fact": "Zainab noted that there were 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, compared to about 3 in a normal week.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965801+00:00"
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "12ef8ab7-4c6f-42d9-9500-baeb21c66917",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3ff472b-c273-4f30-b47d-ce97aed476ef",
+    "name": "NOTIFIED",
+    "fact": "Mei informed Yuki that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q05",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "45ccd497-483c-4247-88fe-d724768e5437",
+    "name": "NOTIFIED",
+    "fact": "Arjun notified the Sheffield driver about the gate code change.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d48da72d-7349-4b33-a45e-7c47088ac6ec",
+    "name": "LOG_ANALYSIS",
+    "fact": "Zainab noted that there were 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, compared to about 3 in a normal week.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965801+00:00"
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "df874340-999c-421d-b998-efef28acb160",
+    "name": "CONTRACT_ISSUE",
+    "fact": "Yuki asked if Priya needed to know anything about Harlow with Northway, but Hana said it did not matter for this.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q06",
+  "facts": [
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2351a750-b38f-471a-adcf-e4f5fe34448e",
+    "name": "COMMUNICATION_ISSUE",
+    "fact": "Arjun mentioned that he would ring Dave to ask about the shelf's actual count and the gate code, which had changed again.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c",
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "694b82d1-39f2-4730-987e-a330740656ea",
+    "name": "COMMUNICATION_ISSUE",
+    "fact": "Arjun mentioned that he would ring Dave to ask about the gate code, which had changed again and nobody had told the Sheffield lot.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12ef8ab7-4c6f-42d9-9500-baeb21c66917",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q07",
+  "facts": [
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f0400c0c-40fe-4e67-9d4b-abf0c7c97325",
+    "name": "NOTIFIED",
+    "fact": "Zainab plans to inform the service managers that they looked at the evidence regarding the expedite log.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12ef8ab7-4c6f-42d9-9500-baeb21c66917",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q08",
+  "facts": [
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f0400c0c-40fe-4e67-9d4b-abf0c7c97325",
+    "name": "NOTIFIED",
+    "fact": "Zainab plans to inform the service managers that they looked at the evidence regarding the expedite log.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12ef8ab7-4c6f-42d9-9500-baeb21c66917",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q09",
+  "facts": [
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "2351a750-b38f-471a-adcf-e4f5fe34448e",
+    "name": "COMMUNICATION_ISSUE",
+    "fact": "Arjun mentioned that he would ring Dave to ask about the shelf's actual count and the gate code, which had changed again.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c",
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "694b82d1-39f2-4730-987e-a330740656ea",
+    "name": "COMMUNICATION_ISSUE",
+    "fact": "Arjun mentioned that he would ring Dave to ask about the gate code, which had changed again and nobody had told the Sheffield lot.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8db2a617-89f4-45ef-bcae-ffd876dd243d",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Harlow's contract has a penalty of 4,000 pounds for three missed service calls in a quarter.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q10",
+  "facts": [
+   {
+    "uuid": "24f266a6-6b16-4549-9c18-9fd80f2b34fa",
+    "name": "DISCUSSED",
+    "fact": "Yuki discussed the issue with Leeds and concluded that the van is the main problem, and they need to properly open it back up to address the restocking process.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c5203aa-c040-4c95-9b1e-b4baf0c3aa96",
+    "name": "INFORMED",
+    "fact": "Arjun informed Dave that the old depot lead used cards with handwriting from 2009 to count inventory.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d411331-84d4-43b5-b2bf-99850a013ca9",
+    "name": "NOTIFIED",
+    "fact": "Hana will contact Priya to start the paperwork and check the cut-off for Leeds orders.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc41b8a2-a509-4302-be85-5f0d0c8a08d7",
+    "name": "NOTIFIED",
+    "fact": "Mei sent the Harlow tickets to Yuki and Hana, which show that two field engineers missed the four-hour response on the Harlow service contract.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a4cc0d99-5beb-491b-b129-7d99fe752094",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Yuki expressed concern about the logistics issues in Leeds, noting that the first week might be odd but 17 urgent courier orders for compressor seals were not normal.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965805+00:00"
+   },
+   {
+    "uuid": "a95d9e1c-955d-4c37-b4f6-bbf0503ce5f1",
+    "name": "LOGISTICS_ISSUE",
+    "fact": "Zainab felt that there was a bigger question about what Leeds should be, but she did not have the whole answer.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7c2f66df-66b8-4de3-b0b8-a5dd2638ce8f",
+    "name": "SERVICE_ISSUE",
+    "fact": "Mei reported that two field engineers missed the four-hour response on the Harlow service contract last week because the part was not available.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": "2025-07-08T00:00:00+00:00",
+    "expired_at": "2026-11-06T12:18:13.965748+00:00"
+   },
+   {
+    "uuid": "a5c22ece-fcf1-48e2-98b5-aef9746dc52d",
+    "name": "CUSTOMER_PERCEPTION",
+    "fact": "Zainab mentioned that Harlow is a visible account for the region, and the missed service term could affect customer perception.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f0400c0c-40fe-4e67-9d4b-abf0c7c97325",
+    "name": "NOTIFIED",
+    "fact": "Zainab plans to inform the service managers that they looked at the evidence regarding the expedite log.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f15d92-ef04-47bc-b302-00c1b3fe40d1",
+    "name": "LOGISTICS_STATUS",
+    "fact": "Arjun reported that the vans for Leeds arrived on Thursday and yesterday, and that Dave did not send anyone away, which he considered a result.",
+    "episodes": [
+     "a4b07aae-7113-4bd6-8459-768c9ec9ff2c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3ff472b-c273-4f30-b47d-ce97aed476ef",
+    "name": "NOTIFIED",
+    "fact": "Mei informed Yuki that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f5e38b01-8ef6-4a32-8369-8d7094db4892",
+    "name": "REVIEWED",
+    "fact": "Zainab reviewed the expedite log again and found that the second week of the run had 18 urgent courier orders for compressor seals.",
+    "episodes": [
+     "b794dd6f-caa9-4871-bcee-09dd850a291d"
+    ],
+    "valid_at": "2025-07-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

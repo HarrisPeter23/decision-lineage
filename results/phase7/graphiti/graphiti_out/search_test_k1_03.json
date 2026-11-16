@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01036-q01",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6610ff5b-a8b5-4c97-b8cb-4636e2456658",
+    "name": "analyzed_security_incidents_for",
+    "fact": "Sven analyzed security incidents related to the staff sign-in system, including six cases where someone impersonated a staff member to move a number onto a new SIM, with one successful case.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "beb2cd71-a1ad-4dc7-96be-8eae001232bf",
+    "name": "REFERRED_TO",
+    "fact": "Caio referred to the staff sign-in, noting that he guessed fifteen tickets a week or so while people get used to it.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47163431-5ae9-455c-aaf6-5cb25b905dd1",
+    "name": "DISCUSSED",
+    "fact": "Mateo discussed the staff sign-in, noting that he asked about the porting thing and that he commented on the text-message codes.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q02",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6610ff5b-a8b5-4c97-b8cb-4636e2456658",
+    "name": "analyzed_security_incidents_for",
+    "fact": "Sven analyzed security incidents related to the staff sign-in system, including six cases where someone impersonated a staff member to move a number onto a new SIM, with one successful case.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47163431-5ae9-455c-aaf6-5cb25b905dd1",
+    "name": "DISCUSSED",
+    "fact": "Mateo discussed the staff sign-in, noting that he asked about the porting thing and that he commented on the text-message codes.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q03",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec72b160-2a4f-4b6a-bd54-2f722139c6b0",
+    "name": "REFERRED_TO",
+    "fact": "Amara referred to Clara regarding the staff sign-in, noting that Clara put it in the findings and that Clara wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2eba757-10b6-40b8-94cd-8095d1d938eb",
+    "name": "will_discuss_findings_with",
+    "fact": "Amara will discuss the findings related to the staff sign-in system with Clara in the next meeting.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efd5afa8-6b64-4e24-9772-0b8f5c3b3fb4",
+    "name": "DISCUSSED",
+    "fact": "Lena discussed the staff sign-in, noting that she commented on the text-message codes and that she asked if the whole range was being considered.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q04",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec72b160-2a4f-4b6a-bd54-2f722139c6b0",
+    "name": "REFERRED_TO",
+    "fact": "Amara referred to Clara regarding the staff sign-in, noting that Clara put it in the findings and that Clara wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2eba757-10b6-40b8-94cd-8095d1d938eb",
+    "name": "will_discuss_findings_with",
+    "fact": "Amara will discuss the findings related to the staff sign-in system with Clara in the next meeting.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efd5afa8-6b64-4e24-9772-0b8f5c3b3fb4",
+    "name": "DISCUSSED",
+    "fact": "Lena discussed the staff sign-in, noting that she commented on the text-message codes and that she asked if the whole range was being considered.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q05",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6610ff5b-a8b5-4c97-b8cb-4636e2456658",
+    "name": "analyzed_security_incidents_for",
+    "fact": "Sven analyzed security incidents related to the staff sign-in system, including six cases where someone impersonated a staff member to move a number onto a new SIM, with one successful case.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "beb2cd71-a1ad-4dc7-96be-8eae001232bf",
+    "name": "REFERRED_TO",
+    "fact": "Caio referred to the staff sign-in, noting that he guessed fifteen tickets a week or so while people get used to it.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q06",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6610ff5b-a8b5-4c97-b8cb-4636e2456658",
+    "name": "analyzed_security_incidents_for",
+    "fact": "Sven analyzed security incidents related to the staff sign-in system, including six cases where someone impersonated a staff member to move a number onto a new SIM, with one successful case.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "beb2cd71-a1ad-4dc7-96be-8eae001232bf",
+    "name": "REFERRED_TO",
+    "fact": "Caio referred to the staff sign-in, noting that he guessed fifteen tickets a week or so while people get used to it.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q07",
+  "facts": [
+   {
+    "uuid": "808b7293-1855-475c-8e4e-8fc9bbd4711b",
+    "name": "PROPOSED",
+    "fact": "Wei proposed using text-message codes for staff sign-in, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2acf46c1-6e79-4ac9-bc49-f929fdb59dda",
+    "name": "PROPOSED",
+    "fact": "Amara proposed using text-message codes for staff sign-in, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q08",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6610ff5b-a8b5-4c97-b8cb-4636e2456658",
+    "name": "analyzed_security_incidents_for",
+    "fact": "Sven analyzed security incidents related to the staff sign-in system, including six cases where someone impersonated a staff member to move a number onto a new SIM, with one successful case.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "beb2cd71-a1ad-4dc7-96be-8eae001232bf",
+    "name": "REFERRED_TO",
+    "fact": "Caio referred to the staff sign-in, noting that he guessed fifteen tickets a week or so while people get used to it.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47163431-5ae9-455c-aaf6-5cb25b905dd1",
+    "name": "DISCUSSED",
+    "fact": "Mateo discussed the staff sign-in, noting that he asked about the porting thing and that he commented on the text-message codes.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2eba757-10b6-40b8-94cd-8095d1d938eb",
+    "name": "will_discuss_findings_with",
+    "fact": "Amara will discuss the findings related to the staff sign-in system with Clara in the next meeting.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q09",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "beb2cd71-a1ad-4dc7-96be-8eae001232bf",
+    "name": "REFERRED_TO",
+    "fact": "Caio referred to the staff sign-in, noting that he guessed fifteen tickets a week or so while people get used to it.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2eba757-10b6-40b8-94cd-8095d1d938eb",
+    "name": "will_discuss_findings_with",
+    "fact": "Amara will discuss the findings related to the staff sign-in system with Clara in the next meeting.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6fffcab5-869a-442a-acfd-07a8a189471f",
+    "name": "requested_list_from",
+    "fact": "Amara requested Mateo to provide a list of alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": "2025-03-28T00:00:00+00:00",
+    "expired_at": "2026-11-08T00:40:38.757041+00:00"
+   },
+   {
+    "uuid": "47163431-5ae9-455c-aaf6-5cb25b905dd1",
+    "name": "DISCUSSED",
+    "fact": "Mateo discussed the staff sign-in, noting that he asked about the porting thing and that he commented on the text-message codes.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01036-q10",
+  "facts": [
+   {
+    "uuid": "7fd2f897-ddfb-4754-b70b-d725d15d8524",
+    "name": "uses",
+    "fact": "The staff sign-in system currently uses text message codes as the second step for authentication.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "037d0475-0e52-4e1e-88ee-2245805254d9",
+    "name": "will_write_rollout_note_for",
+    "fact": "Wei will write a rollout note for the staff sign-in system as requested by Amara.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2eba757-10b6-40b8-94cd-8095d1d938eb",
+    "name": "will_discuss_findings_with",
+    "fact": "Amara will discuss the findings related to the staff sign-in system with Clara in the next meeting.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c6560dc-a08f-490c-8a8b-ecb307f6f103",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Sven's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d17af631-77f6-4c46-9606-b1eb373499e9",
+    "name": "requested_rollout_note_from",
+    "fact": "Amara requested Wei to write a rollout note for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f54ac49a-2d5b-4cec-a815-f6c59256c47f",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Lena's concern about the security risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39047462-91ac-4c70-bf59-95afa79524b9",
+    "name": "REFERRED_TO",
+    "fact": "Clara referred to the staff sign-in, noting that she put it in the findings and that she wanted something in place by the end of next month.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6fffcab5-869a-442a-acfd-07a8a189471f",
+    "name": "requested_list_from",
+    "fact": "Amara requested Mateo to provide a list of alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": "2025-03-28T00:00:00+00:00",
+    "expired_at": "2026-11-08T00:40:38.757041+00:00"
+   },
+   {
+    "uuid": "91dc96d4-5fa0-40ec-96c6-367a504a0f5b",
+    "name": "DISCUSSED",
+    "fact": "Amara discussed the second step for staff sign-in, noting that passwords by themselves are not enough and that Clara put it in the findings.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5bb137e3-f793-4699-9c88-467b99dc0ba3",
+    "name": "acknowledged_concern_from",
+    "fact": "Amara acknowledged Mateo's concern about the potential risks of using text message codes for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a4d1f9b-34da-408d-b336-b491c44ee933",
+    "name": "RELATED_TO",
+    "fact": "The staff sign-in is related to the text-message codes, noting that it is something that can be implemented quickly and that it is mostly a switch in the directory.",
+    "episodes": [
+     "6b2bd461-46c0-4d36-ab72-5d5b1fe3b3a5"
+    ],
+    "valid_at": "2025-03-14T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a24c672-2f4d-4b8d-b6c9-4788eb341f3e",
+    "name": "requested_pricing_for",
+    "fact": "Amara requested Sven to get pricing for alternative authentication methods for the staff sign-in system.",
+    "episodes": [
+     "094cbe06-4155-4ba0-bd20-dc094cfd6328"
+    ],
+    "valid_at": "2025-03-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

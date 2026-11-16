@@ -1,0 +1,898 @@
+Meeting: TS3008d
+Date: 19-10-2004
+Participants: ID, ME, PM, UI
+
+PM: Okay, welcome to the detailed design meeting.
+PM: Again, I'm gonna take minutes. Oh, we're gonna have a prototype presentation first. Uh, who's gonna give the prototype presentation? You two guys? Okay. Go ahead.
+ID: Yes.
+UI: .
+ME: .
+UI: coffee.
+ID: 'Kay, we've made a prototype. Um, we've got uh
+ID: uh our aspects from the last meeting. Uh, especially we looked at the form, material and the colour. Um, we've uh drawn here the p prototype. The logo is uh
+ID: is uh
+ID: is pretty uh obvious to see on the on the remote control, but
+ID: it is necessary when you want to build your uh company f to a level higher.
+ID: Um,
+ID: our interface elements, there are shown in the in the drawing. Maybe you can uh point them uh
+UI: Uh, well the uh all the functions are discussed uh I think the most of the functions are uh uh obvious. Uh, it's a little bit. Uh, power button.
+ID: The functions.
+UI: Uh then the the the nine uh channels.
+UI: Uh the volume uh
+UI: uh at the side, and the other side is the programmes. And then we had uh just uh two buttons, we place them in the middle, uh the menu, and for the teletext I thought that was th
+PM: Oh no, the the the mute button misses now. Do y do you did we want to have a m mute button?
+ME: Alright, I
+UI: Oh, the mute button.
+ME: Yeah.
+ID: But uh that It's uh here then, in the middle.
+UI: Yeah.
+PM: Huh.
+ME: Alright, and uh you gotta point out which is the volume um uh button and which is the programme button.
+ID: Yes, um
+ID: we've disc
+UI: Well, yeah mo uh mo Yeah, well most of them are right-handed.
+ME: Yeah, but you you gotta make it clear on the on
+ID: Most of the users
+ID: Yes, y there there will be a p a little a little P_ on that and a little uh yeah.
+UI: Yeah well, I don't have time in uh anymore on the
+ME: Yeah, and a and a triangle on that.
+UI: Oh yeah, just progr programme above, I think.
+ME: Yes. Next to that I kinda miss a zero actually.
+PM: Wait, there's was one thing I wanted to ask. Uh, there are different ways for remote controls to uh do uh like
+PM: uh d I call it teens and twenties. Uh, y th th th the two numbers.
+ID: Yes.
+ME: All n no, that's um kinda dependent on the television.
+UI: Yeah, true, yeah.
+ID: It's a television. Yes.
+UI: Uh
+PM: Yeah, but do we have do we need extra buttons, for example some uh some have to
+ME: I think
+UI: Uh I think so.
+ID: Yes, yes, you have you have a lot of standard buttons that has to be uh on it, uh th with the one and a double uh uh yes.
+ME: Yeah, I think you should add
+UI: Zero?
+ME: A cross, or whatever. Yeah, line.
+UI: May maybe here?
+PM: Yeah, but you don't you don't actually need them, becau b l a lot of remote controls work that y when y that you when you fir you push the one first, then you have a couple of seconds No, I don't think so.
+UI: Yeah.
+UI: And then a second.
+ME: No, that's dependent on the television.
+ID: Yes, you have televisions, then you have to, you know, you have to uh press
+ME: I do know so.
+UI: Is it depending on television?
+PM: Nah, I don't think so really, because you have a I know some remote controls that don't have these buttons, but you still can, know, obviously you can still select the twenty uh a number in the twenty or in the ten.
+ME: Yeah.
+ID: Yes, but but a lot uh
+ME: Yes, but uh uh no uh remote control nowadays are um they come with the television. Or actually, the other way around. But
+PM: No, I think uh I really think it's n because you can when when you put a button on it with like one and uh then a dash, it's the same thing as when you just push the one, because it i it first gives you the functionality of that that uh separate button you also had to uh apply.
+ME: Yeah.
+ID: Yes, but
+ME: Yeah, well but su If
+ID: some televisions don't accept uh that that
+PM: Yeah, because that's i it's for television. It's exact the same thing.
+ID: No, no, but s
+ME: No no no. So some television respond differently. Look, if uh i i
+PM: No, listen listen. When you push the button, the remote control gives a signal. I in th in the first place it gives a signal which it would also send when you put a separate button on it. The one with dash, that signal gi and when y whe when you don't push another button on the remote control within five seconds, then the remote control gives a signal for channel one.
+ME: Yes.
+ME: Yes, that's true.
+UI: Yeah.
+UI: True.
+ME: No
+PM: I think it works that way, really.
+ME: No, it it it works uh if you haven't got uh a special button for it, uh if you push a one, then on your television there will appear a one and a a line, which is an empty space.
+PM: Yeah, but it's exact the same that w would appear when you put a separate button push a separate button.
+ID: Yes, but some some old televisions uh you have to uh click on uh a special button, uh then you go to a a next level, you can push two buttons.
+PM: Yeah, but you don't underst uh you don't understand my point. I think it's exact the same thing when y
+ME: Yep. True.
+ID: You want
+ID: Yes, but some television don't support it.
+PM: No, but then they would a would also support that button, because it's the same thing. Listen, with that that's that special but button you're talking about, eh? That's just a signal to recei ju they send a t signal to the v tv T_V_ that they have to put a one in on your screen and a dash, which you can pu so you can uh still put another number on it. When you don't have that separate button, and you push y one, it's exactly the same thing. Do y you the remote control gives that same signal as it would give when you only had
+UI: But the ex
+ME: No, s some some televisions need the input first uh and and you c
+ID: No, a remote can
+PM: Yeah.
+ID: Yes, so they need no, they need
+PM: But you give the input. You push the one. That's the same thing as the button with the one and it yes it it is. Think about it.
+ME: No, that's not true. It's simply not true. It's simply not true. Uh
+UI: Yeah. You uh you can wai when you push the one you can show on the telly a one and just a dash, and then wait uh two uh seconds or something
+ID: No, but uh
+PM: And it's the same thing what happens and a g remote control gives another signal after five seconds that is just one.
+ME: No, remote control doesn't give signal after five seconds. Remote control is a stupid thing. If you push a button, it sends it immediately to to the television.
+PM: Yeah, that's true. Yeah, but I m uh but it's I I know for sure that some televisions that w th th the remote control supplied, only ha has the c these buttons with a one and a dash and a two and a dash, but when you use a bu a n remote control that doesn't sport these buttons, it still works. But okay, we we'll impl
+ID: Yeah, it
+ME: No, definitely not. Definitely not.
+UI: We'll discuss them in the usability lab.
+PM: No, we'll apply them then for now.
+UI: Uh eva evaluation. I don't know uh I don't know if if it's it's necessary.
+PM: Yeah, app just apply them next to the zero, the one and the two. Yeah, I think so. Yeah, for now, if we don't know for sure whether
+UI: Yeah?
+UI: Okay.
+ID: And the button for the SCART uh audio video uh external input.
+ME: Yes.
+UI: Ach.
+PM: Yeah but okay. What I said about uh the remote control sending another signal, that that might not be true, but I still think i it it all T_V_s in some ways support it, I don't know. I think it's more c is m maybe we don't uh we both don't really understand how it i how it really works, but I think there's more to in than wha than what you just said.
+ME: Uh, you can access that uh via zero, and then minus, I guess. Yeah.
+UI: Yeah.
+ID: No, no.
+ID: Uh, remote control sends one signal at one button uh press.
+PM: I do think that uh m T_V_s support mur multiple kind of remote controls. M
+ID: Uh, some
+ID: N some televisions when when you want to go further than uh ten
+PM: Th won't work wi with uh to have that special button.
+ID: No, you have to you have to uh give the television uh two or more signals. When you uh press one button, you give one signal. And the older televisions need more signals to go a level higher.
+ID: But
+ME: Yep.
+PM: Okay, well we'll see.
+ID: When you make the technology that that it will uh give more signals,
+ID: it could work, but
+ID: Just a basic idea of of of the most uh most y
+ID: most common uh and simple uh operations on the remote.
+ME: Okay. I kinda miss the docking station.
+UI: Yeah.
+ID: Yes. It's here on the
+UI: Well it yeah, uh there's nothing I think it's pretty basic, the the there's no fu there's one there's one button, that's wha there's there's there's one function and that's n the one button when you want to find it.
+ID: We came uh
+ID: Yes.
+ME: No nothing really trendy about it.
+ID: But maybe we can maybe we can make the docking station uh uh a bit standard for for uh the other products we sell, because Real Real Reaction sells more products than only remote controls. So maybe we can uh use the docking station, for example, uh M_P_ three players or or uh
+ME: The button.
+ME: Yep.
+ID: uh hearing devices.
+ME: I think that's very difficult, because of different shapes of uh uh devices.
+ID: Yes, but when you put that same volt voltages on it, you can put uh when the when the when uh o the the the lowest part of it, when it's o the same as the other products, you can put it all on the same uh
+ME: Yeah, of course.
+ME: Mm-hmm.
+ME: Well it it got it it has got to fit into the shape, of course.
+ID: Yes, but we can make
+ME: The technology and the voltage can be the same. That's uh that's true. But uh i if you all make the m having a bottom like this, then they all fit.
+ID: No, we can make uh make the most lowest part all the same.
+ME: Yeah, that's true, but uh
+ID: When when the the recharger has a has a bit what points out, we can place all on top of it.
+ME: Yes, but uh I I g
+ID: Just have to be big enough for the biggest
+ME: Shouldn't it fall then? It isn't going to fall down? That's a bit uh yeah, I think
+ID: No, when you make it large enough no it it will not. But then it's a little bit
+ME: No, but if if like this, I'll I'll point it out, if you got uh a a a base a base like this, I won't draw it really. If you got a base which is uh as big as this
+ID: But it's just an idea.
+ID: But it's flat it's flat as as this, so we can p make all the products as flat as this.
+UI: You can.
+ME: Yeah sure, but if you got if you got a tiny player, it can
+UI: But i i i it's backwards.
+ID: Yes, but when you make uh uh a bit of big
+UI: But it's it's backwards. It's leaning. It's leaning backwards, I think, in the in the docking station.
+ME: Yeah. Uh, wha what you could do if you uh from the bottom oh, right, help. Uh, you could make like a hole in it, you know, of uh in in the
+UI: That's text.
+PM: But
+ID: Yes, little holer littler Uh, little products go deeper in it.
+ME: Yeah. That i that is possible, yep.
+PM: Well let's ha let's talk about the docking station later, because uh maybe we have we have to uh consider the docking station anyway, because we have some uh cost issues still to come. But we have to look n I don't know.
+ME: Yeah, sure, you're right.
+ID: Yes. And uh uh
+ME: Oh.
+ID: the f the look and feel would be great on this uh remote control, because uh you always uh will uh pick up the remote control in the in the smallest uh area. Then your uh left thumb of uh your right thumb is uh near the programme uh button,
+ME: I don't like the colours.
+ME: Mm-hmm.
+PM: Yeah.
+ID: which is the most common used uh function, and all the other buttons are available for your uh thumb.
+ID: So it's it's it's really good design.
+PM: Okay.
+ME: Yeah. Alright.
+PM: Yes. That's it?
+ID: Yes, uh on the side uh there will be a strip of rubber, and in the middle uh there is uh a hard uh a hard material, a bit hard plastic with a light uh behind it.
+ME: The light.
+ME: Okay. And other lights?
+PM: I think added lights are gonna be a problem too.
+ID: Yes, we can make also n neon lights on it, or or the buttons that can make uh light on it.
+ME: No, o on the on the front.
+ME: Yeah, okay. Maybe the uh the logo.
+ID: Yes.
+UI: lights?
+ID: But, it will also uh uh use batteries, and do we want to
+ME: Yeah, why not?
+ME: Of course.
+PM: Okay. For now, uh this is uh is good enough.
+UI: Mm.
+ME: Okay.
+PM: Yeah, what was uh on the
+ID: The all the aspects of the interface buttons were uh
+PM: Okay, but in the oh yeah, the colour, because we're gonna use uh one colour for the the plastic enclosure and one colour for the rubber, isn't it? Then we're gonna do the buttons in the i are we're gonna have rubber buttons. And they're be a they'll be in the same colour as the rubber on the side. Okay. And I think we should use a a darker colour for the um plastic, and maybe some more m brighter and flashy stuff
+ID: Yes.
+ID: Yes.
+UI: Yeah.
+ME: Uh, in the same colour as the side.
+UI: Yeah. Yeah. Yeah.
+ME: Yeah, I think I think that'll be good.
+ID: Yes, maybe we can use on the on the lights on the side we can use uh uh multiple uh lights, so it will uh
+ME: Yes.
+PM: Yeah, we'll talk about the lights later. 'Cause I also don yeah, it's depends on the costs and such. But uh, and we have to agree uh upon the exact colours, but may I dunno if that's important, but we'll talk about that later. Okay, for now this is this is okay. Um, the next p y you gonna give a presentation too? Uh, I have to see the agenda.
+ID: Yes.
+ME: Yep.
+ME: Yeah.
+ME: We will.
+ME: Well, uh yeah, I I'm gonna do something right there, yeah.
+ID: No.
+PM: Detail design.
+ME: We gotta do that on the right the most right-most screen, because the leftmost
+PM: Evaluation criteria.
+ME: Yep, that's me.
+PM: Okay.
+UI: Okay.
+ME: Alright. I will be needing that image, so leave it please. Um
+ME: Go away.
+ME: Right, we're gonna evaluate that design according to a few points. Um, we g the four of us are going to do that um together. I wanna have a colour over here, come on. Right, the remote is not ugly, a bit weird sentence, but
+ME: the positive things has to be on the left, so I said not ugly instead of ugly. Uh, what would you say, we we gotta give points to uh to all of these to evaluate uh that design, and please forget the drawing skills of these guys. The remote control is not ugly. How do you feel?
+PM: Okay.
+PM: Yeah, I think four maybe would be appropriate, because it's
+PM: Yeah, maybe it really depends on taste. Uh, I mean it's kind of, our design. It's so if maybe a lot of people find it really ugly, you know, o other people find it really cool. I don't know or uh I don't know how you
+ME: Yes.
+ID: Yeah.
+ME: Background colour.
+ME: How do you guys feel?
+ID: I think I think the the fronts will give it a more uh uh uh less uglier uh side, because you can uh make it in your own yes, you can make it in your own uh
+PM: Casting. Yeah.
+ME: The different designs. Yes.
+UI: Yeah.
+ME: Okay.
+ID: more to your own personality or or house style.
+PM: Yeah, but we d we didn't we're we're not planning to use fronts, I believe. With a colour a co a colours. Oh, okay.
+ME: No, not not fronts, but different designs.
+UI: No, not fronts. Different designs. Different colours maybe, yeah.
+ID: Yes.
+ME: And that's still uh uh, yeah, is is uh is a little personal touch, I guess. What?
+PM: Okay, but
+PM: Oh, maybe we should do three or something that w you know, our
+ME: Yeah, wha wha what would you uh guys uh think? Personally.
+ID: Or forty.
+PM: Yeah.
+UI: We can make it a one.
+ME: Personally.
+ME: Yes, but what is it?
+ID: I think two or three.
+UI: Mm yeah.
+ME: Guido?
+UI: I agree.
+ME: Two or three.
+UI: Um, I uh I go for the positive. So I go for two.
+ME: I was
+ME: I was thinking about three, so I guess
+PM: Uh, I was thinking about four, so I think three is uh
+ME: three is uh a bit uh oh, what am I doing? I'll mark it. The remote control's uh uh that n makes uh zapping easy.
+UI: Okay, three.
+UI: Yeah.
+PM: Yeah well, let that let's make that a one.
+ID: Yes.
+UI: Two.
+ME: Yeah? Antek, you agree?
+UI: One. One. Okay yeah, I'll I'll agree.
+ID: Yes.
+ID: Yes.
+ME: Yeah. You're not Antek.
+PM: That's one thing for sure.
+UI: I'm the I'm the usability, so
+ME: I totally agree. The remote control the remote control's relevant buttons are prominently visible.
+ID: Yes.
+UI: Yeah.
+PM: Yeah, two or a one, I guess. It's something we really put work into.
+UI: The
+ME: Yeah, I yeah. I would say a one because uh every button is uh uh relevant. And our oh yeah, it's a b yeah. Yeah? Alright. That's a one? You agree?
+ID: It's all about the buttons.
+PM: Yeah.
+ME: The remote control hasn't got too much redundant or unneeded buttons. I think we totally succeeded there. Oh
+PM: But
+UI: Well
+PM: Well maybe a two, because of the menu button or something. And telete
+UI: Yeah, well menu Yeah, maybe.
+ME: Yeah, that's true. That's true.
+ID: Also, the the the buttons of the one, the two, the the digits, o they're used uh uh
+PM: Yeah, we don't know if the uh they're necessary.
+ME: the the yeah, m well, you d you've got a point.
+PM: I think a two.
+UI: Yeah, true. Yeah, I agree.
+ID: Can yes, three, two.
+PM: Came a long way, but not we didn't not uh
+ME: Two or three?
+UI: Mm two.
+ME: Two? Antek.
+ID: But you can't make a remote control without them, because
+UI: Because we got
+ME: Nay that that that's true, that's true. They're definitely needed. So
+PM: No, w w it can also always be more simplistic, but two is yeah.
+ME: we put it on a two?
+ID: Yes.
+ME: The remote control has got a really trendy look.
+ID: Yes. A one.
+ME: Maarten.
+PM: Yeah, uh a t I think a two. Yeah yeah, y i it's hard to say from this picture.
+UI: Well.
+ME: Yeah.
+ID: We we've tried to make it uh the the best trendy look uh ever.
+UI: Yeah.
+ME: Ever, yeah. Guido.
+PM: But I do think it's more
+UI: Uh, I will I will make it a three, because uh yeah. I I th
+PM: But I do think that it's more trendy than beautiful.
+ME: Yeah, uh I agree. I agree.
+ID: Yes.
+PM: So so I think maybe it has to score higher uh on this than on the
+UI: Yeah. True, yeah.
+ME: I was planning to give it a two, uh where I give the not ugly uh oh, yeah, that's true. You agree on the two?
+PM: A th a three.
+UI: Yeah.
+ID: Yes.
+PM: I i uh when you compare to the
+ME: Great. Remote control hasn't got too much redundant or unneeded buttons.
+PM: Uh uh what's the difference with
+ME: Uh, I copied that one.
+ME: Well, uh forget that. Um
+PM: Okay.
+ME: Go away. Remote control has got innovative technology implanted.
+UI: No. We're not well, maybe the the the on the side.
+ID: No.
+PM: No.
+ID: No, not L_C_D_, so.
+PM: Yeah, but we uh you mean the rubber stuff? Yeah, but we have t we have to talk about the lights uh. And I don't u also it's also really not innovative, it's more
+ME: Yeah, and the light.
+UI: And the light maybe.
+ID: But that that's not innovative. Lights lights are
+UI: But
+ME: Well, I g
+ME: It's not seven?
+PM: No, six. Or seven maybe, yeah. Or six.
+UI: Well, six.
+UI: No, six.
+ID: Six.
+ME: Why uh why not a seven?
+UI: Six.
+PM: Yeah, mine is seven.
+ID: Because we've tried to make it a little bit innovative, but it but it
+UI: Yeah.
+ME: How?
+PM: Uh it's uh depends on the on the maybe
+ID: With the lights it it's it's kind of future
+PM: No, I think I think actually it's a seven maybe, but there's nothing innovative about it.
+ME: Yeah, you think the lights are innovative?
+ME: Well, it's n true. Uh, I agree, m but
+ID: But still you can retrieve it when it's when it's gone, with the with
+UI: Innovative in generally or just f original for
+ME: I'll
+ME: Yeah, you you didn't draw the docking station.
+ID: Yes. The docking station is a is a little bit innovative. It's a part of the remote. And with the speaker on the there's also a speaker.
+PM: N no no, t.
+ME: Yeah, it it's I think I think with its
+UI: A docking station is innova
+PM: Yeah, I mean the dock station, but but uh, I think the the docking station, it's gonna be a kind of a problem. But
+ME: I think more m
+UI: Okay.
+ME: Uh that that's n
+PM: Well, let's leave it open for uh for us later to see what, because we have to reevaluate anyway. Well I i yeah. No?
+ID: Okay.
+ME: No uh, well, the agenda says evaluate now, so I think we
+PM: Okay, for now it's a six or a seven uh, sev six maybe, because
+ME: It's it's a six.
+UI: Six.
+ID: But the retrieval or the
+ME: That m f Yeah, for the retrieval function.
+PM: Yeah, but I don't I don't know if it's very inno yeah.
+ME: Yeah. I think that's very innovative for a remote control.
+ID: Yes, how would you innovate a remote control more?
+PM: Yeah, v
+PM: Yeah, more through uh like function T_V_ functionalities and no no, you know what I mean. You have must be innovative technology for remote controls, but more in how you control stuff, not in how you find your yeah. Yeah, it's that's that's think about it la later on and uh
+ID: To put it on your head.
+ME: Yeah sure, but
+ME: But I d I definitely don't think it's a five, but
+ME: Remote control is easy to use.
+PM: Yeah, as a a one or a two ma uh at least.
+ID: Yes.
+UI: Yeah, a two.
+ID: Yes.
+ME: I think a two. Yeah?
+PM: Yeah, it's good.
+UI: More two.
+ME: Come on. The remote control hasn't got uh.
+PM: No, I would have seen that one before. Oh, you skipped one uh
+ME: I've just filled uh
+PM: Uh, here.
+ME: Go away.
+ID: You like the buttons.
+ME: I found twelve questions so much, but it still is ten.
+PM: Remote control will be bought by
+ME: It will be bought by people under the age of forty.
+ID: Yes.
+PM: Yeah. Definitely.
+UI: Yes.
+PM: Well
+ID: In in and comparing with uh people of th of the age above?
+ME: No no no. No, just if they if they buy it.
+PM: Uh, just in general. Yeah, a two.
+ID: We don't know. But
+PM: Yeah, but I think I think two.
+ME: Yeah, what do you think?
+UI: Yeah, I think two, yeah. I agree. Two.
+ME: Antek?
+ID: Yes, two, but only in c when you compare it with with elderly.
+PM: Uh, that is not the question. It's just w it will be bought by people under forty.
+ME: No, that's no comparison.
+PM: Yeah, you can yeah, you can be very picky about it.
+ME: And I don't mean two people.
+ID: This is just guessing.
+PM: Ah yeah, just make it we'll make it a two.
+ID: Make it a two.
+ME: W w
+ID: When it succeeds, uh it can get a two, mu
+ME: Right, the rem
+ME: The remote control has recognisable corporate image, colour, logo or slogan.
+PM: Oh no.
+PM: Yeah. Yeah, you have make an slogan is quite obvious.
+UI: We don't have the slogan though.
+ME: Oh, the slogan. Can we see the slogan?
+PM: Oh the oh sorry, no, not not the slogan. Yeah, you can put that on the side if if we would like to.
+UI: The logo.
+ID: A logo.
+UI: Underneath it or something.
+ID: Yes, uh encrypted uh with
+PM: Yeah, and I will I th still think it's gonna be a two or a three. Maybe a three this time.
+ME: Are we gonna do that?
+UI: A three. Three.
+UI: Yeah, a three.
+ID: Yes.
+ME: Three? I agree.
+ME: Because of the slogan Remote control's got a basic design intended uh for novice users.
+PM: And uh
+PM: Uh, it's a one or a two.
+UI: Yeah, two.
+ID: Yes.
+ME: Two? Two. Alright.
+PM: Yeah, make it a two.
+UI: Two.
+ME: We gotta add up the scores now to see our total average. Four, five, seven, nine. Forget that. Fifteen, seventeen, twenty one, twenty four, twenty six.
+ME: Twenty six.
+ME: It's a two point six.
+PM: It's not that bad. Yeah, and that's mostly the inno when we uh score higher on innovative technology, we would score two,
+ME: Alright, we yeah.
+ME: Yeah. True.
+PM: which is uh quite a great score. Okay. Uh, this is was uh the evaluation?
+ME: This was my evaluation. So
+PM: Because I I still think that the most important part of this meeting still has
+ME: We did a pretty nice job until now.
+PM: Yeah.
+ME: Um, is this your
+ID: Is there something after this uh meeting? Or
+ME: Whatever.
+ME: Well, I think we gotta fill out another questionnaire.
+UI: No.
+ID: Okay.
+UI: Okay, yeah.
+PM: Still opened or uh
+PM: Yeah.
+ME: Yeah.
+PM: Okay, finance. Because um
+UI: Shoot.
+PM: I received uh a spreadsheet.
+ME: A five. A five.
+PM: Yeah, but I uh actually don't need this presentation, I guess. Oh.
+ME: Doesn't matter.
+PM: I'm gonna open the spreadsheet and we're gonna work this out together, because I didn't really fin uh I have a.
+PM: Didn't really finish it.
+PM: Well, we uh We'll see. We'll stumble upon some problems.
+ME: We probably will.
+PM: I probably have already opened it here.
+PM: try it again. First of all, the mm all the docking station and costs and such are not included in this list.
+PM: But let's let's st start with beginning. We include one battery. I i uh I'll explain its Uh, the the components are listed over here. Uh, price is given. We um yeah, we we uh indicate the amount of components of the specif specific component, how much we need of them. And then uh, we'll uh calcula Don't watch the number yet. I don't know if it's filled in properly. Okay, we need one battery. One battery. I think one battery is enough. We don't need kinetic, solar cells, hand dynamo. A s okay, this this is a p first problem. Uh, I think
+ME: The amount, yeah.
+ID: Yes.
+PM: we should know how many
+PM: simple chips, regular chips
+ID: Uh it's it's one one chip, but but you have to choose one from it.
+PM: Okay.
+PM: But
+ID: The simple chip is e enough I I think, but with the lights with the lights and the retrieval, it can be uh
+ME: I don't know
+PM: Where did we find this information? Was it
+ME: I haven't got an idea on on which we need to use, really.
+ID: No, uh I
+PM: I think it was uh your job in the first uh meet Uh, f your first presentation to make this clear, but then you had some t time problems. But do you th you do you know what chip we need?
+UI: No.
+ID: Yes, my my my uh
+ME: Yeah.
+ID: The the email I got said uh simple chip, but when we put in the speaker and the retriever uh device, it will uh cost a a bit more, like I think the advanced chip maybe.
+ME: Yeah.
+ME: And how do you know? I mean, you got that email. Did it point out what to use them for?
+ID: Bec No, the they didn't know about a retriever or a speaker uh in it.
+PM: Maybe you can uh look it up right now.
+PM: Okay, but okay. When we don't when we leave the uh retriever and such aside, what then it would be a simple chip. And with the retriever, it would be an advanced chip.
+ID: Then it's a simple chip.
+ID: Yes, I I I s I
+ME: Alright, well, point out the advanced chip for now, I guess.
+PM: Okay. Yeah, but it will it will it will be cause a lot of problems. The sample sensor sample speaker. What is it m is that the speaker we were t I don't know what it is.
+ID: That will be enough for future uh recommendations.
+ID: I don't know it uh either.
+ME: I don't know.
+PM: Okay, we went for the double-curved case
+ID: Yes.
+PM: made out of plastic
+PM: and rubber.
+PM: And with a special colour.
+PM: I guess that's what we were
+UI: Well, special colour..
+PM: Yeah, I don't know about the special colour, but I think w uh
+ID: Otherwise, you get uh a standard uh plastic colour.
+ME: I don't know if it's very special.
+UI: I don't
+PM: Yeah, I think we uh we have special colours.
+UI: Mm okay.
+ID: Standard rubber.
+ME: Alright, that's okay.
+PM: Okay, then the push-button, I was just counting them. Uh, I think you have to indicate the amount of push-buttons we want to use, isn't it?
+ID: St
+UI: Whoa, it's a little
+ID: Yes.
+PM: Well that's bit of a problem, because I re but I really don't understand that, because I can imagine a remote control with far more push-buttons, and it wouldn't be possible according to this uh sheet.
+UI: That's huge.
+UI: No. We have the simplest buttons.
+ME: No.
+ID: No, it's only uh when you use push-buttons, it will cost that much. If you use a scroll-wheel
+PM: Yeah.
+ME: I don't think so, because it says amount. The the the yellow row is the amount of
+PM: Ah.
+PM: Yeah, it wouldn't
+PM: Fill in the number of components you plan to use in the and the total cost I don't know.
+ID: Maybe it's the kind of push-buttons. You can have f four kind of push-buttons.
+PM: I
+UI: Uh, one til nine. Is that one or is that nine buttons?
+ID: Rubber. You can have uh
+PM: And I count them like this.
+PM: One two three uh four five six seven eight nine ten eleven twelve and thirteen. Because Oh, this is oh, this is one, okay. Twelve, okay, then it would be eighteen, because uh, I uh rated them as uh um
+UI: Yeah.
+ME: To n that's total of four buttons.
+PM: as uh uh uh separate buttons. Yes. And plus these two, f uh plus the mute button, and it's will be uh eighteen.
+ID: Different, yes.
+ME: I think that
+ME: Eighteen. One two three four five, si
+ID: Why is that so uh expensive.
+PM: Yeah, I don't understand. Y I do I don't get the point, because it's would be
+PM: s relatively so expensive, just these m small buttons.
+UI: Is it cents, the the the fifty cents a button?
+ME: Fifty cents for one single stupid button.
+ID: So, whe when you so then it
+UI: No way.
+PM: Well, okay, well well let's make it just one.
+ID: It's eighty percent of the price of the of the amount of
+PM: Here, now it's now it's already s shall we just
+ME: Yeah, exactly. Yeah.
+PM: give our own interpretation to, because else we would really have a problem. It would be impossible to make it
+ME: I can't I I I couldn't understand it if it was fifty cents per uh uh per button. Really.
+UI: It's way
+ID: When you have the same amount of button, you have to put in wi in your carton. Board. And then throw it
+PM: And and less buttons than this isn't possible. This is the most simple yeah, it is possible, but I've never seen one before.
+ME: Yeah, yeah,
+UI: No, no no.
+ID: But whe
+ID: I've seen one uh one remote control with only the pu yeah, only with uh page up, page down and volume, but but
+ME: No, really.
+PM: Yeah, without the numbers. That's possible.
+UI: Yeah, uh
+PM: Yeah, we could skip the numbers.
+ME: Yeah, but I d I wouldn't want to own that. Really.
+UI: That's still four.
+ID: Uh, it's it's still for little children. They can handle that remote control, but but it isn't fo
+ME: Yeah.
+PM: Then uh, teletext would also be im impossible.
+ID: Yes, it's for it's li uh it's just for a little
+UI: Yeah, that's no option, that's no option.
+PM: Okay, we'll we'll just okay. But then still, when we there's no room for a docking station or something. Tha w Le let's see th we have uh oh yeah, button supplements. We'll give the buttons special colour. We'll give them a special form. Uh, I think we should mark the special form thing, because it this will be some special forms incorporated in these big buttons, I guess.
+UI: A special colour, why a special colour?
+PM: Because the buttons will be uh d will be matching colour between the buttons and the rubber surroundings. I think that's the what they mean by a special colour. I think all the special colour things have to be marked over here, because that's what we were planning to do, making it
+UI: But wha what s what special?
+ID: Otherwise, it
+UI: Okay, yeah.
+ME: I don't think the special form is really true.
+ID: Otherwise it would be the
+UI: Uh, yeah.
+ID: Special form also, it says.
+PM: Yeah, special material r also, because i has rubber. And the buttons have to be rubber.
+ME: Is it?
+ID: What is the normal material?
+ME: Yeah, I dunno.
+UI: Plastic.
+ID: Sh yeah.
+UI: Plastic, I think.
+ID: Classic? Oh, plastic.
+UI: Plastic.
+ME: Plastic.
+PM: 'Kay, but the problem now is that the
+PM: There's no such thing as a docking station in this list, but we can all imagine that it would be impossible to make a docking station for thirty cents.
+UI: Yeah.
+ID: But we can uh sell the remote control and uh sell the docking station yes. And and but we don't have to tell it, but what we can say of can um almost make it impossible to buy a remote control without the docking station.
+PM: Separately.
+UI: Se no no no.
+PM: Yeah, yeah. Yeah, but I do like the idea, but we yeah. It uh but it then the docking station isn't relevant for this project anymore, but we can but then you still have to use we have to find out what chip we u need.
+ME: No.
+ID: No, but you otherwise you can't retrieve it.
+ME: Yeah, I really don't get it. I mean if it's a simple chip, then we suddenly got two Euros and thirty cents.
+PM: I think we can agree on this. I I think the special colour thing has to be uh marked.
+PM: 'Cause I think we uh Yeah, I think that's what what what they uh mean
+ME: Yeah, yep.
+ID: But for two Euros and thirty cents, we uh we don't get a docking station.
+ME: I think so, too.
+ME: Oh, I don't know.
+PM: But can we find out uh about uh this chips? Because when we don't need a d a docking station, then probably we also have only we also need a simple chip.
+UI: And then we can get a docking station.
+PM: And maybe then we can do something extra. Oh, n uh oh, still oh, it's gonna get more expensive with. Two. Then we have some money left. We can put then
+ID: For
+ID: For two Euros.
+PM: We can put a scroll-wheel on it or something.
+ME: Uh why? I mean i i if you if it would cost two Euros, that had a total a total thing, it would be nice too, I mean uh we're not gonna add uh a trip to Hawaii to it.
+PM: Yeah, well who knows. Or a little bit of tin titanium.
+UI: But what what can we do
+PM: Yeah, or we can ki do the kinetic cells. That's also maybe an idea.
+UI: But uh what can we do with the simple chip and what's difference with a regular chip and a advanced chip?
+PM: Yeah that's what then what he has to find out. Maybe you can uh find it in your email right now, then we know then we exactly know what it will cost us. Maybe is that that's nice to know.
+UI: If if i
+UI: Regular chip and because we don't have uh special functions to use uh in advanced chip, for example.
+PM: Yeah, bu bu but when we yeah, but when we skip when we um when we don't use the do we're not gonna make the docking station, then we still yeah, we need something else maybe to make it kind of special, because that was our our special feature.
+ME: I like the hand dynamo part.
+ME: We can make a plain docking station for two Euros. I mean
+UI: Yeah.
+UI: We'll go back uh tomorrow.
+PM: Yeah, okay, you can also do that, but maybe
+ME: Wi wi without recharge
+PM: It still is a special remote control cons uh you know, wi its form is special and material.
+ME: Yeah, but but we can make a docking station for two Euros uh if you don't put the recharge function in it. I mean,
+ME: it has a shape. Of course it has a shape, but i i
+PM: Yeah, but for two Euros, then we have still maybe we have to use the advanced chip, then two Euros isn't even possible.
+ME: Why should that not be possible?
+PM: Yeah, then because then we'd thirty cents left.
+ME: No, for for the uh for the docking station if you do if you choose the simple chip.
+PM: Yeah, but yeah, I don't know, because maybe d uh yeah, we have to find out with the simple chip.
+UI: That's the question. If we do i do we need an advanced chip, or is it okay f
+ME: Yes.
+PM: Yeah, and w and and we uh need f and what is this? Sample sensor sample speaker.
+ID: It isn't in my information, so I don't know it uh either. It isn't in my information, I uh I I've got a
+ID: schematic view of the remote control, but nothing about uh advanced chips or
+PM: You can look at it for s presentation.
+PM: S technical functions?
+UI: No.
+ID: Uh I've got here in uh I will put a I will put a page on it.
+UI: No no, they were uh mine, yeah.
+PM: Oh.
+ID: When my mouse works again.
+PM: Oh, oh oh.
+PM: Hey.
+PM: Oh.
+ID: My mouse is uh
+ME: Dead.
+ID: Yes.
+ME: Reanimate it.
+ID: Oh.
+UI: Died.
+ID: Ah, I've got it. I will put uh
+ID: my email on the
+ID: the network.
+ME: What the hell are these?
+ID: It's on it.
+ME: Oh, whatever.
+UI: Yeah, it's open.
+PM: Mm.
+PM: I don't think here it's in here already.
+UI: It's circuit board.
+UI: It's only just basics for for
+PM: It's nothing about s yeah.
+ID: Yes.
+UI: At the end circuit there is an infrared LED.
+ME: This isn't helpful.
+PM: No.
+PM: But i in the presentation of yours, there was also something about different components. Which one was it?
+UI: Components design.
+PM: Functional requirements?
+ID: Um
+ME: No, that was my presentation.
+UI: Components design maybe.
+UI: N on top.
+ID: Yes, that was mine.
+PM: Ah.
+PM: Ah yes, it was the second one.
+ID: But that was my second
+ME: It's already open.
+PM: Yeah, it was your second your first presentation.
+ME: It's at the bottom.
+UI: Working design.
+PM: Sorry?
+ME: It's uh at your task bar.
+UI: Yeah, but it's the the other one.
+ME: Oh.
+ID: Mm
+UI: Was it working design or components design?
+PM: Uh, this is n this is not this n that's not the right one. I don't oh.
+ME: Sorry.
+ME: Okay, sorry.
+PM: No, this is the other one. Or maybe something is uh maybe there's something abo in in these
+UI: Chip set.
+ID: But this is the same uh
+ID: This is o only the possibilities.
+PM: Here.
+ID: Yeah.
+ID: We can use a simple, a regular, or advanced chip.
+ME: Yeah, nice. I it doesn't say anything.
+UI: The display requires an advanced chip.
+PM: You know that a push-button requires a simple chip, but a scroll-wheel, it it me requires Okay, so we only need a simple chip.
+ID: Ah, okay.
+UI: Requires.
+ID: With the light.
+UI: Little lights. Yeah, but that that's just the same as the the LED.
+PM: No no, that's just a simple chip.
+ME: That's not needed.
+PM: A scroll-wheel it s uh only states that a scroll-wheel requires a regular chip, and that a display requires an advanced chip. So, we don't need any of them.
+ME: A display uh is, of course, uh for showing letters. For showing text. I don't think that uh just a l a little light
+ID: L_C_D_.
+UI: Yeah.
+UI: No.
+UI: I think uh the uh normal uh simple chip will be okay.
+ME: Yeah, I agree.
+PM: And what's the sample sensor slash sample speaker?
+ID: Maybe you can say against the remote uh page uh f uh page up, page down.
+UI: Yeah.
+ME: Yeah, I guess so too.
+UI: Yeah, true.
+ME: Next channel.
+UI: Well, that's not too what we want.
+ME: No. Well, we might want it, but
+PM: Okay.
+ID: All in twelve Euros.
+PM: Back to the costs.
+ME: Yeah.
+ID: Twelve Euros and fifty cents.
+PM: So we're gonna use the simple chip.
+UI: So, simple chip is okay.
+ME: Great. Delete. Yeah.
+ID: And the lights. Where uh are the lights?
+UI: Yeah, lights, yeah, there's no
+ME: Well, there're three, I guess.
+UI: category.
+PM: Nah, there is some money left to be spent.
+UI: Can we do it wi within two two Euro?
+ME: I think we can make a docking station. Yeah.
+PM: Okay, but what we have to think about now is that is is it still a special remote control? But I mean it isn't it hasn't got any innovative technology, we aren't gonna apply any uh innovated innovative te technology anyway, I think. I don't I don't see any possibility to do so, because it would wouldn't fit our defi design philosophy. But what w is there some extra maybe I think maybe the kinetic thing is something.
+UI: Mm-hmm.
+UI: But it's original.
+ME: No, that's true.
+PM: Instead of the rechargeable the rechargeable thing was something to um know, so y so people wouldn't have to worry about their batteries anymore. Maybe we if we put the kinetic thing in it
+ME: M bu
+ID: But but sometimes you put a
+PM: Yeah, you leave the p yeah, I know, but still I they will think about that. I mean if you u
+ID: Kinetics aren't uh nowadays only used in watches and that's because you're always walking.
+PM: The uh it's made for s people well, the they don't if it was uh uh r useless technology, they wouldn't put it uh as a possibility. And i it it th th the the target the target uh group are people who zap regularly and throw with their remote control as a matter of speaking. Because I think it when when there w was a remote control where it was useful to have a kinetic uh uh power source, then it would be this one. Because it's one it gets thrown around thrown around a lot and it gets used a lot
+ID: Uh solar cells are useless.
+ME: Or the hand dynamo dynamo
+ME: Yeah.
+PM: Hey that maybe that's cool that's a cool thing about it, you know. You don't use batteries. I've never seen it before in a remote control.
+ME: Yeah, but but if we ca
+ME: I don't know if
+UI: But then we could make a docking station.
+ME: Five minutes.
+PM: No, we we we can't make a docking station anyway.
+ME: That's not true.
+PM: Yeah, we can als or uh also m we we can make one we can still make
+ME: We can make a docking station for two thirty.
+UI: Wow, w why no li Look at now, we got two
+ME: Two thirty.
+ID: Fo for a docking station. With a cable, with uh buttons on it, with retrieval uh device in it.
+UI: two thirty left. Ca can't we make a docking station of that?
+ME: We can make a docking station. Sure.
+ME: Sure.
+UI: I don't know.
+ME: The power device is is i i is very cheap. That's just a regular uh power cable and whatever.
+PM: Yeah, but be serious, then uh the docking station will be a fifth of the price of the remote control.
+ID: Wi with a button to
+UI: Well, we we uh
+ME: So.
+ID: wi with a button to retrieve it, so it will beep. Uh, so it's uh wireless technology.
+ME: Yeah.
+PM: Yeah, but we uh we don't inc we haven't looked at the these costs of the speaker and other stuff.
+PM: I don't think it's realistic for you to do so.
+ME: Well then it's a useless project.
+ID: Look at the case, the case the case of of uh of uh
+PM: Oh, because we
+UI: Yeah, then we don't have any innovation things.
+PM: We well look at all the special stuff we have. Colour a the colours are special, the form is special. It th this is whole concept. Uh maybe it with the kinetic thing, I think we could do uh do a compromise uh with the kim kinetic thing.
+ME: Can't we uh
+ME: Can't we say fifteen Euros?
+PM: Uh, no.
+ME: No, sta yeah I mean
+ID: No, then we have to sell it for thirty Euros.
+ME: No.
+UI: No, we only make less profit of it.
+ID: It's the
+ME: You can sell for twenty seven and a half.
+ME: Then you make as much profit as you would with twelve and a half production costs.
+UI: No.
+PM: Yeah, I don my suggestion is to just forget about the whole docking station thing and make it uh like a
+PM: Uh uh I I I I still fee I also feel this concept of making it kinetic,
+PM: because of the you know, it g it gives something dynamic to the remote control.
+ME: I don't think
+ID: Maybe we can uh can do it both. Maybe we can do it both uh in the in the in the remote. Battery and kinetic.
+ME: No.
+PM: No, that wouldn't n no.
+ME: Thirteen twenty.
+PM: Yeah, and it is also not a good it's not you have to really do it only kinetic, you don't want it to think about batteries anymore.
+ME: And I think only
+ID: Yes, but when it's then when it then you have to shake it uh and all when it's when it's empty.
+ME: Yeah, but only kinetic, then you gotta
+PM: No no.
+PM: Yeah, it's great.
+ME: You you gotta throw uh throw it through the room like twenty times an hour, really.
+PM: No no no. No no, this is very sophisticated technology technology. When you use it your remote like once a day, or maybe even less i i it
+ID: You asked for three d
+ID: No, that's n that's not true. Uh, a watch is uh kinetic because you walk all the time.
+ME: No.
+PM: It We can make it yeah no. Becau be but a remote control gets why do they state that this technology can be used if it
+ID: Yes, solar cells are also stated.
+PM: Yeah, m but a w uh uh n uh a calculator also works on r on solar cells.
+ID: Why don't we use solar cells then?
+PM: Because I think the d whole dynamic part, do you know, appeals to me qui uh thinking of our design philosophy, you know, with the rubber parts and uh sturdiness of the thing, and y when you move it around a lot, then people find the idea funny that when I move my remote control around and
+ID: That's true.
+ME: Yeah, it's funny for a week. I guess something like that, where you have to move it around very frequently, is demotivating.
+PM: Yeah, but you don't have to. Trust me. The idea of this technology is that you don't think about it, it just happens.
+ME: No, I I don't move my uh my remote control very much, seriously.
+PM: Okay, then we d Okay, well y we don't have to do it, but what that would just have a lack of key features, you know. You m have to put something on your box. You have to make people buy it and uh
+ID: Oui.
+PM: We can really can do the docking thing, uh it's not yeah, uh we can do it, but it's would be a easy way out.
+ID: You can do it for fifty cents.
+ME: Well, we've got more than fifty Cents.
+ID: The c The case the case alone is is is uh
+PM: Okay, but we have to grou to agree upon something, because uh we only have a minute left or so.
+ID: the case alone for uh remote control is at least one Euro.
+ID: Then we have one Euro thirty for the whole docking station.
+PM: No no, it's not possible.
+PM: Okay, w b we can s we can leave it on be well then then th it's this is then then our concept is ready.
+UI: Cheap remote control.
+PM: Yeah, we make some extra profit of it.
+ME: Yeah. No, we won't, but that's um something else. No, this not gonna sell. No.
+ID: But now
+UI: It w it won't tell, but
+PM: Huh, any ideas?
+ME: Of course not.
+UI: No, uh, n no
+ID: Great. It's great.
+UI: Yeah, we just have to go all what we did today again. You have to do it over.
+ID: Our remote control.
+ME: We come back tomorrow, okay?
+UI: Yeah. the
+PM: No no uh there's still there's still someth concept and something special left. I mean we're gonna it's gonna excel in in on in the the range in the field of design and and uh looks and feel.
+ID: Yes.
+ID: Seventy Euros.
+UI: No, but no.
+PM: That's what it's makes it special.
+PM: Yeah, and I would li I would have liked a kinetic part as well, to give it some
+PM: just to give it some extra special feature, and uh I know it will work, but uh it's it's an They're they're not putting technologies on this, but if it if it was impossible to
+PM: to make it happen.
+ID: Why not a hand dynamo then?
+PM: Okay, well we leave it like this. Then it's c then we're yeah.
+UI: Yeah, yeah.
+ME: We can't do anything else. Warning, finish meeting now.
+ID: We're done.
+PM: Okay, project e uh well, we were gonna what look take a look at the last sheet.
+ID: Is this it?
+ME: Yeah, sure.
+ID: Okay.
+ME: No, we can't.
+PM: Yeah, we have to Yeah, it's
+UI: No.
+ME: Yes, yes. Celebration. I don't see why, but
+ID: Yes.
+ID: Where's the champagne?
+ME: I think we gotta fill out another questionnaire, to be honest.
+UI: Yeah?
+ID: I don't uh hear a bell.
+ME: No, not yet.
+ME: Alright, I'll see you guys in a minute.
+UI: We can do it here then.
+ID: Bye.
+ME: I don't think so.
+UI: Can we can't we do it here?
+ME: I don't know. I don't I don't think so.
+ID: Uh-huh.
+ID: Just fill that one in.
+UI: Yeah, we're doing now. But it's.
+UI: Oh, okay.
+PM: Uh, I don't know.
+UI: Nice.

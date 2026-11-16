@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01043-q01",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5301abb0-08c6-4f1f-a12a-43d2b33c7d77",
+    "name": "ASKED_ABOUT",
+    "fact": "Mateo asked Jonas about the late submissions by team for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c5d7840-75e7-4c09-9913-3d690ae28d42",
+    "name": "ARGUES_AGAINST_ANNUAL_REVIEWS",
+    "fact": "Camila argues that one review a year doesn't work because feedback is too late to be useful, and people don't get to act on it.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   },
+   {
+    "uuid": "b013fdc3-bc23-466f-867c-cbb852e197a0",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he did not think he could justify the weeks for the second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87e5768-7200-4f41-9958-f92417ff7fae",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that Milan's numbers did not tie to the budget sheet and were off by about eleven or twelve.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91d8a9b1-b2aa-4013-8836-585eaad00dc2",
+    "name": "INFORMED_ABOUT",
+    "fact": "Jonas informed Camila that the June cycle had taken about five weeks to complete, including the two-day freeze requested by Paolo's team.",
+    "episodes": [
+     "2e7461e8-9f46-4afa-b82a-ad8ecdea7fb5"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q02",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "695a9031-749e-4491-bb95-23feaa653267",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to revisit the review structure after realizing he could not explain why they were doing what they were doing.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c5d7840-75e7-4c09-9913-3d690ae28d42",
+    "name": "ARGUES_AGAINST_ANNUAL_REVIEWS",
+    "fact": "Camila argues that one review a year doesn't work because feedback is too late to be useful, and people don't get to act on it.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87e5768-7200-4f41-9958-f92417ff7fae",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that Milan's numbers did not tie to the budget sheet and were off by about eleven or twelve.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q03",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1402ded-e92b-40fd-908d-73045cefe23c",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he would message Thandi after the meeting to tell her what the meeting came to.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9839a2d1-9256-4eb1-bac4-ef6894b6b05b",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were waiting on the tenure split for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q04",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1402ded-e92b-40fd-908d-73045cefe23c",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he would message Thandi after the meeting to tell her what the meeting came to.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9839a2d1-9256-4eb1-bac4-ef6894b6b05b",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were waiting on the tenure split for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b10d774e-2a66-4ae2-9a15-374a5e89732a",
+    "name": "INFORMED_ABOUT",
+    "fact": "Jonas informed Camila that 22 percent of managers submitted their June ratings late, with a median delay of four days.",
+    "episodes": [
+     "2e7461e8-9f46-4afa-b82a-ad8ecdea7fb5"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q05",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c5d7840-75e7-4c09-9913-3d690ae28d42",
+    "name": "ARGUES_AGAINST_ANNUAL_REVIEWS",
+    "fact": "Camila argues that one review a year doesn't work because feedback is too late to be useful, and people don't get to act on it.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa5c22e7-2c98-4ff6-8fbb-a36a6211f769",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the review structure was to focus on monthly one-on-ones and keep the formal review at one a year.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b013fdc3-bc23-466f-867c-cbb852e197a0",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he did not think he could justify the weeks for the second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87e5768-7200-4f41-9958-f92417ff7fae",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that Milan's numbers did not tie to the budget sheet and were off by about eleven or twelve.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q06",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   },
+   {
+    "uuid": "fa5c22e7-2c98-4ff6-8fbb-a36a6211f769",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the review structure was to focus on monthly one-on-ones and keep the formal review at one a year.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1402ded-e92b-40fd-908d-73045cefe23c",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he would message Thandi after the meeting to tell her what the meeting came to.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "b013fdc3-bc23-466f-867c-cbb852e197a0",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he did not think he could justify the weeks for the second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1a761be5-8e42-4fa0-9a09-aab187b6eb87",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned to Mateo that Paolo's team is already stretched with the payroll migration, which is why they don't have the capacity to change things this year.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "695a9031-749e-4491-bb95-23feaa653267",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to revisit the review structure after realizing he could not explain why they were doing what they were doing.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q07",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1402ded-e92b-40fd-908d-73045cefe23c",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he would message Thandi after the meeting to tell her what the meeting came to.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9839a2d1-9256-4eb1-bac4-ef6894b6b05b",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were waiting on the tenure split for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa5c22e7-2c98-4ff6-8fbb-a36a6211f769",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the review structure was to focus on monthly one-on-ones and keep the formal review at one a year.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "1a761be5-8e42-4fa0-9a09-aab187b6eb87",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned to Mateo that Paolo's team is already stretched with the payroll migration, which is why they don't have the capacity to change things this year.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "695a9031-749e-4491-bb95-23feaa653267",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to revisit the review structure after realizing he could not explain why they were doing what they were doing.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q08",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "8c5d7840-75e7-4c09-9913-3d690ae28d42",
+    "name": "ARGUES_AGAINST_ANNUAL_REVIEWS",
+    "fact": "Camila argues that one review a year doesn't work because feedback is too late to be useful, and people don't get to act on it.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5301abb0-08c6-4f1f-a12a-43d2b33c7d77",
+    "name": "ASKED_ABOUT",
+    "fact": "Mateo asked Jonas about the late submissions by team for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "695a9031-749e-4491-bb95-23feaa653267",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to revisit the review structure after realizing he could not explain why they were doing what they were doing.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q09",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edfa37d5-f6d7-41ef-8177-3feb3f498219",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned to Chloe that she is not saying to switch the review cycle, but that they should know what they're giving up.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:18:29.159762+00:00"
+   },
+   {
+    "uuid": "8d380724-13c6-499e-ad53-f2ff1cee9d68",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were giving something up by not having a second review cycle.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "5301abb0-08c6-4f1f-a12a-43d2b33c7d77",
+    "name": "ASKED_ABOUT",
+    "fact": "Mateo asked Jonas about the late submissions by team for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c5d7840-75e7-4c09-9913-3d690ae28d42",
+    "name": "ARGUES_AGAINST_ANNUAL_REVIEWS",
+    "fact": "Camila argues that one review a year doesn't work because feedback is too late to be useful, and people don't get to act on it.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "695a9031-749e-4491-bb95-23feaa653267",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to revisit the review structure after realizing he could not explain why they were doing what they were doing.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91d8a9b1-b2aa-4013-8836-585eaad00dc2",
+    "name": "INFORMED_ABOUT",
+    "fact": "Jonas informed Camila that the June cycle had taken about five weeks to complete, including the two-day freeze requested by Paolo's team.",
+    "episodes": [
+     "2e7461e8-9f46-4afa-b82a-ad8ecdea7fb5"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa5c22e7-2c98-4ff6-8fbb-a36a6211f769",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the review structure was to focus on monthly one-on-ones and keep the formal review at one a year.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q10",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "9839a2d1-9256-4eb1-bac4-ef6894b6b05b",
+    "name": "MENTIONED",
+    "fact": "Camila mentioned that she thought they were waiting on the tenure split for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5301abb0-08c6-4f1f-a12a-43d2b33c7d77",
+    "name": "ASKED_ABOUT",
+    "fact": "Mateo asked Jonas about the late submissions by team for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "42e8c262-391d-4dfd-9789-9008ab2cf331",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned to Mateo that last December's calibration ran from the second to the nineteenth, which was seventeen days.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2212fd1-fafe-4639-b0e5-54467c8d9331",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the manager problem was to use the slots thing, which was Kaveh's calendar.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1a761be5-8e42-4fa0-9a09-aab187b6eb87",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned to Mateo that Paolo's team is already stretched with the payroll migration, which is why they don't have the capacity to change things this year.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01043-q11",
+  "facts": [
+   {
+    "uuid": "a3c34949-d2e5-45b8-9399-f2a09bf20674",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned to Camila that managers are supposed to account for the whole year in the performance reviews.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "06977b6b-0e37-491a-9c08-b57379f37bc1",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the 71% figure was the same whether the company reviews once or twice.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa5c22e7-2c98-4ff6-8fbb-a36a6211f769",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that the fix for the review structure was to focus on monthly one-on-ones and keep the formal review at one a year.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91d8a9b1-b2aa-4013-8836-585eaad00dc2",
+    "name": "INFORMED_ABOUT",
+    "fact": "Jonas informed Camila that the June cycle had taken about five weeks to complete, including the two-day freeze requested by Paolo's team.",
+    "episodes": [
+     "2e7461e8-9f46-4afa-b82a-ad8ecdea7fb5"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5301abb0-08c6-4f1f-a12a-43d2b33c7d77",
+    "name": "ASKED_ABOUT",
+    "fact": "Mateo asked Jonas about the late submissions by team for the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f21dbb0-557f-46c7-9060-29103c32a5e5",
+    "name": "WILL_INFORM",
+    "fact": "Mateo will inform Thandi about the decision to keep the annual review in December and not have a second cycle this year this afternoon.",
+    "episodes": [
+     "a052e57a-7bca-487b-83b9-0fcb3d9a7889"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T20:55:53.070988+00:00"
+   },
+   {
+    "uuid": "8d453668-012f-4154-99e2-bb684e0b4f46",
+    "name": "MENTIONED",
+    "fact": "Chloe mentioned that 71% of managers who held monthly one-on-ones had reports that said they were getting enough feedback.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b6fef548-aed9-4fc2-8f98-a2d0c86ff749",
+    "name": "MENTIONED",
+    "fact": "Mateo mentioned that he wanted to hear what Camila had to say about the review structure.",
+    "episodes": [
+     "760d2ae3-98f6-4315-814c-88fd7dc0b64d"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "716210db-f304-496c-b7d1-a1d28a9c9f08",
+    "name": "POINTS_OUT_SURVEY_DATA",
+    "fact": "Camila points out that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ee44439-ea6f-4237-8c1c-ed102c94884f",
+    "name": "REPORTS_SURVEY_RESULTS",
+    "fact": "Elif reports that 47% of newer employees (under two years) say they don't get feedback often enough, and five of the last eight leavers cited lack of feedback in their exit notes.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f75492cf-88b1-475e-8d8e-940d2eb9cd7a",
+    "name": "INFORMS_ABOUT_CHANGE",
+    "fact": "Mateo will inform Thandi about the change in review cycles after the meeting.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1088693f-39c2-4811-8c61-9b627b18828f",
+    "name": "PROPOSES_TWO_REVIEWS_A_YEAR",
+    "fact": "Camila proposes having two rated review cycles a year, in June and December, to catch issues earlier.",
+    "episodes": [
+     "e8322490-8b7e-4c23-b8a5-67fb61bbaa5a"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

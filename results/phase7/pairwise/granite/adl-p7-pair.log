@@ -1,0 +1,32 @@
+[{"stream_name":"stdout","time":1.5813945600000001,"data":"09:54:50 model granite4.2:8b items 160\n"}
+,{"stream_name":"stdout","time":13.062559569,"data":"09:55:01 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 64.deb ...\n"}
+,{"stream_name":"stdout","time":13.06258689,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.062593425,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.062597829,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":13.062603003,"data":" 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":13.062608307,"data":"\n"}
+,{"stream_name":"stdout","time":24.507394699,"data":"09:55:13 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":24.507419673,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":24.507423615,"data":"  Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":24.507426684,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":24.507430706,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":24.507435266999998,"data":"\n"}
+,{"stream_name":"stdout","time":65.380705998,"data":"09:55:53 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull granite4.2:8b rc 0  d86276ca46ac: 100% ▕██████████████████▏  417 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":65.380740755,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":65.380745721,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":65.380750037,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":65.38075438,"data":"\n"}
+,{"stream_name":"stdout","time":200.570574131,"data":"09:58:09 25 done\n"}
+,{"stream_name":"stdout","time":245.024956561,"data":"09:58:53 50 done\n"}
+,{"stream_name":"stdout","time":293.977828481,"data":"09:59:42 75 done\n"}
+,{"stream_name":"stdout","time":352.179261538,"data":"10:00:40 100 done\n"}
+,{"stream_name":"stdout","time":419.887211977,"data":"10:01:48 125 done\n"}
+,{"stream_name":"stdout","time":482.036753319,"data":"10:02:50 150 done\n"}
+,{"stream_name":"stdout","time":536.436764954,"data":"10:03:44 DONE 160 in 372 s\n"}
+,{"stream_name":"stderr","time":539.194786358,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":539.19482246,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":539.580337442,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":539.580375651,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":541.622879705,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":542.705851677,"data":"[NbConvertApp] Writing 369253 bytes to __results__.html\n"}
+]

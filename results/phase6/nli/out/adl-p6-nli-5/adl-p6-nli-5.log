@@ -1,0 +1,10 @@
+[{"stream_name":"stderr","time":36.484351396,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":41.28548242,"data":"\rLoading weights:   0%|          | 0/106 [00:00\u003c?, ?it/s]\rLoading weights: 100%|██████████| 106/106 [00:00\u003c00:00, 2595.94it/s]\n"}
+,{"stream_name":"stdout","time":240.120816531,"data":"DONE 24869 pairs in 196 s\n"}
+,{"stream_name":"stderr","time":245.80332692,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":245.803356162,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":246.021564735,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":246.021598454,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":246.778849805,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":247.673956369,"data":"[NbConvertApp] Writing 833375 bytes to __results__.html\n"}
+]

@@ -1,0 +1,83 @@
+{
+ "gemini": {
+  "n": 139,
+  "accuracy": 0.683,
+  "per_role": {
+   "proposal": [
+    19,
+    19
+   ],
+   "rationale": [
+    7,
+    37
+   ],
+   "evidence": [
+    20,
+    20
+   ],
+   "challenge": [
+    1,
+    14
+   ],
+   "reconsideration": [
+    14,
+    15
+   ],
+   "resolution": [
+    34,
+    34
+   ]
+  },
+  "confusions": {
+   "challenge->proposal": 2,
+   "rationale->evidence": 22,
+   "rationale->proposal": 8,
+   "challenge->rationale": 8,
+   "challenge->evidence": 3,
+   "reconsideration->evidence": 1
+  }
+ },
+ "granite": {
+  "n": 293,
+  "accuracy": 0.444,
+  "per_role": {
+   "proposal": [
+    40,
+    40
+   ],
+   "rationale": [
+    5,
+    77
+   ],
+   "evidence": [
+    40,
+    41
+   ],
+   "challenge": [
+    14,
+    30
+   ],
+   "reconsideration": [
+    13,
+    32
+   ],
+   "resolution": [
+    18,
+    73
+   ]
+  },
+  "confusions": {
+   "resolution->proposal": 55,
+   "challenge->proposal": 7,
+   "rationale->evidence": 32,
+   "reconsideration->proposal": 17,
+   "rationale->proposal": 39,
+   "reconsideration->evidence": 1,
+   "challenge->evidence": 7,
+   "challenge->rationale": 2,
+   "evidence->proposal": 1,
+   "rationale->error": 1,
+   "reconsideration->rationale": 1
+  }
+ }
+}

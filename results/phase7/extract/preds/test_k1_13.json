@@ -1,0 +1,658 @@
+{
+ "set_id": "test_k1_13",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": "Allocate all 120 to search ads and social ads"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Scheduling of retrospective for spring campaign",
+   "option": "Schedule retrospective"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Scheduling of retrospective for spring campaign",
+   "option": "Schedule for next week"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Who covers the newsletter while Rosa is away",
+   "option": "Assign someone to cover the newsletter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Who covers the newsletter while Rosa is away",
+   "option": "Amara covers the newsletter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Lunch plans for team thing in June",
+   "option": "Arrange lunch plans"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Lunch plans for team thing in June",
+   "option": "Mateo looks into lunch plans"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "Time for Lakshmi to discuss media plan details",
+   "option": "Schedule meeting with Lakshmi"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Time for Lakshmi to discuss media plan details",
+   "option": "Schedule meeting for tomorrow at 10"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    10,
+    11,
+    12
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "Allocation of third quarter money",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "Allocation of third quarter money",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Greta",
+   "confidence": 0.75,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "Allocation of third quarter money",
+   "option": "Partner webinars plus retargeting"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "Allocation of third quarter money",
+   "option": "Search and social are out for this quarter's money"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Newsletter sender name",
+   "option": "Content lead's name"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.85,
+   "decision": "Lunch plans for team thing in June",
+   "option": "Wednesday lunch"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "New plan documentation",
+   "option": "Write up new plan"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Partner webinar planning",
+   "option": "Confirm partner names"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "Promo window timing",
+   "option": "Discuss timing for first webinar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.7,
+   "decision": "Promo window timing",
+   "option": "Timing is tight"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "Promo window timing",
+   "option": "Promo window is tight"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "Landing page creation",
+   "option": "Assign landing page creation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Landing page creation",
+   "option": "Assign to Clara"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Payment terms for partner webinars",
+   "option": "Ask about payment terms"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Payment terms for partner webinars",
+   "option": "Chase Clara for payment terms"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Retargeting cost analysis",
+   "option": "Retargeting cost data"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Retargeting cost analysis",
+   "option": "Cost per lead data"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Retargeting cost analysis",
+   "option": "Audience pool size limits retargeting"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Retargeting cost analysis",
+   "option": "Audience pool grows with webinars"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "One-page plan",
+   "option": "Send one-page plan with blanks"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "One-page plan",
+   "option": "Send one-page plan with blanks"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "All-hands attendance",
+   "option": "Attend all-hands"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Retro notes",
+   "option": "Send retro notes to Greta"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Retro notes",
+   "option": "Send retro notes today"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Plan framing",
+   "option": "Add partner relationship framing"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Plan framing",
+   "option": "Add one line about partner relationships"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Lunch plans",
+   "option": "Confirm lunch plans"
+  }
+ ]
+}

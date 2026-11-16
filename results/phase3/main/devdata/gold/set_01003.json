@@ -1,0 +1,418 @@
+{
+ "set_id": "set_01003",
+ "meta": {
+  "arc_type": "partial_override",
+  "domain": "corporate facilities team",
+  "seed": 1003,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 104
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 78
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 119
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "the flooring for the new Level 4 office fit-out",
+ "options": {
+  "A": "Luxury vinyl plank flooring from Norvik Supply",
+  "A+M": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones"
+ },
+ "cast": [
+  {
+   "name": "Tariq",
+   "slot": "manager",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Mateo",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Elif",
+   "slot": "challenger",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Sven",
+   "slot": "supporter",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Aisha",
+   "slot": "observer",
+   "style": "likes to play devil's advocate"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "Luxury vinyl plank flooring from Norvik Supply"
+  },
+  {
+   "version": 2,
+   "option": "A+M",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Mateo proposes using luxury vinyl plank flooring from Norvik Supply for the new Level 4 office fit-out.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    3
+   ],
+   "gist": "Mateo says vinyl plank costs about 20 percent less than carpet tile, is quick to replace, and Norvik can deliver within three weeks.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Tariq agrees to go ahead with Mateo's flooring plan.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Aisha reports a pantry mock-up test in which planks with unsealed seams lifted and warped after 48 hours of repeated wet mopping.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Elif argues the pantry and entrance will get spills and wet shoes every day, so open seams will lift, and the warranty excludes unsealed seams in wet areas.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Tariq says the mock-up result and the warranty exclusion mean the flooring decision needs another look before ordering.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Luxury vinyl plank flooring from Norvik Supply",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    3
+   ],
+   "gist": "Sven says keeping vinyl plank but having Norvik heat-seal the seams and putting a ceramic tile band across the pantry and entrance zones fixes the moisture problem without paying for tile everywhere.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    15
+   ],
+   "gist": "Tariq decides to keep Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01003-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the flooring for the new Level 4 office fit-out?",
+   "answer_text": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones",
+   "answer_facts": {
+    "option": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01003-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the flooring for the new Level 4 office fit-out?",
+   "answer_text": "meeting 1: Tariq - Tariq agrees to go ahead with Mateo's flooring plan.; meeting 3: Tariq - Tariq decides to keep Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "Luxury vinyl plank flooring from Norvik Supply",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01003-q03",
+   "type": "as_of",
+   "question": "What was the decision about the flooring for the new Level 4 office fit-out as of the end of meeting 2?",
+   "answer_text": "Luxury vinyl plank flooring from Norvik Supply",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "Luxury vinyl plank flooring from Norvik Supply"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01003-q04",
+   "type": "as_of",
+   "question": "What was the decision about the flooring for the new Level 4 office fit-out as of the end of meeting 3?",
+   "answer_text": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01003-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the flooring for the new Level 4 office fit-out change over time?",
+   "answer_text": "Luxury vinyl plank flooring from Norvik Supply (from meeting 1) -> Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "Luxury vinyl plank flooring from Norvik Supply",
+     "Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01003-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the flooring for the new Level 4 office fit-out changed?",
+   "answer_text": "Before: Luxury vinyl plank flooring from Norvik Supply, because Mateo says vinyl plank costs about 20 percent less than carpet tile, is quick to replace, and Norvik can deliver within three weeks. Triggered by: Aisha (evidence): Aisha reports a pantry mock-up test in which planks with unsealed seams lifted and warped after 48 hours of repeated wet mopping. Elif (challenge): Elif argues the pantry and entrance will get spills and wet shoes every day, so open seams will lift, and the warranty excludes unsealed seams in wet areas. Tariq (reconsideration): Tariq says the mock-up result and the warranty exclusion mean the flooring decision needs another look before ordering. After: Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones, because Sven says keeping vinyl plank but having Norvik heat-seal the seams and putting a ceramic tile band across the pantry and entrance zones fixes the moisture problem without paying for tile everywhere.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01003-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the flooring for the new Level 4 office fit-out?",
+   "answer_text": "Mateo",
+   "answer_facts": {
+    "speaker": "Mateo"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01003-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the flooring for the new Level 4 office fit-out?",
+   "answer_text": "Aisha (evidence): Aisha reports a pantry mock-up test in which planks with unsealed seams lifted and warped after 48 hours of repeated wet mopping. Elif (challenge): Elif argues the pantry and entrance will get spills and wet shoes every day, so open seams will lift, and the warranty excludes unsealed seams in wet areas.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01003-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the flooring for the new Level 4 office fit-out?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01003-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the flooring for the new Level 4 office fit-out from proposal to final outcome.",
+   "answer_text": "meeting 1 - Mateo [proposal]: Mateo proposes using luxury vinyl plank flooring from Norvik Supply for the new Level 4 office fit-out. | meeting 1 - Mateo [rationale]: Mateo says vinyl plank costs about 20 percent less than carpet tile, is quick to replace, and Norvik can deliver within three weeks. | meeting 1 - Tariq [resolution]: Tariq agrees to go ahead with Mateo's flooring plan. | meeting 2 - Aisha [evidence]: Aisha reports a pantry mock-up test in which planks with unsealed seams lifted and warped after 48 hours of repeated wet mopping. | meeting 2 - Elif [challenge]: Elif argues the pantry and entrance will get spills and wet shoes every day, so open seams will lift, and the warranty excludes unsealed seams in wet areas. | meeting 3 - Tariq [reconsideration]: Tariq says the mock-up result and the warranty exclusion mean the flooring decision needs another look before ordering. | meeting 3 - Sven [rationale]: Sven says keeping vinyl plank but having Norvik heat-seal the seams and putting a ceramic tile band across the pantry and entrance zones fixes the moisture problem without paying for tile everywhere. | meeting 3 - Tariq [resolution]: Tariq decides to keep Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

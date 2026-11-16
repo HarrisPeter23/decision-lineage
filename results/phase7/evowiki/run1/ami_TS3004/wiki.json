@@ -1,0 +1,1073 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Remote control design",
+   "attribute": "normal remote control",
+   "states": [
+    {
+     "value": "square, normal remote control",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-12T09:00:00",
+     "evidence": [
+      305
+     ]
+    },
+    {
+     "value": "square with rounded corners",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      627,
+      628,
+      630,
+      634,
+      636,
+      637
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Remote control design",
+   "attribute": "basic functions placement",
+   "states": [
+    {
+     "value": "on top",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-12T09:00:00",
+     "evidence": [
+      291,
+      296,
+      297
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Remote control design",
+   "attribute": "folding mechanism",
+   "states": [
+    {
+     "value": "not implemented",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-12T09:00:00",
+     "evidence": [
+      301,
+      302,
+      305
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Remote control design",
+   "attribute": "target audience",
+   "states": [
+    {
+     "value": "forty plus people, especially elderly",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      50
+     ]
+    },
+    {
+     "value": "square with round corners",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      48
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Remote control design",
+   "attribute": "button size",
+   "states": [
+    {
+     "value": "bigger buttons",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Remote control design",
+   "attribute": "features",
+   "states": [
+    {
+     "value": "basic functions like numbers, on-off, volume, channels",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      133,
+      134,
+      140
+     ]
+    },
+    {
+     "value": "back-lights, scroll wheel",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      612,
+      641,
+      642,
+      645,
+      646,
+      651
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Remote control design",
+   "attribute": "usability",
+   "states": [
+    {
+     "value": "simple and easy to use for elderly people",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      103,
+      114
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Remote control design",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "25 Euros",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      99,
+      101
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Remote control",
+   "attribute": "speech recognition",
+   "states": [
+    {
+     "value": "not implemented",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      506,
+      507,
+      508,
+      509
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2004-10-12T11:00:00",
+       "evidence": [
+        683,
+        684,
+        685,
+        686,
+        687,
+        688
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Remote control",
+   "attribute": "lighting feature",
+   "states": [
+    {
+     "value": "lights up for twenty seconds when a button is pressed",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      515,
+      517
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Remote control",
+   "attribute": "teletext options",
+   "states": [
+    {
+     "value": "kept on one level",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-12T10:00:00",
+     "evidence": [
+      549,
+      550
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Remote control case",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "plastic",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      416,
+      421,
+      423,
+      426
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Remote control case",
+   "attribute": "transparency",
+   "states": [
+    {
+     "value": "transparent",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      260,
+      302,
+      312,
+      315
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Remote control case",
+   "attribute": "shape",
+   "states": [
+    {
+     "value": "two D_ curved",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      370,
+      372,
+      410,
+      411
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Remote control buttons",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "hard plastic",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 4,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      270,
+      272,
+      276,
+      290,
+      291
+     ]
+    },
+    {
+     "value": "hard plastic",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      48
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Remote control",
+   "attribute": "LEDs",
+   "states": [
+    {
+     "value": "normal infrared LED and back light LEDs",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 4,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      302,
+      307,
+      308,
+      315
+     ]
+    },
+    {
+     "value": "hard plastic",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      256,
+      257
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Remote control",
+   "attribute": "energy source",
+   "states": [
+    {
+     "value": "rechargeable batteries",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      354,
+      355,
+      357,
+      365
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Remote control",
+   "attribute": "scroll wheels",
+   "states": [
+    {
+     "value": "volume control only",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      378,
+      381,
+      383,
+      385
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Remote control",
+   "attribute": "chip",
+   "states": [
+    {
+     "value": "regular chip (second most expensive)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      388,
+      389,
+      422,
+      423
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Remote control",
+   "attribute": "case design",
+   "states": [
+    {
+     "value": "with logo on it",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      252,
+      529
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Remote control",
+   "attribute": "fronts",
+   "states": [
+    {
+     "value": "five different fronts",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-12T11:00:00",
+     "evidence": [
+      265,
+      529
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Prototype presentation",
+   "attribute": "order",
+   "states": [
+    {
+     "value": "UI to present after PM",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Speech recognition",
+   "attribute": "inclusion",
+   "states": [
+    {
+     "value": "included in the project",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      14,
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Speech recognition",
+   "attribute": "chip",
+   "states": [
+    {
+     "value": "advanced chip",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      31,
+      38
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Device form",
+   "attribute": "color",
+   "states": [
+    {
+     "value": "changeable",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      48
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Device functions",
+   "attribute": "microphone",
+   "states": [
+    {
+     "value": "speech recognition on/off button",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      60,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Device functions",
+   "attribute": "buttons",
+   "states": [
+    {
+     "value": "12 buttons",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      88
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Device functions",
+   "attribute": "scrollwheel",
+   "states": [
+    {
+     "value": "on the left side",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "entity": "Device functions",
+   "attribute": "buttons layout",
+   "states": [
+    {
+     "value": "on-off, text, mute buttons together and easily reachable",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      78,
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "entity": "Device functions",
+   "attribute": "on-off button",
+   "states": [
+    {
+     "value": "larger and stands out",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "entity": "Device functions",
+   "attribute": "color lighting",
+   "states": [
+    {
+     "value": "backlight in channel buttons and num-pads",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      102,
+      104
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "entity": "Device functions",
+   "attribute": "menu navigation",
+   "states": [
+    {
+     "value": "menu button with arrows",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      142,
+      143,
+      144
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "entity": "Device functions",
+   "attribute": "button numbering",
+   "states": [
+    {
+     "value": "numbers on buttons",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      258,
+      260
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "entity": "Device functions",
+   "attribute": "button color",
+   "states": [
+    {
+     "value": "black or dark grey",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      321
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "entity": "Look-and-feel criteria",
+   "attribute": "beautiful",
+   "states": [
+    {
+     "value": "subjective, but given a score of 2",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      329,
+      330,
+      331,
+      332,
+      335,
+      336
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "entity": "Look-and-feel criteria",
+   "attribute": "fancy",
+   "states": [
+    {
+     "value": "given a score of 1",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      369,
+      370,
+      371,
+      372,
+      373,
+      374
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "entity": "Look-and-feel criteria",
+   "attribute": "learnable",
+   "states": [
+    {
+     "value": "given a score of 2",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      387,
+      390,
+      391,
+      392,
+      393,
+      394
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "entity": "Look-and-feel criteria",
+   "attribute": "technological innovation",
+   "states": [
+    {
+     "value": "given a score of 2",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      414,
+      415,
+      416,
+      417,
+      418,
+      419
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "entity": "Look-and-feel criteria",
+   "attribute": "targeted audience",
+   "states": [
+    {
+     "value": "given a score of 3",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      470,
+      471,
+      472,
+      473,
+      474,
+      475
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "entity": "Look-and-feel criteria",
+   "attribute": "average score",
+   "states": [
+    {
+     "value": "1.83",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      504,
+      505
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "entity": "Design features",
+   "attribute": "color options",
+   "states": [
+    {
+     "value": "black, yellow, white, and grey",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      299,
+      300,
+      301,
+      302,
+      303,
+      304
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "entity": "Design features",
+   "attribute": "backlighting",
+   "states": [
+    {
+     "value": "only on the numbers and the switch channel, not on the slide panel",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      340,
+      341,
+      342,
+      343,
+      344,
+      345
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "entity": "Design features",
+   "attribute": "button color",
+   "states": [
+    {
+     "value": "dark grey",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      319,
+      320,
+      321,
+      322,
+      323,
+      324
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "entity": "Cost",
+   "attribute": "production cost",
+   "states": [
+    {
+     "value": "12.3 Euros",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      534,
+      535,
+      536,
+      537,
+      538,
+      539
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "entity": "Cost",
+   "attribute": "sample speaker cost",
+   "states": [
+    {
+     "value": "4 Euros",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-12T12:00:00",
+     "evidence": [
+      558,
+      559
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S0",
+   0,
+   1,
+   3
+  ],
+  [
+   "S5",
+   0,
+   1,
+   3
+  ],
+  [
+   "S3",
+   0,
+   1,
+   4
+  ],
+  [
+   "S14",
+   0,
+   1,
+   4
+  ],
+  [
+   "S15",
+   0,
+   1,
+   4
+  ]
+ ]
+}

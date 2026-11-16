@@ -1,0 +1,78 @@
+{
+ "set_id": "set_01019",
+ "method": "single_pass+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Priya",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+set_id: set_01033
+seed: 1033
+arc_type: no_reversal
+topic: how the new in-app checkout screen is built
+option A: build the checkout in the cross-platform framework already used for the settings screens
+option B: build the checkout natively on each platform
+distractor topic: who writes the app store release notes
+distractor option: product writes the release notes instead of engineering
+beat B1: Fatima proposes building the new checkout in the cross-platform framework the app already uses for settings.
+beat B2: Fatima argues that one codebase is estimated at nine weeks against fifteen for two native builds, and two of the four engineers already know the framework.
+beat B3: Priya agrees without naming the approach, by asking Wei to set up the epics and the sprint board.
+beat B4: Elif reports that in a prototype the cross-platform checkout dropped to 38 frames per second while scrolling on a four-year-old Android model that 22 percent of users still have, where the native prototype held 58.
+beat B5: Sven objects that checkout is the highest-revenue screen and a janky experience on 22 percent of devices will cost conversions.
+beat B6: Priya reopens the question of how the checkout is built.
+beat B7: Fatima answers that the drops come from an unoptimised list of 40 saved addresses, that with a virtualised list the same phone reached 55 frames per second in a quick test, and that calling the platform payment sheets through native modules adds only three days to the nine weeks.
+beat B8: Priya confirms the cross-platform checkout.
+beat D1: Wei suggests that product, not engineering, writes the app store release notes.
+beat D2: Wei points out that the release notes were late for four of the last six releases and engineers' wording often misdescribes the feature.
+beat D3: Priya approves product writing the release notes.

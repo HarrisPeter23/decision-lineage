@@ -1,0 +1,418 @@
+{
+ "set_id": "set_01037",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "seed": 1037,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 94
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 94
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 81
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "which carrier handles outbound parcels in the south-east",
+ "options": {
+  "A": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+  "B": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel"
+ },
+ "cast": [
+  {
+   "name": "Aisha",
+   "slot": "manager",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Dmitri",
+   "slot": "proposer",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Diego",
+   "slot": "challenger",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Lena",
+   "slot": "supporter",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Arjun",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Dmitri",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Dmitri proposes moving all south-east parcels to Parcelwise on a 12-month contract at 4.10 pounds a parcel.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Dmitri",
+   "utterance_idxs": [
+    30
+   ],
+   "gist": "Dmitri argues that the current average is 4.85 pounds, the region ships about 18,000 parcels a quarter, and the move saves roughly 13,500 pounds a quarter.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    95
+   ],
+   "gist": "Aisha settles it: south-east parcels move to Parcelwise.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    27
+   ],
+   "gist": "Arjun reports that in the first five weeks Parcelwise delivered 81 percent on time against 96 percent with the regional couriers, leaving 640 late parcels.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    47
+   ],
+   "gist": "Diego objects that late deliveries cost more than the saving, with 1,900 pounds of customer credits in five weeks and complaints from three enterprise customers.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    32
+   ],
+   "gist": "Aisha reopens the carrier decision after the late-delivery figures.",
+   "version": 1,
+   "option_key": "A",
+   "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    39
+   ],
+   "gist": "Diego argues for the regional couriers because Eastline and Southgate average 4.35 pounds, guarantee 95 percent on time with credits for misses, saving about 9,000 pounds a quarter, and have no minimum-volume clause where Parcelwise requires 15,000 parcels.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    74
+   ],
+   "gist": "Aisha decides the south-east moves to the split between Eastline and Southgate.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01037-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about which carrier handles outbound parcels in the south-east?",
+   "answer_text": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel",
+   "answer_facts": {
+    "option": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01037-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about which carrier handles outbound parcels in the south-east?",
+   "answer_text": "meeting 1: Aisha - Aisha settles it: south-east parcels move to Parcelwise.; meeting 3: Aisha - Aisha decides the south-east moves to the split between Eastline and Southgate.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01037-q03",
+   "type": "as_of",
+   "question": "What was the decision about which carrier handles outbound parcels in the south-east as of the end of meeting 1?",
+   "answer_text": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01037-q04",
+   "type": "as_of",
+   "question": "What was the decision about which carrier handles outbound parcels in the south-east as of the end of meeting 2?",
+   "answer_text": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01037-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about which carrier handles outbound parcels in the south-east change over time?",
+   "answer_text": "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel (from meeting 1) -> a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel",
+     "a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01037-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about which carrier handles outbound parcels in the south-east changed?",
+   "answer_text": "Before: all south-east parcels with Parcelwise, a national carrier, on a 12-month contract at 4.10 pounds a parcel, because Dmitri argues that the current average is 4.85 pounds, the region ships about 18,000 parcels a quarter, and the move saves roughly 13,500 pounds a quarter. Triggered by: Arjun (evidence): Arjun reports that in the first five weeks Parcelwise delivered 81 percent on time against 96 percent with the regional couriers, leaving 640 late parcels. Diego (challenge): Diego objects that late deliveries cost more than the saving, with 1,900 pounds of customer credits in five weeks and complaints from three enterprise customers. Aisha (reconsideration): Aisha reopens the carrier decision after the late-delivery figures. After: a split between two regional couriers, Eastline and Southgate, by postcode zone at about 4.35 pounds a parcel, because Diego argues for the regional couriers because Eastline and Southgate average 4.35 pounds, guarantee 95 percent on time with credits for misses, saving about 9,000 pounds a quarter, and have no minimum-volume clause where Parcelwise requires 15,000 parcels.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01037-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about which carrier handles outbound parcels in the south-east?",
+   "answer_text": "Dmitri",
+   "answer_facts": {
+    "speaker": "Dmitri"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01037-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about which carrier handles outbound parcels in the south-east?",
+   "answer_text": "Arjun (evidence): Arjun reports that in the first five weeks Parcelwise delivered 81 percent on time against 96 percent with the regional couriers, leaving 640 late parcels. Diego (challenge): Diego objects that late deliveries cost more than the saving, with 1,900 pounds of customer credits in five weeks and complaints from three enterprise customers.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01037-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about which carrier handles outbound parcels in the south-east?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01037-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about which carrier handles outbound parcels in the south-east from proposal to final outcome.",
+   "answer_text": "meeting 1 - Dmitri [proposal]: Dmitri proposes moving all south-east parcels to Parcelwise on a 12-month contract at 4.10 pounds a parcel. | meeting 1 - Dmitri [rationale]: Dmitri argues that the current average is 4.85 pounds, the region ships about 18,000 parcels a quarter, and the move saves roughly 13,500 pounds a quarter. | meeting 1 - Aisha [resolution]: Aisha settles it: south-east parcels move to Parcelwise. | meeting 2 - Arjun [evidence]: Arjun reports that in the first five weeks Parcelwise delivered 81 percent on time against 96 percent with the regional couriers, leaving 640 late parcels. | meeting 2 - Diego [challenge]: Diego objects that late deliveries cost more than the saving, with 1,900 pounds of customer credits in five weeks and complaints from three enterprise customers. | meeting 3 - Aisha [reconsideration]: Aisha reopens the carrier decision after the late-delivery figures. | meeting 3 - Diego [rationale]: Diego argues for the regional couriers because Eastline and Southgate average 4.35 pounds, guarantee 95 percent on time with credits for misses, saving about 9,000 pounds a quarter, and have no minimum-volume clause where Parcelwise requires 15,000 parcels. | meeting 3 - Aisha [resolution]: Aisha decides the south-east moves to the split between Eastline and Southgate.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

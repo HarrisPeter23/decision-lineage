@@ -1,0 +1,350 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "In-office policy",
+   "attribute": "core days",
+   "states": [
+    {
+     "value": "Tuesday and Wednesday",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-10",
+     "evidence": [
+      13,
+      14,
+      64
+     ]
+    },
+    {
+     "value": "Tuesdays and Wednesdays",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      87
+     ]
+    },
+    {
+     "value": "allowed with manager approval",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      87
+     ]
+    },
+    {
+     "value": "summary with eighteen long-commute staff and four approved exceptions",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "In-office policy",
+   "attribute": "exceptions",
+   "states": [
+    {
+     "value": "approved by line manager",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-10",
+     "evidence": [
+      51,
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "In-office policy",
+   "attribute": "draft policy",
+   "states": [
+    {
+     "value": "to be written by Lena",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-10",
+     "evidence": [
+      66,
+      70
+     ]
+    },
+    {
+     "value": "kept exactly as written by sales",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Zofia's leaving do",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "next Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-10",
+     "evidence": [
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Laptop refresh schedule",
+   "attribute": "responsibility",
+   "states": [
+    {
+     "value": "IT department",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-10",
+     "evidence": [
+      77,
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Draft timing",
+   "attribute": "first read",
+   "states": [
+    {
+     "value": "Thursday next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-17",
+     "evidence": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "New joiners",
+   "attribute": "buddy program",
+   "states": [
+    {
+     "value": "Cross-team onboarding buddies",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-17",
+     "evidence": [
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Exit notes",
+   "attribute": "disclosure",
+   "states": [
+    {
+     "value": "Not disclosed to engineers",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-17",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Long-commute exception policy",
+   "attribute": "visibility",
+   "states": [
+    {
+     "value": "added to the top of the draft",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      59,
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Long-commute exception policy",
+   "attribute": "approval criteria",
+   "states": [
+    {
+     "value": "managers can approve for commutes over ninety minutes",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Long-commute exception policy",
+   "attribute": "log tracking",
+   "states": [
+    {
+     "value": "maintained by Lena",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Team lunch",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday, 2025-04-24",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Team lunch",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "11:00 AM",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Team lunch",
+   "attribute": "menu",
+   "states": [
+    {
+     "value": "sandwiches",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-24",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S0",
+   0,
+   1,
+   3
+  ],
+  [
+   "S0",
+   1,
+   2,
+   3
+  ],
+  [
+   "S0",
+   2,
+   3,
+   3
+  ],
+  [
+   "S2",
+   0,
+   1,
+   3
+  ]
+ ]
+}

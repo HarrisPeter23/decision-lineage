@@ -1,0 +1,121 @@
+Meeting: mtg_0003
+Date: 2025-11-16
+Participants: Lena, Pavel, Sven, Camila, Sana
+
+Lena: Okay, I think that's everyone. Sven, you're on mute, I can see your mouth moving.
+Sven: Sorry, sorry. Hi. I was saying good morning to nobody.
+Lena: Good morning to nobody, then. So, uh, where did the thing from Wednesday land? Pavel, Camila, you two sat down on it.
+Pavel: We did. Two hours. It's a doc now, sort of.
+Camila: It's more of a skeleton. I haven't put the, um, the sequence diagram in yet.
+Lena: That's fine. Just walk me through the shape of it.
+Camila: So there's a queue in front. The user service drops a message on it when marketing fires a campaign, and a worker picks up batches and sends them out to the platforms.
+Pavel: One worker type for each platform. Not one big thing.
+Sana: Why two? Is it- I mean, the retry stuff is the same either way-
+Pavel: The payloads are different. Different limits, different error codes.
+Sana: Right, but the backoff could live in one place and-
+Camila: That's what I wrote down, actually. Shared retry, separate adapters.
+Sana: Oh. Okay. Good.
+Lena: And that's, what, the four weeks we talked about?
+Camila: It's still about four. Maybe a bit more because of the error handling. I'd say four to five now.
+Lena: Okay. Not wildly different.
+Pavel: Not wildly. I wouldn't promise a date to Thandi yet though.
+Lena: She keeps asking. I told her end of the year, loosely.
+Pavel: Loosely is right.
+Sven: Can I ask about the, um, the tokens thing? Because I was reading something about how the tokens go stale when people uninstall, and then you get these errors back from the platform-
+Camila: The invalid token ones. Yes. We'd have to clean those out as the responses come back.
+Sven: Right, because otherwise you keep sending into the void. I had a friend at another company, they sent to forty percent dead tokens for a year and nobody noticed until the bill-
+Pavel: We don't have a bill per push.
+Sven: No, no, I know, this was a different setup. It was more the principle.
+Pavel: Okay.
+Lena: So that's a cleanup job. Is that in the skeleton?
+Camila: It's a line item. I haven't sized it.
+Lena: Mm. Okay. Put a rough number next to it when you can.
+Camila: I will.
+Sana: Can I flag something? The provider's dashboard shows delivery receipts. Open rates too, I think. Do we get those?
+Pavel: The platforms give back a delivery status. Opens, we'd have to log from the app side.
+Sana: Does the app already do that?
+Pavel: Some of it. Not all of it. I'd have to look.
+Sana: Because marketing leans on those numbers, is all I'm saying.
+Lena: Sunita mentioned it last week, actually. She was asking whether the reports would look the same.
+Pavel: They won't look the same.
+Lena: Right, but, like, close?
+Pavel: Close is a stretch. I'll talk to her.
+Lena: Thanks.
+Sven: Is that the same Sunita who does the, uh, the campaign calendar? Because she once sent me a calendar with every Friday highlighted in green and I never found out why.
+Sana: Why do you remember that?
+Sven: It was very green.
+Lena: Okay. Let's park that. Release. Where are we? Sana?
+Sana: Thursday's build is cut. QA has it. They found one thing on the older Android phones, the keyboard covers the login button.
+Lena: Is that new?
+Sana: No, it's been there. We just never tested the small screen with the long email layout.
+Lena: Okay. Is it a fix or a known issue?
+Sana: I'd rather fix it. Maybe an hour.
+Lena: Then fix it, as long as it doesn't move the date.
+Sana: It won't.
+Pavel: Who's on QA this week?
+Sana: Tadeusz is sitting in with them, actually. He wanted to see the test devices.
+Lena: Oh, nice. How's he doing?
+Sana: Good. He asked a lot of questions about the notification screens, funnily.
+Pavel: What kind?
+Sana: Like, where do the permission prompts get triggered. Nothing deep.
+Camila: That's actually relevant. If we change how it's sent, the opt-in path doesn't change, right?
+Pavel: Shouldn't. The app registers the token the same way.
+Camila: Okay. I'll write that down so it doesn't get lost.
+Lena: Good. Now, the offsite. I confirmed the date, it's the twentieth.
+Sven: The twentieth of January. Berlin.
+Lena: Yes. So you can book now.
+Sven: Great. Finally. I was going to look at flights last night and I got sidetracked, because I found this old route map and it turns out the train I take actually goes through, uh, I think it's Leipzig, and it's, well, the whole line was rebuilt in the nineties-
+Pavel: Sven.
+Sven: Right, yes. Flights. I'll book today.
+Lena: Camila, the co-working space, did they confirm?
+Camila: They said they'd hold the room until the end of the month. I need to send them a deposit.
+Lena: How much?
+Camila: Something like a quarter of the total. I'll check the email.
+Lena: Okay. Send me the number and I'll run it past Davor.
+Camila: Yes.
+Lena: And food. Do we need to think about food?
+Camila: They have a kitchen. We could order in. I haven't asked yet.
+Lena: Fine. It can wait.
+Pavel: Can we go back to the push thing for a second?
+Lena: Sure.
+Pavel: The provider. When does the plan with them actually end? Because Sanne's last email said the new pricing starts in December and I keep reading it differently.
+Lena: I had the same problem. I think the pricing changes the first, but the contract itself, I don't know.
+Pavel: So the overlap is the question.
+Lena: Yes. Sanne said she'd send the actual terms. I haven't seen them.
+Pavel: Did you chase?
+Lena: I sent a short note on Friday.
+Sana: She's usually quick.
+Lena: Not on Fridays, apparently.
+Sven: She sent me the laptop thing on a Saturday.
+Pavel: Different department.
+Sven: Is it? I thought it was all one team.
+Lena: Okay. Whatever the terms say, we still have to build the thing. So, what do you need from me?
+Camila: Honestly, someone to say who looks after it once it's running. I keep leaving it blank in the doc.
+Lena: Hm. I'd rather not answer that today. Can it stay blank a bit?
+Camila: It can. It just looks odd.
+Lena: I know. I'll come back to it.
+Sven: I mean, if it's helpful, I'm not saying it'd be me-
+Sana: It would be you.
+Sven: I'm saying I'm not volunteering.
+Lena: Noted.
+Pavel: I need a staging setup for the queue. Who do I ask?
+Lena: Ask Anika's team? No, wait, that's design. Is it the platform people?
+Pavel: Thandi's group, I think.
+Lena: Then ask Thandi, she'll know who.
+Pavel: Okay. I'll message her after this.
+Sana: And a test device account for each platform, so we're not sending to real people.
+Pavel: Yes. That's on the list.
+Sana: Is it? I didn't see it.
+Pavel: It's in my head. I'll put it on the list.
+Sana: Okay. Good.
+Camila: I can add it. It's easy to add.
+Pavel: Thanks.
+Lena: Okay. Any other thing on this?
+Camila: Only that I'd like a second pair of eyes on the numbers before it goes further. The cost side especially.
+Lena: Pavel, could you-
+Pavel: Sure. Send it over when you're ready.
+Camila: Thanks. Probably Tuesday.
+Lena: Great. I have to jump to another call. Anything else, quickly?
+Sven: No, I'm good. Booking flights.
+Sana: Nope.
+Lena: Okay, thanks, everyone.

@@ -1,0 +1,419 @@
+{
+ "set_id": "set_01028",
+ "meta": {
+  "arc_type": "partial_override",
+  "domain": "corporate events team",
+  "seed": 1028,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 90
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 103
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 103
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the format of this year's customer conference",
+ "options": {
+  "A": "a two-day in-person conference in Prague for 300 customers in October",
+  "A+M": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier"
+ },
+ "cast": [
+  {
+   "name": "Greta",
+   "slot": "manager",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Henrik",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Yuki",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Marco",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Sven",
+   "slot": "observer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "a two-day in-person conference in Prague for 300 customers in October"
+  },
+  {
+   "version": 2,
+   "option": "A+M",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Henrik proposes a two-day in-person customer conference in Prague for 300 guests in October.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    33
+   ],
+   "gist": "Henrik argues that the venue is held at 38,000 dollars for both days, last year's in-person attendees rated the event 71 on the satisfaction score against 44 for the webinar, and sponsors covered 60 percent of the cost.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    96
+   ],
+   "gist": "Greta agrees without naming the format, by telling Henrik to go ahead and sign the venue contract.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    25
+   ],
+   "gist": "Sven reports that 210 of the 300 places are registered, 38 registrants from Asia-Pacific have asked about remote access, and three of the largest accounts have said company travel bans stop them attending.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    46
+   ],
+   "gist": "Yuki objects that an in-person-only event shuts out the accounts the company most wants to reach.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Greta reopens the conference format after the AV supplier sends a quote for streaming.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a two-day in-person conference in Prague for 300 customers in October",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    44,
+    45
+   ],
+   "gist": "Marco argues for keeping Prague in person exactly as planned and adding a ticketed livestream of the main stage, which costs 4,500 dollars in production and, at a 90 dollar ticket, pays for itself at 50 remote viewers.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    84
+   ],
+   "gist": "Greta decides: Prague stays in person and the main stage is livestreamed for ticket holders.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01028-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the format of this year's customer conference?",
+   "answer_text": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier",
+   "answer_facts": {
+    "option": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01028-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the format of this year's customer conference?",
+   "answer_text": "meeting 1: Greta - Greta agrees without naming the format, by telling Henrik to go ahead and sign the venue contract.; meeting 3: Greta - Greta decides: Prague stays in person and the main stage is livestreamed for ticket holders.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a two-day in-person conference in Prague for 300 customers in October",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01028-q03",
+   "type": "as_of",
+   "question": "What was the decision about the format of this year's customer conference as of the end of meeting 2?",
+   "answer_text": "a two-day in-person conference in Prague for 300 customers in October",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "a two-day in-person conference in Prague for 300 customers in October"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01028-q04",
+   "type": "as_of",
+   "question": "What was the decision about the format of this year's customer conference as of the end of meeting 3?",
+   "answer_text": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01028-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the format of this year's customer conference change over time?",
+   "answer_text": "a two-day in-person conference in Prague for 300 customers in October (from meeting 1) -> the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "a two-day in-person conference in Prague for 300 customers in October",
+     "the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01028-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the format of this year's customer conference changed?",
+   "answer_text": "Before: a two-day in-person conference in Prague for 300 customers in October, because Henrik argues that the venue is held at 38,000 dollars for both days, last year's in-person attendees rated the event 71 on the satisfaction score against 44 for the webinar, and sponsors covered 60 percent of the cost. Triggered by: Sven (evidence): Sven reports that 210 of the 300 places are registered, 38 registrants from Asia-Pacific have asked about remote access, and three of the largest accounts have said company travel bans stop them attending. Yuki (challenge): Yuki objects that an in-person-only event shuts out the accounts the company most wants to reach. Greta (reconsideration): Greta reopens the conference format after the AV supplier sends a quote for streaming. After: the same in-person Prague conference plus a ticketed livestream of the main stage, with a 4,500 dollar production add-on from the AV supplier, because Marco argues for keeping Prague in person exactly as planned and adding a ticketed livestream of the main stage, which costs 4,500 dollars in production and, at a 90 dollar ticket, pays for itself at 50 remote viewers.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01028-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the format of this year's customer conference?",
+   "answer_text": "Henrik",
+   "answer_facts": {
+    "speaker": "Henrik"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01028-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the format of this year's customer conference?",
+   "answer_text": "Sven (evidence): Sven reports that 210 of the 300 places are registered, 38 registrants from Asia-Pacific have asked about remote access, and three of the largest accounts have said company travel bans stop them attending. Yuki (challenge): Yuki objects that an in-person-only event shuts out the accounts the company most wants to reach.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01028-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the format of this year's customer conference?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01028-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the format of this year's customer conference from proposal to final outcome.",
+   "answer_text": "meeting 1 - Henrik [proposal]: Henrik proposes a two-day in-person customer conference in Prague for 300 guests in October. | meeting 1 - Henrik [rationale]: Henrik argues that the venue is held at 38,000 dollars for both days, last year's in-person attendees rated the event 71 on the satisfaction score against 44 for the webinar, and sponsors covered 60 percent of the cost. | meeting 1 - Greta [resolution]: Greta agrees without naming the format, by telling Henrik to go ahead and sign the venue contract. | meeting 2 - Sven [evidence]: Sven reports that 210 of the 300 places are registered, 38 registrants from Asia-Pacific have asked about remote access, and three of the largest accounts have said company travel bans stop them attending. | meeting 2 - Yuki [challenge]: Yuki objects that an in-person-only event shuts out the accounts the company most wants to reach. | meeting 3 - Greta [reconsideration]: Greta reopens the conference format after the AV supplier sends a quote for streaming. | meeting 3 - Marco [rationale]: Marco argues for keeping Prague in person exactly as planned and adding a ticketed livestream of the main stage, which costs 4,500 dollars in production and, at a 90 dollar ticket, pays for itself at 50 remote viewers. | meeting 3 - Greta [resolution]: Greta decides: Prague stays in person and the main stage is livestreamed for ticket holders.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

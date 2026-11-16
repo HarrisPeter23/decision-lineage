@@ -1,0 +1,428 @@
+{
+ "set_id": "set_01003",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "carpet tile"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "furniture delivery schedule",
+   "option": "furniture booked for the fourteenth"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "furniture delivery schedule",
+   "option": "furniture booked for the fourteenth"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "furniture delivery schedule",
+   "option": "furniture booked for the fourteenth"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "furniture delivery schedule",
+   "option": "furniture booked for the fourteenth"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "furniture delivery schedule",
+   "option": "furniture booked for the fourteenth"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material testing",
+   "option": "test sample planks"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material testing",
+   "option": "test sample planks"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "hold the order"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.75,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "carpet tile"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "carpet tile"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2,
+    3
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    5,
+    6
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.75,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    9,
+    10
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.85,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Elif",
+   "confidence": 0.75,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material for Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material testing",
+   "option": "test sample planks"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.85,
+   "decision": "flooring material testing",
+   "option": "test sample planks"
+  }
+ ]
+}

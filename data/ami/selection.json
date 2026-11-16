@@ -1,0 +1,93 @@
+{
+ "rule": "Pre-declared before reading transcripts: top 4 series by number of decision pairs the SYSTEM_MODEL relation pass labelled 'reverses' (ties broken by 'modifies', then id), plus 1 control series with no 'reverses' pair and the most 'reaffirms' (ties by 'modifies', then id). About 5 series per SCOPE_4WEEK.md.",
+ "reversal_series": [
+  "ES2002",
+  "TS3012",
+  "TS3004",
+  "ES2003"
+ ],
+ "control_series": [
+  "ES2013"
+ ],
+ "ranking": [
+  {
+   "series": "ES2002",
+   "reverses": 5,
+   "modifies": 3,
+   "reaffirms": 1
+  },
+  {
+   "series": "TS3012",
+   "reverses": 2,
+   "modifies": 5,
+   "reaffirms": 0
+  },
+  {
+   "series": "TS3004",
+   "reverses": 2,
+   "modifies": 3,
+   "reaffirms": 0
+  },
+  {
+   "series": "ES2003",
+   "reverses": 2,
+   "modifies": 2,
+   "reaffirms": 1
+  },
+  {
+   "series": "TS3006",
+   "reverses": 2,
+   "modifies": 1,
+   "reaffirms": 0
+  },
+  {
+   "series": "TS3011",
+   "reverses": 2,
+   "modifies": 1,
+   "reaffirms": 0
+  },
+  {
+   "series": "ES2014",
+   "reverses": 1,
+   "modifies": 6,
+   "reaffirms": 0
+  },
+  {
+   "series": "IS1003",
+   "reverses": 1,
+   "modifies": 5,
+   "reaffirms": 0
+  }
+ ],
+ "control_ranking": [
+  {
+   "series": "ES2013",
+   "reverses": 0,
+   "modifies": 8,
+   "reaffirms": 2
+  },
+  {
+   "series": "ES2008",
+   "reverses": 0,
+   "modifies": 10,
+   "reaffirms": 1
+  },
+  {
+   "series": "ES2015",
+   "reverses": 0,
+   "modifies": 3,
+   "reaffirms": 1
+  },
+  {
+   "series": "IS1001",
+   "reverses": 0,
+   "modifies": 0,
+   "reaffirms": 1
+  }
+ ],
+ "counts": {
+  "series_screened": 33,
+  "series_with_any_reverses": 15,
+  "series_with_2plus": 6
+ }
+}

@@ -1,0 +1,453 @@
+{
+ "set_id": "set_01023",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v2",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval module selection",
+   "option": "bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "invoice approval module selection",
+   "option": "bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "reconsider the bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "invoice approval module selection",
+   "option": "bundled one"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval module selection",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.5,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process (option: use the approval module that comes with the ERP)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

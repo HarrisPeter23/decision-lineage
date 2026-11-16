@@ -1,0 +1,85 @@
+[{"stream_name":"stdout","time":13.75058341,"data":"12:51:13 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 aring to unpack .../zstd_1.5.5+dfsg2-2build1.1_amd64.deb ...\n"}
+,{"stream_name":"stdout","time":13.750619349,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.750623632,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.750626034,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":13.750628437,"data":" r details.\n"}
+,{"stream_name":"stdout","time":13.750630695,"data":"W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":13.750634406,"data":"\n"}
+,{"stream_name":"stdout","time":59.740363757,"data":"12:51:59 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":59.740396238,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":59.740400531,"data":" ...\n"}
+,{"stream_name":"stdout","time":59.740403369,"data":"\u003e\u003e\u003e Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":59.740406778,"data":"\u003e\u003e\u003e Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":59.740409687,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":59.740418905,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":59.740436388,"data":"\n"}
+,{"stream_name":"stdout","time":128.648311082,"data":"12:53:08 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull mistral-nemo:12b rc 0  ████ ▏ 7.1 GB/7.1 GB   24 MB/s      0s\u001b[K\n"}
+,{"stream_name":"stdout","time":128.648353186,"data":"pulling 65d37de20e59: 100% ▕██████████████████▏  486 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":128.648358556,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":128.648362493,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":128.648366268,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":128.648370361,"data":"\n"}
+,{"stream_name":"stdout","time":187.252907445,"data":"/kaggle/work/w/specs/set_01061/m1.md\n"}
+,{"stream_name":"stdout","time":187.252942105,"data":"/kaggle/work/w/specs/set_01060/m1.md\n"}
+,{"stream_name":"stdout","time":220.00541904,"data":"12:54:39 set_01061 m1 try1 3 problems 32.8 s\n"}
+,{"stream_name":"stdout","time":224.389391217,"data":"12:54:44 set_01060 m1 try1 3 problems 37.1 s\n"}
+,{"stream_name":"stdout","time":228.412763065,"data":"12:54:48 set_01061 m1 try2 2 problems 8.4 s\n"}
+,{"stream_name":"stdout","time":234.651228706,"data":"12:54:54 set_01061 m1 try3 3 problems 6.2 s\n"}
+,{"stream_name":"stdout","time":242.274572503,"data":"12:55:01 set_01060 m1 try2 5 problems 17.9 s\n"}
+,{"stream_name":"stdout","time":244.358430453,"data":"12:55:03 set_01061 m1 try4 3 problems 9.7 s\n"}
+,{"stream_name":"stderr","time":244.359650805,"data":"Exception in thread Thread-2 (work):\n"}
+,{"stream_name":"stderr","time":244.366473832,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":244.368225776,"data":"  File \"/usr/lib/python3.13/threading.py\", line 1044, in _bootstrap_inner\n"}
+,{"stream_name":"stderr","time":244.368241885,"data":"    self.run()\n"}
+,{"stream_name":"stderr","time":244.368304769,"data":"    ~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":244.368417403,"data":"  File \"/usr/lib/python3.13/threading.py\", line 995, in run\n"}
+,{"stream_name":"stderr","time":244.368423533,"data":"    self._target(*self._args, **self._kwargs)\n"}
+,{"stream_name":"stderr","time":244.368427331,"data":"    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":244.368550908,"data":"  File \"/kaggle/src/script.py\", line 83, in work\n"}
+,{"stream_name":"stderr","time":244.368557056,"data":"    ps.build(sid, m)\n"}
+,{"stream_name":"stderr","time":244.368560647,"data":"    ~~~~~~~~^^^^^^^^\n"}
+,{"stream_name":"stderr","time":244.368770566,"data":"  File \"/kaggle/work/synthgen/phase1_specs.py\", line 92, in build\n"}
+,{"stream_name":"stderr","time":244.368777373,"data":"    t = (W / \"meetings\" / sid / f\"m{k}.txt\").read_text(encoding=\"utf-8\")\n"}
+,{"stream_name":"stderr","time":244.36885601,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 546, in read_text\n"}
+,{"stream_name":"stderr","time":244.368861841,"data":"    return PathBase.read_text(self, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":244.368866354,"data":"           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":244.368869961,"data":"  File \"/usr/lib/python3.13/pathlib/_abc.py\", line 632, in read_text\n"}
+,{"stream_name":"stderr","time":244.368873659,"data":"    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n"}
+,{"stream_name":"stderr","time":244.36887753,"data":"         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":244.36888125,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 537, in open\n"}
+,{"stream_name":"stderr","time":244.368885039,"data":"    return io.open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":244.368888709,"data":"           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":244.368901342,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/work/w/meetings/set_01061/m1.txt'\n"}
+,{"stream_name":"stdout","time":257.604594307,"data":"12:55:17 set_01060 m1 try3 1 problems 15.3 s\n"}
+,{"stream_name":"stdout","time":273.161437534,"data":"12:55:32 set_01060 m1 try4 5 problems 15.6 s\n"}
+,{"stream_name":"stderr","time":273.162250687,"data":"Exception in thread Thread-1 (work):\n"}
+,{"stream_name":"stderr","time":273.162615768,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":273.163551427,"data":"  File \"/usr/lib/python3.13/threading.py\", line 1044, in _bootstrap_inner\n"}
+,{"stream_name":"stderr","time":273.163565155,"data":"    self.run()\n"}
+,{"stream_name":"stderr","time":273.163573124,"data":"    ~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":273.163576084,"data":"  File \"/usr/lib/python3.13/threading.py\", line 995, in run\n"}
+,{"stream_name":"stderr","time":273.163579305,"data":"    self._target(*self._args, **self._kwargs)\n"}
+,{"stream_name":"stderr","time":273.163582424,"data":"    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":273.163585323,"data":"  File \"/kaggle/src/script.py\", line 83, in work\n"}
+,{"stream_name":"stderr","time":273.163588237,"data":"    ps.build(sid, m)\n"}
+,{"stream_name":"stderr","time":273.163591028,"data":"    ~~~~~~~~^^^^^^^^\n"}
+,{"stream_name":"stderr","time":273.163593725,"data":"  File \"/kaggle/work/synthgen/phase1_specs.py\", line 92, in build\n"}
+,{"stream_name":"stderr","time":273.163596585,"data":"    t = (W / \"meetings\" / sid / f\"m{k}.txt\").read_text(encoding=\"utf-8\")\n"}
+,{"stream_name":"stderr","time":273.163609039,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 546, in read_text\n"}
+,{"stream_name":"stderr","time":273.163611625,"data":"    return PathBase.read_text(self, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":273.163613895,"data":"           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":273.163616125,"data":"  File \"/usr/lib/python3.13/pathlib/_abc.py\", line 632, in read_text\n"}
+,{"stream_name":"stderr","time":273.163618419,"data":"    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n"}
+,{"stream_name":"stderr","time":273.163620768,"data":"         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":273.163623056,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 537, in open\n"}
+,{"stream_name":"stderr","time":273.163625331,"data":"    return io.open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":273.16362759,"data":"           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":273.163629916,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/work/w/meetings/set_01060/m1.txt'\n"}
+,{"stream_name":"stdout","time":273.164128842,"data":"12:55:32 DONE {'model': 'mistral-nemo:12b', 'digest': 'e7e06d107c6c86ed0cf45445f1790720b5092149c4c95f4d965844e9afbfdc89', 'ctx': 16384, 'servers': [11434, 11435], 'wall_s_total': 86, 'per_server': [{'port': 11434, 'wall_s': None}, {'port': 11435, 'wall_s': None}]}\n"}
+,{"stream_name":"stderr","time":275.401382724,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":275.401424187,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":275.7591565,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":275.759199314,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":277.469105744,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":278.499587811,"data":"[NbConvertApp] Writing 332225 bytes to __results__.html\n"}
+]

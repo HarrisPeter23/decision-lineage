@@ -1,0 +1,295 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Trial length for the launch",
+   "attribute": "duration",
+   "states": [
+    {
+     "value": "fourteen days",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-09",
+     "evidence": [
+      0,
+      15
+     ]
+    },
+    {
+     "value": "seven days",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      14,
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Trial length for the launch",
+   "attribute": "credit card requirement",
+   "states": [
+    {
+     "value": "no card",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-09",
+     "evidence": [
+      0,
+      15
+     ]
+    },
+    {
+     "value": "credit card required up front",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      14,
+      19
+     ]
+    },
+    {
+     "value": "revisit next week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Analytics dashboard",
+   "attribute": "signup funnel readiness",
+   "states": [
+    {
+     "value": "ready",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-09",
+     "evidence": [
+      27,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Signup page copy",
+   "attribute": "update",
+   "states": [
+    {
+     "value": "Nadia will update",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-09",
+     "evidence": [
+      18
+     ]
+    },
+    {
+     "value": "Nadia will change the copy again",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Next meeting",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "three weeks from now",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-09",
+     "evidence": [
+      29
+     ]
+    },
+    {
+     "value": "next week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-01-23",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Trial signup policy",
+   "attribute": "implementation of new policy",
+   "states": [
+    {
+     "value": "switch to a seven day trial, credit card required up front",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 4,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      19
+     ]
+    },
+    {
+     "value": "back to fourteen days, no card",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-01-30",
+     "evidence": [
+      8,
+      13,
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Trial signup policy",
+   "attribute": "tracking of metrics",
+   "states": [
+    {
+     "value": "track signups, conversion, both",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-16",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Trial policy",
+   "attribute": "monitoring",
+   "states": [
+    {
+     "value": "weekly compute cost alerts over two thousand a month",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-01-30",
+     "evidence": [
+      10,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Trial policy",
+   "attribute": "card idea",
+   "states": [
+    {
+     "value": "documented for future reference",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-01-30",
+     "evidence": [
+      18,
+      19
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S0",
+   0,
+   1,
+   2
+  ],
+  [
+   "S1",
+   0,
+   1,
+   2
+  ],
+  [
+   "S3",
+   0,
+   1,
+   2
+  ],
+  [
+   "S1",
+   1,
+   2,
+   3
+  ],
+  [
+   "S4",
+   0,
+   1,
+   3
+  ],
+  [
+   "S5",
+   0,
+   1,
+   4
+  ]
+ ]
+}

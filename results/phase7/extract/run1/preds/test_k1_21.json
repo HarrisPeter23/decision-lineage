@@ -1,0 +1,354 @@
+{
+ "set_id": "test_k1_21",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.7,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "south-east parcel carrier",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    39,
+    40,
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    43,
+    44,
+    45
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.9,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    49,
+    50,
+    51
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "south-east parcel carrier",
+   "option": "Parcelwise"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "south-east parcel carrier",
+   "option": "Eastline and Southgate"
+  }
+ ]
+}

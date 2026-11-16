@@ -1,0 +1,876 @@
+{
+ "set_id": "set_01023",
+ "method": "multipass:1,2,3:verify=False",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "quote": "We should use the approval module that comes with the ERP we already have.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "quote": "Wait, the bundled one? I thought that was extra.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Camila",
+   "quote": "It's priced, yeah, eleven thousand a year. But hold on, that's the part-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Ravi",
+   "quote": "Eleven thousand is not nothing.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Camila",
+   "quote": "It's not, but let me finish. We're already licensed for the platform, so there's no new vendor, no new contract, nothing to onboard.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Camila",
+   "quote": "And configuring it is about two weeks, they said. Two weeks of setup. There's no data migration, because the vendors and the GL codes are already sitting in there.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Pavel",
+   "quote": "Two weeks, that sounds, I mean, that sounds optimistic. When we did the expense thing it was, what, six?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Camila",
+   "quote": "That was a different thing, that moved data from three places. This doesn't move anything.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Ravi",
+   "quote": "Okay but what do we actually get out of it? Like, in numbers.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Camila",
+   "quote": "Right, so I pulled the timestamps from last quarter. Median time from invoice received to approved is nine days right now. With routing in the module it should land around three.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Ravi",
+   "quote": "Nine days? Median? Not the average?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Camila",
+   "quote": "Median. The average is worse, there's a long tail of stuff stuck over a month.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Ivan",
+   "quote": "Is that, um, nine days including the ones that go to the regional offices?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Camila",
+   "quote": "Yes, all of it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Aisha",
+   "quote": "It's a lot. I think maybe, um, it also affects the early-pay discounts, doesn't it?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Camila",
+   "quote": "It does, we've been missing a couple of those.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Ravi",
+   "quote": "Okay. Back to- can I push on the price a bit?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Camila",
+   "quote": "Go ahead, that's fair.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Ravi",
+   "quote": "Eleven thousand a year, every year. If we get a better tool in six months we're, we're stuck paying that?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Camila",
+   "quote": "It's annual. We could stop renewing. And what's the alternative, nothing? Because right now the cost is people chasing approvals by hand.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Ravi",
+   "quote": "I'm not saying nothing. I'm saying, did anyone look-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Aisha",
+   "quote": "Um, Ravi, I think nobody has brought another one to me. Has someone?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Ravi",
+   "quote": "No. Not yet. I just don't love picking the first thing we see.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Camila",
+   "quote": "It's also the one with the least risk, though. Honestly I'd argue it's the boring choice and that's why it works.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Ivan",
+   "quote": "Um, so the, the approval limits. Who sets those? Because right now it's kind of, it lives in Stefan's head.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Camila",
+   "quote": "They'd be set up in the config. Tiers by amount, and by cost center. We'd need to write them down first, which we should do anyway.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Pavel",
+   "quote": "Oh, that reminds me, the audit people wanted the thresholds written down too. Last year they asked and we sort of, we showed them an email from, from like twenty-nineteen.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Ravi",
+   "quote": "Not great.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "quote": "Not great, no.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Aisha",
+   "quote": "So that, that's another reason, I think. Um.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Camila",
+   "quote": "Right. It gives us a paper trail without extra work.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "quote": "Fine, but two weeks of whose time? Because month-end is coming.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Camila",
+   "quote": "Mostly mine and the ERP admin's. Maybe a few hours from Pavel for the vendor master cleanup.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Pavel",
+   "quote": "A few hours I can do. If it's, you know, not the week of the close.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Aisha",
+   "quote": "Yeah, okay. Um. Does anyone, does anybody have a real objection? Like something that would stop us?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Ravi",
+   "quote": "Not a stop. I'd want the renewal date in writing, so we know when we can walk.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Camila",
+   "quote": "I'll ask for it. I'll put it in the order form request.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Ravi",
+   "quote": "Then I'm okay.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Ivan",
+   "quote": "I'm okay with it too. I mean, yes.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Aisha",
+   "quote": "Okay. Good. Pavel, could you get the configuration work on the calendar, with the ERP admin, for maybe the first week after the close? Um, sorry, I mean, something like that.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Pavel",
+   "quote": "Sure. I'll check what Sanne's free, uh, I mean the admin's free, and send invites tomorrow.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Camila",
+   "quote": "Send me the draft so I can block the days.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Pavel",
+   "quote": "Will do.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Aisha",
+   "quote": "Thank you. Um, and I'll tell Emeka we have a plan, he'll be glad.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Ravi",
+   "quote": "Tell him the nine days number. He likes numbers.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Aisha",
+   "quote": "I will. Okay, other things. Did anybody hear about the team lunch?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Pavel",
+   "quote": "Is that the Thursday one? Because I have the thing with, uh, the- no, sorry, I have a thing Thursday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Aisha",
+   "quote": "Maybe Friday then. Ivan, does Friday work?",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Ivan",
+   "quote": "Friday's fine.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Ravi",
+   "quote": "Friday's good for me, I'm in anyway.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Camila",
+   "quote": "I can do Friday if it's before one. I've got a call.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Aisha",
+   "quote": "Okay, I think maybe noon. I'll ask the place if they have a table for five.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Pavel",
+   "quote": "Tomasz might want to come too, he was asking.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Aisha",
+   "quote": "Then six. Okay, I'll, um, I'll check. Right, I think that's it. I have to jump to another call.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "quote": "No. And I don't think we can sign for the bundled module knowing that it will no longer be supported after December and will have no security patches. So I think maybe we need to open the question again and look at what else is out there.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ravi",
+   "quote": "So what are we looking at? The other one, the one with the capture feature?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "quote": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract.",
+   "confidence": 0.98
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Aisha",
+   "quote": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Camila",
+   "quote": "Is it really a problem? A year of use is a year of use. We could just replace it later.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "quote": "And the auditors. They'd ask about unpatched stuff straight away.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Pavel",
+   "quote": "So the thing is, it's got its own support team. If something breaks, it's their problem, not some ticket with the ERP people that sits for a month.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Pavel",
+   "quote": "And it pulls in our vendor list and account codes straight from the ERP, so no retyping that stuff, no master cleanup.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Pavel",
+   "quote": "The capture reads those. So nobody is keying them in. When I did the math on the typing time it comes to about sixty hours a month. Maybe a bit over.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Camila",
+   "quote": "Does it read badly scanned ones? Because we get some of those from the regional offices.",
+   "confidence": 0.75
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Ivan",
+   "quote": "Who checks the reads? Like, when it gets an amount wrong?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Ravi",
+   "quote": "And the approval limits would work the same?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Aisha",
+   "quote": "They offered two. Um, the Tuesday and the Thursday after next. I think maybe Thursday is better because of the close.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Camila",
+   "quote": "Thursday's fine with me. As long as it's the afternoon, I have the, the thing with the auditors in the morning.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "quote": "So Thursday afternoon then, for that. I'll confirm with them. Um, Camila, you sent me your questions, thank you.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Aisha",
+   "quote": "He, um, he looked at the number. He said the finance committee meets the week after the demo, so, we'll bring it there.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Aisha",
+   "quote": "Not a formal one, no. But he didn't, he didn't seem against it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Ravi",
+   "quote": "Please don't change the number now.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Pavel",
+   "quote": "Sure. Okay.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Aisha",
+   "quote": "Still waiting. I think maybe until Marisol is happy with the paper.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Ravi",
+   "quote": "Plenty of time. Okay, can we do the expense memo? Because I found it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Ravi",
+   "quote": "Meals went up. It's sixty a day, not fifty-five.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Aisha",
+   "quote": "Maybe someone could, um, put her files somewhere else in the meantime? Just so she's not sitting there.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ivan",
+   "quote": "I gave her a few reconciliations on a local copy. She's fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "quote": "I told her to only use the one Stefan sent Monday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Ravi",
+   "quote": "Good. Keep it that way.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Aisha",
+   "quote": "Okay, okay. Um, I'll check the quote tonight and put it in the thread.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Aisha",
+   "quote": "If you have it, yes, send it to me. Thanks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Ivan",
+   "quote": "Me again. I don't mind.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Ravi",
+   "quote": "You always say that. I can take half.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Ivan",
+   "quote": "Honestly it's fine. I like the quiet.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Aisha",
+   "quote": "Maybe next time, Pavel?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Pavel",
+   "quote": "Next time. Yeah.",
+   "confidence": 0.9
+  }
+ ]
+}

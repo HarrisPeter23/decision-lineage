@@ -1,0 +1,248 @@
+﻿row,source,set_id,link_id,role,expected_speaker,gist_to_check,context_before,marked_lines_with_star_and_after,marked_line_numbers,human_verdict,notes
+1,synthetic,set_01037,B7,rationale,Diego,"Diego argues for the regional couriers because Eastline and Southgate average 4.35 pounds, guarantee 95 percent on time with credits for misses, saving about 9,000 pounds a quarter, and have no minimum-volume clause where Parcelwise requires 15,000 parcels.","[35] Diego: Lena and I went through the options last night. She did the comparison, honestly, so I'm mostly repeating her. Can I?
+[36] Lena: I can say it myself, I was-
+[37] Diego: You were on mute, I was there.
+[38] Lena: I wasn't, but fine, go on.","*[39] Diego: So the two regionals, Eastline and Southgate. Average is four thirty-five a parcel, which is a bit more than Parcelwise, sure. But they put ninety-five percent on time in writing, and if they miss it we get credits back.
+ [40] Diego: And against what we were paying before the switch, it comes out about nine thousand a quarter ahead. Not thirteen and a half, but nine.
+ [41] Diego: The other thing is volume. Neither of them has a minimum. Parcelwise wants fifteen thousand parcels, and some quarters we're not far above that, so it's a bit of a trap.",39,Yes,
+2,synthetic,set_01029,B4,evidence,Sofia,"Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints.","[8] Kwame: Mine's fine.
+[9] Ravi: Right. So it's been about two weeks since the rotation went on. Sofia, you were going to look at the lead data.
+[10] Sofia: I think maybe I did a first pass? I'm not sure it's, um, totally clean yet.
+[11] Ravi: That's fine. Just tell us what you've got.","*[12] Sofia: So, we had 640 inbound over the two weeks, and when I matched them against the account list, 112 of them were already somebody's account. Like, an existing customer filled in a form.
+ [13] Ravi: A hundred twelve out of six-forty. That's, what, a bit under a fifth.
+ [14] Sofia: I think maybe yes, around that. And then I looked at who called them. For 31 of those, a second rep phoned the same day, the owner and then whoever the rotation gave it to.",12,Partial,"640 leads came in, 112 were already existing accounts, and 31 got called by two reps on the same day. But the five customer complaints aren't mentioned here."
+3,synthetic,set_01021,B5,challenge,Mei,Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight.,"[25] Nadia: We'll get to the alert in a sec. Mei, you've been quiet, you had something?
+[26] Mei: Um. Yes. I don't, I don't want to be annoying about it.
+[27] Nadia: You're not.
+[28] Mei: It's just, that's the thing with a fixed train, isn't it. A crash like that can sit for a week or more. Nobody can do anything quickly.","*[29] Mei: And support noticed. Tickets went up twenty-two percent over that fortnight.
+ [30] Hana: Twenty-two percent from what baseline though?
+ [31] Mei: From the two weeks before. I have the number in the support sheet, I can send the link.",29,Partial,"The increase in support tickets is mentioned, but the actual issue about fixed-train crashes being unresolved for a week is in the previous line, not this one."
+4,synthetic,set_01034,B4,evidence,Elif,"Elif reports that the expo organiser has confirmed attendance will be about 40 percent lower, around 1,450 against 2,400, because a rival show moved to the same week, and that three of the top target accounts are not attending.","[3] Zainab: Which first?
+[4] Amara: Whichever. Elif, you had your hand up?
+[5] Elif: Yeah, sorry, it's about the expo, so it probably belongs first anyway. I emailed the organiser last week because the registration counter on their site looked really flat to me.
+[6] Amara: And?","*[7] Elif: They wrote back yesterday evening. They're now expecting around fourteen fifty people through the door.
+ [8] Wei: Fourteen fifty. Against the twenty-four hundred in the deck?
+ [9] Elif: Yeah, so that's down, what, forty percent or so. Another show got moved into the same week, a rival one, and a lot of people are going there instead.
+ [10] Diego: Which show? Is it the big one in Denver?
+*[11] Elif: She didn't name it, just said a competing event. And then the part I actually care about, three of the accounts on our top target list aren't coming. They told the organiser themselves.
+ [12] Amara: Three of the top ones. Do you know which three?
+ [13] Elif: She listed them, it's in the email, I can forward it. One is the freight forwarder we've been chasing since spring.","7,11",Yes,
+5,synthetic,set_01036,B4,evidence,Sven,"Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes.","[8] Sven: Can I jump in before we lose the thread on the sign-in stuff? I pulled some numbers over the week.
+[9] Amara: Please, yes. That's the actual agenda, I'm just rambling.
+[10] Sven: So the rollout's been live, what, a bit over a week now. But I also went back through the helpdesk log for the whole last month, the carrier support requests.
+[11] Wei: Oh, um, the ones from Caio's queue?","*[12] Sven: Yes. Caio flagged them to me. In that month there were six cases where somebody rang a carrier pretending to be one of our people and asked to move the number onto a new SIM.
+ [13] Mateo: Six. Out of 220 staff.
+ [14] Sven: Six tries, and one of them went through. One.",12,Partial,"The six SIM-swap attempts and one successful attempt are mentioned, but there's nothing about the executive mailbox being exposed for 40 minutes."
+6,synthetic,set_01036,B5,challenge,Lena,Lena objects that text-message codes are exactly what the attacker captured and the company cannot defend keeping them.,"[22] Mateo: Was anything actually taken?
+[23] Sven: Unclear. Logs show it was opened and searched, I don't know what was read.
+[24] Amara: Okay. That's - yeah. That's a lot to take in on a Friday.
+[25] Lena: Hold on, this isn't a thing I can just nod at. The codes by text message are exactly what they grabbed.","*[26] Lena: That's the whole route in. Whoever owns the number gets the code, and we're telling people that's their second step.
+ [27] Mateo: Okay, but devil's advocate, one in six isn't a rate I'd panic over.
+ [28] Lena: It's one in the first month. We've barely started.",26,Yes,
+7,synthetic,set_01013,B5,challenge,Mei,Mei objects that the savings are being eaten by expedites and that two field engineers missed the four-hour response term in the Harlow service contract.,"[42] Yuki: Hm. And is that, um, I think maybe I want to be sure I've got this, 2,900 is on top of the van?
+[43] Zainab: On top of, yes, as I read it. It's couriers, so it's a separate line.
+[44] Hana: It'd be separate. Northway don't touch those.
+[45] Yuki: Right. Okay. So that's, um-","*[46] Mei: So the savings are gone. You saved two and a half thousand a month and you've spent 2,900 on couriers in a week, the expedites are eating it.
+*[47] Mei: And two field engineers missed the four-hour response on the Harlow service contract. Last week. Because the part wasn't there.
+ [48] Yuki: Sorry, that's, I hadn't- two? Who told you that?
+ [49] Mei: Service desk. Both flagged on the Harlow tickets.","46,47",Yes,
+8,synthetic,set_01028,B5,challenge,Yuki,Yuki objects that an in-person-only event shuts out the accounts the company most wants to reach.,"[42] Sven: That it, uh, goes away. Sorry, I don't know. I think I just mean either is a guess.
+[43] Greta: Fair. Yuki, you've gone quiet again.
+[44] Yuki: Mm. I was thinking about the three accounts.
+[45] Greta: Go on.","*[46] Yuki: Those are the ones we most want in the room. Sponsors care about them, sales cares about them. If the event is only in person, we're closing the door on exactly those people.
+ [47] Yuki: And the Asia-Pacific people aren't a footnote either. They registered anyway. They want to be there somehow.
+ [48] Henrik: Sure, but the satisfaction numbers-",46,Yes,
+9,synthetic,set_01014,B4,evidence,Pavel,"Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account.","[19] Yuki: No, but who's actually got that ticket, because I raised it and it just says pending vendor, and I don't-
+[20] Meera: Dana in IT. I'll ask her after this. Okay, Insights, because Pavel sent me something last night that I'd like everybody to hear.
+[21] Lena: Is this the preview thing?
+[22] Meera: The waitlist preview, yes. Marketing opened it last Thursday on the two-week terms, no card, so we've got seven days of real data. Pavel.","*[23] Pavel: First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses. Compute is 1.80 dollars per trial account.
+ [24] Jonas: Sorry, 2.1?
+ [25] Pavel: 2.1.",23,Yes,
+10,synthetic,set_01037,B4,evidence,Arjun,"Arjun reports that in the first five weeks Parcelwise delivered 81 percent on time against 96 percent with the regional couriers, leaving 640 late parcels.","[23] Arjun: Yes. Pulled it Monday.
+[24] Aisha: And?
+[25] Arjun: Not great.
+[26] Aisha: Not great how?","*[27] Arjun: Parcelwise is landing eighty-one percent on time. The regional couriers were at ninety-six over the same stretch last quarter. That's about six hundred and forty late parcels so far.
+ [28] Dmitri: Sorry, eighty-one? Is that - which measure is that?
+ [29] Arjun: Delivered by the promised date. Same definition we always use.",27,Yes,
+11,synthetic,set_01013,B1,proposal,Hana,"Hana proposes moving the Leeds depot to a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month, starting on 26 June.","[24] Hana: I did. Sort of.
+[25] Yuki: Oh, Hana, okay, go on.
+[26] Hana: So, I, um, I got a quote last week. From Northway Haulage.
+[27] Arjun: Oh, the ones who do the Sheffield bit?","*[28] Hana: Them, yeah. What I'd want is Leeds on a consolidated van run, twice a week, from Northway, everything on the one load. It's 4,100 pounds a month. Could start the 26th of June.
+ [29] Mei: This Thursday?
+ [30] Hana: This Thursday, yeah. They had a slot free on the route.",28,Yes,
+12,synthetic,set_01035,B1,proposal,Ivan,Ivan proposes cutting every department's budget by 8 percent across the board.,"[18] Ivan: Can I, um. Can I say something?
+[19] Aisha: Of course, Ivan, please.
+[20] Ivan: So, what if we just, um, take eight percent off every department. Same cut for all of them.
+[21] Aisha: Across the board, you mean?","*[22] Ivan: Yeah. Across the board. Every department's line, down eight.
+ [23] Wei: Flat cut.
+ [24] Ivan: Right.",22,Yes,
+13,synthetic,set_01016,B2,rationale,Sofia,"Sofia argues that last year's central event spent 180,000 dollars on customer travel subsidies and only 34 percent of target accounts attended, and that roadshows put the event within a short trip of most of them.","[27] Sofia: So, okay, this has been rattling around since the debrief. What if there just isn't a central one next year, and instead it's three one-day regional roadshows, Manchester, Frankfurt and Austin?
+[28] Kofi: Three.
+[29] Sofia: Three. One day each, more or less the same content.
+[30] Zainab: Why?","*[31] Sofia: Because look at last year. We put 180,000 dollars into customer travel subsidies and only 34 percent of target accounts actually turned up.
+*[32] Sofia: Whereas with those three cities most of them are a short trip away, a train or a quick hop, not a whole week gone out of the office.
+ [33] Ingrid: Mm.
+ [34] Kofi: Okay, but hang on, is that a distance problem? Maybe they just didn't fancy coming.","31,32",Yes,
+14,synthetic,set_01036,B7,rationale,Lena,"Lena argues for hardware keys because they resist phishing and number takeovers, cost about 28 dollars each or 6,160 for 220 people, and a 15-person pilot produced no support tickets.","[20] Lena: And the fake sign-in pages, the ones that ask for your code and pass it along, those don't work against it either. It checks which site you're actually on. That's the phishing bit.
+[21] Mateo: That's accurate. Keep going, you're doing fine.
+[22] Lena: Um, cost. He had it at about twenty-eight a head. So for all of us, 220 people, it comes to, what was it, 6,160. Something like that.
+[23] Mateo: 6,160, yeah. I got the quote from the supplier on Wednesday, it's good until the end of next month.","*[24] Lena: And there was a test run. Fifteen people had them for, I don't remember, a few weeks? And nobody opened a ticket. Not one.
+ [25] Sven: Three weeks. Fifteen people, zero tickets. I checked Caio's queue to be sure.
+ [26] Amara: Zero is a nice number to see after what we saw last week.",24,Yes,
+15,synthetic,set_01016,B6,reconsideration,Zainab,Zainab reopens the question of the summit format now that everyone has had a week with Kofi's numbers.,"[17] Ingrid: Mostly. Mileage is broken.
+[18] Sofia: I couldn't even log in yesterday, it kept asking me for a cost centre, and I've been here six years and I've honestly no idea what ours is, I just put-
+[19] Ingrid: Four one seven.
+[20] Sofia: Thank you, Ingrid.","*[21] Zainab: Right. Summit. You've all had a week with Kofi's numbers, so I'm opening it back up. Is the format right or isn't it?
+ [22] Kofi: Well, there you go.
+ [23] Sofia: Oh. Okay. Yeah. No, fine, okay.",21,Yes,
+16,synthetic,set_01028,B6,reconsideration,Greta,Greta reopens the conference format after the AV supplier sends a quote for streaming.,"[18] Greta: Really?
+[19] Marco: I said Friday. It's Tuesday.
+[20] Greta: Okay, okay, I withdraw the look.
+[21] Henrik: Are we getting to the conference at some point, or-","*[22] Greta: Yeah. So, the AV supplier sent over a quote for streaming this morning, and, well, last week I said I wasn't ready to go there. Now there's an actual number, so I want to look at the format again. Properly, not just nodding along.
+ [23] Henrik: Again? The hall's signed.
+ [24] Greta: The hall's staying either way, I'm not touching that. I mean what happens inside it.",22,Yes,
+17,synthetic,set_01016,B3,resolution,Zainab,Zainab settles it: next year's summit runs as the three regional roadshows.,"[76] Zainab: Kofi, are you actually against this?
+[77] Kofi: Not really. I just think somebody should be.
+[78] Sofia: That's the nicest thing you've ever said about one of my ideas.
+[79] Kofi: Don't get used to it.","*[80] Zainab: Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin.
+ [81] Sofia: Yes. Okay. Great.
+ [82] Zainab: Tariq, rough costs for it before planning opens.",80,Yes,
+18,synthetic,set_01029,B3,resolution (implicit),Ravi,"Ravi agrees without naming the routing method, by asking Omar to have it live for Monday.","[78] Omar: Yeah, I'll message her today.
+[79] Kwame: Will she still see the queue?
+[80] Omar: She'll still see everything. She just won't have to move it.
+[81] Kwame: Okay.","*[82] Ravi: All right. Omar, then have it running for Monday.
+ [83] Omar: Monday, got it. I'll flip it Sunday night so it's clean.
+ [84] Ravi: Not Sunday night, nobody will be watching it. Early Monday, before nine, and you stay on it.",82,Yes,
+19,synthetic,set_01016,B5,challenge,Ingrid,Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on.,"[55] Ingrid: What's it measured on?
+[56] Sofia: The summit? Well, attendance, sort of, and the-
+[57] Ingrid: Pipeline. One point two million dollars.
+[58] Kofi: Mm.","*[59] Ingrid: That number doesn't care how many cities we went to. Fifty-eight soft yeses out of a hundred and forty, and Frankfurt costing more before we've signed anything. I don't see how that gets us to one point two. These roadshows could miss it.
+ [60] Sofia: Oh. Okay.
+ [61] Ingrid: That's all.",59,Yes,
+20,synthetic,set_01026,B5,challenge,Zainab,Zainab objects that a flat price gives the heaviest users a loss-making discount and that moving to per-seat pricing later would be a price rise customers would not forgive.,"[42] Fatima: So it's, it's under water by thirty-something a month each.
+[43] Elif: Roughly, yeah. Thirty-five.
+[44] Zainab: Okay, hold on. Can I be honest? I've been sitting on this since last week and I didn't want to be the person who reopened it.
+[45] Camila: Go ahead.","*[46] Zainab: The big ones are exactly the accounts that will use this the hardest. Collaboration scales with people. So a flat price means we sell our heaviest users a discount we lose money on. And the thing nobody's saying is, if we move them to per seat after launch, that's a price hike on customers who have been on forty-nine. They will not take that quietly. They'll churn, or they'll write the angry email, or both.
+ [47] Yuki: But we said grandfathering was-
+ [48] Zainab: Grandfathering only works if you leave them at forty-nine forever. Then we're subsidizing them forever.",46,Yes,
+21,synthetic,set_01016,B4,evidence,Kofi,"Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher.","[26] Tariq: So the costs, I've, uh, I've started it, it's- I said end of this week and I think that's still maybe okay, but it's very rough, I've got hotel-type numbers for two of them, and-
+[27] Kofi: Yeah, before you get into that. You copied me on the venue stuff, didn't you? And I've had the registration inbox open since Friday, because somebody had to.
+[28] Sofia: Oh, is it good? How's it looking? I've been dying to-
+[29] Kofi: Well. It's not nothing. Hang on, I've got it here.","*[30] Kofi: Of the hundred and forty target accounts we sent that save-the-date to, fifty-eight have come back with a yes. That's as of this morning.
+*[31] Kofi: And the Frankfurt place sent a new quote yesterday. It's twenty-two percent up on what they gave Tariq.
+ [32] Sofia: Twenty-two?
+ [33] Tariq: Oh. I, um, I hadn't actually opened that one yet. I saw it come in, I just thought it was the, uh, the contract thing.","30,31",Yes,
+22,synthetic,set_01028,B4,evidence,Sven,"Sven reports that 210 of the 300 places are registered, 38 registrants from Asia-Pacific have asked about remote access, and three of the largest accounts have said company travel bans stop them attending.","[21] Sven: So, it's, uh, two hundred and ten in. Out of the three hundred places.
+[22] Henrik: Already? That's way faster than last year.
+[23] Sven: Right, I think so, yes. But there's, um, a couple of things in the, the comments field that I think maybe matter.
+[24] Marco: Such as.","*[25] Sven: Well, thirty-eight of the ones registered are from Asia-Pacific, and they all asked in the notes if there'd be some kind of remote access. Like a stream or something. And, um, three of our biggest accounts told the account managers they can't come. Company travel ban. It's not about the date, it's a ban.
+ [26] Greta: All thirty-eight?
+ [27] Sven: Yeah, I counted twice. It's thirty-eight.",25,Yes,
+23,synthetic,set_01014,B1,proposal,Jonas,Jonas proposes launching the Insights tier with a 14-day free trial and no card required.,"[33] Yuki: Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-
+[34] Meera: Nothing's settled. That's why it's on here.
+[35] Yuki: Okay. Okay, just checking, because that copy reads like it is.
+[36] Lena: That was a placeholder, I think? Somebody in marketing, I don't remember who.","*[37] Jonas: Well, somebody's got to say something, so. Fourteen days, free, and nobody hands over a card. That's how Insights goes out the door.
+ [38] Yuki: Hang on, you? You argued with me about free anything back in March.
+ [39] Jonas: I argue with everybody about everything. Doesn't make me wrong this time.",37,Yes,
+24,synthetic,set_01023,B1,proposal,Camila,Camila proposes using the invoice-approval module bundled with the current ERP.,"[16] Aisha: I don't, I'm not sure it was Marisol. Maybe Sanne.
+[17] Pavel: It was Marisol. She had the, the green jacket on. Anyway.
+[18] Ivan: It was Sanne, I think.
+[19] Aisha: Okay, doesn't matter. Um. Camila, you had, you looked at it, didn't you?","*[20] Camila: I did. Okay, so, I'll just say it. We should use the approval module that comes with the ERP we already have.
+ [21] Ravi: Wait, the bundled one? I thought that was extra.
+ [22] Camila: It's priced, yeah, eleven thousand a year. But hold on, that's the part-",20,Yes,
+25,AMI,ami_ES2002,B4,proposal,ID,"The Industrial Designer suggests a battery plus something else, finding the kinetic option the most interesting because people like to fiddle with it and it is a sales gimmick.","[186] ID: I think whatever it is you still need a battery 'cause I don't think anybody wants to keep doing one thing. Okay the other ones are a solar powered cell, which may not be a great idea in Europe or any country that has seasons 'cause half the year you'd be dead.
+[187] PM: Mm.
+[188] ME: No.
+[189] ME: Yeah.","*[190] ID: So like what I said, you probably need like a battery and something else. Um and the kinetic one I guess for me is the most interesting one because it's movement and people like to fiddle with their and it's a nice sales gimmick I think. From a marketing gimmick it it's a technology thing, it's a shake it it doesn't work, shake it, knock it or something. You know you know you have you had those balls, you know those stress balls where you bounce the ball and it and it lights up and it goes, you know that might be a gimmick combined with rubber.
+ [191] ME: Mm-hmm.
+ [192] PM: Mm-hmm.",190,Yes,
+26,AMI,ami_ES2002,B8,resolution (implicit),PM,"The Project Manager concludes that the battery would keep the kinetic remote ticking over when it is not moved, adopting kinetic power with a backup battery.","[372] ME: I've also known people to have things like like a jewellery watch they wear from time to time, and they eventually just say it's just too much of a nuisance because I don't wear it all the time. Like remote control is similar, you're away on vacation, I dunno whatever, you something, and it just starts to get worn down. So we should think about
+[373] PM: Yeah.
+[374] ID: Yep.
+[375] PM: Yeah.","*[376] PM: Well I suppose that if you're if you're away and you're not using it, then you're not using any power either. So you'd have the battery as the kind of to keep it ticking over idea I'm really sorry we're gonna have to wrap up quite quickly, we don't have as much time as I thought. Um so I think that's what energy is referring to here. Chip on print, is that that's an industrial design thing, is it David? Okay um as for the case, kind of discussed that
+ [377] ME: Yeah.
+ [378] ME: Yep.",376,Partial,"The PM talks about how the battery could keep the device running when it's not being used, but he doesn't clearly confirm that they're going with kinetic power and a backup battery."
+27,AMI,ami_ES2002,B2,rationale,ID,"The Industrial Designer argues that a rechargeable design adds complexity, cost and a docking cradle, and that users are used to buying batteries.","[342] PM: Yeah. W Well well we've um In the new requirement spec they said just to focus on the T_V_, so that's what we should do for now I think. Something I was wondering about was the power. Um, is it worth considering like having like a charging unit as opposed to just regular batteries? I mean is that something we really want to go into, do you think, or should we just consider running on regular batteries?
+[343] ME: Okay.
+[344] ME: Just to T_V_, okay.
+[345] ME: Okay.","*[346] ID: There's a there's Okay, from from a from a component point of view there's added complexity, and you add cost to it, um and then there's probably the fact that you need another physical component. You need a docking cradle, for example, for you to put it in to charge. Or you need to get the user to plug it in. Um and most users are very f use already used to the idea of buying batteries and putting it into the controller. But unless the controller's gonna consume a lot of batteries, like he's gonna run through like twenty batteries a month, then I don't think rechargeable is something we should you know, we really need to care about. Um.
+ [347] PM: Uh-huh.
+ [348] PM: Uh-huh.",346,Yes,
+28,AMI,ami_ES2003,B5,proposal,PM,"The Project Manager proposes changing to a solid plastic unit with a single-curved design, which brings the cost back within budget with 0.2 Euro to spare.","[86] ME: That's this bit right here. And uh this bit is this one easy to use for visitors or for anybody? I guess it's just the same as saying easy to use interface, so it's kinda condensed into one. And we can come back to it, you said. So.
+[87] PM: Okay. No and which we will do very very shortly.
+[88] PM: Um.
+[89] PM: Okay. Slight problem we had was that we have an amazing four Euros over budget for what we were hoping to do. Um most of it stems from the use of the L_C_D_ which I think in the end accounted for about half of our expenditure because of course we required a chip as well. Um the only way to get this down was either to ditch the a L_C_D_, at which point we've removed a large part of how we were gonna interface, require more buttons, etcetera.","*[90] PM: Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure. Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in, we've got point two of a Euro left over there. So we're just managing it really. Even then as well, um there was no criteria technically defined for a joystick so I've used what I think's appropriate. With any luck that won't mean that we've incurred more cost than we can actually afford to.
+ [91] PM: It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now. Um.
+ [92] ME: Different languages?",90,Yes,
+29,AMI,ami_ES2003,B4,evidence,PM,"The Project Manager reports the design is four Euros over budget, about half of it from the LCD and the chip it needs.","[85] PM: Okay.
+[86] ME: That's this bit right here. And uh this bit is this one easy to use for visitors or for anybody? I guess it's just the same as saying easy to use interface, so it's kinda condensed into one. And we can come back to it, you said. So.
+[87] PM: Okay. No and which we will do very very shortly.
+[88] PM: Um.","*[89] PM: Okay. Slight problem we had was that we have an amazing four Euros over budget for what we were hoping to do. Um most of it stems from the use of the L_C_D_ which I think in the end accounted for about half of our expenditure because of course we required a chip as well. Um the only way to get this down was either to ditch the a L_C_D_, at which point we've removed a large part of how we were gonna interface, require more buttons, etcetera.
+ [90] PM: Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure. Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in, we've got point two of a Euro left over there. So we're just managing it really. Even then as well, um there was no criteria technically defined for a joystick so I've used what I think's appropriate. With any luck that won't mean that we've incurred more cost than we can actually afford to.
+ [91] PM: It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now. Um.",89,Yes,
+30,AMI,ami_ES2003,B3,resolution,PM,"The Project Manager notes the team has pretty much decided on some kind of flexible rubber, possibly with an inner frame.","[207] UI: So you
+[208] UI: Yeah.
+[209] PM: So what it looks like to me is we'll use a large number of standard components, um,
+[210] PM: say something like um lithium ion battery, the kind that you find in most um small hand held devices now. Um","*[211] PM: Looks like we going for a double curved design. Um I don't know what cost implications there are in that. Um, looks like we're pretty much decided on some kind of flexible rubber. Though I'd have to say depending on how flexible it is, we might need to have some kind of inner frame.
+ [212] UI: Yeah, I I would say definitely, I mean I mean I mean the the idea of having it sort of articulated i th there would be basically two points of articulation. W um one below and one above the m the uh the main sort of grip.
+ [213] PM: Do you think there's any way we could maybe remove the articulation? I can see why it looks appealing, but it could be a weak point in um the structure, do you think? That would be a worry of mine.",211,Yes,
+31,AMI,ami_ES2013,B5,resolution,PM,The Project Manager concludes that the consensus is to use kinetic if at all possible.,"[293] ME: It could tie in with the fanciful design as uh, you know, throw the banana, you know, just gotta keep it moving.
+[294] PM: Hmm.
+[295] PM: Hmm.
+[296] UI: Yeah. 'Cause it's really a quite attractive thought, isn't it? It's like yeah, a good selling point.","*[297] PM: So the consensus seems to be use the kinetic if it's at all possible.
+ [298] ME: Be
+ [299] UI: But it does depend how much",297,Yes,
+32,AMI,ami_ES2013,B2,rationale,PM,"The Project Manager summarises that kinetic power only needs the remote to be moved, unlike a battery that must be recharged or replaced.","[277] PM: They want us to decide
+[278] PM: what form of energy are we going to use,
+[279] PM: which the choices that we've discussed were pretty much battery, kinetic or solar.
+[280] PM: Um this is where Kate's expertise comes in, and our decision making will be a little bit guided by Kate at this point. The","*[281] PM: You were saying that the kinetic would be useful, that is you just have to move it some and you'd be able to use it um as opposed to a battery that you have to either put it in a recharger or um keep replacing the batteries. Um
+ [282] PM: or solar that you'd have difficulty with it if it's a dark day, that it'll die on you, and no way to do it. That's the day you wanna use the T_V_. Um so what's our pleasure here, what would be the cost consequences of each of the three?
+ [283] ID: Mm.",281,Yes,
+33,AMI,ami_ES2013,B3,evidence,ID,The Industrial Designer says he has no costing information; the two workable front-runners are a standard battery or kinetic.,"[280] PM: Um this is where Kate's expertise comes in, and our decision making will be a little bit guided by Kate at this point. The
+[281] PM: You were saying that the kinetic would be useful, that is you just have to move it some and you'd be able to use it um as opposed to a battery that you have to either put it in a recharger or um keep replacing the batteries. Um
+[282] PM: or solar that you'd have difficulty with it if it's a dark day, that it'll die on you, and no way to do it. That's the day you wanna use the T_V_. Um so what's our pleasure here, what would be the cost consequences of each of the three?
+[283] ID: Mm.","*[284] ID: Oh unfortunately I don't have costing information. I i in terms of workability, I I think the the two front-runners are the standard battery or the kinetic, but I'm sorry I don't figures on the difference in cost.
+ [285] PM: Okay.
+ [286] PM: Mm 'kay.",284,Yes,
+34,AMI,ami_TS3004,B7,evidence,UI,The User Interface Designer reports that the technology department has researched speech and recommends using it.,"[98] UI: Well, I got f also an email from
+[99] ME: So
+[100] UI: the the technology department.
+[101] ME: Maybe we watch the first uh the next two presentations.","*[102] UI: They have done uh research about it, and uh even more possibilities now with speech. So they recommended using it. Well
+ [103] PM: Okay.
+ [104] ME: Okay. Uh let's first watch Paul's presentation first then.",102,Yes,
+35,AMI,ami_TS3004,B9,resolution,PM,"In the last meeting the Project Manager keeps speech recognition, with one button to turn it on or off.","[57] ME: Means
+[58] PM: Mm.
+[59] PM: So how many functions do you need for for uh the microphone?
+[60] UI: Speech recognition.","*[61] PM: Yeah, speech recognition. Just Only one button to say it's on or off.
+ [62] UI: Um I didn't have a specification of that. But um I can imagine that you have to input your voice or something. Um so I've
+ [63] ID: Uh I dunno.",61,Partial,"The PM mentions the one-button on/off setup again, but it's not clear whether the team has actually agreed to keep speech recognition."
+36,AMI,ami_TS3004,B6,rationale,ME,"The Marketing Expert argues that the main requirement is to be technologically innovative, so the remote needs some kind of gadget, perhaps speech.","[87] PM: Yeah.
+[88] ME: Uh maybe a see-through one in a a fruit front. Because it's uh it's hot. And uh some basic uh colour fronts.
+[89] ME: Uh so we can make uh five different fronts to start with or something. Uh maybe an extraordinary shape, like a sponge. Uh or uh, yeah, just another shape than a normal uh remote control ha uh has. Just uh something round in it, or uh maybe not uh not uh Yeah, I dun dunno. We have to discuss about that.
+[90] UI: Yeah.","*[91] ME: Uh y yeah. Main point uh still uh is the technolo technological innovative. Yeah, how do we do that? Maybe speech? We ma must have some kind of gadget.
+ [92] UI: Yeah, I'll get back on that.
+ [93] ME: So",91,Yes,
+37,AMI,ami_TS3012,B1,proposal,PM,The Project Manager says the project he was given is for a TV-only remote.,"[125] PM: Uh put this down.
+[126] PM: Examples. Well I guess we have a little little time extra, but Just a little quick discussion to to open open our work. So what do you guys think about The first idea is just very short. I'll start with you. What are y What are your first ideas for the new product? What
+[127] UI: Well, I basically had a question. Do uh Are we going to introduce a multi remote control? Is it just the T_V_ or do we want to in
+[128] ME: Uh","*[129] PM: The project I got was just for a T_V_ remote control.
+ [130] UI: Just for T_V_ remote control. Okay. Well, I was thinking about design remote control, with our uh motto and all. Uh thing to keep in mind is that we need to stick to what people are familiar with. No rational changes or whatever, 'cause it revolutionary changes, yes.
+ [131] ME: Yeah.",129,Partial,"The speaker is explaining what the project is about, not really suggesting a new option. So I think this fits better under evidence/context rather than proposal."
+38,AMI,ami_TS3012,B2,rationale,PM,The reason given is the project brief itself: it asks for a TV remote control.,"[125] PM: Uh put this down.
+[126] PM: Examples. Well I guess we have a little little time extra, but Just a little quick discussion to to open open our work. So what do you guys think about The first idea is just very short. I'll start with you. What are y What are your first ideas for the new product? What
+[127] UI: Well, I basically had a question. Do uh Are we going to introduce a multi remote control? Is it just the T_V_ or do we want to in
+[128] ME: Uh","*[129] PM: The project I got was just for a T_V_ remote control.
+ [130] UI: Just for T_V_ remote control. Okay. Well, I was thinking about design remote control, with our uh motto and all. Uh thing to keep in mind is that we need to stick to what people are familiar with. No rational changes or whatever, 'cause it revolutionary changes, yes.
+ [131] ME: Yeah.",129,Yes,
+39,AMI,ami_TS3012,B3,resolution,UI,The User Interface Designer accepts that it is just a TV remote control.,"[126] PM: Examples. Well I guess we have a little little time extra, but Just a little quick discussion to to open open our work. So what do you guys think about The first idea is just very short. I'll start with you. What are y What are your first ideas for the new product? What
+[127] UI: Well, I basically had a question. Do uh Are we going to introduce a multi remote control? Is it just the T_V_ or do we want to in
+[128] ME: Uh
+[129] PM: The project I got was just for a T_V_ remote control.","*[130] UI: Just for T_V_ remote control. Okay. Well, I was thinking about design remote control, with our uh motto and all. Uh thing to keep in mind is that we need to stick to what people are familiar with. No rational changes or whatever, 'cause it revolutionary changes, yes.
+ [131] ME: Yeah.
+ [132] PM: Yeah, I guess so.",130,Yes,
+40,AMI,ami_ES2002,B5,reconsideration,PM,The Project Manager brings the power question back and says he likes kinetic power with a battery as backup.,"[359] UI: Um
+[360] ME: Yeah.
+[361] PM: So I'm just gonna um pop this in here 'cause I have a slide about decision making which I'd forgotten about.
+[362] ID: Yep.","*[363] PM: Oh sh God we've got five minutes um okay uh back we go. Um energy what do you think that's suggesting we're how we're powering the thing? I really like the idea of this kinetic thing where you'd have the back-up of the battery, but have have kinetic power, I mean what does anybody think about that?
+ [364] ME: Yeah, sure.
+ [365] ME: Um I've had kinetic things before, and the the the one issue we need to keep in mind with them is that you're committing the user to moving it, and watches yeah",363,Yes,

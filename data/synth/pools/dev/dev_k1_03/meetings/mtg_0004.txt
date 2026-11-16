@@ -1,0 +1,81 @@
+Meeting: mtg_0004
+Date: 2025-08-28
+Participants: Meera, Jonas, Yuki, Lena, Pavel
+
+Meera: Okay, is that five? Did this slot actually land on everyone's calendar this time?
+Jonas: It did. Also in Lisbon, but it did.
+Yuki: Mine moved on its own at, like, nine this morning, so I don't-
+Meera: Dana says the patch went in on Tuesday as planned.
+Jonas: My seven a.m. is now at six.
+Pavel: Progress.
+Lena: The colours shifted a bit too, did anyone- no? Just me?
+Pavel: Forty-two declines.
+Meera: Release notes. First monthly one is the 2nd, so Tuesday. Lena, is it ready?
+Lena: Nearly, um, the content people have it, it's got a nice sort of shape to it.
+Meera: Good. Yuki, did anything come of the floor thing, since you raised it?
+Yuki: So Sanjay says it's definitely happening, the readers went in Monday, we're down by the printers from the 15th, and I already took the plant home because-
+Jonas: My badge works again, but only on the door to the kitchen.
+Lena: Well, that's the important door.
+Yuki: No but the printers, the big one does this thing every ninety seconds, this sort of-
+Pavel: Still fine.
+Yuki: You've never met it, Pavel.
+Meera: Okay. We'll survive the printers. Insights.
+Meera: Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open.
+Jonas: Finally.
+Meera: Twelve days to the 9th. Everything I asked for last week, one at a time. Pavel, the 148.
+Pavel: 148 signups. 3.4 percent activated. Five accounts.
+Yuki: Okay, but five out of- that's a better rate, right, that's up from 2.1 and-
+Jonas: Five is less than nine, Yuki.
+Yuki: It's a better rate on a cleaner-
+Pavel: Throwaways about 3 percent. Four accounts.
+Yuki: Thank you. Four, not 128.
+Meera: So it did clear out the junk. It also took four of the nine real ones with it, if that's what they were.
+Lena: Hm. It's kind of a smaller room but a, a nicer room? I don't know.
+Meera: Failures. Pavel, the count behind the 19.
+Pavel: 96 EU attempts first week, 18 failed. Second week, 110 and 21.
+Meera: So 18.75, then 19.1. And the EU's what share of attempts overall?
+Pavel: 57 percent.
+Yuki: Is that us, though, because I said last time, if it's a bug then-
+Pavel: Not a bug. Issuer banks want the newer flow. Processor ships their version in January.
+Jonas: January.
+Meera: Yuki, tickets.
+Yuki: 23 with the payment error tag since the 14th, and I read them, a bunch of them are people who-
+Meera: Count, I said, not describe.
+Yuki: Twenty-three. Fine.
+Jonas: My homework. Two accounts from sales. Corvane Logistics, their procurement won't issue a card for any trial, and Brightmoor Health said much the same.
+Meera: Lena, did that slide have a base number on it?
+Lena: It did not, no, but it's got a lovely, um, I forwarded it. It's sort of directional.
+Pavel: 412 to 148. That's the base.
+Jonas: Okay, so, what nobody's said yet. The new shared query cache has taken compute down to 0.30 dollars a trial account, so the cost worry we started with is just gone, and those EU failures can't be fixed this quarter, so I'm saying back to the 14 days, free, no card.
+Meera: 0.30, Pavel? With the twelve months on?
+Pavel: Yes. Went in Monday. Backfill's mostly shared queries.
+Meera: So 412 accounts at that is 123 dollars 60, against 741 for that first week.
+Jonas: And with nine activating, that's under fourteen dollars each. It was 82.
+Yuki: Sure, but it's still junk, it's 128 throwaway-
+Jonas: Who now cost us, what-
+Meera: 38 dollars 40.
+Yuki: Okay, that's- hm. But money was only half of it, the other half is they're just noise in every number we-
+Pavel: Domain filter. In the report.
+Yuki: And the people who actually want a month, with a month-end in it, where do they-
+Jonas: No, that's real, I'll argue your side for you. Two weeks can miss a month-end.
+Yuki: See?
+Jonas: It can also miss it with a declined card.
+Lena: I mean, the whole spirit of it was come in, look around, wasn't it. I did sort of keep a bit of that in the email, just in case.
+Pavel: Of course you did.
+Yuki: And support, though, every time we open something up it's 18 percent for six-
+Meera: Three. And with nothing to bill there's no refund on day 31, and those 23 tickets stop coming.
+Yuki: I mean, okay. I don't love it. Most of what I was waving around was the 1.80, and that's, yeah.
+Meera: Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required.
+Jonas: I'd like my protest removed from the notes, please.
+Meera: It stays in, Jonas. Both of them.
+Pavel: Staging switch flipped back by tomorrow.
+Meera: Thank you. I'll redo the page copy today, Yuki reviews it, and it's with Ravi's team Monday, they need about two days.
+Yuki: Event names, do I need to-
+Pavel: Card added goes away.
+Yuki: Okay, I'll tell them this afternoon. And that button can say start free again, which, funny.
+Meera: Priya gets the terms tomorrow with the billing clause out, five working days puts us at the 5th. Dmitri gets the 0.30 today.
+Lena: And I'll do the email, um, that's mostly just un-reworking it. It says the 9th now, I checked.
+Pavel: Short.
+Lena: Short-ish.
+Jonas: And Dana, about my six a.m.
+Meera: I'll ask her. Okay, thanks everybody.

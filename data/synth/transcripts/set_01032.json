@@ -1,0 +1,1800 @@
+{
+ "set_id": "set_01032",
+ "cast": [
+  "Sofia",
+  "Pavel",
+  "Kofi",
+  "Bashir",
+  "Priya"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-06-12",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Sofia",
+     "text": "Okay, let's get going, I know Bashir has a hard stop at eleven.",
+     "ts": "2025-06-12T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Bashir",
+     "text": "Yep. Eleven sharp.",
+     "ts": "2025-06-12T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Sofia",
+     "text": "So, a couple of things. Audit events for billing, that's the main one. And the on-call swap.",
+     "ts": "2025-06-12T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Priya",
+     "text": "Um, before we start, did anyone see Rania's email about the staging freeze?",
+     "ts": "2025-06-12T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Sofia",
+     "text": "Rania's, uh, I saw the subject line. Something about Thursday?",
+     "ts": "2025-06-12T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Priya",
+     "text": "I think maybe it's Wednesday night through Thursday morning. I wasn't sure.",
+     "ts": "2025-06-12T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Bashir",
+     "text": "Wednesday.",
+     "ts": "2025-06-12T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Sofia",
+     "text": "Okay, Wednesday. Fine. We don't have a deploy planned anyway, right?",
+     "ts": "2025-06-12T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Kofi",
+     "text": "Not unless somebody sneaks one in.",
+     "ts": "2025-06-12T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Sofia",
+     "text": "Nobody's sneaking. Okay, audit events. So compliance has been asking where these live, and right now they're just, you know, log lines.",
+     "ts": "2025-06-12T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Kofi",
+     "text": "Log lines that rotate after thirty days.",
+     "ts": "2025-06-12T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Sofia",
+     "text": "Right, which is the problem. Sunita from compliance wants something queryable, and kept for a lot longer.",
+     "ts": "2025-06-12T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Priya",
+     "text": "How much longer, do we know?",
+     "ts": "2025-06-12T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Sofia",
+     "text": "Seven years was the number floating around. I'd have to double check that.",
+     "ts": "2025-06-12T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Bashir",
+     "text": "Seven is standard.",
+     "ts": "2025-06-12T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Pavel",
+     "text": "Okay so, I've been thinking about this since Monday, and honestly I'd just put them in the database we already have. A table, append-only, no updates, no deletes, and partition it by month so old stuff is easy to detach and archive. That's what I'd want.",
+     "ts": "2025-06-12T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Kofi",
+     "text": "Hang on, append-only how? Like enforced, or just by convention?",
+     "ts": "2025-06-12T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Pavel",
+     "text": "Enforced. Revoke update and delete from the service account, only insert. I did that on the old ledger thing at my last place.",
+     "ts": "2025-06-12T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Kofi",
+     "text": "Mm. Okay.",
+     "ts": "2025-06-12T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sofia",
+     "text": "So that's, um, the big picture, one table, same database.",
+     "ts": "2025-06-12T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Pavel",
+     "text": "Yeah. And the reason it's attractive is, well, there's nothing new to stand up. No new cluster, no new on-call thing, nobody has to learn anything.",
+     "ts": "2025-06-12T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Priya",
+     "text": "That's true, I guess.",
+     "ts": "2025-06-12T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Pavel",
+     "text": "And the other thing, when compliance asks which invoice an event belongs to, you just join. It's the same database, so it's one query, not two systems stitched together.",
+     "ts": "2025-06-12T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Kofi",
+     "text": "Sure, but how big does it get? That's the thing I'd worry about.",
+     "ts": "2025-06-12T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Pavel",
+     "text": "So we're at about four million events a month, right? Priya, that's your number from the dashboard.",
+     "ts": "2025-06-12T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Priya",
+     "text": "Um, I think it was closer to three point eight? Maybe four. It's around there.",
+     "ts": "2025-06-12T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Pavel",
+     "text": "Right, round it to four. And each row is tiny, so that's about three gigs a month. Three, maybe a bit more. Which is nothing. We have more than that in temp files.",
+     "ts": "2025-06-12T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Kofi",
+     "text": "Three a month, so what, thirty-something a year.",
+     "ts": "2025-06-12T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Pavel",
+     "text": "Roughly. Over seven years it's, uh, I'd have to get the calculator out, but it's not scary.",
+     "ts": "2025-06-12T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Bashir",
+     "text": "Not scary.",
+     "ts": "2025-06-12T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Kofi",
+     "text": "Okay, devil's advocate. A table that only grows. What does that do to backups?",
+     "ts": "2025-06-12T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Pavel",
+     "text": "Detach old partitions, dump them to cold storage. That's the whole point of the monthly split.",
+     "ts": "2025-06-12T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Kofi",
+     "text": "And vacuum? Or whatever, index bloat?",
+     "ts": "2025-06-12T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Pavel",
+     "text": "Append-only, so there's basically nothing to vacuum. It's the nicest kind of table.",
+     "ts": "2025-06-12T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Priya",
+     "text": "I think maybe the index thing is still worth a look? Like if we index by invoice and by time, that's two indexes on every insert.",
+     "ts": "2025-06-12T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Pavel",
+     "text": "It's two. Two indexes on four million a month is, I mean, that's like one or two a second. The database won't notice.",
+     "ts": "2025-06-12T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Bashir",
+     "text": "Agree.",
+     "ts": "2025-06-12T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Kofi",
+     "text": "Okay, but what about the noisy neighbor angle. If audit writes spike, they're hitting the same box as the invoice stuff.",
+     "ts": "2025-06-12T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Sofia",
+     "text": "Is that a real worry? Like has it spiked before?",
+     "ts": "2025-06-12T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Kofi",
+     "text": "Month end. Everything spikes at month end.",
+     "ts": "2025-06-12T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Pavel",
+     "text": "Month end it's maybe three times normal. Still tiny.",
+     "ts": "2025-06-12T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Priya",
+     "text": "Um, I could pull the month-end numbers if we want. I think I have them from the capacity review.",
+     "ts": "2025-06-12T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Sofia",
+     "text": "That'd be good, Priya, but I don't want to hold things up on it.",
+     "ts": "2025-06-12T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Priya",
+     "text": "No, no, of course. I'll just send it around.",
+     "ts": "2025-06-12T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Kofi",
+     "text": "Fine. Someone has to say it, and I said it.",
+     "ts": "2025-06-12T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Pavel",
+     "text": "Appreciated, honestly.",
+     "ts": "2025-06-12T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Sofia",
+     "text": "Okay. Switching for a sec. Gabor pinged me about the load test environment. Does anyone know who owns that now?",
+     "ts": "2025-06-12T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Bashir",
+     "text": "Nikos.",
+     "ts": "2025-06-12T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Sofia",
+     "text": "Nikos, right, I thought it moved to Nikos. Okay, I'll ask him.",
+     "ts": "2025-06-12T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Pavel",
+     "text": "Speaking of Nikos, did you all hear about his bike thing? He rode to the office in the rain, from, what, twenty kilometers away, and then realized he left his badge at home.",
+     "ts": "2025-06-12T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Kofi",
+     "text": "Of course he did.",
+     "ts": "2025-06-12T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Pavel",
+     "text": "And so Irina had to let him in, and they got talking, and it turns out Irina used to race. Like properly, in a club. She did a thing in the hills outside Brno, one of those long climbs where you can't even see the top.",
+     "ts": "2025-06-12T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Priya",
+     "text": "Oh, that's interesting, I didn't know that.",
+     "ts": "2025-06-12T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Pavel",
+     "text": "Yeah and she said the trick is you never look up, you just look at the wheel in front of you. Which, I mean, is kind of good advice for most things.",
+     "ts": "2025-06-12T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Sofia",
+     "text": "Pavel, I love it, but we have Bashir for another twenty minutes.",
+     "ts": "2025-06-12T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Pavel",
+     "text": "Right, right. Sorry. Tangent.",
+     "ts": "2025-06-12T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Bashir",
+     "text": "Ten minutes now, actually.",
+     "ts": "2025-06-12T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Sofia",
+     "text": "Okay. Okay. Back to audit events. Before I decide anything, is there anyone who thinks the table is a bad idea outright?",
+     "ts": "2025-06-12T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Kofi",
+     "text": "Not outright. I'd want to see the month-end numbers, but I'm not going to die on it.",
+     "ts": "2025-06-12T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Priya",
+     "text": "I think maybe, um, I'm fine with it. As long as someone writes down the retention bit.",
+     "ts": "2025-06-12T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Sofia",
+     "text": "The retention. Right. Meaning, how long we keep the detached partitions.",
+     "ts": "2025-06-12T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Priya",
+     "text": "Yes. And where they go.",
+     "ts": "2025-06-12T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Pavel",
+     "text": "I'll write that up. Seven years, cold storage bucket, some kind of checksum.",
+     "ts": "2025-06-12T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Sofia",
+     "text": "Do we need Sunita to sign off on the bucket?",
+     "ts": "2025-06-12T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Pavel",
+     "text": "Probably. I'll send her the design when it exists.",
+     "ts": "2025-06-12T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Sofia",
+     "text": "Good. Sanne also had a question, something about whether the events carry the user's email.",
+     "ts": "2025-06-12T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Bashir",
+     "text": "They shouldn't.",
+     "ts": "2025-06-12T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Pavel",
+     "text": "They carry a user id. Not the email.",
+     "ts": "2025-06-12T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Sofia",
+     "text": "Okay, that was Sanne's question, so I'll tell her. User id only.",
+     "ts": "2025-06-12T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Kofi",
+     "text": "And if someone deletes a user, for privacy?",
+     "ts": "2025-06-12T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Pavel",
+     "text": "The id stays, the user record goes. Compliance has been okay with that before.",
+     "ts": "2025-06-12T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Kofi",
+     "text": "Has been. Okay.",
+     "ts": "2025-06-12T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Sofia",
+     "text": "Alright. I'm hearing a lot of comfort and a few small asks. Month-end numbers, the retention doc, Sunita on the bucket. Nobody is saying stop.",
+     "ts": "2025-06-12T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Bashir",
+     "text": "Nobody.",
+     "ts": "2025-06-12T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Sofia",
+     "text": "Then it's decided. Audit events go into the monthly-partitioned table in our existing database, and we'll build against that.",
+     "ts": "2025-06-12T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Pavel",
+     "text": "Great. I'll start on the schema tomorrow.",
+     "ts": "2025-06-12T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Sofia",
+     "text": "Perfect. Not urgent urgent, but this sprint if you can.",
+     "ts": "2025-06-12T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Pavel",
+     "text": "Yep.",
+     "ts": "2025-06-12T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Kofi",
+     "text": "Who's reviewing the grants part? The revoke stuff?",
+     "ts": "2025-06-12T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Bashir",
+     "text": "Me.",
+     "ts": "2025-06-12T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Sofia",
+     "text": "Thanks, Bashir. Okay, the on-call swap. Priya, you asked about trading the week of the twenty-third?",
+     "ts": "2025-06-12T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Priya",
+     "text": "Um, yes, I think maybe, if it's okay. I have a family thing and I wasn't sure if it clashed.",
+     "ts": "2025-06-12T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Kofi",
+     "text": "I can take the twenty-third. I'm free.",
+     "ts": "2025-06-12T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Priya",
+     "text": "Oh, really? That's, um, thank you. I can take your week in July then.",
+     "ts": "2025-06-12T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Kofi",
+     "text": "Sure. Whichever one it is.",
+     "ts": "2025-06-12T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Sofia",
+     "text": "I'll update the sheet, just remind me which July week.",
+     "ts": "2025-06-12T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Priya",
+     "text": "The seventh, I think. Or the fourteenth. I'll check.",
+     "ts": "2025-06-12T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Sofia",
+     "text": "Okay, send me the actual one.",
+     "ts": "2025-06-12T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Priya",
+     "text": "I will.",
+     "ts": "2025-06-12T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Bashir",
+     "text": "Gotta go.",
+     "ts": "2025-06-12T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Sofia",
+     "text": "Yep, go, go. Thanks everyone.",
+     "ts": "2025-06-12T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Bashir",
+     "text": "Bye.",
+     "ts": "2025-06-12T10:18:12"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-06-19",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Sofia",
+     "text": "Morning. Is everyone here? I don't see Pavel yet.",
+     "ts": "2025-06-19T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Pavel",
+     "text": "Here, here. My headset decided to update itself.",
+     "ts": "2025-06-19T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Sofia",
+     "text": "Okay. Priya, did you work out which July week you're covering for Kofi?",
+     "ts": "2025-06-19T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Priya",
+     "text": "Um, yes. I think maybe it's the fourteenth. I checked the sheet last night.",
+     "ts": "2025-06-19T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Kofi",
+     "text": "I had the seventh in my head.",
+     "ts": "2025-06-19T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Priya",
+     "text": "The seventh is Bashir's, I'm fairly sure.",
+     "ts": "2025-06-19T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Bashir",
+     "text": "Mine.",
+     "ts": "2025-06-19T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Sofia",
+     "text": "Great, fourteenth it is. Kofi, shout if that's wrong.",
+     "ts": "2025-06-19T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Kofi",
+     "text": "Will do.",
+     "ts": "2025-06-19T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Sofia",
+     "text": "Next, Gabor asked about the load test environment again. Nikos says it's free next week.",
+     "ts": "2025-06-19T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Pavel",
+     "text": "Oh good. Because last time I used it the seed data was from like March.",
+     "ts": "2025-06-19T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Sofia",
+     "text": "Is that a problem?",
+     "ts": "2025-06-19T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Pavel",
+     "text": "For invoice tests, kind of. Half the customers in there are on plans we retired.",
+     "ts": "2025-06-19T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Sofia",
+     "text": "So can someone ask Nikos to refresh it? Pavel?",
+     "ts": "2025-06-19T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Pavel",
+     "text": "Yeah, I'll ping him after this.",
+     "ts": "2025-06-19T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Kofi",
+     "text": "Does a refresh wipe the dashboards? It did last time.",
+     "ts": "2025-06-19T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Pavel",
+     "text": "I don't think so. It might have. I'll ask.",
+     "ts": "2025-06-19T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Sofia",
+     "text": "Fine. Okay, Priya, you said you had something from the audit side.",
+     "ts": "2025-06-19T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Priya",
+     "text": "Um, yes. I talked to Sunita on Monday, about how long we have to keep these events, and, I think maybe it's bigger than we figured.",
+     "ts": "2025-06-19T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sofia",
+     "text": "More than seven years?",
+     "ts": "2025-06-19T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Priya",
+     "text": "No, seven's right, but it's not a guideline. The auditors put it in writing, so it's required. And at our growth that's roughly two hundred fifty gigs sitting in the table.",
+     "ts": "2025-06-19T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Priya",
+     "text": "And, um, I asked Irina about the backups. The nightly one on the primary is forty minutes now, and she thinks maybe ninety-five in about three years with all that in there. The maintenance window is only sixty.",
+     "ts": "2025-06-19T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Pavel",
+     "text": "Huh. Ninety-five. Okay, that's not nothing.",
+     "ts": "2025-06-19T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Bashir",
+     "text": "No.",
+     "ts": "2025-06-19T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Kofi",
+     "text": "So that's what I was poking at last week. All seven years living on the primary means the backup runs out of its window, and the failover drills restore from that same backup, so those crawl too.",
+     "ts": "2025-06-19T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Pavel",
+     "text": "Well, hang on. The old partitions are static. The backup could in theory skip them, I'd have to check how we do it.",
+     "ts": "2025-06-19T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Kofi",
+     "text": "Could in theory. Is that what we do today?",
+     "ts": "2025-06-19T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Pavel",
+     "text": "No. Today it's the whole thing. Full dump.",
+     "ts": "2025-06-19T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Priya",
+     "text": "I think maybe that's worth looking into? I'm not sure how much work it is.",
+     "ts": "2025-06-19T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Sofia",
+     "text": "Right, so, big picture, the table is still the plan, but this is a real wrinkle. Nobody's saying otherwise?",
+     "ts": "2025-06-19T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Kofi",
+     "text": "I'm saying it's a wrinkle, yeah.",
+     "ts": "2025-06-19T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Sofia",
+     "text": "Okay. Priya, is Irina's estimate a guess?",
+     "ts": "2025-06-19T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Priya",
+     "text": "Um, it was more of a back-of-envelope. I could ask her to run it properly against a copy.",
+     "ts": "2025-06-19T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Sofia",
+     "text": "Please. Not urgent, but soon.",
+     "ts": "2025-06-19T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Priya",
+     "text": "Okay. I'll ask her today.",
+     "ts": "2025-06-19T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Pavel",
+     "text": "Funny thing, Irina told me last month the backup already runs long at month end because of the invoice runs.",
+     "ts": "2025-06-19T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Kofi",
+     "text": "How long?",
+     "ts": "2025-06-19T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Pavel",
+     "text": "Fifty-something? Don't quote me.",
+     "ts": "2025-06-19T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Kofi",
+     "text": "That's already close to the window.",
+     "ts": "2025-06-19T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Pavel",
+     "text": "Close, yeah. Sorry, I forgot that until just now.",
+     "ts": "2025-06-19T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Bashir",
+     "text": "Noted.",
+     "ts": "2025-06-19T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Sofia",
+     "text": "Okay, let's park it until Irina's numbers come back. Anything else on that?",
+     "ts": "2025-06-19T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Kofi",
+     "text": "Not from me.",
+     "ts": "2025-06-19T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Sofia",
+     "text": "Good. Other thing, and Bashir this one's yours, the pager last week was awful.",
+     "ts": "2025-06-19T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Bashir",
+     "text": "Yeah.",
+     "ts": "2025-06-19T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Sofia",
+     "text": "People were saying the slow-query alerts were basically constant. Is that the database side?",
+     "ts": "2025-06-19T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Bashir",
+     "text": "Yes. It's too twitchy. Move it up to five hundred, from two hundred.",
+     "ts": "2025-06-19T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Sofia",
+     "text": "Why that much, though?",
+     "ts": "2025-06-19T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Bashir",
+     "text": "Sixty-three pages last week. Fifty-eight were the nightly report job. Nobody cares about those.",
+     "ts": "2025-06-19T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Kofi",
+     "text": "The report job is just slow by nature, right? It scans everything.",
+     "ts": "2025-06-19T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Bashir",
+     "text": "Yes.",
+     "ts": "2025-06-19T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Priya",
+     "text": "I think maybe we'd still catch the real ones at that level? Like anything customer-facing would be well over it anyway.",
+     "ts": "2025-06-19T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Bashir",
+     "text": "Right. Real ones are way over.",
+     "ts": "2025-06-19T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Kofi",
+     "text": "Devil's advocate, what if a real one creeps from two hundred to four hundred and nobody notices?",
+     "ts": "2025-06-19T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Bashir",
+     "text": "Dashboard shows it. Alert is for pages.",
+     "ts": "2025-06-19T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Kofi",
+     "text": "Fair.",
+     "ts": "2025-06-19T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Pavel",
+     "text": "We could also exclude the report job from the alert entirely. I did that at my old company, with a tag.",
+     "ts": "2025-06-19T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Bashir",
+     "text": "Later. Threshold first.",
+     "ts": "2025-06-19T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Sofia",
+     "text": "Okay, that's reasonable. The slow-query alert goes to five hundred milliseconds.",
+     "ts": "2025-06-19T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Bashir",
+     "text": "I'll push the change today.",
+     "ts": "2025-06-19T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Sofia",
+     "text": "Thanks. Who gets paged if it does fire?",
+     "ts": "2025-06-19T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Bashir",
+     "text": "Whoever's on call. Kofi this week.",
+     "ts": "2025-06-19T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Kofi",
+     "text": "Yep, that's me till Friday.",
+     "ts": "2025-06-19T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Sofia",
+     "text": "Okay. Sanne asked whether we can move the Thursday sync, she has a clash.",
+     "ts": "2025-06-19T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Pavel",
+     "text": "To when?",
+     "ts": "2025-06-19T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Sofia",
+     "text": "She suggested Friday morning. I told her I'd check.",
+     "ts": "2025-06-19T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Priya",
+     "text": "Um, Friday morning I have the, I think maybe the vendor call? Not sure of the time.",
+     "ts": "2025-06-19T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Sofia",
+     "text": "What time is it?",
+     "ts": "2025-06-19T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Priya",
+     "text": "Ten. Or ten thirty.",
+     "ts": "2025-06-19T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Sofia",
+     "text": "Okay, so Friday at eleven works?",
+     "ts": "2025-06-19T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Kofi",
+     "text": "Fine by me.",
+     "ts": "2025-06-19T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Bashir",
+     "text": "Fine.",
+     "ts": "2025-06-19T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Pavel",
+     "text": "I can do eleven. Actually, I might have a thing with Nikos, but I can move it.",
+     "ts": "2025-06-19T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Sofia",
+     "text": "Okay, I'll tell her eleven. If it moves again I'll let you know.",
+     "ts": "2025-06-19T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Sofia",
+     "text": "One more, Rania sent the quarterly planning template. Has anyone opened it?",
+     "ts": "2025-06-19T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Kofi",
+     "text": "Briefly.",
+     "ts": "2025-06-19T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Pavel",
+     "text": "It's longer than last quarter.",
+     "ts": "2025-06-19T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Priya",
+     "text": "There's a new section on risks, I think? Um, I saw something.",
+     "ts": "2025-06-19T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Sofia",
+     "text": "I'll skim it. Probably I'd want everyone's top three by the end of next week.",
+     "ts": "2025-06-19T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Kofi",
+     "text": "Top three of what?",
+     "ts": "2025-06-19T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Sofia",
+     "text": "Of what you want to work on. Big picture stuff, not tickets.",
+     "ts": "2025-06-19T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Kofi",
+     "text": "Okay.",
+     "ts": "2025-06-19T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Pavel",
+     "text": "And the audit thing goes in there somewhere, I guess.",
+     "ts": "2025-06-19T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Sofia",
+     "text": "Probably, yes, depending on where we end up.",
+     "ts": "2025-06-19T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Bashir",
+     "text": "I have a hard stop. Need to go.",
+     "ts": "2025-06-19T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Sofia",
+     "text": "Go, go. Thanks everyone.",
+     "ts": "2025-06-19T10:17:00"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-06-26",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Sofia",
+     "text": "Morning all. Before the real stuff, the planning template. Anyone sent me their top three yet?",
+     "ts": "2025-06-26T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Kofi",
+     "text": "Not yet. I've got two and a half.",
+     "ts": "2025-06-26T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Pavel",
+     "text": "I have like seven, that's the problem.",
+     "ts": "2025-06-26T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Sofia",
+     "text": "Seven isn't three, Pavel.",
+     "ts": "2025-06-26T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Pavel",
+     "text": "I know, I know. I'll cut it down.",
+     "ts": "2025-06-26T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Priya",
+     "text": "Um, I think maybe I have three? But one of them is sort of two things.",
+     "ts": "2025-06-26T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Sofia",
+     "text": "That's fine, just send them by Monday. Doesn't need to be polished.",
+     "ts": "2025-06-26T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Bashir",
+     "text": "Monday.",
+     "ts": "2025-06-26T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Sofia",
+     "text": "Yes. Next, the Thursday sync that moved to Friday, did that stick? Sanne said eleven was fine.",
+     "ts": "2025-06-26T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Kofi",
+     "text": "I got the invite, yeah.",
+     "ts": "2025-06-26T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Pavel",
+     "text": "Me too, although it landed on top of my thing with Nikos, which I did move.",
+     "ts": "2025-06-26T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Sofia",
+     "text": "Good. And did the load test environment get refreshed?",
+     "ts": "2025-06-26T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Pavel",
+     "text": "Partly. Nikos redid the seed data, but the dashboards are gone. So it does wipe them.",
+     "ts": "2025-06-26T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Kofi",
+     "text": "Told you.",
+     "ts": "2025-06-26T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Pavel",
+     "text": "You did. I'll rebuild them, they're not complicated.",
+     "ts": "2025-06-26T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Bashir",
+     "text": "Export them first next time.",
+     "ts": "2025-06-26T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Pavel",
+     "text": "Yeah. Fair.",
+     "ts": "2025-06-26T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Sofia",
+     "text": "Okay. Audit events. Priya, did Irina ever get to the backup run against a copy?",
+     "ts": "2025-06-26T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Priya",
+     "text": "Um, sort of. She did it on a smaller copy and then scaled it up, so I think maybe it's still an estimate.",
+     "ts": "2025-06-26T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sofia",
+     "text": "Where did it land?",
+     "ts": "2025-06-26T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Priya",
+     "text": "Somewhere around ninety, ninety-five minutes by year three. So about what she said before.",
+     "ts": "2025-06-26T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Kofi",
+     "text": "Against a sixty-minute window.",
+     "ts": "2025-06-26T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Priya",
+     "text": "Yes. Right.",
+     "ts": "2025-06-26T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Pavel",
+     "text": "And I never checked whether the dump can skip the old partitions. I meant to. It's on my list, which is the list that's seven things long.",
+     "ts": "2025-06-26T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Sofia",
+     "text": "Okay. Let me say where my head is. Seven years is a written requirement, and the backup window is what it is, so I'd like to open the storage question again. Not to undo everything, just to look at it properly.",
+     "ts": "2025-06-26T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Kofi",
+     "text": "Fine by me. I've been waiting for that.",
+     "ts": "2025-06-26T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Pavel",
+     "text": "Can I just say, the table is still the right core. The joins to invoices, the grants, none of that goes away.",
+     "ts": "2025-06-26T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Kofi",
+     "text": "Nobody said it goes away.",
+     "ts": "2025-06-26T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Pavel",
+     "text": "No, I know. I just want that on the record before the pile-on.",
+     "ts": "2025-06-26T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Priya",
+     "text": "There's no pile-on, I think maybe?",
+     "ts": "2025-06-26T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Sofia",
+     "text": "So as I understand it, it's everything in the table forever, or the old stuff goes somewhere else. Is that fair?",
+     "ts": "2025-06-26T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Pavel",
+     "text": "Kind of. I wrote the cold storage bit in the doc, but as more of a someday thing.",
+     "ts": "2025-06-26T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Kofi",
+     "text": "When's someday? And who runs it?",
+     "ts": "2025-06-26T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Pavel",
+     "text": "A script. Monthly, I figured.",
+     "ts": "2025-06-26T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Kofi",
+     "text": "Run by whom, and what pages when it fails?",
+     "ts": "2025-06-26T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Pavel",
+     "text": "Okay, I hadn't got that far.",
+     "ts": "2025-06-26T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Priya",
+     "text": "Um, I think maybe the auditors would want proof it actually ran, too?",
+     "ts": "2025-06-26T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Kofi",
+     "text": "Right, and that the copy matches.",
+     "ts": "2025-06-26T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Pavel",
+     "text": "That's the checksum thing. Which I did put in.",
+     "ts": "2025-06-26T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Sofia",
+     "text": "Bashir, you've been quiet. Where are you on this?",
+     "ts": "2025-06-26T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Bashir",
+     "text": "Keep the table. Once a month closes, that partition gets exported every night, and we only hold ninety days hot.",
+     "ts": "2025-06-26T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Bashir",
+     "text": "Seven years of cold storage is about five bucks a month. And the auditors emailed back, checksummed exports in an open columnar format are fine.",
+     "ts": "2025-06-26T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Kofi",
+     "text": "Wait, they said that in writing?",
+     "ts": "2025-06-26T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Bashir",
+     "text": "Email.",
+     "ts": "2025-06-26T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Pavel",
+     "text": "Who was it, Sunita?",
+     "ts": "2025-06-26T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Bashir",
+     "text": "Sunita forwarded it.",
+     "ts": "2025-06-26T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Kofi",
+     "text": "Okay, that's different from last week, when all we had was \"required\".",
+     "ts": "2025-06-26T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Pavel",
+     "text": "Right, and honestly that's the same thing I said, it's just got a schedule on it.",
+     "ts": "2025-06-26T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Kofi",
+     "text": "It's not though. You had it as a someday. This one's every night.",
+     "ts": "2025-06-26T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Pavel",
+     "text": "Fine, fine. It's a better version of mine.",
+     "ts": "2025-06-26T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Sofia",
+     "text": "And the ninety days, that fixes the backup thing?",
+     "ts": "2025-06-26T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Bashir",
+     "text": "Table stays small. A quarter's worth.",
+     "ts": "2025-06-26T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Priya",
+     "text": "So the dump is only a quarter then? Um, instead of seven years.",
+     "ts": "2025-06-26T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Bashir",
+     "text": "Yes.",
+     "ts": "2025-06-26T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Kofi",
+     "text": "Devil's advocate, what if an auditor wants something from year four on short notice?",
+     "ts": "2025-06-26T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Bashir",
+     "text": "Query the files.",
+     "ts": "2025-06-26T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Kofi",
+     "text": "With what?",
+     "ts": "2025-06-26T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Pavel",
+     "text": "Anything that reads that format. Lots of things do, even a laptop.",
+     "ts": "2025-06-26T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Kofi",
+     "text": "And joining to the invoice?",
+     "ts": "2025-06-26T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Pavel",
+     "text": "Not as pretty. You'd load it into a scratch table, I mean, it's rare.",
+     "ts": "2025-06-26T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Bashir",
+     "text": "Rare.",
+     "ts": "2025-06-26T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Priya",
+     "text": "I think maybe someone should test a restore once? Before we say it works.",
+     "ts": "2025-06-26T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Bashir",
+     "text": "Yes. Will do.",
+     "ts": "2025-06-26T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Kofi",
+     "text": "Who's building the export job?",
+     "ts": "2025-06-26T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Sofia",
+     "text": "Hold on, assignments after. Anyone actually against it? Kofi?",
+     "ts": "2025-06-26T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Kofi",
+     "text": "Not against. The failure alert is what I care about. Silent failure is how you end up with a gap in year five.",
+     "ts": "2025-06-26T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Sofia",
+     "text": "Fair. Pavel?",
+     "ts": "2025-06-26T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Pavel",
+     "text": "I'm fine. The object storage thing reminds me, Nikos told me how his old place lost a year of exports because the bucket had a lifecycle rule nobody remembered. It quietly deleted anything older than ninety days.",
+     "ts": "2025-06-26T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Kofi",
+     "text": "Ouch.",
+     "ts": "2025-06-26T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Pavel",
+     "text": "Yeah, and they only found out because someone's cousin, no, a contractor, asked for an old file. And the guy who set the rule had left, and the rule was named after a ticket number, not what it did.",
+     "ts": "2025-06-26T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Priya",
+     "text": "Oh no.",
+     "ts": "2025-06-26T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Pavel",
+     "text": "And then they spent two weeks going through logs. Which, anyway, is a bit of a story, but-",
+     "ts": "2025-06-26T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Sofia",
+     "text": "Pavel, it's a good one, but-",
+     "ts": "2025-06-26T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Pavel",
+     "text": "Right, sorry. The point is, no lifecycle rules that delete. Ever.",
+     "ts": "2025-06-26T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Bashir",
+     "text": "Agree.",
+     "ts": "2025-06-26T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Sofia",
+     "text": "Put that in the doc. Okay. Priya?",
+     "ts": "2025-06-26T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Priya",
+     "text": "Um, I think maybe I'm good with it, as long as the restore test happens before we call it done.",
+     "ts": "2025-06-26T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Sofia",
+     "text": "Okay, I'm making the call. We keep the monthly-partitioned table in our database, only the last ninety days stay in it, and each night the closed partitions get exported out to object storage.",
+     "ts": "2025-06-26T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Pavel",
+     "text": "Great, I'll update the design doc today.",
+     "ts": "2025-06-26T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Kofi",
+     "text": "Alert on export failure goes in the doc too.",
+     "ts": "2025-06-26T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Sofia",
+     "text": "Yes, thanks Kofi.",
+     "ts": "2025-06-26T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Bashir",
+     "text": "I'll do the restore test.",
+     "ts": "2025-06-26T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Sofia",
+     "text": "Who owns the export job?",
+     "ts": "2025-06-26T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Pavel",
+     "text": "I'll take it. Bashir reviews, like the grants.",
+     "ts": "2025-06-26T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Bashir",
+     "text": "Fine.",
+     "ts": "2025-06-26T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Sofia",
+     "text": "Sunita should see the final shape, since it was her thread.",
+     "ts": "2025-06-26T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Priya",
+     "text": "I can send her the doc once Pavel's done? Um, if that's okay.",
+     "ts": "2025-06-26T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Sofia",
+     "text": "Please.",
+     "ts": "2025-06-26T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Sofia",
+     "text": "Okay, different thing. Gabor asked whether anyone's on the release call Tuesday.",
+     "ts": "2025-06-26T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Kofi",
+     "text": "I'm on call, so I'll be around anyway.",
+     "ts": "2025-06-26T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Sofia",
+     "text": "Good, you're the rep.",
+     "ts": "2025-06-26T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Kofi",
+     "text": "Great. Always me.",
+     "ts": "2025-06-26T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Sofia",
+     "text": "Rania's also asking about headcount for the planning doc. I told her we wouldn't have an answer till the end of next week.",
+     "ts": "2025-06-26T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Pavel",
+     "text": "Are we asking for headcount?",
+     "ts": "2025-06-26T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Sofia",
+     "text": "I'm not sure yet. Probably one, depending on what the risks section says.",
+     "ts": "2025-06-26T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Priya",
+     "text": "What's in the risks section? Um, I only skimmed it.",
+     "ts": "2025-06-26T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Sofia",
+     "text": "Honestly mostly boxes to tick. I'll go through it with each of you.",
+     "ts": "2025-06-26T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Kofi",
+     "text": "Can I put the audit job in as a risk?",
+     "ts": "2025-06-26T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Sofia",
+     "text": "Put it as work, not as a risk.",
+     "ts": "2025-06-26T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Kofi",
+     "text": "Okay.",
+     "ts": "2025-06-26T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Pavel",
+     "text": "Does Irina need to know about the new backup plan? Since it changes her window numbers.",
+     "ts": "2025-06-26T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Sofia",
+     "text": "Yes. Priya, can you tell her it may get smaller?",
+     "ts": "2025-06-26T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Priya",
+     "text": "Yes, I'll mention it. I think maybe she'll want to rerun the estimate.",
+     "ts": "2025-06-26T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Sofia",
+     "text": "Maybe, don't push on it.",
+     "ts": "2025-06-26T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Bashir",
+     "text": "Not needed. It's smaller.",
+     "ts": "2025-06-26T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Sofia",
+     "text": "Okay, point taken, tell her anyway so she isn't surprised.",
+     "ts": "2025-06-26T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Priya",
+     "text": "Okay.",
+     "ts": "2025-06-26T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Kofi",
+     "text": "Is the Friday sync still on? I forgot to ask.",
+     "ts": "2025-06-26T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Sofia",
+     "text": "Eleven, yes.",
+     "ts": "2025-06-26T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Pavel",
+     "text": "Should we put audit on the agenda?",
+     "ts": "2025-06-26T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Sofia",
+     "text": "Just a quick update. Pavel, you can do two minutes.",
+     "ts": "2025-06-26T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Pavel",
+     "text": "Two minutes. I can do two minutes.",
+     "ts": "2025-06-26T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Kofi",
+     "text": "You've never done two minutes.",
+     "ts": "2025-06-26T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Sofia",
+     "text": "Okay. Anything else?",
+     "ts": "2025-06-26T10:22:36"
+    },
+    {
+     "idx": 114,
+     "speaker": "Priya",
+     "text": "Um, no, I think that's it.",
+     "ts": "2025-06-26T10:22:48"
+    },
+    {
+     "idx": 115,
+     "speaker": "Bashir",
+     "text": "Done.",
+     "ts": "2025-06-26T10:23:00"
+    },
+    {
+     "idx": 116,
+     "speaker": "Sofia",
+     "text": "Thanks everyone. I need to jump to another call.",
+     "ts": "2025-06-26T10:23:12"
+    }
+   ]
+  }
+ ]
+}

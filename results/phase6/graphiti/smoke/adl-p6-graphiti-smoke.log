@@ -1,0 +1,254 @@
+[{"stream_name":"stdout","time":8.302452997,"data":"06:59:25 $ pip install -q graphiti-core==0.31.2 kuzu==0.11.3 httpx rc 0 \n"}
+,{"stream_name":"stdout","time":20.02264951,"data":"06:59:37 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 \n"}
+,{"stream_name":"stdout","time":69.456115606,"data":"07:00:26 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 \n"}
+,{"stream_name":"stdout","time":153.291754946,"data":"07:01:50 $ ollama pull qwen3:14b rc 0 \n"}
+,{"stream_name":"stdout","time":155.53290122,"data":"07:01:52 $ ollama pull all-minilm rc 0 \n"}
+,{"stream_name":"stdout","time":155.640578697,"data":"07:01:52 digests {'all-minilm:latest': '1b226e2802dbb772b5fc32a58f103ca1804ef7501331012de126ab22f67475ef', 'qwen3:14b': 'bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8'}\n"}
+,{"stream_name":"stdout","time":159.580354921,"data":"07:01:56 corpus dev_k1_00 3 meetings 9 questions\n"}
+,{"stream_name":"stderr","time":159.580887246,"data":"/kaggle/src/script.py:79: DeprecationWarning: The Kuzu backend is deprecated and will be removed in a future release — the upstream Kuzu project is no longer maintained. Migrate to Neo4j or FalkorDB.\n"}
+,{"stream_name":"stderr","time":159.58090876,"data":"  g = Graphiti(graph_driver=KuzuDriver(db=str(WORK / f\"kuzu_{name}\")),\n"}
+,{"stream_name":"stdout","time":161.183739656,"data":"07:01:58 dev_k1_00 mtg_0001 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'\n"}
+,{"stream_name":"stdout","time":161.18474122,"data":"07:01:58 dev_k1_00 mtg_0002 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'\n"}
+,{"stream_name":"stdout","time":161.185919722,"data":"07:01:58 dev_k1_00 mtg_0003 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'\n"}
+,{"stream_name":"stderr","time":183.278441745,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.278472162,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.278478326,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.278483074,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.2784888,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.278492926,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.278497374,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.278501407,"data":"            \n"}
+,{"stream_name":"stderr","time":183.278505628,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.278509865,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.278514084,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.278518503,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.278532092,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.278536756,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.278541002,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.278545026,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.278549179,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.278553344,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.278557749,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.278575066,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.278578762,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.278582022,"data":"    \n"}
+,{"stream_name":"stderr","time":183.278585461,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.278588575,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.278591736,"data":"            \n"}
+,{"stream_name":"stderr","time":183.278595024,"data":"{'query': 'What did the team finally decide about how first-round interviews are run for engineering hires?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.298140339,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.298165616,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.298170482,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.298193627,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.298198474,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.298202655,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.298206436,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.298210453,"data":"            \n"}
+,{"stream_name":"stderr","time":183.298214596,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.298218626,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.298222861,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.298227043,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.298231257,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.29823519,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.298239056,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.298242572,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.298246347,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.298250413,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.298254138,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.298258141,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.298262425,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.29826626,"data":"    \n"}
+,{"stream_name":"stderr","time":183.298269454,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.298272896,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.298275982,"data":"            \n"}
+,{"stream_name":"stderr","time":183.29827941,"data":"{'query': 'What decisions were made about how first-round interviews are run for engineering hires?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.310981275,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.311001581,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.311019082,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.311033928,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.311039038,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.311042961,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.31104695,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.311050878,"data":"            \n"}
+,{"stream_name":"stderr","time":183.311054687,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.311058633,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.311062759,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.311066942,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.311071062,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.311075648,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.311079885,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.311084055,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.311088138,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.311106004,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.311110946,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.311117997,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.311122067,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.311126067,"data":"    \n"}
+,{"stream_name":"stderr","time":183.31112976,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.311133684,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.311137715,"data":"            \n"}
+,{"stream_name":"stderr","time":183.311141281,"data":"{'query': 'What was the decision about how first-round interviews are run for engineering hires as of the end of meeting 1?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.328017171,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.328039704,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.328045934,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.328053046,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.328068678,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.328072758,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.328076612,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.328080021,"data":"            \n"}
+,{"stream_name":"stderr","time":183.328083801,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.328087611,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.328091414,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.328095046,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.328098596,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.328122917,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.328126241,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.328129017,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.328131818,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.328134704,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.328137544,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.328140358,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.328143186,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.328146061,"data":"    \n"}
+,{"stream_name":"stderr","time":183.328148821,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.328151539,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.328154384,"data":"            \n"}
+,{"stream_name":"stderr","time":183.328157262,"data":"{'query': 'What was the decision about how first-round interviews are run for engineering hires as of the end of meeting 2?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.341326754,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.341343087,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.341347621,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.341351296,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.341355413,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.341358965,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.341362473,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.341365875,"data":"            \n"}
+,{"stream_name":"stderr","time":183.341369254,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.341372618,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.341376106,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.341379839,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.341383398,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.341386826,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.341390238,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.34139362,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.341396962,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.34140021,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.341403496,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.341406908,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.341410559,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.341414046,"data":"    \n"}
+,{"stream_name":"stderr","time":183.341417308,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.341420668,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.341423923,"data":"            \n"}
+,{"stream_name":"stderr","time":183.341437403,"data":"{'query': 'How did the decision about how first-round interviews are run for engineering hires change over time?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.354425408,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.354441421,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.35444595,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.354449637,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.354453574,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.354457259,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.35446074,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.354464126,"data":"            \n"}
+,{"stream_name":"stderr","time":183.354467408,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.354470714,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.354474508,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.354477745,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.354481229,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.354484702,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.354488121,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.354491351,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.35449487099999,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.354498331,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.354501849,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.354505296,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.354508791,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.354512104,"data":"    \n"}
+,{"stream_name":"stderr","time":183.35451545,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.354518592,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.354521796,"data":"            \n"}
+,{"stream_name":"stderr","time":183.354524981,"data":"{'query': 'Who proposed a 45-minute structured video screen, two interviewers scoring against a shared rubric?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.366964651,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.366985114,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.367002938,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.367007254,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.367011779,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.367015545,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.367019668,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.367033429,"data":"            \n"}
+,{"stream_name":"stderr","time":183.36704168,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.367044642,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.367047148,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.367049433,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.367051744,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.367053986,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.367056284,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.367058632,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.367060889,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.367063126,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.367065489,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.367067726,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.367070013,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.367072263,"data":"    \n"}
+,{"stream_name":"stderr","time":183.367074502,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.367076747,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.367078954,"data":"            \n"}
+,{"stream_name":"stderr","time":183.367081265,"data":"{'query': 'Which meetings contributed to the final decision about how first-round interviews are run for engineering hires?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":183.379830148,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":183.379847321,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":183.379851752,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":183.379855634,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":183.379859981,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":183.379863514,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":183.379867032,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":183.379870092,"data":"            \n"}
+,{"stream_name":"stderr","time":183.3798733,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":183.379876689,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.379879924,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":183.379883366,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":183.379886885,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":183.379890157,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":183.379893474,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":183.379896761,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":183.379900108,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":183.379903479,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":183.379916948,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":183.379920678,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":183.379924247,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":183.379927738,"data":"    \n"}
+,{"stream_name":"stderr","time":183.379931223,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":183.379934663,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":183.379938224,"data":"            \n"}
+,{"stream_name":"stderr","time":183.379942046,"data":"{'query': 'Show the complete lineage of the decision about how first-round interviews are run for engineering hires from proposal to final outcome.', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":186.24493256,"data":"Error executing Kuzu query: Binder exception: Table RelatesToNode_ doesn't have an index with name edge_name_and_fact.\n"}
+,{"stream_name":"stderr","time":186.244964972,"data":"CALL QUERY_FTS_INDEX('RelatesToNode_', 'edge_name_and_fact', cast($query AS STRING), TOP := $limit)\n"}
+,{"stream_name":"stderr","time":186.244969278,"data":"        YIELD node, score\n"}
+,{"stream_name":"stderr","time":186.244972359,"data":"        MATCH (n:Entity)-[:RELATES_TO]-\u003e(e:RelatesToNode_ {uuid: node.uuid})-[:RELATES_TO]-\u003e(m:Entity)\n"}
+,{"stream_name":"stderr","time":186.24497686,"data":"         WHERE e.group_id IN $group_ids\n"}
+,{"stream_name":"stderr","time":186.244993368,"data":"            WITH e, score, n, m\n"}
+,{"stream_name":"stderr","time":186.244998858,"data":"            RETURN\n"}
+,{"stream_name":"stderr","time":186.24500361,"data":"            \n"}
+,{"stream_name":"stderr","time":186.245008405,"data":"        e.uuid AS uuid,\n"}
+,{"stream_name":"stderr","time":186.245020112,"data":"        n.uuid AS source_node_uuid,\n"}
+,{"stream_name":"stderr","time":186.245024539,"data":"        m.uuid AS target_node_uuid,\n"}
+,{"stream_name":"stderr","time":186.245028674,"data":"        e.group_id AS group_id,\n"}
+,{"stream_name":"stderr","time":186.245032985,"data":"        e.created_at AS created_at,\n"}
+,{"stream_name":"stderr","time":186.2450373,"data":"        e.name AS name,\n"}
+,{"stream_name":"stderr","time":186.24504648,"data":"        e.fact AS fact,\n"}
+,{"stream_name":"stderr","time":186.245049632,"data":"        e.episodes AS episodes,\n"}
+,{"stream_name":"stderr","time":186.245052451,"data":"        e.expired_at AS expired_at,\n"}
+,{"stream_name":"stderr","time":186.245055372,"data":"        e.valid_at AS valid_at,\n"}
+,{"stream_name":"stderr","time":186.245058232,"data":"        e.invalid_at AS invalid_at,\n"}
+,{"stream_name":"stderr","time":186.245061116,"data":"        e.reference_time AS reference_time,\n"}
+,{"stream_name":"stderr","time":186.245063984,"data":"        e.attributes AS attributes\n"}
+,{"stream_name":"stderr","time":186.245066963,"data":"    \n"}
+,{"stream_name":"stderr","time":186.245069765,"data":"            ORDER BY score DESC\n"}
+,{"stream_name":"stderr","time":186.245072642,"data":"            LIMIT $limit\n"}
+,{"stream_name":"stderr","time":186.245075522,"data":"            \n"}
+,{"stream_name":"stderr","time":186.245079403,"data":"{'query': 'What was decided about how new-hire laptops reach people?', 'limit': 24, 'group_ids': ['dev_k1_00']}\n"}
+,{"stream_name":"stderr","time":186.291710486,"data":"Segmentation fault (core dumped)\n"}
+,{"stream_name":"stderr","time":188.438967184,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":188.439018662,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":188.678703072,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":188.678728331,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":189.42607103,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":190.420268031,"data":"[NbConvertApp] Writing 323959 bytes to __results__.html\n"}
+]

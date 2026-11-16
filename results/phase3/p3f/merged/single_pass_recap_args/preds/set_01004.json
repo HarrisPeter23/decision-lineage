@@ -1,0 +1,846 @@
+{
+ "set_id": "set_01004",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.6,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "confidence": 0.6,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.95,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.6,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Marco",
+   "confidence": 0.85,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial length for the launch",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial policy",
+   "option": "fourteen days, no card"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial policy",
+   "option": "fourteen days, no card"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "fourteen days, no card"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "trial policy",
+   "option": "fourteen days, no card"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial policy",
+   "option": "fourteen days, no card"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial policy",
+   "option": "seven day trial, credit card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20,
+    21,
+    22
+   ],
+   "speaker": "Omar",
+   "confidence": 0.6,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23,
+    24,
+    25
+   ],
+   "speaker": "Marco",
+   "confidence": 0.6,
+   "decision": "retention report readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    26,
+    27
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "communicating trial policy change to sales",
+   "option": "tell sales today"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.6,
+   "decision": "trial length for the launch",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "logo design for the product",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch (option: fourteen day free trial, no credit card needed)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "trial length for the launch (option: fourteen day free trial, no credit card needed)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.6,
+   "decision": "trial length for the launch (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "trial policy (option: fourteen days, no card)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "trial policy (option: fourteen days, no card)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial policy (option: fourteen days, no card)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial policy (option: fourteen days, no card)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "confidence": 0.6,
+   "decision": "trial policy (option: fourteen days, no card)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.5,
+   "decision": "trial policy (option: seven day trial, credit card required)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

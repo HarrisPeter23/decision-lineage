@@ -1,0 +1,1404 @@
+{
+ "set_id": "test_k1_09",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "engineered timber"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "engineered timber"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "engineered timber"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "engineered timber"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "engineered timber"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "printer status",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "printer status",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "printer status",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "printer status",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "printer status",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "vinyl plank with membrane"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "fire drill date",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "fire drill date",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "fire drill date",
+   "option": "Thursday"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.95,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.95,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.75,
+   "decision": "flooring material",
+   "option": "rubber carpet tiles"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "rubber carpet tiles"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Sana",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Sana",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "flooring material",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "polished concrete"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "concrete with the topping"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Sana",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "concrete with the topping"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "concrete with the topping"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "concrete with the topping"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "spray-on membrane"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "flooring for ground floor reception and corridors",
+   "option": "luxury vinyl plank"
+  }
+ ]
+}

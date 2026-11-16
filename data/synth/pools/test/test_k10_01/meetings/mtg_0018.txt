@@ -1,0 +1,112 @@
+Meeting: mtg_0018
+Date: 2025-08-10
+Participants: Nadia, Hana, Mei, Jonas, Yuki
+
+Nadia: Okay, I think everyone's here. Mei, you're muted, I can see your mouth moving.
+Mei: Sorry. Can you hear me now?
+Nadia: Yep. Good. So before the release stuff, Yusuf asked me to confirm the offsite headcount by Tuesday.
+Yuki: Oh, is that the one at the lake place? Because last time I went to one of those, the whole drive was-
+Hana: Yuki, it's like four people, just say yes or no.
+Yuki: Yes. I'm a yes. Okay, I'll save the story.
+Jonas: I'm a maybe. I've got the thing with my sister's move that weekend.
+Nadia: Maybe counts as a no for the headcount, I'll put you down as a no and you can flip it.
+Jonas: Fair enough.
+Mei: I'll come.
+Nadia: Great. Hana?
+Hana: Yes, yes. Can we do the release thing now? Because it's been three weeks of me complaining about it in standup.
+Nadia: Go ahead, it's the main item anyway.
+Hana: So, okay. What I keep wanting is a, um, a fixed schedule. Every two weeks, same day, and the Wednesday before it everything's frozen. Nothing new goes in.
+Jonas: Wednesday before. Meaning a week of... no, meaning like three days of nothing merging?
+Hana: Not nothing, just bug fixes against the release branch. And the reason-
+Nadia: Sorry, Hana, finish the thought, I just want the numbers on record.
+Hana: Right. So last quarter we shipped whenever a feature felt done, and we got hit with five rejections from the store. Five. And every release ate something like thirty hours of QA because they had to retest everything from scratch.
+Hana: With a train it's one regression pass. One. Same checklist every time.
+Nadia: Thirty is the average, I had twenty-eight for April and thirty-four for June, if I'm remembering the sheet right.
+Jonas: Okay, devil's advocate though. What happens when a customer-blocking bug lands the day after the freeze? We wait nine days?
+Hana: No, you hotfix it, that's -
+Jonas: Which is the thing that bypasses the train. And then it's not a train.
+Hana: A hotfix is not a release, it's a patch off the branch, it goes through the short checklist-
+Mei: The store review for hotfixes is usually quicker, anyway. When we did the login one it was a day.
+Jonas: Huh. Okay, that's true.
+Yuki: That reminds me, Klara's team did web deploys every Tuesday and nobody knew why, and it turned out the first lead just had a standing pottery class on Wednesdays, so-
+Hana: Yuki-
+Yuki: I know, I know. Point is, a fixed day does stick.
+Nadia: It does, and that's partly the pitch. Jonas, are you actually against it or just poking?
+Jonas: Poking mostly. My worry is product. Goran will want to ship the sharing feature mid-cycle and we'll be the bad guys.
+Nadia: Goran's feature is currently estimated for the end of September, so it would land inside a window anyway.
+Jonas: If it doesn't slip.
+Hana: Everything slips, that's why a fixed date helps, you just catch the next one-
+Jonas: Two weeks later. Okay.
+Mei: Can I ask, who owns kicking off the regression pass? Is it QA or us?
+Nadia: Samir's QA people run it, we just hand over the build. I'll check with him on timing.
+Mei: Okay. Thanks.
+Yuki: Is Samir back? I thought he was out until the fifteenth.
+Nadia: Back Monday, I think. Or maybe the Monday after. I'll confirm.
+Nadia: While we're at it, Keiko's out the last week of August, so whoever has her on-call slots needs to swap.
+Hana: I can take Tuesday.
+Mei: I have Thursday already, I'll do the Friday too if nobody-
+Yuki: I'll take the Friday, I'm around.
+Mei: Oh. Okay, thanks.
+Nadia: So Hana Tuesday, Yuki Friday, Mei keeps Thursday. Jonas, Wednesday is yours already, right?
+Jonas: Yeah, I had Wednesday.
+Nadia: Good. Done.
+Jonas: Back to the freeze for a sec. Late December, though. If the Wednesday falls on the twenty-fourth we're freezing the day before Christmas Eve for a release nobody's around to babysit.
+Hana: Then that one gets skipped. Or moved. It's a calendar, we can look at it-
+Nadia: Skipped trains are normal. We have that, what, two or three weeks a year where nobody's in anyway.
+Jonas: Okay but then someone has to decide each time.
+Nadia: Sure, that's a conversation in the planning meeting, not a reason to avoid having dates at all.
+Jonas: Yeah. I'm not saying don't. I'm saying write down who's allowed to call it off.
+Hana: Product lead plus whoever's on QA that week.
+Nadia: Mm, put that in the doc, Hana.
+Hana: Sure.
+Mei: One more thing, the thirty hours, was that including the rework after the store rejected us?
+Hana: Um, partly. Some of it. Two of the five took a re-review so those were double.
+Nadia: I'd say about a third of it, from what I remember.
+Mei: Okay. So the saving's probably real even if you take that out.
+Hana: Right, that's what I'm saying.
+Yuki: Okay but honestly the best bit for me is I'll stop getting pinged on Fridays with "can you cut a build real quick".
+Jonas: That's Xavier. Every Friday at four.
+Yuki: Every Friday at four!
+Nadia: Right. So... Jonas, can you get the Wednesdays blocked out in the shared calendar? Start with the twentieth and run it through year end, and mark the weeks we'd skip.
+Jonas: Yeah, sure. I'll put it in tonight, as an all-day thing so it doesn't show as busy.
+Hana: And the release days themselves, too.
+Nadia: Yes, both.
+Mei: I can add the QA windows if I get the days from Samir.
+Nadia: Good, thanks Mei.
+Nadia: Okay, next, the crash dashboard. Klara's design folks want to look at the top ten crash screens.
+Yuki: Oh I love that, because the checkout one-
+Hana: It's not checkout anymore, it's the settings screen.
+Yuki: Since when?
+Hana: Since the last build, like eight percent of sessions.
+Nadia: I had it around six on Friday, so it's moving. Let me pull the actual number.
+Hana: It's moving up, is my point-
+Jonas: Is that the new toggle? The notification one?
+Hana: Probably. Mei, did you touch that?
+Mei: I did the toggle, yes. I think it's the permission prompt on older phones.
+Hana: Can you look at it tomorrow?
+Mei: Yes, I can look first thing.
+Nadia: Okay, good. Put what you find in the channel.
+Mei: Will do.
+Yuki: Speaking of older phones, I found my first ever phone in a drawer on Saturday, and it still turned on. Like it booted, it had a snake game, and I spent a whole hour-
+Jonas: Of course you did.
+Yuki: An hour! And my high score was still there. Eleven hundred something.
+Hana: That's amazing and I need to go in eight minutes.
+Nadia: Eight minutes, okay. Anything else quick? Laptops, Yusuf says the refresh batch ships in October, so if yours is crashing, hold on.
+Jonas: Mine's fine, the fan is just loud.
+Hana: Mine overheats when I run two simulators.
+Nadia: Send Yusuf the model and serial, and he'll get you in the first batch if it's bad enough.
+Hana: Okay, I'll send it after this.
+Nadia: Mei, Yuki, you're fine on yours?
+Yuki: Fine. Slow on Mondays but that's me, not the laptop.
+Mei: Fine.
+Nadia: Offsite lunch, last item. Is anyone vegetarian? Goran's assistant is booking.
+Yuki: Not me.
+Jonas: I'm not, but I'd rather not do the place with the giant portions again.
+Nadia: Noted, I'll pass that on.
+Hana: I have to drop, sorry-
+Nadia: Go, go. We're basically done.
+Hana: Bye!
+Jonas: I'll get those calendar entries in before I leave today, ping me if you don't see them.
+Nadia: Will do. Thanks, everyone.
+Yuki: Wait, one more thing about the snake game-
+Nadia: Yuki, save it for the channel.

@@ -1,0 +1,106 @@
+Meeting: m2
+Date: 2025-08-17
+Participants: Nadia, Hana, Mei, Jonas, Yuki
+
+Nadia: Okay, we're all on. Hana, you were saying in the channel there's something with the alerts?
+Hana: Yeah, my phone buzzed at like two in the morning Saturday. Crash alert. I was on-call, so, you know, I got up and looked.
+Nadia: And was it real?
+Hana: Sort of. It was the same old tablet thing again, I closed it out.
+Jonas: Again. That's the third one I've heard about this month.
+Nadia: Hold that thought, I want to get to the alerts, but first, quick one. Yusuf wants the offsite lunch order by Wednesday.
+Yuki: Oh, I thought Goran's assistant was doing that?
+Nadia: She is, but Yusuf is collecting the, um, the dietary stuff first.
+Yuki: Got it. I'm easy.
+Mei: I'm easy too.
+Hana: Same. Jonas has opinions about portions, he said.
+Jonas: I do. Smaller. That's the whole opinion.
+Nadia: Noted, again. Okay. Yuki, you said you had something from the crash dashboard before we start on anything else?
+Yuki: Right, yes, so I was going back through the, uh, the first cycle on the new schedule, just to see how it actually behaved.
+Yuki: And there's this payment-screen thing, on Android. It hit, um, I want to say three point four percent of sessions.
+Nadia: Three point four. Of Android only?
+Yuki: Android only, yeah. And it just sat there. Nine days live.
+Hana: Nine? Why nine?
+Yuki: Because the next train hadn't left yet, so the proper fix had nowhere to go. And the, the hotfix route, store review took four days on that one. So it's the wait plus the review, basically.
+Jonas: Four days for a hotfix? Mei said the login one was a day.
+Mei: That was iOS. Android review's been slower lately.
+Nadia: Okay, so that's a bad one. Do we know it was only payment?
+Yuki: Payment screen, yes. People couldn't get past the card entry on certain devices.
+Hana: And nobody paged anyone because it was under the threshold, right? Because it's three percent, not-
+Yuki: Not enough to trip the alert, I think. Or it did. I'd have to check.
+Nadia: We'll get to the alert in a sec. Mei, you've been quiet, you had something?
+Mei: Um. Yes. I don't, I don't want to be annoying about it.
+Nadia: You're not.
+Mei: It's just, that's the thing with a fixed train, isn't it. A crash like that can sit for a week or more. Nobody can do anything quickly.
+Mei: And support noticed. Tickets went up twenty-two percent over that fortnight.
+Hana: Twenty-two percent from what baseline though?
+Mei: From the two weeks before. I have the number in the support sheet, I can send the link.
+Hana: Okay, but some of that's the settings screen thing too, right? That one was also live.
+Mei: Some, probably. I didn't separate them.
+Jonas: Devil's advocate, though, for the train. Would it have been any better with ship-whenever? The bug would've been the same bug.
+Hana: It would've shipped earlier maybe, but also got fixed earlier-
+Jonas: Or shipped with no regression pass and been worse.
+Hana: Okay, fair, that one's real. We had five store rejections last quarter, that was no pass at all.
+Nadia: I don't want to settle this in the last twenty minutes of the call. What I'm hearing is, there's a gap on hotfix timing, and Mei has a support number I want to see.
+Mei: I'll send it after.
+Nadia: Thanks. Let's park the cadence thing and I'll look at it with Samir before we talk again. For now the schedule stays as it is.
+Hana: Fine. I mean, fine for now. It's not like we have another one.
+Nadia: Right. So, the alert. Jonas, you said it's been noisy.
+Yuki: Can I just say, speaking of nine days, I had a plant that went nine days without water once and it came back, which I think-
+Jonas: Yuki.
+Yuki: Okay, okay. It was a fern. Moving on.
+Hana: Ferns are tough.
+Nadia: Jonas, the alert.
+Jonas: Yeah. So, um. It's, it's a low-hanging thing really. What if we only page the on-call person when crash-free sessions drop under ninety-nine point two?
+Nadia: Why, though? We're at ninety-nine point five now, aren't we?
+Jonas: We are. And last month that fired eleven times, eight of those were the one old phone model, the one that nobody has anymore.
+Hana: The tablet.
+Jonas: Yeah, it's basically the tablet.
+Hana: That's what woke me up Saturday.
+Mei: Eleven pages is a lot of nights.
+Yuki: And it's me on Fridays, I mean, we all rotate.
+Nadia: I had ten, not eleven, in my sheet, but I'm counting the weekend one separately, so that's probably the gap.
+Jonas: Could be. Either way it's most of them for one device.
+Nadia: Hmm. And you're not worried about missing a real crash at ninety-nine point two?
+Jonas: A little. But the payment thing Yuki mentioned, that's three point four percent, so crash-free would've been about ninety-six. That trips anything.
+Yuki: Well, that was Android sessions only. Not all sessions. So it's diluted.
+Jonas: Sure, so maybe ninety-eight. Still under.
+Nadia: Okay. Hana, you're the one who gets woken up. Opinion?
+Hana: I'd take fewer pages. Honestly I'd take it today.
+Mei: I think that's okay too.
+Nadia: Fine. Ninety-nine point two it is for paging on-call, effective from the next rotation, and Jonas, you change the alert config.
+Jonas: Yep. I'll do it today and put a note in the runbook.
+Nadia: And leave the dashboard line at ninety-nine five so we still see it, just don't page on it.
+Jonas: Sure, that makes sense.
+Hana: Does that need a sign-off from Klara's group?
+Nadia: No, that's ours.
+Hana: Okay.
+Yuki: Did anyone else get the email about the badge system being down on Thursday?
+Nadia: I saw it. It's the building thing, not us.
+Yuki: Because last time they said that I was locked out for forty minutes.
+Hana: You were locked out because you left your badge on your desk.
+Yuki: I was locked out for forty minutes, and the badge was on my desk, yes, and also the system was down.
+Mei: Both can be true.
+Yuki: Thank you, Mei.
+Nadia: Okay. Samir. I'm meeting him Tuesday about the regression window anyway, so I'll bring up the hotfix timing, and Mei, send me that support sheet so I have it.
+Mei: Sending it now.
+Nadia: And Yuki, can you put the payment-screen numbers somewhere I can find them? Not just in the dashboard, a short note.
+Yuki: Yeah, I'll write it up. Do you want the device list too?
+Nadia: If it's short. The top three or four.
+Yuki: Okay.
+Hana: I have to jump in a minute, I've got a thing at three.
+Nadia: Almost done. Anything else? Jonas, the calendar entries are in?
+Jonas: Yeah, they went in last week. I marked the late December ones as maybes.
+Nadia: Good. Skipped weeks marked?
+Jonas: Two of them. The Christmas one and the one after.
+Hana: Is the New Year one actually skipped or just soft?
+Jonas: Soft. Someone needs to call it.
+Nadia: Product lead and QA, like we said. Hana, did that go into the doc?
+Hana: Not yet. Tonight.
+Nadia: Okay. Thanks, Hana.
+Mei: Can I ask one thing about the hotfix path? Is there a written checklist somewhere or is it in people's heads?
+Hana: Half and half. There's a short one, I'll link it.
+Mei: Thanks, that'd help.
+Nadia: Good. That's it for today then. Thanks, all.
+Yuki: Wait, I forgot, the fern thing, it came back with like three-
+Nadia: Channel, Yuki.
+Yuki: Fine, channel.

@@ -1,0 +1,5225 @@
+[
+ {
+  "qid": "set_01045-q01",
+  "facts": [
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "babec86a-b2c8-4d60-ad47-6105035c9331",
+    "name": "SENT_QUOTES_FOR",
+    "fact": "Camila sent quotes for the hotel conference room as an option for the team offsite.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:11:28.834942+00:00"
+   },
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38072b29-617b-4b43-a09c-3d8427bd81f1",
+    "name": "SENT_QUOTES_FOR",
+    "fact": "Camila sent quotes for the co-working space as an option for the team offsite.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q02",
+  "facts": [
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dffc6feb-d423-4361-b337-d220f4438e0e",
+    "name": "PROPOSED_TO_CREATE",
+    "fact": "Noor proposed to create a video to train others on using the scanning app, similar to one she made for the cold chain.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q03",
+  "facts": [
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c56c6a67-3840-411a-9ccc-55665e338e07",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Pavel discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q04",
+  "facts": [
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c56c6a67-3840-411a-9ccc-55665e338e07",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Pavel discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q05",
+  "facts": [
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6aa2ef4-12b3-410f-96e6-bc77a1265119",
+    "name": "REOPEN_DECISION_ON",
+    "fact": "Tomas wants to reopen the decision on Swiftline due to their seventy-one percent on-time delivery rate and promotion stockouts.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q06",
+  "facts": [
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a06b86-8a7b-4492-9d6f-96f8b539d2d2",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was to forward the push provider renewal confirmation to Davor for approval.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q07",
+  "facts": [
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b936a7c4-854a-4366-8d85-ad28088749ee",
+    "name": "PROPOSED_VENDOR_SWITCH_TO",
+    "fact": "Aisha proposed switching to Dalmar, who have a ninety-six percent on-time record and a tracking API.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q08",
+  "facts": [
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "babec86a-b2c8-4d60-ad47-6105035c9331",
+    "name": "SENT_QUOTES_FOR",
+    "fact": "Camila sent quotes for the hotel conference room as an option for the team offsite.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-16T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:11:28.834942+00:00"
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38072b29-617b-4b43-a09c-3d8427bd81f1",
+    "name": "SENT_QUOTES_FOR",
+    "fact": "Camila sent quotes for the co-working space as an option for the team offsite.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q09",
+  "facts": [
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa7efca5-9d11-449d-b3a6-b85dba425fa4",
+    "name": "MEETS_WITH",
+    "fact": "Lena and Camila met to discuss the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb6e010d-eec0-4d43-bc6d-41adc99efd8a",
+    "name": "MEETS_WITH",
+    "fact": "Lena and Pavel met to discuss the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c56c6a67-3840-411a-9ccc-55665e338e07",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Pavel discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f3e02b53-ed39-4c10-b690-2c179950759a",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was asked by Sanne about the push provider contract renewal and was to send her a confirmation.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q10",
+  "facts": [
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c6b80c1-337f-437e-a1c7-6b8ae15a9ae0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Pavel informed Lena that he had already sent the yes to the push provider's renewal.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5be79d20-3be2-4f3c-822e-662391f64b76",
+    "name": "ASKED_TO_SEND",
+    "fact": "Lena asked Sanne to send over the actual terms of the push provider contract.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f4a6cb6-0fd3-412a-a1f9-d1296239da88",
+    "name": "NOTIFIED",
+    "fact": "The push provider notified Lena about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a06b86-8a7b-4492-9d6f-96f8b539d2d2",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Pavel was to forward the push provider renewal confirmation to Davor for approval.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f93ae960-ee15-4f54-a74a-f7da94f263d2",
+    "name": "WORKS_WITH",
+    "fact": "Camila and Pavel are working together on the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a547b514-3e2a-40c1-8888-0695d2c2fdbc",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sana discussed the push service plan, including the retry logic and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4597ff2f-da9b-4867-b342-07bef05731c6",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Sven was contacted by Sanne about the push provider contract renewal.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q01",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "85dd3e01-4617-4f9e-a330-27c287b8cb98",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708836+00:00"
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q02",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "357fc281-7e46-41bd-a761-3bfc67db40fa",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Camila had received the store listing screenshots from Anika.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q03",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cdb2b80b-b002-432e-8eb8-aa9316cc8a42",
+    "name": "CONCERNED_ABOUT",
+    "fact": "Meera is concerned that the end of next month is too late for the autumn promos.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "85dd3e01-4617-4f9e-a330-27c287b8cb98",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q04",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cdb2b80b-b002-432e-8eb8-aa9316cc8a42",
+    "name": "CONCERNED_ABOUT",
+    "fact": "Meera is concerned that the end of next month is too late for the autumn promos.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q05",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "85dd3e01-4617-4f9e-a330-27c287b8cb98",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708836+00:00"
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q06",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c2fd273-ae79-4619-999e-9a698e55e3fb",
+    "name": "LEEDS_LOGISTICS_ISSUE",
+    "fact": "Arjun suggested that the increase in urgent orders for compressor seals might be due to people ordering early because they heard the vans were changing.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q07",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b936a7c4-854a-4366-8d85-ad28088749ee",
+    "name": "PROPOSED_VENDOR_SWITCH_TO",
+    "fact": "Aisha proposed switching to Dalmar, who have a ninety-six percent on-time record and a tracking API.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q08",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q09",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "02985f8e-e67d-4966-b668-d2839ddc0f92",
+    "name": "MENTIONS_HULL_STORE_LEASE",
+    "fact": "Noor mentioned to Kofi that the lease for the Hull store is up.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "85dd3e01-4617-4f9e-a330-27c287b8cb98",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q10",
+  "facts": [
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "357fc281-7e46-41bd-a761-3bfc67db40fa",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Camila had received the store listing screenshots from Anika.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7100aab0-756a-4598-bee0-3209d8b5f13b",
+    "name": "SWITCHED_TO_VENDOR",
+    "fact": "Tomas decided to switch to Dalmar Logistics.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e24b4187-be33-4f83-a6fc-9dbb4ace000b",
+    "name": "ACKNOWLEDGES_HULL_STORE_LEASE_MENTION",
+    "fact": "Kofi acknowledged Noor's mention about the Hull store lease.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "85dd3e01-4617-4f9e-a330-27c287b8cb98",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708836+00:00"
+   },
+   {
+    "uuid": "60828899-0e8f-4c77-ac44-038eb125bc1e",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Camila about the store listing screenshots and the submission deadline.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6c0c1d5-a1e1-4e7c-9dec-f062e76938bd",
+    "name": "approves",
+    "fact": "Tomas approves signing with Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T07:46:34.708891+00:00"
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6a12d65-94fa-4335-90d7-1f0d10100fa8",
+    "name": "involves",
+    "fact": "Elif mentions that Legal has the contract for Swiftline Freight.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q01",
+  "facts": [
+   {
+    "uuid": "8e483a61-4ccf-4a2c-84ed-b468142d3b32",
+    "name": "CONFIRMS_WILL_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Noor confirmed to Kofi that she will request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "978ffee0-820c-468d-b64c-b07c7ba28692",
+    "name": "HAS_DATA_FROM",
+    "fact": "Tomas asked Priya for data on the live deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed68cb65-1ad9-45c1-9d52-d8615c8a28e4",
+    "name": "HAS_INFORMATION_ABOUT",
+    "fact": "Priya informed Tomas that there were stockouts on nine promo items across five stores.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3c138c51-a555-4c2f-adee-f01de3c1998e",
+    "name": "HAS_PENALTIES_FOR_LATE_DELIVERIES",
+    "fact": "The contract with Swiftline Freight includes penalties for late deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "347a05de-3e7c-4ed7-a9e9-84bd86b720d8",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c28b7d79-ce9d-4604-a1c9-dd761c2b090e",
+    "name": "RELATED_TO_PROMO_STOCKOUTS",
+    "fact": "Aisha mentioned that the promo stockouts involved nine items in five stores over three weeks.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8665efe7-6d5d-409a-bb02-538342b9d56e",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q02",
+  "facts": [
+   {
+    "uuid": "ed68cb65-1ad9-45c1-9d52-d8615c8a28e4",
+    "name": "HAS_INFORMATION_ABOUT",
+    "fact": "Priya informed Tomas that there were stockouts on nine promo items across five stores.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e483a61-4ccf-4a2c-84ed-b468142d3b32",
+    "name": "CONFIRMS_WILL_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Noor confirmed to Kofi that she will request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1152f8b7-279a-4541-b46f-e08a0cfe91f5",
+    "name": "REQUESTED_MEASUREMENT_OF_SPEED",
+    "fact": "Noor requested to time a delivery to measure the speed of scanning for comparison purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "978ffee0-820c-468d-b64c-b07c7ba28692",
+    "name": "HAS_DATA_FROM",
+    "fact": "Tomas asked Priya for data on the live deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3c138c51-a555-4c2f-adee-f01de3c1998e",
+    "name": "HAS_PENALTIES_FOR_LATE_DELIVERIES",
+    "fact": "The contract with Swiftline Freight includes penalties for late deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a91c03a4-f71b-41a4-bf7a-0d6616198ee8",
+    "name": "REQUESTS_QUOTE_FROM",
+    "fact": "Noor requested a quote from Duran Scan for handheld scanners.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "347a05de-3e7c-4ed7-a9e9-84bd86b720d8",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q03",
+  "facts": [
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f6d27fb-a0a6-4f0d-bba5-680262bd47c5",
+    "name": "INSTRUCTED_TO_ORDER_SEALS",
+    "fact": "Arjun instructed Dave to order the two seals if Hana was happy, as it was just normal stock.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1152f8b7-279a-4541-b46f-e08a0cfe91f5",
+    "name": "REQUESTED_MEASUREMENT_OF_SPEED",
+    "fact": "Noor requested to time a delivery to measure the speed of scanning for comparison purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3639ee14-0821-40c5-9c7d-aea7b19cc6e2",
+    "name": "PROPOSED_TO_KEEP_FOR_TRANSITION",
+    "fact": "Priya proposed to keep Swiftline for some of the regions during the transition.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e64d0ded-d026-4db9-89d2-ada69e67aa8c",
+    "name": "MENTORS",
+    "fact": "Sana was pairing with Tadeusz during his onboarding.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c28b7d79-ce9d-4604-a1c9-dd761c2b090e",
+    "name": "RELATED_TO_PROMO_STOCKOUTS",
+    "fact": "Aisha mentioned that the promo stockouts involved nine items in five stores over three weeks.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q04",
+  "facts": [
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f6d27fb-a0a6-4f0d-bba5-680262bd47c5",
+    "name": "INSTRUCTED_TO_ORDER_SEALS",
+    "fact": "Arjun instructed Dave to order the two seals if Hana was happy, as it was just normal stock.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1152f8b7-279a-4541-b46f-e08a0cfe91f5",
+    "name": "REQUESTED_MEASUREMENT_OF_SPEED",
+    "fact": "Noor requested to time a delivery to measure the speed of scanning for comparison purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3639ee14-0821-40c5-9c7d-aea7b19cc6e2",
+    "name": "PROPOSED_TO_KEEP_FOR_TRANSITION",
+    "fact": "Priya proposed to keep Swiftline for some of the regions during the transition.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e64d0ded-d026-4db9-89d2-ada69e67aa8c",
+    "name": "MENTORS",
+    "fact": "Sana was pairing with Tadeusz during his onboarding.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "347a05de-3e7c-4ed7-a9e9-84bd86b720d8",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q05",
+  "facts": [
+   {
+    "uuid": "c28b7d79-ce9d-4604-a1c9-dd761c2b090e",
+    "name": "RELATED_TO_PROMO_STOCKOUTS",
+    "fact": "Aisha mentioned that the promo stockouts involved nine items in five stores over three weeks.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e483a61-4ccf-4a2c-84ed-b468142d3b32",
+    "name": "CONFIRMS_WILL_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Noor confirmed to Kofi that she will request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1152f8b7-279a-4541-b46f-e08a0cfe91f5",
+    "name": "REQUESTED_MEASUREMENT_OF_SPEED",
+    "fact": "Noor requested to time a delivery to measure the speed of scanning for comparison purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "978ffee0-820c-468d-b64c-b07c7ba28692",
+    "name": "HAS_DATA_FROM",
+    "fact": "Tomas asked Priya for data on the live deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2586387-ba1f-419f-b86c-55056b3e4bba",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote to Kofi for 36 handheld scanners at $1,150 per unit, totaling $41,400 with a lead time of 10 weeks.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3c138c51-a555-4c2f-adee-f01de3c1998e",
+    "name": "HAS_PENALTIES_FOR_LATE_DELIVERIES",
+    "fact": "The contract with Swiftline Freight includes penalties for late deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6aa2ef4-12b3-410f-96e6-bc77a1265119",
+    "name": "REOPEN_DECISION_ON",
+    "fact": "Tomas wants to reopen the decision on Swiftline due to their seventy-one percent on-time delivery rate and promotion stockouts.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c2fd273-ae79-4619-999e-9a698e55e3fb",
+    "name": "LEEDS_LOGISTICS_ISSUE",
+    "fact": "Arjun suggested that the increase in urgent orders for compressor seals might be due to people ordering early because they heard the vans were changing.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q06",
+  "facts": [
+   {
+    "uuid": "1ebbbe7d-894a-48dd-82dd-cae9c261e272",
+    "name": "PROPOSED_IMPLEMENTATION",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "347a05de-3e7c-4ed7-a9e9-84bd86b720d8",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d848eddb-d614-4d65-b3c8-a7f907406f38",
+    "name": "PROPOSED_ALTERNATIVE_TO",
+    "fact": "Henrik proposed an alternative to Kofi using a scanning app on existing tablets and phones instead of purchasing new handheld scanners from Duran Scan.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "623ac0d5-97e4-4868-9f1f-27d580393bba",
+    "name": "USES_EXISTING_DEVICES_FOR",
+    "fact": "Henrik proposed using existing phones for scanning purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "12db22e2-ed93-42d7-abd8-3f3b7b0c4ad7",
+    "name": "USES_EXISTING_DEVICES_FOR",
+    "fact": "Henrik proposed using existing tablets for scanning purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6723199-3eff-431e-8fb6-a5a1e3241540",
+    "name": "PROPOSED_COST_FOR_SCANNING_APP",
+    "fact": "Henrik proposed a scanning app with a cost of $6 per device per month, totaling approximately $3,500 per year for 48 devices.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b936a7c4-854a-4366-8d85-ad28088749ee",
+    "name": "PROPOSED_VENDOR_SWITCH_TO",
+    "fact": "Aisha proposed switching to Dalmar, who have a ninety-six percent on-time record and a tracking API.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dffc6feb-d423-4361-b337-d220f4438e0e",
+    "name": "PROPOSED_TO_CREATE",
+    "fact": "Noor proposed to create a video to train others on using the scanning app, similar to one she made for the cold chain.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69f33ca7-1428-4e91-b1b7-79c1aa2aa7e1",
+    "name": "PILOT_TESTED_SCANNING_APP",
+    "fact": "The Leeds pilot tested the scanning app, achieving a 98.6% barcode read rate on the first try.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "437e8fdd-2ec7-4123-a6bc-70b66bad51ef",
+    "name": "AUTHORIZED",
+    "fact": "Kofi authorized the budget for the scanning app, which includes thirty-five hundred a year for the licence and the purchase of touch gloves.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q07",
+  "facts": [
+   {
+    "uuid": "8e483a61-4ccf-4a2c-84ed-b468142d3b32",
+    "name": "CONFIRMS_WILL_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Noor confirmed to Kofi that she will request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e7c3e1c-bab9-4027-ada8-24ea355fa68f",
+    "name": "TIMED_EXTRA_DELIVERY_TIME",
+    "fact": "Noor timed the scanning app and found it added six and a half minutes extra per delivery.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "978ffee0-820c-468d-b64c-b07c7ba28692",
+    "name": "HAS_DATA_FROM",
+    "fact": "Tomas asked Priya for data on the live deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7997fc72-b2dc-4339-aa27-dcce49bab543",
+    "name": "STOCK_COUNT_STATUS",
+    "fact": "Finance received the stock count data, and it was completed yesterday.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1152f8b7-279a-4541-b46f-e08a0cfe91f5",
+    "name": "REQUESTED_MEASUREMENT_OF_SPEED",
+    "fact": "Noor requested to time a delivery to measure the speed of scanning for comparison purposes.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a91c03a4-f71b-41a4-bf7a-0d6616198ee8",
+    "name": "REQUESTS_QUOTE_FROM",
+    "fact": "Noor requested a quote from Duran Scan for handheld scanners.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3c138c51-a555-4c2f-adee-f01de3c1998e",
+    "name": "HAS_PENALTIES_FOR_LATE_DELIVERIES",
+    "fact": "The contract with Swiftline Freight includes penalties for late deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "759cc42f-b83f-421c-9167-5358ea870ddf",
+    "name": "CURRENT_QUOTE_REQUESTED_FROM",
+    "fact": "Noor requested a current quote from Duran Scan for handheld scanners.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q08",
+  "facts": [
+   {
+    "uuid": "8e483a61-4ccf-4a2c-84ed-b468142d3b32",
+    "name": "CONFIRMS_WILL_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Noor confirmed to Kofi that she will request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e7f308b2-6564-49f1-8512-fb10a3950496",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sunita discussed the push service plan, including the impact on reports and delivery receipts.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a825805f-a7e5-43dc-af0f-285c186dbaa5",
+    "name": "REQUESTED_ONE_PAGER",
+    "fact": "Kofi requested Henrik to prepare a one-pager to compare the scanning app proposal with the Duran Scan quote.",
+    "episodes": [
+     "501b90c7-6521-4cfc-b009-a1743ec38d7b"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed68cb65-1ad9-45c1-9d52-d8615c8a28e4",
+    "name": "HAS_INFORMATION_ABOUT",
+    "fact": "Priya informed Tomas that there were stockouts on nine promo items across five stores.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6919912a-4672-4e49-afdf-925087e66f29",
+    "name": "ASKS_TO_REQUEST_QUOTE_THIS_WEEK",
+    "fact": "Kofi asked Noor to request the quote from Duran Scan this week.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3639ee14-0821-40c5-9c7d-aea7b19cc6e2",
+    "name": "PROPOSED_TO_KEEP_FOR_TRANSITION",
+    "fact": "Priya proposed to keep Swiftline for some of the regions during the transition.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0112fb62-fb9c-4f68-bce6-316f7c7217ac",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "978ffee0-820c-468d-b64c-b07c7ba28692",
+    "name": "HAS_DATA_FROM",
+    "fact": "Tomas asked Priya for data on the live deliveries.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "030b6756-7ccd-4fa5-9053-7f41ee8be371",
+    "name": "ASKS_TO_REQUEST_QUOTE",
+    "fact": "Kofi asked Noor to request a quote from Duran Scan for handheld scanners.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3813833-5a1a-4811-96dc-8bc9f01795c5",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c28b7d79-ce9d-4604-a1c9-dd761c2b090e",
+    "name": "RELATED_TO_PROMO_STOCKOUTS",
+    "fact": "Aisha mentioned that the promo stockouts involved nine items in five stores over three weeks.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q01",
+  "facts": [
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1d3306bd-3977-45e7-ba61-73c402d5cc35",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "The vans arrived in Leeds on Thursday and yesterday, and Dave did not send anyone away.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a7e7fc1e-9c87-4373-abd5-050bbab4c4a4",
+    "name": "INFORMS_ABOUT_ROTA_CHANGES",
+    "fact": "Priya informed Kofi about the rota changes, which include Saturday cover at Leeds and Hull.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99a9158d-de4e-4385-9777-33ab31aa2960",
+    "name": "HAS_RECEIVED_CALL_FROM",
+    "fact": "Priya received a call from the warehouse in Leeds.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q02",
+  "facts": [
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a7e7fc1e-9c87-4373-abd5-050bbab4c4a4",
+    "name": "INFORMS_ABOUT_ROTA_CHANGES",
+    "fact": "Priya informed Kofi about the rota changes, which include Saturday cover at Leeds and Hull.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99a9158d-de4e-4385-9777-33ab31aa2960",
+    "name": "HAS_RECEIVED_CALL_FROM",
+    "fact": "Priya received a call from the warehouse in Leeds.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dffc6feb-d423-4361-b337-d220f4438e0e",
+    "name": "PROPOSED_TO_CREATE",
+    "fact": "Noor proposed to create a video to train others on using the scanning app, similar to one she made for the cold chain.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q03",
+  "facts": [
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cdb2b80b-b002-432e-8eb8-aa9316cc8a42",
+    "name": "CONCERNED_ABOUT",
+    "fact": "Meera is concerned that the end of next month is too late for the autumn promos.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0f3f1caa-3ade-4ccf-bbc3-8a8fb6a7039e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Lena assigned Camila the task of sketching the plan for building their own push sending service with Pavel this week.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38f9f03e-c40d-48c7-80cd-dd4ab56b236c",
+    "name": "FIRST_IMPLEMENTATION_SITE",
+    "fact": "Kofi decided to implement the scanning app in Leeds first, as they had already done a pilot there.",
+    "episodes": [
+     "d41cf082-7d55-4635-ab6f-f89f9b7c8ca6"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q04",
+  "facts": [
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4fb4ae1d-af9e-41d7-a61b-31eeb28f7f1d",
+    "name": "ADD_DRIVERS_BY",
+    "fact": "Swiftline said they will add drivers by the end of next month.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cdb2b80b-b002-432e-8eb8-aa9316cc8a42",
+    "name": "CONCERNED_ABOUT",
+    "fact": "Meera is concerned that the end of next month is too late for the autumn promos.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4832478b-ddb5-4648-97c8-56eeb1b411e0",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Sana discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a547b514-3e2a-40c1-8888-0695d2c2fdbc",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sana discussed the push service plan, including the retry logic and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0f3f1caa-3ade-4ccf-bbc3-8a8fb6a7039e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Lena assigned Camila the task of sketching the plan for building their own push sending service with Pavel this week.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q05",
+  "facts": [
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1d3306bd-3977-45e7-ba61-73c402d5cc35",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "The vans arrived in Leeds on Thursday and yesterday, and Dave did not send anyone away.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6aa2ef4-12b3-410f-96e6-bc77a1265119",
+    "name": "REOPEN_DECISION_ON",
+    "fact": "Tomas wants to reopen the decision on Swiftline due to their seventy-one percent on-time delivery rate and promotion stockouts.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e1755d9-5681-4ba4-a9c8-e85c16230294",
+    "name": "INFORMED_ABOUT",
+    "fact": "Lena received an email from the push provider about a change in pricing to pay-per-use starting next month.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c2fd273-ae79-4619-999e-9a698e55e3fb",
+    "name": "LEEDS_LOGISTICS_ISSUE",
+    "fact": "Arjun suggested that the increase in urgent orders for compressor seals might be due to people ordering early because they heard the vans were changing.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q06",
+  "facts": [
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c2fd273-ae79-4619-999e-9a698e55e3fb",
+    "name": "LEEDS_LOGISTICS_ISSUE",
+    "fact": "Arjun suggested that the increase in urgent orders for compressor seals might be due to people ordering early because they heard the vans were changing.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a7e7fc1e-9c87-4373-abd5-050bbab4c4a4",
+    "name": "INFORMS_ABOUT_ROTA_CHANGES",
+    "fact": "Priya informed Kofi about the rota changes, which include Saturday cover at Leeds and Hull.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q07",
+  "facts": [
+   {
+    "uuid": "7e772399-08fa-4b31-8e46-d97095c81cf0",
+    "name": "PROPOSED",
+    "fact": "Camila proposed building their own push sending service, estimating it would save approximately two thousand something a month once live.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b936a7c4-854a-4366-8d85-ad28088749ee",
+    "name": "PROPOSED_VENDOR_SWITCH_TO",
+    "fact": "Aisha proposed switching to Dalmar, who have a ninety-six percent on-time record and a tracking API.",
+    "episodes": [
+     "ece52a25-fb73-4eb7-8c0a-c162f960f77f"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25ad21cb-d21a-4326-8338-2b205c421a21",
+    "name": "ANALYZED_LOG",
+    "fact": "Zainab analyzed the log for Leeds and found that the second week of the run had 18 urgent courier orders for compressor seals, costing 3,050 pounds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99a9158d-de4e-4385-9777-33ab31aa2960",
+    "name": "HAS_RECEIVED_CALL_FROM",
+    "fact": "Priya received a call from the warehouse in Leeds.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q08",
+  "facts": [
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "469f010b-bdaf-46fa-87f1-4bb63a0242c4",
+    "name": "COMMUNICATES_WITH",
+    "fact": "Lena asked Pavel about the push provider contract renewal and the decision to renew it for the year.",
+    "episodes": [
+     "a722f681-955a-480d-9f57-2905bb4ad5f7",
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a547b514-3e2a-40c1-8888-0695d2c2fdbc",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sana discussed the push service plan, including the retry logic and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40a1d2b8-c7bf-4379-a32b-ad38e7c305e3",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Tomas instructed Elif to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2cafb56-0e56-4417-9267-986c4a8f3864",
+    "name": "HAS_ACTION_TO_TAKE",
+    "fact": "Elif was instructed by Tomas to call Swiftline Freight to ask what is going on.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q09",
+  "facts": [
+   {
+    "uuid": "a7e7fc1e-9c87-4373-abd5-050bbab4c4a4",
+    "name": "INFORMS_ABOUT_ROTA_CHANGES",
+    "fact": "Priya informed Kofi about the rota changes, which include Saturday cover at Leeds and Hull.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa7efca5-9d11-449d-b3a6-b85dba425fa4",
+    "name": "MEETS_WITH",
+    "fact": "Lena and Camila met to discuss the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb6e010d-eec0-4d43-bc6d-41adc99efd8a",
+    "name": "MEETS_WITH",
+    "fact": "Lena and Pavel met to discuss the push service plan, which is now a skeleton document.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a547b514-3e2a-40c1-8888-0695d2c2fdbc",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sana discussed the push service plan, including the retry logic and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69710b49-c0d4-4f0a-8606-028b13578b78",
+    "name": "IDENTIFIED_ISSUE",
+    "fact": "Zainab identified that compressor seals were the main issue in the log for Leeds.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8f750554-ab33-4939-86d1-27bfb6d7d89f",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01013-q10",
+  "facts": [
+   {
+    "uuid": "54a97bbd-9832-4096-b919-e7d2512f409a",
+    "name": "ASKED_ABOUT",
+    "fact": "Lena asked Camila about the possibility of building their own push sending service.",
+    "episodes": [
+     "241d5901-2d4d-43b0-8969-74ed6c8ca5e4"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a547b514-3e2a-40c1-8888-0695d2c2fdbc",
+    "name": "DISCUSSES_WITH",
+    "fact": "Camila and Sana discussed the push service plan, including the retry logic and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "99a9158d-de4e-4385-9777-33ab31aa2960",
+    "name": "HAS_RECEIVED_CALL_FROM",
+    "fact": "Priya received a call from the warehouse in Leeds.",
+    "episodes": [
+     "3e2a1f1e-39e0-4583-8945-1487018d0bf4"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "facf03cb-0af8-42fe-b47e-56ef384cdfac",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "8cbb3a70-d64b-46ad-9488-d9825ca5448f"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bef6d8a7-939a-4604-946d-5bfe1e580b2b",
+    "name": "SUPPORTS_DECISION_TO_GET_CURRENT_QUOTE",
+    "fact": "Kofi supported Henrik's decision to get the current quote before making a decision.",
+    "episodes": [
+     "248c0a96-dfc3-4b17-a4b7-afeffd7450de"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be911188-c564-4213-9316-8189c1b3535c",
+    "name": "SERVICE_CONTRACT_ISSUE",
+    "fact": "Two field engineers missed the four-hour response on the Harlow service contract last week because the part wasn't there.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b27d3c0-6ac1-4664-8c3e-48ac2abad802",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Yuki planned to inform Tom about the situation with the Leeds van and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7ebc66f8-6b50-40ad-8da8-4b6c4c43ebc8",
+    "name": "DISCUSSES_WITH",
+    "fact": "Sven and Lena discussed the push service plan, including the issue with stale tokens and the need for a cleanup job.",
+    "episodes": [
+     "319f645f-8abd-4ce1-bcce-d8f683f5f5a7"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e55c832f-e63c-483b-ad62-9480ce2a41b7",
+    "name": "PLANNED_TO_REVIEW",
+    "fact": "Yuki planned to review the situation with Leeds and the courier costs.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8e57a108-c077-4973-95cb-60d23920a6ee",
+    "name": "PLANNED_TO_INFORM",
+    "fact": "Zainab planned to inform the service managers about the evidence and the issue with the seals.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1bce7aa-ac2c-4079-886f-b1e6257d6305",
+    "name": "LEEDS_LOGISTICS",
+    "fact": "Northway was on time for both drops in Leeds.",
+    "episodes": [
+     "4c90d870-8443-4794-bded-c618a4ea757c"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d371c8ff-e97b-4c67-a85a-82f186f3cd4e",
+    "name": "STARTED_PAPERWORK",
+    "fact": "Hana planned to start the paperwork with Priya today and check the cut-off for Leeds orders.",
+    "episodes": [
+     "5a828567-7b22-4f81-b744-3dad9ae18e44"
+    ],
+    "valid_at": "2025-07-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

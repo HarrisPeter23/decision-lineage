@@ -1,0 +1,426 @@
+{
+ "set_id": "set_01000",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Henrik",
+   "quote": "So I think we charge per seat for the analytics add-on. Twelve dollars a seat, per month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "quote": "Because it's, like, predictable. A buyer can do the math in their head, ten people, a hundred twenty dollars, done.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Wei",
+   "quote": "The usage one was a mess. Support tickets, like, weekly.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Henrik",
+   "quote": "Exactly.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ingrid",
+   "quote": "Do we know who would actually buy it? Like, the size of the teams?",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "quote": "Sure, sure. For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Henrik",
+   "quote": "Great.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Wei",
+   "quote": "Done?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Diego",
+   "quote": "Done. Next.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "quote": "Yeah, um, there are, like, eleven steps and I think six of them can go.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "quote": "Eleven? It was seven when I last looked.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ingrid",
+   "quote": "The ones that ask for stuff we already have. Company name, timezone. Those.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Wei",
+   "quote": "Kill them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "quote": "Okay, Ingrid, send me the shorter list and I'll look.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "the pilot has five accounts, and three of them have teams over forty people",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "At twelve a seat that's over four hundred eighty a month for a typical bill",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "two of those accounts told our success manager it felt steep",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ingrid",
+   "quote": "A flat price or tiers would keep us from losing the biggest accounts",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Henrik",
+   "quote": "Tiers are way more complicated to explain",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Ingrid",
+   "quote": "I'd rather explain tiers than lose the big ones",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Diego",
+   "quote": "Does anyone want to decide pricing now",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Wei",
+   "quote": "I think we move the weekly demo from Friday afternoon to Thursday afternoon",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Wei",
+   "quote": "Friday demos keep getting skipped. Half the team takes Friday off or leaves early",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "quote": "Honestly, yes",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ingrid",
+   "quote": "I'm out most Fridays, so Thursday's better for me",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sven",
+   "quote": "Thursday's fine",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "quote": "The weekly demo moves to Thursday afternoons, starting next week",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Wei",
+   "quote": "Yeah, I'll do it",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Sven",
+   "quote": "I'll bring the pilot data",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Diego",
+   "quote": "Yes, bring the actual numbers on who said what",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "quote": "per-seat at twelve was the plan",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Henrik",
+   "quote": "The two that said steep are free trial accounts",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Henrik",
+   "quote": "I asked the success manager yesterday",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Ingrid",
+   "quote": "negotiated down to what?",
+   "confidence": 0.6
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Wei",
+   "quote": "Still think tiers are cleaner",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Henrik",
+   "quote": "Tiers are cleaner for a spreadsheet",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "quote": "I would rather not redesign the whole thing",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Sven",
+   "quote": "Churn among accounts over forty",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "quote": "keeping per-seat pricing at twelve",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "quote": "keeping per-seat pricing at twelve",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ingrid",
+   "quote": "Let's see the churn numbers in a month",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "quote": "Agreed. Launch comms, next",
+   "confidence": 0.8
+  }
+ ]
+}

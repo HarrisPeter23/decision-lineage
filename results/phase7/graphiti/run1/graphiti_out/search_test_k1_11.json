@@ -1,0 +1,1646 @@
+[
+ {
+  "qid": "set_01018-q01",
+  "facts": [
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c607ec3-925f-4236-874e-4d30d9bc3294",
+    "name": "DECIDED",
+    "fact": "Henrik decided to ship the gradient-boosted model with reason codes.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q02",
+  "facts": [
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c607ec3-925f-4236-874e-4d30d9bc3294",
+    "name": "DECIDED",
+    "fact": "Henrik decided to ship the gradient-boosted model with reason codes.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q03",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e69c70f-518c-4172-aaf5-49e4a923c1d1",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Elif discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9dc1e20-ca97-4c07-a4c4-71275075074c",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Diego discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q04",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e69c70f-518c-4172-aaf5-49e4a923c1d1",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Elif discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b1ddba7-99d3-49ac-bf6b-1d4be8ef6842",
+    "name": "MENTIONED_SCHEDULED_FOR_BY",
+    "fact": "The analytics lead thing was mentioned by Elif as being scheduled for Friday.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q05",
+  "facts": [
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e69c70f-518c-4172-aaf5-49e4a923c1d1",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Elif discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9dc1e20-ca97-4c07-a4c4-71275075074c",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Diego discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f8a9844e-2154-4ccc-a4ee-a2c0fcf29502",
+    "name": "DISCUSSED",
+    "fact": "Diego and Rohan discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a1cf9173-d57c-4afc-94bd-08e667bcc39e",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Chloe discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q06",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e69c70f-518c-4172-aaf5-49e4a923c1d1",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Elif discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f8a9844e-2154-4ccc-a4ee-a2c0fcf29502",
+    "name": "DISCUSSED",
+    "fact": "Diego and Rohan discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q07",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e69c70f-518c-4172-aaf5-49e4a923c1d1",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Elif discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9dc1e20-ca97-4c07-a4c4-71275075074c",
+    "name": "DISCUSSED",
+    "fact": "Rohan and Diego discussed the migration of the weekly job and the impact of the schema change.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q08",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "950f1f09-d924-434a-865c-f7dab58c271a",
+    "name": "PROPOSED_TO_DROP",
+    "fact": "Diego proposed to drop the contribution table.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "759a9168-3a8f-48ba-9b53-5159f8119904",
+    "name": "PROPOSED_TO_DROP",
+    "fact": "Diego proposed to drop the contribution columns.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3a94cb5e-589a-4729-8190-2864db51963d",
+    "name": "PROPOSED_TO_BE_DROPPED_BY",
+    "fact": "The contribution columns were proposed to be dropped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55b7f124-996e-4efb-b0b4-9eb0ce25a2bc",
+    "name": "PROPOSED_TO_BE_DROPPED_BY",
+    "fact": "The contribution table was proposed to be dropped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "70d3a16c-060c-4861-8eb8-536e73f0d90c",
+    "name": "PROPOSED_TO_MOVE_TO",
+    "fact": "Rohan proposed to move the data-quality review to Thursday afternoon.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q09",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c607ec3-925f-4236-874e-4d30d9bc3294",
+    "name": "DECIDED",
+    "fact": "Henrik decided to ship the gradient-boosted model with reason codes.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q10",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c607ec3-925f-4236-874e-4d30d9bc3294",
+    "name": "DECIDED",
+    "fact": "Henrik decided to ship the gradient-boosted model with reason codes.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3a94cb5e-589a-4729-8190-2864db51963d",
+    "name": "PROPOSED_TO_BE_DROPPED_BY",
+    "fact": "The contribution columns were proposed to be dropped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q11",
+  "facts": [
+   {
+    "uuid": "39d33dff-a006-477d-bd53-f320a3a9d5ec",
+    "name": "NOTIFIED",
+    "fact": "Chloe informed Rosa that the model decision had been revisited and the boosted model was being considered.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4e563f14-c5af-4f47-9a89-40ddf55d063b",
+    "name": "DECIDED_TO_SHIP",
+    "fact": "Diego decided to ship the logistic regression model.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "376f4a99-c12b-41d5-8f2c-3eae9443910a",
+    "name": "DISCUSSED",
+    "fact": "Diego and Elif discussed the recalibrated boosted model and its performance compared to the logistic model.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d817c390-b65e-451d-9b26-bd4145e273e1",
+    "name": "DECIDED_TO_BE_SHIPPED_BY",
+    "fact": "The logistic regression model was decided to be shipped by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "738bc107-8ab1-441a-b106-f2bb8937e7a9",
+    "name": "DISCUSSED",
+    "fact": "Diego and Chloe discussed the recalibration of the boosted model on deduplicated data.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fb2cec9f-2cf1-4acf-94df-beb88ebd551a",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "Chloe mentioned an issue with the seventy-one, where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aaf06f93-5d8c-4e58-befb-472fe4511b98",
+    "name": "RECEIVED_AUDIT_SUMMARY_FROM",
+    "fact": "Chloe received the audit summary from Marta's old group about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8a1fbc89-0732-4233-aad6-c5e6b1a88806",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The seventy-one was mentioned by Chloe as having an issue where the model might have seen some of the answers due to customer ID overlaps.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32b89627-35cb-45fd-a81d-bab76515ff3f",
+    "name": "SENT_AUDIT_SUMMARY_TO",
+    "fact": "Marta's old group sent the audit summary to Chloe about the CRM merge.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4c607ec3-925f-4236-874e-4d30d9bc3294",
+    "name": "DECIDED",
+    "fact": "Henrik decided to ship the gradient-boosted model with reason codes.",
+    "episodes": [
+     "dc2aa385-f4c5-49e1-ba2f-97ce3b319e06"
+    ],
+    "valid_at": "2025-08-13T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f906516e-7d40-4841-a11c-c2f06ee2124f",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE",
+    "fact": "Chloe informed Rosa about the model change so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "79e697f3-44f7-42bc-a2f4-96eb35c9d0ad",
+    "name": "INFORMED_ABOUT_MODEL_CHANGE_BY",
+    "fact": "Rosa was informed about the model change by Chloe so she wouldn't be building for the wrong thing.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01018-q12",
+  "facts": [
+   {
+    "uuid": "9f246689-bf12-4cd0-bc19-83ebfe30f867",
+    "name": "APPROVED_TO_BE_MOVED_TO_BY",
+    "fact": "The data-quality review was approved to be moved to Thursday afternoon by Henrik.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a2b46c4f-ecca-41af-a05a-04cc9397ab57",
+    "name": "ASKED_ABOUT_COLLISION_BY",
+    "fact": "The data-quality review was asked about collisions by Diego.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ad279848-2592-4153-88a2-6a8b0b6df56b",
+    "name": "MENTIONED_HOTSPOT_ON",
+    "fact": "Rohan mentioned that the data-quality review is on a hotspot.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4b92dc35-f8e3-49d5-bf70-7b4b45e8f21f",
+    "name": "PROPOSED_TO_BE_MOVED_TO_BY",
+    "fact": "The data-quality review was proposed to be moved to Thursday afternoon by Rohan.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "727dde74-fe61-4e5d-b76f-b9ff63ec47b9",
+    "name": "MENTIONED_HOTSPOT_ON",
+    "fact": "Elif mentioned that the data-quality review is on a hotspot.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c52217f3-fda6-4346-bbe4-c7c673c667c7",
+    "name": "MENTIONED_REMOTE_WORK_ON_BY",
+    "fact": "The data-quality review was mentioned by Rohan as having remote work on Thursdays.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75b03bd8-ff11-4bdb-b348-b27986d9f415",
+    "name": "MENTIONED_HOTSPOT_ON_BY",
+    "fact": "The data-quality review was mentioned by Rohan as being on a hotspot.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb043a36-eda3-4f69-a828-6863b0d7188c",
+    "name": "AGREED_TO_ISSUE_WITH",
+    "fact": "Elif agreed with Rohan about the issue with the data-quality review.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8f29c084-d04a-4796-b7c6-334fad0916cc",
+    "name": "APPROVED_TO_MOVE_TO",
+    "fact": "Henrik approved moving the data-quality review to Thursday afternoon.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5e07fe3-abe0-4dd1-8eb8-43ec978ef69c",
+    "name": "MENTIONED_HOTSPOT_ON_BY",
+    "fact": "The data-quality review was mentioned by Elif as being on a hotspot.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41b916a1-0d98-4c51-9e34-411d5df10862",
+    "name": "MENTIONED_ISSUE_WITH",
+    "fact": "The data-quality review was mentioned by Rohan as having an issue where the Friday-night batch jobs are still going on Monday mornings.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50219355-1ed8-4d28-b2d4-080658a05e8a",
+    "name": "AGREED_TO_ISSUE_WITH",
+    "fact": "The data-quality review was agreed to have an issue with by Elif.",
+    "episodes": [
+     "492fcb19-b512-43d9-8cbf-46257797288c"
+    ],
+    "valid_at": "2025-07-30T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

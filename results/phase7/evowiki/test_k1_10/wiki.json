@@ -1,0 +1,708 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Leeds fire door sign-off",
+   "attribute": "contractor visit date",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-03",
+     "evidence": [
+      2,
+      3
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-03-10",
+       "evidence": [
+        11
+       ]
+      }
+     ]
+    },
+    {
+     "value": "no",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Leeds fire door sign-off",
+   "attribute": "contractor on site",
+   "states": [
+    {
+     "value": "Diego",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-03",
+     "evidence": [
+      3
+     ]
+    },
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Leeds cleaning contract",
+   "attribute": "current contractor",
+   "states": [
+    {
+     "value": "Brightwash",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-03",
+     "evidence": [
+      14
+     ]
+    },
+    {
+     "value": "current term ends on the thirty-first, with optional renewal",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      60
+     ]
+    },
+    {
+     "value": "Kestrel Facilities selected for Leeds",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Leeds cleaning contract",
+   "attribute": "rate lock deadline",
+   "states": [
+    {
+     "value": "14th of the month",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-03",
+     "evidence": [
+      15
+     ]
+    },
+    {
+     "value": "Friday the fourteenth",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      15
+     ]
+    },
+    {
+     "value": "until the end of this week (Friday)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      3,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Badge reader quote",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "2,350 fitted",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Printer lease",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "signed",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Printer lease",
+   "attribute": "toner",
+   "states": [
+    {
+     "value": "one",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Recycling bins",
+   "attribute": "proposal",
+   "states": [
+    {
+     "value": "remove desk bins, install shared floor bins",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Recycling bins",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "next month, floor by floor",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Recycling bins",
+   "attribute": "coordination",
+   "states": [
+    {
+     "value": "Diego to coordinate with Hedda",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Recycling bins",
+   "attribute": "communication",
+   "states": [
+    {
+     "value": "email this week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      78,
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Recycling bins",
+   "attribute": "email draft",
+   "states": [
+    {
+     "value": "Elif to draft",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 2,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      80
+     ]
+    },
+    {
+     "value": "Elif to draft",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Recycling bins",
+   "attribute": "implementation timeline",
+   "states": [
+    {
+     "value": "next month, floor by floor",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Recycling bins",
+   "attribute": "email",
+   "states": [
+    {
+     "value": "to be sent this week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      78,
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Recycling bins",
+   "attribute": "next meeting",
+   "states": [
+    {
+     "value": "same slot next week, Tuesday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-03-10",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Leeds cleaning contract",
+   "attribute": "consumables cost",
+   "states": [
+    {
+     "value": "up to eighteen hundred cap",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Leeds cleaning contract",
+   "attribute": "total estimated cost",
+   "states": [
+    {
+     "value": "forty-five and a half",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Kestrel",
+   "attribute": "total cost",
+   "states": [
+    {
+     "value": "forty-one",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Kestrel",
+   "attribute": "term",
+   "states": [
+    {
+     "value": "initial twelve months, then rolling, with ninety days exit clause from month three",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      42,
+      43,
+      44,
+      46
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Kestrel",
+   "attribute": "missed visit credit",
+   "states": [
+    {
+     "value": "one visit's worth against the next invoice",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Kestrel",
+   "attribute": "changeover period",
+   "states": [
+    {
+     "value": "two weeks, with a named contact on our side",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Kestrel",
+   "attribute": "insurance",
+   "states": [
+    {
+     "value": "public liability of five million, certificate attached, valid until next January",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Kestrel",
+   "attribute": "key management",
+   "states": [
+    {
+     "value": "numbered keys, signed out, kept in a locked box at their depot",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Recycling email",
+   "attribute": "responses",
+   "states": [
+    {
+     "value": "eight replies, two requesting bins back, six with practical questions",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      101,
+      103
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Recycling email",
+   "attribute": "action on responses",
+   "states": [
+    {
+     "value": "send six practical questions to Diego, reply politely to two requesting bins back",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      104,
+      107
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Lights on third floor",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "put in ticket system and tag Daan",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Brightwash",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "Marco to inform them today, politely, about holding the rate",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Kestrel",
+   "attribute": "contract",
+   "states": [
+    {
+     "value": "Hana to email them this afternoon",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "entity": "Kestrel",
+   "attribute": "supervisor on site",
+   "states": [
+    {
+     "value": "Diego to be on site the first morning",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-17",
+     "evidence": [
+      87,
+      89
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S1",
+   0,
+   1,
+   2
+  ],
+  [
+   "S0",
+   0,
+   1,
+   2
+  ],
+  [
+   "S3",
+   0,
+   1,
+   2
+  ],
+  [
+   "S11",
+   0,
+   1,
+   2
+  ],
+  [
+   "S3",
+   1,
+   2,
+   3
+  ],
+  [
+   "S2",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   1,
+   2,
+   3
+  ]
+ ]
+}

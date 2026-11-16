@@ -1,0 +1,53 @@
+[{"stream_name":"stdout","time":0.915842938,"data":"11:43:36 model granite4.2:8b items 680\n"}
+,{"stream_name":"stdout","time":12.208376487,"data":"11:43:47 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 64.deb ...\n"}
+,{"stream_name":"stdout","time":12.208403849,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":12.208409767,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":12.208414289,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":12.208418734,"data":" 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":12.208423644,"data":"\n"}
+,{"stream_name":"stdout","time":21.15287532,"data":"11:43:56 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":21.152900934,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":21.152905331,"data":"  Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":21.152908358,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":21.152927026,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":21.152932878,"data":"\n"}
+,{"stream_name":"stdout","time":71.453516146,"data":"11:44:47 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull granite4.2:8b rc 0  d86276ca46ac: 100% ▕██████████████████▏  417 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":71.453560057,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":71.453566403,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":71.453571504,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":71.453576425,"data":"\n"}
+,{"stream_name":"stdout","time":203.036037567,"data":"11:46:58 25 done\n"}
+,{"stream_name":"stdout","time":235.952910718,"data":"11:47:31 50 done\n"}
+,{"stream_name":"stdout","time":268.952580391,"data":"11:48:04 75 done\n"}
+,{"stream_name":"stdout","time":302.251082767,"data":"11:48:38 100 done\n"}
+,{"stream_name":"stdout","time":335.41581543,"data":"11:49:11 125 done\n"}
+,{"stream_name":"stdout","time":365.313630313,"data":"11:49:41 150 done\n"}
+,{"stream_name":"stdout","time":398.174492459,"data":"11:50:13 175 done\n"}
+,{"stream_name":"stdout","time":433.234199112,"data":"11:50:49 200 done\n"}
+,{"stream_name":"stdout","time":467.765350176,"data":"11:51:23 225 done\n"}
+,{"stream_name":"stdout","time":500.934293425,"data":"11:51:56 250 done\n"}
+,{"stream_name":"stdout","time":536.990673415,"data":"11:52:32 275 done\n"}
+,{"stream_name":"stdout","time":571.411328651,"data":"11:53:07 300 done\n"}
+,{"stream_name":"stdout","time":605.489100754,"data":"11:53:41 325 done\n"}
+,{"stream_name":"stdout","time":635.348028509,"data":"11:54:11 350 done\n"}
+,{"stream_name":"stdout","time":663.817792413,"data":"11:54:39 375 done\n"}
+,{"stream_name":"stdout","time":694.943875321,"data":"11:55:10 400 done\n"}
+,{"stream_name":"stdout","time":722.888883381,"data":"11:55:38 425 done\n"}
+,{"stream_name":"stdout","time":749.996472057,"data":"11:56:05 450 done\n"}
+,{"stream_name":"stdout","time":776.740689327,"data":"11:56:32 475 done\n"}
+,{"stream_name":"stdout","time":806.581517444,"data":"11:57:02 500 done\n"}
+,{"stream_name":"stdout","time":835.817743086,"data":"11:57:31 525 done\n"}
+,{"stream_name":"stdout","time":865.172632661,"data":"11:58:00 550 done\n"}
+,{"stream_name":"stdout","time":897.2126646,"data":"11:58:32 575 done\n"}
+,{"stream_name":"stdout","time":929.577568442,"data":"11:59:05 600 done\n"}
+,{"stream_name":"stdout","time":961.116306031,"data":"11:59:36 625 done\n"}
+,{"stream_name":"stdout","time":997.666886552,"data":"12:00:13 650 done\n"}
+,{"stream_name":"stdout","time":1054.448633852,"data":"12:01:10 675 done\n"}
+,{"stream_name":"stdout","time":1067.047673756,"data":"12:01:22 DONE 680 in 897 s\n"}
+,{"stream_name":"stderr","time":1069.758283183,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1069.758316642,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1070.124869932,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1070.124895512,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1072.138387197,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1073.169229659,"data":"[NbConvertApp] Writing 529289 bytes to __results__.html\n"}
+]

@@ -1,0 +1,350 @@
+{
+ "set_id": "test_k1_12",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    20,
+    21,
+    22
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.5,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Wei",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Wei",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut in specific areas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut in specific areas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "adjusting the manager-only expense limit",
+   "option": "raise the limit to a thousand dollars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "adjusting the manager-only expense limit",
+   "option": "raise the limit to a thousand dollars"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "adjusting the manager-only expense limit",
+   "option": "raise the limit to a thousand dollars"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut in specific areas"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut in specific areas"
+  }
+ ]
+}

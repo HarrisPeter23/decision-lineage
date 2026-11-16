@@ -1,0 +1,302 @@
+{
+ "set_id": "set_01012",
+ "meta": {
+  "arc_type": "deferred",
+  "domain": "supply chain and operations team",
+  "seed": 1012,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 109
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 83
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 88
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "how stores will scan stock during deliveries",
+ "options": {
+  "A": "Dedicated rugged handheld scanners, three per store",
+  "B": "A scanning app on the tablets and phones the stores already have"
+ },
+ "cast": [
+  {
+   "name": "Kofi",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Noor",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Henrik",
+   "slot": "challenger",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Priya",
+   "slot": "supporter",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Greta",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "A scanning app on the tablets and phones the stores already have"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Noor proposes dedicated rugged handheld scanners, three per store, for receiving deliveries.",
+   "version": null,
+   "option_key": "A",
+   "option": "Dedicated rugged handheld scanners, three per store",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "Noor says handhelds are faster, survive drops, last a full shift on battery, and warehouse staff already know how to use the older models.",
+   "version": null,
+   "option_key": "A",
+   "option": "Dedicated rugged handheld scanners, three per store",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Greta reports the supplier now quotes $1,150 per unit with a ten-week lead time, so 36 units would cost $41,400 and arrive after the holiday peak.",
+   "version": null,
+   "option_key": "A",
+   "option": "Dedicated rugged handheld scanners, three per store",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "Henrik proposes putting a scanning app on the tablets and phones the stores already have.",
+   "version": null,
+   "option_key": "B",
+   "option": "A scanning app on the tablets and phones the stores already have",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    11
+   ],
+   "gist": "Henrik says the app costs about $3,500 a year for 48 devices with no hardware spend, installs in ten minutes, and read 98.6 percent of barcodes on the first try in a two-store pilot in Leeds.",
+   "version": null,
+   "option_key": "B",
+   "option": "A scanning app on the tablets and phones the stores already have",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Kofi decides to go with the scanning app on the tablets and phones the stores already have.",
+   "version": 1,
+   "option_key": "B",
+   "option": "A scanning app on the tablets and phones the stores already have",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01012-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how stores will scan stock during deliveries?",
+   "answer_text": "A scanning app on the tablets and phones the stores already have",
+   "answer_facts": {
+    "option": "A scanning app on the tablets and phones the stores already have"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01012-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how stores will scan stock during deliveries?",
+   "answer_text": "meeting 3: Kofi - Kofi decides to go with the scanning app on the tablets and phones the stores already have.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "A scanning app on the tablets and phones the stores already have",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01012-q03",
+   "type": "as_of",
+   "question": "What was the decision about how stores will scan stock during deliveries as of the end of meeting 1?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 1,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01012-q04",
+   "type": "as_of",
+   "question": "What was the decision about how stores will scan stock during deliveries as of the end of meeting 2?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 2,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01012-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how stores will scan stock during deliveries change over time?",
+   "answer_text": "Nothing was decided until meeting 3, when the team chose A scanning app on the tablets and phones the stores already have.",
+   "answer_facts": {
+    "first_decision_meeting": 3
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01012-q06",
+   "type": "who_proposed",
+   "question": "Who proposed A scanning app on the tablets and phones the stores already have?",
+   "answer_text": "Henrik",
+   "answer_facts": {
+    "speaker": "Henrik"
+   },
+   "supporting_links": [
+    "B4"
+   ]
+  },
+  {
+   "qid": "set_01012-q07",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how stores will scan stock during deliveries?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01012-q08",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how stores will scan stock during deliveries from proposal to final outcome.",
+   "answer_text": "meeting 1 - Noor [proposal]: Noor proposes dedicated rugged handheld scanners, three per store, for receiving deliveries. | meeting 1 - Noor [rationale]: Noor says handhelds are faster, survive drops, last a full shift on battery, and warehouse staff already know how to use the older models. | meeting 2 - Greta [evidence]: Greta reports the supplier now quotes $1,150 per unit with a ten-week lead time, so 36 units would cost $41,400 and arrive after the holiday peak. | meeting 2 - Henrik [proposal]: Henrik proposes putting a scanning app on the tablets and phones the stores already have. | meeting 2 - Henrik [rationale]: Henrik says the app costs about $3,500 a year for 48 devices with no hardware spend, installs in ten minutes, and read 98.6 percent of barcodes on the first try in a two-store pilot in Leeds. | meeting 3 - Kofi [resolution]: Kofi decides to go with the scanning app on the tablets and phones the stores already have.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  }
+ ]
+}

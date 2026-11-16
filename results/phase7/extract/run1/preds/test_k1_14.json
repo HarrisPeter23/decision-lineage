@@ -1,0 +1,546 @@
+{
+ "set_id": "test_k1_14",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Allocation of launch budget to Northern Logistics Expo sponsorship",
+   "option": "Allocate forty-six thousand for the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Freezing the newsletter template before Camille's departure",
+   "option": "Freeze the newsletter template before Camille's departure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Freezing the newsletter template before Camille's departure",
+   "option": "Freeze the newsletter template before Camille's departure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Freezing the newsletter template before Camille's departure",
+   "option": "Freeze the newsletter template before Camille's departure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Freezing the newsletter template before Camille's departure",
+   "option": "Freeze the newsletter template before Camille's departure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Completion of the offsite survey",
+   "option": "Complete the offsite survey"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Completion of the offsite survey",
+   "option": "Complete the offsite survey"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Completion of the offsite survey",
+   "option": "Complete the offsite survey"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "Fourteen fifty people expected"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "Down forty percent from twenty-four hundred"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "Three top accounts not attending"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "Projection, not confirmed"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Poor value for forty-six thousand"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Still a room full of buyers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Fewer people could mean more time per person at the stand"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Fewer leads"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Tote bags would have gone further with a smaller crowd"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Ask for a discount due to smaller attendance"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Agreement already signed"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Show moved on their own, worth a conversation"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo sponsorship",
+   "option": "Wait for more data before making changes"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Legal review delay"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Average legal review time six days"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Personal experience of nine days"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Simple ad with logo and date still went through legal review"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Legal only reviews ads with performance claims"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Ad copy approval process",
+   "option": "Who decides what counts as a claim?"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Ad copy approval process",
+   "option": "Writer and Amara decide what counts as a claim"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Ad copy approval process",
+   "option": "Need a short list of what counts as a claim"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Ad copy approval process",
+   "option": "Seventy percent of ads don't have performance claims"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Ad copy approval process",
+   "option": "Legal reviews only performance claim ads"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Ad copy approval process",
+   "option": "Starting with next batch"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Ad copy approval process",
+   "option": "Zainab writes checklist"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Ad copy approval process",
+   "option": "Wei reviews checklist"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Freezing newsletter template",
+   "option": "Freeze by Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Offsite survey completion",
+   "option": "Diego fills it in tonight"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Setting up the credit form",
+   "option": "Wei to set up the form with Elif and brief sales on Monday"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Setting up the credit form",
+   "option": "Elif to block Thursday afternoon for the form"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Completion of the offsite survey",
+   "option": "Diego to submit the survey tonight"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Rescheduling the Friday review",
+   "option": "Moved to three o'clock"
+  }
+ ]
+}

@@ -1,0 +1,447 @@
+{
+ "set_id": "set_01000",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "SaaS product team",
+  "seed": 1000,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 72
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 115
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 99
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "the pricing model for the new analytics add-on",
+ "options": {
+  "A": "Per-seat pricing at $12 per seat per month"
+ },
+ "cast": [
+  {
+   "name": "Diego",
+   "slot": "manager",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Henrik",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Ingrid",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Wei",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Sven",
+   "slot": "observer",
+   "style": "detail-oriented, quotes numbers"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "Per-seat pricing at $12 per seat per month"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Henrik proposes charging per seat for the analytics add-on, at $12 per seat per month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    11
+   ],
+   "gist": "Henrik says per-seat pricing is predictable for buyers and scales with how many people use the dashboards, unlike the usage-based plan that confused beta customers.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Diego decides to go with per-seat pricing at $12 for launch.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Sven reports that three of the five pilot accounts have teams over 40 people, so a typical add-on bill would exceed $480 a month, and two accounts told the customer success manager that felt steep.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Ingrid",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "Ingrid argues that big teams will balk at a bill that grows with every hire, and that a flat or tiered price would avoid losing the largest accounts.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Diego says the pilot team sizes and Ingrid's concern deserve a proper second look at the per-seat decision.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    4
+   ],
+   "gist": "Henrik answers that the three large accounts have negotiated enterprise discounts, the two that called it steep are free-trial accounts that never paid, and competitors charge $15 to $20 per seat so $12 leaves room.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    18
+   ],
+   "gist": "Diego confirms the team is keeping per-seat pricing at $12 for launch.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Per-seat pricing at $12 per seat per month",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "the day of the weekly product demo",
+  "option": "Weekly demo moved to Thursday afternoons",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Wei",
+    "utterance_idxs": [
+     13
+    ],
+    "gist": "Wei proposes moving the weekly product demo from Friday afternoon to Thursday afternoon.",
+    "version": null,
+    "option_key": null,
+    "option": "Weekly demo moved to Thursday afternoons",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Wei",
+    "utterance_idxs": [
+     15
+    ],
+    "gist": "Wei says Friday demos keep getting skipped because half the team takes Friday off or leaves early.",
+    "version": null,
+    "option_key": null,
+    "option": "Weekly demo moved to Thursday afternoons",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Diego",
+    "utterance_idxs": [
+     19
+    ],
+    "gist": "Diego decides the weekly demo moves to Thursday afternoons starting next week.",
+    "version": null,
+    "option_key": null,
+    "option": "Weekly demo moved to Thursday afternoons",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01000-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the pricing model for the new analytics add-on?",
+   "answer_text": "Per-seat pricing at $12 per seat per month",
+   "answer_facts": {
+    "option": "Per-seat pricing at $12 per seat per month"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the pricing model for the new analytics add-on?",
+   "answer_text": "meeting 1: Diego - Diego decides to go with per-seat pricing at $12 for launch.; meeting 3: Diego - Diego confirms the team is keeping per-seat pricing at $12 for launch.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "Per-seat pricing at $12 per seat per month",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "Per-seat pricing at $12 per seat per month",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q03",
+   "type": "as_of",
+   "question": "What was the decision about the pricing model for the new analytics add-on as of the end of meeting 1?",
+   "answer_text": "Per-seat pricing at $12 per seat per month",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "Per-seat pricing at $12 per seat per month"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01000-q04",
+   "type": "as_of",
+   "question": "What was the decision about the pricing model for the new analytics add-on as of the end of meeting 2?",
+   "answer_text": "Per-seat pricing at $12 per seat per month",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "Per-seat pricing at $12 per seat per month"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01000-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the pricing model for the new analytics add-on change over time?",
+   "answer_text": "It did not change: Per-seat pricing at $12 per seat per month was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about the pricing model for the new analytics add-on?",
+   "answer_text": "It did not change. The team kept Per-seat pricing at $12 per seat per month. Concerns raised: Ingrid argues that big teams will balk at a bill that grows with every hire, and that a flat or tiered price would avoid losing the largest accounts. Sven reports that three of the five pilot accounts have teams over 40 people, so a typical add-on bill would exceed $480 a month, and two accounts told the customer success manager that felt steep. Why it stayed: Henrik answers that the three large accounts have negotiated enterprise discounts, the two that called it steep are free-trial accounts that never paid, and competitors charge $15 to $20 per seat so $12 leaves room.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the pricing model for the new analytics add-on?",
+   "answer_text": "Henrik",
+   "answer_facts": {
+    "speaker": "Henrik"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01000-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the pricing model for the new analytics add-on?",
+   "answer_text": "Sven (evidence): Sven reports that three of the five pilot accounts have teams over 40 people, so a typical add-on bill would exceed $480 a month, and two accounts told the customer success manager that felt steep. Ingrid (challenge): Ingrid argues that big teams will balk at a bill that grows with every hire, and that a flat or tiered price would avoid losing the largest accounts.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01000-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the pricing model for the new analytics add-on?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the pricing model for the new analytics add-on from proposal to final outcome.",
+   "answer_text": "meeting 1 - Henrik [proposal]: Henrik proposes charging per seat for the analytics add-on, at $12 per seat per month. | meeting 1 - Henrik [rationale]: Henrik says per-seat pricing is predictable for buyers and scales with how many people use the dashboards, unlike the usage-based plan that confused beta customers. | meeting 1 - Diego [resolution]: Diego decides to go with per-seat pricing at $12 for launch. | meeting 2 - Sven [evidence]: Sven reports that three of the five pilot accounts have teams over 40 people, so a typical add-on bill would exceed $480 a month, and two accounts told the customer success manager that felt steep. | meeting 2 - Ingrid [challenge]: Ingrid argues that big teams will balk at a bill that grows with every hire, and that a flat or tiered price would avoid losing the largest accounts. | meeting 3 - Diego [reconsideration]: Diego says the pilot team sizes and Ingrid's concern deserve a proper second look at the per-seat decision. | meeting 3 - Henrik [rationale]: Henrik answers that the three large accounts have negotiated enterprise discounts, the two that called it steep are free-trial accounts that never paid, and competitors charge $15 to $20 per seat so $12 leaves room. | meeting 3 - Diego [resolution]: Diego confirms the team is keeping per-seat pricing at $12 for launch.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01000-q11",
+   "type": "distractor",
+   "question": "What was decided about the day of the weekly product demo?",
+   "answer_text": "Weekly demo moved to Thursday afternoons",
+   "answer_facts": {
+    "option": "Weekly demo moved to Thursday afternoons"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

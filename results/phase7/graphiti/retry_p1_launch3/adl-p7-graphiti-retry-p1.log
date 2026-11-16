@@ -1,0 +1,27 @@
+[{"stream_name":"stdout","time":7.9135200470000004,"data":"03:07:41 $ pip install -q graphiti-core==0.31.2 httpx rc 0 \n"}
+,{"stream_name":"stdout","time":80.235064445,"data":"03:08:53 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd openjdk-17-jre-headless rc 100 ot seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":80.235096113,"data":"E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/zstd_1.5.5%2bdfsg2-2build1.1_amd64.deb  Unable to connect to archive.ubuntu.com:http:\n"}
+,{"stream_name":"stdout","time":80.235103152,"data":"E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?\n"}
+,{"stream_name":"stdout","time":80.23510851,"data":"\n"}
+,{"stream_name":"stdout","time":83.264306644,"data":"03:08:56 $ curl -fsSL https://dist.neo4j.org/neo4j-community-5.26.17-unix.tar.gz | tar -xz -C /kaggle rc 0 \n"}
+,{"stream_name":"stdout","time":86.32420621,"data":"03:08:59 $ /kaggle/neo4j-community-5.26.17/bin/neo4j-admin dbms set-initial-password graphiti-local-p rc 0 \n"}
+,{"stream_name":"stdout","time":96.637747736,"data":"03:09:09 $ /kaggle/neo4j-community-5.26.17/bin/neo4j start rc 0 \n"}
+,{"stream_name":"stdout","time":107.12899815,"data":"03:09:20 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh \u0026\u0026 sh /tmp/install.s rc 1 \u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":107.12902248,"data":"\n"}
+,{"stream_name":"stdout","time":107.129102302,"data":"03:09:20 ollama binary missing after install attempt 1\n"}
+,{"stream_name":"stdout","time":137.514667309,"data":"03:09:50 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh \u0026\u0026 sh /tmp/install.s rc 1 \u003e\u003e\u003e Cleaning up old version at /usr/local/lib/ollama\n"}
+,{"stream_name":"stdout","time":137.514693136,"data":"\u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":137.514698509,"data":"\n"}
+,{"stream_name":"stdout","time":137.51470322,"data":"03:09:50 ollama binary missing after install attempt 2\n"}
+,{"stream_name":"stdout","time":168.059034139,"data":"03:10:21 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh \u0026\u0026 sh /tmp/install.s rc 1 \u003e\u003e\u003e Cleaning up old version at /usr/local/lib/ollama\n"}
+,{"stream_name":"stdout","time":168.059091727,"data":"\u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":168.059096356,"data":"\n"}
+,{"stream_name":"stdout","time":168.059099762,"data":"03:10:21 ollama binary missing after install attempt 3\n"}
+,{"stream_name":"stderr","time":198.059561876,"data":"ollama install failed 3 times; no model call made\n"}
+,{"stream_name":"stderr","time":200.209910318,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":200.209939557,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":200.503675934,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":200.503702785,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":201.518649532,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":202.572658344,"data":"[NbConvertApp] Writing 348679 bytes to __results__.html\n"}
+]

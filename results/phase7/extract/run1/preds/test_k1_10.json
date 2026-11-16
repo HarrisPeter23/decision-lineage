@@ -1,0 +1,388 @@
+{
+ "set_id": "test_k1_10",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.6,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "renewal of cleaning contract in Leeds",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaning contractor renewal",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "shared recycling bins",
+   "option": "shared floor bins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "shared recycling bins",
+   "option": "shared floor bins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "shared recycling bins",
+   "option": "shared floor bins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "shared recycling bins",
+   "option": "shared floor bins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "shared recycling bins",
+   "option": "shared floor bins"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "cleaning contractor renewal",
+   "option": "Kestrel Facilities"
+  }
+ ]
+}

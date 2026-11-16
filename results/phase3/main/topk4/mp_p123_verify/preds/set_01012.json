@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01012",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, um, I think we have, maybe, two things? Scanning at deliveries and the, the rota.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "quote": "Quote was about nine hundred each, I think, last time I looked.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Noor",
+   "quote": "Handhelds beat everything else for speed, they're rugged so they survive being dropped, the battery lasts a whole shift, and the warehouse people already know how to use the old ones, so training is nothing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Greta",
+   "quote": "Find out.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "quote": "We could get fewer units, one per store, twelve",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "quote": "Can I propose something? Let's put a scanning app on the tablets and phones we already have in the stores",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Henrik",
+   "quote": "Yes, by Monday",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Noor",
+   "quote": "I'll time a delivery",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, so, both one-pagers are in. I read them last night. Let me, um, say where I am. The handhelds are faster, I accept that. But forty-one thousand, ten weeks, and, I mean, they wouldn't be here for the peak. The app is usable now. So I think, yes, we go with the scanning app on the tablets and phones we already have.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "quote": "My timing: six and a half minutes extra per delivery. Henrik was right.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "quote": "Six minutes. Fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kofi",
+   "quote": "Leeds again? Since they've done it.",
+   "confidence": 0.9
+  }
+ ]
+}

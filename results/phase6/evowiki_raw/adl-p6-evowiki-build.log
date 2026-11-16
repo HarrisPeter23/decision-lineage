@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":12.827701316,"data":"07:03:03 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 \n"}
+,{"stream_name":"stdout","time":21.520301247,"data":"07:03:12 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 \n"}
+,{"stream_name":"stdout","time":110.152524905,"data":"07:04:40 $ ollama pull qwen3:14b rc 0 \n"}
+,{"stream_name":"stdout","time":110.253149186,"data":"07:04:40 digest ['bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8']\n"}
+,{"stream_name":"stdout","time":526.929360018,"data":"07:11:37 dev_k1_02 {\"meetings\": 4, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 42, \"decided\": 15, \"states\": 15, \"slots\": 9, \"seconds\": 417}\n"}
+,{"stream_name":"stdout","time":798.034369972,"data":"07:16:08 dev_k1_00 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 31, \"decided\": 10, \"states\": 10, \"slots\": 9, \"seconds\": 271}\n"}
+,{"stream_name":"stdout","time":833.563883038,"data":"07:16:44 dev_k1_03 {\"meetings\": 4, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 81, \"decided\": 24, \"states\": 23, \"slots\": 18, \"seconds\": 723}\n"}
+,{"stream_name":"stdout","time":959.024082981,"data":"07:18:49 dev_k1_01 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 21, \"decided\": 9, \"states\": 9, \"slots\": 7, \"seconds\": 161}\n"}
+,{"stream_name":"stdout","time":1171.77355371,"data":"07:22:22 dev_k1_04 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 43, \"decided\": 27, \"states\": 27, \"slots\": 22, \"seconds\": 338}\n"}
+,{"stream_name":"stdout","time":1376.218411418,"data":"07:25:46 dev_k1_05 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 58, \"decided\": 25, \"states\": 25, \"slots\": 20, \"seconds\": 417}\n"}
+,{"stream_name":"stdout","time":1392.190772821,"data":"07:26:02 dev_k1_06 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 28, \"decided\": 13, \"states\": 13, \"slots\": 10, \"seconds\": 220}\n"}
+,{"stream_name":"stdout","time":1452.439367981,"data":"07:27:03 dev_k10_01 {\"meetings\": 12, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 161, \"decided\": 55, \"states\": 55, \"slots\": 45, \"seconds\": 1342}\n"}
+,{"stream_name":"stdout","time":1740.938323032,"data":"07:31:51 dev_k1_09 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 38, \"decided\": 9, \"states\": 9, \"slots\": 7, \"seconds\": 288}\n"}
+,{"stream_name":"stdout","time":1785.21410292,"data":"07:32:35 dev_k1_07 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 45, \"decided\": 36, \"states\": 32, \"slots\": 26, \"seconds\": 409}\n"}
+,{"stream_name":"stdout","time":1842.72837617,"data":"07:33:33 dev_k1_08 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 55, \"decided\": 31, \"states\": 30, \"slots\": 28, \"seconds\": 451}\n"}
+,{"stream_name":"stdout","time":2017.312144467,"data":"07:36:28 dev_k1_11 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 35, \"decided\": 8, \"states\": 8, \"slots\": 8, \"seconds\": 232}\n"}
+,{"stream_name":"stdout","time":2076.950582194,"data":"07:37:27 dev_k1_12 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 1, \"updates\": 34, \"decided\": 12, \"states\": 12, \"slots\": 11, \"seconds\": 234}\n"}
+,{"stream_name":"stdout","time":2085.288183566,"data":"07:37:36 dev_k1_10 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 46, \"decided\": 15, \"states\": 15, \"slots\": 12, \"seconds\": 344}\n"}
+,{"stream_name":"stdout","time":2335.881093489,"data":"07:41:46 dev_k1_13 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 49, \"decided\": 29, \"states\": 29, \"slots\": 21, \"seconds\": 319}\n"}
+,{"stream_name":"stdout","time":3005.164745404,"data":"07:52:55 dev_k10_00 {\"meetings\": 32, \"extract_failed\": 1, \"route_failed\": 2, \"updates\": 420, \"decided\": 177, \"states\": 173, \"slots\": 146, \"seconds\": 2895}\n"}
+,{"stream_name":"stdout","time":3005.165597317,"data":"07:52:55 DONE wall 2895\n"}
+,{"stream_name":"stderr","time":3007.714159358,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3007.714188806,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3008.083529823,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3008.083566308,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3010.119302344,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3011.174595749,"data":"[NbConvertApp] Writing 521478 bytes to __results__.html\n"}
+]

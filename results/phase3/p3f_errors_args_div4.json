@@ -1,0 +1,1489 @@
+{
+ "tune": {
+  "counts": {
+   "FN_cap": 19,
+   "FN_cross": 1,
+   "FN_within": 1,
+   "FP_dup": 14,
+   "FP_inscope": 11,
+   "FP_outside": 6,
+   "FP_role": 6,
+   "FP_span": 3
+  },
+  "headline_counts": {
+   "FN_cap": 14,
+   "FN_cross": 1,
+   "FP_dup": 14,
+   "FP_role": 6,
+   "FP_span": 3
+  },
+  "wrong_decision": 0,
+  "localized": 50,
+  "wrong_version": 16,
+  "tp_with_version": 38,
+  "wrong_version_by": {
+   "reconsideration:no version yet": 2,
+   "proposal:no version yet": 5,
+   "rationale:no version yet": 4,
+   "evidence:no version yet": 1,
+   "rationale:other version": 2,
+   "challenge:other version": 1,
+   "proposal:other version": 1
+  },
+  "f1": 0.591,
+  "p": 0.524,
+  "r": 0.677,
+  "per_role": {
+   "proposal": {
+    "p": 0.692,
+    "r": 0.818,
+    "f1": 0.75,
+    "support": 11
+   },
+   "rationale": {
+    "p": 0.333,
+    "r": 0.333,
+    "f1": 0.333,
+    "support": 18
+   },
+   "evidence": {
+    "p": 0.583,
+    "r": 0.875,
+    "f1": 0.7,
+    "support": 8
+   },
+   "challenge": {
+    "p": 0.25,
+    "r": 0.6,
+    "f1": 0.353,
+    "support": 5
+   },
+   "reconsideration": {
+    "p": 0.6,
+    "r": 1.0,
+    "f1": 0.75,
+    "support": 6
+   },
+   "resolution": {
+    "p": 0.684,
+    "r": 0.765,
+    "f1": 0.722,
+    "support": 17
+   }
+  },
+  "fn_role_confusions": {},
+  "fn_by_role": {
+   "FN_cap:resolution": 4,
+   "FN_cap:challenge": 2,
+   "FN_cap:rationale": 12,
+   "FN_cross:evidence": 1,
+   "FN_within:proposal": 1,
+   "FN_cap:proposal": 1
+  }
+ },
+ "check": {
+  "counts": {
+   "FN_cap": 7,
+   "FN_cross": 3,
+   "FN_role": 2,
+   "FN_span": 1,
+   "FP_dup": 12,
+   "FP_inscope": 10,
+   "FP_outside": 10,
+   "FP_role": 4,
+   "FP_span": 3
+  },
+  "headline_counts": {
+   "FN_cap": 7,
+   "FN_cross": 3,
+   "FN_role": 2,
+   "FN_span": 1,
+   "FP_dup": 12,
+   "FP_role": 4,
+   "FP_span": 3
+  },
+  "wrong_decision": 0,
+  "localized": 48,
+  "wrong_version": 18,
+  "tp_with_version": 40,
+  "wrong_version_by": {
+   "proposal:no version yet": 5,
+   "rationale:no version yet": 4,
+   "rationale:other version": 1,
+   "resolution:other version": 1,
+   "evidence:no version yet": 2,
+   "challenge:other version": 1,
+   "reconsideration:other version": 1,
+   "challenge:no version yet": 1,
+   "reconsideration:no version yet": 2
+  },
+  "f1": 0.629,
+  "p": 0.53,
+  "r": 0.772,
+  "per_role": {
+   "proposal": {
+    "p": 0.636,
+    "r": 0.875,
+    "f1": 0.737,
+    "support": 8
+   },
+   "rationale": {
+    "p": 0.389,
+    "r": 0.467,
+    "f1": 0.424,
+    "support": 15
+   },
+   "evidence": {
+    "p": 0.467,
+    "r": 0.875,
+    "f1": 0.609,
+    "support": 8
+   },
+   "challenge": {
+    "p": 0.667,
+    "r": 1.0,
+    "f1": 0.8,
+    "support": 6
+   },
+   "reconsideration": {
+    "p": 0.462,
+    "r": 1.0,
+    "f1": 0.632,
+    "support": 6
+   },
+   "resolution": {
+    "p": 0.647,
+    "r": 0.786,
+    "f1": 0.71,
+    "support": 14
+   }
+  },
+  "fn_role_confusions": {
+   "proposal->evidence": 1,
+   "rationale->challenge": 1
+  },
+  "fn_by_role": {
+   "FN_cap:rationale": 6,
+   "FN_cap:resolution": 1,
+   "FN_role:proposal": 1,
+   "FN_span:rationale": 1,
+   "FN_cross:evidence": 1,
+   "FN_role:rationale": 1,
+   "FN_cross:resolution": 2
+  }
+ },
+ "all": {
+  "counts": {
+   "FN_cap": 26,
+   "FN_cross": 4,
+   "FN_role": 2,
+   "FN_span": 1,
+   "FN_within": 1,
+   "FP_dup": 26,
+   "FP_inscope": 21,
+   "FP_outside": 16,
+   "FP_role": 10,
+   "FP_span": 6
+  },
+  "headline_counts": {
+   "FN_cap": 21,
+   "FN_cross": 4,
+   "FN_role": 2,
+   "FN_span": 1,
+   "FP_dup": 26,
+   "FP_role": 10,
+   "FP_span": 6
+  },
+  "wrong_decision": 0,
+  "localized": 98,
+  "wrong_version": 34,
+  "tp_with_version": 78,
+  "wrong_version_by": {
+   "reconsideration:no version yet": 4,
+   "proposal:no version yet": 10,
+   "rationale:no version yet": 8,
+   "evidence:no version yet": 3,
+   "rationale:other version": 3,
+   "challenge:other version": 2,
+   "proposal:other version": 1,
+   "resolution:other version": 1,
+   "reconsideration:other version": 1,
+   "challenge:no version yet": 1
+  },
+  "f1": 0.609,
+  "p": 0.527,
+  "r": 0.721,
+  "per_role": {
+   "proposal": {
+    "p": 0.667,
+    "r": 0.842,
+    "f1": 0.744,
+    "support": 19
+   },
+   "rationale": {
+    "p": 0.361,
+    "r": 0.394,
+    "f1": 0.377,
+    "support": 33
+   },
+   "evidence": {
+    "p": 0.519,
+    "r": 0.875,
+    "f1": 0.651,
+    "support": 16
+   },
+   "challenge": {
+    "p": 0.429,
+    "r": 0.818,
+    "f1": 0.562,
+    "support": 11
+   },
+   "reconsideration": {
+    "p": 0.522,
+    "r": 1.0,
+    "f1": 0.686,
+    "support": 12
+   },
+   "resolution": {
+    "p": 0.667,
+    "r": 0.774,
+    "f1": 0.716,
+    "support": 31
+   }
+  },
+  "fn_role_confusions": {
+   "proposal->evidence": 1,
+   "rationale->challenge": 1
+  },
+  "fn_by_role": {
+   "FN_cap:resolution": 5,
+   "FN_cap:challenge": 2,
+   "FN_cap:rationale": 18,
+   "FN_cross:evidence": 2,
+   "FN_within:proposal": 1,
+   "FN_cap:proposal": 1,
+   "FN_role:proposal": 1,
+   "FN_span:rationale": 1,
+   "FN_role:rationale": 1,
+   "FN_cross:resolution": 2
+  }
+ },
+ "per_set": {
+  "set_01000": {
+   "f1": 0.696,
+   "half": "tune",
+   "arc": "no_reversal",
+   "n_gold": 11,
+   "n_pred": 12,
+   "tp": 8
+  },
+  "set_01002": {
+   "f1": 0.737,
+   "half": "tune",
+   "arc": "external_trigger",
+   "n_gold": 7,
+   "n_pred": 12,
+   "tp": 7
+  },
+  "set_01003": {
+   "f1": 0.8,
+   "half": "tune",
+   "arc": "partial_override",
+   "n_gold": 8,
+   "n_pred": 12,
+   "tp": 8
+  },
+  "set_01014": {
+   "f1": 0.452,
+   "half": "tune",
+   "arc": "re_reversal",
+   "n_gold": 15,
+   "n_pred": 16,
+   "tp": 7
+  },
+  "set_01019": {
+   "f1": 0.476,
+   "half": "tune",
+   "arc": "deferred",
+   "n_gold": 9,
+   "n_pred": 12,
+   "tp": 5
+  },
+  "set_01023": {
+   "f1": 0.533,
+   "half": "tune",
+   "arc": "external_trigger",
+   "n_gold": 7,
+   "n_pred": 8,
+   "tp": 4
+  },
+  "set_01030": {
+   "f1": 0.5,
+   "half": "tune",
+   "arc": "simple_reversal",
+   "n_gold": 8,
+   "n_pred": 12,
+   "tp": 5
+  },
+  "set_01004": {
+   "f1": 0.643,
+   "half": "check",
+   "arc": "re_reversal",
+   "n_gold": 12,
+   "n_pred": 16,
+   "tp": 9
+  },
+  "set_01006": {
+   "f1": 0.7,
+   "half": "check",
+   "arc": "simple_reversal",
+   "n_gold": 8,
+   "n_pred": 12,
+   "tp": 7
+  },
+  "set_01012": {
+   "f1": 0.556,
+   "half": "check",
+   "arc": "deferred",
+   "n_gold": 6,
+   "n_pred": 12,
+   "tp": 5
+  },
+  "set_01013": {
+   "f1": 0.7,
+   "half": "check",
+   "arc": "simple_reversal",
+   "n_gold": 8,
+   "n_pred": 12,
+   "tp": 7
+  },
+  "set_01015": {
+   "f1": 0.6,
+   "half": "check",
+   "arc": "partial_override",
+   "n_gold": 8,
+   "n_pred": 12,
+   "tp": 6
+  },
+  "set_01016": {
+   "f1": 0.526,
+   "half": "check",
+   "arc": "no_reversal",
+   "n_gold": 8,
+   "n_pred": 11,
+   "tp": 5
+  },
+  "set_01045": {
+   "f1": 0.667,
+   "half": "check",
+   "arc": "external_trigger",
+   "n_gold": 7,
+   "n_pred": 8,
+   "tp": 5
+  }
+ },
+ "samples": {
+  "FN_cap": [
+   {
+    "set_id": "set_01023",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "resolution",
+    "predicted_role": null,
+    "meeting_id": "m1",
+    "idxs": [
+     69
+    ],
+    "link_id": "B3",
+    "gist": "Aisha agrees without naming the tool, by asking Pavel to schedule the configuration work.",
+    "text": "Aisha: Okay. Good. Pavel, could you get the configuration work on the calendar, with the ERP admin, for maybe the first week after the close? Um, sorry, I mean, something like that.",
+    "headline": true,
+    "implicit": true
+   },
+   {
+    "set_id": "set_01000",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "resolution",
+    "predicted_role": "reconsideration",
+    "meeting_id": "m1",
+    "idxs": [
+     20
+    ],
+    "link_id": "B3",
+    "gist": "Diego decides to go with per-seat pricing at $12 for launch.",
+    "text": "Diego: Sure, sure. For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01012",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "rationale",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     11
+    ],
+    "link_id": "B5",
+    "gist": "Henrik says the app costs about $3,500 a year for 48 devices with no hardware spend, installs in ten minutes, and read 98.6 percent of barcodes on the first try in a two-store pilot in Leeds.",
+    "text": "Henrik: Yes. We already have forty-eight devices, for the tills and for managers. The licence is six dollars a device a month, about thirty-five hundred a year for all forty-eight. There's no hardware spend, installing takes ten minutes, and in the Leeds pilot it read ninety-eight point six percent of barcodes on the first try.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01030",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "rationale",
+    "predicted_role": "evidence",
+    "meeting_id": "m3",
+    "idxs": [
+     31
+    ],
+    "link_id": "B7",
+    "gist": "Kofi argues for Lumenboard because its drag-and-drop builder lets finance and operations build their own charts, which saves about 2.5 analyst-days a week, it is hosted so there is nothing to maintain, and a converter tested on 12 of the 40 dashboards imports their queries.",
+    "text": "Kofi: Um, kind of. So, I think maybe the thing is, the drag-and-drop builder in the paid one means finance and ops can just make their own charts. And when I went through the ticket list, that's about two and a half analyst-days a week that stop landing on us. It's hosted too, so nobody's babysitting a server. And, uh, Greta's worry was porting, so I ran the converter on twelve of the forty dashboards and the queries came across fine.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "rationale",
+    "predicted_role": "proposal",
+    "meeting_id": "m4",
+    "idxs": [
+     44
+    ],
+    "link_id": "B11",
+    "gist": "Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter.",
+    "text": "Jonas: Okay, so, what nobody's said yet. The new shared query cache has taken compute down to 0.30 dollars a trial account, so the cost worry we started with is just gone, and those EU failures can't be fixed this quarter, so I'm saying back to the 14 days, free, no card.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FN",
+    "cat": "FN_cap",
+    "role": "rationale",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     51
+    ],
+    "link_id": "B6",
+    "gist": "Yuki argues that a 30-day trial with a card at signup would filter out throwaway accounts while still giving serious buyers a longer look.",
+    "text": "Yuki: Not the ones who matter, because if you make it thirty days and take a card up front, the throwaways just don't bother, and anybody serious gets a proper month with it instead of two weeks.",
+    "headline": true,
+    "implicit": false
+   }
+  ],
+  "FN_cross": [
+   {
+    "set_id": "set_01045",
+    "kind": "FN",
+    "cat": "FN_cross",
+    "role": "resolution",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     67
+    ],
+    "link_id": "B7",
+    "gist": "Lena decides the team builds the in-house push service.",
+    "text": "Lena: Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FN",
+    "cat": "FN_cross",
+    "role": "evidence",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     30,
+     31
+    ],
+    "link_id": "B4",
+    "gist": "Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher.",
+    "text": "Kofi: Of the hundred and forty target accounts we sent that save-the-date to, fifty-eight have come back with a yes. That's as of this morning. Kofi: And the Frankfurt place sent a new quote yesterday. It's twenty-two percent up on what they gave Tariq.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FN",
+    "cat": "FN_cross",
+    "role": "resolution",
+    "predicted_role": null,
+    "meeting_id": "m3",
+    "idxs": [
+     89
+    ],
+    "link_id": "B8",
+    "gist": "Zainab confirms the three regional roadshows.",
+    "text": "Zainab: Heard. The planning submission says three regional roadshows, Manchester, Frankfurt, Austin. Tariq, tidy the sheet for it.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FN",
+    "cat": "FN_cross",
+    "role": "evidence",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     23
+    ],
+    "link_id": "B4",
+    "gist": "Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account.",
+    "text": "Pavel: First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses. Compute is 1.80 dollars per trial account.",
+    "headline": true,
+    "implicit": false
+   }
+  ],
+  "FN_role": [
+   {
+    "set_id": "set_01013",
+    "kind": "FN",
+    "cat": "FN_role",
+    "role": "proposal",
+    "predicted_role": "evidence",
+    "meeting_id": "m1",
+    "idxs": [
+     28
+    ],
+    "link_id": "B1",
+    "gist": "Hana proposes moving the Leeds depot to a consolidated twice-weekly van run from Northway Haulage at 4,100 pounds a month, starting on 26 June.",
+    "text": "Hana: Them, yeah. What I'd want is Leeds on a consolidated van run, twice a week, from Northway, everything on the one load. It's 4,100 pounds a month. Could start the 26th of June.",
+    "headline": true,
+    "implicit": false
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FN",
+    "cat": "FN_role",
+    "role": "rationale",
+    "predicted_role": "challenge",
+    "meeting_id": "m3",
+    "idxs": [
+     46,
+     47
+    ],
+    "link_id": "B7",
+    "gist": "Sofia answers that the save-the-date went out before executive invitations, which tripled responses last year, and that even with the Frankfurt increase the roadshows come in 61,000 dollars under the central event.",
+    "text": "Sofia: Okay. So the replies. That save-the-date went out before a single executive invitation did, and last year it was the executive invitations that tripled responses. Sofia: And the money, even with the Frankfurt increase sitting in there, Tariq's sheet has the roadshows coming in 61,000 dollars under the central event.",
+    "headline": true,
+    "implicit": false
+   }
+  ],
+  "FN_span": [
+   {
+    "set_id": "set_01015",
+    "kind": "FN",
+    "cat": "FN_span",
+    "role": "rationale",
+    "predicted_role": "evidence",
+    "meeting_id": "m1",
+    "idxs": [
+     32
+    ],
+    "link_id": "B2",
+    "gist": "Dmitri argues the panels reach the 0.85 absorption target at 62 pounds per square metre, about 20 percent under the timber slat quote, and count toward the landlord's recycled-content clause.",
+    "text": "Dmitri: Different supplier, I think. Look, it does the job, right, it reaches the 0.85 target at 62 pounds a square metre, which is about 20 percent under that timber slat quote, and it counts toward the landlord's recycled-content clause.",
+    "headline": true,
+    "implicit": false
+   }
+  ],
+  "FN_within": [
+   {
+    "set_id": "set_01014",
+    "kind": "FN",
+    "cat": "FN_within",
+    "role": "proposal",
+    "predicted_role": null,
+    "meeting_id": "m2",
+    "idxs": [
+     91
+    ],
+    "link_id": "D1",
+    "gist": "Lena suggests moving the release-notes email from weekly to monthly.",
+    "text": "Lena: Short-ish. Oh, while I've got you all, the other email. The release notes. Could that just go out monthly instead of every week?",
+    "headline": false,
+    "implicit": false
+   }
+  ],
+  "FP_dup": [
+   {
+    "set_id": "set_01003",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "proposal",
+    "meeting_id": "m3",
+    "idxs": [
+     2,
+     3
+    ],
+    "decision": "flooring material for Level 4 fit-out",
+    "text": "Mateo: I called Norvik. They said they can heat-weld the seams at the factory, it's a thing they do. Sven: Oh, that's, yes, that's what I was going to say. So, listen, we keep the vinyl plank, because it's cheaper and the delivery is fine, but we get the seams heat-sealed, and across the pantry and the entrance, the first stretch, we put ceramic tile instead of plank. That's where the water is, it takes care of it, and we don't pay for tile on the whole floor.",
+    "gold": {
+     "link_id": "B7",
+     "role": "rationale",
+     "idxs": [
+      3
+     ],
+     "gist": "Sven says keeping vinyl plank but having Norvik heat-seal the seams and putting a ceramic tile band across the pantry and entrance zones fixes the moisture problem without paying for tile everywhere."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01015",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "rationale",
+    "meeting_id": "m2",
+    "idxs": [
+     49
+    ],
+    "decision": "Fourth Floor Refit Noise Solution",
+    "text": "Kwame: Yes, and that's rather my point, Dmitri. If Ravi puts his name on that form as it stands and we've got a known C on an escape route, that could void the building cover, and the fitters walk in on the third of February.",
+    "gold": {
+     "link_id": "B5",
+     "role": "challenge",
+     "idxs": [
+      49
+     ],
+     "gist": "Kwame objects that signing the order as it stands could void the building cover, with installation booked for 3 February."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "rationale",
+    "meeting_id": "m2",
+    "idxs": [
+     60
+    ],
+    "decision": "Summit format for next year",
+    "text": "Sofia: Oh. Okay.",
+    "gold": {
+     "link_id": "B5",
+     "role": "challenge",
+     "idxs": [
+      59
+     ],
+     "gist": "Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "rationale",
+    "meeting_id": "m1",
+    "idxs": [
+     37
+    ],
+    "decision": "Trial for Insights (option: Fourteen days, free trial)",
+    "text": "Jonas: Well, somebody's got to say something, so. Fourteen days, free, and nobody hands over a card. That's how Insights goes out the door.",
+    "gold": {
+     "link_id": "B1",
+     "role": "proposal",
+     "idxs": [
+      37
+     ],
+     "gist": "Jonas proposes launching the Insights tier with a 14-day free trial and no card required."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01015",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "rationale",
+    "meeting_id": "m1",
+    "idxs": [
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "decision": "Fourth Floor Refit Noise Solution",
+    "text": "Dmitri: Yeah, so I've been talking to Tessaline- Kwame: Who? Dmitri: Tessaline, they do a recycled PET felt wall panel, and honestly I'd run it right across the floor, the whole 310 square metres. Kwame: The whole floor? Not just the bits round the meeting rooms? Dmitri: Whole floor. Otherwise you're just-",
+    "gold": {
+     "link_id": "B1",
+     "role": "proposal",
+     "idxs": [
+      28
+     ],
+     "gist": "Dmitri proposes recycled PET felt wall panels from Tessaline across all 310 square metres of the fourth floor."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01003",
+    "kind": "FP",
+    "cat": "FP_dup",
+    "role": "challenge",
+    "meeting_id": "m1",
+    "idxs": [
+     2
+    ],
+    "decision": "flooring material for Level 4 fit-out (option: luxury vinyl plank from Norvik Supply)",
+    "text": "Aisha: Why not carpet tile? Everyone's doing carpet tile.",
+    "gold": {
+     "link_id": "B1",
+     "role": "proposal",
+     "idxs": [
+      1
+     ],
+     "gist": "Mateo proposes using luxury vinyl plank flooring from Norvik Supply for the new Level 4 office fit-out."
+    },
+    "headline": true
+   }
+  ],
+  "FP_inscope": [
+   {
+    "set_id": "set_01019",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "challenge",
+    "meeting_id": "m3",
+    "idxs": [
+     12
+    ],
+    "decision": "changing engineering hiring process (option: no take-home)",
+    "text": "Jonas: Mm. But that was the data team. Maybe engineers are, you know, different.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01045",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "evidence",
+    "meeting_id": "m1",
+    "idxs": [
+     26
+    ],
+    "decision": "renewing the push provider contract",
+    "text": "Pavel: Over a thousand. I'd have to look.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01002",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "rationale",
+    "meeting_id": "m3",
+    "idxs": [
+     1
+    ],
+    "decision": "Choosing event platform",
+    "text": "Noor: I looked at three. The one I like is four dollars an attendee and handles registration and reminders automatically.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01002",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "resolution",
+    "meeting_id": "m3",
+    "idxs": [
+     6
+    ],
+    "decision": "Choosing event platform",
+    "text": "Greta: Sign up for it. Lakshmi, the reception, we need a guest list.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01030",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "resolution",
+    "meeting_id": "m2",
+    "idxs": [
+     55
+    ],
+    "decision": "Dashboard tool selection",
+    "text": "Pavel: Some. I'm not moving on this today. Marco, carry on with the setup as planned, and I want the real numbers before we talk about it again.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01002",
+    "kind": "FP",
+    "cat": "FP_inscope",
+    "role": "challenge",
+    "meeting_id": "m1",
+    "idxs": [
+     26
+    ],
+    "decision": "When to mention the conference date in the newsletter (option: Not until the booking's confirmed)",
+    "text": "Noor: Should the newsletter mention the date?",
+    "gold": null,
+    "headline": false
+   }
+  ],
+  "FP_outside": [
+   {
+    "set_id": "set_01006",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "reconsideration",
+    "meeting_id": "m2",
+    "idxs": [
+     14
+    ],
+    "decision": "Replenishment vendor performance evaluation",
+    "text": "Tomas: I don't want to decide this in the room. Let everybody look at the numbers and we'll come back to it.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "resolution",
+    "meeting_id": "m3",
+    "idxs": [
+     98
+    ],
+    "decision": "Summit format for next year",
+    "text": "Sofia: Don't look at me.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01019",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "rationale",
+    "meeting_id": "m1",
+    "idxs": [
+     90
+    ],
+    "decision": "changing engineering hiring process",
+    "text": "Priya: About the same, but the quality of the comparison is better. That's my argument.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01002",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "challenge",
+    "meeting_id": "m3",
+    "idxs": [
+     4
+    ],
+    "decision": "Choosing event platform",
+    "text": "Ivan: I think, maybe, that's fine? I remember another vendor wanted seven dollars.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01012",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "resolution",
+    "meeting_id": "m1",
+    "idxs": [
+     26
+    ],
+    "decision": "Updating the rota for Saturday cover",
+    "text": "Greta: Fine. Done.",
+    "gold": null,
+    "headline": false
+   },
+   {
+    "set_id": "set_01012",
+    "kind": "FP",
+    "cat": "FP_outside",
+    "role": "proposal",
+    "meeting_id": "m3",
+    "idxs": [
+     8
+    ],
+    "decision": "Implementing handheld scanners for receiving stock",
+    "text": "Kofi: Leeds again? Since they've done it.",
+    "gold": null,
+    "headline": false
+   }
+  ],
+  "FP_role": [
+   {
+    "set_id": "set_01014",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "evidence",
+    "meeting_id": "m1",
+    "idxs": [
+     41
+    ],
+    "decision": "Trial for Insights",
+    "text": "Jonas: Because of the test the growth team ran on the pricing page in May. They pulled the card field out and signups went up threefold. Three times over.",
+    "gold": {
+     "link_id": "B2",
+     "role": "rationale",
+     "idxs": [
+      41
+     ],
+     "gist": "Jonas argues that removing the card field took signups up threefold on the pricing-page test the growth team ran in May."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01030",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "evidence",
+    "meeting_id": "m1",
+    "idxs": [
+     21
+    ],
+    "decision": "Choosing a dashboard tool",
+    "text": "Greta: That's the one. So the thing is, it costs us nothing to license, and the paid option was, what was it, about thirteen four a year for the sixty-two viewers we have.",
+    "gold": {
+     "link_id": "B2",
+     "role": "rationale",
+     "idxs": [
+      21,
+      23
+     ],
+     "gist": "Greta argues that it has no licence cost against about 13,400 dollars a year for Lumenboard across 62 viewers, takes about one engineer-day a week to maintain, and the SQL behind the 40 existing dashboards ports straight over."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "proposal",
+    "meeting_id": "m4",
+    "idxs": [
+     44
+    ],
+    "decision": "Insights trial period and card requirement",
+    "text": "Jonas: Okay, so, what nobody's said yet. The new shared query cache has taken compute down to 0.30 dollars a trial account, so the cost worry we started with is just gone, and those EU failures can't be fixed this quarter, so I'm saying back to the 14 days, free, no card.",
+    "gold": {
+     "link_id": "B11",
+     "role": "rationale",
+     "idxs": [
+      44
+     ],
+     "gist": "Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01000",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "reconsideration",
+    "meeting_id": "m1",
+    "idxs": [
+     20
+    ],
+    "decision": "Pricing model for analytics add-on",
+    "text": "Diego: Sure, sure. For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off.",
+    "gold": {
+     "link_id": "B3",
+     "role": "resolution",
+     "idxs": [
+      20
+     ],
+     "gist": "Diego decides to go with per-seat pricing at $12 for launch."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01004",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "evidence",
+    "meeting_id": "m4",
+    "idxs": [
+     5
+    ],
+    "decision": "trial policy",
+    "text": "Omar: Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear.",
+    "gold": {
+     "link_id": "B11",
+     "role": "rationale",
+     "idxs": [
+      5
+     ],
+     "gist": "Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01016",
+    "kind": "FP",
+    "cat": "FP_role",
+    "role": "challenge",
+    "meeting_id": "m3",
+    "idxs": [
+     48,
+     50
+    ],
+    "decision": "Summit format for next year (option: three regional roadshows)",
+    "text": "Kofi: Tripled. Says who? Kofi: Three times fifty-eight's a hundred and seventy-four. We only wrote to a hundred and forty.",
+    "gold": {
+     "link_id": "B7",
+     "role": "rationale",
+     "idxs": [
+      46,
+      47
+     ],
+     "gist": "Sofia answers that the save-the-date went out before executive invitations, which tripled responses last year, and that even with the Frankfurt increase the roadshows come in 61,000 dollars under the central event."
+    },
+    "headline": true
+   }
+  ],
+  "FP_span": [
+   {
+    "set_id": "set_01019",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "challenge",
+    "meeting_id": "m1",
+    "idxs": [
+     26
+    ],
+    "decision": "changing engineering hiring process",
+    "text": "Diego: Hm. Okay. I mean, I've done those as a candidate and they never stay thirty minutes.",
+    "gold": {
+     "link_id": "B1",
+     "role": "proposal",
+     "idxs": [
+      23
+     ],
+     "gist": "Priya proposes replacing the first-round phone screen for engineering roles with a 30-minute take-home exercise."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01014",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "evidence",
+    "meeting_id": "m4",
+    "idxs": [
+     21
+    ],
+    "decision": "Insights trial period and card requirement",
+    "text": "Pavel: 148 signups. 3.4 percent activated. Five accounts.",
+    "gold": {
+     "link_id": "B10",
+     "role": "reconsideration",
+     "idxs": [
+      18
+     ],
+     "gist": "Meera reopens the trial policy after finance confirms the EU failure rate has not improved."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01004",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "resolution",
+    "meeting_id": "m4",
+    "idxs": [
+     7
+    ],
+    "decision": "trial policy",
+    "text": "Omar: Then we look at it. With real data.",
+    "gold": {
+     "link_id": "B11",
+     "role": "rationale",
+     "idxs": [
+      5
+     ],
+     "gist": "Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01030",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "challenge",
+    "meeting_id": "m2",
+    "idxs": [
+     29
+    ],
+    "decision": "Dashboard tool selection",
+    "text": "Aisha: Yeah. Finance can't make their own charts. Not at all. I went through the last three weeks of tickets.",
+    "gold": {
+     "link_id": "B4",
+     "role": "evidence",
+     "idxs": [
+      31
+     ],
+     "gist": "Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01004",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "proposal",
+    "meeting_id": "m4",
+    "idxs": [
+     8
+    ],
+    "decision": "trial policy",
+    "text": "Omar: So, my ask is, drop the card and go back to the fourteen days, no card.",
+    "gold": {
+     "link_id": "B11",
+     "role": "rationale",
+     "idxs": [
+      5
+     ],
+     "gist": "Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups."
+    },
+    "headline": true
+   },
+   {
+    "set_id": "set_01015",
+    "kind": "FP",
+    "cat": "FP_span",
+    "role": "evidence",
+    "meeting_id": "m3",
+    "idxs": [
+     24
+    ],
+    "decision": "Tessaline felt panels for the fourth floor refit",
+    "text": "Dmitri: 46. I measured it off the refit drawings, twice, 46 square metres of escape corridor.",
+    "gold": {
+     "link_id": "B6",
+     "role": "reconsideration",
+     "idxs": [
+      21
+     ],
+     "gist": "Ravi reopens the panel order now that the supplier has replied about the corridor rating."
+    },
+    "headline": true
+   }
+  ]
+ },
+ "inscope_all": [
+  {
+   "set_id": "set_01002",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "challenge",
+   "meeting_id": "m1",
+   "idxs": [
+    26
+   ],
+   "decision": "When to mention the conference date in the newsletter (option: Not until the booking's confirmed)",
+   "text": "Noor: Should the newsletter mention the date?",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01002",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "proposal",
+   "meeting_id": "m3",
+   "idxs": [
+    1
+   ],
+   "decision": "Choosing event platform",
+   "text": "Noor: I looked at three. The one I like is four dollars an attendee and handles registration and reminders automatically.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01002",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "resolution",
+   "meeting_id": "m3",
+   "idxs": [
+    6
+   ],
+   "decision": "Choosing event platform",
+   "text": "Greta: Sign up for it. Lakshmi, the reception, we need a guest list.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01002",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "rationale",
+   "meeting_id": "m3",
+   "idxs": [
+    1
+   ],
+   "decision": "Choosing event platform",
+   "text": "Noor: I looked at three. The one I like is four dollars an attendee and handles registration and reminders automatically.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01003",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m2",
+   "idxs": [
+    12
+   ],
+   "decision": "flooring material for Level 4 fit-out",
+   "text": "Tariq: Right. I don't want to decide this in the meeting. Let's all think about it and come back next week.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01014",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "resolution",
+   "meeting_id": "m1",
+   "idxs": [
+    9
+   ],
+   "decision": "Notifying Halden Foods account manager about the export issue",
+   "text": "Meera: Fine. Note to their account manager by noon tomorrow, please.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01014",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "rationale",
+   "meeting_id": "m2",
+   "idxs": [
+    46
+   ],
+   "decision": "Insights trial period and card requirement",
+   "text": "Jonas: Just under 9,400 visitors on each arm, 38 percent of signups on free mail, and the threefold holds up. Take that field away and you get three times the people. Put it back, you lose them.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01019",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m3",
+   "idxs": [
+    3
+   ],
+   "decision": "changing engineering hiring process",
+   "text": "Bashir: Yes. That's, um, that's what I wanted. We've been round it twice now.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01019",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "rationale",
+   "meeting_id": "m3",
+   "idxs": [
+    8
+   ],
+   "decision": "changing engineering hiring process (option: no take-home)",
+   "text": "Priya: Take-home is about ten minutes a review, plus a reply to every single candidate. I put that in.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01019",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "challenge",
+   "meeting_id": "m3",
+   "idxs": [
+    12
+   ],
+   "decision": "changing engineering hiring process (option: no take-home)",
+   "text": "Jonas: Mm. But that was the data team. Maybe engineers are, you know, different.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01030",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "resolution",
+   "meeting_id": "m2",
+   "idxs": [
+    55
+   ],
+   "decision": "Dashboard tool selection",
+   "text": "Pavel: Some. I'm not moving on this today. Marco, carry on with the setup as planned, and I want the real numbers before we talk about it again.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01004",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "evidence",
+   "meeting_id": "m1",
+   "idxs": [
+    11
+   ],
+   "decision": "trial length for the launch",
+   "text": "Diego: It's next month.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01012",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m2",
+   "idxs": [
+    20
+   ],
+   "decision": "Purchasing handheld scanners",
+   "text": "Kofi: I think, um, there are good arguments. I don't want to decide right now. Can we compare properly? Henrik, can you put a one-pager together?",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01013",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "resolution",
+   "meeting_id": "m2",
+   "idxs": [
+    84
+   ],
+   "decision": "Leeds depot restocking approach",
+   "text": "Yuki: I know. I know it is, Mei, and I'm not, um, I hear you. I think maybe we just pick it back up when we've actually got more than one week in front of us. I'd rather come back to it properly.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01013",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m2",
+   "idxs": [
+    84
+   ],
+   "decision": "Leeds depot restocking approach",
+   "text": "Yuki: I know. I know it is, Mei, and I'm not, um, I hear you. I think maybe we just pick it back up when we've actually got more than one week in front of us. I'd rather come back to it properly.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01013",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "challenge",
+   "meeting_id": "m3",
+   "idxs": [
+    68
+   ],
+   "decision": "Leeds depot restocking approach",
+   "text": "Zainab: I mean, I can see it. I suppose my only thing is the wider shape, we were trying to make Leeds less of a special case, and this kind of, um, isn't that a van most days again?",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01015",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m2",
+   "idxs": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ],
+   "decision": "Fourth Floor Refit Noise Solution",
+   "text": "Ravi: In writing, same as the lead time. Fatima, can you get hold of the surveyor before his report's out? Even an email, just with the exact wording. Fatima: I've got his card. I'll try him today. Ravi: Thanks. And I'll ask legal, or whoever reads the policy, what it actually says about linings. That's three things and today's the seventeenth. Dmitri: So where does that leave the order? Because the twenty-fourth is Friday, it's a week, and Tessaline will want to know- Ravi: Nothing changes on paper yet. It's still the Tessaline felt, finance has it, I just want to see those three answers before we talk about it again. Kwame: And the form? Ravi: It's in my inbox, Kwame, I know where it is. We'll come back to it.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01015",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "rationale",
+   "meeting_id": "m3",
+   "idxs": [
+    38
+   ],
+   "decision": "Tessaline felt panels for the fourth floor refit",
+   "text": "Ravi: Legal came back Wednesday. It's one policy, whole building, and there's a condition that escape routes are kept to whatever standard the insurer's surveyor sets. Breach it and they can decline a claim.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01016",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "resolution",
+   "meeting_id": "m2",
+   "idxs": [
+    80
+   ],
+   "decision": "Summit format for next year",
+   "text": "Zainab: Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01016",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "reconsideration",
+   "meeting_id": "m2",
+   "idxs": [
+    80
+   ],
+   "decision": "Summit format for next year",
+   "text": "Zainab: Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid.",
+   "gold": null,
+   "headline": false
+  },
+  {
+   "set_id": "set_01045",
+   "kind": "FP",
+   "cat": "FP_inscope",
+   "role": "evidence",
+   "meeting_id": "m1",
+   "idxs": [
+    26
+   ],
+   "decision": "renewing the push provider contract",
+   "text": "Pavel: Over a thousand. I'd have to look.",
+   "gold": null,
+   "headline": false
+  }
+ ]
+}

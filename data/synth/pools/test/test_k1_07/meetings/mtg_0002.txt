@@ -1,0 +1,90 @@
+Meeting: mtg_0002
+Date: 2025-06-19
+Participants: Sofia, Pavel, Kofi, Bashir, Priya
+
+Sofia: Morning. Is everyone here? I don't see Pavel yet.
+Pavel: Here, here. My headset decided to update itself.
+Sofia: Okay. Priya, did you work out which July week you're covering for Kofi?
+Priya: Um, yes. I think maybe it's the fourteenth. I checked the sheet last night.
+Kofi: I had the seventh in my head.
+Priya: The seventh is Bashir's, I'm fairly sure.
+Bashir: Mine.
+Sofia: Great, fourteenth it is. Kofi, shout if that's wrong.
+Kofi: Will do.
+Sofia: Next, Gabor asked about the load test environment again. Nikos says it's free next week.
+Pavel: Oh good. Because last time I used it the seed data was from like March.
+Sofia: Is that a problem?
+Pavel: For invoice tests, kind of. Half the customers in there are on plans we retired.
+Sofia: So can someone ask Nikos to refresh it? Pavel?
+Pavel: Yeah, I'll ping him after this.
+Kofi: Does a refresh wipe the dashboards? It did last time.
+Pavel: I don't think so. It might have. I'll ask.
+Sofia: Fine. Okay, Priya, you said you had something from the audit side.
+Priya: Um, yes. I talked to Sunita on Monday, about how long we have to keep these events, and, I think maybe it's bigger than we figured.
+Sofia: More than seven years?
+Priya: No, seven's right, but it's not a guideline. The auditors put it in writing, so it's required. And at our growth that's roughly two hundred fifty gigs sitting in the table.
+Priya: And, um, I asked Irina about the backups. The nightly one on the primary is forty minutes now, and she thinks maybe ninety-five in about three years with all that in there. The maintenance window is only sixty.
+Pavel: Huh. Ninety-five. Okay, that's not nothing.
+Bashir: No.
+Kofi: So that's what I was poking at last week. All seven years living on the primary means the backup runs out of its window, and the failover drills restore from that same backup, so those crawl too.
+Pavel: Well, hang on. The old partitions are static. The backup could in theory skip them, I'd have to check how we do it.
+Kofi: Could in theory. Is that what we do today?
+Pavel: No. Today it's the whole thing. Full dump.
+Priya: I think maybe that's worth looking into? I'm not sure how much work it is.
+Sofia: Right, so, big picture, the table is still the plan, but this is a real wrinkle. Nobody's saying otherwise?
+Kofi: I'm saying it's a wrinkle, yeah.
+Sofia: Okay. Priya, is Irina's estimate a guess?
+Priya: Um, it was more of a back-of-envelope. I could ask her to run it properly against a copy.
+Sofia: Please. Not urgent, but soon.
+Priya: Okay. I'll ask her today.
+Pavel: Funny thing, Irina told me last month the backup already runs long at month end because of the invoice runs.
+Kofi: How long?
+Pavel: Fifty-something? Don't quote me.
+Kofi: That's already close to the window.
+Pavel: Close, yeah. Sorry, I forgot that until just now.
+Bashir: Noted.
+Sofia: Okay, let's park it until Irina's numbers come back. Anything else on that?
+Kofi: Not from me.
+Sofia: Good. Other thing, and Bashir this one's yours, the pager last week was awful.
+Bashir: Yeah.
+Sofia: People were saying the slow-query alerts were basically constant. Is that the database side?
+Bashir: Yes. It's too twitchy. Move it up to five hundred, from two hundred.
+Sofia: Why that much, though?
+Bashir: Sixty-three pages last week. Fifty-eight were the nightly report job. Nobody cares about those.
+Kofi: The report job is just slow by nature, right? It scans everything.
+Bashir: Yes.
+Priya: I think maybe we'd still catch the real ones at that level? Like anything customer-facing would be well over it anyway.
+Bashir: Right. Real ones are way over.
+Kofi: Devil's advocate, what if a real one creeps from two hundred to four hundred and nobody notices?
+Bashir: Dashboard shows it. Alert is for pages.
+Kofi: Fair.
+Pavel: We could also exclude the report job from the alert entirely. I did that at my old company, with a tag.
+Bashir: Later. Threshold first.
+Sofia: Okay, that's reasonable. The slow-query alert goes to five hundred milliseconds.
+Bashir: I'll push the change today.
+Sofia: Thanks. Who gets paged if it does fire?
+Bashir: Whoever's on call. Kofi this week.
+Kofi: Yep, that's me till Friday.
+Sofia: Okay. Sanne asked whether we can move the Thursday sync, she has a clash.
+Pavel: To when?
+Sofia: She suggested Friday morning. I told her I'd check.
+Priya: Um, Friday morning I have the, I think maybe the vendor call? Not sure of the time.
+Sofia: What time is it?
+Priya: Ten. Or ten thirty.
+Sofia: Okay, so Friday at eleven works?
+Kofi: Fine by me.
+Bashir: Fine.
+Pavel: I can do eleven. Actually, I might have a thing with Nikos, but I can move it.
+Sofia: Okay, I'll tell her eleven. If it moves again I'll let you know.
+Sofia: One more, Rania sent the quarterly planning template. Has anyone opened it?
+Kofi: Briefly.
+Pavel: It's longer than last quarter.
+Priya: There's a new section on risks, I think? Um, I saw something.
+Sofia: I'll skim it. Probably I'd want everyone's top three by the end of next week.
+Kofi: Top three of what?
+Sofia: Of what you want to work on. Big picture stuff, not tickets.
+Kofi: Okay.
+Pavel: And the audit thing goes in there somewhere, I guess.
+Sofia: Probably, yes, depending on where we end up.
+Bashir: I have a hard stop. Need to go.
+Sofia: Go, go. Thanks everyone.

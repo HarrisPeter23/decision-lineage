@@ -1,0 +1,1734 @@
+{
+ "set_id": "set_01033",
+ "cast": [
+  "Priya",
+  "Fatima",
+  "Sven",
+  "Wei",
+  "Elif"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-07-27",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Priya",
+     "text": "Okay, um, let's get going. Is everyone, is Elif on yet?",
+     "ts": "2025-07-27T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Elif",
+     "text": "Here, sorry, I was on mute.",
+     "ts": "2025-07-27T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Priya",
+     "text": "No worries. So, before the main thing, did the build server get sorted out? It was timing out Friday.",
+     "ts": "2025-07-27T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Wei",
+     "text": "Restarted it. Fine now.",
+     "ts": "2025-07-27T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Sven",
+     "text": "It was the disk, actually. Ninety-something percent full on the cache volume. I cleared out old artifacts.",
+     "ts": "2025-07-27T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Priya",
+     "text": "Oh good, okay. Thank you, Sven.",
+     "ts": "2025-07-27T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Sven",
+     "text": "I put a ticket in to have it alert before that happens again.",
+     "ts": "2025-07-27T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Priya",
+     "text": "Great. Um, and standup is moving to ten, it's, Sunita asked because of the support sync.",
+     "ts": "2025-07-27T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Elif",
+     "text": "Ten is fine with me.",
+     "ts": "2025-07-27T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Wei",
+     "text": "Fine.",
+     "ts": "2025-07-27T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Fatima",
+     "text": "Fine.",
+     "ts": "2025-07-27T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Priya",
+     "text": "Okay. So then, the checkout screen. Design signed off the flows on Friday, I think maybe?",
+     "ts": "2025-07-27T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Sven",
+     "text": "Version four of the flows, yeah. Version three had the old address step so ignore that one.",
+     "ts": "2025-07-27T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Priya",
+     "text": "Right, four. So the, uh, the question is how we actually build it.",
+     "ts": "2025-07-27T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Wei",
+     "text": "Native or not.",
+     "ts": "2025-07-27T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Priya",
+     "text": "Well, sort of, I mean, that's, that's what I was hoping we could talk through.",
+     "ts": "2025-07-27T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Elif",
+     "text": "Camille said payments wants it before the autumn freeze-",
+     "ts": "2025-07-27T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Priya",
+     "text": "End of October, yes.",
+     "ts": "2025-07-27T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Elif",
+     "text": "So not much runway.",
+     "ts": "2025-07-27T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sven",
+     "text": "About fourteen weeks from today if you don't count holidays. Which you should.",
+     "ts": "2025-07-27T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Priya",
+     "text": "Yeah. Okay. Fatima, you had something in the chat, I think? About this?",
+     "ts": "2025-07-27T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Fatima",
+     "text": "Um. Yeah. A little.",
+     "ts": "2025-07-27T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Priya",
+     "text": "Go ahead, no pressure.",
+     "ts": "2025-07-27T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Fatima",
+     "text": "So the settings screens already run on that shared framework, right? I was wondering if checkout could just, you know, live there too.",
+     "ts": "2025-07-27T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Wei",
+     "text": "Hm.",
+     "ts": "2025-07-27T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Priya",
+     "text": "Okay. That's, um, that's a real possibility.",
+     "ts": "2025-07-27T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Sven",
+     "text": "Same setup? Same build config as settings?",
+     "ts": "2025-07-27T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Fatima",
+     "text": "Same, yeah. It's already wired into both apps.",
+     "ts": "2025-07-27T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Priya",
+     "text": "And the, uh, the reason would be...?",
+     "ts": "2025-07-27T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Fatima",
+     "text": "Time, mostly. I went through the estimate sheet. Doing it once comes to about nine weeks.",
+     "ts": "2025-07-27T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Fatima",
+     "text": "Building it twice, once per platform, is more like fifteen.",
+     "ts": "2025-07-27T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Fatima",
+     "text": "And, um, two of our four already know the framework.",
+     "ts": "2025-07-27T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Elif",
+     "text": "Which two? Is it you and-",
+     "ts": "2025-07-27T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Sven",
+     "text": "Me and Fatima. We did settings together.",
+     "ts": "2025-07-27T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Wei",
+     "text": "So Elif and I learn it.",
+     "ts": "2025-07-27T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Elif",
+     "text": "I did the tutorial once. It's not scary.",
+     "ts": "2025-07-27T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Priya",
+     "text": "Mm. Nine against fifteen is, um, quite a gap.",
+     "ts": "2025-07-27T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Sven",
+     "text": "The nine has slack in it though. I think there's a review week. Maybe eight and a half without.",
+     "ts": "2025-07-27T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Fatima",
+     "text": "The review week was mine, yeah.",
+     "ts": "2025-07-27T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Priya",
+     "text": "Okay. Does anyone, uh, have a worry about it?",
+     "ts": "2025-07-27T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Wei",
+     "text": "Payment sheet performance. It stuttered last time.",
+     "ts": "2025-07-27T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Sven",
+     "text": "That was the big settings list. Checkout is mostly forms. I got around sixty frames on the old test phone.",
+     "ts": "2025-07-27T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Wei",
+     "text": "Fine.",
+     "ts": "2025-07-27T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Elif",
+     "text": "What about the card entry field? Don't we need the secure piece from the payment-",
+     "ts": "2025-07-27T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Sven",
+     "text": "Vendor ships a wrapper for it. Ines read the docs, I think.",
+     "ts": "2025-07-27T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Priya",
+     "text": "I'll ask Ines to confirm. That one's mine.",
+     "ts": "2025-07-27T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Elif",
+     "text": "Okay, thanks.",
+     "ts": "2025-07-27T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Priya",
+     "text": "And accessibility, does that carry over, or...?",
+     "ts": "2025-07-27T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Sven",
+     "text": "Screen reader labels behave the same in settings. The audit in May passed with two small issues.",
+     "ts": "2025-07-27T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Fatima",
+     "text": "Both fixed.",
+     "ts": "2025-07-27T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Priya",
+     "text": "Good. I'd forgotten that.",
+     "ts": "2025-07-27T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Wei",
+     "text": "Native animates better. We don't need it.",
+     "ts": "2025-07-27T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Elif",
+     "text": "Design wants a little slide on the confirmation but it's-",
+     "ts": "2025-07-27T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Sven",
+     "text": "Doable. I did something close for the toggle.",
+     "ts": "2025-07-27T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Priya",
+     "text": "Okay, so what's the, um, the risk? If it goes this way?",
+     "ts": "2025-07-27T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Sven",
+     "text": "Biggest is the framework upgrade in September. If it breaks the bridge we lose a few days.",
+     "ts": "2025-07-27T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Wei",
+     "text": "Few days is fine.",
+     "ts": "2025-07-27T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Priya",
+     "text": "Is Leila still doing that upgrade?",
+     "ts": "2025-07-27T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Elif",
+     "text": "She's out second half of August, Camille said.",
+     "ts": "2025-07-27T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Priya",
+     "text": "Oh. I thought first half.",
+     "ts": "2025-07-27T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Elif",
+     "text": "Second. It's on the calendar.",
+     "ts": "2025-07-27T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Priya",
+     "text": "Okay, whichever. That's separate anyway.",
+     "ts": "2025-07-27T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Sven",
+     "text": "Should be done before she goes either way.",
+     "ts": "2025-07-27T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Fatima",
+     "text": "I can read the upgrade notes this week.",
+     "ts": "2025-07-27T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Priya",
+     "text": "That'd be great, thanks.",
+     "ts": "2025-07-27T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Wei",
+     "text": "Are we done on this?",
+     "ts": "2025-07-27T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Priya",
+     "text": "Almost, I'm just, hang on. The backlog still has the old stories in it, doesn't it?",
+     "ts": "2025-07-27T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Sven",
+     "text": "Eleven of them, tagged iOS and Android separately. They'd need merging.",
+     "ts": "2025-07-27T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Elif",
+     "text": "I can merge them, it's an hour-",
+     "ts": "2025-07-27T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Priya",
+     "text": "Mm, well. Wei, could you set up the epics and the sprint board, and fold those old stories in? I'd like it ready for Monday.",
+     "ts": "2025-07-27T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Wei",
+     "text": "Yep. Tomorrow morning.",
+     "ts": "2025-07-27T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Elif",
+     "text": "Do you want me to do the acceptance criteria then?",
+     "ts": "2025-07-27T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "Maybe, um, Sven and Fatima could draft those? Since they know the- yeah.",
+     "ts": "2025-07-27T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Sven",
+     "text": "Sure. I'll start with the address step.",
+     "ts": "2025-07-27T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Fatima",
+     "text": "Okay.",
+     "ts": "2025-07-27T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Wei",
+     "text": "Where does the vendor wrapper work go, its own epic?",
+     "ts": "2025-07-27T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Priya",
+     "text": "Um, probably just a story under the main one, I'd say.",
+     "ts": "2025-07-27T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Wei",
+     "text": "Ok.",
+     "ts": "2025-07-27T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Sven",
+     "text": "Should I flag it as waiting on whatever Ines says?",
+     "ts": "2025-07-27T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Priya",
+     "text": "Yes, mark it blocked until she replies.",
+     "ts": "2025-07-27T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Sven",
+     "text": "Will do.",
+     "ts": "2025-07-27T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Elif",
+     "text": "And the test accounts for the payment sandbox, who has those?",
+     "ts": "2025-07-27T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Fatima",
+     "text": "I have two. I can share them.",
+     "ts": "2025-07-27T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Elif",
+     "text": "Great, I'll need them for the flows.",
+     "ts": "2025-07-27T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Fatima",
+     "text": "Sending after this.",
+     "ts": "2025-07-27T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Priya",
+     "text": "Good. I'm, uh, a little nervous about the nine, honestly, but it's an estimate.",
+     "ts": "2025-07-27T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Sven",
+     "text": "An estimate with a margin.",
+     "ts": "2025-07-27T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Priya",
+     "text": "Right. Okay, other things. Release notes for the point release, who has those?",
+     "ts": "2025-07-27T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Elif",
+     "text": "Me. Draft is in the doc, I need Caio to check the wording.",
+     "ts": "2025-07-27T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Priya",
+     "text": "Caio is back Wednesday, I think.",
+     "ts": "2025-07-27T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Elif",
+     "text": "Tuesday. Doesn't matter, I'll ping him.",
+     "ts": "2025-07-27T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Priya",
+     "text": "Okay.",
+     "ts": "2025-07-27T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Wei",
+     "text": "Anything else?",
+     "ts": "2025-07-27T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Priya",
+     "text": "Um, I think that's, no wait. Sven, the flows link, can you resend it?",
+     "ts": "2025-07-27T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Sven",
+     "text": "Version four, sure.",
+     "ts": "2025-07-27T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Priya",
+     "text": "Thanks. And Fatima, thank you for the estimate sheet.",
+     "ts": "2025-07-27T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Fatima",
+     "text": "Sure.",
+     "ts": "2025-07-27T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Elif",
+     "text": "Oh, one thing, can the demo move? I have a clash on Friday-",
+     "ts": "2025-07-27T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Priya",
+     "text": "Let me look. Probably to Thursday?",
+     "ts": "2025-07-27T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Elif",
+     "text": "Thursday's great.",
+     "ts": "2025-07-27T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Priya",
+     "text": "Okay, I'll move it. Alright, I have to jump to another call. Thanks everyone.",
+     "ts": "2025-07-27T10:20:00"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-08-03",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Priya",
+     "text": "Okay, um, I think maybe we can start. Is everyone on?",
+     "ts": "2025-08-03T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Sven",
+     "text": "All here.",
+     "ts": "2025-08-03T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Elif",
+     "text": "Yep, hi, sorry, my headset was being weird.",
+     "ts": "2025-08-03T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Priya",
+     "text": "No problem. So the demo is Thursday now, I moved it. Does that work for everybody?",
+     "ts": "2025-08-03T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Wei",
+     "text": "Fine.",
+     "ts": "2025-08-03T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Fatima",
+     "text": "Fine with me.",
+     "ts": "2025-08-03T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Sven",
+     "text": "Thursday's good. I'll have the address step done by then.",
+     "ts": "2025-08-03T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Priya",
+     "text": "Great. And did Ines get back to anyone about the card field wrapper?",
+     "ts": "2025-08-03T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Sven",
+     "text": "Friday afternoon. It supports both platforms and she says it's tested on the framework version we're on.",
+     "ts": "2025-08-03T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Priya",
+     "text": "Oh, good. Then that story can come off blocked, I think?",
+     "ts": "2025-08-03T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Sven",
+     "text": "Already took the flag off.",
+     "ts": "2025-08-03T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Priya",
+     "text": "Thank you. Okay. Elif, you said in the channel you'd tried something over the weekend?",
+     "ts": "2025-08-03T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Elif",
+     "text": "Yeah, I built the payment sheet both ways. Quick and dirty, just to see how they feel.",
+     "ts": "2025-08-03T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Priya",
+     "text": "Oh, that's, that's really above and beyond.",
+     "ts": "2025-08-03T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Elif",
+     "text": "It's rough. But the scrolling on the older Android, the four-year-old one, it just crawls in the shared version. Thirty-eight frames, about.",
+     "ts": "2025-08-03T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Elif",
+     "text": "Native one held fifty-eight on the same handset. And I checked analytics, that model is still twenty-two percent of our users.",
+     "ts": "2025-08-03T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Wei",
+     "text": "Hm.",
+     "ts": "2025-08-03T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Priya",
+     "text": "Oh. Um. That's, that's not nothing.",
+     "ts": "2025-08-03T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Sven",
+     "text": "Which handset exactly? The one I tested on in July was a different one, I got sixty on that.",
+     "ts": "2025-08-03T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Elif",
+     "text": "The older one. The small-screen model, the one Caio keeps in his drawer.",
+     "ts": "2025-08-03T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Sven",
+     "text": "Okay, that's slower than mine, yeah. Hang on though-",
+     "ts": "2025-08-03T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Elif",
+     "text": "And I only did the payment sheet, it's not the full-",
+     "ts": "2025-08-03T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Sven",
+     "text": "No, no, it matters. Checkout is where the money comes in. If a fifth of the phones stutter right when someone's about to pay, we'll see it in conversions.",
+     "ts": "2025-08-03T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Sven",
+     "text": "Nobody abandons a cart over a sluggish settings list. This is the one screen where it costs us.",
+     "ts": "2025-08-03T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Fatima",
+     "text": "Could we tune it, maybe? Like, the list virtualization?",
+     "ts": "2025-08-03T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Elif",
+     "text": "I tried a couple of things. It went from thirty to thirty-eight, so that's after.",
+     "ts": "2025-08-03T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Priya",
+     "text": "Oh, so thirty-eight is after tuning?",
+     "ts": "2025-08-03T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Elif",
+     "text": "Some. Not all, I ran out of time.",
+     "ts": "2025-08-03T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Wei",
+     "text": "Native is more work though.",
+     "ts": "2025-08-03T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Sven",
+     "text": "Fifteen versus nine, yes. But I'd want to know what the nine looks like with a perf pass in it.",
+     "ts": "2025-08-03T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Priya",
+     "text": "Right, right, the review week is, um, probably eaten by that then.",
+     "ts": "2025-08-03T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Fatima",
+     "text": "I can rerun the estimate sheet. With a perf week in.",
+     "ts": "2025-08-03T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Priya",
+     "text": "That'd be, yeah, helpful. Thank you, Fatima.",
+     "ts": "2025-08-03T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Fatima",
+     "text": "Okay. I'll look tomorrow.",
+     "ts": "2025-08-03T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Elif",
+     "text": "Should we test on more than one old phone, though? Because I only had the one-",
+     "ts": "2025-08-03T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Sven",
+     "text": "Two at least. I have a spare tablet too but that's not representative.",
+     "ts": "2025-08-03T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Priya",
+     "text": "I don't want to settle anything off one prototype, honestly.",
+     "ts": "2025-08-03T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Wei",
+     "text": "Fair.",
+     "ts": "2025-08-03T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Priya",
+     "text": "Okay, other things. The point release goes out Wednesday. Release notes are still in the doc?",
+     "ts": "2025-08-03T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Elif",
+     "text": "Draft's there. Caio hasn't checked the wording yet.",
+     "ts": "2025-08-03T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Priya",
+     "text": "He's back, isn't he?",
+     "ts": "2025-08-03T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Elif",
+     "text": "He's back, he's just buried. Support sync stuff.",
+     "ts": "2025-08-03T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Wei",
+     "text": "Honestly product should own the store text. Not us.",
+     "ts": "2025-08-03T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Priya",
+     "text": "Oh. Um, say more?",
+     "ts": "2025-08-03T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Wei",
+     "text": "Four of the last six went out late.",
+     "ts": "2025-08-03T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Wei",
+     "text": "And we write what the code does, not what the feature is. Camille's people rewrote ours twice.",
+     "ts": "2025-08-03T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Elif",
+     "text": "The last one was late because the build was-",
+     "ts": "2025-08-03T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Wei",
+     "text": "Four of six.",
+     "ts": "2025-08-03T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Elif",
+     "text": "Okay, okay, fine.",
+     "ts": "2025-08-03T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Sven",
+     "text": "Who in product would take it? Joao?",
+     "ts": "2025-08-03T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Priya",
+     "text": "Joao does the listing copy already, I think. Maybe Leila's team, no, she's engineering. Joao.",
+     "ts": "2025-08-03T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Sven",
+     "text": "He'd need a feed of what changed.",
+     "ts": "2025-08-03T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Priya",
+     "text": "Tickets, I'd say. Titles at least.",
+     "ts": "2025-08-03T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Priya",
+     "text": "Okay, then product writes the release notes from now on, starting with the next point release. I'll tell Joao and Camille today.",
+     "ts": "2025-08-03T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Elif",
+     "text": "Do I still send my draft?",
+     "ts": "2025-08-03T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Priya",
+     "text": "Send it to Joao as a starting point, yes.",
+     "ts": "2025-08-03T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Elif",
+     "text": "Will do.",
+     "ts": "2025-08-03T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Sven",
+     "text": "I'll give him read access to the ticket board.",
+     "ts": "2025-08-03T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Wei",
+     "text": "He has it.",
+     "ts": "2025-08-03T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Sven",
+     "text": "Oh. Good.",
+     "ts": "2025-08-03T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Priya",
+     "text": "Okay, what else. Laptop refresh form, has anybody filled that in? Procurement wants it Friday.",
+     "ts": "2025-08-03T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Fatima",
+     "text": "I did. Mine's the oldest, I think.",
+     "ts": "2025-08-03T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Sven",
+     "text": "I haven't. What's it asking?",
+     "ts": "2025-08-03T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Priya",
+     "text": "Serial number, purchase date, um, whether you need the bigger screen.",
+     "ts": "2025-08-03T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Sven",
+     "text": "Purchase date I'd have to dig up. Spring of 2022, probably.",
+     "ts": "2025-08-03T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Wei",
+     "text": "Check the asset sticker.",
+     "ts": "2025-08-03T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Sven",
+     "text": "Right, yes.",
+     "ts": "2025-08-03T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Elif",
+     "text": "Mine's fine, I'm not doing it.",
+     "ts": "2025-08-03T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Priya",
+     "text": "Please do fill it, even if it's fine, they want everyone.",
+     "ts": "2025-08-03T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Elif",
+     "text": "Ugh. Okay.",
+     "ts": "2025-08-03T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Priya",
+     "text": "And the retro, I wanted to move it, Sunita has the support sync clash again.",
+     "ts": "2025-08-03T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Wei",
+     "text": "When?",
+     "ts": "2025-08-03T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "Thursday afternoon maybe? After the demo.",
+     "ts": "2025-08-03T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Fatima",
+     "text": "That's okay.",
+     "ts": "2025-08-03T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Elif",
+     "text": "I have a thing at four.",
+     "ts": "2025-08-03T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Priya",
+     "text": "We'll be done by three thirty, I'd hope.",
+     "ts": "2025-08-03T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Elif",
+     "text": "Okay.",
+     "ts": "2025-08-03T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Sven",
+     "text": "Back on checkout for a sec, sorry. If Fatima redoes the sheet, can she send it before Thursday so we're not guessing in the demo?",
+     "ts": "2025-08-03T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Fatima",
+     "text": "Wednesday evening. Probably.",
+     "ts": "2025-08-03T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Priya",
+     "text": "That'd be good.",
+     "ts": "2025-08-03T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Elif",
+     "text": "And I'll test on a second old phone. Caio might have another.",
+     "ts": "2025-08-03T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Sven",
+     "text": "Ask him for the model number too.",
+     "ts": "2025-08-03T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Elif",
+     "text": "Yeah.",
+     "ts": "2025-08-03T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Wei",
+     "text": "And the sprint board?",
+     "ts": "2025-08-03T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Priya",
+     "text": "Oh, it's, um, the same, I don't think anyone needs to touch it.",
+     "ts": "2025-08-03T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Wei",
+     "text": "Ok.",
+     "ts": "2025-08-03T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Sven",
+     "text": "Alright. Does the on-call rota change for August, by the way?",
+     "ts": "2025-08-03T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Priya",
+     "text": "Um, same as last month I think. I'll check.",
+     "ts": "2025-08-03T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Sven",
+     "text": "Because I'm away the twelfth.",
+     "ts": "2025-08-03T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Priya",
+     "text": "Oh. Okay, noted. Wei, can you swap?",
+     "ts": "2025-08-03T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Wei",
+     "text": "Maybe. Send me the days.",
+     "ts": "2025-08-03T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Sven",
+     "text": "Will do.",
+     "ts": "2025-08-03T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Priya",
+     "text": "Okay, I have to run, thanks all.",
+     "ts": "2025-08-03T10:18:24"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-08-10",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Priya",
+     "text": "Okay, um, I think maybe we can start. Who's still missing, is it Elif?",
+     "ts": "2025-08-10T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Elif",
+     "text": "Here, here. Sorry, the call before ran over.",
+     "ts": "2025-08-10T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Priya",
+     "text": "No, no, that's fine. Wei, Sven, Fatima, you're all on?",
+     "ts": "2025-08-10T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Wei",
+     "text": "Yep.",
+     "ts": "2025-08-10T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Sven",
+     "text": "Here.",
+     "ts": "2025-08-10T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Fatima",
+     "text": "Here.",
+     "ts": "2025-08-10T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Priya",
+     "text": "Great. So, um, the demo on Thursday went okay, I thought?",
+     "ts": "2025-08-10T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Sven",
+     "text": "Address step looked fine. Camille had a question about the empty state.",
+     "ts": "2025-08-10T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Priya",
+     "text": "Right, the, uh, the empty state. Is that written down somewhere?",
+     "ts": "2025-08-10T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Sven",
+     "text": "It's a ticket now. Low priority.",
+     "ts": "2025-08-10T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Wei",
+     "text": "Fine.",
+     "ts": "2025-08-10T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Priya",
+     "text": "Okay. Um. Before anything else, did the laptop forms all go in?",
+     "ts": "2025-08-10T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Elif",
+     "text": "I did mine. Under protest.",
+     "ts": "2025-08-10T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Priya",
+     "text": "Thank you, Elif. Sven?",
+     "ts": "2025-08-10T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Sven",
+     "text": "Sent it Friday. Purchase date was March 2022, it turned out, not spring. The sticker was right.",
+     "ts": "2025-08-10T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Priya",
+     "text": "Oh good, okay. So procurement should be, yeah.",
+     "ts": "2025-08-10T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Wei",
+     "text": "Anyone know if the new ones have the bigger screen option?",
+     "ts": "2025-08-10T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Priya",
+     "text": "I don't, I'd have to ask. Not today, though.",
+     "ts": "2025-08-10T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Elif",
+     "text": "I heard Leila's team got theirs already. The ones from the first batch, so-",
+     "ts": "2025-08-10T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Priya",
+     "text": "Oh, really? Hm. I'll ask Leila then.",
+     "ts": "2025-08-10T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Wei",
+     "text": "Ok.",
+     "ts": "2025-08-10T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Priya",
+     "text": "Alright. So, the checkout thing. Um. I've been, honestly, I've been going back and forth on it since last week. Elif's numbers from the old Android have been sitting with me.",
+     "ts": "2025-08-10T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Elif",
+     "text": "They're pretty ugly.",
+     "ts": "2025-08-10T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Priya",
+     "text": "They are, I mean, thirty-eight frames, and a fifth of the users. So I'd like us to, to look at it again properly, the way we're building it. Is that okay with everyone?",
+     "ts": "2025-08-10T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Sven",
+     "text": "Yes, please. I'd rather do it now than in week five.",
+     "ts": "2025-08-10T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Wei",
+     "text": "Sure.",
+     "ts": "2025-08-10T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Elif",
+     "text": "Good. I've been wanting to say, I still think native is the safe-",
+     "ts": "2025-08-10T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Priya",
+     "text": "Let's, um, let's hear the sheet first. Fatima, you redid the estimate, didn't you?",
+     "ts": "2025-08-10T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Fatima",
+     "text": "Yeah. Um. I did, Wednesday night.",
+     "ts": "2025-08-10T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Priya",
+     "text": "And there was something you wanted to say about the drops.",
+     "ts": "2025-08-10T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Fatima",
+     "text": "Mm, yes. So I went back into Elif's build and I sort of poked around where the stutter was coming from.",
+     "ts": "2025-08-10T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Sven",
+     "text": "Which screen was it in?",
+     "ts": "2025-08-10T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Fatima",
+     "text": "The saved addresses. Elif's test account has about forty in there, and the list just renders every row at once, nothing optimised.",
+     "ts": "2025-08-10T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Elif",
+     "text": "Right, I did use my big account. It's the one with all the, yeah.",
+     "ts": "2025-08-10T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Fatima",
+     "text": "So it's not really the framework, I think. I swapped in a virtualised list, quick try, and on the same old phone it got up to fifty-five.",
+     "ts": "2025-08-10T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Wei",
+     "text": "Fifty-five where it was thirty-eight?",
+     "ts": "2025-08-10T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Fatima",
+     "text": "Yeah, same handset, same forty. And the phone makers' payment sheets, you can still call those from the shared code through native modules. It costs about three extra days on the nine weeks.",
+     "ts": "2025-08-10T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Priya",
+     "text": "Okay. Oh. That's, um, that's interesting.",
+     "ts": "2025-08-10T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Sven",
+     "text": "That's close to the native number you had. Fifty-eight.",
+     "ts": "2025-08-10T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Elif",
+     "text": "Close, yeah. But that's one list on one phone.",
+     "ts": "2025-08-10T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Fatima",
+     "text": "Sure. I only had the afternoon.",
+     "ts": "2025-08-10T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Priya",
+     "text": "And the, the estimate? With the perf week?",
+     "ts": "2025-08-10T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Fatima",
+     "text": "Kept the review week in. I didn't want to cut it.",
+     "ts": "2025-08-10T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Sven",
+     "text": "Three days. Okay, that's way less than the review week I thought we'd lose.",
+     "ts": "2025-08-10T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Fatima",
+     "text": "I kept the review week. I didn't want to cut it.",
+     "ts": "2025-08-10T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Sven",
+     "text": "Good.",
+     "ts": "2025-08-10T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Priya",
+     "text": "So nine weeks and three days, roughly.",
+     "ts": "2025-08-10T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Elif",
+     "text": "Ten weeks if you're being, you know, honest about the upgrade.",
+     "ts": "2025-08-10T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Sven",
+     "text": "The framework upgrade is separate, it was already in the risks.",
+     "ts": "2025-08-10T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Elif",
+     "text": "I know, I'm just saying-",
+     "ts": "2025-08-10T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Wei",
+     "text": "Native is still fifteen.",
+     "ts": "2025-08-10T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Elif",
+     "text": "Fifteen, sure, but I'm not arguing that now. I'm asking about the card field.",
+     "ts": "2025-08-10T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Sven",
+     "text": "Ines said the wrapper works on both. Tested on our framework version.",
+     "ts": "2025-08-10T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Elif",
+     "text": "Right, you told us. Okay.",
+     "ts": "2025-08-10T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Priya",
+     "text": "Um, can I ask, how long ago was the old phone even bought? Sorry, that's a tangent.",
+     "ts": "2025-08-10T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Elif",
+     "text": "Caio said it's from about four years ago. Someone left it in a drawer.",
+     "ts": "2025-08-10T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Priya",
+     "text": "Right. And is that the only one? The old phone?",
+     "ts": "2025-08-10T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Elif",
+     "text": "I found a second. A different brand, and it was fine, honestly. Around fifty on the existing version.",
+     "ts": "2025-08-10T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Sven",
+     "text": "So the first one is the outlier.",
+     "ts": "2025-08-10T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Elif",
+     "text": "It's the small screen, yeah. I wouldn't call it an outlier at twenty-two percent though.",
+     "ts": "2025-08-10T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Sven",
+     "text": "No, fair.",
+     "ts": "2025-08-10T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Wei",
+     "text": "Should we put the virtualised list in the settings screen too?",
+     "ts": "2025-08-10T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Fatima",
+     "text": "Probably. Settings has the same long list, actually.",
+     "ts": "2025-08-10T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Sven",
+     "text": "That explains last time. The stutter Wei mentioned in the first meeting.",
+     "ts": "2025-08-10T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Wei",
+     "text": "Told you.",
+     "ts": "2025-08-10T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Sven",
+     "text": "You did.",
+     "ts": "2025-08-10T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Priya",
+     "text": "Okay. Um. Does anybody still have a concern about this that we haven't, uh, said out loud?",
+     "ts": "2025-08-10T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Elif",
+     "text": "Animations. The confirmation slide. I think it'll feel a bit flat.",
+     "ts": "2025-08-10T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Sven",
+     "text": "I can do a version of it. We did something like it for the toggle in settings.",
+     "ts": "2025-08-10T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Elif",
+     "text": "Okay. If it's not flat, I'm fine.",
+     "ts": "2025-08-10T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Priya",
+     "text": "Wei?",
+     "ts": "2025-08-10T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Wei",
+     "text": "No.",
+     "ts": "2025-08-10T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "Fatima?",
+     "ts": "2025-08-10T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Fatima",
+     "text": "No, I'm okay. I just want to make sure the list gets properly tuned before we call it done.",
+     "ts": "2025-08-10T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Sven",
+     "text": "Add it to the acceptance criteria. A frame floor on the old phone.",
+     "ts": "2025-08-10T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Fatima",
+     "text": "Fifty, maybe?",
+     "ts": "2025-08-10T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Sven",
+     "text": "Fifty is good.",
+     "ts": "2025-08-10T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Priya",
+     "text": "Okay. So, um, after hearing all that, the drops are the list and not the framework, and the extra cost is small. I'm comfortable, we're building the checkout in the cross-platform framework, same as settings.",
+     "ts": "2025-08-10T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Elif",
+     "text": "Okay. Fine. I'd still test it a lot.",
+     "ts": "2025-08-10T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Priya",
+     "text": "Yes, please, that's, that would be great, Elif.",
+     "ts": "2025-08-10T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Wei",
+     "text": "Board is the same, then.",
+     "ts": "2025-08-10T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Priya",
+     "text": "Yes, nothing to change. Wei, thank you.",
+     "ts": "2025-08-10T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Sven",
+     "text": "I'll add the frame floor to the criteria tonight.",
+     "ts": "2025-08-10T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Fatima",
+     "text": "And I'll put the list fix in as its own story.",
+     "ts": "2025-08-10T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Priya",
+     "text": "Good. Um, oh, one more. Sven, you're away on the twelfth, did Wei swap the on-call?",
+     "ts": "2025-08-10T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Wei",
+     "text": "Done. I'm covering.",
+     "ts": "2025-08-10T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Sven",
+     "text": "Thanks, Wei. I owe you one.",
+     "ts": "2025-08-10T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Priya",
+     "text": "Okay, and the retro, is that Thursday still?",
+     "ts": "2025-08-10T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Elif",
+     "text": "Thursday at three, I think, before my four o'clock.",
+     "ts": "2025-08-10T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Priya",
+     "text": "Yes, three. Okay. Um, I have to jump, I have a one-to-one. Thanks all.",
+     "ts": "2025-08-10T10:17:48"
+    }
+   ]
+  }
+ ]
+}

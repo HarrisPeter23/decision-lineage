@@ -1,0 +1,706 @@
+{
+ "meta": {
+  "model": "mistral-nemo:12b",
+  "digest": "e7e06d107c6c86ed0cf45445f1790720b5092149c4c95f4d965844e9afbfdc89",
+  "ctx": 16384,
+  "servers": [
+   11434,
+   11435
+  ],
+  "mode": "chunked, about 25 lines per call",
+  "wall_s_total": 6225,
+  "per_server": [
+   {
+    "port": 11434,
+    "wall_s": 6225
+   },
+   {
+    "port": 11435,
+    "wall_s": 2650
+   }
+  ]
+ },
+ "runlog": [
+  {
+   "set": "set_01061",
+   "m": 1,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 160.8,
+   "problems": [
+    "37 utterances",
+    "tags ['B2', 'B3'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 3376,
+   "gen_s": 160.7,
+   "tok_s": 21.0
+  },
+  {
+   "set": "set_01060",
+   "m": 1,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 232.9,
+   "problems": [
+    "line 28: banned word 'B2'",
+    "line 33: real brand 'Netflix'",
+    "line 41: banned word 'B3'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 4809,
+   "gen_s": 232.9,
+   "tok_s": 20.6
+  },
+  {
+   "set": "set_01061",
+   "m": 1,
+   "attempt": 2,
+   "port": 11435,
+   "secs": 127.5,
+   "problems": [
+    "51 utterances",
+    "line 12: banned word 'B3'",
+    "line 16: banned word 'B1'",
+    "line 25: banned word 'B2'",
+    "line 40: banned word 'B3'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 3097,
+   "gen_s": 127.5,
+   "tok_s": 24.3
+  },
+  {
+   "set": "set_01060",
+   "m": 1,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 150.2,
+   "problems": [],
+   "out_tok": 3087,
+   "gen_s": 150.2,
+   "tok_s": 20.6
+  },
+  {
+   "set": "set_01061",
+   "m": 1,
+   "attempt": 3,
+   "port": 11435,
+   "secs": 140.6,
+   "problems": [
+    "line 15: banned word 'B3'",
+    "line 16: banned word 'B1'",
+    "line 27: banned word 'B2'",
+    "line 28: banned word 'B2'",
+    "line 52: banned word 'B3'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 3418,
+   "gen_s": 140.6,
+   "tok_s": 24.3
+  },
+  {
+   "set": "set_01061",
+   "m": 2,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 146.1,
+   "problems": [],
+   "out_tok": 3340,
+   "gen_s": 146.1,
+   "tok_s": 22.9
+  },
+  {
+   "set": "set_01060",
+   "m": 2,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 215.3,
+   "problems": [
+    "line 24: real brand 'Microsoft'",
+    "line 38: banned word 'B4'",
+    "line 75: banned word 'B5'",
+    "tags [] != expected ['B4', 'B5']"
+   ],
+   "out_tok": 4172,
+   "gen_s": 215.3,
+   "tok_s": 19.4
+  },
+  {
+   "set": "set_01061",
+   "m": 3,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 195.9,
+   "problems": [],
+   "out_tok": 4245,
+   "gen_s": 195.8,
+   "tok_s": 21.7
+  },
+  {
+   "set": "set_01060",
+   "m": 2,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 253.3,
+   "problems": [
+    "line 31: banned word 'B4'",
+    "line 68: banned word 'B5'",
+    "tags [] != expected ['B4', 'B5']"
+   ],
+   "out_tok": 4964,
+   "gen_s": 253.3,
+   "tok_s": 19.6
+  },
+  {
+   "set": "set_01063",
+   "m": 1,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 151.9,
+   "problems": [],
+   "out_tok": 3620,
+   "gen_s": 151.9,
+   "tok_s": 23.8
+  },
+  {
+   "set": "set_01063",
+   "m": 2,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 124.3,
+   "problems": [],
+   "out_tok": 2839,
+   "gen_s": 124.3,
+   "tok_s": 22.8
+  },
+  {
+   "set": "set_01060",
+   "m": 2,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 279.8,
+   "problems": [
+    "line 5: banned word 'B5'",
+    "line 7: banned word 'B4'",
+    "line 26: banned word 'B4'",
+    "line 74: banned word 'B5'",
+    "tags [] != expected ['B4', 'B5']"
+   ],
+   "out_tok": 5456,
+   "gen_s": 279.8,
+   "tok_s": 19.5
+  },
+  {
+   "set": "set_01063",
+   "m": 3,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 120.9,
+   "problems": [],
+   "out_tok": 2585,
+   "gen_s": 120.9,
+   "tok_s": 21.4
+  },
+  {
+   "set": "set_01065",
+   "m": 1,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 126.3,
+   "problems": [
+    "line 32: real brand 'Salesforce'",
+    "line 35: banned word 'B2'",
+    "tags [] != expected ['B1', 'B2']"
+   ],
+   "out_tok": 3020,
+   "gen_s": 126.3,
+   "tok_s": 23.9
+  },
+  {
+   "set": "set_01060",
+   "m": 3,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 204.6,
+   "problems": [
+    "55 utterances",
+    "line 9: banned word 'B7'",
+    "line 19: banned word 'B6'",
+    "line 20: banned word 'B6'",
+    "line 25: banned word 'B7'",
+    "line 28: banned word 'B7'"
+   ],
+   "out_tok": 3716,
+   "gen_s": 204.5,
+   "tok_s": 18.2
+  },
+  {
+   "set": "set_01065",
+   "m": 1,
+   "attempt": 2,
+   "port": 11435,
+   "secs": 110.9,
+   "problems": [
+    "41 utterances",
+    "tags [] != expected ['B1', 'B2']"
+   ],
+   "out_tok": 2690,
+   "gen_s": 110.9,
+   "tok_s": 24.3
+  },
+  {
+   "set": "set_01065",
+   "m": 1,
+   "attempt": 3,
+   "port": 11435,
+   "secs": 159.3,
+   "problems": [
+    "46 utterances",
+    "tags [] != expected ['B1', 'B2']"
+   ],
+   "out_tok": 3880,
+   "gen_s": 159.3,
+   "tok_s": 24.4
+  },
+  {
+   "set": "set_01060",
+   "m": 3,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 261.9,
+   "problems": [
+    "line 27: banned word 'B5'",
+    "line 50: banned word 'B7'",
+    "line 62: banned word 'B8'",
+    "tags ['B6'] != expected ['B6', 'B7', 'B8']"
+   ],
+   "out_tok": 4972,
+   "gen_s": 261.9,
+   "tok_s": 19.0
+  },
+  {
+   "set": "set_01065",
+   "m": 2,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 183.3,
+   "problems": [
+    "line 22: banned word 'B3'",
+    "line 23: banned word 'B4'",
+    "line 43: banned word 'B5'",
+    "line 44: banned word 'D1'",
+    "line 59: banned word 'D2'",
+    "line 62: banned word 'D3'"
+   ],
+   "out_tok": 4230,
+   "gen_s": 183.3,
+   "tok_s": 23.1
+  },
+  {
+   "set": "set_01065",
+   "m": 2,
+   "attempt": 2,
+   "port": 11435,
+   "secs": 173.9,
+   "problems": [
+    "39 utterances",
+    "line 17: banned word 'B3'",
+    "tags ['B4', 'B5', 'D1', 'D2', 'D3'] != expected ['B3', 'B4', 'B5', 'D1', 'D2', 'D3']"
+   ],
+   "out_tok": 4133,
+   "gen_s": 173.9,
+   "tok_s": 23.8
+  },
+  {
+   "set": "set_01060",
+   "m": 3,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 387.8,
+   "problems": [
+    "line 5: banned word 'B4'",
+    "line 8: banned word 'B7'",
+    "line 16: banned word 'B6'",
+    "line 30: banned word 'B6'",
+    "line 60: banned word 'B7'",
+    "line 81: banned word 'B8'"
+   ],
+   "out_tok": 7305,
+   "gen_s": 387.8,
+   "tok_s": 18.8
+  },
+  {
+   "set": "set_01065",
+   "m": 2,
+   "attempt": 3,
+   "port": 11435,
+   "secs": 161.0,
+   "problems": [
+    "line 10: banned word 'B3'",
+    "line 11: banned word 'B4'",
+    "line 13: banned word 'B5'",
+    "line 17: banned word 'D1'",
+    "line 19: banned word 'D2'",
+    "line 25: banned word 'B3'"
+   ],
+   "out_tok": 3775,
+   "gen_s": 161.0,
+   "tok_s": 23.4
+  },
+  {
+   "set": "set_01062",
+   "m": 1,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 196.5,
+   "problems": [
+    "36 utterances",
+    "line 11: banned word 'B3'",
+    "line 13: banned word 'B4'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 4051,
+   "gen_s": 196.5,
+   "tok_s": 20.6
+  },
+  {
+   "set": "set_01065",
+   "m": 3,
+   "attempt": 1,
+   "port": 11435,
+   "secs": 235.6,
+   "problems": [
+    "line 55: real brand 'Marriott'",
+    "line 58: real brand 'Marriott'",
+    "line 60: real brand 'Marriott'",
+    "line 80: real brand 'Marriott'"
+   ],
+   "out_tok": 5351,
+   "gen_s": 235.6,
+   "tok_s": 22.7
+  },
+  {
+   "set": "set_01062",
+   "m": 1,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 212.1,
+   "problems": [
+    "tags ['B2', 'B3'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 4402,
+   "gen_s": 212.1,
+   "tok_s": 20.8
+  },
+  {
+   "set": "set_01065",
+   "m": 3,
+   "attempt": 2,
+   "port": 11435,
+   "secs": 133.0,
+   "problems": [
+    "line 17: banned word 'B3'"
+   ],
+   "out_tok": 3021,
+   "gen_s": 133.0,
+   "tok_s": 22.7
+  },
+  {
+   "set": "set_01062",
+   "m": 1,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 224.5,
+   "problems": [
+    "58 utterances",
+    "line 18: banned word 'B1'",
+    "line 25: banned word 'B2'",
+    "line 35: banned word 'B3'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 4685,
+   "gen_s": 224.5,
+   "tok_s": 20.9
+  },
+  {
+   "set": "set_01065",
+   "m": 3,
+   "attempt": 3,
+   "port": 11435,
+   "secs": 198.6,
+   "problems": [
+    "tags [] != expected ['B6']"
+   ],
+   "out_tok": 4572,
+   "gen_s": 198.6,
+   "tok_s": 23.0
+  },
+  {
+   "set": "set_01062",
+   "m": 2,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 270.4,
+   "problems": [
+    "line 30: banned word 'B4'",
+    "line 35: banned word 'B5'",
+    "line 37: banned word 'D1'",
+    "line 40: banned word 'D2'",
+    "line 43: banned word 'D3'",
+    "line 44: banned word 'D1'"
+   ],
+   "out_tok": 5315,
+   "gen_s": 270.4,
+   "tok_s": 19.7
+  },
+  {
+   "set": "set_01062",
+   "m": 2,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 196.4,
+   "problems": [],
+   "out_tok": 3864,
+   "gen_s": 196.4,
+   "tok_s": 19.7
+  },
+  {
+   "set": "set_01062",
+   "m": 3,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 221.3,
+   "problems": [
+    "54 utterances",
+    "line 4: banned word 'B6'",
+    "line 14: banned word 'B7'",
+    "line 16: banned word 'B7'",
+    "line 37: banned word 'B8'",
+    "tags ['B6', 'B8'] != expected ['B6', 'B7', 'B8']"
+   ],
+   "out_tok": 4125,
+   "gen_s": 221.3,
+   "tok_s": 18.6
+  },
+  {
+   "set": "set_01062",
+   "m": 3,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 309.5,
+   "problems": [
+    "45 utterances",
+    "line 23: banned word 'B6'",
+    "line 24: banned word 'B6'",
+    "line 25: banned word 'B7'",
+    "line 38: banned word 'B8'",
+    "line 45: banned word 'B8'"
+   ],
+   "out_tok": 5988,
+   "gen_s": 309.5,
+   "tok_s": 19.3
+  },
+  {
+   "set": "set_01062",
+   "m": 3,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 315.5,
+   "problems": [
+    "line 32: banned word 'B6'",
+    "line 33: banned word 'B7'",
+    "line 37: banned word 'B7'",
+    "line 40: banned word 'B7'",
+    "line 42: banned word 'B7'",
+    "line 43: banned word 'B7'"
+   ],
+   "out_tok": 6048,
+   "gen_s": 315.5,
+   "tok_s": 19.2
+  },
+  {
+   "set": "set_01064",
+   "m": 1,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 194.2,
+   "problems": [
+    "46 utterances",
+    "line 46: banned word 'B3'",
+    "tags ['B2'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 3970,
+   "gen_s": 194.2,
+   "tok_s": 20.4
+  },
+  {
+   "set": "set_01064",
+   "m": 1,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 153.7,
+   "problems": [
+    "28 utterances",
+    "line 27: banned word 'B2'",
+    "line 28: banned word 'B3'",
+    "tags [] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 3171,
+   "gen_s": 153.7,
+   "tok_s": 20.6
+  },
+  {
+   "set": "set_01064",
+   "m": 1,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 107.6,
+   "problems": [
+    "28 utterances",
+    "tags ['B1', 'B3'] != expected ['B1', 'B2', 'B3']"
+   ],
+   "out_tok": 2212,
+   "gen_s": 107.6,
+   "tok_s": 20.5
+  },
+  {
+   "set": "set_01064",
+   "m": 2,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 178.7,
+   "problems": [
+    "line 28: banned word 'B4'",
+    "line 30: banned word 'B6'",
+    "line 37: banned word 'B7'",
+    "line 38: banned word 'D1'",
+    "line 57: banned word 'D2'",
+    "line 58: banned word 'D3'"
+   ],
+   "out_tok": 3540,
+   "gen_s": 178.7,
+   "tok_s": 19.8
+  },
+  {
+   "set": "set_01064",
+   "m": 2,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 181.2,
+   "problems": [
+    "53 utterances",
+    "line 9: banned word 'beat'",
+    "line 28: banned word 'B4'",
+    "line 29: banned word 'B5'",
+    "line 30: banned word 'B6'",
+    "line 35: banned word 'B7'"
+   ],
+   "out_tok": 3665,
+   "gen_s": 181.2,
+   "tok_s": 20.2
+  },
+  {
+   "set": "set_01064",
+   "m": 2,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 192.2,
+   "problems": [
+    "line 30: banned word 'B4'",
+    "line 33: banned word 'B5'",
+    "line 35: banned word 'B6'",
+    "line 43: banned word 'B7'",
+    "line 47: banned word 'D1'",
+    "line 65: banned word 'D2'"
+   ],
+   "out_tok": 3879,
+   "gen_s": 192.2,
+   "tok_s": 20.2
+  },
+  {
+   "set": "set_01064",
+   "m": 3,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 211.4,
+   "problems": [
+    "line 5: banned word 'B8'",
+    "line 11: banned word 'B9'",
+    "line 22: banned word 'B8'",
+    "line 42: banned word 'B9'",
+    "tags [] != expected ['B8', 'B9']"
+   ],
+   "out_tok": 4023,
+   "gen_s": 211.4,
+   "tok_s": 19.0
+  },
+  {
+   "set": "set_01064",
+   "m": 3,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 257.1,
+   "problems": [
+    "line 40: banned word 'B8'",
+    "line 59: banned word 'B9'",
+    "tags [] != expected ['B8', 'B9']"
+   ],
+   "out_tok": 5019,
+   "gen_s": 257.1,
+   "tok_s": 19.5
+  },
+  {
+   "set": "set_01064",
+   "m": 3,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 165.2,
+   "problems": [],
+   "out_tok": 3200,
+   "gen_s": 165.2,
+   "tok_s": 19.4
+  },
+  {
+   "set": "set_01064",
+   "m": 4,
+   "attempt": 1,
+   "port": 11434,
+   "secs": 260.5,
+   "problems": [
+    "line 46: banned word 'B10'",
+    "line 62: banned word 'B11'",
+    "line 68: banned word 'D1'",
+    "tags ['B12'] != expected ['B10', 'B11', 'B12']"
+   ],
+   "out_tok": 4750,
+   "gen_s": 260.5,
+   "tok_s": 18.2
+  },
+  {
+   "set": "set_01064",
+   "m": 4,
+   "attempt": 2,
+   "port": 11434,
+   "secs": 246.7,
+   "problems": [
+    "line 40: banned word 'B10'",
+    "line 41: banned word 'B11'",
+    "tags ['B12'] != expected ['B10', 'B11', 'B12']"
+   ],
+   "out_tok": 4652,
+   "gen_s": 246.7,
+   "tok_s": 18.9
+  },
+  {
+   "set": "set_01064",
+   "m": 4,
+   "attempt": 3,
+   "port": 11434,
+   "secs": 144.5,
+   "problems": [],
+   "out_tok": 2694,
+   "gen_s": 144.5,
+   "tok_s": 18.6
+  }
+ ]
+}

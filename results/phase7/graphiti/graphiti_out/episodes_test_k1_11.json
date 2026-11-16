@@ -1,0 +1,44 @@
+[
+ {
+  "meeting_id": "mtg_0001",
+  "episode": "mtg_0001",
+  "date": "2025-07-23",
+  "ok": false,
+  "error": "JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)",
+  "tb": "          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/client.py\", line 146, in _generate_response_with_retry\n    return await self._generate_response(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 171, in _generate_response\n    return json.loads(self._strip_code_fences(result))\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 361, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)\n",
+  "seconds": 1348.7,
+  "llm_calls": 49
+ },
+ {
+  "meeting_id": "mtg_0002",
+  "episode": "mtg_0002",
+  "date": "2025-07-30",
+  "ok": true,
+  "episode_uuid": "8c229c68-cf7a-4160-a6e0-6c3628e32815",
+  "n_nodes": 24,
+  "n_edges": 38,
+  "seconds": 360.2,
+  "llm_calls": 7
+ },
+ {
+  "meeting_id": "mtg_0003",
+  "episode": "mtg_0003",
+  "date": "2025-08-06",
+  "ok": false,
+  "error": "JSONDecodeError: Unterminated string starting at: line 1351 column 15 (char 55764)",
+  "tb": "          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/client.py\", line 146, in _generate_response_with_retry\n    return await self._generate_response(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 171, in _generate_response\n    return json.loads(self._strip_code_fences(result))\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/json/decoder.py\", line 361, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Unterminated string starting at: line 1351 column 15 (char 55764)\n",
+  "seconds": 3319.3,
+  "llm_calls": 27
+ },
+ {
+  "meeting_id": "mtg_0004",
+  "episode": "mtg_0004",
+  "date": "2025-08-13",
+  "ok": true,
+  "episode_uuid": "5552cfaa-517b-4211-a16c-549476d34dae",
+  "n_nodes": 11,
+  "n_edges": 21,
+  "seconds": 209.3,
+  "llm_calls": 25
+ }
+]

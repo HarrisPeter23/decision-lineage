@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01028-q01",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20e7b5b2-2dcf-46e6-b11e-3b2a87bd4053",
+    "name": "ASKED_ABOUT_STREAMING_COVERAGE",
+    "fact": "Henrik asked Marco what production only meant.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b0bb1a35-c042-476c-8fd1-4c4090770d3e",
+    "name": "ASKED_ABOUT_STREAMING_COVERAGE",
+    "fact": "Yuki asked Greta what the streaming quote covered.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q02",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "20e7b5b2-2dcf-46e6-b11e-3b2a87bd4053",
+    "name": "ASKED_ABOUT_STREAMING_COVERAGE",
+    "fact": "Henrik asked Marco what production only meant.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b0bb1a35-c042-476c-8fd1-4c4090770d3e",
+    "name": "ASKED_ABOUT_STREAMING_COVERAGE",
+    "fact": "Yuki asked Greta what the streaming quote covered.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q03",
+  "facts": [
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "093cd761-0afa-4643-a97c-8c12e3f945d3",
+    "name": "MENTIONED_VENUE_HOLD_EXPIRATION",
+    "fact": "Henrik mentioned that the venue hold would expire at the end of the week.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-22T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2c7517e-2c9a-4c72-a11a-fe4562352184",
+    "name": "PROMISED_TO_DO",
+    "fact": "Marco promised to do the shared drive cleanup by the end of the week.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592022+00:00"
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0b6e2f6-e853-4a06-a464-6e6e697d347f",
+    "name": "INFORMED",
+    "fact": "Sven informed Rosa about the confirmed pen delivery date of March 14th.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.591995+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q04",
+  "facts": [
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "093cd761-0afa-4643-a97c-8c12e3f945d3",
+    "name": "MENTIONED_VENUE_HOLD_EXPIRATION",
+    "fact": "Henrik mentioned that the venue hold would expire at the end of the week.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-22T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2c7517e-2c9a-4c72-a11a-fe4562352184",
+    "name": "PROMISED_TO_DO",
+    "fact": "Marco promised to do the shared drive cleanup by the end of the week.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592022+00:00"
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q05",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "cb181f9b-e8ac-4e5a-8980-840980b9986a",
+    "name": "SHARED_DATA",
+    "fact": "Sven shared the registration export data with Greta, which included details about the attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6e8eeb97-cae7-4cdf-a4d3-6f0dcf7fc220",
+    "name": "MENTIONED_HALL_SIGNED",
+    "fact": "Henrik mentioned that the hall was already signed, and he was not ready to change that.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q06",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6e8eeb97-cae7-4cdf-a4d3-6f0dcf7fc220",
+    "name": "MENTIONED_HALL_SIGNED",
+    "fact": "Henrik mentioned that the hall was already signed, and he was not ready to change that.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "350c8915-4485-41a6-9036-7b7ace17ff71",
+    "name": "MENTIONED_STREAMING_LOGO_SUGGESTION",
+    "fact": "Greta mentioned that the idea of putting a sponsor logo on the stream was a nice thought, but not to sell it before it existed.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q07",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "e0b6e2f6-e853-4a06-a464-6e6e697d347f",
+    "name": "INFORMED",
+    "fact": "Sven informed Rosa about the confirmed pen delivery date of March 14th.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.591995+00:00"
+   },
+   {
+    "uuid": "cb181f9b-e8ac-4e5a-8980-840980b9986a",
+    "name": "SHARED_DATA",
+    "fact": "Sven shared the registration export data with Greta, which included details about the attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q08",
+  "facts": [
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0d62d69-e606-4a99-856d-8d074b2554f6",
+    "name": "ASKED_ABOUT_HOTEL_BLOCK",
+    "fact": "Yuki asked Henrik if the hotel block was handled by the venue or by the team.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6e8eeb97-cae7-4cdf-a4d3-6f0dcf7fc220",
+    "name": "MENTIONED_HALL_SIGNED",
+    "fact": "Henrik mentioned that the hall was already signed, and he was not ready to change that.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q09",
+  "facts": [
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb181f9b-e8ac-4e5a-8980-840980b9986a",
+    "name": "SHARED_DATA",
+    "fact": "Sven shared the registration export data with Greta, which included details about the attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "e0d1c0d2-41a9-41e3-959a-2352e6d4c3c0",
+    "name": "PROVIDED_DATA",
+    "fact": "Sven provided Henrik with the registration export data, which showed that 210 out of 300 attendees had registered.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01028-q10",
+  "facts": [
+   {
+    "uuid": "e89f8dd1-d90c-4472-9c39-6317f114f142",
+    "name": "PROPOSED_EVENT",
+    "fact": "Henrik proposed a two-day customer conference in Prague in October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2e8dd504-3543-40a2-bac3-8885c40a8e5c",
+    "name": "OFFERED_TO_HELP_WITH_INVITE_LIST",
+    "fact": "Yuki offered to start on the invite list for the conference, suggesting pulling from last year's attendees first.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9f153758-b828-4376-9017-571c0c4b8462",
+    "name": "EXPLAINED_REASON_FOR",
+    "fact": "Henrik explained that the customer conference should be in person because of higher satisfaction ratings compared to webinars.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.592037+00:00"
+   },
+   {
+    "uuid": "98ad3374-0f8e-43fc-8634-5211237b04cf",
+    "name": "REGISTERED_ATTENDANCE",
+    "fact": "38 attendees from Asia-Pacific registered for the conference and requested remote access options.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a49325f-bafd-4a49-9ecc-74c4632471db",
+    "name": "MENTIONED_COST_INFORMATION",
+    "fact": "Henrik mentioned that sponsors covered about sixty percent of the total cost for the previous conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "20c634af-977b-4dd1-b319-182700837087",
+    "name": "MENTIONED_SPONSOR_INTEREST",
+    "fact": "Tadeusz from the logistics company mentioned that two sponsors had already asked about booths for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "91510876-8421-425e-935f-7a71cc5ce99c",
+    "name": "MENTIONED_AV_STREAMING_QUOTE",
+    "fact": "Greta mentioned that the AV supplier had sent over a quote for streaming the event, and she wanted to look at the format again.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d5831b25-0852-42b2-8844-850328ab9b49",
+    "name": "COORDINATING_WITH",
+    "fact": "Henrik is coordinating with the hotel partner to provide a rooming estimate for the conference attendees.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60f65504-abf4-4cca-9ce0-bdb606ca1b29",
+    "name": "INFORMED_ABOUT_HOTEL_BLOCK",
+    "fact": "Henrik informed Yuki that the venue had a partner hotel and that they held rooms for the conference.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0b6e2f6-e853-4a06-a464-6e6e697d347f",
+    "name": "INFORMED",
+    "fact": "Sven informed Rosa about the confirmed pen delivery date of March 14th.",
+    "episodes": [
+     "0c1c092e-da8f-4f12-84a7-4b5f5ec85197"
+    ],
+    "valid_at": "2025-02-25T00:00:00+00:00",
+    "invalid_at": "2025-03-04T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:14:48.591995+00:00"
+   },
+   {
+    "uuid": "fef29721-196e-4f5a-865b-5287c5ccf7a2",
+    "name": "MENTIONED_HOLIDAY_CONCERN",
+    "fact": "Yuki mentioned that Ibrahim's team might not attend if the conference was on a holiday in late October.",
+    "episodes": [
+     "999a4f5d-e321-48b0-a0b2-8c9af2f510f1"
+    ],
+    "valid_at": "2025-02-18T00:00:00+00:00",
+    "invalid_at": "2025-02-25T00:00:00+00:00",
+    "expired_at": "2026-11-08T02:03:33.754186+00:00"
+   },
+   {
+    "uuid": "350c8915-4485-41a6-9036-7b7ace17ff71",
+    "name": "MENTIONED_STREAMING_LOGO_SUGGESTION",
+    "fact": "Greta mentioned that the idea of putting a sponsor logo on the stream was a nice thought, but not to sell it before it existed.",
+    "episodes": [
+     "36dd618d-92de-48bc-8197-3b8292db78e0"
+    ],
+    "valid_at": "2025-03-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

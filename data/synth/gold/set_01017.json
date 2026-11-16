@@ -1,0 +1,392 @@
+{
+ "set_id": "set_01017",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "sales operations team",
+  "seed": 1017,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 116
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 99
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 79
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how mid-market accounts are split across the sales team's territories",
+ "options": {
+  "A": "six geographic territories drawn by postcode, one rep owning each",
+  "B": "named-account assignment by industry vertical, three verticals with two reps each"
+ },
+ "cast": [
+  {
+   "name": "Pavel",
+   "slot": "manager",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Marco",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Diego",
+   "slot": "challenger",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Ingrid",
+   "slot": "supporter",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Ravi",
+   "slot": "observer",
+   "style": "likes to play devil's advocate"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "six geographic territories drawn by postcode, one rep owning each"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "named-account assignment by industry vertical, three verticals with two reps each"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Marco proposes splitting the mid-market accounts into six geographic territories drawn by postcode, with one rep owning each.",
+   "version": 1,
+   "option_key": "A",
+   "option": "six geographic territories drawn by postcode, one rep owning each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    11
+   ],
+   "gist": "Marco argues that geography cuts travel time and duplicate outreach, since in the last two quarters 23 percent of mid-market accounts were contacted by two different reps in the same week.",
+   "version": 1,
+   "option_key": "A",
+   "option": "six geographic territories drawn by postcode, one rep owning each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    87
+   ],
+   "gist": "Pavel settles it: mid-market runs on the six postcode territories from the first of next month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "six geographic territories drawn by postcode, one rep owning each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    19
+   ],
+   "gist": "Pavel reports that the parent company announced on Monday that quotas will be reported by vertical (healthcare, financial services, public sector) from the start of next quarter, and that regional quotas are being dropped.",
+   "version": 1,
+   "option_key": "A",
+   "option": "six geographic territories drawn by postcode, one rep owning each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Pavel reopens the territory question because the quota change makes the postcode split hard to measure against.",
+   "version": 1,
+   "option_key": "A",
+   "option": "six geographic territories drawn by postcode, one rep owning each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Ingrid",
+   "utterance_idxs": [
+    36
+   ],
+   "gist": "Ingrid argues for named accounts by vertical because it matches how quota will be measured and lets reps build sector knowledge, and 360 of the 410 mid-market accounts map cleanly to a single vertical.",
+   "version": 2,
+   "option_key": "B",
+   "option": "named-account assignment by industry vertical, three verticals with two reps each",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    56
+   ],
+   "gist": "Pavel decides mid-market moves to named-account assignment across the three verticals.",
+   "version": 2,
+   "option_key": "B",
+   "option": "named-account assignment by industry vertical, three verticals with two reps each",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01017-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how mid-market accounts are split across the sales team's territories?",
+   "answer_text": "named-account assignment by industry vertical, three verticals with two reps each",
+   "answer_facts": {
+    "option": "named-account assignment by industry vertical, three verticals with two reps each"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how mid-market accounts are split across the sales team's territories?",
+   "answer_text": "meeting 1: Pavel - Pavel settles it: mid-market runs on the six postcode territories from the first of next month.; meeting 2: Pavel - Pavel decides mid-market moves to named-account assignment across the three verticals.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "six geographic territories drawn by postcode, one rep owning each",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "named-account assignment by industry vertical, three verticals with two reps each",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q03",
+   "type": "as_of",
+   "question": "What was the decision about how mid-market accounts are split across the sales team's territories as of the end of meeting 2?",
+   "answer_text": "named-account assignment by industry vertical, three verticals with two reps each",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "named-account assignment by industry vertical, three verticals with two reps each"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q04",
+   "type": "as_of",
+   "question": "What was the decision about how mid-market accounts are split across the sales team's territories as of the end of meeting 3?",
+   "answer_text": "named-account assignment by industry vertical, three verticals with two reps each",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "named-account assignment by industry vertical, three verticals with two reps each"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how mid-market accounts are split across the sales team's territories change over time?",
+   "answer_text": "six geographic territories drawn by postcode, one rep owning each (from meeting 1) -> named-account assignment by industry vertical, three verticals with two reps each (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "six geographic territories drawn by postcode, one rep owning each",
+     "named-account assignment by industry vertical, three verticals with two reps each"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01017-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how mid-market accounts are split across the sales team's territories changed?",
+   "answer_text": "Before: six geographic territories drawn by postcode, one rep owning each, because Marco argues that geography cuts travel time and duplicate outreach, since in the last two quarters 23 percent of mid-market accounts were contacted by two different reps in the same week. Triggered by: Pavel (evidence): Pavel reports that the parent company announced on Monday that quotas will be reported by vertical (healthcare, financial services, public sector) from the start of next quarter, and that regional quotas are being dropped. Pavel (reconsideration): Pavel reopens the territory question because the quota change makes the postcode split hard to measure against. After: named-account assignment by industry vertical, three verticals with two reps each, because Ingrid argues for named accounts by vertical because it matches how quota will be measured and lets reps build sector knowledge, and 360 of the 410 mid-market accounts map cleanly to a single vertical.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how mid-market accounts are split across the sales team's territories?",
+   "answer_text": "Marco",
+   "answer_facts": {
+    "speaker": "Marco"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01017-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how mid-market accounts are split across the sales team's territories?",
+   "answer_text": "Pavel (evidence): Pavel reports that the parent company announced on Monday that quotas will be reported by vertical (healthcare, financial services, public sector) from the start of next quarter, and that regional quotas are being dropped.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01017-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how mid-market accounts are split across the sales team's territories?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01017-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how mid-market accounts are split across the sales team's territories from proposal to final outcome.",
+   "answer_text": "meeting 1 - Marco [proposal]: Marco proposes splitting the mid-market accounts into six geographic territories drawn by postcode, with one rep owning each. | meeting 1 - Marco [rationale]: Marco argues that geography cuts travel time and duplicate outreach, since in the last two quarters 23 percent of mid-market accounts were contacted by two different reps in the same week. | meeting 1 - Pavel [resolution]: Pavel settles it: mid-market runs on the six postcode territories from the first of next month. | meeting 2 - Pavel [evidence]: Pavel reports that the parent company announced on Monday that quotas will be reported by vertical (healthcare, financial services, public sector) from the start of next quarter, and that regional quotas are being dropped. | meeting 2 - Pavel [reconsideration]: Pavel reopens the territory question because the quota change makes the postcode split hard to measure against. | meeting 2 - Ingrid [rationale]: Ingrid argues for named accounts by vertical because it matches how quota will be measured and lets reps build sector knowledge, and 360 of the 410 mid-market accounts map cleanly to a single vertical. | meeting 2 - Pavel [resolution]: Pavel decides mid-market moves to named-account assignment across the three verticals.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

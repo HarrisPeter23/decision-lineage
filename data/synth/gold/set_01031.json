@@ -1,0 +1,449 @@
+{
+ "set_id": "set_01031",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "HR team",
+  "seed": 1031,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 72
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 72
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 115
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the in-office policy for all teams",
+ "options": {
+  "A": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+  "B": "fully flexible attendance with no fixed days"
+ },
+ "cast": [
+  {
+   "name": "Mei",
+   "slot": "manager",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Tariq",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Lena",
+   "slot": "challenger",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Chloe",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Mateo",
+   "slot": "observer",
+   "style": "talkative, drifts into tangents"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Tariq proposes two fixed anchor days in the office for everyone, Tuesday and Wednesday.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    17
+   ],
+   "gist": "Tariq argues that desk-booking data shows Tuesday and Wednesday are already the peak with 62 percent of attendance, the last cohort of new joiners said they felt isolated, and fixed days let cross-team meetings land.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    64
+   ],
+   "gist": "Mei settles it: everyone is in the office on Tuesdays and Wednesdays.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    19
+   ],
+   "gist": "Mateo reports that a pulse survey found 34 percent of staff with a commute over 90 minutes would consider leaving, and two recent engineering resignations mentioned the policy.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Lena objects that the policy risks losing long-commute staff and that retention costs more than any collaboration gain.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Mei reopens the policy now that the survey results are in.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    22,
+    29
+   ],
+   "gist": "Tariq answers that only 18 of 310 staff have a commute over 90 minutes, so the 34 percent is about six people, a manager-approved exception for long commutes already exists, and exit interviews for the two resignations cited a promotion and a relocation.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    87
+   ],
+   "gist": "Mei confirms the Tuesday and Wednesday anchor days.",
+   "version": 1,
+   "option_key": "A",
+   "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "new-hire onboarding buddies",
+  "option": "assign each new hire a buddy from outside their own team",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Chloe",
+    "utterance_idxs": [
+     38
+    ],
+    "gist": "Chloe suggests assigning each new hire a buddy from outside their own team.",
+    "version": null,
+    "option_key": null,
+    "option": "assign each new hire a buddy from outside their own team",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Chloe",
+    "utterance_idxs": [
+     43
+    ],
+    "gist": "Chloe points out that 8 of the last 11 new hires said they did not know who to ask outside their own team.",
+    "version": null,
+    "option_key": null,
+    "option": "assign each new hire a buddy from outside their own team",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Mei",
+    "utterance_idxs": [
+     55
+    ],
+    "gist": "Mei approves cross-team onboarding buddies.",
+    "version": null,
+    "option_key": null,
+    "option": "assign each new hire a buddy from outside their own team",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01031-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the in-office policy for all teams?",
+   "answer_text": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "answer_facts": {
+    "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the in-office policy for all teams?",
+   "answer_text": "meeting 1: Mei - Mei settles it: everyone is in the office on Tuesdays and Wednesdays.; meeting 3: Mei - Mei confirms the Tuesday and Wednesday anchor days.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q03",
+   "type": "as_of",
+   "question": "What was the decision about the in-office policy for all teams as of the end of meeting 1?",
+   "answer_text": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01031-q04",
+   "type": "as_of",
+   "question": "What was the decision about the in-office policy for all teams as of the end of meeting 3?",
+   "answer_text": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "two fixed anchor days in the office, Tuesday and Wednesday, for everyone"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01031-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the in-office policy for all teams change over time?",
+   "answer_text": "It did not change: two fixed anchor days in the office, Tuesday and Wednesday, for everyone was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about the in-office policy for all teams?",
+   "answer_text": "It did not change. The team kept two fixed anchor days in the office, Tuesday and Wednesday, for everyone. Concerns raised: Lena objects that the policy risks losing long-commute staff and that retention costs more than any collaboration gain. Mateo reports that a pulse survey found 34 percent of staff with a commute over 90 minutes would consider leaving, and two recent engineering resignations mentioned the policy. Why it stayed: Tariq answers that only 18 of 310 staff have a commute over 90 minutes, so the 34 percent is about six people, a manager-approved exception for long commutes already exists, and exit interviews for the two resignations cited a promotion and a relocation.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the in-office policy for all teams?",
+   "answer_text": "Tariq",
+   "answer_facts": {
+    "speaker": "Tariq"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01031-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the in-office policy for all teams?",
+   "answer_text": "Mateo (evidence): Mateo reports that a pulse survey found 34 percent of staff with a commute over 90 minutes would consider leaving, and two recent engineering resignations mentioned the policy. Lena (challenge): Lena objects that the policy risks losing long-commute staff and that retention costs more than any collaboration gain.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01031-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the in-office policy for all teams?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the in-office policy for all teams from proposal to final outcome.",
+   "answer_text": "meeting 1 - Tariq [proposal]: Tariq proposes two fixed anchor days in the office for everyone, Tuesday and Wednesday. | meeting 1 - Tariq [rationale]: Tariq argues that desk-booking data shows Tuesday and Wednesday are already the peak with 62 percent of attendance, the last cohort of new joiners said they felt isolated, and fixed days let cross-team meetings land. | meeting 1 - Mei [resolution]: Mei settles it: everyone is in the office on Tuesdays and Wednesdays. | meeting 2 - Mateo [evidence]: Mateo reports that a pulse survey found 34 percent of staff with a commute over 90 minutes would consider leaving, and two recent engineering resignations mentioned the policy. | meeting 2 - Lena [challenge]: Lena objects that the policy risks losing long-commute staff and that retention costs more than any collaboration gain. | meeting 3 - Mei [reconsideration]: Mei reopens the policy now that the survey results are in. | meeting 3 - Tariq [rationale]: Tariq answers that only 18 of 310 staff have a commute over 90 minutes, so the 34 percent is about six people, a manager-approved exception for long commutes already exists, and exit interviews for the two resignations cited a promotion and a relocation. | meeting 3 - Mei [resolution]: Mei confirms the Tuesday and Wednesday anchor days.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01031-q11",
+   "type": "distractor",
+   "question": "What was decided about new-hire onboarding buddies?",
+   "answer_text": "assign each new hire a buddy from outside their own team",
+   "answer_facts": {
+    "option": "assign each new hire a buddy from outside their own team"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

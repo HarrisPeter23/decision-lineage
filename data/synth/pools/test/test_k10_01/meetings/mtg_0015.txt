@@ -1,0 +1,86 @@
+Meeting: mtg_0015
+Date: 2025-07-30
+Participants: Henrik, Diego, Elif, Rohan, Chloe
+
+Henrik: Okay, I think that's everyone. Diego, where are we on the packaging?
+Diego: Mostly there. Feature query's done, Rohan has it. The table layout I'm still fiddling with.
+Rohan: Yeah, I have it. The job is, uh, stubbed out. I just can't touch the new schema until the access-
+Elif: Henrik found the approver.
+Henrik: Zofia. I forwarded it Friday.
+Rohan: Oh. Oh, good. Okay, I'll chase her today.
+Diego: So first run is still Monday after next?
+Rohan: If the schema clears. Probably.
+Elif: Probably.
+Rohan: Well, it's not up to me, is it.
+Chloe: Sorry, before we move on, can I - it's about the seventy-one.
+Diego: What about it?
+Chloe: So, um, Marta's old group did an audit on the CRM merge, and I got the summary yesterday. I only skimmed it.
+Henrik: Mm.
+Chloe: There's a part about customer IDs. When the two systems got merged a lot of accounts were renamed, and-
+Rohan: The spring one? Half my joins broke that week, I remember-
+Diego: Chloe, what's the upshot?
+Chloe: Right, sorry. They checked our holdout against the training data, and something like eighteen percent of those accounts are in both, just under the old ID. So the seventy-one is, you know, puffed up.
+Diego: Eighteen. Of the whole holdout?
+Chloe: That's what it says, yeah.
+Rohan: So the model's already seen some of the answers.
+Diego: Hang on. My leakage check was on the features. I matched rows on customer ID.
+Chloe: Which changed. That's the thing.
+Diego: Okay. That's annoying. But fifty-two against seventy-one, a gap like that doesn't just vanish.
+Elif: I don't trust that gain anymore. And then account managers get scores nobody can explain.
+Diego: Devil's advocate, there's the top-three reasons output. That explains them.
+Elif: Reasons from a model that might've memorized accounts.
+Rohan: And if Jamal's team asks why an account is red, what do we say, the model just-
+Diego: Okay, okay. But what's the real number? Nobody's rerun it.
+Elif: I did.
+Chloe: Oh, you did?
+Elif: Last night. The summary had the list of merged IDs, so I dropped them and reran both.
+Diego: And?
+Elif: Cleaned holdout, the boosted one catches sixty-four percent, the logistic one sixty-one. And with that one you can literally read the coefficients out to the account managers.
+Diego: Sixty-four. Huh.
+Rohan: Down from seventy-one, wow.
+Diego: And the baseline was fifty-two on the dirty holdout, so it's moved too, I guess.
+Elif: Probably.
+Chloe: From the big picture, though, if people trust it they'll use it.
+Diego: Three points is still three points, I'd say.
+Elif: Inside noise on one decile.
+Diego: Maybe. I'd like it written down the boosted one was ahead on every cut.
+Elif: Fine. Write it down.
+Rohan: Do we even need the contribution table then? Because that's the part that-
+Henrik: Hm.
+Diego: Henrik?
+Henrik: Let me think a second.
+Rohan: Sure, take-
+Henrik: We ship the logistic regression model.
+Diego: Okay. Fair enough.
+Chloe: Yay, okay, so that's sort of sorted again.
+Diego: Most of the packaging carries over. I'd drop the contribution columns.
+Rohan: So the job's simpler too.
+Diego: Yeah, a bit.
+Chloe: I'll tell Rosa so she's not building for the wrong thing.
+Elif: Do that.
+Diego: Does anyone know if the quarterly numbers are still the twentieth?
+Elif: Yes.
+Chloe: Xavier said something about moving it?
+Elif: He didn't.
+Chloe: Okay, I'm probably mixing it up.
+Elif: Anything else?
+Rohan: Yes, actually. The data-quality review. Monday mornings, it's not really working. Can it be Thursday afternoon instead?
+Diego: Why? I like Monday, it's a clean start.
+Rohan: Because the Friday-night batch jobs are still going on Monday mornings, and, uh, half the failures only show up after eleven. We're reviewing a half-finished picture.
+Elif: True. Last week we looked at three failures and there were nine by lunch.
+Diego: Okay, fair. Does Thursday collide with anything?
+Chloe: Not for me. The analytics lead thing is Friday.
+Rohan: I'm remote Thursdays anyway, so-
+Elif: Hotspot.
+Rohan: Yes, I know.
+Henrik: Thursday afternoon works. Move the data-quality review there, starting next week.
+Rohan: Great, I'll update the invite.
+Elif: Two o'clock?
+Rohan: Two is fine.
+Diego: Works for me.
+Chloe: Me too. Sorry, I'm bad with invites, so just-
+Rohan: I'll send it.
+Henrik: I need to jump to another call. Thanks, all.
+Diego: Thanks.
+Elif: Bye.
+Chloe: Bye!

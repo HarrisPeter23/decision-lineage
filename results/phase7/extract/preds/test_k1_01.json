@@ -1,0 +1,503 @@
+{
+ "set_id": "test_k1_01",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Performance review cycle structure",
+   "option": "Lighter check-ins"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Lighter check-ins"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Lighter check-ins"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.95,
+   "decision": "Performance review cycle structure",
+   "option": "Keep current structure"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.7,
+   "decision": "New employee onboarding",
+   "option": "Welcome event at ninety days"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Engagement survey results"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Engagement survey results"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Engagement survey results"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Annual review in December"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Manager check-ins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Annual review in December"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Two reviews a year"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Manager check-ins"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Annual review in December"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Shorter reviews"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Shorter reviews"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Check-ins with ratings"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Performance review cycle structure",
+   "option": "Check-ins with ratings"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Annual review in December"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Calibration time"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Annual review in December"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Two reviews a year"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Recency bias"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": "Two reviews a year"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Performance review cycle structure",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    15,
+    16,
+    17
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Review structure",
+   "option": "Reopen decision"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Review structure",
+   "option": "One review a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    42,
+    43,
+    44,
+    45
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Review structure",
+   "option": "Two reviews a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "Review structure",
+   "option": "One review a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    47,
+    48,
+    49
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.7,
+   "decision": "Review structure",
+   "option": "Improve monthly one-on-ones"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    54,
+    55,
+    56,
+    57
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Review structure",
+   "option": "One review a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    58,
+    59
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Review structure",
+   "option": "Two reviews a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    71,
+    72,
+    73,
+    74
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Review structure",
+   "option": "One review a year"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Review structure",
+   "option": "One review a year"
+  }
+ ]
+}

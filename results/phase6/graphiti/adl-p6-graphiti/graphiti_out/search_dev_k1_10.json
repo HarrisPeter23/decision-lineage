@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01045-q01",
+  "facts": [
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "875435f4-a39a-4f9a-9e46-bc62b4fe8d80",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Camila needs to ask Anika's team about the staging setup for the queue.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a06953c4-bad1-4221-8938-791d453e4c54",
+    "name": "communication",
+    "fact": "Camila mentioned that Anika had sent the store listing screenshots but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q02",
+  "facts": [
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7041fa3d-a48f-465e-b6e3-f8e26ca9623a",
+    "name": "communication",
+    "fact": "Lena asked Pavel where he stood on renewing the push provider contract, and Pavel confirmed that he would renew it for a year at nine hundred a month.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222403+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q03",
+  "facts": [
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4dde5a2-7da4-4a98-8913-0e82e7df3247",
+    "name": "communication",
+    "fact": "Lena asked Sana about the Thursday release, and Sana reported that the build was green as of that morning with one flaky test on the settings screen.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222474+00:00"
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60258f32-6d7f-4eb0-9a78-79b94550c1b1",
+    "name": "MANAGES",
+    "fact": "Camila's plan includes managing tokens, as they go stale when users uninstall the app.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q04",
+  "facts": [
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d4dde5a2-7da4-4a98-8913-0e82e7df3247",
+    "name": "communication",
+    "fact": "Lena asked Sana about the Thursday release, and Sana reported that the build was green as of that morning with one flaky test on the settings screen.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222474+00:00"
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60258f32-6d7f-4eb0-9a78-79b94550c1b1",
+    "name": "MANAGES",
+    "fact": "Camila's plan includes managing tokens, as they go stale when users uninstall the app.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2e154b8-40da-47a7-870f-02c28b5e5b27",
+    "name": "communication",
+    "fact": "Lena asked Sana about Tadeusz's onboarding, and Sana confirmed that Tadeusz was contributing and would be paired with Sven for the networking layer next week.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q05",
+  "facts": [
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7041fa3d-a48f-465e-b6e3-f8e26ca9623a",
+    "name": "communication",
+    "fact": "Lena asked Pavel where he stood on renewing the push provider contract, and Pavel confirmed that he would renew it for a year at nine hundred a month.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222403+00:00"
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a06953c4-bad1-4221-8938-791d453e4c54",
+    "name": "communication",
+    "fact": "Camila mentioned that Anika had sent the store listing screenshots but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q06",
+  "facts": [
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a06953c4-bad1-4221-8938-791d453e4c54",
+    "name": "communication",
+    "fact": "Camila mentioned that Anika had sent the store listing screenshots but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q07",
+  "facts": [
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7041fa3d-a48f-465e-b6e3-f8e26ca9623a",
+    "name": "communication",
+    "fact": "Lena asked Pavel where he stood on renewing the push provider contract, and Pavel confirmed that he would renew it for a year at nine hundred a month.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222403+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q08",
+  "facts": [
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "875435f4-a39a-4f9a-9e46-bc62b4fe8d80",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Camila needs to ask Anika's team about the staging setup for the queue.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q09",
+  "facts": [
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "e8a82f89-f3c3-44db-92ec-4e5a2f2aac42",
+    "name": "communication",
+    "fact": "Lena asked Camila about the store listing screenshots, and Camila confirmed that Anika had sent them yesterday but two still had the old logo.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c51b173-a73f-4483-ad42-a3cb192b0ac1",
+    "name": "SENDS_TO",
+    "fact": "Camila's plan involves sending messages to the platforms via the queue.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b50f62bd-261d-47fc-90ec-b62a809cff79",
+    "name": "USES",
+    "fact": "Camila's plan involves using delivery receipts from the provider's dashboard.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01045-q10",
+  "facts": [
+   {
+    "uuid": "819067a1-86a5-4eb9-8325-d05200caa4dc",
+    "name": "NEEDS_TO_CONTACT",
+    "fact": "Camila needs to contact Sanne for the actual terms of the push provider contract.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1ee9deb6-c60a-4fb6-8060-2421b1c38200",
+    "name": "informed_about_pricing_change",
+    "fact": "The push provider informed Lena that they are switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab647eea-d05f-474d-9398-8a98f9332ae5",
+    "name": "sent_renewal_confirmation_to",
+    "fact": "Pavel sent the renewal confirmation to the push provider last Sunday or Monday.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5ed051ef-9c72-4f58-b460-6a04fc59adcd",
+    "name": "received_email_from",
+    "fact": "Lena received an email last night from the push provider about switching to pay-per-use from next month.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b50f62bd-261d-47fc-90ec-b62a809cff79",
+    "name": "USES",
+    "fact": "Camila's plan involves using delivery receipts from the provider's dashboard.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e73446bc-9e3d-4afb-bae3-bf4177046df5",
+    "name": "explained_segmentation_to",
+    "fact": "Camila explained to the push provider that the audience groups are managed in their own user service, and the provider only receives a list to send to.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a891c782-3f0c-457c-bbc3-23ad5dd6bf8f",
+    "name": "communication",
+    "fact": "Sven mentioned that Sanne had emailed everyone about the push provider contract.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222415+00:00"
+   },
+   {
+    "uuid": "1026043f-cb83-4860-818f-c29c25ae8874",
+    "name": "communication",
+    "fact": "Lena asked Pavel about the push provider contract, and Pavel confirmed that the contract was up at the end of the month and that he had looked at the renewal paperwork on Friday.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": "2025-11-09T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:05:57.222435+00:00"
+   },
+   {
+    "uuid": "efb2bebe-0e8e-43c8-a69a-f515b96e8de7",
+    "name": "communication",
+    "fact": "Sven asked if Sanne from procurement was the one emailing about the push provider contract, and Lena confirmed it was likely her.",
+    "episodes": [
+     "5502f999-878f-4504-9c6e-4a862bc2913a"
+    ],
+    "valid_at": "2025-11-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67f8b808-fa59-4089-9220-e24934251fd8",
+    "name": "asked_for_opinion_on",
+    "fact": "Lena asked Camila for her opinion on the push provider's pricing change.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32e483b8-2588-4f1e-8ec6-12e030098c18",
+    "name": "mentioned_needing_approval_from",
+    "fact": "Lena mentioned that Davor needs to sign off on the push provider renewal because it exceeds ten thousand a year.",
+    "episodes": [
+     "e802807d-7e12-4aed-b90b-57d51eef6db4"
+    ],
+    "valid_at": "2025-11-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c51b173-a73f-4483-ad42-a3cb192b0ac1",
+    "name": "SENDS_TO",
+    "fact": "Camila's plan involves sending messages to the platforms via the queue.",
+    "episodes": [
+     "0ceb0926-58fa-4499-b812-c34a57f580b0"
+    ],
+    "valid_at": "2025-11-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

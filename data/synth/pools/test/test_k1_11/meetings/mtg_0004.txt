@@ -1,0 +1,117 @@
+Meeting: mtg_0004
+Date: 2025-08-13
+Participants: Henrik, Diego, Elif, Rohan, Chloe
+
+Henrik: Okay, I think that's everyone. Rohan, you're on?
+Rohan: Yeah, here. Sorry, I was just- the cluster thing, never mind.
+Chloe: Hi, hi. Can everybody hear me? I switched headsets.
+Elif: Yes.
+Diego: Loud and clear.
+Henrik: Good. Um, before the scores. Daan wrote about the cluster migration. Still September.
+Rohan: Right, he told me the same. Moving the weekly job over is a half day, I think.
+Elif: Half day for you is two days.
+Rohan: Okay, that's fair, that's fair, but if the schema carries over-
+Diego: Does the table name change?
+Rohan: No, it shouldn't. Same name, new host.
+Diego: Fine then.
+Henrik: Chloe, you had the enterprise numbers from last time? Or was that Rohan.
+Chloe: Um, I picked it up, actually. Rohan sent me the notebook and I, I reran it for the quarter before.
+Rohan: She did. I never got to it, the train week, the-
+Chloe: So the one we looked at was last quarter, and now I've done the one before that.
+Diego: And?
+Chloe: It's, um, the same shape. The logistic one gives them ten, eleven percent on average, and about twenty-nine percent didn't renew.
+Elif: Twenty-nine.
+Chloe: Or thirty. It's in the sheet, twenty-nine point something.
+Rohan: Did you take out the doubled contract IDs?
+Chloe: Yes, I used the merged-ID list Elif had. So the forty is more like thirty-seven accounts now.
+Elif: Thirty-seven.
+Chloe: Yeah, three were counted twice. Doesn't change the picture.
+Diego: So not a weird quarter.
+Chloe: No. From the big picture it's, it's consistent. Two quarters, same gap.
+Rohan: And the downgrade split I owe you, I did it, it's mostly full non-renewals, like nine of the twelve-
+Elif: Fine. Good.
+Henrik: Hm. Okay.
+Henrik: Then we should look at the model decision again. Let's reopen it.
+Diego: Good, because I did the thing I said I'd do. Pulled the boosted scores for those same accounts.
+Rohan: And?
+Diego: Straight out of my notebook it was bad too, honestly. Lower than I expected, which bugged me.
+Elif: How bad?
+Diego: Off by nine, ten points on enterprise. Better than the logistic one, not great.
+Chloe: Oh.
+Diego: But that was trained on the dirty set. With the duplicates in. So I recalibrated it on the deduplicated data, merged IDs out.
+Rohan: Recalibrated how, just the intercept or did you retrain, because-
+Diego: Calibration layer on top, and I refit on the cleaned training rows. Same features.
+Elif: And now?
+Diego: Now it lands within about four points of what enterprise actually did. Both quarters. The logistic one is off by nearly twenty.
+Diego: And the thing that bothered everyone last time, the explaining. I built per-account reason codes. Each red account gets its own reasons, not a global list, so honestly I'd go back to the boosted one.
+Rohan: Wait, per account, so the account managers see why for each one-
+Diego: Yes. Top reasons, plain words. Contract end date, tickets, seats trending down.
+Rohan: Plain words from who? Because last time it was feature names, and Jamal's team is not going to read feature names-
+Diego: I wrote the labels. Rosa can check them.
+Elif: Show me one.
+Diego: Pasting one in the doc. One sec.
+Chloe: Is it the second tab?
+Diego: First tab. I learned.
+Elif: Good.
+Elif: Okay. Reads fine. Why that one account, though, it says seats dropping and it renewed?
+Diego: That one's a downgrade, not a churn. It still flagged it, which I'd say is right.
+Elif: Hm. Maybe.
+Rohan: And the sixty-four against sixty-one thing, from the clean holdout, does that still hold with your recalibration?
+Diego: It moved a bit. Sixty-five, sixty-six on the decile. I'd have to rerun to give you a proper number.
+Elif: Rerun it.
+Diego: I will. It's not going to flip.
+Chloe: Sorry, is the doc the one Marta used to keep, or the new one?
+Diego: The new one.
+Chloe: Okay. I keep opening the wrong one.
+Rohan: Everyone does.
+Henrik: The quarterly numbers, are those still the twentieth?
+Elif: Twentieth.
+Chloe: Xavier asked me yesterday if we had a draft. I said no.
+Elif: We don't.
+Chloe: Right, no. I told him Friday.
+Diego: Friday of this week?
+Chloe: Um. Next? I'd have to look.
+Elif: Say next.
+Chloe: Okay, next.
+Rohan: Can I go back for a second, on the switch?
+Diego: Which switch?
+Rohan: Going from the logistic to the boosted. The job is already running the boosted code path for the contribution table, I just stubbed it out. It's a flag.
+Diego: Right, I left that in on purpose.
+Rohan: Then it's maybe a day, plus the table needs the new columns, and the dashboard-
+Diego: Rosa. Another hour, if the last one was an hour.
+Elif: It'll be a day.
+Chloe: A day for her.
+Rohan: A week for us.
+Elif: Stop.
+Rohan: Sorry, sorry.
+Elif: What about the account managers? They've been on the logistic numbers three weeks. They'll notice another change.
+Chloe: Jamal said the colors were different. That was it.
+Elif: That was one message.
+Chloe: Yeah, but I mean, people didn't, you know, they weren't upset.
+Diego: We tell them it's a refresh plus a reason next to each score. That's an improvement they can see.
+Elif: Fine. As long as it's said once and clearly.
+Chloe: I can write that. Or, I can ask Rosa to.
+Elif: You write it. Rosa checks it.
+Chloe: Okay.
+Rohan: The only thing, if the first month looks off on the boosted one, can we switch back?
+Diego: Same flag. It's the one I mentioned back at the start.
+Rohan: Good. I like a flag.
+Elif: Anyone else have a reason not to?
+Rohan: Not me. I just want it settled so I'm not changing the job twice.
+Chloe: Same, it's, it's the big picture, we've gone back and forth a bit.
+Elif: Because the numbers moved.
+Chloe: Sure, sure.
+Henrik: Okay. We ship the gradient-boosted model, with the reason codes.
+Diego: Thanks. I'll package the codes today.
+Rohan: And I flip the flag when the table has the columns.
+Diego: Tomorrow for the table.
+Rohan: Monday for the first scored run, then, probably. Probably.
+Elif: Probably.
+Rohan: I know how that sounds.
+Henrik: Rohan, send the schema change to Zofia, so it's not a surprise.
+Rohan: Yep. Today.
+Chloe: And I'll tell Rosa. Again. Sorry, Rosa.
+Elif: She'll live.
+Henrik: I have to jump to another call. Thanks, everyone.
+Diego: Thanks.
+Chloe: Bye!

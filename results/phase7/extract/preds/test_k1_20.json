@@ -1,0 +1,550 @@
+{
+ "set_id": "test_k1_20",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Priya",
+   "confidence": 0.75,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Priya",
+   "confidence": 0.75,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Priya",
+   "confidence": 0.75,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly Fenmoor bulk order"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly bulk order with Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly bulk order with Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "weekly standing order with Calder"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly bulk order with Fenmoor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Dock appointment windows",
+   "option": "two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Dock appointment windows",
+   "option": "two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Dock appointment windows",
+   "option": "two-hour windows"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly Fenmoor bulk order"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Pallet positions in northern warehouse",
+   "option": "Aisles fourteen to seventeen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Monday count sheet format",
+   "option": "One sheet with weeks of cover column"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    45,
+    46,
+    47,
+    48
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly Fenmoor bulk order"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Carrier note for dock appointment windows",
+   "option": "Two-hour windows with day's notice for swapping"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Fire door signage",
+   "option": "Stickers on sixty doors"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "Quarterly review supplier scorecard",
+   "option": "On-time delivery and complaints"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "Offsite meeting in September",
+   "option": "Finance numbers by end of next week"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Northern warehouse packaging solution",
+   "option": "monthly Fenmoor bulk order"
+  }
+ ]
+}

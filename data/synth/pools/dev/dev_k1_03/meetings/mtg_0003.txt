@@ -1,0 +1,124 @@
+Meeting: mtg_0003
+Date: 2025-08-21
+Participants: Meera, Jonas, Yuki, Lena, Pavel
+
+Meera: Okay, five of us again. Thanks for moving this, I know half the calendar's still wrong.
+Jonas: Half? I got invited to this twice, and one of them's tomorrow.
+Pavel: Skip that one.
+Yuki: Mine said Wednesday, I sat in here yesterday for about ten minutes before I-
+Meera: Dana says the vendor's patch lands next Tuesday. I asked her before I went out and again this morning.
+Jonas: And my seven a.m.?
+Meera: Same patch, apparently.
+Lena: I'd just say, the colours have held up really well through all this.
+Pavel: Forty-one declines.
+Jonas: Forty-two. Someone in Lisbon joined late.
+Meera: SOC 2. Submitted on the fifteenth, 62 of 62. Security got their two in at about ten past four.
+Meera: Release notes. Lena, footer done?
+Lena: Footer's done, the content people are happy, and the first monthly one goes out, um, start of September sometime.
+Meera: The 2nd, according to their sheet.
+Meera: Staging. Pavel, the switch was due the 20th.
+Pavel: In. Yesterday.
+Meera: Thank you. And the backfill?
+Pavel: Still six months there. Twelve goes in next week.
+Meera: Okay. Page copy got to Ravi's team on Monday, and Yuki, you reviewed it?
+Yuki: Reviewed it, two typos, and one of the buttons still said start free, which I flagged because-
+Meera: That's fixed, I saw it. Priya's had the terms since Friday, so a week ahead of her deadline, and Dmitri has the per-account figure.
+Jonas: And Tomas's sheet?
+Meera: And Tomas's sheet, yes, you carried it a long way, well done.
+Lena: Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email.
+Meera: Is this about the launch email?
+Lena: Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong.
+Lena: So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor.
+Pavel: Say the second one again.
+Lena: 19 percent of the EU attempts. Failed that, the authentication step.
+Meera: The 64, that's off the preview? Same waitlist page?
+Lena: I believe so, yes, it's the same, the same sort of place.
+Meera: So against the 412, that would be, what, about 148 for the week.
+Yuki: Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those.
+Jonas: Fewer. Not that many fewer.
+Yuki: 31 percent were junk, you can't be surprised when-
+Jonas: 31 isn't 64, Yuki.
+Yuki: I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is.
+Jonas: That was a hypothetical, and I also said it was annoying.
+Pavel: He did.
+Meera: Lena, is the 19 percent of all attempts or only EU?
+Lena: EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number.
+Meera: Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty?
+Lena: I can ask.
+Pavel: I can pull it. Processor dashboard.
+Yuki: Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing-
+Pavel: Don't know yet. Could be our integration.
+Yuki: Because if it's ours, that's just a bug, that's not a, you know, that's a ticket.
+Pavel: Could be. Could be not.
+Meera: What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now?
+Pavel: Haven't got it.
+Meera: At all?
+Pavel: Week's barely closed. Friday, maybe.
+Yuki: See, that's what I want to see, because if that 148 turns out to have the same nine in it-
+Jonas: Can I do my job for a minute? Because you've all gone a bit calm about this.
+Jonas: That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them.
+Yuki: You don't know that.
+Jonas: I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard.
+Yuki: Some of them have-
+Jonas: Some. And the ones in the EU who did get the card out, one in five bounced off that check.
+Meera: 19 percent, so a bit under one in five.
+Jonas: A bit under one in five. Who wanted in, typed it all in, and got told no.
+Pavel: Numbers first.
+Jonas: Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked.
+Lena: It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean.
+Yuki: A front door without 128 throwaway addresses in it.
+Lena: Well, yes.
+Jonas: Meera, you were out for half the week it happened, did Dmitri say anything?
+Meera: Dmitri asked if the 1.80 had moved. That's all I've had from him.
+Pavel: Hasn't.
+Yuki: Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are-
+Jonas: Oh, the badge thing. Mine stopped working on Tuesday.
+Meera: Is this about the move?
+Yuki: Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like-
+Pavel: It's fine.
+Yuki: You work from home, Pavel.
+Pavel: Yes.
+Jonas: I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about.
+Lena: There was a nice bit in the facilities email about natural light. I thought that was promising.
+Yuki: Natural light from what? It's a corridor.
+Meera: I don't know anything about it, and Dana would be the one to ask, though she's got enough on.
+Jonas: Add it to her list, under my seven a.m.
+Yuki: I just want to know before I bring my plant in.
+Meera: Okay. Back on this, because I'd like to leave here knowing what we don't know.
+Lena: Yes, good, I'd like that too.
+Meera: It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page.
+Lena: The 8th, isn't it? I had the 8th in the email.
+Meera: The 9th. Fix that one, please.
+Lena: Fixing it now. Well, in a minute.
+Jonas: And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty.
+Yuki: I said they were throwaway addresses, I didn't say-
+Jonas: You went through the list that morning, I remember.
+Meera: All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks.
+Yuki: Six.
+Meera: Three. Has anyone seen tickets on that failed check, people writing in?
+Yuki: I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for-
+Meera: Do that, please, by Monday. Count them, don't describe them.
+Yuki: Yep.
+Jonas: And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that.
+Meera: You've just volunteered. Two or three real accounts, names, what they said, by Tuesday.
+Jonas: I walked into that.
+Pavel: Yes.
+Meera: Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included.
+Pavel: Friday for most. Failures maybe Monday.
+Meera: Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary?
+Lena: Yes, I'll forward it. It's a slide, I think, there's a nice chart.
+Pavel: Send the base number.
+Lena: I'll see if there's a base number.
+Meera: I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table.
+Jonas: And until then?
+Meera: Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th.
+Yuki: So the card stays on the page for now, fine.
+Jonas: Noted, still under protest, for the record.
+Meera: It's in the notes, Jonas.
+Lena: I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass.
+Pavel: Short.
+Lena: Short-ish.
+Meera: Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th.
+Yuki: Mine's got it on a Wednesday.
+Jonas: Mine's got it in Lisbon.
+Meera: Okay, thanks everybody.

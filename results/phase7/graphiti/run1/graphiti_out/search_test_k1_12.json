@@ -1,0 +1,1244 @@
+[
+ {
+  "qid": "set_01035-q01",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q02",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q03",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9c40df96-1ba6-4ba2-b9e7-5f8474ce5646",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Esra about the flexibility of the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2cb2c2ca-2722-4872-b83e-bee838289c5a",
+    "name": "MENTIONS",
+    "fact": "Gabor is mentioned by Aisha when discussing the shared forecast sheet error.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q04",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9c40df96-1ba6-4ba2-b9e7-5f8474ce5646",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Esra about the flexibility of the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q05",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q06",
+  "facts": [
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc1a98b5-48c0-4286-bb0e-8d9e9d461202",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Sione about the contractors on mid-flight projects.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "389e2533-7cb7-41d5-ba03-868238234063",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Esra when discussing the facilities contract.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q07",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q08",
+  "facts": [
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6ea832c-9f70-4199-9444-00ceaa330761",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d94107f4-04b6-4b9e-aaff-e4f9e17097bd",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cb89816a-c69f-4493-b82c-4dc54108614b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Ivan when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9131303b-3219-48d9-be90-07a0d63bf685",
+    "name": "MENTIONS",
+    "fact": "Ivan mentions Aisha when he suggests taking eight percent off every department.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9c40df96-1ba6-4ba2-b9e7-5f8474ce5646",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Esra about the flexibility of the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q09",
+  "facts": [
+   {
+    "uuid": "92cbb9f6-d767-466b-b270-b6a4e4cc11ba",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7686f927-715d-47e1-9b1e-5e4905013971",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "81b8aedc-c255-490b-a0d3-2a56d24cd835",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Laszlo about the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3ed9be9e-701b-41ca-b1ad-21fa25676f2b",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Beatriz when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9",
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9c40df96-1ba6-4ba2-b9e7-5f8474ce5646",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Esra about the flexibility of the facilities contract.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e45db8-ae4e-4165-9622-7f461ef8ef13",
+    "name": "MENTIONS",
+    "fact": "Beatriz is mentioned by Aisha when discussing the deadline for the budget file lock.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "45be3138-2c03-4b13-afa9-7bf90f400612",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc1a98b5-48c0-4286-bb0e-8d9e9d461202",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Sione about the contractors on mid-flight projects.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "25b0dde9-7156-4730-8287-9c9964c8ec74",
+    "name": "INFORMS",
+    "fact": "Aisha informs Yuki that she will message IT about the shared forecast sheet.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "61f699bf-ba33-478f-a6cd-b3bca49c1da8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "383ba472-5b5f-45b2-9f10-ef0efd1bb48b",
+    "name": "INFORMS",
+    "fact": "Aisha informs Kofi that she will nudge Esra about facilities on Friday.",
+    "episodes": [
+     "ce61296d-3b92-43fe-9dee-ce92111a4e88"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37ac2306-ce51-4a5d-a23d-979da4facbe2",
+    "name": "MENTIONS",
+    "fact": "Aisha mentions Kofi when discussing whether they should do the budget thing first.",
+    "episodes": [
+     "9bcf481c-5abc-452d-aef9-02ed3a485dd9"
+    ],
+    "valid_at": "2025-01-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

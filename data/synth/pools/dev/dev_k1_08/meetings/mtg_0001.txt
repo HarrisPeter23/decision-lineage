@@ -1,0 +1,85 @@
+Meeting: mtg_0001
+Date: 2025-03-30
+Participants: Pavel, Greta, Kofi, Marco, Aisha
+
+Pavel: Okay, we're at, what, two past? Let's get going. Is everybody here, Marco, you there?
+Marco: Yeah, I'm here.
+Aisha: Morning. Or whatever it is.
+Kofi: Sorry, I think maybe my audio is a bit, um, can you all hear me?
+Pavel: Loud and clear, Kofi. First, quick one, the quarterly survey. Sanne says only 31 of the 48 people in the org have filled it in, so she wants a nudge from every manager.
+Greta: Oh, I thought that closed Friday.
+Pavel: It got extended to the fourth. So if you can just mention it in your standups.
+Aisha: Fine.
+Kofi: I'll, uh, I think I'll remind my, no wait, I don't manage anyone. Never mind.
+Pavel: Right, so that's me then. Moving on. Dashboards. We've got the tool question that's been floating since the offsite.
+Greta: Yeah, so that's the one I wanted to, um, I mean, we keep going round on it.
+Pavel: Right. Where are we at the moment, as far as I understand it, we have the old stuff running and nobody's decided what the thing going forward is.
+Aisha: Correct.
+Kofi: I think maybe we've all just been, you know, sort of avoiding it?
+Pavel: Little bit, yeah. Marco, you've been doing most of the upkeep on the current ones. How's it been?
+Marco: Okay. A few break every month.
+Pavel: Breaking how, like the queries time out?
+Marco: Mostly the refresh. Sometimes a column changes upstream.
+Greta: Right, and that's, that's sort of the point. Okay so, can I just say, I'd say we go with Plotbench. The free one, the self-hosted one.
+Pavel: Plotbench. Okay. Say more.
+Kofi: Is that the one Gabor mentioned? The, um, the SQL one?
+Greta: That's the one. So the thing is, it costs us nothing to license, and the paid option was, what was it, about thirteen four a year for the sixty-two viewers we have.
+Pavel: Thirteen thousand four hundred, yeah, that's what the quote said. That was Lumenboard, with the viewer seats.
+Greta: Right. And Plotbench we'd run ourselves, which, okay, someone has to look after it, but it's like a day a week of an engineer. About that. And the queries behind the forty dashboards we've got just port straight over, because it's SQL anyway.
+Aisha: A day a week is not nothing.
+Greta: No, it's not nothing, no.
+Pavel: Whose day, though? That's what I'd want to know. Because if it's Marco's day, that's twenty percent of his week.
+Marco: It would mostly be me, yeah.
+Kofi: I think maybe, and I'm not sure, but wouldn't we save some of that? Because right now the, uh, the refresh stuff is eating hours anyway.
+Marco: Some of it. Not all.
+Pavel: How many hours is it now, do you know?
+Marco: Maybe six, seven a week. When it's bad.
+Pavel: So you'd come out about even-ish.
+Marco: Probably. Maybe a bit worse at the start.
+Aisha: Start's always worse.
+Greta: And we wouldn't be hostage to the pricing either. That's what, um, that's what bugged me about the other quote, the seats go up every renewal.
+Pavel: They quoted a seven percent uplift, I think, in year two.
+Greta: See, that.
+Kofi: Hang on, did anyone ask Hedda whether security has any problem with us hosting something ourselves? I think maybe that needs checking.
+Pavel: Good question. I mentioned it to her last week and she said it's fine as long as it sits behind single sign-on.
+Kofi: Oh, okay. Good.
+Aisha: Does it support that?
+Greta: Yes. I looked. It's, uh, in the docs somewhere, there's a page on it.
+Aisha: Somewhere.
+Greta: There's a page. I'll send you the link.
+Pavel: Hold on, side thing, since we're on hosting. Stefan wants to move our staging boxes to the new subnet on Thursday, so if anything's flaky Thursday afternoon that's why.
+Aisha: Which boxes?
+Pavel: The ones the nightly jobs use. Should be transparent.
+Aisha: Should be.
+Kofi: Didn't the last move take down the, the nightly load for like a whole day?
+Pavel: That was a different move. That was the database, and that was Gabor's team.
+Kofi: Oh. Right, right. I think maybe I'm mixing it up.
+Greta: Speaking of mixing up, did anyone see the thing about the offsite? Rosa's trying to pick a date.
+Pavel: I saw an email. I haven't answered it.
+Greta: She's got it down to the week of the fourteenth or the week after.
+Aisha: Not the fourteenth. I'm out.
+Marco: I can do either.
+Kofi: I think maybe the later one is better for me, but I'd have to check.
+Pavel: Put it in the thread and let Rosa sort it out. Okay. Back to dashboards. Is anybody actually against this?
+Aisha: Not against. Want a trial first.
+Pavel: A trial of what, Plotbench? We'd have to stand it up to trial it, so that's most of the work already.
+Aisha: Fine. Then no.
+Kofi: I think maybe there's a risk that people who are used to the nice charts will complain. Like the finance folks.
+Greta: They'll complain either way.
+Pavel: They will. But Bilal's group only uses about five of the forty, so we can sit down with them on those.
+Kofi: Okay, yeah, that's, that makes me feel better.
+Marco: The charts are fine. Plain, but fine.
+Pavel: Good to hear from the person who'd be using it daily. Anything else? Nobody's seeing a catch with the SQL side?
+Aisha: No.
+Greta: No, I mean, I ran three of them through last week and they just worked. Well, two. One had a date function that was different.
+Pavel: Different how?
+Greta: Just the name of it. Easy fix.
+Pavel: Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one.
+Marco: Okay.
+Kofi: Um, when do you want it up, roughly?
+Pavel: End of next month would be good, but let's see what the setup looks like first. Marco, give me a rough plan by Friday?
+Marco: Sure.
+Aisha: Anything else? I've got a thing at three.
+Pavel: Actually yes, one more. Whoever has the shared drive cleanup, please do it before the audit people come. That's all.
+Greta: That's me. I'll get to it.
+Aisha: Bye then.

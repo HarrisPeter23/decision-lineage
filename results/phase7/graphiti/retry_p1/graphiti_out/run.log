@@ -1,0 +1,25 @@
+04:01:42 $ pip install -q graphiti-core==0.31.2 httpx rc 0 
+04:01:59 $ apt-get update -qq && apt-get install -y -qq --fix-missing zstd openjdk-17-jre-headless rc 0 
+04:01:59 $ command -v zstd && command -v java rc 0 
+04:02:01 $ curl -fsSL https://dist.neo4j.org/neo4j-community-5.26.17-unix.tar.gz | tar -xz -C /kaggle rc 0 
+04:02:04 $ /kaggle/neo4j-community-5.26.17/bin/neo4j-admin dbms set-initial-password graphiti-local-p rc 0 
+04:02:15 $ /kaggle/neo4j-community-5.26.17/bin/neo4j start rc 0 
+04:02:42 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh && sh /tmp/install.s rc 0 
+04:04:04 $ ollama pull qwen3:14b rc 0 
+04:04:07 $ ollama pull all-minilm rc 0 
+04:04:07 digests {'all-minilm:latest': '1b226e2802dbb772b5fc32a58f103ca1804ef7501331012de126ab22f67475ef', 'qwen3:14b': 'bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8'}
+04:04:07 frozen digests confirmed
+04:04:18 corpus test_k1_11 4 meetings 12 questions
+04:04:20 corpus test_k1_06 3 meetings 11 questions
+04:04:20 corpus test_k1_12 3 meetings 9 questions
+04:14:17 test_k1_12 mtg_0001 ok 593.4 s 4 calls 
+04:18:06 test_k1_12 mtg_0002 ok 229.3 s 25 calls 
+04:22:27 test_k1_12 mtg_0003 ok 261.0 s 19 calls 
+04:26:52 test_k1_11 mtg_0001 FAILED 1348.7 s 49 calls JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)
+04:27:17 test_k1_06 mtg_0001 FAILED 1373.2 s 50 calls JSONDecodeError: Unterminated string starting at: line 1 column 10794 (char 10793)
+04:31:58 test_k1_06 mtg_0002 ok 281.0 s 4 calls 
+04:32:52 test_k1_11 mtg_0002 ok 360.2 s 7 calls 
+04:36:33 test_k1_06 mtg_0003 ok 275.1 s 25 calls 
+05:28:12 test_k1_11 mtg_0003 FAILED 3319.3 s 27 calls JSONDecodeError: Unterminated string starting at: line 1351 column 15 (char 55764)
+05:31:41 test_k1_11 mtg_0004 ok 209.3 s 25 calls 
+05:31:42 DONE {"llm_calls": 108, "llm_s": 9633.299909353256, "llm_errors": 0} wall 5244

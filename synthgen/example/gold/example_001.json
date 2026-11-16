@@ -1,0 +1,416 @@
+{
+ "set_id": "example_001",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "marketing team",
+  "seed": 1,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 107
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 70
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 103
+   }
+  ],
+  "models": {
+   "generator": "hand-written"
+  }
+ },
+ "topic": "the datastore for the order-tracking service",
+ "options": {
+  "A": "MongoDB (document database)",
+  "B": "PostgreSQL with JSONB columns"
+ },
+ "cast": [
+  {
+   "name": "Meera",
+   "slot": "manager",
+   "style": "hedges a lot"
+  },
+  {
+   "name": "Arjun",
+   "slot": "proposer",
+   "style": "talkative"
+  },
+  {
+   "name": "Lena",
+   "slot": "challenger",
+   "style": "devil's advocate"
+  },
+  {
+   "name": "Tomas",
+   "slot": "supporter",
+   "style": "quiet"
+  },
+  {
+   "name": "Wei",
+   "slot": "observer",
+   "style": "detail-oriented"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "MongoDB (document database)"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "PostgreSQL with JSONB columns"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    2
+   ],
+   "gist": "Arjun proposes using MongoDB for the order-tracking service.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    4
+   ],
+   "gist": "Arjun says the schema will keep changing for months and documents avoid a migration per change.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    10
+   ],
+   "gist": "Meera agrees to go ahead with the MongoDB plan.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    2
+   ],
+   "gist": "Wei reports a weekend load test: at about two million orders the daily report aggregation takes 38 seconds and is still climbing.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    4
+   ],
+   "gist": "Lena argues reporting is join-heavy and finance needs consistent transactions across orders and payments, so it gets worse as data grows.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Meera says the load test and finance's transaction requirement mean they must reopen the datastore decision.",
+   "version": 1,
+   "option_key": "A",
+   "option": "MongoDB (document database)",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    2
+   ],
+   "gist": "Lena argues PostgreSQL with JSONB keeps the flexible fields while adding joins and transactions, and switching now costs about a week.",
+   "version": 2,
+   "option_key": "B",
+   "option": "PostgreSQL with JSONB columns",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "Meera decides to switch the order-tracking service to PostgreSQL; Arjun redoes the schema, Lena reviews.",
+   "version": 2,
+   "option_key": "B",
+   "option": "PostgreSQL with JSONB columns",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "example_001-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the datastore for the order-tracking service?",
+   "answer_text": "PostgreSQL with JSONB columns",
+   "answer_facts": {
+    "option": "PostgreSQL with JSONB columns"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "example_001-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the datastore for the order-tracking service?",
+   "answer_text": "meeting 1: Meera - Meera agrees to go ahead with the MongoDB plan.; meeting 3: Meera - Meera decides to switch the order-tracking service to PostgreSQL; Arjun redoes the schema, Lena reviews.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "MongoDB (document database)",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "PostgreSQL with JSONB columns",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "example_001-q03",
+   "type": "as_of",
+   "question": "What was the decision about the datastore for the order-tracking service as of the end of meeting 1?",
+   "answer_text": "MongoDB (document database)",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "MongoDB (document database)"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "example_001-q04",
+   "type": "as_of",
+   "question": "What was the decision about the datastore for the order-tracking service as of the end of meeting 3?",
+   "answer_text": "PostgreSQL with JSONB columns",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "PostgreSQL with JSONB columns"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "example_001-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the datastore for the order-tracking service change over time?",
+   "answer_text": "MongoDB (document database) (from meeting 1) -> PostgreSQL with JSONB columns (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "MongoDB (document database)",
+     "PostgreSQL with JSONB columns"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "example_001-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the datastore for the order-tracking service changed?",
+   "answer_text": "Original: MongoDB (document database), because Arjun says the schema will keep changing for months and documents avoid a migration per change. Triggered by: Wei (evidence): Wei reports a weekend load test: at about two million orders the daily report aggregation takes 38 seconds and is still climbing. Lena (challenge): Lena argues reporting is join-heavy and finance needs consistent transactions across orders and payments, so it gets worse as data grows. Meera (reconsideration): Meera says the load test and finance's transaction requirement mean they must reopen the datastore decision. New choice: PostgreSQL with JSONB columns, because Lena argues PostgreSQL with JSONB keeps the flexible fields while adding joins and transactions, and switching now costs about a week.",
+   "answer_facts": {
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "example_001-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the datastore for the order-tracking service?",
+   "answer_text": "Arjun",
+   "answer_facts": {
+    "speaker": "Arjun"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "example_001-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the datastore for the order-tracking service?",
+   "answer_text": "Wei (evidence): Wei reports a weekend load test: at about two million orders the daily report aggregation takes 38 seconds and is still climbing. Lena (challenge): Lena argues reporting is join-heavy and finance needs consistent transactions across orders and payments, so it gets worse as data grows.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "example_001-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the datastore for the order-tracking service?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "example_001-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the datastore for the order-tracking service from proposal to final outcome.",
+   "answer_text": "meeting 1 - Arjun [proposal]: Arjun proposes using MongoDB for the order-tracking service. | meeting 1 - Arjun [rationale]: Arjun says the schema will keep changing for months and documents avoid a migration per change. | meeting 1 - Meera [resolution]: Meera agrees to go ahead with the MongoDB plan. | meeting 2 - Wei [evidence]: Wei reports a weekend load test: at about two million orders the daily report aggregation takes 38 seconds and is still climbing. | meeting 2 - Lena [challenge]: Lena argues reporting is join-heavy and finance needs consistent transactions across orders and payments, so it gets worse as data grows. | meeting 3 - Meera [reconsideration]: Meera says the load test and finance's transaction requirement mean they must reopen the datastore decision. | meeting 3 - Lena [rationale]: Lena argues PostgreSQL with JSONB keeps the flexible fields while adding joins and transactions, and switching now costs about a week. | meeting 3 - Meera [resolution]: Meera decides to switch the order-tracking service to PostgreSQL; Arjun redoes the schema, Lena reviews.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

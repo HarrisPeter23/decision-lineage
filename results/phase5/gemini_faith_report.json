@@ -1,0 +1,20 @@
+{
+ "gemini_vs_nli": {
+  "n": 203,
+  "agreement": 0.7,
+  "kappa": 0.394
+ },
+ "gemini_vs_agent": {
+  "n": 55,
+  "agreement": 0.909,
+  "kappa": 0.784
+ },
+ "nli_vs_agent_on_same": {
+  "n": 55,
+  "agreement": 0.818,
+  "kappa": 0.629
+ },
+ "unparsed": 0,
+ "gemini_yes_rate": 0.768,
+ "n": 203
+}

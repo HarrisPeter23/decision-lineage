@@ -1,0 +1,2544 @@
+{
+ "set_id": "set_01018",
+ "cast": [
+  "Henrik",
+  "Diego",
+  "Elif",
+  "Rohan",
+  "Chloe"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-07-23",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Henrik",
+     "text": "Okay, is everyone here? Chloe, are you on?",
+     "ts": "2025-07-23T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Chloe",
+     "text": "Yeah, I'm here, just finishing a note to Marta about the offsite thing.",
+     "ts": "2025-07-23T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Rohan",
+     "text": "Before we start, did anyone look at the warehouse access request from Daan? It's been sitting since Friday and I keep-",
+     "ts": "2025-07-23T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Elif",
+     "text": "Not now.",
+     "ts": "2025-07-23T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Rohan",
+     "text": "Sure, sure, but it blocks my-",
+     "ts": "2025-07-23T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Henrik",
+     "text": "Rohan, after.",
+     "ts": "2025-07-23T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Rohan",
+     "text": "Fine.",
+     "ts": "2025-07-23T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Diego",
+     "text": "So, the scores. Account managers are still looking at that old column in the sheet, right?",
+     "ts": "2025-07-23T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Chloe",
+     "text": "Yeah, the, uh, the traffic light thing. Rosa said they mostly ignore it now.",
+     "ts": "2025-07-23T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Elif",
+     "text": "Because it's stale.",
+     "ts": "2025-07-23T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Diego",
+     "text": "Right. It's from the March refresh, isn't it?",
+     "ts": "2025-07-23T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Chloe",
+     "text": "February, I think.",
+     "ts": "2025-07-23T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Elif",
+     "text": "March.",
+     "ts": "2025-07-23T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Chloe",
+     "text": "Okay, March. Anyway, it's old.",
+     "ts": "2025-07-23T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Diego",
+     "text": "So what I'd like is to get the boosted model in front of them next quarter. The one I've been running in my notebook.",
+     "ts": "2025-07-23T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Rohan",
+     "text": "The gradient one? The one with the, uh, the two hundred features-",
+     "ts": "2025-07-23T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Diego",
+     "text": "Fewer than that now. I trimmed it.",
+     "ts": "2025-07-23T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Rohan",
+     "text": "Okay but does it need a different pipeline, because the current one-",
+     "ts": "2025-07-23T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Diego",
+     "text": "Hang on, let me finish the case first.",
+     "ts": "2025-07-23T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Rohan",
+     "text": "Sorry. Go.",
+     "ts": "2025-07-23T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Elif",
+     "text": "Go.",
+     "ts": "2025-07-23T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Diego",
+     "text": "So I backtested it on the last four quarters of holdout. Look at the top decile, the accounts it flags as riskiest.",
+     "ts": "2025-07-23T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Chloe",
+     "text": "Mm.",
+     "ts": "2025-07-23T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Diego",
+     "text": "Of everyone who actually churned afterwards, it caught about seventy-one percent of them in that decile.",
+     "ts": "2025-07-23T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Elif",
+     "text": "And the old one?",
+     "ts": "2025-07-23T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Diego",
+     "text": "Logistic baseline got around fifty-two. So it's not a small gap.",
+     "ts": "2025-07-23T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Chloe",
+     "text": "That's, yeah, that's a big jump. In the big picture.",
+     "ts": "2025-07-23T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Rohan",
+     "text": "Is that seventy-one on all four quarters or just the last one? Because the last one was weird, the-",
+     "ts": "2025-07-23T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Diego",
+     "text": "All four pooled. Last quarter alone was a bit higher, actually.",
+     "ts": "2025-07-23T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Rohan",
+     "text": "Huh. Okay.",
+     "ts": "2025-07-23T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Elif",
+     "text": "Leakage?",
+     "ts": "2025-07-23T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Diego",
+     "text": "I checked. Features are all cut off at the snapshot date.",
+     "ts": "2025-07-23T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Elif",
+     "text": "Fine.",
+     "ts": "2025-07-23T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Henrik",
+     "text": "Mm.",
+     "ts": "2025-07-23T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Chloe",
+     "text": "Sorry, can I just say, did anyone book the room for Thursday? Zofia was asking.",
+     "ts": "2025-07-23T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Rohan",
+     "text": "I thought you did.",
+     "ts": "2025-07-23T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Chloe",
+     "text": "I thought Xavier did.",
+     "ts": "2025-07-23T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Elif",
+     "text": "Ask facilities.",
+     "ts": "2025-07-23T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Chloe",
+     "text": "Right, I'll ask. Sorry, back to the thing.",
+     "ts": "2025-07-23T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Diego",
+     "text": "To play the other side for a second, though, why not just retrain the baseline? It's easier to explain to the account managers.",
+     "ts": "2025-07-23T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Elif",
+     "text": "Fifty-two.",
+     "ts": "2025-07-23T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Diego",
+     "text": "I know, I know, I'm asking so someone says it out loud.",
+     "ts": "2025-07-23T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Rohan",
+     "text": "The explainability thing is real though, they'll ask why an account is red and the boosted one can't just-",
+     "ts": "2025-07-23T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Diego",
+     "text": "There's the feature contribution output. It's not perfect but it gives them the top three reasons.",
+     "ts": "2025-07-23T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Rohan",
+     "text": "Top three out of what, though-",
+     "ts": "2025-07-23T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Chloe",
+     "text": "I mean, from the big picture, they don't need the full why, they need to know who to call.",
+     "ts": "2025-07-23T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Rohan",
+     "text": "Sure, but then Jamal's team is going to come back and say the reasons look random, and then-",
+     "ts": "2025-07-23T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Elif",
+     "text": "Then we look at it.",
+     "ts": "2025-07-23T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Rohan",
+     "text": "Okay.",
+     "ts": "2025-07-23T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Diego",
+     "text": "And honestly the reasons are fairly sensible. Contract end date, support tickets, seat usage dropping.",
+     "ts": "2025-07-23T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Chloe",
+     "text": "Seat usage, yeah, that one always comes up.",
+     "ts": "2025-07-23T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Rohan",
+     "text": "Wait, are we scoring daily or what? Because the old one was kind of monthly, wasn't it?",
+     "ts": "2025-07-23T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Diego",
+     "text": "Weekly. Daily is overkill, nobody calls a customer every day.",
+     "ts": "2025-07-23T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Elif",
+     "text": "Weekly is fine.",
+     "ts": "2025-07-23T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Rohan",
+     "text": "Weekly means a job, which means the scheduler, which means-",
+     "ts": "2025-07-23T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Diego",
+     "text": "Which is the thing I wanted to ask you about, yes.",
+     "ts": "2025-07-23T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Rohan",
+     "text": "Okay but the scheduler's still on the old cluster, and Daan said the migration is-",
+     "ts": "2025-07-23T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Elif",
+     "text": "Not till September.",
+     "ts": "2025-07-23T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Rohan",
+     "text": "Right. So it'd have to go on the old one first.",
+     "ts": "2025-07-23T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Diego",
+     "text": "That's fine.",
+     "ts": "2025-07-23T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Chloe",
+     "text": "Hey, unrelated, is anyone going to the thing for the new analytics lead? Is it Thursday or Friday?",
+     "ts": "2025-07-23T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Elif",
+     "text": "Friday.",
+     "ts": "2025-07-23T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Chloe",
+     "text": "Friday, okay.",
+     "ts": "2025-07-23T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Rohan",
+     "text": "I can't do Friday, I've got the, um, the car in the-",
+     "ts": "2025-07-23T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Henrik",
+     "text": "Rohan.",
+     "ts": "2025-07-23T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Rohan",
+     "text": "Yeah, sorry.",
+     "ts": "2025-07-23T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Henrik",
+     "text": "What would it take to get this running in production?",
+     "ts": "2025-07-23T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Diego",
+     "text": "Mostly packaging. The model file, the feature query, and a table the account managers' dashboard can read from. Maybe two weeks of my time.",
+     "ts": "2025-07-23T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Rohan",
+     "text": "Two weeks if nobody asks me for anything else.",
+     "ts": "2025-07-23T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Elif",
+     "text": "Everybody always asks you for something else.",
+     "ts": "2025-07-23T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Rohan",
+     "text": "That is true, that is true.",
+     "ts": "2025-07-23T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Henrik",
+     "text": "Okay.",
+     "ts": "2025-07-23T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Diego",
+     "text": "And Rosa already said she'd take a look at the dashboard side.",
+     "ts": "2025-07-23T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Chloe",
+     "text": "She did, she said she could make the column swap pretty quick. A day or something.",
+     "ts": "2025-07-23T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Rohan",
+     "text": "A day for her is like a week for us, no offence-",
+     "ts": "2025-07-23T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Chloe",
+     "text": "She's not here.",
+     "ts": "2025-07-23T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Rohan",
+     "text": "No, I know, I know.",
+     "ts": "2025-07-23T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Elif",
+     "text": "Anything else on the model?",
+     "ts": "2025-07-23T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Diego",
+     "text": "One thing. If the first month looks bad, we can still put the old numbers back. It's a switch.",
+     "ts": "2025-07-23T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Henrik",
+     "text": "Good. Rohan, go ahead and get the weekly scoring job set up, and loop Diego in on the table.",
+     "ts": "2025-07-23T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Rohan",
+     "text": "Yep, yep, I can do that. Does Monday morning work for the first run?",
+     "ts": "2025-07-23T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Henrik",
+     "text": "Whatever's cleanest.",
+     "ts": "2025-07-23T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Rohan",
+     "text": "Monday, then. I'll need the feature query from Diego by, like, Wednesday-",
+     "ts": "2025-07-23T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Diego",
+     "text": "Tomorrow if you want.",
+     "ts": "2025-07-23T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Rohan",
+     "text": "Wow. Okay.",
+     "ts": "2025-07-23T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Elif",
+     "text": "Good.",
+     "ts": "2025-07-23T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Chloe",
+     "text": "Yay, so that's sort of done.",
+     "ts": "2025-07-23T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Rohan",
+     "text": "Can I ask about the warehouse thing now?",
+     "ts": "2025-07-23T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Henrik",
+     "text": "Go ahead.",
+     "ts": "2025-07-23T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Rohan",
+     "text": "So Daan sent the access request for the new schema and it says it needs approval from someone in finance, and I don't know who.",
+     "ts": "2025-07-23T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Elif",
+     "text": "Jamal?",
+     "ts": "2025-07-23T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Rohan",
+     "text": "Jamal's on sales ops, I think.",
+     "ts": "2025-07-23T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Chloe",
+     "text": "Marta used to approve those.",
+     "ts": "2025-07-23T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Rohan",
+     "text": "She moved teams in May.",
+     "ts": "2025-07-23T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Chloe",
+     "text": "Oh. Right, I forgot.",
+     "ts": "2025-07-23T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Elif",
+     "text": "Ask Daan.",
+     "ts": "2025-07-23T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Rohan",
+     "text": "I did. He said ask you guys.",
+     "ts": "2025-07-23T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Elif",
+     "text": "Ha.",
+     "ts": "2025-07-23T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Henrik",
+     "text": "I'll find out.",
+     "ts": "2025-07-23T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Rohan",
+     "text": "Thanks. It's only blocking me for, you know, everything.",
+     "ts": "2025-07-23T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Diego",
+     "text": "Does anyone know if the quarterly numbers are due on the twentieth or the twenty-fifth?",
+     "ts": "2025-07-23T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Chloe",
+     "text": "Twenty-fifth. Pretty sure.",
+     "ts": "2025-07-23T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Elif",
+     "text": "Twentieth.",
+     "ts": "2025-07-23T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Chloe",
+     "text": "Twentieth?",
+     "ts": "2025-07-23T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Elif",
+     "text": "Xavier sent it Monday.",
+     "ts": "2025-07-23T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Chloe",
+     "text": "Okay, twentieth, I guess I should write that down.",
+     "ts": "2025-07-23T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Diego",
+     "text": "Great, that's a week less than I was planning on.",
+     "ts": "2025-07-23T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Elif",
+     "text": "Yeah.",
+     "ts": "2025-07-23T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Rohan",
+     "text": "Did anyone else see that the train from the north is cancelled again on Thursday? I'm going to have to-",
+     "ts": "2025-07-23T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Chloe",
+     "text": "Oh, is that the strike?",
+     "ts": "2025-07-23T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Rohan",
+     "text": "Yeah, three days this time. I had to book the later one and now I'll miss the whole morning.",
+     "ts": "2025-07-23T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Chloe",
+     "text": "Ugh, that's rough. Can you work from home?",
+     "ts": "2025-07-23T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Rohan",
+     "text": "Yeah, but the connection is-",
+     "ts": "2025-07-23T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Elif",
+     "text": "Use the hotspot.",
+     "ts": "2025-07-23T10:22:36"
+    },
+    {
+     "idx": 114,
+     "speaker": "Rohan",
+     "text": "I will. I just, it keeps dropping on calls.",
+     "ts": "2025-07-23T10:22:48"
+    },
+    {
+     "idx": 115,
+     "speaker": "Henrik",
+     "text": "Okay, I have to jump on another call. Thanks, everybody.",
+     "ts": "2025-07-23T10:23:00"
+    },
+    {
+     "idx": 116,
+     "speaker": "Diego",
+     "text": "Thanks.",
+     "ts": "2025-07-23T10:23:12"
+    },
+    {
+     "idx": 117,
+     "speaker": "Chloe",
+     "text": "Bye!",
+     "ts": "2025-07-23T10:23:24"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-07-30",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Henrik",
+     "text": "Okay, I think that's everyone. Diego, where are we on the packaging?",
+     "ts": "2025-07-30T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Diego",
+     "text": "Mostly there. Feature query's done, Rohan has it. The table layout I'm still fiddling with.",
+     "ts": "2025-07-30T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Rohan",
+     "text": "Yeah, I have it. The job is, uh, stubbed out. I just can't touch the new schema until the access-",
+     "ts": "2025-07-30T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Elif",
+     "text": "Henrik found the approver.",
+     "ts": "2025-07-30T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Henrik",
+     "text": "Zofia. I forwarded it Friday.",
+     "ts": "2025-07-30T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Rohan",
+     "text": "Oh. Oh, good. Okay, I'll chase her today.",
+     "ts": "2025-07-30T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Diego",
+     "text": "So first run is still Monday after next?",
+     "ts": "2025-07-30T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Rohan",
+     "text": "If the schema clears. Probably.",
+     "ts": "2025-07-30T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Elif",
+     "text": "Probably.",
+     "ts": "2025-07-30T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Rohan",
+     "text": "Well, it's not up to me, is it.",
+     "ts": "2025-07-30T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Chloe",
+     "text": "Sorry, before we move on, can I - it's about the seventy-one.",
+     "ts": "2025-07-30T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Diego",
+     "text": "What about it?",
+     "ts": "2025-07-30T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Chloe",
+     "text": "So, um, Marta's old group did an audit on the CRM merge, and I got the summary yesterday. I only skimmed it.",
+     "ts": "2025-07-30T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Henrik",
+     "text": "Mm.",
+     "ts": "2025-07-30T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Chloe",
+     "text": "There's a part about customer IDs. When the two systems got merged a lot of accounts were renamed, and-",
+     "ts": "2025-07-30T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Rohan",
+     "text": "The spring one? Half my joins broke that week, I remember-",
+     "ts": "2025-07-30T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Diego",
+     "text": "Chloe, what's the upshot?",
+     "ts": "2025-07-30T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Chloe",
+     "text": "Right, sorry. They checked our holdout against the training data, and something like eighteen percent of those accounts are in both, just under the old ID. So the seventy-one is, you know, puffed up.",
+     "ts": "2025-07-30T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Diego",
+     "text": "Eighteen. Of the whole holdout?",
+     "ts": "2025-07-30T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Chloe",
+     "text": "That's what it says, yeah.",
+     "ts": "2025-07-30T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Rohan",
+     "text": "So the model's already seen some of the answers.",
+     "ts": "2025-07-30T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Diego",
+     "text": "Hang on. My leakage check was on the features. I matched rows on customer ID.",
+     "ts": "2025-07-30T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Chloe",
+     "text": "Which changed. That's the thing.",
+     "ts": "2025-07-30T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Diego",
+     "text": "Okay. That's annoying. But fifty-two against seventy-one, a gap like that doesn't just vanish.",
+     "ts": "2025-07-30T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Elif",
+     "text": "I don't trust that gain anymore. And then account managers get scores nobody can explain.",
+     "ts": "2025-07-30T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Diego",
+     "text": "Devil's advocate, there's the top-three reasons output. That explains them.",
+     "ts": "2025-07-30T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Elif",
+     "text": "Reasons from a model that might've memorized accounts.",
+     "ts": "2025-07-30T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Rohan",
+     "text": "And if Jamal's team asks why an account is red, what do we say, the model just-",
+     "ts": "2025-07-30T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Diego",
+     "text": "Okay, okay. But what's the real number? Nobody's rerun it.",
+     "ts": "2025-07-30T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Elif",
+     "text": "I did.",
+     "ts": "2025-07-30T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Chloe",
+     "text": "Oh, you did?",
+     "ts": "2025-07-30T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Elif",
+     "text": "Last night. The summary had the list of merged IDs, so I dropped them and reran both.",
+     "ts": "2025-07-30T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Diego",
+     "text": "And?",
+     "ts": "2025-07-30T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Elif",
+     "text": "Cleaned holdout, the boosted one catches sixty-four percent, the logistic one sixty-one. And with that one you can literally read the coefficients out to the account managers.",
+     "ts": "2025-07-30T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Diego",
+     "text": "Sixty-four. Huh.",
+     "ts": "2025-07-30T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Rohan",
+     "text": "Down from seventy-one, wow.",
+     "ts": "2025-07-30T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Diego",
+     "text": "And the baseline was fifty-two on the dirty holdout, so it's moved too, I guess.",
+     "ts": "2025-07-30T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Elif",
+     "text": "Probably.",
+     "ts": "2025-07-30T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Chloe",
+     "text": "From the big picture, though, if people trust it they'll use it.",
+     "ts": "2025-07-30T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Diego",
+     "text": "Three points is still three points, I'd say.",
+     "ts": "2025-07-30T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Elif",
+     "text": "Inside noise on one decile.",
+     "ts": "2025-07-30T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Diego",
+     "text": "Maybe. I'd like it written down the boosted one was ahead on every cut.",
+     "ts": "2025-07-30T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Elif",
+     "text": "Fine. Write it down.",
+     "ts": "2025-07-30T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Rohan",
+     "text": "Do we even need the contribution table then? Because that's the part that-",
+     "ts": "2025-07-30T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Henrik",
+     "text": "Hm.",
+     "ts": "2025-07-30T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Diego",
+     "text": "Henrik?",
+     "ts": "2025-07-30T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Henrik",
+     "text": "Let me think a second.",
+     "ts": "2025-07-30T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Rohan",
+     "text": "Sure, take-",
+     "ts": "2025-07-30T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Henrik",
+     "text": "We ship the logistic regression model.",
+     "ts": "2025-07-30T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Diego",
+     "text": "Okay. Fair enough.",
+     "ts": "2025-07-30T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Chloe",
+     "text": "Yay, okay, so that's sort of sorted again.",
+     "ts": "2025-07-30T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Diego",
+     "text": "Most of the packaging carries over. I'd drop the contribution columns.",
+     "ts": "2025-07-30T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Rohan",
+     "text": "So the job's simpler too.",
+     "ts": "2025-07-30T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Diego",
+     "text": "Yeah, a bit.",
+     "ts": "2025-07-30T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Chloe",
+     "text": "I'll tell Rosa so she's not building for the wrong thing.",
+     "ts": "2025-07-30T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Elif",
+     "text": "Do that.",
+     "ts": "2025-07-30T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Diego",
+     "text": "Does anyone know if the quarterly numbers are still the twentieth?",
+     "ts": "2025-07-30T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Elif",
+     "text": "Yes.",
+     "ts": "2025-07-30T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Chloe",
+     "text": "Xavier said something about moving it?",
+     "ts": "2025-07-30T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Elif",
+     "text": "He didn't.",
+     "ts": "2025-07-30T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Chloe",
+     "text": "Okay, I'm probably mixing it up.",
+     "ts": "2025-07-30T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Elif",
+     "text": "Anything else?",
+     "ts": "2025-07-30T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Rohan",
+     "text": "Yes, actually. The data-quality review. Monday mornings, it's not really working. Can it be Thursday afternoon instead?",
+     "ts": "2025-07-30T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Diego",
+     "text": "Why? I like Monday, it's a clean start.",
+     "ts": "2025-07-30T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Rohan",
+     "text": "Because the Friday-night batch jobs are still going on Monday mornings, and, uh, half the failures only show up after eleven. We're reviewing a half-finished picture.",
+     "ts": "2025-07-30T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Elif",
+     "text": "True. Last week we looked at three failures and there were nine by lunch.",
+     "ts": "2025-07-30T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Diego",
+     "text": "Okay, fair. Does Thursday collide with anything?",
+     "ts": "2025-07-30T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Chloe",
+     "text": "Not for me. The analytics lead thing is Friday.",
+     "ts": "2025-07-30T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Rohan",
+     "text": "I'm remote Thursdays anyway, so-",
+     "ts": "2025-07-30T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Elif",
+     "text": "Hotspot.",
+     "ts": "2025-07-30T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Rohan",
+     "text": "Yes, I know.",
+     "ts": "2025-07-30T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Henrik",
+     "text": "Thursday afternoon works. Move the data-quality review there, starting next week.",
+     "ts": "2025-07-30T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Rohan",
+     "text": "Great, I'll update the invite.",
+     "ts": "2025-07-30T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Elif",
+     "text": "Two o'clock?",
+     "ts": "2025-07-30T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Rohan",
+     "text": "Two is fine.",
+     "ts": "2025-07-30T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Diego",
+     "text": "Works for me.",
+     "ts": "2025-07-30T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Chloe",
+     "text": "Me too. Sorry, I'm bad with invites, so just-",
+     "ts": "2025-07-30T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Rohan",
+     "text": "I'll send it.",
+     "ts": "2025-07-30T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Henrik",
+     "text": "I need to jump to another call. Thanks, all.",
+     "ts": "2025-07-30T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Diego",
+     "text": "Thanks.",
+     "ts": "2025-07-30T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Elif",
+     "text": "Bye.",
+     "ts": "2025-07-30T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Chloe",
+     "text": "Bye!",
+     "ts": "2025-07-30T10:16:12"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-08-06",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Henrik",
+     "text": "Okay. Who's missing? Chloe's on, Rohan's on.",
+     "ts": "2025-08-06T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Chloe",
+     "text": "Hi, yeah, sorry, I was muting and unmuting, the- it's fine now.",
+     "ts": "2025-08-06T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Rohan",
+     "text": "Morning. Is the Thursday slot actually on everyone's calendar? Mine shows two o'clock but Diego's shows as, uh, tentative.",
+     "ts": "2025-08-06T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Diego",
+     "text": "That's me clicking the wrong button. I'm in.",
+     "ts": "2025-08-06T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Elif",
+     "text": "Good.",
+     "ts": "2025-08-06T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Henrik",
+     "text": "Rohan, the schema. Did Zofia come back?",
+     "ts": "2025-08-06T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Rohan",
+     "text": "She did, Monday. Approved it, no questions. So the weekly job ran for the first time this week.",
+     "ts": "2025-08-06T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Chloe",
+     "text": "Oh nice, so it's live?",
+     "ts": "2025-08-06T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Rohan",
+     "text": "Live on the old cluster. The table's filling, Rosa's column is pointing at it.",
+     "ts": "2025-08-06T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Diego",
+     "text": "Did she swap the column already? I thought that was going to be, what, next week-",
+     "ts": "2025-08-06T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Rohan",
+     "text": "Tuesday. She said it took her an hour.",
+     "ts": "2025-08-06T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Elif",
+     "text": "Told you.",
+     "ts": "2025-08-06T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Chloe",
+     "text": "Good. I mean, good for her.",
+     "ts": "2025-08-06T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Diego",
+     "text": "Okay, so account managers have been looking at the new numbers for two days.",
+     "ts": "2025-08-06T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Elif",
+     "text": "Any feedback?",
+     "ts": "2025-08-06T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Chloe",
+     "text": "Um, Jamal sent a message, something like, the colors are different, are they supposed to be different. That was it.",
+     "ts": "2025-08-06T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Diego",
+     "text": "That's a fair question, honestly.",
+     "ts": "2025-08-06T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Elif",
+     "text": "They're supposed to be different.",
+     "ts": "2025-08-06T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Chloe",
+     "text": "Right, I said that. I said it's a new, you know, a refresh.",
+     "ts": "2025-08-06T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Henrik",
+     "text": "Mm.",
+     "ts": "2025-08-06T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Rohan",
+     "text": "Can I bring something up on the scores? While I was checking the first run I did a thing I wasn't asked to do.",
+     "ts": "2025-08-06T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Elif",
+     "text": "Of course you did.",
+     "ts": "2025-08-06T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Rohan",
+     "text": "Well, it was sitting right there. I pulled the enterprise accounts out and compared the score to what happened last quarter.",
+     "ts": "2025-08-06T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Diego",
+     "text": "Compared how?",
+     "ts": "2025-08-06T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Rohan",
+     "text": "Just, what the model says versus who actually left. Forty accounts, that's all the enterprise tier we've got.",
+     "ts": "2025-08-06T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Chloe",
+     "text": "Forty, that's not many.",
+     "ts": "2025-08-06T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Rohan",
+     "text": "No, but it's the whole tier, it's not a sample. So the average the logistic one gives them is about twelve percent.",
+     "ts": "2025-08-06T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Diego",
+     "text": "Twelve.",
+     "ts": "2025-08-06T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Rohan",
+     "text": "And last quarter, uh, thirty-one percent of them walked. Or didn't renew, whichever you call it.",
+     "ts": "2025-08-06T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Elif",
+     "text": "Thirty-one.",
+     "ts": "2025-08-06T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Rohan",
+     "text": "Yeah. Twelve versus thirty-one, and I double-checked the join this time, given everything.",
+     "ts": "2025-08-06T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Diego",
+     "text": "Huh. That's not a small miss.",
+     "ts": "2025-08-06T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Chloe",
+     "text": "Is that, like, a one-quarter thing though? Could be a weird quarter.",
+     "ts": "2025-08-06T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Rohan",
+     "text": "Could be. I only did the one quarter. I didn't go back further.",
+     "ts": "2025-08-06T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Elif",
+     "text": "Do it.",
+     "ts": "2025-08-06T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Rohan",
+     "text": "Yeah, yeah, I will, I just wanted to say it before the thing sat in a notebook for a week.",
+     "ts": "2025-08-06T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Diego",
+     "text": "Okay, sorry, I need a second. Because what bothers me isn't the miss itself.",
+     "ts": "2025-08-06T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Diego",
+     "text": "It's who it's on. Enterprise is where the money is. Something like fifty-eight percent of renewal revenue sits in those accounts.",
+     "ts": "2025-08-06T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Elif",
+     "text": "Is it that high?",
+     "ts": "2025-08-06T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Diego",
+     "text": "Last I looked, yeah. Fifty-eight, give or take. So the model that's wrong about them is wrong about the part that pays for everything else.",
+     "ts": "2025-08-06T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Chloe",
+     "text": "From the big picture, that's, yeah. That's the whole point of the score, isn't it, knowing who to call.",
+     "ts": "2025-08-06T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Diego",
+     "text": "Right. And right now a quarter of the big ones are leaving and the sheet is telling the account managers they're basically fine.",
+     "ts": "2025-08-06T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Rohan",
+     "text": "Well, twelve percent average, not all of them show twelve.",
+     "ts": "2025-08-06T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Diego",
+     "text": "Sure, but the average is what it is. I'm not saying the readable coefficients don't have value. I'm saying we picked on a decile number, and that number didn't have an enterprise cut in it.",
+     "ts": "2025-08-06T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Elif",
+     "text": "It didn't.",
+     "ts": "2025-08-06T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Diego",
+     "text": "So, I mean, I'm playing devil's advocate, but is this a fluke or is it the model?",
+     "ts": "2025-08-06T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Elif",
+     "text": "Small tier. Forty accounts. Ten or twelve of them moved.",
+     "ts": "2025-08-06T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Diego",
+     "text": "Ten or twelve is a lot of money.",
+     "ts": "2025-08-06T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Elif",
+     "text": "I know that.",
+     "ts": "2025-08-06T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Rohan",
+     "text": "Thirty-one percent of forty is, um, twelve and a bit. So yeah. Twelve accounts.",
+     "ts": "2025-08-06T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Chloe",
+     "text": "Twelve accounts leaving, wow.",
+     "ts": "2025-08-06T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Rohan",
+     "text": "Not leaving all at once, it's, there was some downgrading in there too, I'd have to look at how I flagged that-",
+     "ts": "2025-08-06T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Elif",
+     "text": "Which one is it, leaving or downgrading?",
+     "ts": "2025-08-06T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Rohan",
+     "text": "Both counted. I'd have to split them.",
+     "ts": "2025-08-06T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Elif",
+     "text": "Then split them.",
+     "ts": "2025-08-06T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Rohan",
+     "text": "Okay, okay.",
+     "ts": "2025-08-06T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Henrik",
+     "text": "Hm.",
+     "ts": "2025-08-06T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Diego",
+     "text": "Can I ask what the boosted one would have said for those same forty?",
+     "ts": "2025-08-06T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Rohan",
+     "text": "I haven't run it. It's not scoring them in production, I'd have to go back and pull the old notebook output.",
+     "ts": "2025-08-06T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Diego",
+     "text": "I can pull it. It's a quick query.",
+     "ts": "2025-08-06T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Elif",
+     "text": "Do it before next time. Not a rerun, just those forty.",
+     "ts": "2025-08-06T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Diego",
+     "text": "Yeah, fine.",
+     "ts": "2025-08-06T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Chloe",
+     "text": "Sorry, is anyone else's screen freezing? I lost you for a second.",
+     "ts": "2025-08-06T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Rohan",
+     "text": "I'm fine.",
+     "ts": "2025-08-06T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Chloe",
+     "text": "Okay, I'm back.",
+     "ts": "2025-08-06T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Elif",
+     "text": "Anyway.",
+     "ts": "2025-08-06T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Rohan",
+     "text": "Related, kind of, the enterprise accounts, I noticed a bunch have two contract IDs. Because of the merge.",
+     "ts": "2025-08-06T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Chloe",
+     "text": "Ugh, the merge.",
+     "ts": "2025-08-06T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Rohan",
+     "text": "So some of that twelve might be me counting the same account half a time. I don't know. I'd need to check.",
+     "ts": "2025-08-06T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Diego",
+     "text": "That would cut the other way, though, wouldn't it? Fewer accounts, same people leaving.",
+     "ts": "2025-08-06T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Rohan",
+     "text": "Or more, if I'm missing some. I really don't know yet.",
+     "ts": "2025-08-06T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Elif",
+     "text": "Check it.",
+     "ts": "2025-08-06T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Rohan",
+     "text": "Yes. Yes. It's on my list.",
+     "ts": "2025-08-06T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Chloe",
+     "text": "It's a long list.",
+     "ts": "2025-08-06T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Rohan",
+     "text": "You have no idea. Did you see the train strike is back? Another three days next week.",
+     "ts": "2025-08-06T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Chloe",
+     "text": "Again? Is that the northern one?",
+     "ts": "2025-08-06T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Rohan",
+     "text": "The same one. I'm remote anyway Thursdays but now it's Wednesday and Friday too, probably.",
+     "ts": "2025-08-06T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Elif",
+     "text": "Hotspot.",
+     "ts": "2025-08-06T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Rohan",
+     "text": "I know, I know, I have a new one. It still drops.",
+     "ts": "2025-08-06T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Chloe",
+     "text": "Which one did you get?",
+     "ts": "2025-08-06T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Rohan",
+     "text": "I don't even know, the cheap one. A guy at the shop said it was fine.",
+     "ts": "2025-08-06T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Diego",
+     "text": "They always say it's fine.",
+     "ts": "2025-08-06T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Chloe",
+     "text": "Mine at home is okay, but it's, like, a different thing, it's the box from the- the provider.",
+     "ts": "2025-08-06T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Henrik",
+     "text": "Okay. Can we get back to the scores for a minute?",
+     "ts": "2025-08-06T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Rohan",
+     "text": "Sorry. Yes.",
+     "ts": "2025-08-06T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Henrik",
+     "text": "What do we know for sure, and what don't we?",
+     "ts": "2025-08-06T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Elif",
+     "text": "We know it ran. We know twelve against thirty-one on one quarter and forty accounts. We don't know the split.",
+     "ts": "2025-08-06T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Diego",
+     "text": "And I don't know if the other one does any better on them.",
+     "ts": "2025-08-06T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Rohan",
+     "text": "And I don't know about the double IDs.",
+     "ts": "2025-08-06T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Henrik",
+     "text": "Fine. So the column stays as it is this week.",
+     "ts": "2025-08-06T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Chloe",
+     "text": "Does that mean the account managers keep seeing the same numbers?",
+     "ts": "2025-08-06T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Henrik",
+     "text": "For now.",
+     "ts": "2025-08-06T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Chloe",
+     "text": "Okay. I should maybe tell Rosa so she doesn't think it's about to change again.",
+     "ts": "2025-08-06T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Elif",
+     "text": "Tell her it's being looked at. Nothing more.",
+     "ts": "2025-08-06T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Chloe",
+     "text": "Right, being looked at. I can do that.",
+     "ts": "2025-08-06T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Diego",
+     "text": "And we come back to this next time, with the numbers.",
+     "ts": "2025-08-06T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Henrik",
+     "text": "Next time, yes. Bring the forty accounts split out.",
+     "ts": "2025-08-06T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Rohan",
+     "text": "I'll send what I have tonight so you're not starting cold.",
+     "ts": "2025-08-06T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Diego",
+     "text": "Please. And put the query in the doc.",
+     "ts": "2025-08-06T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Rohan",
+     "text": "It's already in the doc. It's, uh, the second tab.",
+     "ts": "2025-08-06T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Diego",
+     "text": "Is it? I never look at the second tab.",
+     "ts": "2025-08-06T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Elif",
+     "text": "Nobody looks at the second tab.",
+     "ts": "2025-08-06T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Henrik",
+     "text": "I've got a call. Thanks, everyone.",
+     "ts": "2025-08-06T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Diego",
+     "text": "Thanks.",
+     "ts": "2025-08-06T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Chloe",
+     "text": "Bye!",
+     "ts": "2025-08-06T10:20:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m4",
+   "date": "2025-08-13",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Henrik",
+     "text": "Okay, I think that's everyone. Rohan, you're on?",
+     "ts": "2025-08-13T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Rohan",
+     "text": "Yeah, here. Sorry, I was just- the cluster thing, never mind.",
+     "ts": "2025-08-13T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Chloe",
+     "text": "Hi, hi. Can everybody hear me? I switched headsets.",
+     "ts": "2025-08-13T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Elif",
+     "text": "Yes.",
+     "ts": "2025-08-13T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Diego",
+     "text": "Loud and clear.",
+     "ts": "2025-08-13T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Henrik",
+     "text": "Good. Um, before the scores. Daan wrote about the cluster migration. Still September.",
+     "ts": "2025-08-13T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Rohan",
+     "text": "Right, he told me the same. Moving the weekly job over is a half day, I think.",
+     "ts": "2025-08-13T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Elif",
+     "text": "Half day for you is two days.",
+     "ts": "2025-08-13T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Rohan",
+     "text": "Okay, that's fair, that's fair, but if the schema carries over-",
+     "ts": "2025-08-13T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Diego",
+     "text": "Does the table name change?",
+     "ts": "2025-08-13T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Rohan",
+     "text": "No, it shouldn't. Same name, new host.",
+     "ts": "2025-08-13T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Diego",
+     "text": "Fine then.",
+     "ts": "2025-08-13T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Henrik",
+     "text": "Chloe, you had the enterprise numbers from last time? Or was that Rohan.",
+     "ts": "2025-08-13T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Chloe",
+     "text": "Um, I picked it up, actually. Rohan sent me the notebook and I, I reran it for the quarter before.",
+     "ts": "2025-08-13T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Rohan",
+     "text": "She did. I never got to it, the train week, the-",
+     "ts": "2025-08-13T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Chloe",
+     "text": "So the one we looked at was last quarter, and now I've done the one before that.",
+     "ts": "2025-08-13T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Diego",
+     "text": "And?",
+     "ts": "2025-08-13T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Chloe",
+     "text": "It's, um, the same shape. The logistic one gives them ten, eleven percent on average, and about twenty-nine percent didn't renew.",
+     "ts": "2025-08-13T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Elif",
+     "text": "Twenty-nine.",
+     "ts": "2025-08-13T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Chloe",
+     "text": "Or thirty. It's in the sheet, twenty-nine point something.",
+     "ts": "2025-08-13T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Rohan",
+     "text": "Did you take out the doubled contract IDs?",
+     "ts": "2025-08-13T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Chloe",
+     "text": "Yes, I used the merged-ID list Elif had. So the forty is more like thirty-seven accounts now.",
+     "ts": "2025-08-13T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Elif",
+     "text": "Thirty-seven.",
+     "ts": "2025-08-13T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Chloe",
+     "text": "Yeah, three were counted twice. Doesn't change the picture.",
+     "ts": "2025-08-13T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Diego",
+     "text": "So not a weird quarter.",
+     "ts": "2025-08-13T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Chloe",
+     "text": "No. From the big picture it's, it's consistent. Two quarters, same gap.",
+     "ts": "2025-08-13T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Rohan",
+     "text": "And the downgrade split I owe you, I did it, it's mostly full non-renewals, like nine of the twelve-",
+     "ts": "2025-08-13T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Elif",
+     "text": "Fine. Good.",
+     "ts": "2025-08-13T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Henrik",
+     "text": "Hm. Okay.",
+     "ts": "2025-08-13T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Henrik",
+     "text": "Then we should look at the model decision again. Let's reopen it.",
+     "ts": "2025-08-13T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Diego",
+     "text": "Good, because I did the thing I said I'd do. Pulled the boosted scores for those same accounts.",
+     "ts": "2025-08-13T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Rohan",
+     "text": "And?",
+     "ts": "2025-08-13T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Diego",
+     "text": "Straight out of my notebook it was bad too, honestly. Lower than I expected, which bugged me.",
+     "ts": "2025-08-13T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Elif",
+     "text": "How bad?",
+     "ts": "2025-08-13T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Diego",
+     "text": "Off by nine, ten points on enterprise. Better than the logistic one, not great.",
+     "ts": "2025-08-13T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Chloe",
+     "text": "Oh.",
+     "ts": "2025-08-13T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Diego",
+     "text": "But that was trained on the dirty set. With the duplicates in. So I recalibrated it on the deduplicated data, merged IDs out.",
+     "ts": "2025-08-13T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Rohan",
+     "text": "Recalibrated how, just the intercept or did you retrain, because-",
+     "ts": "2025-08-13T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Diego",
+     "text": "Calibration layer on top, and I refit on the cleaned training rows. Same features.",
+     "ts": "2025-08-13T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Elif",
+     "text": "And now?",
+     "ts": "2025-08-13T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Diego",
+     "text": "Now it lands within about four points of what enterprise actually did. Both quarters. The logistic one is off by nearly twenty.",
+     "ts": "2025-08-13T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Diego",
+     "text": "And the thing that bothered everyone last time, the explaining. I built per-account reason codes. Each red account gets its own reasons, not a global list, so honestly I'd go back to the boosted one.",
+     "ts": "2025-08-13T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Rohan",
+     "text": "Wait, per account, so the account managers see why for each one-",
+     "ts": "2025-08-13T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Diego",
+     "text": "Yes. Top reasons, plain words. Contract end date, tickets, seats trending down.",
+     "ts": "2025-08-13T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Rohan",
+     "text": "Plain words from who? Because last time it was feature names, and Jamal's team is not going to read feature names-",
+     "ts": "2025-08-13T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Diego",
+     "text": "I wrote the labels. Rosa can check them.",
+     "ts": "2025-08-13T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Elif",
+     "text": "Show me one.",
+     "ts": "2025-08-13T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Diego",
+     "text": "Pasting one in the doc. One sec.",
+     "ts": "2025-08-13T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Chloe",
+     "text": "Is it the second tab?",
+     "ts": "2025-08-13T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Diego",
+     "text": "First tab. I learned.",
+     "ts": "2025-08-13T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Elif",
+     "text": "Good.",
+     "ts": "2025-08-13T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Elif",
+     "text": "Okay. Reads fine. Why that one account, though, it says seats dropping and it renewed?",
+     "ts": "2025-08-13T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Diego",
+     "text": "That one's a downgrade, not a churn. It still flagged it, which I'd say is right.",
+     "ts": "2025-08-13T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Elif",
+     "text": "Hm. Maybe.",
+     "ts": "2025-08-13T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Rohan",
+     "text": "And the sixty-four against sixty-one thing, from the clean holdout, does that still hold with your recalibration?",
+     "ts": "2025-08-13T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Diego",
+     "text": "It moved a bit. Sixty-five, sixty-six on the decile. I'd have to rerun to give you a proper number.",
+     "ts": "2025-08-13T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Elif",
+     "text": "Rerun it.",
+     "ts": "2025-08-13T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Diego",
+     "text": "I will. It's not going to flip.",
+     "ts": "2025-08-13T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Chloe",
+     "text": "Sorry, is the doc the one Marta used to keep, or the new one?",
+     "ts": "2025-08-13T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Diego",
+     "text": "The new one.",
+     "ts": "2025-08-13T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Chloe",
+     "text": "Okay. I keep opening the wrong one.",
+     "ts": "2025-08-13T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Rohan",
+     "text": "Everyone does.",
+     "ts": "2025-08-13T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Henrik",
+     "text": "The quarterly numbers, are those still the twentieth?",
+     "ts": "2025-08-13T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Elif",
+     "text": "Twentieth.",
+     "ts": "2025-08-13T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Chloe",
+     "text": "Xavier asked me yesterday if we had a draft. I said no.",
+     "ts": "2025-08-13T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Elif",
+     "text": "We don't.",
+     "ts": "2025-08-13T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Chloe",
+     "text": "Right, no. I told him Friday.",
+     "ts": "2025-08-13T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Diego",
+     "text": "Friday of this week?",
+     "ts": "2025-08-13T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Chloe",
+     "text": "Um. Next? I'd have to look.",
+     "ts": "2025-08-13T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Elif",
+     "text": "Say next.",
+     "ts": "2025-08-13T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Chloe",
+     "text": "Okay, next.",
+     "ts": "2025-08-13T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Rohan",
+     "text": "Can I go back for a second, on the switch?",
+     "ts": "2025-08-13T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Diego",
+     "text": "Which switch?",
+     "ts": "2025-08-13T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Rohan",
+     "text": "Going from the logistic to the boosted. The job is already running the boosted code path for the contribution table, I just stubbed it out. It's a flag.",
+     "ts": "2025-08-13T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Diego",
+     "text": "Right, I left that in on purpose.",
+     "ts": "2025-08-13T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Rohan",
+     "text": "Then it's maybe a day, plus the table needs the new columns, and the dashboard-",
+     "ts": "2025-08-13T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Diego",
+     "text": "Rosa. Another hour, if the last one was an hour.",
+     "ts": "2025-08-13T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Elif",
+     "text": "It'll be a day.",
+     "ts": "2025-08-13T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Chloe",
+     "text": "A day for her.",
+     "ts": "2025-08-13T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Rohan",
+     "text": "A week for us.",
+     "ts": "2025-08-13T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Elif",
+     "text": "Stop.",
+     "ts": "2025-08-13T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Rohan",
+     "text": "Sorry, sorry.",
+     "ts": "2025-08-13T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Elif",
+     "text": "What about the account managers? They've been on the logistic numbers three weeks. They'll notice another change.",
+     "ts": "2025-08-13T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Chloe",
+     "text": "Jamal said the colors were different. That was it.",
+     "ts": "2025-08-13T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Elif",
+     "text": "That was one message.",
+     "ts": "2025-08-13T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Chloe",
+     "text": "Yeah, but I mean, people didn't, you know, they weren't upset.",
+     "ts": "2025-08-13T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Diego",
+     "text": "We tell them it's a refresh plus a reason next to each score. That's an improvement they can see.",
+     "ts": "2025-08-13T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Elif",
+     "text": "Fine. As long as it's said once and clearly.",
+     "ts": "2025-08-13T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Chloe",
+     "text": "I can write that. Or, I can ask Rosa to.",
+     "ts": "2025-08-13T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Elif",
+     "text": "You write it. Rosa checks it.",
+     "ts": "2025-08-13T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Chloe",
+     "text": "Okay.",
+     "ts": "2025-08-13T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Rohan",
+     "text": "The only thing, if the first month looks off on the boosted one, can we switch back?",
+     "ts": "2025-08-13T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Diego",
+     "text": "Same flag. It's the one I mentioned back at the start.",
+     "ts": "2025-08-13T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Rohan",
+     "text": "Good. I like a flag.",
+     "ts": "2025-08-13T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Elif",
+     "text": "Anyone else have a reason not to?",
+     "ts": "2025-08-13T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Rohan",
+     "text": "Not me. I just want it settled so I'm not changing the job twice.",
+     "ts": "2025-08-13T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Chloe",
+     "text": "Same, it's, it's the big picture, we've gone back and forth a bit.",
+     "ts": "2025-08-13T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Elif",
+     "text": "Because the numbers moved.",
+     "ts": "2025-08-13T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Chloe",
+     "text": "Sure, sure.",
+     "ts": "2025-08-13T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Henrik",
+     "text": "Okay. We ship the gradient-boosted model, with the reason codes.",
+     "ts": "2025-08-13T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Diego",
+     "text": "Thanks. I'll package the codes today.",
+     "ts": "2025-08-13T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Rohan",
+     "text": "And I flip the flag when the table has the columns.",
+     "ts": "2025-08-13T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Diego",
+     "text": "Tomorrow for the table.",
+     "ts": "2025-08-13T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Rohan",
+     "text": "Monday for the first scored run, then, probably. Probably.",
+     "ts": "2025-08-13T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Elif",
+     "text": "Probably.",
+     "ts": "2025-08-13T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Rohan",
+     "text": "I know how that sounds.",
+     "ts": "2025-08-13T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Henrik",
+     "text": "Rohan, send the schema change to Zofia, so it's not a surprise.",
+     "ts": "2025-08-13T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Rohan",
+     "text": "Yep. Today.",
+     "ts": "2025-08-13T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Chloe",
+     "text": "And I'll tell Rosa. Again. Sorry, Rosa.",
+     "ts": "2025-08-13T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Elif",
+     "text": "She'll live.",
+     "ts": "2025-08-13T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Henrik",
+     "text": "I have to jump to another call. Thanks, everyone.",
+     "ts": "2025-08-13T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Diego",
+     "text": "Thanks.",
+     "ts": "2025-08-13T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Chloe",
+     "text": "Bye!",
+     "ts": "2025-08-13T10:22:24"
+    }
+   ]
+  }
+ ]
+}

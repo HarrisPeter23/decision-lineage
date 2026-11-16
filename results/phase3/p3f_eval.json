@@ -1,0 +1,221 @@
+{
+ "results": {
+  "single_pass_recap_roles_top4": {
+   "tune": {
+    "ds_f1": 0.618,
+    "ds_f1_ci": [
+     0.478,
+     0.727
+    ],
+    "headline_completeness": 0.638,
+    "headline_ci": [
+     0.537,
+     0.756
+    ],
+    "role_f1": 0.568,
+    "links": 83,
+    "implicit": "2/4",
+    "recall": {
+     "proposal": 0.818,
+     "rationale": 0.278,
+     "evidence": 0.875,
+     "challenge": 0.4,
+     "reconsideration": 1.0,
+     "resolution": 0.765
+    }
+   },
+   "check": {
+    "ds_f1": 0.597,
+    "ds_f1_ci": [
+     0.512,
+     0.683
+    ],
+    "headline_completeness": 0.627,
+    "headline_ci": [
+     0.462,
+     0.777
+    ],
+    "role_f1": 0.54,
+    "links": 80,
+    "implicit": "1/2",
+    "recall": {
+     "proposal": 0.75,
+     "rationale": 0.133,
+     "evidence": 0.875,
+     "challenge": 0.833,
+     "reconsideration": 1.0,
+     "resolution": 0.786
+    }
+   },
+   "all": {
+    "ds_f1": 0.608,
+    "ds_f1_ci": [
+     0.52,
+     0.683
+    ],
+    "headline_completeness": 0.633,
+    "headline_ci": [
+     0.538,
+     0.728
+    ],
+    "role_f1": 0.554,
+    "links": 163,
+    "implicit": "3/6",
+    "recall": {
+     "proposal": 0.789,
+     "rationale": 0.212,
+     "evidence": 0.875,
+     "challenge": 0.636,
+     "reconsideration": 1.0,
+     "resolution": 0.774
+    }
+   }
+  },
+  "recap_roles_div4": {
+   "tune": {
+    "ds_f1": 0.609,
+    "ds_f1_ci": [
+     0.494,
+     0.716
+    ],
+    "headline_completeness": 0.538,
+    "headline_ci": [
+     0.351,
+     0.677
+    ],
+    "role_f1": 0.568,
+    "links": 83,
+    "implicit": "2/4",
+    "recall": {
+     "proposal": 0.818,
+     "rationale": 0.278,
+     "evidence": 0.875,
+     "challenge": 0.2,
+     "reconsideration": 1.0,
+     "resolution": 0.824
+    }
+   },
+   "check": {
+    "ds_f1": 0.613,
+    "ds_f1_ci": [
+     0.536,
+     0.682
+    ],
+    "headline_completeness": 0.582,
+    "headline_ci": [
+     0.417,
+     0.743
+    ],
+    "role_f1": 0.555,
+    "links": 80,
+    "implicit": "1/2",
+    "recall": {
+     "proposal": 0.875,
+     "rationale": 0.133,
+     "evidence": 0.875,
+     "challenge": 0.833,
+     "reconsideration": 1.0,
+     "resolution": 0.786
+    }
+   },
+   "all": {
+    "ds_f1": 0.611,
+    "ds_f1_ci": [
+     0.537,
+     0.677
+    ],
+    "headline_completeness": 0.56,
+    "headline_ci": [
+     0.445,
+     0.666
+    ],
+    "role_f1": 0.561,
+    "links": 163,
+    "implicit": "3/6",
+    "recall": {
+     "proposal": 0.842,
+     "rationale": 0.212,
+     "evidence": 0.875,
+     "challenge": 0.545,
+     "reconsideration": 1.0,
+     "resolution": 0.806
+    }
+   }
+  },
+  "recap_args_div4": {
+   "tune": {
+    "ds_f1": 0.615,
+    "ds_f1_ci": [
+     0.525,
+     0.716
+    ],
+    "headline_completeness": 0.683,
+    "headline_ci": [
+     0.567,
+     0.816
+    ],
+    "role_f1": 0.591,
+    "links": 84,
+    "implicit": "2/4",
+    "recall": {
+     "proposal": 0.818,
+     "rationale": 0.333,
+     "evidence": 0.875,
+     "challenge": 0.6,
+     "reconsideration": 1.0,
+     "resolution": 0.765
+    }
+   },
+   "check": {
+    "ds_f1": 0.677,
+    "ds_f1_ci": [
+     0.625,
+     0.729
+    ],
+    "headline_completeness": 0.617,
+    "headline_ci": [
+     0.45,
+     0.762
+    ],
+    "role_f1": 0.629,
+    "links": 83,
+    "implicit": "1/2",
+    "recall": {
+     "proposal": 0.875,
+     "rationale": 0.467,
+     "evidence": 0.875,
+     "challenge": 1.0,
+     "reconsideration": 1.0,
+     "resolution": 0.786
+    }
+   },
+   "all": {
+    "ds_f1": 0.645,
+    "ds_f1_ci": [
+     0.585,
+     0.704
+    ],
+    "headline_completeness": 0.65,
+    "headline_ci": [
+     0.545,
+     0.752
+    ],
+    "role_f1": 0.609,
+    "links": 167,
+    "implicit": "3/6",
+    "recall": {
+     "proposal": 0.842,
+     "rationale": 0.394,
+     "evidence": 0.875,
+     "challenge": 0.818,
+     "reconsideration": 1.0,
+     "resolution": 0.774
+    }
+   }
+  }
+ },
+ "decision": {
+  "recap_roles_div4": "does not qualify",
+  "recap_args_div4": "does not qualify"
+ }
+}

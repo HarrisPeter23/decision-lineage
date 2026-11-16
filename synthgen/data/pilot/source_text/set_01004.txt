@@ -1,0 +1,137 @@
+set_id: set_01004
+seed: 1004
+arc_type: re_reversal
+topic: the free-trial policy for the new subscription
+option A: 14-day free trial with no credit card required
+option B: 7-day free trial with a credit card required up front
+beat B1: Omar proposes a 14-day free trial with no credit card required.
+beat B2: Omar says nobody wants to enter a card for a product they have not tried, so dropping it gets more teams in and should lift paid conversion.
+beat B3: Diego decides to launch with a 14-day no-card free trial.
+beat B4: Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails.
+beat B5: Sofia argues that no-card trials attract low-intent and abusive signups, costing about $1,100 a month in compute and polluting the funnel numbers, so a card up front is needed.
+beat B6: Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value.
+beat B7: Diego decides to switch to a 7-day trial with a credit card required up front.
+beat B8: Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step.
+beat B9: Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume.
+beat B10: Diego says the signup drop and the abandoned enterprise prospects mean the trial policy should be reopened.
+beat B11: Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups.
+beat B12: Diego decides to go back to the 14-day no-card free trial.
+== m1
+Omar: Okay so, trial length for the launch, I've been thinking about this all weekend, and honestly I also finally watched that documentary about, never mind. I think we do a fourteen day free trial, no credit card needed. @B1
+Sofia: No card at all?
+Omar: No card. The thing about cards is, nobody wants to type one in for a product they haven't tried. And that's what, like, kills signups. So if we drop that, more teams get in, they actually see it work, and I'd bet conversion to paid goes up. @B2
+Nadia: I think maybe that's what, um, Slack and those companies did? Early on?
+Omar: Right, they didn't ask for a card.
+Marco: Not all of them.
+Omar: Most.
+Marco: Fine.
+Sofia: Devil's advocate: what stops someone from signing up forty times?
+Omar: Email verification. I mean, that's coming.
+Nadia: I think it's next month? Maybe.
+Diego: It's next month.
+Sofia: So for a month there's no check.
+Omar: It's a launch, you accept some noise.
+Sofia: I'm just flagging.
+Diego: I hear it. Let's go with the fourteen day free trial, no card, for launch. @B3
+Omar: Yes!
+Marco: Okay.
+Nadia: I'll update the, um, signup page copy.
+Diego: Good. What else?
+Omar: Oh, the logo, the new one, did anyone see it? I think the blue is too, like, corporate.
+Marco: It's fine.
+Sofia: I like the blue.
+Omar: I'm outvoted. Okay. Moving on.
+Diego: Marco, analytics dashboard, ready by the launch?
+Marco: Yes. Mostly.
+Diego: Mostly?
+Marco: Signup funnel is ready. Retention isn't.
+Diego: Funnel's the one I need.
+Marco: Then yes.
+Diego: Great. We meet again in three weeks. Thanks.
+== m2
+Diego: So, we've been live three weeks. Marco, numbers.
+Marco: Nineteen hundred trial signups. Three point one percent converted to paid. And about forty percent of the signups used throwaway or fake emails. @B4
+Omar: Three percent isn't bad for three weeks. I mean, trials need time, they're fourteen days, so some haven't even-
+Marco: I excluded those.
+Omar: Oh.
+Nadia: Forty percent, that's, I think, a lot?
+Sofia: It's a lot. And I think this is exactly what I was worried about. A no-card trial attracts people who never meant to pay, and some who are just abusing it. Those fake signups cost us about eleven hundred dollars a month in compute, and they wreck the funnel numbers, so we can't even tell what real conversion is. We need a card up front. @B5
+Omar: Eleven hundred a month is nothing next to what we'd lose if-
+Sofia: It's nothing now. It's launch.
+Nadia: Could, um, email verification fix some of it?
+Marco: Next month. Doesn't fix people with real throwaway addresses.
+Omar: Wait, are those fake or just, like, privacy people?
+Marco: Mostly obvious junk. Mailinator, stuff like that.
+Diego: Sofia, what would you do?
+Sofia: Seven-day trial, card required. Seven days is enough for a real team to try it, and the card filters out the people who aren't serious. @B6
+Omar: Seven days is short. People have a week with meetings, they don't touch anything till day five.
+Sofia: Real teams will. Serious ones, I mean.
+Nadia: I think maybe seven could work, if onboarding is quick? I don't know.
+Marco: Onboarding's ten minutes.
+Diego: Okay. I'm going to decide. We switch to a seven day trial, credit card required up front. @B7
+Omar: Hm. Okay. I disagree but okay.
+Diego: Noted.
+Nadia: I'll change the copy again.
+Omar: Wasn't that the thing we literally changed last, never mind.
+Diego: Marco, track it. Signups, conversion, both.
+Marco: Will do.
+Sofia: Also the email verification date, is it fixed?
+Diego: Next month, the fifteenth.
+Sofia: Good.
+Diego: Thanks.
+== m3
+Diego: Two weeks since the change. Nadia, you had the numbers?
+Nadia: Yes, so, I think it's a, um, big difference. Signups fell sixty-two percent. And sales told me four enterprise prospects dropped out at the card step, which together are worth about ninety thousand a year. @B8
+Sofia: Sixty-two is a lot, but that's the junk too, right?
+Marco: Not all junk. I checked. Real-domain signups fell forty percent.
+Sofia: Hm.
+Omar: This is what I said. This is, I mean, the card wall blocks exactly the serious teams. Big companies can't just type a card, they need approvals, procurement, a purchase order, somebody's boss. So the volume we lost is the good volume. @B9
+Sofia: Or they just need a sales conversation.
+Omar: That's not how trials work.
+Marco: Two prospects told sales they'd come back after a PO. They haven't yet.
+Diego: Hm.
+Nadia: I think we, maybe, should wait one more week? To see?
+Omar: Every week is another batch of lost prospects.
+Sofia: We changed this for a reason. The fake signups.
+Omar: Email verification ships in two weeks anyway-
+Sofia: Which doesn't stop throwaway domains.
+Marco: It does stop most.
+Sofia: Most.
+Diego: Okay, okay. I don't want to decide now. I want the actual conversion numbers on the paid side first. Marco, can you get conversion for the cohort that has the card requirement?
+Marco: Not for another week. They haven't had time.
+Diego: Then let's revisit next week.
+Omar: Fine, but I'd like it first on the agenda.
+Diego: First.
+Sofia: Fine.
+Omar: Also, did anyone try the new coffee place on Fifth, it's, never mind.
+Nadia: Next week?
+Diego: Next week.
+== m4
+Diego: Okay. Trial policy again. Having looked at the signup drop and the enterprise prospects that fell out at the card step, I think we should reopen it. @B10
+Marco: The cohort conversion came in. Eight point four percent, up from three point one.
+Sofia: See? Higher conversion.
+Marco: On a much smaller base. Total paid conversions are lower than before. Eleven, versus about fifty-nine.
+Sofia: Eleven versus fifty-nine. Hm.
+Omar: Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear. @B11
+Sofia: And if the fakes come back?
+Omar: Then we look at it. With real data.
+Omar: So, my ask is, drop the card and go back to the fourteen days, no card.
+Nadia: Maybe, I think, we could watch the compute number weekly? Just so we know.
+Marco: I can alert on it. Over two thousand a month.
+Sofia: That's something. I'm still nervous.
+Diego: I know. But I think the loss on the other side is bigger.
+Diego: Sure. Marco, you can flip the signup flow back tonight. @B12
+Omar: Yes!
+Nadia: I'll change the page, again. I'm sorry, I'm not complaining.
+Diego: Thank you. Marco, same tracking.
+Marco: Sure. Weekly.
+Sofia: Put the card idea in a doc somewhere, in case.
+Diego: Good idea.
+Omar: Also the new logo, I think-
+Diego: Omar.
+Omar: Fine.
+Marco: Can we also talk about the retention report? It's late.
+Diego: Next week.
+Marco: Okay.
+Nadia: Should we tell sales the news today?
+Diego: I'll tell them. Thanks everyone.

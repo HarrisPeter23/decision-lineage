@@ -1,0 +1,19 @@
+03:07:41 $ pip install -q graphiti-core==0.31.2 httpx rc 0 
+03:08:53 $ apt-get update -qq && apt-get install -y -qq zstd openjdk-17-jre-headless rc 100 ot seem to provide it (sources.list entry misspelt?)
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/zstd_1.5.5%2bdfsg2-2build1.1_amd64.deb  Unable to connect to archive.ubuntu.com:http:
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+
+03:08:56 $ curl -fsSL https://dist.neo4j.org/neo4j-community-5.26.17-unix.tar.gz | tar -xz -C /kaggle rc 0 
+03:08:59 $ /kaggle/neo4j-community-5.26.17/bin/neo4j-admin dbms set-initial-password graphiti-local-p rc 0 
+03:09:09 $ /kaggle/neo4j-community-5.26.17/bin/neo4j start rc 0 
+03:09:20 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh && sh /tmp/install.s rc 1 >>> Installing ollama to /usr/local
+
+03:09:20 ollama binary missing after install attempt 1
+03:09:50 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh && sh /tmp/install.s rc 1 >>> Cleaning up old version at /usr/local/lib/ollama
+>>> Installing ollama to /usr/local
+
+03:09:50 ollama binary missing after install attempt 2
+03:10:21 $ curl -fsSL --retry 3 https://ollama.com/install.sh -o /tmp/install.sh && sh /tmp/install.s rc 1 >>> Cleaning up old version at /usr/local/lib/ollama
+>>> Installing ollama to /usr/local
+
+03:10:21 ollama binary missing after install attempt 3

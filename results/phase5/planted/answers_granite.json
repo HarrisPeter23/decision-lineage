@@ -1,0 +1,90 @@
+{
+ "real_judged_correct": [
+  1.0,
+  [
+   0.918,
+   1
+  ],
+  43
+ ],
+ "real_judged_incorrect": [
+  0.0,
+  [
+   0,
+   0.082
+  ],
+  43
+ ],
+ "speaker_flagged(not correct)": [
+  1.0,
+  [
+   0.646,
+   1
+  ],
+  7
+ ],
+ "speaker_judged_incorrect": [
+  0.0,
+  [
+   0,
+   0.354
+  ],
+  7
+ ],
+ "meeting_flagged(not correct)": [
+  1.0,
+  [
+   0.646,
+   1
+  ],
+  7
+ ],
+ "meeting_judged_incorrect": [
+  0.429,
+  [
+   0.158,
+   0.75
+  ],
+  7
+ ],
+ "change_flagged(not correct)": [
+  1.0,
+  [
+   0.722,
+   1
+  ],
+  10
+ ],
+ "change_judged_incorrect": [
+  1.0,
+  [
+   0.722,
+   1
+  ],
+  10
+ ],
+ "option_flagged(not correct)": [
+  1.0,
+  [
+   0.342,
+   1
+  ],
+  2
+ ],
+ "option_judged_incorrect": [
+  0.5,
+  [
+   0.095,
+   0.905
+  ],
+  2
+ ],
+ "all_corrupted_flagged": [
+  1.0,
+  [
+   0.871,
+   1
+  ],
+  26
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01030",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Pavel",
+   "quote": "Sanne says only 31 of the 48 people in the org have filled it in, so she wants a nudge from every manager",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Pavel",
+   "quote": "It got extended to the fourth. So if you can just mention it in your standups",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "quote": "I'd say we go with Plotbench. The free one, the self-hosted one",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "quote": "it costs us nothing to license, and the paid option was, what was it, about thirteen four a year for the sixty-two viewers we have",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Aisha",
+   "quote": "Finance can't make their own charts. Not at all.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "quote": "Fifty-eight change requests landed on us in those three weeks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Kofi",
+   "quote": "Plotbench wants SQL for everything, right?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Kofi",
+   "quote": "And we've got thirty people who don't write SQL, so they're just stuck.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Pavel",
+   "quote": "Okay. A second week at that level isn't a start-up bump anymore. So let's put the tool decision back on the table, properly this time, the Plotbench call included.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Greta",
+   "quote": "No. I'm fine. I wanted the free one, but the numbers aren't there.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Aisha",
+   "quote": "No.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Marco",
+   "quote": "No.",
+   "confidence": 0.9
+  }
+ ]
+}

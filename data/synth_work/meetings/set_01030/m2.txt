@@ -1,0 +1,75 @@
+Pavel: Okay, five past, so let's start. Marco, you're on?
+Marco: Yeah, here.
+Aisha: Morning.
+Kofi: Hi, sorry, I think maybe I'm a minute behind, I was finishing, uh, a query.
+Greta: No worries, we literally just started.
+Pavel: Quick one first. Stefan moved the staging boxes Thursday. Did anything go odd with the nightly jobs?
+Aisha: One ran forty minutes late. That's all.
+Pavel: Forty. Was that the move or just a normal Thursday?
+Aisha: Move, probably. Didn't dig.
+Kofi: I think maybe it was the load order, or, um, the-
+Pavel: Sorry Kofi, go on.
+Kofi: No, nothing. I'm probably wrong.
+Greta: Did Rosa settle the offsite? She sent something.
+Pavel: Week after the fourteenth. The twenty-first through the twenty-third, I think.
+Greta: Oh good, I can do that.
+Aisha: Fine by me.
+Marco: Same.
+Kofi: Um, I might have a thing the twenty-second, morning? I'll check.
+Pavel: Check and tell Rosa directly, not me.
+Kofi: Okay, will do.
+Pavel: Right. Dashboards. Marco, thanks for the plan on Friday. Where's the setup actually at?
+Marco: Test copy is running. Single sign-on isn't connected yet.
+Pavel: And Hedda wants to see it before anyone outside the team logs in, right?
+Marco: Yeah. She said so Wednesday.
+Greta: Did that link ever get to you, Aisha? The docs page-
+Aisha: Yes. Monday.
+Greta: Oh, I thought Tuesday.
+Aisha: Monday.
+Pavel: Doesn't matter. So we're building on Plotbench, Marco's got the test copy, and, um, Aisha, you looked like you wanted to say something.
+Aisha: Yeah. Finance can't make their own charts. Not at all. I went through the last three weeks of tickets.
+Pavel: Can't, or haven't tried?
+Aisha: Can't. Fifty-eight change requests landed on us in those three weeks. A normal three weeks is eleven. And just keeping things running is eating two days a week now. @B4
+Pavel: Fifty-eight against eleven. Is that all finance?
+Aisha: Most. Some from Bilal's lot, some sales ops.
+Greta: Hm, but that's also a ramp-up thing, isn't it? New tool, everyone's got questions.
+Marco: Some are. Lots are just "make this a bar chart".
+Pavel: And two days, that's up from the one we figured, so-
+Kofi: Um, can I jump in? I think maybe, I mean, I don't love this. Plotbench wants SQL for everything, right? And we've got thirty people who don't write SQL, so they're just stuck. And the hours the analysts are burning, I think maybe that costs more than the licence ever would. @B5
+Greta: The licence was thirteen four though. That's real money.
+Kofi: Yes, but, um, is it more than two days a week of an analyst?
+Pavel: Two days is, what, forty percent of somebody. I don't have the loaded cost on me, so I can't say.
+Aisha: It's more.
+Greta: Maybe. It's the start-up bump though, it'll come down.
+Aisha: Will it?
+Greta: I mean, I'd think so.
+Marco: The finance users don't have SQL. That's just true.
+Pavel: Marco, that's the most you've said in a week. Okay.
+Marco: Just saying.
+Kofi: And Bilal's group only uses five dashboards, but those are the ones that get edited constantly, I think.
+Pavel: Hm. I'd want to check that against the ticket list.
+Aisha: I can send the list.
+Pavel: Please. And a count of who's asking. Right now I've got fifty-eight and eleven and not a lot else.
+Greta: So are we rethinking all of it? Because we told finance last week we weren't renewing the other one.
+Pavel: I told them we weren't renewing. It's not actually cancelled yet, the notice date is, I'd have to look. End of the month, I think.
+Kofi: Oh. So there's, um, some time.
+Pavel: Some. I'm not moving on this today. Marco, carry on with the setup as planned, and I want the real numbers before we talk about it again.
+Marco: Okay.
+Aisha: Fine. List by tomorrow.
+Kofi: Should I pull the count of people who can write SQL? I think maybe I can get it from the access logs.
+Pavel: Yes, do that. Thirty is a guess I want to firm up.
+Kofi: Okay.
+Greta: Since we're on finance, the shared drive thing. I haven't done it yet.
+Pavel: When do the audit people come?
+Greta: The eighteenth? Something like that.
+Pavel: That's twelve days. Get it done this week.
+Greta: Yes. Yes, I know.
+Aisha: Survey?
+Pavel: Oh, right. Sanne says we're at forty-one of forty-eight. Seven short.
+Greta: I'll do mine today.
+Kofi: I did mine already, I think. Yes.
+Aisha: Me too.
+Marco: Done.
+Pavel: Good. Marco, stay a minute, I've got a question on the sign-on piece.
+Marco: Sure.
+Pavel: Okay, everyone else, that's it. Thanks.

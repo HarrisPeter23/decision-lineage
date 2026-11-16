@@ -1,0 +1,623 @@
+{
+ "set_id": "set_01014",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "SaaS product team",
+  "seed": 1014,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 106
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 105
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 118
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 72
+   }
+  ],
+  "models": {
+   "generator": "claude-opus-5.5"
+  }
+ },
+ "topic": "the trial policy for the new Insights reporting tier",
+ "options": {
+  "A": "a 14-day free trial with no card required",
+  "B": "a 30-day trial that requires a payment card at signup"
+ },
+ "cast": [
+  {
+   "name": "Meera",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Jonas",
+   "slot": "proposer",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Yuki",
+   "slot": "challenger",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Lena",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Pavel",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "a 14-day free trial with no card required"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "a 30-day trial that requires a payment card at signup"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "a 14-day free trial with no card required"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Jonas",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Jonas proposes launching the Insights tier with a 14-day free trial and no card required.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Jonas",
+   "utterance_idxs": [
+    41
+   ],
+   "gist": "Jonas argues that removing the card field took signups up threefold on the pricing-page test the growth team ran in May.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    87
+   ],
+   "gist": "Meera agrees without naming the policy, by moving straight on to the launch step.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    38
+   ],
+   "gist": "Yuki objects that the free trial is paying to host throwaway accounts and is burning the quarter's infrastructure budget.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    51
+   ],
+   "gist": "Yuki argues that a 30-day trial with a card at signup would filter out throwaway accounts while still giving serious buyers a longer look.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a 30-day trial that requires a payment card at signup",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    76
+   ],
+   "gist": "Meera decides to switch Insights to the 30-day trial with a card required.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a 30-day trial that requires a payment card at signup",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    26
+   ],
+   "gist": "Lena reports that signups fell 64 percent in the week after the change and that 19 percent of EU card attempts failed strong customer authentication at the payment processor.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a 30-day trial that requires a payment card at signup",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Jonas",
+   "utterance_idxs": [
+    53,
+    54
+   ],
+   "gist": "Jonas objects that the card requirement is killing the pipeline and that enterprise buyers cannot put a corporate card into a trial form.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a 30-day trial that requires a payment card at signup",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    18
+   ],
+   "gist": "Meera reopens the trial policy after finance confirms the EU failure rate has not improved.",
+   "version": 2,
+   "option_key": "B",
+   "option": "a 30-day trial that requires a payment card at signup",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Jonas",
+   "utterance_idxs": [
+    44
+   ],
+   "gist": "Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter.",
+   "version": 3,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Meera",
+   "utterance_idxs": [
+    63
+   ],
+   "gist": "Meera decides to return Insights to the 14-day free trial with no card required.",
+   "version": 3,
+   "option_key": "A",
+   "option": "a 14-day free trial with no card required",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "how often the release-notes email goes out",
+  "option": "move the release-notes email from weekly to monthly",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Lena",
+    "utterance_idxs": [
+     91
+    ],
+    "gist": "Lena suggests moving the release-notes email from weekly to monthly.",
+    "version": null,
+    "option_key": null,
+    "option": "move the release-notes email from weekly to monthly",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Lena",
+    "utterance_idxs": [
+     93
+    ],
+    "gist": "Lena points out that the weekly send has an 11 percent open rate and the last four issues had almost nothing in them.",
+    "version": null,
+    "option_key": null,
+    "option": "move the release-notes email from weekly to monthly",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Meera",
+    "utterance_idxs": [
+     99
+    ],
+    "gist": "Meera approves the monthly release-notes email.",
+    "version": null,
+    "option_key": null,
+    "option": "move the release-notes email from weekly to monthly",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01014-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the trial policy for the new Insights reporting tier?",
+   "answer_text": "a 14-day free trial with no card required",
+   "answer_facts": {
+    "option": "a 14-day free trial with no card required"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the trial policy for the new Insights reporting tier?",
+   "answer_text": "meeting 1: Meera - Meera agrees without naming the policy, by moving straight on to the launch step.; meeting 2: Meera - Meera decides to switch Insights to the 30-day trial with a card required.; meeting 4: Meera - Meera decides to return Insights to the 14-day free trial with no card required.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a 14-day free trial with no card required",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "a 30-day trial that requires a payment card at signup",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "a 14-day free trial with no card required",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q03",
+   "type": "as_of",
+   "question": "What was the decision about the trial policy for the new Insights reporting tier as of the end of meeting 1?",
+   "answer_text": "a 14-day free trial with no card required",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "a 14-day free trial with no card required"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01014-q04",
+   "type": "as_of",
+   "question": "What was the decision about the trial policy for the new Insights reporting tier as of the end of meeting 4?",
+   "answer_text": "a 14-day free trial with no card required",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "a 14-day free trial with no card required"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the trial policy for the new Insights reporting tier change over time?",
+   "answer_text": "a 14-day free trial with no card required (from meeting 1) -> a 30-day trial that requires a payment card at signup (from meeting 2) -> a 14-day free trial with no card required (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "a 14-day free trial with no card required",
+     "a 30-day trial that requires a payment card at signup",
+     "a 14-day free trial with no card required"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01014-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about the trial policy for the new Insights reporting tier change at meeting 2?",
+   "answer_text": "Before: a 14-day free trial with no card required, because Jonas argues that removing the card field took signups up threefold on the pricing-page test the growth team ran in May. Triggered by: Pavel (evidence): Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account. Yuki (challenge): Yuki objects that the free trial is paying to host throwaway accounts and is burning the quarter's infrastructure budget. After: a 30-day trial that requires a payment card at signup, because Yuki argues that a 30-day trial with a card at signup would filter out throwaway accounts while still giving serious buyers a longer look.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01014-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about the trial policy for the new Insights reporting tier change at meeting 4?",
+   "answer_text": "Before: a 30-day trial that requires a payment card at signup, because Yuki argues that a 30-day trial with a card at signup would filter out throwaway accounts while still giving serious buyers a longer look. Triggered by: Lena (evidence): Lena reports that signups fell 64 percent in the week after the change and that 19 percent of EU card attempts failed strong customer authentication at the payment processor. Jonas (challenge): Jonas objects that the card requirement is killing the pipeline and that enterprise buyers cannot put a corporate card into a trial form. Meera (reconsideration): Meera reopens the trial policy after finance confirms the EU failure rate has not improved. After: a 14-day free trial with no card required, because Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the trial policy for the new Insights reporting tier?",
+   "answer_text": "Jonas",
+   "answer_facts": {
+    "speaker": "Jonas"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01014-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the trial policy for the new Insights reporting tier?",
+   "answer_text": "Pavel (evidence): Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account. Yuki (challenge): Yuki objects that the free trial is paying to host throwaway accounts and is burning the quarter's infrastructure budget. Lena (evidence): Lena reports that signups fell 64 percent in the week after the change and that 19 percent of EU card attempts failed strong customer authentication at the payment processor. Jonas (challenge): Jonas objects that the card requirement is killing the pipeline and that enterprise buyers cannot put a corporate card into a trial form.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01014-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the trial policy for the new Insights reporting tier?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the trial policy for the new Insights reporting tier from proposal to final outcome.",
+   "answer_text": "meeting 1 - Jonas [proposal]: Jonas proposes launching the Insights tier with a 14-day free trial and no card required. | meeting 1 - Jonas [rationale]: Jonas argues that removing the card field took signups up threefold on the pricing-page test the growth team ran in May. | meeting 1 - Meera [resolution]: Meera agrees without naming the policy, by moving straight on to the launch step. | meeting 2 - Pavel [evidence]: Pavel reports that the first week brought 412 signups, only 2.1 percent activated, and 31 percent of accounts used disposable email addresses, at a compute cost of 1.80 dollars per trial account. | meeting 2 - Yuki [challenge]: Yuki objects that the free trial is paying to host throwaway accounts and is burning the quarter's infrastructure budget. | meeting 2 - Yuki [rationale]: Yuki argues that a 30-day trial with a card at signup would filter out throwaway accounts while still giving serious buyers a longer look. | meeting 2 - Meera [resolution]: Meera decides to switch Insights to the 30-day trial with a card required. | meeting 3 - Lena [evidence]: Lena reports that signups fell 64 percent in the week after the change and that 19 percent of EU card attempts failed strong customer authentication at the payment processor. | meeting 3 - Jonas [challenge]: Jonas objects that the card requirement is killing the pipeline and that enterprise buyers cannot put a corporate card into a trial form. | meeting 4 - Meera [reconsideration]: Meera reopens the trial policy after finance confirms the EU failure rate has not improved. | meeting 4 - Jonas [rationale]: Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter. | meeting 4 - Meera [resolution]: Meera decides to return Insights to the 14-day free trial with no card required.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01014-q12",
+   "type": "distractor",
+   "question": "What was decided about how often the release-notes email goes out?",
+   "answer_text": "move the release-notes email from weekly to monthly",
+   "answer_facts": {
+    "option": "move the release-notes email from weekly to monthly"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

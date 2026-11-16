@@ -1,0 +1,188 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "ERP module",
+   "attribute": "support status",
+   "states": [
+    {
+     "value": "no security patches after December",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-15",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Invoice approval",
+   "attribute": "module selection",
+   "states": [
+    {
+     "value": "standalone accounts payable automation tool",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-15",
+     "evidence": [
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Intern",
+   "attribute": "desk location",
+   "states": [
+    {
+     "value": "near the window, by Sanne",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-15",
+     "evidence": [
+      83
+     ]
+    },
+    {
+     "value": "given local copies of reconciliations",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-22",
+     "evidence": [
+      71
+     ]
+    },
+    {
+     "value": "instructed to use the one sent by Stefan on Monday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-22",
+     "evidence": [
+      73,
+      74,
+      75,
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Intern",
+   "attribute": "login",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-15",
+     "evidence": [
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Vendor demo",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday after next (afternoon)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-22",
+     "evidence": [
+      17,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Expense memo",
+   "attribute": "meal rate",
+   "states": [
+    {
+     "value": "60 per day (domestic), effective March 1st",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-22",
+     "evidence": [
+      55,
+      56,
+      57,
+      59,
+      60,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Bank reconciliation",
+   "attribute": "coverage on Friday",
+   "states": [
+    {
+     "value": "Ivan to cover, Ravi offered to help if needed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-22",
+     "evidence": [
+      92,
+      93,
+      94,
+      95,
+      96
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   1,
+   2,
+   3
+  ]
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "synthetic_30_new_sets": {
+  "meetings": 94,
+  "utt_per_meeting": 100,
+  "utt_min": 73,
+  "utt_max": 120,
+  "words_per_utt": 10.3,
+  "filler_rate": 0.09,
+  "backchannel_rate": 0.122,
+  "long_utt_rate": 0.049,
+  "restart_rate": 0.001,
+  "speakers_per_meeting": 5,
+  "decision_marker_share": 0.019,
+  "cutoff_rate": 0.056
+ },
+ "ami_selected_5_series": {
+  "meetings": 20,
+  "utt_per_meeting": 469,
+  "utt_min": 117,
+  "utt_max": 857,
+  "words_per_utt": 11.7,
+  "filler_rate": 0.263,
+  "backchannel_rate": 0.398,
+  "long_utt_rate": 0.136,
+  "restart_rate": 0.104,
+  "speakers_per_meeting": 4,
+  "decision_marker_share": 0.036,
+  "cutoff_rate": 0.0
+ },
+ "ami_all_33_series": {
+  "meetings": 132,
+  "utt_per_meeting": 451,
+  "utt_min": 76,
+  "utt_max": 1194,
+  "words_per_utt": 10.9,
+  "filler_rate": 0.249,
+  "backchannel_rate": 0.407,
+  "long_utt_rate": 0.123,
+  "restart_rate": 0.108,
+  "speakers_per_meeting": 4,
+  "decision_marker_share": 0.032,
+  "cutoff_rate": 0.0
+ }
+}

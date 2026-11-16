@@ -1,0 +1,5 @@
+{"ts": 1794129999.9, "kind": "evo_extract", "tag": "test_k1_20-mtg_0001-x0", "provider": "openai_compatible", "model": "qwen3:14b", "seconds": 270.0, "usage": {"input": 2459, "output": 3000}, "prompt_chars": 8014, "output_chars": 4843}
+{"ts": 1794130064.9, "kind": "evo_extract", "tag": "test_k1_20-mtg_0002-x0", "provider": "openai_compatible", "model": "qwen3:14b", "seconds": 65.0, "usage": {"input": 2042, "output": 761}, "prompt_chars": 6943, "output_chars": 2391}
+{"ts": 1794130081.0, "kind": "evo_route", "tag": "test_k1_20-mtg_0002-route", "provider": "openai_compatible", "model": "qwen3:14b", "seconds": 16.04, "usage": {"input": 343, "output": 305}, "prompt_chars": 1280, "output_chars": 1051}
+{"ts": 1794130180.1, "kind": "evo_extract", "tag": "test_k1_20-mtg_0003-x0", "provider": "openai_compatible", "model": "qwen3:14b", "seconds": 99.09, "usage": {"input": 2468, "output": 1549}, "prompt_chars": 7834, "output_chars": 4876}
+{"ts": 1794130204.9, "kind": "evo_route", "tag": "test_k1_20-mtg_0003-route", "provider": "openai_compatible", "model": "qwen3:14b", "seconds": 24.86, "usage": {"input": 521, "output": 562}, "prompt_chars": 1979, "output_chars": 1931}

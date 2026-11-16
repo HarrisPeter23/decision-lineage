@@ -1,0 +1,1196 @@
+{
+ "set_id": "set_01016",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Tariq",
+   "quote": "I think maybe we could make the ninth? I'd have to check with design, they might be-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Zainab",
+   "quote": "Check today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Tariq",
+   "quote": "Yeah. Yeah, will do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Kofi",
+   "quote": "Do we even need new artwork? It's the same product line as Lyon back in June.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Zainab",
+   "quote": "New artwork. Next. Expense tool.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Ingrid",
+   "quote": "Cutover's the first of October.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Ingrid",
+   "quote": "Get September claims in by the twenty-sixth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kofi",
+   "quote": "Is that a Friday?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Ingrid",
+   "quote": "Yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Sofia",
+   "quote": "Sorry. Twenty-sixth. Got it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tariq",
+   "quote": "I think it's around eleven thousand? Maybe eleven two with the platform fee, but I'd want to double check that.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Zainab",
+   "quote": "Send it by Thursday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "quote": "Sure, yeah.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Kofi",
+   "quote": "Is that with the captioning or without?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sofia",
+   "quote": "So, okay, this has been rattling around since the debrief. What if there just isn't a central one next year, and instead it's three one-day regional roadshows, Manchester, Frankfurt and Austin?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Zainab",
+   "quote": "Why?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Sofia",
+   "quote": "Because look at last year. We put 180,000 dollars into customer travel subsidies and only 34 percent of target accounts actually turned up.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sofia",
+   "quote": "Whereas with those three cities most of them are a short trip away, a train or a quick hop, not a whole week gone out of the office.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, but hang on, is that a distance problem? Maybe they just didn't fancy coming.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sofia",
+   "quote": "Some of them, sure, but I went through the decline emails after the debrief and it's, you know, can't get the trip approved, over and over.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Kofi",
+   "quote": "How many is over and over?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Sofia",
+   "quote": "I didn't count, I just-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Kofi",
+   "quote": "Because three emails from Ohio isn't a trend.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Sofia",
+   "quote": "It was a lot more than three.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Zainab",
+   "quote": "Count them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Sofia",
+   "quote": "Yep. Fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Tariq",
+   "quote": "I think, um, maybe that subsidy line drops a lot with it? Like if they're on a train there's not much to subsidise. But I'd be guessing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "quote": "Sure, that one drops, but then you've got three venues, three AV crews, three of everything. The money doesn't vanish, it just moves.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Zainab",
+   "quote": "Does it?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Tariq",
+   "quote": "Possibly? I think maybe one day in a hotel ballroom isn't that bad, but I haven't priced any of it, so.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Kofi",
+   "quote": "And there's five of us. Who's carrying boxes to Austin?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Sofia",
+   "quote": "Well, we'd space them out, it's not like they'd be back to back, and a one-day thing is honestly so much lighter than-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kofi",
+   "quote": "Lighter times three, though.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Sofia",
+   "quote": "Okay, lighter times three, but still.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "quote": "And the execs. Getting the CEO to all of those?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ingrid",
+   "quote": "Last year she stayed forty minutes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Sofia",
+   "quote": "Oh, and that reminds me, the lanyards, did I ever tell you what actually happened with the lanyards?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Zainab",
+   "quote": "Is this relevant?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Sofia",
+   "quote": "It's a little bit relevant. So the courier sends the box to the wrong Hartwell, right, the airport one, and I'm on the phone to this lovely man called Gerald-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Kofi",
+   "quote": "There's always a Gerald.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Sofia",
+   "quote": "There is, and Gerald says he can see the box, he's looking at it, but he can't release it without a form from the sender, and the sender's closed because it's a Sunday in, um, in wherever they are-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Tariq",
+   "quote": "Wasn't it you who drove out there in the end?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Sofia",
+   "quote": "That was Priya, she took her husband's van, and she came back with twelve hundred lanyards and a parking ticket, and we're still arguing with finance about that ticket, I think it's in the shoebox actually.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Ingrid",
+   "quote": "It is not in the expense policy.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Sofia",
+   "quote": "It is not, no, thank you, Ingrid.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Zainab",
+   "quote": "Back to it. Kofi, what else?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Kofi",
+   "quote": "The room. Half the point of getting everyone together is customers meeting other customers. A German bank doesn't meet the guy from Texas if they're never in one place.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sofia",
+   "quote": "Do they want to, though?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Kofi",
+   "quote": "Some do. The user group people do, they talk about it all year.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Tariq",
+   "quote": "I think that's maybe fair, but, I mean, a third of the accounts isn't much of a big room either.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kofi",
+   "quote": "A third's still a room.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Sofia",
+   "quote": "A very expensive room.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Ingrid",
+   "quote": "Frankfurt would need its own registration notice. German wording, data handling, that sort of thing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Zainab",
+   "quote": "Hard?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ingrid",
+   "quote": "No. Two weeks with legal, maybe.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Zainab",
+   "quote": "Fine. Tariq, where are you on it?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Tariq",
+   "quote": "I think I'm probably for it? As long as, you know, the costs don't come back ugly. It seems like it gets in front of more of the people we actually care about.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Zainab",
+   "quote": "Ingrid?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Ingrid",
+   "quote": "For it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Zainab",
+   "quote": "Kofi, are you actually against this?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Kofi",
+   "quote": "Not really. I just think somebody should be.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "quote": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Sofia",
+   "quote": "Yes. Okay. Great.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Zainab",
+   "quote": "Tariq, rough costs for it before planning opens.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Tariq",
+   "quote": "Yep. I think maybe a first pass by the end of next week? It'll be rough.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Zainab",
+   "quote": "Rough is fine. Sofia, those emails.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Sofia",
+   "quote": "Counting them, yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Zainab",
+   "quote": "Ingrid, have a word with legal about that notice.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Ingrid",
+   "quote": "Okay.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Kofi",
+   "quote": "Do I get anything?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Zainab",
+   "quote": "You get the holiday party.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Kofi",
+   "quote": "That's a punishment.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Zainab",
+   "quote": "Yes. Facilities need a headcount by mid-October.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Sofia",
+   "quote": "Is it the same place as last year? Because the coat check there was a disaster, I was in that queue for, I swear, forty-five minutes, and-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Kofi",
+   "quote": "I'll find out.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Tariq",
+   "quote": "I think maybe somebody said they'd closed down? Or was that the other one, the one near the station.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Kofi",
+   "quote": "The other one, I think.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Zainab",
+   "quote": "Also the desk move. We're on the third floor from the sixth of October, pack by the Friday before.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Ingrid",
+   "quote": "Crates arrive when?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Zainab",
+   "quote": "Monday before, supposedly.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Sofia",
+   "quote": "Supposedly, right. Gerald's probably delivering them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Kofi",
+   "quote": "To the wrong Hartwell.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Zainab",
+   "quote": "Tariq, Hamburg artwork. Today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Tariq",
+   "quote": "Yes. Doing it now, actually, I'll just-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Zainab",
+   "quote": "Good. We're done.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Zainab",
+   "quote": "Crates. Who's got theirs?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Zainab",
+   "quote": "Take one. Packed by Friday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Zainab",
+   "quote": "Get one.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Zainab",
+   "quote": "Expense tool. Tomorrow, yes?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Ingrid",
+   "quote": "Anything not in by six goes through the new one.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Zainab",
+   "quote": "Good. Webinar number went to finance?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Kofi",
+   "quote": "Two and a bit.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Zainab",
+   "quote": "Sofia. The emails.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Zainab",
+   "quote": "End of the week.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Sofia",
+   "quote": "End of the week, yep.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Ingrid",
+   "quote": "That number doesn't care how many cities we went to. Fifty-eight soft yeses out of a hundred and forty, and Frankfurt costing more before we've signed anything. I don't see how that gets us to one point two. These roadshows could miss it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Ingrid",
+   "quote": "No. It's what we've got, though.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Tariq",
+   "quote": "I think she's maybe got a point. Like, I said I was for it as long as the costs didn't come back ugly, and I don't know yet that they're ugly, but it's, um, it's a bit less pretty than it was.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Zainab",
+   "quote": "Who owns that number?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Sofia",
+   "quote": "And it's not like one big room was hitting it by magic, is it? I mean, did we hit it last year? With the thirty-four percent?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Zainab",
+   "quote": "Enough. We don't have the numbers to have this properly.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Tariq",
+   "quote": "I think maybe if I get the costs done, and, um, the Frankfurt quote in there, at the higher figure, that at least-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Zainab",
+   "quote": "Yes. Higher figure.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Tariq",
+   "quote": "Yep. Will do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "quote": "Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Zainab",
+   "quote": "Don't go telling sales it's wobbling.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Kofi",
+   "quote": "Same venue's still open, so that was the other one that closed, Tariq was half right. They want a headcount by the fifteenth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Sofia",
+   "quote": "And the coat check? Because if it's the same people I'm bringing my coat to the table and I don't care who-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Kofi",
+   "quote": "I asked. They said they've 'looked at the process.'",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Ingrid",
+   "quote": "Is the fifteenth a Wednesday?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Zainab",
+   "quote": "Fine. Third floor Monday. Laptops stay with you, don't crate them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Zainab",
+   "quote": "We're done.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Zainab",
+   "quote": "Right. Summit. You've all had a week with Kofi's numbers, so I'm opening it back up. Is the format right or isn't it?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kofi",
+   "quote": "Well, there you go.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Sofia",
+   "quote": "Oh. Okay. Yeah. No, fine, okay.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Tariq",
+   "quote": "Friday, yeah. Friday night, sorry. The AV quotes came in, so I think everything's there now, and Frankfurt's at the higher figure, like you said.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sofia",
+   "quote": "Done. Sixty-three, Kofi. Sixty-three separate people saying they couldn't get the trip signed off, and that's not counting the ones who just wrote 'budget' and nothing else.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay. More than three.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Sofia",
+   "quote": "Thank you. I'd like that minuted.",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01038-q01",
+  "facts": [
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "8d10f9f1-5b99-44c4-9e62-93cf5cfa6f3a",
+    "name": "MODIFIED",
+    "fact": "Yuki modified the pricing page to include a ten percent discount with a twenty-four month price lock.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q02",
+  "facts": [
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "29d44a07-f718-4c2d-8e26-c40ee9780c99",
+    "name": "INFORMED_ABOUT",
+    "fact": "Wei was informed by Finance that the CFO had stated that self-serve discounts would also require approval.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q03",
+  "facts": [
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8571a897-1dcf-4856-92c7-75d993e13b35",
+    "name": "communication",
+    "fact": "Wei asked Sana to update the pricing page by the end of the week.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c0cce701-75d1-458c-accb-51e73e29e46d",
+    "name": "NOTIFIED",
+    "fact": "Wei wants Delphine to review the updated pricing page by the end of the week.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "18acedae-2a38-4cf2-9046-d99b28379daf",
+    "name": "communication",
+    "fact": "Wei asked Mateo to ask Farah what version of the sales deck she is using.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "29d44a07-f718-4c2d-8e26-c40ee9780c99",
+    "name": "INFORMED_ABOUT",
+    "fact": "Wei was informed by Finance that the CFO had stated that self-serve discounts would also require approval.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "42051491-9965-4985-a30a-37d7aade4cf7",
+    "name": "communication",
+    "fact": "Yuki mentioned that in the pilot with the trial accounts, thirty-one percent of those who received fifteen percent off ended up on annual.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q04",
+  "facts": [
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8571a897-1dcf-4856-92c7-75d993e13b35",
+    "name": "communication",
+    "fact": "Wei asked Sana to update the pricing page by the end of the week.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c0cce701-75d1-458c-accb-51e73e29e46d",
+    "name": "NOTIFIED",
+    "fact": "Wei wants Delphine to review the updated pricing page by the end of the week.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "18acedae-2a38-4cf2-9046-d99b28379daf",
+    "name": "communication",
+    "fact": "Wei asked Mateo to ask Farah what version of the sales deck she is using.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "29d44a07-f718-4c2d-8e26-c40ee9780c99",
+    "name": "INFORMED_ABOUT",
+    "fact": "Wei was informed by Finance that the CFO had stated that self-serve discounts would also require approval.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q05",
+  "facts": [
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "8d10f9f1-5b99-44c4-9e62-93cf5cfa6f3a",
+    "name": "MODIFIED",
+    "fact": "Yuki modified the pricing page to include a ten percent discount with a twenty-four month price lock.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q06",
+  "facts": [
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "8d10f9f1-5b99-44c4-9e62-93cf5cfa6f3a",
+    "name": "MODIFIED",
+    "fact": "Yuki modified the pricing page to include a ten percent discount with a twenty-four month price lock.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q07",
+  "facts": [
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f92573d1-841c-4983-bbc4-28902e60e154",
+    "name": "communication",
+    "fact": "Yuki proposed offering fifteen percent off for anyone who prepays for the full year.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": "2025-06-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:22:42.497860+00:00"
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "29d44a07-f718-4c2d-8e26-c40ee9780c99",
+    "name": "INFORMED_ABOUT",
+    "fact": "Wei was informed by Finance that the CFO had stated that self-serve discounts would also require approval.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "42051491-9965-4985-a30a-37d7aade4cf7",
+    "name": "communication",
+    "fact": "Yuki mentioned that in the pilot with the trial accounts, thirty-one percent of those who received fifteen percent off ended up on annual.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q08",
+  "facts": [
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "29d44a07-f718-4c2d-8e26-c40ee9780c99",
+    "name": "INFORMED_ABOUT",
+    "fact": "Wei was informed by Finance that the CFO had stated that self-serve discounts would also require approval.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q09",
+  "facts": [
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8d10f9f1-5b99-44c4-9e62-93cf5cfa6f3a",
+    "name": "MODIFIED",
+    "fact": "Yuki modified the pricing page to include a ten percent discount with a twenty-four month price lock.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01038-q10",
+  "facts": [
+   {
+    "uuid": "56cda11f-cfc7-4d15-9165-556b2e725442",
+    "name": "INFORMED_ABOUT",
+    "fact": "Finance informed Wei that any annual discount above twelve percent would require approval from the CFO.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55cc6161-7e70-4411-b808-1e6609bc41e7",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17acc120-5b01-4153-b4a3-3224cd8be370",
+    "name": "PROPOSED",
+    "fact": "Yuki proposed that the discount be set at twelve percent flat, right at the line.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4f829d7c-c42d-4b53-aff8-5dd492ef5218",
+    "name": "communication",
+    "fact": "Wei mentioned that the annual plan stuff has been discussed for three weeks.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-05-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8b500e50-54ba-480f-b317-327ed29d2ae2",
+    "name": "PROPOSED",
+    "fact": "Mateo proposed that the discount be set at ten percent with a twenty-four month price lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "219da265-db64-4585-bd47-22bbd4102dc2",
+    "name": "communication",
+    "fact": "Sana asked Yuki what happens to monthly customers if the discount is offered.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "59fb8c72-957f-40c2-8f81-c7d647fb0e6a",
+    "name": "communication",
+    "fact": "Wei mentioned that annual is stickier and they've seen that on the older plan.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a8122ac2-cc73-485d-8cba-0a01f93c71fd",
+    "name": "INSTRUCTED",
+    "fact": "Wei instructed Yuki to change the paragraph on the pricing page to reflect the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9d48029-2e84-4de3-80cf-1fb1bab8c64e",
+    "name": "communication",
+    "fact": "Sana mentioned that if the discount only shifts people who would've paid annually anyway, revenue would be cut.",
+    "episodes": [
+     "4cd3d929-b651-46c4-ab5e-45d3402d14a0"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "21f6d384-be91-48bc-9477-3d159110521a",
+    "name": "ASKED_ABOUT",
+    "fact": "Wei asked Farah to update the sales deck with the new discount and lock policy.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.353010+00:00"
+   },
+   {
+    "uuid": "8d10f9f1-5b99-44c4-9e62-93cf5cfa6f3a",
+    "name": "MODIFIED",
+    "fact": "Yuki modified the pricing page to include a ten percent discount with a twenty-four month price lock.",
+    "episodes": [
+     "e2d4efb7-d46f-4d44-8a05-2c78e2497508"
+    ],
+    "valid_at": "2025-06-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ed8faf63-c747-4afe-b1d5-ab8e2c9008ab",
+    "name": "EXPLAINED",
+    "fact": "Sana explained that a ten percent discount with a twenty-four month price lock would be better for customers than a fifteen percent discount without a lock.",
+    "episodes": [
+     "926f05d8-b25a-48f0-8fa5-538e684c9f79"
+    ],
+    "valid_at": "2025-06-09T00:00:00+00:00",
+    "invalid_at": "2025-06-16T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:28:55.352960+00:00"
+   }
+  ]
+ }
+]

@@ -1,0 +1,119 @@
+Meeting: m2
+Date: 2025-03-11
+Participants: Camila, Fatima, Zainab, Yuki, Elif
+
+Camila: Okay, we've got everyone. Yuki, you're on mute again. No wait, the bar's moving.
+Yuki: Sorry, sorry. Headset thing. It's fine now, I think.
+Camila: Good. Let me start with the boring one, the status page. Anders told me Monday it's still the week of the 17th.
+Elif: Oh, that's what he told me too. Although he said the DNS people might need until the 19th, so-
+Camila: The 19th is still the week of the 17th, Elif.
+Elif: Right, yeah. No, I know. I just meant it's cutting close to the, um, to the thing.
+Zainab: What thing?
+Elif: The offsite thing. Second week of April. I keep looking at flights and then I don't book anything.
+Camila: Has anybody seen a confirmation on that yet? I haven't.
+Fatima: Not me.
+Yuki: I asked Rania yesterday and she said the venue is holding the dates but there's no contract yet.
+Camila: Okay. So still unconfirmed. Don't book anything refundable-only, I guess. Or, no, the opposite. Book refundable only.
+Elif: That's what I meant to say, yeah. Refundable only.
+Camila: Right. Moving on. Support volume, Thandi sent the weekly numbers and it's flat this week. After last month's jump I'll take flat.
+Zainab: Flat as in flat, or flat as in up two percent and we're calling it flat?
+Camila: Up about one and a half. So, close enough.
+Zainab: That's what I thought.
+Yuki: Did the invoice PDF thing ever get sorted? Leila was supposed to-
+Camila: I asked her. She said it shipped Thursday, but one template is still broken. The annual one.
+Yuki: Of course it is.
+Camila: She's on it. Okay. Pricing. I want to spend most of the time here, because the launch email is due and Rania keeps asking.
+Elif: Can I say something before we go in? It's a tiny thing. Unrelated, sort of.
+Camila: Quickly.
+Elif: The tone guide. Jamal did move it, like you said, and it's now two folders deep and the search doesn't find it.
+Camila: Did you message him?
+Elif: I did. He sent me a link. So it's fine. I just thought somebody else might hit that.
+Camila: Okay. Noted. Not a pricing thing, so let's park it.
+Yuki: I do have a question about the pricing page mock, actually. The, uh, the placeholder I put in last week, do I-
+Camila: Keep what's in there. It says forty-nine, per workspace. That's what we agreed on, so leave it.
+Yuki: Okay. Good. I just wanted to be sure nobody had touched it.
+Camila: Nobody's touched it. So, Elif, you said last week you'd pull something? Did you get a chance?
+Elif: Yeah, so, I did. Um. Ok so Laszlo's group let me into the usage export. The raw one, not the dashboard. And I was going through it on the weekend, which, don't ask.
+Camila: What did you find?
+Elif: I mean, I wasn't sure what I was looking for at first. I started with the tangled stuff, the ones with like five hundred members that are mostly dormant, and then-
+Yuki: Which ones are mostly dormant?
+Elif: The, uh, the old trial ones. Doesn't matter. I ended up just sorting by seat count and taking the top thirty.
+Camila: Okay.
+Elif: So those thirty are averaging about two-forty people each. Not the median, the, the mean. And Laszlo's team gave me a rough compute cost per active seat, so I multiplied it out. It comes to something like eighty-four a month per workspace, just in compute. Forty-nine is what they'd pay us.
+Camila: Say that again? Eighty-four is the cost, not the revenue?
+Elif: Cost. Yeah. Eighty-four a month in compute versus forty-nine coming in.
+Camila: Hm. Is that all-in, or just the add-on's compute?
+Elif: Just the add-on. The shared docs and presence stuff, not the base product.
+Fatima: So it's, it's under water by thirty-something a month each.
+Elif: Roughly, yeah. Thirty-five.
+Zainab: Okay, hold on. Can I be honest? I've been sitting on this since last week and I didn't want to be the person who reopened it.
+Camila: Go ahead.
+Zainab: The big ones are exactly the accounts that will use this the hardest. Collaboration scales with people. So a flat price means we sell our heaviest users a discount we lose money on. And the thing nobody's saying is, if we move them to per seat after launch, that's a price hike on customers who have been on forty-nine. They will not take that quietly. They'll churn, or they'll write the angry email, or both.
+Yuki: But we said grandfathering was-
+Zainab: Grandfathering only works if you leave them at forty-nine forever. Then we're subsidizing them forever.
+Yuki: Well, not forever. A year, maybe, and then-
+Zainab: A year of losing money, and then a price rise anyway.
+Camila: Okay, let me write that down. So two points. The cost side and the later-change side.
+Yuki: Can I just push back on the cost number? Because compute estimates from that team are always-
+Camila: Always what?
+Yuki: Padded. Like every number Laszlo's group gives you has a buffer in it.
+Elif: It wasn't their number, exactly. It was an average per active seat times how many seats were active. And a lot of those seats aren't active every day.
+Camila: Is the eighty-four on all seats or active ones only?
+Elif: Active. I think. Hang on, I have it open. Um. Yeah, it says monthly active in the column header.
+Camila: Okay, so that's a real question to answer, whether monthly active is the right base.
+Yuki: Right, but that would make it lower, not higher.
+Elif: Not necessarily. If everybody's active in a collab tool, which they would be-
+Yuki: Which they wouldn't be, though.
+Camila: Let's not do this one. I want to see the sheet first. Elif, can you share it?
+Elif: I'll drop it in the doc. It's pretty messy. Don't judge the tabs.
+Fatima: Can I ask something?
+Camila: Please.
+Fatima: When I did the interviews, um, the really large ones weren't actually in my twelve. The biggest was maybe sixty people.
+Zainab: So nothing you heard speaks to the thirty.
+Fatima: Not really. No. I don't think so.
+Camila: That's useful. That's a gap in the interviews.
+Fatima: Yeah. I should have said it earlier.
+Camila: No, it's fine. I'm the one who picked the sample.
+Zainab: And the enterprise line I mentioned last week, I realize now that's a much bigger thing than a pricing page footnote.
+Camila: It might be. I'm not conceding that yet.
+Yuki: Sorry, I need to say, the early pushback was that per-seat made people hold back invites. That's what Fatima's nine of twelve were saying.
+Fatima: Nine of twelve, yes.
+Yuki: So if we go per seat, then the big accounts don't invite people, and the compute number drops anyway.
+Zainab: Which is a funny argument. We'd be choosing the price that keeps people from using the product.
+Yuki: I'm not saying choose it. I'm saying that part is real.
+Camila: Both of those are real. Okay.
+Elif: This actually reminds me of something at my last job. We had this storage plan where the heavy users were basically free, and the finance guy found out in the third quarter, and I swear he went white, like, genuinely white. And then they had to do an email to everyone, and it was this whole-
+Camila: Elif.
+Elif: Sorry. Anyway. The point was it didn't go well.
+Camila: Noted. So it happened to you once. That's not the same as being what happens here.
+Elif: No, no, I know. I wasn't saying that. Just a feeling.
+Zainab: It's a fair feeling.
+Camila: I'd rather deal in the numbers. Right now I have forty-nine on the page, thirty accounts at about two-forty seats, and an eighty-four dollar cost I haven't seen. Anything else I'm missing?
+Fatima: The competitor with the tiers. Does it have a cap?
+Camila: Not that I recall. I'd have to open the table again. It's got three brackets, maybe four.
+Fatima: Okay. I can check, if you like.
+Camila: If you've got time, that'd help.
+Fatima: Sure.
+Yuki: What time is it? I think we're at the half hour.
+Camila: We're about two minutes over, actually. Okay.
+Yuki: I have a hard stop. I'm so sorry. I have the vendor call at the top of the hour and I need to switch rooms.
+Camila: That's fine. Before you go, the launch email. Rania wants copy Thursday, still?
+Yuki: Thursday, yeah. Elif has the first draft.
+Elif: I do. I have, um, about half. I'll have it done tomorrow.
+Camila: Does the draft say a price?
+Elif: Placeholder. Just brackets, basically. A dollar sign and an X.
+Camila: Good. Leave it like that for now.
+Zainab: Which, for the record, is me saying the price isn't settled.
+Camila: Noted. You've said your piece, and I've heard it. But it's still the forty-nine on the page as of today.
+Zainab: Fine. As long as that's written down somewhere that it's the page, not a promise.
+Camila: It's written down. I'll note that it's still open for discussion.
+Yuki: I really have to go. Sorry.
+Camila: Go, go.
+Yuki: Thanks. Elif, send me the draft when you can?
+Elif: Will do. Tomorrow.
+Camila: Okay. Anything from anyone before we close? Thandi has the ticket breakdown and I'll forward it.
+Fatima: Just the tier check, I'll send it by Wednesday.
+Zainab: Nothing else. Actually, no. Can someone confirm the billing config date? Laszlo said the 20th, or after?
+Camila: Not before the 20th. That's still the answer.
+Zainab: Okay. Then no.
+Camila: Alright. Thanks, all. I'll post notes this afternoon.

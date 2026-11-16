@@ -1,0 +1,6429 @@
+{
+ "set_id": "dev_k10_00",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.6,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial length for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "confidence": 0.6,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "analytics dashboard readiness for launch",
+   "option": "ready by the launch"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.85,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.75,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.7,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.6,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.65,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.8,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline recycled PET felt wall panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "fire warden rota",
+   "option": "Ana from payroll on second floor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.7,
+   "decision": "fire warden rota",
+   "option": "Ana from payroll on second floor"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "fire warden rota",
+   "option": "Ana from payroll on second floor"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "confidence": 0.95,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.75,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.65,
+   "decision": "trial length and credit card requirement",
+   "option": "email verification"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "confidence": 0.85,
+   "decision": "trial length and credit card requirement",
+   "option": "email verification"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.95,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.6,
+   "decision": "trial length and credit card requirement",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "email verification",
+   "option": "fixed date"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial length and credit card requirement",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Dmitri",
+   "confidence": 0.9,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "challenge",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.85,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "rationale",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.85,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "fourth floor noise reduction solution",
+   "option": "Tessaline felt panels"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "customer conference location and format",
+   "option": "same place as two years ago"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "number of rep sign-ups",
+   "option": "thirty-something"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "number of rep sign-ups",
+   "option": "thirty-four"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "number of rep sign-ups",
+   "option": "thirty-four"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "number of rep sign-ups",
+   "option": "sixty"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "number of rep sign-ups",
+   "option": "sixty"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "customer newsletter content",
+   "option": "include a short ask for rep sign-ups"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "customer newsletter content",
+   "option": "include a short ask for rep sign-ups"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "customer newsletter content",
+   "option": "include a short ask for rep sign-ups"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "customer newsletter content",
+   "option": "mention the date"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "customer newsletter content",
+   "option": "not mention the date until booking is confirmed"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "summit again in person at the Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "seven-day trial, card required"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Marco",
+   "confidence": 0.85,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Omar",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "trial policy for the launch",
+   "option": "fourteen day free trial, no credit card needed"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Omar",
+   "confidence": 0.95,
+   "decision": "logo design for the product",
+   "option": "new logo with blue color"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.85,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.75,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.85,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "customer conference location and format",
+   "option": "virtual product showcase plus a small invite-only reception"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "number of rep sign-ups",
+   "option": "thirty-eight"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "rationale",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    1,
+    2,
+    3
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "event platform selection",
+   "option": "four dollars an attendee with automatic registration and reminders"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "event platform selection",
+   "option": "four dollars an attendee with automatic registration and reminders"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "event platform selection",
+   "option": "four dollars an attendee with automatic registration and reminders"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "event platform selection",
+   "option": "four dollars an attendee with automatic registration and reminders"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.8,
+   "decision": "reception guest list size",
+   "option": "forty-two names"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "reception guest list size",
+   "option": "forty-two names"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    11,
+    12,
+    13
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "reception catering",
+   "option": "local caterer, small plates for three thousand"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    14,
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "rep sign-ups",
+   "option": "forty-one signed up"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "newsletter content",
+   "option": "piece about the showcase with start date"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    22,
+    23,
+    24
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "product demo clips for showcase",
+   "option": "recorded in the office on Saturday with Elif's help"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    25,
+    26,
+    27
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "office heating",
+   "option": "fixed by facilities"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    28,
+    29,
+    30
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "reception layout",
+   "option": "sketched by Lakshmi next week"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "use the approval module that comes with the ERP we already have"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "invoice approval process",
+   "option": "standalone accounts payable automation tool"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring for the Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "flooring for the Level 4 fit-out",
+   "option": "carpet tile"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "flooring for the Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "flooring for the Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring for the Level 4 fit-out",
+   "option": "luxury vinyl plank from Norvik Supply"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "proposal",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "furniture delivery schedule",
+   "option": "furniture's booked for the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "furniture delivery schedule",
+   "option": "furniture's booked for the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "furniture delivery schedule",
+   "option": "furniture's booked for the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "furniture delivery schedule",
+   "option": "furniture's booked for the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    4,
+    5,
+    6
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "contract timeline",
+   "option": "end of next week for a first pass"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "contract timeline",
+   "option": "lawyer end of next week"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6,
+   "decision": "contract timeline",
+   "option": "ask Marisol to be more specific"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "contract timeline",
+   "option": "two weeks turned into five days"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "contract timeline",
+   "option": "nine days"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    12,
+    13
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "data storage for invoices",
+   "option": "section on data storage"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    16,
+    17
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "demo dates",
+   "option": "Tuesday and Thursday after next"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "demo dates",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "demo dates",
+   "option": "confirm with vendor"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "demo questions",
+   "option": "scanned questions at the top"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "demo questions",
+   "option": "review screen for wrong amounts"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "demo questions",
+   "option": "review screen with crooked page"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "demo questions",
+   "option": "regional ones in two languages"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    32,
+    33
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "finance committee meeting",
+   "option": "week after demo"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    37,
+    38
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "finance committee meeting",
+   "option": "how fifteen extra was reached"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "finance committee meeting",
+   "option": "sixty-five hours if including fixes"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    44,
+    46
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "old module (ERP)",
+   "option": "tell rep anything yet"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "old module (ERP)",
+   "option": "until Marisol is happy with paper"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    50,
+    51
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "ERP renewal date",
+   "option": "June thirtieth"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    53,
+    54,
+    55
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "expense memo",
+   "option": "meals went up to sixty a day"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    59,
+    60
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "expense memo",
+   "option": "per day or per trip"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    61,
+    62
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "expense memo",
+   "option": "starts from first of March"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "expense memo",
+   "option": "conference in February is old rate"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    66,
+    67
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "intern login",
+   "option": "login on Thursday didn't work on shared drive"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "intern login",
+   "option": "ticket sent, fixed Monday"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "intern login",
+   "option": "put files somewhere else"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    73,
+    74,
+    75
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "intern login",
+   "option": "explained close calendar with two versions"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    77,
+    79
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "contract term",
+   "option": "term two years or three"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "contract term",
+   "option": "one year with option to extend"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "contract term",
+   "option": "three years if tool is bad"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "contract term",
+   "option": "agreed with Camila"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    87,
+    88,
+    89
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "contract term",
+   "option": "look at PDF in folder with screenshots"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    92,
+    93
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "bank rec on Friday",
+   "option": "Ivan covering again"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    94,
+    95
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "bank rec on Friday",
+   "option": "Ivan likes the quiet"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "evidence",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "bank rec on Friday",
+   "option": "ping Ravi if it gets bad"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "flooring material durability",
+   "option": "seams lifting due to moisture"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "flooring material durability",
+   "option": "seams lifting due to moisture"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "flooring material durability",
+   "option": "seams lifting due to moisture"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "flooring material durability",
+   "option": "seams lifting due to moisture"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material durability",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material order",
+   "option": "hold the order"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "furniture delivery date",
+   "option": "fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "budget revisions",
+   "option": "completed"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material order",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "flooring material order",
+   "option": "heat-weld seams"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "flooring material order",
+   "option": "vinyl plank with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "flooring material order",
+   "option": "seam sealing"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material order",
+   "option": "Norvik vinyl plank with heat-sealed seams and ceramic tile band"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.95,
+   "decision": "flooring material order",
+   "option": "place order"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "flooring material testing",
+   "option": "test sealed seams"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Lumenboard"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "challenge",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Lumenboard"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "nightly jobs impact from staging box move",
+   "option": "staging boxes moved Thursday"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "nightly jobs impact from staging box move",
+   "option": "one ran forty minutes late"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "nightly jobs impact from staging box move",
+   "option": "move caused the delay"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "offsite dates for Rosa",
+   "option": "offsite settled"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "offsite dates for Rosa",
+   "option": "week after the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "offsite dates for Rosa",
+   "option": "Kofi has a thing the twenty-second"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard setup progress",
+   "option": "test copy is running"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard setup progress",
+   "option": "Hedda wants to see it before external access"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard setup progress",
+   "option": "link sent to Aisha"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard setup progress",
+   "option": "link received Monday"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "challenge",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "finance can't make their own charts"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "fifty-eight change requests in three weeks"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "most requests from finance"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "rationale",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "ramp-up period for new tool"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "many requests are simple chart requests"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench requires SQL for everything"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench licence cost thirteen four"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "SQL requirement may cost more than licence"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "rationale",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "two days a week is forty percent of an analyst's time"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "cost is more than licence"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "start-up bump will reduce costs over time"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "costs may not decrease"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "finance users don't have SQL"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Bilal's group only uses five dashboards"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Aisha can send ticket list"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Pavel wants real numbers before rethinking"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": "Kofi can get SQL user count from logs"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "shared drive audit preparation",
+   "option": "Greta hasn't done it yet"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "shared drive audit preparation",
+   "option": "audit people come eighteenth"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "shared drive audit preparation",
+   "option": "twelve days until audit"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "shared drive audit preparation",
+   "option": "Greta will do it this week"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "survey completion",
+   "option": "survey at forty-one of forty-eight"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "survey completion",
+   "option": "Greta will do hers today"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "survey completion",
+   "option": "Kofi did his already"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "survey completion",
+   "option": "Aisha did hers"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "survey completion",
+   "option": "Marco did his"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "dashboard tool selection",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "dashboard tool selection",
+   "option": "Plotbench"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "offsite headcount form deadline",
+   "option": "Wednesday noon"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "engineering hires funnel",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "drop phone screen, use take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "uneven pass rates by recruiter"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "take-home gives like with like"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "pass rates could be due to sample size"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "consistency matters"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "some candidates won't do take-home"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "senior candidates may skip take-home"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "data team tried take-home before"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "data team tried take-home last year"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "cost for technical review"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "technical review already happens for phone screens"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "written exercise may be hard for non-native English speakers"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home would be small problem and short note"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home is first interaction with company"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "phone screen sells company"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "rationale",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "phone screen catches obvious stuff like salary and location"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "ask salary and location in application form"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "candidates who fail take-home may not get feedback"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "other company's take-home had no feedback"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "challenge",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "time required to review take-home"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "ten minutes per take-home with rubric"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "eighty to a hundred take-homes per month"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "thirty hours of review time per month"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "not ready to decide today"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "leave for further consideration"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "agency invoice from March",
+   "option": "send thread to Bashir"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "meeting adjournment",
+   "option": "Aisha has another call"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    17,
+    18,
+    19
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    20,
+    21
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    23,
+    24
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    27,
+    28
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "take-home exercise"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "proposal",
+   "utterance_idxs": [
+    30,
+    31,
+    32
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    38,
+    39,
+    40,
+    41,
+    42
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "challenge",
+   "utterance_idxs": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "evidence",
+   "utterance_idxs": [
+    50,
+    51
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    53,
+    54,
+    55
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "structured video interview"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "proposal",
+   "utterance_idxs": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "new starter laptop distribution",
+   "option": "ship laptops to new hires' homes"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    79,
+    80,
+    81,
+    82
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.9,
+   "decision": "new starter laptop distribution",
+   "option": "ship laptops to new hires' homes"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.95,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    110
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    112
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    113
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "engineering hiring process",
+   "option": "video screen with rubric"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Halden Foods ticket resolution",
+   "option": "Note to account manager by noon tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Halden Foods ticket resolution",
+   "option": "Note to account manager by noon tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Insights trial policy",
+   "option": "Fourteen days, free, no card required"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "Test in May showed signups went up threefold"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial policy",
+   "option": "Test was on main plans, different buyer"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Insights cost estimation",
+   "option": "About four dollars per account"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial policy follow-up",
+   "option": "Get sheet from Tomas by Monday"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights entitlement switch",
+   "option": "In staging by the 20th"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Launch email story",
+   "option": "Take a first draft by the 15th"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Sign-off deadline",
+   "option": "Anything for sign-off needs to reach her before Friday the 15th"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "30-day trial with a card required at signup"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights trial policy",
+   "option": "30-day trial with a card required at signup"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Insights entitlement switch",
+   "option": "No change to the 20th for the staging switch"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Launch email story",
+   "option": "Mention thirty days and the card"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Release notes email frequency",
+   "option": "Monthly instead of weekly"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Sign-off deadline",
+   "option": "Anything for sign-off needs to reach her before Friday the 15th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Decision on card field in trial form",
+   "option": "Keep card field on the page for now"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Decision on card field in trial form",
+   "option": "Keep card field on the page for now"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Decision on card field in trial form",
+   "option": "Revisit decision on 28th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Request marketing materials from Lena"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Provide activation data by Friday"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Meera",
+   "confidence": 0.85,
+   "decision": "Decision on card field in trial form",
+   "option": "Request activation data and domain split from Pavel"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Request sales input from Jonas"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Request sales input"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Request ticket count from Yuki"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Request ticket count on failed check"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Request data on throwaway addresses"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on launch date",
+   "option": "Fix launch date to 9th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "Decision on launch date",
+   "option": "Correct launch date to 9th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Meera",
+   "confidence": 0.85,
+   "decision": "Decision on launch date",
+   "option": "Note 19 days between 21st and 9th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on data review",
+   "option": "Agree to know what is not known"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Meera",
+   "confidence": 0.85,
+   "decision": "Decision on data review",
+   "option": "Return to topic"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on office move",
+   "option": "Request information on office move"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Decision on office move",
+   "option": "Add to Dana's list"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on office move",
+   "option": "Refer to Dana"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on office move",
+   "option": "Request information on office move"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "Decision on office move",
+   "option": "Mention natural light in facilities email"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on office move",
+   "option": "Mention security issue with sandwiches"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on office move",
+   "option": "Mention working from home"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on office move",
+   "option": "Mention working from home"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Decision on office move",
+   "option": "Say it's fine"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on office move",
+   "option": "Mention move to printers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on office move",
+   "option": "Mention working from home"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on office move",
+   "option": "Mention badge issue"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on office move",
+   "option": "Ask about moving off third floor"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Confirm no change"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about Dmitri's input"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention different kind of front door"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention front door without throwaways"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention front door without throwaways"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention different kind of front door"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Request numbers first"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention card field killing pipeline"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention enterprise buyers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 19 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention enterprise buyers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention some have cards"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention procurement doesn't hand out cards"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Challenge Jonas's claim"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention card field killing pipeline"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention calmness about issue"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention activation numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention activation numbers not available"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about activation numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention activation numbers not available"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about activation numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention could be bug"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention could be bug"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention could be bug"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention could be banks"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention can pull data"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention can ask for numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention EU attempts"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about numbers"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention he did"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention hypothetical"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention Tomas's sheet"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 31 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 31 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 31 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention fewer attempts"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 148 for the week"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention same waitlist page"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 412"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 19 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention second one again"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention 19 percent"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention launch email"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about launch email"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention marketing sent something"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention Tomas's sheet"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Ask about Tomas's sheet"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention terms and per-account figure"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention button issue"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention page copy and review"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention backfill"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention staging switch"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention switch in"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention staging switch due 20th"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention release notes"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention footer done"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention release notes"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention SOC 2"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention forty-two"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention forty-one"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention colours held up"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention seven a.m."
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention same patch"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention vendor's patch"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention skip"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention half calendar"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Decision on card field in trial form",
+   "option": "Mention five of us again"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Insights trial policy",
+   "option": "14 days, free, no card required"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "0.30 dollars a trial account"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "412 to 148"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "19.1 percent failure rate"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "57 percent EU share of attempts"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "3.4 percent activated"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "four of the nine real ones with it"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "base number"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "23 tickets with payment error tag"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "two accounts from sales"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "0.30 dollars a trial account"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "123 dollars 60"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "under fourteen dollars each"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "38 dollars 40"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial policy",
+   "option": "domain filter"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights trial policy",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Charge per seat for analytics add-on at twelve dollars per seat per month"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per seat pricing is predictable and grows with usage"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Usage-based pricing caused support tickets weekly"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Usage-based pricing led to customer complaints about mystery bills"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Usage-based pricing confused customers"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "Pricing for analytics add-on",
+   "option": "Do we know who would buy it and team sizes?"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "Pricing for analytics add-on",
+   "option": "Go with per-seat pricing at twelve dollars for launch and revisit if needed"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Agree to per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps",
+   "option": "Reduce checklist from eleven steps to five"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Onboarding checklist steps",
+   "option": "Checklist was seven steps when last looked at"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps",
+   "option": "Checklist grew over time"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Onboarding checklist steps",
+   "option": "Which six steps can be removed?"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps",
+   "option": "Remove steps that ask for information already known, like company name and timezone"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Onboarding checklist steps",
+   "option": "Send shorter list for review"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "Weekly demo day timing",
+   "option": "Move to Thursday afternoons"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Wei",
+   "confidence": 0.85,
+   "decision": "Weekly demo day timing",
+   "option": "Move to Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Weekly demo day timing",
+   "option": "Friday demos skipped"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.75,
+   "decision": "Weekly demo day timing",
+   "option": "Thursday afternoon better"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "Weekly demo day timing",
+   "option": "Thursday afternoon better"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "Weekly demo day timing",
+   "option": "Thursday afternoon fine"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing may lose big accounts"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Pilot has five accounts, three with teams over forty people"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "Pricing for analytics add-on",
+   "option": "Four-eighty is just the add-on on top of base plan"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Revisit next week"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "proposal",
+   "utterance_idxs": [
+    27,
+    28,
+    29
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    31,
+    32
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.6,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    39,
+    40
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    44,
+    45
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    47,
+    48
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "challenge",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "rationale",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.95,
+   "decision": "Summit format for next year",
+   "option": "Three one-day regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Pricing for analytics add-on",
+   "option": "Per-seat pricing at twelve dollars"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Crate distribution deadline",
+   "option": "Packed by Friday"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Expense tool confirmation",
+   "option": "Tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Old expense tool cutoff",
+   "option": "Locks at six tonight"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Webinar number confirmation",
+   "option": "To finance"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Email completion deadline",
+   "option": "End of the week"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format",
+   "option": "Three roadshows"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Holiday party venue",
+   "option": "Same venue"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Third floor laptop policy",
+   "option": "Laptops stay with you"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Summit attendance",
+   "option": "58 out of 140 target accounts responded positively"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Frankfurt venue cost",
+   "option": "22% increase in quote"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format",
+   "option": "Roadshows may miss pipeline target"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format",
+   "option": "Current data is limited"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "challenge",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "Summit format",
+   "option": "Costs may be higher than expected"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format",
+   "option": "Three roadshows"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format",
+   "option": "Three regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit attendance",
+   "option": "58 out of 140 target accounts responded positively"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit costs",
+   "option": "Roadshows coming in 61,000 dollars under the central event"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "Summit costs",
+   "option": "Venues, AV, catering, our own travel"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Summit costs",
+   "option": "180,000 subsidy line"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "Frankfurt venue cost",
+   "option": "Trade fair thing might be real"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "Summit costs",
+   "option": "Eight percent contingency on the whole sheet"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "evidence",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format",
+   "option": "Draft back Friday"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.9,
+   "decision": "Summit format",
+   "option": "Three regional roadshows, Manchester, Frankfurt and Austin"
+  },
+  {
+   "meeting_id": "mtg_0032",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format",
+   "option": "Three regional roadshows, Manchester, Frankfurt and Austin"
+  }
+ ]
+}

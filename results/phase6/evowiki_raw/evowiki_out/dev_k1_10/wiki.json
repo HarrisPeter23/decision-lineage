@@ -1,0 +1,306 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Thursday release",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Sven and Sana to sort out the flaky test offline",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      12
+     ]
+    },
+    {
+     "value": "fixed",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-09",
+     "evidence": [
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Store listing screenshots",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Anika to redo the two screenshots by Monday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Push provider contract",
+   "attribute": "renewal type",
+   "states": [
+    {
+     "value": "yearly",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      24,
+      32,
+      33,
+      34,
+      35,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Push provider contract",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "900 per month",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      24,
+      32,
+      33,
+      34,
+      35,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Push provider contract",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Pavel to send Sanne the yes today",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      60
+     ]
+    },
+    {
+     "value": "re-evaluate terms",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-09",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Team offsite",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Camila to send both venue quotes today",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      70
+     ]
+    },
+    {
+     "value": "20th of January",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-16",
+     "evidence": [
+      59,
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Tadeusz's onboarding",
+   "attribute": "on-call",
+   "states": [
+    {
+     "value": "January at the earliest",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      87,
+      88,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Tadeusz's onboarding",
+   "attribute": "offsite attendance",
+   "states": [
+    {
+     "value": "yes",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-11-02",
+     "evidence": [
+      90,
+      91,
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Push service",
+   "attribute": "alternative solution",
+   "states": [
+    {
+     "value": "build internal sending service",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-09",
+     "evidence": [
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Internal sending service",
+   "attribute": "planning meeting",
+   "states": [
+    {
+     "value": "Camila and Pavel to sketch plan",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-09",
+     "evidence": [
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Internal sending service",
+   "attribute": "planning meeting date",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-11-09",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Campaign delivery system",
+   "attribute": "architecture",
+   "states": [
+    {
+     "value": "queue with worker per platform, shared retry, separate adapters",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-11-16",
+     "evidence": [
+      6,
+      7,
+      11,
+      12
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S4",
+   0,
+   1,
+   2
+  ],
+  [
+   "S0",
+   0,
+   1,
+   2
+  ],
+  [
+   "S5",
+   0,
+   1,
+   3
+  ]
+ ]
+}

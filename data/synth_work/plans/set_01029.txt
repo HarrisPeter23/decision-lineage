@@ -1,0 +1,19 @@
+set_id: set_01029
+seed: 1029
+arc_type: partial_override
+topic: how inbound leads are routed to the inside sales reps
+option A: round-robin routing of every inbound lead across the six inside-sales reps
+option A+M: round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office
+distractor topic: the day of the weekly pipeline review
+distractor option: move the weekly pipeline review from Friday to Wednesday
+beat B1: Omar proposes routing every inbound lead round-robin across the six inside-sales reps.
+beat B2: Omar argues that manual assignment currently takes a median of five hours to first touch, round-robin would bring it under 30 minutes, and it spreads leads evenly across the reps.
+beat B3: Ravi agrees without naming the routing method, by asking Omar to have it live for Monday.
+beat B4: Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints.
+beat B5: Kwame objects that round-robin is walking over existing relationships and customers are getting called twice.
+beat B6: Ravi reopens the routing rule.
+beat B7: Kofi argues for keeping round-robin for new accounts but sending any lead from an owned account to its owner, falling back to round-robin when the owner is out of office, which is a one-day change in the CRM.
+beat B8: Ravi decides: round-robin for new accounts, owned-account leads go to their owner.
+beat D1: Kofi suggests moving the weekly pipeline review from Friday to Wednesday.
+beat D2: Kofi points out that nine of the last fourteen Friday reviews had fewer than four reps present and deals slip unseen over the weekend.
+beat D3: Ravi approves moving the pipeline review to Wednesday.

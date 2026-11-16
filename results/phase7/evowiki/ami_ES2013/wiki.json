@@ -1,0 +1,588 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Remote control",
+   "attribute": "design goals",
+   "states": [
+    {
+     "value": "original, trendy, user-friendly",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "User-friendliness",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Steph",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Originality",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "All team members",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Trendiness",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Sarah (marketing research)",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Remote control",
+   "attribute": "price",
+   "states": [
+    {
+     "value": "25 Euros",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Remote control",
+   "attribute": "production cost",
+   "states": [
+    {
+     "value": "12.5 Euros per item",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Remote control",
+   "attribute": "profit aim",
+   "states": [
+    {
+     "value": "50 million Euros",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Remote control",
+   "attribute": "quantity to sell",
+   "states": [
+    {
+     "value": "4 million units",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      82,
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Remote control",
+   "attribute": "target market",
+   "states": [
+    {
+     "value": "International market",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      68
+     ]
+    },
+    {
+     "value": "15 to 35 year olds with more money than sense, decision makers",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Industrial design",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Kate",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Technical functions design",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Steph",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "User requirements specification",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Marketing team",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2005-02-25T09:00:00",
+     "evidence": [
+      127
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Device",
+   "attribute": "functions",
+   "states": [
+    {
+     "value": "power, channel, volume, enter key, number keys, big user-friendly buttons",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2005-02-25T10:00:00",
+     "evidence": [
+      284,
+      285,
+      286,
+      287,
+      288,
+      289
+     ]
+    },
+    {
+     "value": "volume, power, numbers, enter, channels, a way to move between channels, easy to use and hand-held",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Remote control design",
+   "attribute": "corporate image",
+   "states": [
+    {
+     "value": "include the l so slogan and colour of the corporate design",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Remote control design",
+   "attribute": "interface type",
+   "states": [
+    {
+     "value": "four directional buttons (up, down, left, right) with an enter button in the middle",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      235,
+      350
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Remote control design",
+   "attribute": "display",
+   "states": [
+    {
+     "value": "menu on the television screen",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      178,
+      199
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Remote control design",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "plastic or rubber",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2005-02-25T11:00:00",
+     "evidence": [
+      196,
+      325,
+      336
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Device components",
+   "attribute": "power source",
+   "states": [
+    {
+     "value": "kinetic",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      262,
+      269
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Device components",
+   "attribute": "chip",
+   "states": [
+    {
+     "value": "simple electronic chip",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      271,
+      274
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Device components",
+   "attribute": "case shape",
+   "states": [
+    {
+     "value": "single curve",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      275,
+      283
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Device components",
+   "attribute": "case material",
+   "states": [
+    {
+     "value": "plastic",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      289,
+      291
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Project budget",
+   "attribute": "total cost",
+   "states": [
+    {
+     "value": "\u00a39.20",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      320
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Project evaluation",
+   "attribute": "average score",
+   "states": [
+    {
+     "value": "1.88",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      365
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Project evaluation",
+   "attribute": "satisfaction with creativity",
+   "states": [
+    {
+     "value": "satisfied",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      348
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Project evaluation",
+   "attribute": "teamwork",
+   "states": [
+    {
+     "value": "satisfied",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      348
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Project evaluation",
+   "attribute": "leadership",
+   "states": [
+    {
+     "value": "satisfied",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      348
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Project evaluation",
+   "attribute": "room for creativity",
+   "states": [
+    {
+     "value": "satisfied",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      348
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Project evaluation",
+   "attribute": "technology adherence",
+   "states": [
+    {
+     "value": "maintained old technology",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2005-02-25T12:00:00",
+     "evidence": [
+      370
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S8",
+   0,
+   1,
+   3
+  ],
+  [
+   "S12",
+   0,
+   1,
+   3
+  ]
+ ]
+}

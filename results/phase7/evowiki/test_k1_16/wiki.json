@@ -1,0 +1,420 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Build server",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "sorted out",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      3,
+      4,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Build server",
+   "attribute": "monitoring",
+   "states": [
+    {
+     "value": "ticket in to alert before cache volume fills again",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Standup",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "10:00",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Checkout screen",
+   "attribute": "implementation approach",
+   "states": [
+    {
+     "value": "reuse shared framework from settings screens",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      23,
+      25,
+      27
+     ]
+    },
+    {
+     "value": "cross-platform framework",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-10",
+     "evidence": [
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Checkout screen",
+   "attribute": "upgrade notes review",
+   "states": [
+    {
+     "value": "Fatima will read the upgrade notes this week",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      63
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Checkout screen",
+   "attribute": "epics and sprint board setup",
+   "states": [
+    {
+     "value": "Wei will set up epics and sprint board and fold old stories in",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Checkout screen",
+   "attribute": "acceptance criteria",
+   "states": [
+    {
+     "value": "Sven and Fatima will draft acceptance criteria",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Checkout screen",
+   "attribute": "vendor wrapper",
+   "states": [
+    {
+     "value": "marked as blocked until Ines confirms",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Payment sandbox",
+   "attribute": "test accounts",
+   "states": [
+    {
+     "value": "Fatima has two and will share them",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Release notes",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Elif",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      88
+     ]
+    },
+    {
+     "value": "Product team (Joao)",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Demo",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-07-27",
+     "evidence": [
+      99
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-08-03",
+       "evidence": [
+        3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Card field wrapper",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "unblocked",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Release notes",
+   "attribute": "source",
+   "states": [
+    {
+     "value": "tickets and titles from engineering",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Laptop refresh form",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Checkout performance",
+   "attribute": "testing",
+   "states": [
+    {
+     "value": "test on at least two old phones",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      34
+     ]
+    },
+    {
+     "value": "frame floor of fifty on the old phone",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-10",
+     "evidence": [
+      75,
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Estimate sheet",
+   "attribute": "update",
+   "states": [
+    {
+     "value": "Fatima will rerun with perf week included",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Estimate sheet",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Wednesday evening",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-08-03",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Checkout feature",
+   "attribute": "testing plan",
+   "states": [
+    {
+     "value": "Elif to test it a lot",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-08-10",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S9",
+   0,
+   1,
+   2
+  ],
+  [
+   "S3",
+   0,
+   1,
+   3
+  ],
+  [
+   "S14",
+   0,
+   1,
+   3
+  ]
+ ]
+}

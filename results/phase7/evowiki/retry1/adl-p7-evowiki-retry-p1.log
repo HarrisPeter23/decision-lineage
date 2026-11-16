@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":13.353008294,"data":"14:15:25 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 \n"}
+,{"stream_name":"stdout","time":24.881870683,"data":"14:15:36 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 \n"}
+,{"stream_name":"stdout","time":115.495393692,"data":"14:17:07 $ ollama pull qwen3:14b rc 0 \n"}
+,{"stream_name":"stdout","time":115.609807369,"data":"14:17:07 digest ['bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8']\n"}
+,{"stream_name":"stdout","time":911.316714509,"data":"14:30:23 test_k1_01 {\"meetings\": 4, \"extract_failed\": 1, \"route_failed\": 0, \"updates\": 33, \"decided\": 11, \"states\": 11, \"slots\": 8, \"seconds\": 796}\n"}
+,{"stream_name":"stdout","time":1549.852936468,"data":"14:41:01 test_k1_09 {\"meetings\": 4, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 53, \"decided\": 21, \"states\": 20, \"slots\": 16, \"seconds\": 639}\n"}
+,{"stream_name":"stdout","time":2037.87742439,"data":"14:49:09 ami_TS3004 {\"meetings\": 4, \"extract_failed\": 1, \"route_failed\": 0, \"updates\": 97, \"decided\": 52, \"states\": 46, \"slots\": 42, \"seconds\": 1922}\n"}
+,{"stream_name":"stdout","time":2077.267306918,"data":"14:49:49 test_k1_08 {\"meetings\": 3, \"extract_failed\": 0, \"route_failed\": 0, \"updates\": 62, \"decided\": 28, \"states\": 27, \"slots\": 24, \"seconds\": 527}\n"}
+,{"stream_name":"stdout","time":2247.84469667,"data":"14:52:39 ami_ES2002 {\"meetings\": 4, \"extract_failed\": 3, \"route_failed\": 0, \"updates\": 87, \"decided\": 35, \"states\": 32, \"slots\": 30, \"seconds\": 2132}\n"}
+,{"stream_name":"stdout","time":2287.0961818,"data":"14:53:19 ami_TS3012 {\"meetings\": 4, \"extract_failed\": 3, \"route_failed\": 1, \"updates\": 66, \"decided\": 26, \"states\": 23, \"slots\": 22, \"seconds\": 2171}\n"}
+,{"stream_name":"stdout","time":2414.212847822,"data":"14:55:26 test_k1_20 {\"meetings\": 3, \"extract_failed\": 1, \"route_failed\": 0, \"updates\": 36, \"decided\": 20, \"states\": 20, \"slots\": 20, \"seconds\": 376}\n"}
+,{"stream_name":"stdout","time":2414.21333153,"data":"14:55:26 DONE wall 2299\n"}
+,{"stream_name":"stderr","time":2416.939784531,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2416.939816937,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2417.320654859,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2417.320679159,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2419.334680409,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2420.424702554,"data":"[NbConvertApp] Writing 562986 bytes to __results__.html\n"}
+]

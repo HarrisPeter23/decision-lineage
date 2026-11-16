@@ -1,0 +1,271 @@
+{
+ "set_id": "set_01013",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.8,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Hana",
+   "confidence": 0.85,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.95,
+   "decision": "Restocking approach for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Mei",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Hana",
+   "confidence": 0.7,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.7,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Leeds depot restocking approach",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Leeds depot restocking approach",
+   "option": "Brackenfield daily"
+  }
+ ]
+}

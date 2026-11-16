@@ -1,0 +1,121 @@
+Meeting: mtg_0003
+Date: 2025-06-26
+Participants: Sofia, Pavel, Kofi, Bashir, Priya
+
+Sofia: Morning all. Before the real stuff, the planning template. Anyone sent me their top three yet?
+Kofi: Not yet. I've got two and a half.
+Pavel: I have like seven, that's the problem.
+Sofia: Seven isn't three, Pavel.
+Pavel: I know, I know. I'll cut it down.
+Priya: Um, I think maybe I have three? But one of them is sort of two things.
+Sofia: That's fine, just send them by Monday. Doesn't need to be polished.
+Bashir: Monday.
+Sofia: Yes. Next, the Thursday sync that moved to Friday, did that stick? Sanne said eleven was fine.
+Kofi: I got the invite, yeah.
+Pavel: Me too, although it landed on top of my thing with Nikos, which I did move.
+Sofia: Good. And did the load test environment get refreshed?
+Pavel: Partly. Nikos redid the seed data, but the dashboards are gone. So it does wipe them.
+Kofi: Told you.
+Pavel: You did. I'll rebuild them, they're not complicated.
+Bashir: Export them first next time.
+Pavel: Yeah. Fair.
+Sofia: Okay. Audit events. Priya, did Irina ever get to the backup run against a copy?
+Priya: Um, sort of. She did it on a smaller copy and then scaled it up, so I think maybe it's still an estimate.
+Sofia: Where did it land?
+Priya: Somewhere around ninety, ninety-five minutes by year three. So about what she said before.
+Kofi: Against a sixty-minute window.
+Priya: Yes. Right.
+Pavel: And I never checked whether the dump can skip the old partitions. I meant to. It's on my list, which is the list that's seven things long.
+Sofia: Okay. Let me say where my head is. Seven years is a written requirement, and the backup window is what it is, so I'd like to open the storage question again. Not to undo everything, just to look at it properly.
+Kofi: Fine by me. I've been waiting for that.
+Pavel: Can I just say, the table is still the right core. The joins to invoices, the grants, none of that goes away.
+Kofi: Nobody said it goes away.
+Pavel: No, I know. I just want that on the record before the pile-on.
+Priya: There's no pile-on, I think maybe?
+Sofia: So as I understand it, it's everything in the table forever, or the old stuff goes somewhere else. Is that fair?
+Pavel: Kind of. I wrote the cold storage bit in the doc, but as more of a someday thing.
+Kofi: When's someday? And who runs it?
+Pavel: A script. Monthly, I figured.
+Kofi: Run by whom, and what pages when it fails?
+Pavel: Okay, I hadn't got that far.
+Priya: Um, I think maybe the auditors would want proof it actually ran, too?
+Kofi: Right, and that the copy matches.
+Pavel: That's the checksum thing. Which I did put in.
+Sofia: Bashir, you've been quiet. Where are you on this?
+Bashir: Keep the table. Once a month closes, that partition gets exported every night, and we only hold ninety days hot.
+Bashir: Seven years of cold storage is about five bucks a month. And the auditors emailed back, checksummed exports in an open columnar format are fine.
+Kofi: Wait, they said that in writing?
+Bashir: Email.
+Pavel: Who was it, Sunita?
+Bashir: Sunita forwarded it.
+Kofi: Okay, that's different from last week, when all we had was "required".
+Pavel: Right, and honestly that's the same thing I said, it's just got a schedule on it.
+Kofi: It's not though. You had it as a someday. This one's every night.
+Pavel: Fine, fine. It's a better version of mine.
+Sofia: And the ninety days, that fixes the backup thing?
+Bashir: Table stays small. A quarter's worth.
+Priya: So the dump is only a quarter then? Um, instead of seven years.
+Bashir: Yes.
+Kofi: Devil's advocate, what if an auditor wants something from year four on short notice?
+Bashir: Query the files.
+Kofi: With what?
+Pavel: Anything that reads that format. Lots of things do, even a laptop.
+Kofi: And joining to the invoice?
+Pavel: Not as pretty. You'd load it into a scratch table, I mean, it's rare.
+Bashir: Rare.
+Priya: I think maybe someone should test a restore once? Before we say it works.
+Bashir: Yes. Will do.
+Kofi: Who's building the export job?
+Sofia: Hold on, assignments after. Anyone actually against it? Kofi?
+Kofi: Not against. The failure alert is what I care about. Silent failure is how you end up with a gap in year five.
+Sofia: Fair. Pavel?
+Pavel: I'm fine. The object storage thing reminds me, Nikos told me how his old place lost a year of exports because the bucket had a lifecycle rule nobody remembered. It quietly deleted anything older than ninety days.
+Kofi: Ouch.
+Pavel: Yeah, and they only found out because someone's cousin, no, a contractor, asked for an old file. And the guy who set the rule had left, and the rule was named after a ticket number, not what it did.
+Priya: Oh no.
+Pavel: And then they spent two weeks going through logs. Which, anyway, is a bit of a story, but-
+Sofia: Pavel, it's a good one, but-
+Pavel: Right, sorry. The point is, no lifecycle rules that delete. Ever.
+Bashir: Agree.
+Sofia: Put that in the doc. Okay. Priya?
+Priya: Um, I think maybe I'm good with it, as long as the restore test happens before we call it done.
+Sofia: Okay, I'm making the call. We keep the monthly-partitioned table in our database, only the last ninety days stay in it, and each night the closed partitions get exported out to object storage.
+Pavel: Great, I'll update the design doc today.
+Kofi: Alert on export failure goes in the doc too.
+Sofia: Yes, thanks Kofi.
+Bashir: I'll do the restore test.
+Sofia: Who owns the export job?
+Pavel: I'll take it. Bashir reviews, like the grants.
+Bashir: Fine.
+Sofia: Sunita should see the final shape, since it was her thread.
+Priya: I can send her the doc once Pavel's done? Um, if that's okay.
+Sofia: Please.
+Sofia: Okay, different thing. Gabor asked whether anyone's on the release call Tuesday.
+Kofi: I'm on call, so I'll be around anyway.
+Sofia: Good, you're the rep.
+Kofi: Great. Always me.
+Sofia: Rania's also asking about headcount for the planning doc. I told her we wouldn't have an answer till the end of next week.
+Pavel: Are we asking for headcount?
+Sofia: I'm not sure yet. Probably one, depending on what the risks section says.
+Priya: What's in the risks section? Um, I only skimmed it.
+Sofia: Honestly mostly boxes to tick. I'll go through it with each of you.
+Kofi: Can I put the audit job in as a risk?
+Sofia: Put it as work, not as a risk.
+Kofi: Okay.
+Pavel: Does Irina need to know about the new backup plan? Since it changes her window numbers.
+Sofia: Yes. Priya, can you tell her it may get smaller?
+Priya: Yes, I'll mention it. I think maybe she'll want to rerun the estimate.
+Sofia: Maybe, don't push on it.
+Bashir: Not needed. It's smaller.
+Sofia: Okay, point taken, tell her anyway so she isn't surprised.
+Priya: Okay.
+Kofi: Is the Friday sync still on? I forgot to ask.
+Sofia: Eleven, yes.
+Pavel: Should we put audit on the agenda?
+Sofia: Just a quick update. Pavel, you can do two minutes.
+Pavel: Two minutes. I can do two minutes.
+Kofi: You've never done two minutes.
+Sofia: Okay. Anything else?
+Priya: Um, no, I think that's it.
+Bashir: Done.
+Sofia: Thanks everyone. I need to jump to another call.

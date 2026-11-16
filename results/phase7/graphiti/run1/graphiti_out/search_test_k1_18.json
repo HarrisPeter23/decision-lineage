@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01029-q01",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b722b9d6-4b2c-48ec-aa23-54154fc4bbe4",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Omar that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q02",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q03",
+  "facts": [
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68525d7f-8627-44c5-81f6-7ef748597e6f",
+    "name": "sent_list_to",
+    "fact": "Sofia sent a list of the 31 overlapping leads to Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389348+00:00"
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a1dca11-2aed-4ab5-9c05-2a60949ea912",
+    "name": "sent_list_to",
+    "fact": "Sofia sent the list of the 31 overlapping leads to the group, not just Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q04",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68525d7f-8627-44c5-81f6-7ef748597e6f",
+    "name": "sent_list_to",
+    "fact": "Sofia sent a list of the 31 overlapping leads to Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389348+00:00"
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6a1dca11-2aed-4ab5-9c05-2a60949ea912",
+    "name": "sent_list_to",
+    "fact": "Sofia sent the list of the 31 overlapping leads to the group, not just Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q05",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "8c702c24-3faf-4fd2-8cc2-2a451359e748",
+    "name": "SHARE_WEBINAR_DATA_ON_LEAD_RESPONSE_TIME",
+    "fact": "Kofi shared data from a webinar indicating that lead response time significantly affects conversion rates.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q06",
+  "facts": [
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "b722b9d6-4b2c-48ec-aa23-54154fc4bbe4",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Omar that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q07",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b722b9d6-4b2c-48ec-aa23-54154fc4bbe4",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Omar that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q08",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68525d7f-8627-44c5-81f6-7ef748597e6f",
+    "name": "sent_list_to",
+    "fact": "Sofia sent a list of the 31 overlapping leads to Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389348+00:00"
+   },
+   {
+    "uuid": "b722b9d6-4b2c-48ec-aa23-54154fc4bbe4",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Omar that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q09",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50e1810e-cca7-4499-aa0d-fc7768abface",
+    "name": "SHARE_DATA_ON_LEAD_WAIT_TIMES",
+    "fact": "Omar shared data showing that the median wait time for leads was five hours.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68525d7f-8627-44c5-81f6-7ef748597e6f",
+    "name": "sent_list_to",
+    "fact": "Sofia sent a list of the 31 overlapping leads to Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389348+00:00"
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d1e8504a-9bf1-4368-8b34-288ede1218af",
+    "name": "RAISE_CONCERN_ABOUT_TERRITORY_IMPACT",
+    "fact": "Sofia raised a concern about how the rotation might affect territory-based lead distribution.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q10",
+  "facts": [
+   {
+    "uuid": "4a259798-cf76-4906-8b77-7360d35ae14e",
+    "name": "APPROVE_ROTATION_SYSTEM_IMPLEMENTATION",
+    "fact": "Ravi approved the implementation of the rotation system for inbound leads.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa3c9184-fa72-4ff1-9a8b-9aa9c7ecc362",
+    "name": "PROPOSE_ROTATION_FOR_INBOUND_LEADS",
+    "fact": "Omar proposed a rotation system for inbound leads to distribute them evenly among all six inside reps.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b949087a-fbd5-44c2-8acc-6752d265ced6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 112 of the 640 inbound leads were already existing customer accounts.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8c702c24-3faf-4fd2-8cc2-2a451359e748",
+    "name": "SHARE_WEBINAR_DATA_ON_LEAD_RESPONSE_TIME",
+    "fact": "Kofi shared data from a webinar indicating that lead response time significantly affects conversion rates.",
+    "episodes": [
+     "ea9fe790-4637-4b11-bf8f-a78c13e3b0d8"
+    ],
+    "valid_at": "2025-10-08T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7ee9e3a-3787-48df-8357-58b4e6505939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Marisol that the lead rotation would be implemented, so she would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3abc5ae5-11a1-4f00-aa6a-27c0077fe173",
+    "name": "asked_to_analyze",
+    "fact": "Ravi asked Sofia to check whether the 31 overlapping leads were from the same accounts or different ones.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bea766da-6112-4ba6-9bf4-f549b6e30930",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60b13cca-21d6-473c-8955-6ec2983842b6",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that there were five complaints from customers about being contacted by multiple reps.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389343+00:00"
+   },
+   {
+    "uuid": "a5ed2029-c8b0-4e3b-915b-86d619be7704",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68525d7f-8627-44c5-81f6-7ef748597e6f",
+    "name": "sent_list_to",
+    "fact": "Sofia sent a list of the 31 overlapping leads to Kwame.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": "2025-10-22T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:32:35.389348+00:00"
+   },
+   {
+    "uuid": "f70e1a33-26bc-4954-9144-cdfa13334939",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the lead rotation would be implemented by Monday, and that Marisol would no longer need to manually assign leads.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01029-q11",
+  "facts": [
+   {
+    "uuid": "052c027a-fbc4-460f-93f6-012c2d444368",
+    "name": "NOTES_ABOUT",
+    "fact": "Ravi notes that Kwame was fine with the Wednesday pipeline review.",
+    "episodes": [
+     "16a20846-1162-4dbf-9dba-ac1819614482"
+    ],
+    "valid_at": "2025-10-22T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9eeb7f17-441c-4cb1-99d5-d05e2da81b9f",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Sofia that the pipeline review would be moved from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "244fe8f8-b8a6-4e0a-baf7-a1cf9d381a06",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kofi that the pipeline review would be moved from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b10c42e-d03c-4cb9-944e-830d62ec3ffa",
+    "name": "raised_concern_about",
+    "fact": "Kofi raised a concern about moving the pipeline review from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ae86ca20-26a7-4732-ab37-16a9ec4f57c2",
+    "name": "NOTES_ABOUT",
+    "fact": "Ravi notes that Kofi thought the Wednesday pipeline review was better, with six people present, including Gabor.",
+    "episodes": [
+     "16a20846-1162-4dbf-9dba-ac1819614482"
+    ],
+    "valid_at": "2025-10-22T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c6069de5-6319-421f-900b-a487613a0a21",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Kwame that the pipeline review would be moved from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "510576fe-9cbf-43fd-a4cb-7226b136d007",
+    "name": "agreed_to_move",
+    "fact": "Ravi agreed to move the pipeline review from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3f0fa4e2-f515-486e-8f90-8e32d79205fd",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Gabor that the pipeline review would be moved to Wednesday, so Gabor could pull forecast numbers on Tuesday night instead of Friday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c2d5f236-44b3-4436-8800-163c1a0c1c9f",
+    "name": "informed_about_change",
+    "fact": "Ravi informed Omar that the pipeline review would be moved from Friday to Wednesday.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f175572-11cb-4f20-9d24-2fff83cded5e",
+    "name": "NOTES_ABOUT",
+    "fact": "Ravi notes that Sofia had to leave for another call during the Wednesday pipeline review.",
+    "episodes": [
+     "16a20846-1162-4dbf-9dba-ac1819614482"
+    ],
+    "valid_at": "2025-10-22T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c81c7d5f-6b06-4a88-8791-3800655c07b2",
+    "name": "provided_data_to",
+    "fact": "Sofia provided data to Ravi, stating that 31 of the leads were called by two reps on the same day.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3c93c986-7d40-46da-a5b9-028b8324c7fa",
+    "name": "informed_about_issue",
+    "fact": "Ravi informed Sergei that Marisol reported the queue view was slow in the mornings.",
+    "episodes": [
+     "e3c89041-220b-470d-b469-208a74969872"
+    ],
+    "valid_at": "2025-10-15T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

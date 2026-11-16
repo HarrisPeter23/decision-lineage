@@ -1,0 +1,13 @@
+set_id: set_01023
+seed: 1023
+arc_type: external_trigger
+topic: which invoice-approval tool the accounts payable team uses
+option A: the invoice-approval module bundled with the current ERP, 11,000 dollars a year
+option B: a standalone accounts-payable automation tool with OCR invoice capture, 26,000 dollars a year
+beat B1: Camila proposes using the invoice-approval module bundled with the current ERP.
+beat B2: Camila argues that it is already licensed, needs about two weeks of configuration and no data migration, and would cut the median approval time from nine days to about three.
+beat B3: Aisha agrees without naming the tool, by asking Pavel to schedule the configuration work.
+beat B4: Aisha reports that the ERP vendor has told her the bundled approval module reaches end of support at the end of the year, with no security patches afterwards.
+beat B5: Aisha reopens the choice of invoice-approval tool.
+beat B6: Pavel argues for the standalone tool because it has its own support, imports the ERP's vendor and account codes, and about 70 percent of the 1,400 monthly invoices arrive as PDF emails that OCR capture could read, saving roughly 60 hours of keying a month.
+beat B7: Aisha decides the team adopts the standalone accounts-payable automation tool.

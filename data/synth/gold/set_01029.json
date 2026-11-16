@@ -1,0 +1,486 @@
+{
+ "set_id": "set_01029",
+ "meta": {
+  "arc_type": "partial_override",
+  "domain": "sales operations team",
+  "seed": 1029,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 101
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 70
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 108
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how inbound leads are routed to the inside sales reps",
+ "options": {
+  "A": "round-robin routing of every inbound lead across the six inside-sales reps",
+  "A+M": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office"
+ },
+ "cast": [
+  {
+   "name": "Ravi",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Omar",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Kwame",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Kofi",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Sofia",
+   "slot": "observer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "round-robin routing of every inbound lead across the six inside-sales reps"
+  },
+  {
+   "version": 2,
+   "option": "A+M",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    21
+   ],
+   "gist": "Omar proposes routing every inbound lead round-robin across the six inside-sales reps.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    28,
+    32
+   ],
+   "gist": "Omar argues that manual assignment currently takes a median of five hours to first touch, round-robin would bring it under 30 minutes, and it spreads leads evenly across the reps.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Ravi",
+   "utterance_idxs": [
+    82
+   ],
+   "gist": "Ravi agrees without naming the routing method, by asking Omar to have it live for Monday.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    12
+   ],
+   "gist": "Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Kwame",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Kwame objects that round-robin is walking over existing relationships and customers are getting called twice.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Ravi",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Ravi reopens the routing rule.",
+   "version": 1,
+   "option_key": "A",
+   "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    50,
+    51,
+    52
+   ],
+   "gist": "Kofi argues for keeping round-robin for new accounts but sending any lead from an owned account to its owner, falling back to round-robin when the owner is out of office, which is a one-day change in the CRM.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Ravi",
+   "utterance_idxs": [
+    67
+   ],
+   "gist": "Ravi decides: round-robin for new accounts, owned-account leads go to their owner.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "the day of the weekly pipeline review",
+  "option": "move the weekly pipeline review from Friday to Wednesday",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     50
+    ],
+    "gist": "Kofi suggests moving the weekly pipeline review from Friday to Wednesday.",
+    "version": null,
+    "option_key": null,
+    "option": "move the weekly pipeline review from Friday to Wednesday",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     52
+    ],
+    "gist": "Kofi points out that nine of the last fourteen Friday reviews had fewer than four reps present and deals slip unseen over the weekend.",
+    "version": null,
+    "option_key": null,
+    "option": "move the weekly pipeline review from Friday to Wednesday",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Ravi",
+    "utterance_idxs": [
+     61
+    ],
+    "gist": "Ravi approves moving the pipeline review to Wednesday.",
+    "version": null,
+    "option_key": null,
+    "option": "move the weekly pipeline review from Friday to Wednesday",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01029-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how inbound leads are routed to the inside sales reps?",
+   "answer_text": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office",
+   "answer_facts": {
+    "option": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how inbound leads are routed to the inside sales reps?",
+   "answer_text": "meeting 1: Ravi - Ravi agrees without naming the routing method, by asking Omar to have it live for Monday.; meeting 3: Ravi - Ravi decides: round-robin for new accounts, owned-account leads go to their owner.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "round-robin routing of every inbound lead across the six inside-sales reps",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q03",
+   "type": "as_of",
+   "question": "What was the decision about how inbound leads are routed to the inside sales reps as of the end of meeting 2?",
+   "answer_text": "round-robin routing of every inbound lead across the six inside-sales reps",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "round-robin routing of every inbound lead across the six inside-sales reps"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01029-q04",
+   "type": "as_of",
+   "question": "What was the decision about how inbound leads are routed to the inside sales reps as of the end of meeting 3?",
+   "answer_text": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how inbound leads are routed to the inside sales reps change over time?",
+   "answer_text": "round-robin routing of every inbound lead across the six inside-sales reps (from meeting 1) -> round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "round-robin routing of every inbound lead across the six inside-sales reps",
+     "round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01029-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how inbound leads are routed to the inside sales reps changed?",
+   "answer_text": "Before: round-robin routing of every inbound lead across the six inside-sales reps, because Omar argues that manual assignment currently takes a median of five hours to first touch, round-robin would bring it under 30 minutes, and it spreads leads evenly across the reps. Triggered by: Sofia (evidence): Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints. Kwame (challenge): Kwame objects that round-robin is walking over existing relationships and customers are getting called twice. Ravi (reconsideration): Ravi reopens the routing rule. After: round-robin for new accounts, but any lead from an account that already has an owner goes to that owner, or back into round-robin if the owner is out of office, because Kofi argues for keeping round-robin for new accounts but sending any lead from an owned account to its owner, falling back to round-robin when the owner is out of office, which is a one-day change in the CRM.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how inbound leads are routed to the inside sales reps?",
+   "answer_text": "Omar",
+   "answer_facts": {
+    "speaker": "Omar"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01029-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how inbound leads are routed to the inside sales reps?",
+   "answer_text": "Sofia (evidence): Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints. Kwame (challenge): Kwame objects that round-robin is walking over existing relationships and customers are getting called twice.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01029-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how inbound leads are routed to the inside sales reps?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how inbound leads are routed to the inside sales reps from proposal to final outcome.",
+   "answer_text": "meeting 1 - Omar [proposal]: Omar proposes routing every inbound lead round-robin across the six inside-sales reps. | meeting 1 - Omar [rationale]: Omar argues that manual assignment currently takes a median of five hours to first touch, round-robin would bring it under 30 minutes, and it spreads leads evenly across the reps. | meeting 1 - Ravi [resolution]: Ravi agrees without naming the routing method, by asking Omar to have it live for Monday. | meeting 2 - Sofia [evidence]: Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints. | meeting 2 - Kwame [challenge]: Kwame objects that round-robin is walking over existing relationships and customers are getting called twice. | meeting 3 - Ravi [reconsideration]: Ravi reopens the routing rule. | meeting 3 - Kofi [rationale]: Kofi argues for keeping round-robin for new accounts but sending any lead from an owned account to its owner, falling back to round-robin when the owner is out of office, which is a one-day change in the CRM. | meeting 3 - Ravi [resolution]: Ravi decides: round-robin for new accounts, owned-account leads go to their owner.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01029-q11",
+   "type": "distractor",
+   "question": "What was decided about the day of the weekly pipeline review?",
+   "answer_text": "move the weekly pipeline review from Friday to Wednesday",
+   "answer_facts": {
+    "option": "move the weekly pipeline review from Friday to Wednesday"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

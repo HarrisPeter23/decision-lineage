@@ -1,0 +1,418 @@
+{
+ "set_id": "set_01006",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "seed": 1006,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 119
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 75
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 94
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "the logistics vendor for regional store replenishment",
+ "options": {
+  "A": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+  "B": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher"
+ },
+ "cast": [
+  {
+   "name": "Tomas",
+   "slot": "manager",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Elif",
+   "slot": "proposer",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Aisha",
+   "slot": "challenger",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Meera",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Priya",
+   "slot": "observer",
+   "style": "talkative, drifts into tangents"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Elif proposes Swiftline Freight to handle regional store replenishment deliveries.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    4
+   ],
+   "gist": "Elif says Swiftline has the lowest per-pallet rate, about 11 percent below the other quotes, and covers all twelve regional stores.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    21
+   ],
+   "gist": "Tomas decides to sign with Swiftline Freight.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Priya reports that in the first three weeks Swiftline delivered only 71 percent of shipments on time against a 95 percent contract target, causing stockouts on nine promotional items across five stores.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "Aisha argues late deliveries during promotions lose sales and customers, and the cheaper rate will not cover the stockout costs.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Tomas says the on-time numbers and the promotion stockouts mean the Swiftline decision has to be reopened.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Aisha says Dalmar Logistics has a 96 percent on-time record and a live tracking API, and although its rate is about 8 percent higher, avoiding promotional stockouts would pay for it.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Tomas",
+   "utterance_idxs": [
+    17
+   ],
+   "gist": "Tomas decides to switch to Dalmar Logistics.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01006-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the logistics vendor for regional store replenishment?",
+   "answer_text": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher",
+   "answer_facts": {
+    "option": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01006-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the logistics vendor for regional store replenishment?",
+   "answer_text": "meeting 1: Tomas - Tomas decides to sign with Swiftline Freight.; meeting 3: Tomas - Tomas decides to switch to Dalmar Logistics.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01006-q03",
+   "type": "as_of",
+   "question": "What was the decision about the logistics vendor for regional store replenishment as of the end of meeting 1?",
+   "answer_text": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01006-q04",
+   "type": "as_of",
+   "question": "What was the decision about the logistics vendor for regional store replenishment as of the end of meeting 2?",
+   "answer_text": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01006-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the logistics vendor for regional store replenishment change over time?",
+   "answer_text": "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores (from meeting 1) -> Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores",
+     "Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01006-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the logistics vendor for regional store replenishment changed?",
+   "answer_text": "Before: Swiftline Freight, the lowest per-pallet rate with coverage of all twelve regional stores, because Elif says Swiftline has the lowest per-pallet rate, about 11 percent below the other quotes, and covers all twelve regional stores. Triggered by: Priya (evidence): Priya reports that in the first three weeks Swiftline delivered only 71 percent of shipments on time against a 95 percent contract target, causing stockouts on nine promotional items across five stores. Aisha (challenge): Aisha argues late deliveries during promotions lose sales and customers, and the cheaper rate will not cover the stockout costs. Tomas (reconsideration): Tomas says the on-time numbers and the promotion stockouts mean the Swiftline decision has to be reopened. After: Dalmar Logistics, a 96 percent on-time record at a rate about 8 percent higher, because Aisha says Dalmar Logistics has a 96 percent on-time record and a live tracking API, and although its rate is about 8 percent higher, avoiding promotional stockouts would pay for it.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01006-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the logistics vendor for regional store replenishment?",
+   "answer_text": "Elif",
+   "answer_facts": {
+    "speaker": "Elif"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01006-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the logistics vendor for regional store replenishment?",
+   "answer_text": "Priya (evidence): Priya reports that in the first three weeks Swiftline delivered only 71 percent of shipments on time against a 95 percent contract target, causing stockouts on nine promotional items across five stores. Aisha (challenge): Aisha argues late deliveries during promotions lose sales and customers, and the cheaper rate will not cover the stockout costs.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01006-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the logistics vendor for regional store replenishment?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01006-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the logistics vendor for regional store replenishment from proposal to final outcome.",
+   "answer_text": "meeting 1 - Elif [proposal]: Elif proposes Swiftline Freight to handle regional store replenishment deliveries. | meeting 1 - Elif [rationale]: Elif says Swiftline has the lowest per-pallet rate, about 11 percent below the other quotes, and covers all twelve regional stores. | meeting 1 - Tomas [resolution]: Tomas decides to sign with Swiftline Freight. | meeting 2 - Priya [evidence]: Priya reports that in the first three weeks Swiftline delivered only 71 percent of shipments on time against a 95 percent contract target, causing stockouts on nine promotional items across five stores. | meeting 2 - Aisha [challenge]: Aisha argues late deliveries during promotions lose sales and customers, and the cheaper rate will not cover the stockout costs. | meeting 3 - Tomas [reconsideration]: Tomas says the on-time numbers and the promotion stockouts mean the Swiftline decision has to be reopened. | meeting 3 - Aisha [rationale]: Aisha says Dalmar Logistics has a 96 percent on-time record and a live tracking API, and although its rate is about 8 percent higher, avoiding promotional stockouts would pay for it. | meeting 3 - Tomas [resolution]: Tomas decides to switch to Dalmar Logistics.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

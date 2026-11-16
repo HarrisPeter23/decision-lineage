@@ -1,0 +1,1872 @@
+{
+ "set_id": "set_01021",
+ "cast": [
+  "Nadia",
+  "Hana",
+  "Mei",
+  "Jonas",
+  "Yuki"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-08-10",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Nadia",
+     "text": "Okay, I think everyone's here. Mei, you're muted, I can see your mouth moving.",
+     "ts": "2025-08-10T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Mei",
+     "text": "Sorry. Can you hear me now?",
+     "ts": "2025-08-10T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Nadia",
+     "text": "Yep. Good. So before the release stuff, Yusuf asked me to confirm the offsite headcount by Tuesday.",
+     "ts": "2025-08-10T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Yuki",
+     "text": "Oh, is that the one at the lake place? Because last time I went to one of those, the whole drive was-",
+     "ts": "2025-08-10T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Hana",
+     "text": "Yuki, it's like four people, just say yes or no.",
+     "ts": "2025-08-10T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Yuki",
+     "text": "Yes. I'm a yes. Okay, I'll save the story.",
+     "ts": "2025-08-10T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Jonas",
+     "text": "I'm a maybe. I've got the thing with my sister's move that weekend.",
+     "ts": "2025-08-10T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Nadia",
+     "text": "Maybe counts as a no for the headcount, I'll put you down as a no and you can flip it.",
+     "ts": "2025-08-10T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Jonas",
+     "text": "Fair enough.",
+     "ts": "2025-08-10T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Mei",
+     "text": "I'll come.",
+     "ts": "2025-08-10T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Nadia",
+     "text": "Great. Hana?",
+     "ts": "2025-08-10T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Hana",
+     "text": "Yes, yes. Can we do the release thing now? Because it's been three weeks of me complaining about it in standup.",
+     "ts": "2025-08-10T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Nadia",
+     "text": "Go ahead, it's the main item anyway.",
+     "ts": "2025-08-10T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Hana",
+     "text": "So, okay. What I keep wanting is a, um, a fixed schedule. Every two weeks, same day, and the Wednesday before it everything's frozen. Nothing new goes in.",
+     "ts": "2025-08-10T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Jonas",
+     "text": "Wednesday before. Meaning a week of... no, meaning like three days of nothing merging?",
+     "ts": "2025-08-10T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Hana",
+     "text": "Not nothing, just bug fixes against the release branch. And the reason-",
+     "ts": "2025-08-10T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Nadia",
+     "text": "Sorry, Hana, finish the thought, I just want the numbers on record.",
+     "ts": "2025-08-10T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Hana",
+     "text": "Right. So last quarter we shipped whenever a feature felt done, and we got hit with five rejections from the store. Five. And every release ate something like thirty hours of QA because they had to retest everything from scratch.",
+     "ts": "2025-08-10T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Hana",
+     "text": "With a train it's one regression pass. One. Same checklist every time.",
+     "ts": "2025-08-10T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Nadia",
+     "text": "Thirty is the average, I had twenty-eight for April and thirty-four for June, if I'm remembering the sheet right.",
+     "ts": "2025-08-10T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Jonas",
+     "text": "Okay, devil's advocate though. What happens when a customer-blocking bug lands the day after the freeze? We wait nine days?",
+     "ts": "2025-08-10T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Hana",
+     "text": "No, you hotfix it, that's -",
+     "ts": "2025-08-10T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Jonas",
+     "text": "Which is the thing that bypasses the train. And then it's not a train.",
+     "ts": "2025-08-10T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Hana",
+     "text": "A hotfix is not a release, it's a patch off the branch, it goes through the short checklist-",
+     "ts": "2025-08-10T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Mei",
+     "text": "The store review for hotfixes is usually quicker, anyway. When we did the login one it was a day.",
+     "ts": "2025-08-10T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Jonas",
+     "text": "Huh. Okay, that's true.",
+     "ts": "2025-08-10T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Yuki",
+     "text": "That reminds me, Klara's team did web deploys every Tuesday and nobody knew why, and it turned out the first lead just had a standing pottery class on Wednesdays, so-",
+     "ts": "2025-08-10T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Hana",
+     "text": "Yuki-",
+     "ts": "2025-08-10T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Yuki",
+     "text": "I know, I know. Point is, a fixed day does stick.",
+     "ts": "2025-08-10T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Nadia",
+     "text": "It does, and that's partly the pitch. Jonas, are you actually against it or just poking?",
+     "ts": "2025-08-10T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Jonas",
+     "text": "Poking mostly. My worry is product. Goran will want to ship the sharing feature mid-cycle and we'll be the bad guys.",
+     "ts": "2025-08-10T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Nadia",
+     "text": "Goran's feature is currently estimated for the end of September, so it would land inside a window anyway.",
+     "ts": "2025-08-10T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Jonas",
+     "text": "If it doesn't slip.",
+     "ts": "2025-08-10T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Hana",
+     "text": "Everything slips, that's why a fixed date helps, you just catch the next one-",
+     "ts": "2025-08-10T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Jonas",
+     "text": "Two weeks later. Okay.",
+     "ts": "2025-08-10T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Mei",
+     "text": "Can I ask, who owns kicking off the regression pass? Is it QA or us?",
+     "ts": "2025-08-10T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Nadia",
+     "text": "Samir's QA people run it, we just hand over the build. I'll check with him on timing.",
+     "ts": "2025-08-10T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Mei",
+     "text": "Okay. Thanks.",
+     "ts": "2025-08-10T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Yuki",
+     "text": "Is Samir back? I thought he was out until the fifteenth.",
+     "ts": "2025-08-10T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Nadia",
+     "text": "Back Monday, I think. Or maybe the Monday after. I'll confirm.",
+     "ts": "2025-08-10T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Nadia",
+     "text": "While we're at it, Keiko's out the last week of August, so whoever has her on-call slots needs to swap.",
+     "ts": "2025-08-10T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Hana",
+     "text": "I can take Tuesday.",
+     "ts": "2025-08-10T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Mei",
+     "text": "I have Thursday already, I'll do the Friday too if nobody-",
+     "ts": "2025-08-10T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Yuki",
+     "text": "I'll take the Friday, I'm around.",
+     "ts": "2025-08-10T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Mei",
+     "text": "Oh. Okay, thanks.",
+     "ts": "2025-08-10T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Nadia",
+     "text": "So Hana Tuesday, Yuki Friday, Mei keeps Thursday. Jonas, Wednesday is yours already, right?",
+     "ts": "2025-08-10T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Jonas",
+     "text": "Yeah, I had Wednesday.",
+     "ts": "2025-08-10T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Nadia",
+     "text": "Good. Done.",
+     "ts": "2025-08-10T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Jonas",
+     "text": "Back to the freeze for a sec. Late December, though. If the Wednesday falls on the twenty-fourth we're freezing the day before Christmas Eve for a release nobody's around to babysit.",
+     "ts": "2025-08-10T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Hana",
+     "text": "Then that one gets skipped. Or moved. It's a calendar, we can look at it-",
+     "ts": "2025-08-10T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Nadia",
+     "text": "Skipped trains are normal. We have that, what, two or three weeks a year where nobody's in anyway.",
+     "ts": "2025-08-10T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Jonas",
+     "text": "Okay but then someone has to decide each time.",
+     "ts": "2025-08-10T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Nadia",
+     "text": "Sure, that's a conversation in the planning meeting, not a reason to avoid having dates at all.",
+     "ts": "2025-08-10T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Jonas",
+     "text": "Yeah. I'm not saying don't. I'm saying write down who's allowed to call it off.",
+     "ts": "2025-08-10T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Hana",
+     "text": "Product lead plus whoever's on QA that week.",
+     "ts": "2025-08-10T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Nadia",
+     "text": "Mm, put that in the doc, Hana.",
+     "ts": "2025-08-10T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Hana",
+     "text": "Sure.",
+     "ts": "2025-08-10T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Mei",
+     "text": "One more thing, the thirty hours, was that including the rework after the store rejected us?",
+     "ts": "2025-08-10T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Hana",
+     "text": "Um, partly. Some of it. Two of the five took a re-review so those were double.",
+     "ts": "2025-08-10T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Nadia",
+     "text": "I'd say about a third of it, from what I remember.",
+     "ts": "2025-08-10T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Mei",
+     "text": "Okay. So the saving's probably real even if you take that out.",
+     "ts": "2025-08-10T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Hana",
+     "text": "Right, that's what I'm saying.",
+     "ts": "2025-08-10T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Yuki",
+     "text": "Okay but honestly the best bit for me is I'll stop getting pinged on Fridays with \"can you cut a build real quick\".",
+     "ts": "2025-08-10T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Jonas",
+     "text": "That's Xavier. Every Friday at four.",
+     "ts": "2025-08-10T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Yuki",
+     "text": "Every Friday at four!",
+     "ts": "2025-08-10T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Nadia",
+     "text": "Right. So... Jonas, can you get the Wednesdays blocked out in the shared calendar? Start with the twentieth and run it through year end, and mark the weeks we'd skip.",
+     "ts": "2025-08-10T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Jonas",
+     "text": "Yeah, sure. I'll put it in tonight, as an all-day thing so it doesn't show as busy.",
+     "ts": "2025-08-10T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Hana",
+     "text": "And the release days themselves, too.",
+     "ts": "2025-08-10T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Nadia",
+     "text": "Yes, both.",
+     "ts": "2025-08-10T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Mei",
+     "text": "I can add the QA windows if I get the days from Samir.",
+     "ts": "2025-08-10T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Nadia",
+     "text": "Good, thanks Mei.",
+     "ts": "2025-08-10T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Nadia",
+     "text": "Okay, next, the crash dashboard. Klara's design folks want to look at the top ten crash screens.",
+     "ts": "2025-08-10T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Yuki",
+     "text": "Oh I love that, because the checkout one-",
+     "ts": "2025-08-10T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Hana",
+     "text": "It's not checkout anymore, it's the settings screen.",
+     "ts": "2025-08-10T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Yuki",
+     "text": "Since when?",
+     "ts": "2025-08-10T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Hana",
+     "text": "Since the last build, like eight percent of sessions.",
+     "ts": "2025-08-10T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Nadia",
+     "text": "I had it around six on Friday, so it's moving. Let me pull the actual number.",
+     "ts": "2025-08-10T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Hana",
+     "text": "It's moving up, is my point-",
+     "ts": "2025-08-10T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Jonas",
+     "text": "Is that the new toggle? The notification one?",
+     "ts": "2025-08-10T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Hana",
+     "text": "Probably. Mei, did you touch that?",
+     "ts": "2025-08-10T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Mei",
+     "text": "I did the toggle, yes. I think it's the permission prompt on older phones.",
+     "ts": "2025-08-10T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Hana",
+     "text": "Can you look at it tomorrow?",
+     "ts": "2025-08-10T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Mei",
+     "text": "Yes, I can look first thing.",
+     "ts": "2025-08-10T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Nadia",
+     "text": "Okay, good. Put what you find in the channel.",
+     "ts": "2025-08-10T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Mei",
+     "text": "Will do.",
+     "ts": "2025-08-10T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Yuki",
+     "text": "Speaking of older phones, I found my first ever phone in a drawer on Saturday, and it still turned on. Like it booted, it had a snake game, and I spent a whole hour-",
+     "ts": "2025-08-10T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Jonas",
+     "text": "Of course you did.",
+     "ts": "2025-08-10T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Yuki",
+     "text": "An hour! And my high score was still there. Eleven hundred something.",
+     "ts": "2025-08-10T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Hana",
+     "text": "That's amazing and I need to go in eight minutes.",
+     "ts": "2025-08-10T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Nadia",
+     "text": "Eight minutes, okay. Anything else quick? Laptops, Yusuf says the refresh batch ships in October, so if yours is crashing, hold on.",
+     "ts": "2025-08-10T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Jonas",
+     "text": "Mine's fine, the fan is just loud.",
+     "ts": "2025-08-10T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Hana",
+     "text": "Mine overheats when I run two simulators.",
+     "ts": "2025-08-10T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Nadia",
+     "text": "Send Yusuf the model and serial, and he'll get you in the first batch if it's bad enough.",
+     "ts": "2025-08-10T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Hana",
+     "text": "Okay, I'll send it after this.",
+     "ts": "2025-08-10T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Nadia",
+     "text": "Mei, Yuki, you're fine on yours?",
+     "ts": "2025-08-10T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Yuki",
+     "text": "Fine. Slow on Mondays but that's me, not the laptop.",
+     "ts": "2025-08-10T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Mei",
+     "text": "Fine.",
+     "ts": "2025-08-10T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Nadia",
+     "text": "Offsite lunch, last item. Is anyone vegetarian? Goran's assistant is booking.",
+     "ts": "2025-08-10T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Yuki",
+     "text": "Not me.",
+     "ts": "2025-08-10T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Jonas",
+     "text": "I'm not, but I'd rather not do the place with the giant portions again.",
+     "ts": "2025-08-10T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Nadia",
+     "text": "Noted, I'll pass that on.",
+     "ts": "2025-08-10T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Hana",
+     "text": "I have to drop, sorry-",
+     "ts": "2025-08-10T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Nadia",
+     "text": "Go, go. We're basically done.",
+     "ts": "2025-08-10T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Hana",
+     "text": "Bye!",
+     "ts": "2025-08-10T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Jonas",
+     "text": "I'll get those calendar entries in before I leave today, ping me if you don't see them.",
+     "ts": "2025-08-10T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Nadia",
+     "text": "Will do. Thanks, everyone.",
+     "ts": "2025-08-10T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Yuki",
+     "text": "Wait, one more thing about the snake game-",
+     "ts": "2025-08-10T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Nadia",
+     "text": "Yuki, save it for the channel.",
+     "ts": "2025-08-10T10:21:24"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-08-17",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Nadia",
+     "text": "Okay, we're all on. Hana, you were saying in the channel there's something with the alerts?",
+     "ts": "2025-08-17T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Hana",
+     "text": "Yeah, my phone buzzed at like two in the morning Saturday. Crash alert. I was on-call, so, you know, I got up and looked.",
+     "ts": "2025-08-17T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Nadia",
+     "text": "And was it real?",
+     "ts": "2025-08-17T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Hana",
+     "text": "Sort of. It was the same old tablet thing again, I closed it out.",
+     "ts": "2025-08-17T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Jonas",
+     "text": "Again. That's the third one I've heard about this month.",
+     "ts": "2025-08-17T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Nadia",
+     "text": "Hold that thought, I want to get to the alerts, but first, quick one. Yusuf wants the offsite lunch order by Wednesday.",
+     "ts": "2025-08-17T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Yuki",
+     "text": "Oh, I thought Goran's assistant was doing that?",
+     "ts": "2025-08-17T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Nadia",
+     "text": "She is, but Yusuf is collecting the, um, the dietary stuff first.",
+     "ts": "2025-08-17T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Yuki",
+     "text": "Got it. I'm easy.",
+     "ts": "2025-08-17T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Mei",
+     "text": "I'm easy too.",
+     "ts": "2025-08-17T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Hana",
+     "text": "Same. Jonas has opinions about portions, he said.",
+     "ts": "2025-08-17T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Jonas",
+     "text": "I do. Smaller. That's the whole opinion.",
+     "ts": "2025-08-17T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Nadia",
+     "text": "Noted, again. Okay. Yuki, you said you had something from the crash dashboard before we start on anything else?",
+     "ts": "2025-08-17T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Yuki",
+     "text": "Right, yes, so I was going back through the, uh, the first cycle on the new schedule, just to see how it actually behaved.",
+     "ts": "2025-08-17T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Yuki",
+     "text": "And there's this payment-screen thing, on Android. It hit, um, I want to say three point four percent of sessions.",
+     "ts": "2025-08-17T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Nadia",
+     "text": "Three point four. Of Android only?",
+     "ts": "2025-08-17T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Yuki",
+     "text": "Android only, yeah. And it just sat there. Nine days live.",
+     "ts": "2025-08-17T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Hana",
+     "text": "Nine? Why nine?",
+     "ts": "2025-08-17T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Yuki",
+     "text": "Because the next train hadn't left yet, so the proper fix had nowhere to go. And the, the hotfix route, store review took four days on that one. So it's the wait plus the review, basically.",
+     "ts": "2025-08-17T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Jonas",
+     "text": "Four days for a hotfix? Mei said the login one was a day.",
+     "ts": "2025-08-17T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Mei",
+     "text": "That was iOS. Android review's been slower lately.",
+     "ts": "2025-08-17T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Nadia",
+     "text": "Okay, so that's a bad one. Do we know it was only payment?",
+     "ts": "2025-08-17T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Yuki",
+     "text": "Payment screen, yes. People couldn't get past the card entry on certain devices.",
+     "ts": "2025-08-17T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Hana",
+     "text": "And nobody paged anyone because it was under the threshold, right? Because it's three percent, not-",
+     "ts": "2025-08-17T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Yuki",
+     "text": "Not enough to trip the alert, I think. Or it did. I'd have to check.",
+     "ts": "2025-08-17T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Nadia",
+     "text": "We'll get to the alert in a sec. Mei, you've been quiet, you had something?",
+     "ts": "2025-08-17T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Mei",
+     "text": "Um. Yes. I don't, I don't want to be annoying about it.",
+     "ts": "2025-08-17T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Nadia",
+     "text": "You're not.",
+     "ts": "2025-08-17T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Mei",
+     "text": "It's just, that's the thing with a fixed train, isn't it. A crash like that can sit for a week or more. Nobody can do anything quickly.",
+     "ts": "2025-08-17T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Mei",
+     "text": "And support noticed. Tickets went up twenty-two percent over that fortnight.",
+     "ts": "2025-08-17T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Hana",
+     "text": "Twenty-two percent from what baseline though?",
+     "ts": "2025-08-17T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Mei",
+     "text": "From the two weeks before. I have the number in the support sheet, I can send the link.",
+     "ts": "2025-08-17T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Hana",
+     "text": "Okay, but some of that's the settings screen thing too, right? That one was also live.",
+     "ts": "2025-08-17T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Mei",
+     "text": "Some, probably. I didn't separate them.",
+     "ts": "2025-08-17T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Jonas",
+     "text": "Devil's advocate, though, for the train. Would it have been any better with ship-whenever? The bug would've been the same bug.",
+     "ts": "2025-08-17T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Hana",
+     "text": "It would've shipped earlier maybe, but also got fixed earlier-",
+     "ts": "2025-08-17T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Jonas",
+     "text": "Or shipped with no regression pass and been worse.",
+     "ts": "2025-08-17T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Hana",
+     "text": "Okay, fair, that one's real. We had five store rejections last quarter, that was no pass at all.",
+     "ts": "2025-08-17T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Nadia",
+     "text": "I don't want to settle this in the last twenty minutes of the call. What I'm hearing is, there's a gap on hotfix timing, and Mei has a support number I want to see.",
+     "ts": "2025-08-17T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Mei",
+     "text": "I'll send it after.",
+     "ts": "2025-08-17T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Nadia",
+     "text": "Thanks. Let's park the cadence thing and I'll look at it with Samir before we talk again. For now the schedule stays as it is.",
+     "ts": "2025-08-17T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Hana",
+     "text": "Fine. I mean, fine for now. It's not like we have another one.",
+     "ts": "2025-08-17T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Nadia",
+     "text": "Right. So, the alert. Jonas, you said it's been noisy.",
+     "ts": "2025-08-17T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Yuki",
+     "text": "Can I just say, speaking of nine days, I had a plant that went nine days without water once and it came back, which I think-",
+     "ts": "2025-08-17T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Jonas",
+     "text": "Yuki.",
+     "ts": "2025-08-17T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Yuki",
+     "text": "Okay, okay. It was a fern. Moving on.",
+     "ts": "2025-08-17T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Hana",
+     "text": "Ferns are tough.",
+     "ts": "2025-08-17T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Nadia",
+     "text": "Jonas, the alert.",
+     "ts": "2025-08-17T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Jonas",
+     "text": "Yeah. So, um. It's, it's a low-hanging thing really. What if we only page the on-call person when crash-free sessions drop under ninety-nine point two?",
+     "ts": "2025-08-17T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Nadia",
+     "text": "Why, though? We're at ninety-nine point five now, aren't we?",
+     "ts": "2025-08-17T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Jonas",
+     "text": "We are. And last month that fired eleven times, eight of those were the one old phone model, the one that nobody has anymore.",
+     "ts": "2025-08-17T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Hana",
+     "text": "The tablet.",
+     "ts": "2025-08-17T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Jonas",
+     "text": "Yeah, it's basically the tablet.",
+     "ts": "2025-08-17T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Hana",
+     "text": "That's what woke me up Saturday.",
+     "ts": "2025-08-17T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Mei",
+     "text": "Eleven pages is a lot of nights.",
+     "ts": "2025-08-17T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Yuki",
+     "text": "And it's me on Fridays, I mean, we all rotate.",
+     "ts": "2025-08-17T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Nadia",
+     "text": "I had ten, not eleven, in my sheet, but I'm counting the weekend one separately, so that's probably the gap.",
+     "ts": "2025-08-17T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Jonas",
+     "text": "Could be. Either way it's most of them for one device.",
+     "ts": "2025-08-17T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Nadia",
+     "text": "Hmm. And you're not worried about missing a real crash at ninety-nine point two?",
+     "ts": "2025-08-17T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Jonas",
+     "text": "A little. But the payment thing Yuki mentioned, that's three point four percent, so crash-free would've been about ninety-six. That trips anything.",
+     "ts": "2025-08-17T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Yuki",
+     "text": "Well, that was Android sessions only. Not all sessions. So it's diluted.",
+     "ts": "2025-08-17T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Jonas",
+     "text": "Sure, so maybe ninety-eight. Still under.",
+     "ts": "2025-08-17T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Nadia",
+     "text": "Okay. Hana, you're the one who gets woken up. Opinion?",
+     "ts": "2025-08-17T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Hana",
+     "text": "I'd take fewer pages. Honestly I'd take it today.",
+     "ts": "2025-08-17T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Mei",
+     "text": "I think that's okay too.",
+     "ts": "2025-08-17T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Nadia",
+     "text": "Fine. Ninety-nine point two it is for paging on-call, effective from the next rotation, and Jonas, you change the alert config.",
+     "ts": "2025-08-17T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Jonas",
+     "text": "Yep. I'll do it today and put a note in the runbook.",
+     "ts": "2025-08-17T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Nadia",
+     "text": "And leave the dashboard line at ninety-nine five so we still see it, just don't page on it.",
+     "ts": "2025-08-17T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Jonas",
+     "text": "Sure, that makes sense.",
+     "ts": "2025-08-17T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Hana",
+     "text": "Does that need a sign-off from Klara's group?",
+     "ts": "2025-08-17T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Nadia",
+     "text": "No, that's ours.",
+     "ts": "2025-08-17T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Hana",
+     "text": "Okay.",
+     "ts": "2025-08-17T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Yuki",
+     "text": "Did anyone else get the email about the badge system being down on Thursday?",
+     "ts": "2025-08-17T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Nadia",
+     "text": "I saw it. It's the building thing, not us.",
+     "ts": "2025-08-17T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Yuki",
+     "text": "Because last time they said that I was locked out for forty minutes.",
+     "ts": "2025-08-17T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Hana",
+     "text": "You were locked out because you left your badge on your desk.",
+     "ts": "2025-08-17T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Yuki",
+     "text": "I was locked out for forty minutes, and the badge was on my desk, yes, and also the system was down.",
+     "ts": "2025-08-17T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Mei",
+     "text": "Both can be true.",
+     "ts": "2025-08-17T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Yuki",
+     "text": "Thank you, Mei.",
+     "ts": "2025-08-17T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Nadia",
+     "text": "Okay. Samir. I'm meeting him Tuesday about the regression window anyway, so I'll bring up the hotfix timing, and Mei, send me that support sheet so I have it.",
+     "ts": "2025-08-17T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Mei",
+     "text": "Sending it now.",
+     "ts": "2025-08-17T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Nadia",
+     "text": "And Yuki, can you put the payment-screen numbers somewhere I can find them? Not just in the dashboard, a short note.",
+     "ts": "2025-08-17T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Yuki",
+     "text": "Yeah, I'll write it up. Do you want the device list too?",
+     "ts": "2025-08-17T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Nadia",
+     "text": "If it's short. The top three or four.",
+     "ts": "2025-08-17T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Yuki",
+     "text": "Okay.",
+     "ts": "2025-08-17T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Hana",
+     "text": "I have to jump in a minute, I've got a thing at three.",
+     "ts": "2025-08-17T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Nadia",
+     "text": "Almost done. Anything else? Jonas, the calendar entries are in?",
+     "ts": "2025-08-17T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Jonas",
+     "text": "Yeah, they went in last week. I marked the late December ones as maybes.",
+     "ts": "2025-08-17T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Nadia",
+     "text": "Good. Skipped weeks marked?",
+     "ts": "2025-08-17T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Jonas",
+     "text": "Two of them. The Christmas one and the one after.",
+     "ts": "2025-08-17T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Hana",
+     "text": "Is the New Year one actually skipped or just soft?",
+     "ts": "2025-08-17T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Jonas",
+     "text": "Soft. Someone needs to call it.",
+     "ts": "2025-08-17T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Nadia",
+     "text": "Product lead and QA, like we said. Hana, did that go into the doc?",
+     "ts": "2025-08-17T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Hana",
+     "text": "Not yet. Tonight.",
+     "ts": "2025-08-17T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Nadia",
+     "text": "Okay. Thanks, Hana.",
+     "ts": "2025-08-17T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Mei",
+     "text": "Can I ask one thing about the hotfix path? Is there a written checklist somewhere or is it in people's heads?",
+     "ts": "2025-08-17T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Hana",
+     "text": "Half and half. There's a short one, I'll link it.",
+     "ts": "2025-08-17T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Mei",
+     "text": "Thanks, that'd help.",
+     "ts": "2025-08-17T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Nadia",
+     "text": "Good. That's it for today then. Thanks, all.",
+     "ts": "2025-08-17T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Yuki",
+     "text": "Wait, I forgot, the fern thing, it came back with like three-",
+     "ts": "2025-08-17T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Nadia",
+     "text": "Channel, Yuki.",
+     "ts": "2025-08-17T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Yuki",
+     "text": "Fine, channel.",
+     "ts": "2025-08-17T10:20:12"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-08-24",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Nadia",
+     "text": "Okay, I think that's everyone. Hana, you're muted again.",
+     "ts": "2025-08-24T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Hana",
+     "text": "Sorry, sorry. Better?",
+     "ts": "2025-08-24T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Nadia",
+     "text": "Better. So first, Yusuf sent the laptop refresh list and I only see three names on it.",
+     "ts": "2025-08-24T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Jonas",
+     "text": "Mine's not on there because mine's fine. It's just loud.",
+     "ts": "2025-08-24T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Nadia",
+     "text": "Right. Hana, you sent him the model and serial?",
+     "ts": "2025-08-24T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Hana",
+     "text": "Monday. Did he not get-",
+     "ts": "2025-08-24T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Nadia",
+     "text": "He got it, it's filed under somebody else's name. I'll sort it out with him.",
+     "ts": "2025-08-24T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Hana",
+     "text": "Okay, thanks.",
+     "ts": "2025-08-24T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Yuki",
+     "text": "Did the offsite lunch place ever get sorted? Somebody said the first one fell through.",
+     "ts": "2025-08-24T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Nadia",
+     "text": "Goran's assistant found another one. Smaller portions, Jonas, before you ask.",
+     "ts": "2025-08-24T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Jonas",
+     "text": "That's all I wanted.",
+     "ts": "2025-08-24T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Mei",
+     "text": "Is it still the twelfth?",
+     "ts": "2025-08-24T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Nadia",
+     "text": "The twelfth. Or the thirteenth, hang on.",
+     "ts": "2025-08-24T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Yuki",
+     "text": "Thirteenth. It's on my calendar because it's the day after my cousin's, um, engagement party, so I'll be wrecked.",
+     "ts": "2025-08-24T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Nadia",
+     "text": "Thirteenth, okay. Good.",
+     "ts": "2025-08-24T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Hana",
+     "text": "Can we get to the crash? I've been staring at the dashboard all morning and it's-",
+     "ts": "2025-08-24T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Nadia",
+     "text": "Yes, that's where I was going. The photo upload one. Yuki, you flagged it Thursday?",
+     "ts": "2025-08-24T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Yuki",
+     "text": "Yeah. iOS this time. Picking from the camera roll just kills the app on the older phones. Around two percent of iOS sessions, I want to say two point one.",
+     "ts": "2025-08-24T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Nadia",
+     "text": "And it was live how long? I have eight days but I'd like someone to check me.",
+     "ts": "2025-08-24T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Yuki",
+     "text": "Eight. Went out on the Monday, and the actual fix was done by Wednesday, but there was nowhere for it to go.",
+     "ts": "2025-08-24T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Hana",
+     "text": "Store review on the hotfix took three days, I think.",
+     "ts": "2025-08-24T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Nadia",
+     "text": "Two and a half by the timestamps. Either way that's the second one in two cycles that just sat there.",
+     "ts": "2025-08-24T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Jonas",
+     "text": "The payment one was Android and the slow review. This is a different cause entirely.",
+     "ts": "2025-08-24T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Nadia",
+     "text": "Different cause, same shape. Fixed in days, live for over a week.",
+     "ts": "2025-08-24T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Hana",
+     "text": "Which is what I've been saying since, I mean, since the first week-",
+     "ts": "2025-08-24T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Nadia",
+     "text": "You have. Okay, so yes, we open the cadence question again, properly this time and not in the last ten minutes of a call.",
+     "ts": "2025-08-24T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Hana",
+     "text": "Finally.",
+     "ts": "2025-08-24T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Jonas",
+     "text": "I'll say it though, I'm not sure the schedule is the culprit. The bug was in the build either way.",
+     "ts": "2025-08-24T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Nadia",
+     "text": "Sure, but nobody's asking whether it exists. It's how long it stays out there.",
+     "ts": "2025-08-24T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Jonas",
+     "text": "Okay, that's a different question.",
+     "ts": "2025-08-24T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Yuki",
+     "text": "Wait, which ones are we actually comparing? I know the freeze one, and then there was the one with the percentages-",
+     "ts": "2025-08-24T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Nadia",
+     "text": "The two-week train we're on now, and every-week releases with the staged rollout. Five percent, then twenty-five, then everyone, plus the switch to halt it.",
+     "ts": "2025-08-24T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Yuki",
+     "text": "Right, that.",
+     "ts": "2025-08-24T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Hana",
+     "text": "But weekly sounds like way more QA. Thirty hours a pass, times four a month-",
+     "ts": "2025-08-24T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Nadia",
+     "text": "That's the number I'm not sure still holds. Mei, you did the smoke test work, didn't you?",
+     "ts": "2025-08-24T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Mei",
+     "text": "Yeah. Um. Can I say something about that?",
+     "ts": "2025-08-24T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Nadia",
+     "text": "Please.",
+     "ts": "2025-08-24T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Mei",
+     "text": "That thirty was mostly people clicking through the smoke checks by hand. They run on their own now, and the whole suite finishes in about three hours.",
+     "ts": "2025-08-24T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Mei",
+     "text": "And the five percent stage, with something like the upload crash, we'd have seen it within a day. Not on day eight.",
+     "ts": "2025-08-24T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Hana",
+     "text": "Three hours? Not thirty?",
+     "ts": "2025-08-24T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Mei",
+     "text": "Three. I ran it twice Friday to make sure.",
+     "ts": "2025-08-24T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Nadia",
+     "text": "I saw the run on Friday, it was a little under three, actually.",
+     "ts": "2025-08-24T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Mei",
+     "text": "Okay, yes. Roughly that.",
+     "ts": "2025-08-24T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Jonas",
+     "text": "Devil's advocate. Who's watching the five percent? A day of data is only useful if somebody's looking at it.",
+     "ts": "2025-08-24T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Mei",
+     "text": "The crash-free line is on the dashboard already. And the halt switch, someone just flips it.",
+     "ts": "2025-08-24T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Hana",
+     "text": "Whoever's on-call, then.",
+     "ts": "2025-08-24T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Jonas",
+     "text": "Which is Hana on a Saturday at two in the morning.",
+     "ts": "2025-08-24T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Hana",
+     "text": "Not if it's above the page line, it won't even buzz me, we changed that-",
+     "ts": "2025-08-24T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Jonas",
+     "text": "Exactly, so who looks?",
+     "ts": "2025-08-24T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Nadia",
+     "text": "That's a fair hole. We'd have to name somebody. I don't think it's a reason to stay where we are, though.",
+     "ts": "2025-08-24T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Jonas",
+     "text": "Fair. I just don't want it to turn into nobody's job.",
+     "ts": "2025-08-24T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Yuki",
+     "text": "Can I ask about the Friday thing? Xavier's four o'clock builds, are those just gone, or-",
+     "ts": "2025-08-24T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Hana",
+     "text": "They're gone either way, there's a build every week.",
+     "ts": "2025-08-24T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Yuki",
+     "text": "Okay, I like that.",
+     "ts": "2025-08-24T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Nadia",
+     "text": "Goran's sharing feature, by the way. Still end of September?",
+     "ts": "2025-08-24T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Jonas",
+     "text": "Last I heard. It'd get a shot at the next week's release instead of waiting on a freeze.",
+     "ts": "2025-08-24T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Hana",
+     "text": "Honestly the freeze part is what bugs me. Wednesday before, three days of nothing merging, and then it still breaks.",
+     "ts": "2025-08-24T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Nadia",
+     "text": "The freeze did its job on the payment one. It was the waiting after that hurt.",
+     "ts": "2025-08-24T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Hana",
+     "text": "Yeah, no, that's fair.",
+     "ts": "2025-08-24T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Jonas",
+     "text": "What about store review? Weekly means a submission every week. If they reject one we've lost a week and a half.",
+     "ts": "2025-08-24T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Nadia",
+     "text": "Five rejections last quarter, and that was with no regression pass at all. I'd expect fewer now.",
+     "ts": "2025-08-24T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Mei",
+     "text": "Two of those five were re-reviews, and that was a checklist thing. That's fixable.",
+     "ts": "2025-08-24T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Jonas",
+     "text": "Hm. Okay.",
+     "ts": "2025-08-24T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Hana",
+     "text": "Has Samir said anything about capacity? Three hours is nothing, but his people still have to read the results.",
+     "ts": "2025-08-24T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Nadia",
+     "text": "He said the load is fine as long as the handoff is clean. I'm paraphrasing, I'll get it in writing.",
+     "ts": "2025-08-24T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Hana",
+     "text": "Okay.",
+     "ts": "2025-08-24T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Yuki",
+     "text": "This is making me think of Klara's team again, they went weekly on the web side last year and nobody even noticed after a month.",
+     "ts": "2025-08-24T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Jonas",
+     "text": "They don't have a store reviewing them, Yuki.",
+     "ts": "2025-08-24T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Yuki",
+     "text": "True. True. Still.",
+     "ts": "2025-08-24T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Nadia",
+     "text": "Anything else against it, Jonas? Last chance for poking.",
+     "ts": "2025-08-24T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Jonas",
+     "text": "The halt switch. Has anyone actually tested it? Because a switch nobody's pressed is a wish.",
+     "ts": "2025-08-24T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Mei",
+     "text": "I tried it on the test build last week. It stopped the rollout at the second stage, took under a minute.",
+     "ts": "2025-08-24T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Jonas",
+     "text": "Under a minute. Good enough for me.",
+     "ts": "2025-08-24T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Hana",
+     "text": "So are we doing it?",
+     "ts": "2025-08-24T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Nadia",
+     "text": "Yes. Weekly releases with the staged rollout, five, twenty-five, everyone, and the halt switch. The two-week train is done.",
+     "ts": "2025-08-24T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Hana",
+     "text": "Good. Great.",
+     "ts": "2025-08-24T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Jonas",
+     "text": "I'll stop poking, then.",
+     "ts": "2025-08-24T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Yuki",
+     "text": "Does this mean the calendar entries come out? Jonas just put in all those Wednesdays.",
+     "ts": "2025-08-24T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Jonas",
+     "text": "I did, last week. Of course.",
+     "ts": "2025-08-24T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Nadia",
+     "text": "We'll sort the calendar later. Not today.",
+     "ts": "2025-08-24T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Hana",
+     "text": "The doc with the skip rules goes too, I guess.",
+     "ts": "2025-08-24T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Nadia",
+     "text": "Probably, yeah. Let's not rewrite everything right now.",
+     "ts": "2025-08-24T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Mei",
+     "text": "I can write up the rollout steps if somebody tells me who's allowed to press the halt.",
+     "ts": "2025-08-24T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Nadia",
+     "text": "Draft it and put a name in, we'll fix it in the channel.",
+     "ts": "2025-08-24T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Mei",
+     "text": "Okay.",
+     "ts": "2025-08-24T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Nadia",
+     "text": "I'll tell Samir this afternoon. He's going to want details.",
+     "ts": "2025-08-24T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Hana",
+     "text": "Tell him the hotfix checklist is still half-written.",
+     "ts": "2025-08-24T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Nadia",
+     "text": "Noted.",
+     "ts": "2025-08-24T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Yuki",
+     "text": "Oh, and the badge system is down again Thursday, apparently.",
+     "ts": "2025-08-24T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Nadia",
+     "text": "Building thing, not ours.",
+     "ts": "2025-08-24T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Yuki",
+     "text": "Okay, I'll bring my badge.",
+     "ts": "2025-08-24T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Hana",
+     "text": "Wise.",
+     "ts": "2025-08-24T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Jonas",
+     "text": "I'm out of time, I've got a one-on-one with Goran in five.",
+     "ts": "2025-08-24T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Nadia",
+     "text": "Go. Mei, send me what you ran Friday so I have the actual numbers.",
+     "ts": "2025-08-24T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Mei",
+     "text": "Sending it now.",
+     "ts": "2025-08-24T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Jonas",
+     "text": "Bye all.",
+     "ts": "2025-08-24T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Nadia",
+     "text": "Thanks, everyone.",
+     "ts": "2025-08-24T10:19:12"
+    }
+   ]
+  }
+ ]
+}

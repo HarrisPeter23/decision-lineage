@@ -1,0 +1,601 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Audit events",
+   "attribute": "storage",
+   "states": [
+    {
+     "value": "monthly-partitioned table in our existing database",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Audit events",
+   "attribute": "data ownership",
+   "states": [
+    {
+     "value": "user id only",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      67,
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "On-call swap",
+   "attribute": "week of twenty-third",
+   "states": [
+    {
+     "value": "Kofi will take",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "On-call swap",
+   "attribute": "reviewer for grants part",
+   "states": [
+    {
+     "value": "Bashir",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      80
+     ]
+    },
+    {
+     "value": "Bashir to push change today",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Staging freeze",
+   "attribute": "deploy planned",
+   "states": [
+    {
+     "value": "none",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-12",
+     "evidence": [
+      7,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Kofi's coverage",
+   "attribute": "week",
+   "states": [
+    {
+     "value": "fourteenth",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Data retention",
+   "attribute": "duration",
+   "states": [
+    {
+     "value": "seven years",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Data retention",
+   "attribute": "storage",
+   "states": [
+    {
+     "value": "250 gigabytes",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Backups",
+   "attribute": "duration",
+   "states": [
+    {
+     "value": "40 minutes",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Backups",
+   "attribute": "maintenance window",
+   "states": [
+    {
+     "value": "60 minutes",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Backups",
+   "attribute": "current backup method",
+   "states": [
+    {
+     "value": "full dump",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Slow-query alert",
+   "attribute": "threshold",
+   "states": [
+    {
+     "value": "500 milliseconds",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      58
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Thursday sync",
+   "attribute": "new time",
+   "states": [
+    {
+     "value": "Friday at eleven",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      73
+     ]
+    },
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Quarterly planning template",
+   "attribute": "new section",
+   "states": [
+    {
+     "value": "risks",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      77
+     ]
+    },
+    {
+     "value": "11:00",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Quarterly planning",
+   "attribute": "top three",
+   "states": [
+    {
+     "value": "to be submitted by end of next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-19",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Quarterly planning template",
+   "attribute": "submission deadline",
+   "states": [
+    {
+     "value": "Monday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Cold storage",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "monthly script, exported every night, 90 days hot, 7 years cold",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      40,
+      41,
+      50,
+      51,
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Cold storage",
+   "attribute": "format",
+   "states": [
+    {
+     "value": "open columnar format",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Cold storage",
+   "attribute": "audit requirements",
+   "states": [
+    {
+     "value": "checksums included",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      38,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Cold storage",
+   "attribute": "lifecycle rules",
+   "states": [
+    {
+     "value": "no delete rules",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      73
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Export job",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Pavel",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      83
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Export job",
+   "attribute": "reviewer",
+   "states": [
+    {
+     "value": "Bashir",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      83
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Export job",
+   "attribute": "failure alert",
+   "states": [
+    {
+     "value": "included in the doc",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Export job",
+   "attribute": "restore test",
+   "states": [
+    {
+     "value": "Bashir will perform it",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      81
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Release call",
+   "attribute": "attendance",
+   "states": [
+    {
+     "value": "Kofi is on call and will be the rep",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      89,
+      90
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Audit job",
+   "attribute": "risk status",
+   "states": [
+    {
+     "value": "not a risk, but work",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      98
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Backup plan",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "Irina needs to be informed about the new backup plan",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      100,
+      101
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Audit",
+   "attribute": "agenda item",
+   "states": [
+    {
+     "value": "quick update by Pavel",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-26",
+     "evidence": [
+      110
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S3",
+   0,
+   1,
+   2
+  ],
+  [
+   "S12",
+   0,
+   1,
+   3
+  ],
+  [
+   "S13",
+   0,
+   1,
+   3
+  ]
+ ]
+}

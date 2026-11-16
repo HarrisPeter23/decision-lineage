@@ -1,0 +1,1005 @@
+{
+ "set_id": "ami_ES2013",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    35,
+    36,
+    37
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "remote control functionality and design",
+   "option": "re-envision remote control as accessible electronic device"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    40,
+    41
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "remote control for TV only with corporate image"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    50,
+    51
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    57,
+    58,
+    59
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "target price comparison"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    73,
+    74
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "target price comparison"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "target price comparison"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "target price comparison"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "target price comparison"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    85,
+    86
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "remote control functionality and design",
+   "option": "streamlined remote control with power, channel, volume"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "streamlined remote control with power, channel, volume"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    107,
+    108
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "streamlined remote control with channel selection, volume up/down, enter function"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "streamlined remote control with channel selection, volume up/down, enter function"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    112
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "remote control functionality and design",
+   "option": "streamlined remote control with channel selection, volume up/down, enter function"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    123
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "internet functionality"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    125
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "remote control functionality and design",
+   "option": "internet functionality"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    126
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "sleek remote control with big user-friendly buttons and menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    130
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    132
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "remote control functionality and design",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    162
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "basic components for remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    163,
+    164
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "remote control functionality and design",
+   "option": "basic components for remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    183
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    198
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "remote control functionality and design",
+   "option": "cost of components"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    209
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    210
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    213
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    217
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    224
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "battery type for the device",
+   "option": "solar"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "battery type for the device",
+   "option": "solar"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    235
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    238
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "battery type for the device",
+   "option": "rechargeable internal battery as a selling point"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    301
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "remote control design",
+   "option": "combine power and enter keys"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    313
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "remote control design",
+   "option": "combine power and enter keys"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    316
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "remote control design",
+   "option": "combine power and enter keys"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    361
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "battery type for the device",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    362
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "remote control design",
+   "option": "functions agreed upon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    10,
+    11,
+    12
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "approval of previous meeting minutes",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    14,
+    15
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "moving on to presentations",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "remote control design with fruit and veg themed sleeves",
+   "option": "fruit and veg themed sleeves"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    42,
+    43,
+    44
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "remote control design with fruit and veg themed sleeves",
+   "option": "fruit and veg themed sleeves"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "remote control design with fruit and veg themed sleeves",
+   "option": "fruit and veg themed sleeves"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    69,
+    70,
+    71
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "remote control design with fruit and veg themed sleeves",
+   "option": "fruit and veg themed sleeves"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "remote control design with fruit and veg themed sleeves",
+   "option": "fruit and veg themed sleeves"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "energy source for remote control",
+   "option": "kinetic energy source"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    125,
+    126,
+    127
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "energy source for remote control",
+   "option": "kinetic energy source"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "remote control interface design",
+   "option": "iPod style scroll wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    277,
+    278,
+    279
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "form of energy for the remote control",
+   "option": "battery, kinetic or solar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    281,
+    282
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "form of energy for the remote control",
+   "option": "kinetic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    297,
+    298
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "form of energy for the remote control",
+   "option": "kinetic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    299,
+    300
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "form of energy for the remote control",
+   "option": "kinetic"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    316,
+    317
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "chip on print manufacturing technique",
+   "option": "chip on print"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    318,
+    319
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "chip on print manufacturing technique",
+   "option": "chip on print"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    325,
+    326
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "case material for the remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    327,
+    328
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "case material for the remote control",
+   "option": "rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    336,
+    337
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "case material for the remote control",
+   "option": "plastic inside with rubber cover"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    349,
+    350
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "user interface concept",
+   "option": "four buttons with enter in the middle"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    351,
+    352
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "user interface concept",
+   "option": "push buttons"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    246
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "evaluation criteria for remote control",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394
+   ],
+   "speaker": "PM",
+   "confidence": 0.95,
+   "decision": "approval of project design and budget",
+   "option": ""
+  }
+ ]
+}

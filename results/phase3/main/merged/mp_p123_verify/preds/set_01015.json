@@ -1,0 +1,326 @@
+{
+ "set_id": "set_01015",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Fatima",
+   "quote": "I can do that.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "quote": "The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Henrik",
+   "quote": "That's fair, actually.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Ravi",
+   "quote": "Good thought, I'll drop her a line. The training's the thirtieth, half a day.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Ravi",
+   "quote": "Fatima, you've got the permit list. Dmitri, the Tessaline paperwork. I've got the lift, and I'm late for the fire people.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ravi",
+   "quote": "Then reopen it, Dmitri, I can't fix it from here.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Kwame",
+   "quote": "Did anyone actually look at it, or did they just close the ticket?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Ravi",
+   "quote": "Reopen it. Fatima, the permit list?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Ravi",
+   "quote": "36 against 44 requests, then. Thanks. Parked till April anyway.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ravi",
+   "quote": "I've asked him. Kwame, the Christmas invoice?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ravi",
+   "quote": "Good thing you checked. I'll pay it. Who signed for the hour?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Ravi",
+   "quote": "So the third of February holds.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Henrik",
+   "quote": "It ends with me paying sixty pounds for a new hatch, so, sort of, yes.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Dmitri",
+   "quote": "So that's the end of the month. We can't sit on it till then, the order has to go by the twenty-fourth or we lose the slot-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Dmitri",
+   "quote": "Yeah, I can do that today. I'd also like to ask Tessaline what the C actually means, whether it's the test or whether-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Ravi",
+   "quote": "In writing, same as the lead time. Fatima, can you get hold of the surveyor before his report's out? Even an email, just with the exact wording.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ravi",
+   "quote": "Nothing changes on paper yet. It's still the Tessaline felt, finance has it, I just want to see those three answers before we talk about it again.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Ravi",
+   "quote": "It's in my inbox, Kwame, I know where it is. We'll come back to it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Ravi",
+   "quote": "Log it, Henrik. Same as the machine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Dmitri",
+   "quote": "Speaking of which, I'm going to go and reopen 4417.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Ravi",
+   "quote": "Do. Fatima, you'll send me whatever you get from him?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "quote": "Fine, I'll warn the cleaners. Right. The panel order. Tessaline have answered on the corridor rating, so I want that back open, properly, before my name goes on anything.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ravi",
+   "quote": "Legal came back Wednesday. It's one policy, whole building, and there's a condition that escape routes are kept to whatever standard the insurer's surveyor sets. Breach it and they can decline a claim.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Dmitri",
+   "quote": "That's the thing, they've got it, it's in the email, if the order's in today it comes on the same delivery. So it doesn't touch the fitters.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Ravi",
+   "quote": "Hang on, though. Can I hear the other side of it first. Is there an argument for leaving the order exactly as it stands?",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Henrik",
+   "quote": "And it's just the 46 metres of corridor that goes over to their mineral-wool-core panel, the B-s1,d0 one, 3,800 pounds, and we still make the third of February, and that's the whole cost of not having this conversation with an insurer.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Henrik",
+   "quote": "No, that's it, that's me. I just don't see tearing up the floor for it.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Ravi",
+   "quote": "19,220 plus 3,800 is 23,020 before fixing. The slat quote was 24,025. So we're still under that by 1,005.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Ravi",
+   "quote": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Ravi",
+   "quote": "And I'll write to finance today for the extra 3,800, with the surveyor's email and the certificate attached. Fatima, can you send me his?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Ravi",
+   "quote": "Cleaning contract's on the thirty-first, ten o'clock. 41,600, up 6 percent. Who's got the complaints log?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Ravi",
+   "quote": "Bring that on the thirty-first, then. That's it, I've got the bins to sort out.",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+[
+ {
+  "tol": 1,
+  "variant": "full",
+  "cfg": "single_pass",
+  "P": 0.051,
+  "R": 0.672,
+  "F1": 0.095,
+  "ci": [
+   0.072,
+   0.129
+  ],
+  "loc": 0.13,
+  "impl": 1.0,
+  "impl_n": 6,
+  "links": 1596,
+  "completeness": 0.665,
+  "macro": 0.117
+ },
+ {
+  "tol": 1,
+  "variant": "full",
+  "cfg": "mp_p123",
+  "P": 0.071,
+  "R": 0.615,
+  "F1": 0.127,
+  "ci": [
+   0.089,
+   0.188
+  ],
+  "loc": 0.181,
+  "impl": 1.0,
+  "impl_n": 6,
+  "links": 1062,
+  "completeness": 0.603,
+  "macro": 0.133
+ },
+ {
+  "tol": 1,
+  "variant": "full",
+  "cfg": "mp_p123_verify",
+  "P": 0.07,
+  "R": 0.525,
+  "F1": 0.124,
+  "ci": [
+   0.093,
+   0.175
+  ],
+  "loc": 0.188,
+  "impl": 1.0,
+  "impl_n": 6,
+  "links": 909,
+  "completeness": 0.512,
+  "macro": 0.12
+ },
+ {
+  "tol": 1,
+  "variant": "top4",
+  "cfg": "single_pass",
+  "P": 0.308,
+  "R": 0.434,
+  "F1": 0.361,
+  "ci": [
+   0.279,
+   0.444
+  ],
+  "loc": 0.524,
+  "impl": 0.5,
+  "impl_n": 6,
+  "links": 172,
+  "completeness": 0.442,
+  "macro": 0.315
+ },
+ {
+  "tol": 1,
+  "variant": "top4",
+  "cfg": "mp_p123",
+  "P": 0.29,
+  "R": 0.418,
+  "F1": 0.342,
+  "ci": [
+   0.27,
+   0.414
+  ],
+  "loc": 0.483,
+  "impl": 0.3333333333333333,
+  "impl_n": 6,
+  "links": 176,
+  "completeness": 0.448,
+  "macro": 0.334
+ },
+ {
+  "tol": 1,
+  "variant": "top4",
+  "cfg": "mp_p123_verify",
+  "P": 0.244,
+  "R": 0.352,
+  "F1": 0.289,
+  "ci": [
+   0.234,
+   0.349
+  ],
+  "loc": 0.463,
+  "impl": 0.16666666666666666,
+  "impl_n": 6,
+  "links": 176,
+  "completeness": 0.375,
+  "macro": 0.267
+ },
+ {
+  "tol": 0,
+  "variant": "full",
+  "cfg": "single_pass",
+  "P": 0.047,
+  "R": 0.615,
+  "F1": 0.087,
+  "ci": [
+   0.067,
+   0.117
+  ],
+  "loc": 0.128,
+  "impl": 1.0,
+  "impl_n": 6,
+  "links": 1596,
+  "completeness": 0.608,
+  "macro": 0.109
+ },
+ {
+  "tol": 0,
+  "variant": "full",
+  "cfg": "mp_p123",
+  "P": 0.065,
+  "R": 0.566,
+  "F1": 0.117,
+  "ci": [
+   0.083,
+   0.176
+  ],
+  "loc": 0.179,
+  "impl": 0.8333333333333334,
+  "impl_n": 6,
+  "links": 1062,
+  "completeness": 0.55,
+  "macro": 0.117
+ },
+ {
+  "tol": 0,
+  "variant": "full",
+  "cfg": "mp_p123_verify",
+  "P": 0.065,
+  "R": 0.484,
+  "F1": 0.114,
+  "ci": [
+   0.087,
+   0.159
+  ],
+  "loc": 0.184,
+  "impl": 0.6666666666666666,
+  "impl_n": 6,
+  "links": 909,
+  "completeness": 0.468,
+  "macro": 0.106
+ },
+ {
+  "tol": 0,
+  "variant": "top4",
+  "cfg": "single_pass",
+  "P": 0.302,
+  "R": 0.426,
+  "F1": 0.354,
+  "ci": [
+   0.276,
+   0.433
+  ],
+  "loc": 0.524,
+  "impl": 0.5,
+  "impl_n": 6,
+  "links": 172,
+  "completeness": 0.433,
+  "macro": 0.312
+ },
+ {
+  "tol": 0,
+  "variant": "top4",
+  "cfg": "mp_p123",
+  "P": 0.284,
+  "R": 0.41,
+  "F1": 0.336,
+  "ci": [
+   0.258,
+   0.412
+  ],
+  "loc": 0.477,
+  "impl": 0.3333333333333333,
+  "impl_n": 6,
+  "links": 176,
+  "completeness": 0.436,
+  "macro": 0.329
+ },
+ {
+  "tol": 0,
+  "variant": "top4",
+  "cfg": "mp_p123_verify",
+  "P": 0.239,
+  "R": 0.344,
+  "F1": 0.282,
+  "ci": [
+   0.222,
+   0.343
+  ],
+  "loc": 0.456,
+  "impl": 0.16666666666666666,
+  "impl_n": 6,
+  "links": 176,
+  "completeness": 0.363,
+  "macro": 0.263
+ }
+]

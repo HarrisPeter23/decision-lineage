@@ -1,0 +1,235 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Pen date",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "14 March 2025",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      3,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Conference registration",
+   "attribute": "current number of registrations",
+   "states": [
+    {
+     "value": "210",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Conference registration",
+   "attribute": "number of Asia-Pacific attendees",
+   "states": [
+    {
+     "value": "38",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Brightwell invoice",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "forwarded to Marco",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      8,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Oksana's badge proof",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "request to make names bigger",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Shared drive thing",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "done",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Ticketing",
+   "attribute": "responsibility",
+   "states": [
+    {
+     "value": "organizers",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Ticketing",
+   "attribute": "stream content",
+   "states": [
+    {
+     "value": "main stage only",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      58
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Conference format",
+   "attribute": "in-person",
+   "states": [
+    {
+     "value": "Prague, two days, three hundred seats",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Conference format",
+   "attribute": "streaming",
+   "states": [
+    {
+     "value": "main stage livestreamed for ticket holders",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "AV supplier",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "informed today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Sponsors",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "not today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": []
+}

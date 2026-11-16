@@ -1,0 +1,321 @@
+[
+ {
+  "meeting_id": "mtg_0001",
+  "date": "2025-01-09",
+  "ok": true,
+  "episode_uuid": "ed280598-42c1-4a01-85c5-e2950d1238be",
+  "n_nodes": 10,
+  "n_edges": 14,
+  "seconds": 284.5,
+  "llm_calls": 26
+ },
+ {
+  "meeting_id": "mtg_0002",
+  "date": "2025-01-10",
+  "ok": true,
+  "episode_uuid": "189d5dc5-1ee9-4c0a-8f7a-fd08ce4591a5",
+  "n_nodes": 16,
+  "n_edges": 16,
+  "seconds": 540.7,
+  "llm_calls": 81
+ },
+ {
+  "meeting_id": "mtg_0003",
+  "date": "2025-01-16",
+  "ok": true,
+  "episode_uuid": "fd19df03-2f59-4986-9ea5-431a3ee2e62d",
+  "n_nodes": 12,
+  "n_edges": 24,
+  "seconds": 262.5,
+  "llm_calls": 32
+ },
+ {
+  "meeting_id": "mtg_0004",
+  "date": "2025-01-17",
+  "ok": true,
+  "episode_uuid": "1bbf58f4-4a9b-4c47-80c4-3619d74fae08",
+  "n_nodes": 27,
+  "n_edges": 21,
+  "seconds": 417.7,
+  "llm_calls": 42
+ },
+ {
+  "meeting_id": "mtg_0005",
+  "date": "2025-01-23",
+  "ok": true,
+  "episode_uuid": "d94889fb-4d94-411c-b3e2-2fd9353b94bd",
+  "n_nodes": 6,
+  "n_edges": 16,
+  "seconds": 230.5,
+  "llm_calls": 16
+ },
+ {
+  "meeting_id": "mtg_0006",
+  "date": "2025-01-24",
+  "ok": true,
+  "episode_uuid": "152eaffe-2309-4725-b73a-81ea1f5244e0",
+  "n_nodes": 26,
+  "n_edges": 29,
+  "seconds": 751.7,
+  "llm_calls": 30
+ },
+ {
+  "meeting_id": "mtg_0007",
+  "date": "2025-01-30",
+  "ok": true,
+  "episode_uuid": "73f49919-0020-4b85-b8da-97aefef87c3e",
+  "n_nodes": 10,
+  "n_edges": 10,
+  "seconds": 295.7,
+  "llm_calls": 14
+ },
+ {
+  "meeting_id": "mtg_0008",
+  "date": "2025-01-31",
+  "ok": true,
+  "episode_uuid": "a5aec9ef-4dc9-4853-bb3b-4541c1bbf15b",
+  "n_nodes": 9,
+  "n_edges": 15,
+  "seconds": 280.1,
+  "llm_calls": 16
+ },
+ {
+  "meeting_id": "mtg_0009",
+  "date": "2025-02-06",
+  "ok": true,
+  "episode_uuid": "99928bc2-765d-4696-80c8-243e36c9b531",
+  "n_nodes": 8,
+  "n_edges": 21,
+  "seconds": 373.8,
+  "llm_calls": 23
+ },
+ {
+  "meeting_id": "mtg_0010",
+  "date": "2025-02-08",
+  "ok": true,
+  "episode_uuid": "f9b1c79f-0025-4407-ae48-7e49743f7dbd",
+  "n_nodes": 18,
+  "n_edges": 18,
+  "seconds": 1387.6,
+  "llm_calls": 72
+ },
+ {
+  "meeting_id": "mtg_0011",
+  "date": "2025-02-13",
+  "ok": true,
+  "episode_uuid": "14b63110-346e-4ca2-ad1b-d905f36f8358",
+  "n_nodes": 25,
+  "n_edges": 17,
+  "seconds": 499.3,
+  "llm_calls": 56
+ },
+ {
+  "meeting_id": "mtg_0012",
+  "date": "2025-02-15",
+  "ok": true,
+  "episode_uuid": "0f758292-0bcc-49a0-a37e-fc92026cd81a",
+  "n_nodes": 30,
+  "n_edges": 33,
+  "seconds": 1006.6,
+  "llm_calls": 133
+ },
+ {
+  "meeting_id": "mtg_0013",
+  "date": "2025-02-19",
+  "ok": true,
+  "episode_uuid": "d8ec79bf-d6e7-4c26-8e8d-381ab0bc6236",
+  "n_nodes": 15,
+  "n_edges": 15,
+  "seconds": 643.9,
+  "llm_calls": 64
+ },
+ {
+  "meeting_id": "mtg_0014",
+  "date": "2025-02-22",
+  "ok": true,
+  "episode_uuid": "9c5c4d9f-0413-4e1d-83d9-ce43ac09e145",
+  "n_nodes": 11,
+  "n_edges": 29,
+  "seconds": 691.5,
+  "llm_calls": 62
+ },
+ {
+  "meeting_id": "mtg_0015",
+  "date": "2025-02-26",
+  "ok": true,
+  "episode_uuid": "b2e16baa-cf3d-447e-a640-18e40da79a78",
+  "n_nodes": 7,
+  "n_edges": 17,
+  "seconds": 350.2,
+  "llm_calls": 48
+ },
+ {
+  "meeting_id": "mtg_0016",
+  "date": "2025-03-05",
+  "ok": true,
+  "episode_uuid": "7607b28e-d1d1-49a8-9b88-0cfba97bb189",
+  "n_nodes": 10,
+  "n_edges": 14,
+  "seconds": 470.1,
+  "llm_calls": 27
+ },
+ {
+  "meeting_id": "mtg_0017",
+  "date": "2025-03-30",
+  "ok": false,
+  "error": "APITimeoutError: Request timed out.",
+  "tb": "        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 157, in _generate_response\n    response = await self.client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"/kaggle/src/script.py\", line 77, in create\n    r = await orig(*a, **kw)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/resources/chat/completions/completions.py\", line 2907, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n    ...<55 lines>...\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1992, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1727, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+  "seconds": 2972.8,
+  "llm_calls": 312
+ },
+ {
+  "meeting_id": "mtg_0018",
+  "date": "2025-04-06",
+  "ok": true,
+  "episode_uuid": "e70afb14-db1f-432e-bd96-1b81735040e5",
+  "n_nodes": 14,
+  "n_edges": 10,
+  "seconds": 434.7,
+  "llm_calls": 35
+ },
+ {
+  "meeting_id": "mtg_0019",
+  "date": "2025-04-13",
+  "ok": true,
+  "episode_uuid": "72299ded-29bc-468b-83df-4cce07dad730",
+  "n_nodes": 11,
+  "n_edges": 59,
+  "seconds": 1273.4,
+  "llm_calls": 184
+ },
+ {
+  "meeting_id": "mtg_0020",
+  "date": "2025-05-01",
+  "ok": true,
+  "episode_uuid": "64f2840f-d904-4345-9c84-2a18c9f506f5",
+  "n_nodes": 26,
+  "n_edges": 22,
+  "seconds": 647.5,
+  "llm_calls": 80
+ },
+ {
+  "meeting_id": "mtg_0021",
+  "date": "2025-05-08",
+  "ok": true,
+  "episode_uuid": "a7342fd1-3823-4448-ad38-af2cd04e5955",
+  "n_nodes": 19,
+  "n_edges": 17,
+  "seconds": 454.9,
+  "llm_calls": 47
+ },
+ {
+  "meeting_id": "mtg_0022",
+  "date": "2025-05-15",
+  "ok": true,
+  "episode_uuid": "029a70b4-a931-4b17-a266-661f9dd1f70e",
+  "n_nodes": 20,
+  "n_edges": 27,
+  "seconds": 358.5,
+  "llm_calls": 23
+ },
+ {
+  "meeting_id": "mtg_0023",
+  "date": "2025-08-07",
+  "ok": true,
+  "episode_uuid": "ddb8fe4f-caab-48e4-a540-18a232e08da8",
+  "n_nodes": 19,
+  "n_edges": 18,
+  "seconds": 380.1,
+  "llm_calls": 24
+ },
+ {
+  "meeting_id": "mtg_0024",
+  "date": "2025-08-14",
+  "ok": true,
+  "episode_uuid": "af72b919-64ad-459a-80f3-a982a59bcc09",
+  "n_nodes": 59,
+  "n_edges": 22,
+  "seconds": 469.4,
+  "llm_calls": 25
+ },
+ {
+  "meeting_id": "mtg_0025",
+  "date": "2025-08-21",
+  "ok": true,
+  "episode_uuid": "fef1dc44-0c01-4347-a655-1bb9af0050f1",
+  "n_nodes": 30,
+  "n_edges": 47,
+  "seconds": 600.3,
+  "llm_calls": 40
+ },
+ {
+  "meeting_id": "mtg_0026",
+  "date": "2025-08-28",
+  "ok": true,
+  "episode_uuid": "0ba77eff-8fca-42bb-80bd-3748a4993f19",
+  "n_nodes": 43,
+  "n_edges": 50,
+  "seconds": 694.5,
+  "llm_calls": 35
+ },
+ {
+  "meeting_id": "mtg_0027",
+  "date": "2025-09-13",
+  "ok": true,
+  "episode_uuid": "3fd524d6-3093-435e-a439-7078f764a32e",
+  "n_nodes": 25,
+  "n_edges": 6,
+  "seconds": 244.1,
+  "llm_calls": 10
+ },
+ {
+  "meeting_id": "mtg_0028",
+  "date": "2025-09-20",
+  "ok": true,
+  "episode_uuid": "a3503383-de30-49b9-924a-ba114c055ece",
+  "n_nodes": 16,
+  "n_edges": 10,
+  "seconds": 255.8,
+  "llm_calls": 43
+ },
+ {
+  "meeting_id": "mtg_0029",
+  "date": "2025-09-23",
+  "ok": true,
+  "episode_uuid": "4c2a7154-12ed-4383-8d13-b781c3a43751",
+  "n_nodes": 44,
+  "n_edges": 22,
+  "seconds": 340.8,
+  "llm_calls": 26
+ },
+ {
+  "meeting_id": "mtg_0030",
+  "date": "2025-09-27",
+  "ok": true,
+  "episode_uuid": "ce97b78f-ac3d-4f0d-a1d1-d3f43976d9d7",
+  "n_nodes": 13,
+  "n_edges": 5,
+  "seconds": 98.4,
+  "llm_calls": 8
+ },
+ {
+  "meeting_id": "mtg_0031",
+  "date": "2025-09-30",
+  "ok": true,
+  "episode_uuid": "58e50c9b-92f7-48da-98d5-d08eef89e760",
+  "n_nodes": 26,
+  "n_edges": 26,
+  "seconds": 222.8,
+  "llm_calls": 24
+ },
+ {
+  "meeting_id": "mtg_0032",
+  "date": "2025-10-07",
+  "ok": true,
+  "episode_uuid": "87ecffc5-70ea-43a0-825c-245113bc7e85",
+  "n_nodes": 28,
+  "n_edges": 56,
+  "seconds": 411.1,
+  "llm_calls": 56
+ }
+]

@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01000",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Henrik",
+   "quote": "So I think we charge per seat for the analytics add-on. Twelve dollars a seat, per month.",
+   "confidence": 1.0
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "quote": "Because it's, like, predictable. A buyer can do the math in their head, ten people, a hundred twenty dollars, done.",
+   "confidence": 1.0
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Wei",
+   "quote": "The usage one was a mess. Support tickets, like, weekly.",
+   "confidence": 1.0
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "quote": "For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off.",
+   "confidence": 1.0
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "the pilot has five accounts, and three of them have teams over forty people",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "At twelve a seat that's over four hundred eighty a month for a typical bill",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "quote": "two of those accounts told our success manager it felt steep",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ingrid",
+   "quote": "A flat price or tiers would keep us from losing the biggest accounts",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "quote": "per-seat at twelve was the plan",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "quote": "keeping per-seat pricing at twelve",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "quote": "keeping per-seat pricing at twelve",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Henrik",
+   "quote": "The two that said steep are free trial accounts",
+   "confidence": 0.8
+  }
+ ]
+}

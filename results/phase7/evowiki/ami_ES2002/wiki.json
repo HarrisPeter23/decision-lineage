@@ -1,0 +1,663 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Project",
+   "attribute": "name",
+   "states": [
+    {
+     "value": "Designing a new remote control",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Project",
+   "attribute": "objectives",
+   "states": [
+    {
+     "value": "original, trendy and user friendly",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Project",
+   "attribute": "stages",
+   "states": [
+    {
+     "value": "individual work and then a meeting about it. Repeat that process three times",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Project",
+   "attribute": "team members",
+   "states": [
+    {
+     "value": "David (Industrial Designer), Andrew (Marketing), Craig (User Interface)",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      10,
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Remote Control",
+   "attribute": "selling price",
+   "states": [
+    {
+     "value": "25 Euro",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Remote Control",
+   "attribute": "target revenue",
+   "states": [
+    {
+     "value": "50 million Euro",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Remote Control",
+   "attribute": "production cost",
+   "states": [
+    {
+     "value": "12.50 Euro",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Remote Control",
+   "attribute": "market",
+   "states": [
+    {
+     "value": "international",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Next Meeting",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "30 minutes after this meeting",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      200
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Next Meeting",
+   "attribute": "tasks",
+   "states": [
+    {
+     "value": "Industrial Designer: working on actual working design; User Interface: technical functions; Marketing Executive: requirements",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-13T09:00:00",
+     "evidence": [
+      200
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Project Requirements",
+   "attribute": "Teletext Support",
+   "states": [
+    {
+     "value": "Not required",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      7
+     ]
+    },
+    {
+     "value": "ignore teletext",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-13T11:00:00",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Project Requirements",
+   "attribute": "Device Control Scope",
+   "states": [
+    {
+     "value": "Only controls the television",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Project Requirements",
+   "attribute": "Corporate Branding",
+   "states": [
+    {
+     "value": "Incorporate corporate colour and slogan",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      7
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2004-12-13T11:00:00",
+       "evidence": [
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Remote Control Design",
+   "attribute": "Functionality",
+   "states": [
+    {
+     "value": "Basic functions (on/off, channel up/down, volume up/down, channel numbers)",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      58,
+      61,
+      65
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Target Audience",
+   "attribute": "age range",
+   "states": [
+    {
+     "value": "15 to 35",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      203,
+      210,
+      214,
+      218,
+      230
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2004-12-13T10:00:00",
+       "evidence": [
+        358,
+        361
+       ]
+      },
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2004-12-13T11:00:00",
+       "evidence": [
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Product Features",
+   "attribute": "basic functions",
+   "states": [
+    {
+     "value": "on/off, channel up/down, volume up/down, skip to channel, mute",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 2,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      362,
+      366
+     ]
+    },
+    {
+     "value": "on/off, up/down channels, up/down volume, skip to a channel",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      362,
+      366
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Power Source",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "regular batteries",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      346,
+      356
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Transmission Technology",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "infrared",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      312,
+      322
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Product Features",
+   "attribute": "advanced features",
+   "states": [
+    {
+     "value": "mute only, other advanced features excluded",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      366,
+      370
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Feature Categorisation",
+   "attribute": "categories",
+   "states": [
+    {
+     "value": "audio controls, video controls, device functions",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      374,
+      391,
+      392
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Feature Categorisation",
+   "attribute": "audio controls",
+   "states": [
+    {
+     "value": "volume, bass settings, mute",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      405,
+      407,
+      412
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Feature Categorisation",
+   "attribute": "video controls",
+   "states": [
+    {
+     "value": "brightness, contrast, colour",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      412,
+      414
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Feature Categorisation",
+   "attribute": "device functions",
+   "states": [
+    {
+     "value": "on/off, channel selection",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      396,
+      412
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Post-Meeting Tasks",
+   "attribute": "Industrial Designer",
+   "states": [
+    {
+     "value": "think about components concept",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      386
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Post-Meeting Tasks",
+   "attribute": "User Interface Designer",
+   "states": [
+    {
+     "value": "think about user interface",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      386
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Post-Meeting Tasks",
+   "attribute": "Marketing",
+   "states": [
+    {
+     "value": "think about trend watching",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-13T10:00:00",
+     "evidence": [
+      386
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Product Design",
+   "attribute": "battery type",
+   "states": [
+    {
+     "value": "non-rechargeable battery-powered",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-13T11:00:00",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Product Design",
+   "attribute": "audio-visual functions grouping",
+   "states": [
+    {
+     "value": "grouped into audio-visual and other categories",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-13T11:00:00",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "entity": "Product Shape",
+   "attribute": "shape",
+   "states": [
+    {
+     "value": "snowman-like shape with a larger base and a smaller top section",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-13T11:00:00",
+     "evidence": [
+      297,
+      299,
+      304
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "entity": "User Interface",
+   "attribute": "talk-back feature",
+   "states": [
+    {
+     "value": "not needed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-13T11:00:00",
+     "evidence": [
+      339,
+      340,
+      347
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S15",
+   0,
+   1,
+   2
+  ],
+  [
+   "S10",
+   0,
+   1,
+   3
+  ]
+ ]
+}

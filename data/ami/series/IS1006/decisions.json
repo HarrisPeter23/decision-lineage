@@ -1,0 +1,111 @@
+{
+ "IS1006a": {
+  "abstract": [
+   "The project manager opened the meeting and introduced the upcoming project to the team members.",
+   "The team members then participated in an exercise in which each team member drew his favorite animal and discussed why he liked the particular animal.",
+   "After the drawing exercise, the project manager discussed selling prices and production costs for the remote the team will design.",
+   "The project manager also indicated that the remote will be sold internationally and that two million remotes are expected to be sold.",
+   "The team then discussed their experiences using remotes in the past and what features to consider implementing in the remote they will produce.",
+   "The team members discussed child proof capabilities, color options, how to adapt a remote for left-handed users, a \"go back\" function, the size of a remote, buttons, and LCD screens.",
+   "The project manager closed the meeting and gave the team members their assignments and then one of the team members briefly went over his role on the team."
+  ],
+  "actions": [
+   "The team members will work on the ideas which arose during the meeting and decide which ones are useful and which ones should be discarded.",
+   "The team members will work on the technical aspects of the remote"
+  ],
+  "decisions": [
+   "The remote will be sold for 25 Euro.",
+   "The production costs for the remote will be 12.50 Euro maximum.",
+   "The remote will be child proof.",
+   "The remote will be colorful and will have different colored changeable face plates.",
+   "The remote will be adaptable so that it can be used by right-handed and left-handed people.",
+   "The remote will feature a button which allows the user to return to the previous channel he was viewing."
+  ],
+  "problems": [
+   "Size of remote.",
+   "Whether to include a screen similar to one found on a cell phone on the remote.",
+   "How many buttons and actions to include on the remote."
+  ]
+ },
+ "IS1006b": {
+  "abstract": [
+   "The project manager opened the meeting and stated the agenda to the team members.",
+   "The marketing expert discussed the findings of a survey which indicated that current remotes are ugly, difficult to use, have a number of unused buttons, frustrate users when misplaced, and contribute to RSI.",
+   "The marketing expert also stated that young users like speech recognition and that users in general want buttons for power, channel selection, volume control, and a few lesser used settings.",
+   "The user interface designer presented existing remotes to exemplify the need for simpler designs, discussed the use of components such as titanium and a back-lit LCD screen, and discussed other features to consider such as color options.",
+   "The industrial designer discussed the interior workings of a remote and how to handle universal capability and speech recognition.",
+   "After the project manager's closing, the project manager recapped some decisions and the team discussed how to handle the issue of locating a remote when misplaced."
+  ],
+  "actions": [
+   "The industrial designer will focus on the components concept.",
+   "The user interface designer will focus on the user interface concept.",
+   "The marketing expert will work on trend watching"
+  ],
+  "decisions": [
+   "The team will not work with teletext.",
+   "The team will concentrate on making a remote only for televisions and then make their product more generalized later.",
+   "An automatic on/off feature will not be used."
+  ],
+  "problems": [
+   "Making the remote universal.",
+   "Users habits in jumping from channel to channel.",
+   "How speech recognition commands work.",
+   "Allowing users in the same household to have their own remotes with personal settings.",
+   "How to locate a remote when misplaced."
+  ]
+ },
+ "IS1006c": {
+  "abstract": [
+   "The project manager stated the agenda and set the goals for the current meeting.",
+   "The industrial designer discussed different options for batteries, case materials and shapes, chips, and interface components and also discussed the components necessary for a speech recognition capable remote control.",
+   "The user interface designer presented his concept for the interface design which he called the \"millennium remote control\".",
+   "The user interface designer also discussed with the team color options and how to make a \"smart\" remote which is in tune with the user's preferences.",
+   "The marketing expert discussed current findings from trend watching reports which indicated that there is a desire for products to have a fancy look and feel, be technologically innovative, be easy to use, incorporate a fruit and vegetable theme, and be spongy.",
+   "The project manager gave the team members their assignments and then the team went over the decisions they had made and discussed whether to use titanium or rubber in their design."
+  ],
+  "actions": [
+   "The user interface designer will work on the interface design.",
+   "The marketing expert will work on the product evaluation.",
+   "The user interface designer and industrial designer will work together on a prototype"
+  ],
+  "decisions": [
+   "The price of the remote to the consumer will increase if the consumer wants more colors available on the LCD screen.",
+   "The remote will contain a speech recognizer.",
+   "The remote will have some buttons.",
+   "The remote will incorporate a fruit and vegetable theme.",
+   "The remote will feature an LCD screen.",
+   "The remote will use two regular batteries."
+  ],
+  "problems": [
+   "Whether to allow the LCD or the remote case to come in different colors.",
+   "How to account for the increase in production costs for a remote that comes in different colors.",
+   "How to make a \"smart\" remote.",
+   "Whether to make a remote out of rubber or titanium.",
+   "Whether the team should invent their own trend."
+  ]
+ },
+ "IS1006d": {
+  "abstract": [
+   "This last meeting started with the presentation of a remote control prototype.",
+   "It has on-off and volume buttons, an LCD screen (it can be active or switched off) in various colours, which largely replaces the use of push buttons, and a jog-wheel for navigation and option selection in the menus presented on the LCD.",
+   "It also includes speech recognition as an alternative interface, which also serves as mechanism for locating the device.",
+   "It was designed to be powered by a single battery.",
+   "The casing will be made of titanium with rubber strawberries following the fruit and veg fashion.",
+   "The prototype was evaluated on a scale of 1(excellent)-7(very bad) in terms of fancifulness, technology, robustness, usefulness, size, colour and shape and customizability: the average mark was 2.17; the team were satisfied with their prototype, although after costs were calculated it proved very expensive.",
+   "Finally, the team evaluated the whole process: they deemed themselves a good team, they found there was plenty of room for creativity and they liked the project manager's leadership."
+  ],
+  "actions": [
+   "*NA*"
+  ],
+  "decisions": [
+   "After the team realised the prototype was over budget, they replaced the battery with a hand dynamo.",
+   "When it became evident from the costs of components and materials that they would have to do without either the LCD or the speech recognition, they decided to change the given prices in order to accommodate them to their design and budget."
+  ],
+  "problems": [
+   "The gratuitous presence of decorative rubber strawberries on a titanium case (even if they cover sensors) did not meet everyone's approval.",
+   "Although, the attempt was towards keeping with the current fashion trends, the result did not satisfy the program manager.",
+   "The prototype was more than 40% over budget.",
+   "The team realised that their budget did not allow for all the specifications of their prototype."
+  ]
+ }
+}

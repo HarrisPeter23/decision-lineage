@@ -1,0 +1,344 @@
+{
+ "ami_ES2002/B1": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B2": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2002/B3": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B4": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2002/B5": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2002/B6": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B7": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B8": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "agent_note": "the decisive line is an implicit summary by the Project Manager; the group's explicit agreement to kinetic is not a separate utterance",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "partial",
+  "human_note": "The PM talks about how the battery could keep the device running when it's not being used, but he doesn't clearly confirm that they're going with kinetic power and a backup battery."
+ },
+ "ami_ES2002/B9": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B10": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2002/B11": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "agent_note": "the reason for dropping kinetic is a short question ('because of cost restraints is it?'); the cost overrun itself is discussed later in the meeting",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2003/B1": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2003/B2": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2003/B3": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2003/B4": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2003/B5": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2003/B6": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2003/B7": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "agent_note": "the decision is phrased as a question ('are people willing to go ahead with a plastic solid case?'); confirmed by the abstractive summary",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2013/B1": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2013/B2": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2013/B3": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "agent_note": "evidence here is an absence of evidence (no costing information); kept because it is the only doubt raised",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2013/B4": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2013/B5": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_ES2013/B6": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2013/B7": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_ES2013/B8": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B1": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B2": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B3": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B4": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B5": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B6": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_TS3004/B7": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_TS3004/B8": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "agent_note": "the decision is phrased as a question ('can we just put speech recognition in it as well, okay?') and accepted by the team; confirmed by the abstractive summary",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3004/B9": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "partial",
+  "human_note": "The PM mentions the one-button on/off setup again, but it's not clear whether the team has actually agreed to keep speech recognition."
+ },
+ "ami_TS3012/B1": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "partial",
+  "human_note": "The speaker is explaining what the project is about, not really suggesting a new option. So I think this fits better under evidence/context rather than proposal."
+ },
+ "ami_TS3012/B2": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "agent_note": "shares its single utterance with B1; the reason is the project brief",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_TS3012/B3": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "human_spotcheck",
+  "verification_scope": "content_speaker_role_human",
+  "verification_before_human": "llm_consensus",
+  "human_verdict": "yes"
+ },
+ "ami_TS3012/B4": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3012/B5": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3012/B6": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3012/B7": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ },
+ "ami_TS3012/B8": {
+  "gemini": "yes",
+  "granite": "yes",
+  "role_blind_check": "not done (judges are lenient and cannot verify roles; see judge sensitivity)",
+  "verification": "llm_consensus",
+  "verification_scope": "content_speaker_only"
+ }
+}

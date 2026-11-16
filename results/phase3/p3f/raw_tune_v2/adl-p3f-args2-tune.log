@@ -1,0 +1,12 @@
+[{"stream_name":"stdout","time":15.344859238,"data":"17:20:01 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0\n"}
+,{"stream_name":"stdout","time":28.149324042,"data":"17:20:14 $ curl -fsSL https://ollama.com/install.sh | sh rc 0\n"}
+,{"stream_name":"stdout","time":412.83708538,"data":"17:26:39 $ ollama pull qwen3:14b rc 0\n"}
+,{"stream_name":"stdout","time":412.964542073,"data":"17:26:39 server ready: True after 412 s\n"}
+,{"stream_name":"stdout","time":915.560705762,"data":"17:35:02 DONE {\"t0\": 1793985587.4132137, \"server_ready\": true, \"ready_s\": 412, \"run_s\": 503, \"worker_rc\": [0, 0, 0, 0], \"calls\": 22, \"input_tokens\": 46261, \"output_tokens\": 11053, \"out_tok_per_s\": 22.0}\n"}
+,{"stream_name":"stderr","time":917.738636458,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":917.738669156,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":918.041182776,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":918.041215739,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":919.52846812,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":920.508192093,"data":"[NbConvertApp] Writing 480447 bytes to __results__.html\n"}
+]

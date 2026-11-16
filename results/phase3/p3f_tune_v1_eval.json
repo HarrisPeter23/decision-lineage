@@ -1,0 +1,54 @@
+{
+ "results": {
+  "single_pass_recap_roles_top4": {
+   "tune": {
+    "ds_f1": 0.618,
+    "ds_f1_ci": [
+     0.478,
+     0.727
+    ],
+    "headline_completeness": 0.638,
+    "headline_ci": [
+     0.537,
+     0.756
+    ],
+    "role_f1": 0.568,
+    "links": 83,
+    "implicit": "2/4",
+    "recall": {
+     "proposal": 0.818,
+     "rationale": 0.278,
+     "evidence": 0.875,
+     "challenge": 0.4,
+     "reconsideration": 1.0,
+     "resolution": 0.765
+    }
+   }
+  },
+  "recap_args_div4": {
+   "tune": {
+    "ds_f1": 0.615,
+    "ds_f1_ci": [
+     0.525,
+     0.716
+    ],
+    "headline_completeness": 0.683,
+    "headline_ci": [
+     0.567,
+     0.816
+    ],
+    "role_f1": 0.591,
+    "links": 84,
+    "implicit": "2/4",
+    "recall": {
+     "proposal": 0.818,
+     "rationale": 0.333,
+     "evidence": 0.875,
+     "challenge": 0.6,
+     "reconsideration": 1.0,
+     "resolution": 0.765
+    }
+   }
+  }
+ }
+}

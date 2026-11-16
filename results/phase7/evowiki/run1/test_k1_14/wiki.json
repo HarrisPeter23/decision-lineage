@@ -1,0 +1,408 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Northern Logistics Expo sponsorship",
+   "attribute": "budget allocation",
+   "states": [
+    {
+     "value": "46,000",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-28",
+     "evidence": [
+      8,
+      10,
+      27,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Northern Logistics Expo sponsorship",
+   "attribute": "deposit deadline",
+   "states": [
+    {
+     "value": "September 5th",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-28",
+     "evidence": [
+      42,
+      44,
+      45,
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Newsletter template",
+   "attribute": "freeze date",
+   "states": [
+    {
+     "value": "next Wednesday",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-28",
+     "evidence": [
+      56,
+      57,
+      58,
+      59
+     ]
+    },
+    {
+     "value": "template frozen",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Offsite survey",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-28",
+     "evidence": [
+      68,
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Clara",
+   "attribute": "follow-up",
+   "states": [
+    {
+     "value": "wait until agreement is signed",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-08-28",
+     "evidence": [
+      65,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Expo",
+   "attribute": "action items",
+   "states": [
+    {
+     "value": "Elif to request written confirmation of attendance and account list",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-09-04",
+     "evidence": [
+      34,
+      35,
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Ad copy review process",
+   "attribute": "legal review scope",
+   "states": [
+    {
+     "value": "only ads with performance claims",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-09-04",
+     "evidence": [
+      55,
+      56,
+      57,
+      59,
+      60,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Ad copy review process",
+   "attribute": "checklist creation",
+   "states": [
+    {
+     "value": "Zainab to create checklist by Monday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-09-04",
+     "evidence": [
+      72,
+      73,
+      74,
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Claim checklist",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "sent to Anika",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Claim checklist",
+   "attribute": "additional example",
+   "states": [
+    {
+     "value": "added by Wei",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      5,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Footer",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "same as August",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Launch money",
+   "attribute": "expected amount",
+   "states": [
+    {
+     "value": "1450",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Launch money",
+   "attribute": "additional passes",
+   "states": [
+    {
+     "value": "two extra passes",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Form",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "needs new credit wording",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Form",
+   "attribute": "setup",
+   "states": [
+    {
+     "value": "Wei and Elif to set up",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Form",
+   "attribute": "briefing",
+   "states": [
+    {
+     "value": "sales to be briefed on Monday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      53
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Form",
+   "attribute": "Elif's availability",
+   "states": [
+    {
+     "value": "Thursday afternoon",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Friday review",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "moved to three",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      77,
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Thursday block",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "Elif's desk",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-11",
+     "evidence": [
+      88
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   3
+  ]
+ ]
+}

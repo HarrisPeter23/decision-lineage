@@ -1,0 +1,1626 @@
+{
+ "set_id": "set_01014",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Meera",
+   "quote": "First thing, the Halden Foods ticket. Open eleven days and they've escalated twice now.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Meera",
+   "quote": "Why haven't we told them?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Meera",
+   "quote": "Note to their account manager by noon tomorrow, please.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Meera",
+   "quote": "SOC 2 questionnaire. 62 questions, 48 answered, due Friday the fifteenth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Lena",
+   "quote": "I had that as this Friday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Meera",
+   "quote": "The fifteenth. Next week.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Jonas",
+   "quote": "Who's got the last fourteen? Because half of those are surely security's, not ours.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "quote": "Nine are theirs, five are ours. I'll send the list round.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Meera",
+   "quote": "Okay. Moving on. Insights.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Jonas",
+   "quote": "Fourteen days, free, and nobody hands over a card. That's how Insights goes out the door.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Meera",
+   "quote": "Threefold. On what base, do you have that?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Jonas",
+   "quote": "No. They aren't. Agreed.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Pavel",
+   "quote": "About four dollars.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "quote": "Thirty. Maybe.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "quote": "Then give them one. It's still cheaper than the two sales calls we'd spend getting anybody to try it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Meera",
+   "quote": "Okay, that's a follow-up. Jonas, get me the sheet from Tomas, base and domain split, by Monday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Meera",
+   "quote": "Last time we opened the sandbox, tickets went up about 18 percent for three weeks. Then back down.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Meera",
+   "quote": "Pavel, I need the Insights entitlement switch in staging by the 20th, and marketing gets final pricing page copy from me next Tuesday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Meera",
+   "quote": "Send those over to them this week.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Meera",
+   "quote": "Priya usually needs five working days. So that goes to her by the 22nd at the latest.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Meera",
+   "quote": "Lena, can you take a first draft? One page. By the 15th.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Meera",
+   "quote": "Let's take that offline once you've got the sheet.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Meera",
+   "quote": "Last thing, I'm out the 18th and 19th, so anything for sign-off needs to reach me before Friday the 15th.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Meera",
+   "quote": "Halden's done by noon tomorrow, remember.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Meera",
+   "quote": "SOC 2 first. It's due tomorrow, the fifteenth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Meera",
+   "quote": "Both are security's. I'm chasing them at two o'clock.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Pavel",
+   "quote": "Wednesday.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Yuki",
+   "quote": "Thursday, actually, but yes, it went out.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Meera",
+   "quote": "Did IT ever sort the calendar? They told me Monday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Jonas",
+   "quote": "The dentist has been rescheduled, by the way. By the calendar. Without me.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Yuki",
+   "quote": "No, but who's actually got that ticket, because I raised it and it just says pending vendor, and I don't-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lena",
+   "quote": "Is this the preview thing?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Pavel",
+   "quote": "First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Meera",
+   "quote": "So 412 at 2.1, that's what, between eight and nine accounts. Call it nine.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Meera",
+   "quote": "And 31 percent is about 128 accounts on throwaway addresses.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Meera",
+   "quote": "Pavel, you told us four dollars last week and this says 1.80.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Pavel",
+   "quote": "Backfill's capped in preview. Six months, not twelve.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Yuki",
+   "quote": "So it goes up at launch.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Meera",
+   "quote": "At 1.80 that's 741 dollars and change for one week, and most of that for accounts nobody ever logged back into.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Jonas",
+   "quote": "Okay, but it's a preview. Waitlist people are the curious ones, they sign up for everything, you can't-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Yuki",
+   "quote": "They're not curious, Jonas, they're throwaway addresses, I went through the list this morning, one of them was literally-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Jonas",
+   "quote": "I'm saying a week is a week.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Yuki",
+   "quote": "We are paying to host junk accounts, that's what this is, and every one of them comes straight out of this quarter's infrastructure budget, which we are burning for nothing.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Meera",
+   "quote": "How much of that budget is left, do we know? Dmitri will ask.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Pavel",
+   "quote": "Not much. Storage overran in July.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Lena",
+   "quote": "But isn't this, I mean, isn't this the price of being open? We said that was kind of the point of it.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Yuki",
+   "quote": "The point was people trying it, nobody's trying it, that's nine-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "quote": "Let me stick up for it anyway, since it was mine. I got the sheet from Tomas, like you asked.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Jonas",
+   "quote": "Just under 9,400 visitors on each arm, 38 percent of signups on free mail, and the threefold holds up.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Pavel",
+   "quote": "Lose who, though?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "quote": "Well, that's the question, yes.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Yuki",
+   "quote": "Lose these guys, the 128, that's who you lose, and honestly-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Jonas",
+   "quote": "You'd lose some real ones with them.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Yuki",
+   "quote": "Not the ones who matter, because if you make it thirty days and take a card up front, the throwaways just don't bother, and anybody serious gets a proper month with it instead of two weeks.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Lena",
+   "quote": "Thirty days, with the card, so that's the other thing that was floating around?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Yuki",
+   "quote": "Reporting buyers need a month-end in there anyway, that's when they'd actually look at the-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Jonas",
+   "quote": "Hang on, though, those people need a corporate card, I said that last week, and-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Yuki",
+   "quote": "You said it and it was a fair point when we had no numbers.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Jonas",
+   "quote": "It's still a fair point. Somebody in finance at a mid-size company isn't typing in a corporate card to look at a dashboard.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Pavel",
+   "quote": "They'd pay for it. If they want it.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Jonas",
+   "quote": "And double the window means double the hosting, doesn't it?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Pavel",
+   "quote": "No. Backfill's the cost. One time.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Meera",
+   "quote": "So the 1.80, or the four, gets spent once, on the first login, however long they stay.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Pavel",
+   "quote": "Mostly.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Jonas",
+   "quote": "Okay, then what about people who forget and get charged on day 31? That's a refund, that's an angry ticket, that's-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "quote": "Sandbox was 18 percent more tickets for three weeks, and that was with nothing to bill.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Yuki",
+   "quote": "Six weeks.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Meera",
+   "quote": "Three. And billing tickets are worse, you're not wrong, Jonas.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Lena",
+   "quote": "We could maybe, I don't know, be really upfront about it? A reminder or something, so it doesn't feel like a trap.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Jonas",
+   "quote": "That's the payment processor's dunning emails with a nicer hat on.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Lena",
+   "quote": "I mean more the overall feeling of it.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "quote": "Can I just- nine accounts. We can argue about how it feels, but nine accounts for 741 dollars is eighty-something dollars an activation.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Meera",
+   "quote": "82, if it's nine.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Pavel",
+   "quote": "Before launch costs.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Jonas",
+   "quote": "And if the card takes signups down to a third, you might get nine anyway. For a lot less. Hm. That's annoying, actually.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Yuki",
+   "quote": "Thank you.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Jonas",
+   "quote": "I didn't say you were right, I said it's annoying.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Lena",
+   "quote": "It does sort of hurt, the no-strings thing. I liked that. But if it's mostly fake accounts then who's it really for, I guess.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "quote": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Jonas",
+   "quote": "Noted, under protest, for the record.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Pavel",
+   "quote": "Fine.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Yuki",
+   "quote": "Good. Sorry. Good.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Meera",
+   "quote": "Pavel, does that move the 20th for the staging switch?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Pavel",
+   "quote": "No. Card check's maybe a day extra.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Meera",
+   "quote": "Then I rewrite the page copy today. Yuki, you still review it, and Ravi's team needs it by Monday at the latest because I'm out the 18th and 19th.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Yuki",
+   "quote": "Do the event names change? Because I sent those over with the old-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Pavel",
+   "quote": "One new one. Card added.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay, I'll send them that this afternoon.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Meera",
+   "quote": "Priya has to see the terms by the 22nd regardless, and now there's a billing clause, so I'll get it to her tomorrow. Dmitri gets the new per-account figure too.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Jonas",
+   "quote": "Tell him about Tomas's sheet while you're there, or I've carried it around for nothing.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Meera",
+   "quote": "Send it to me. Lena, the launch email draft was due tomorrow, and it'll need to say thirty days and mention the card.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Lena",
+   "quote": "Yep, I'd sort of gone big on the free angle, so, um, I'll rework that bit.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Pavel",
+   "quote": "Short.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Lena",
+   "quote": "Short-ish. Oh, while I've got you all, the other email. The release notes. Could that just go out monthly instead of every week?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Jonas",
+   "quote": "Is anyone reading it either way?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Lena",
+   "quote": "Well, that's kind of it. The weekly send sits at an 11 percent open rate, and the last four issues had almost nothing in them.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Yuki",
+   "quote": "One of them was literally a tooltip fix, I remember because I-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Lena",
+   "quote": "Yes, thank you, the tooltip one.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Jonas",
+   "quote": "Devil's advocate, enterprise customers like Halden might want to see fixes when they ship.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Pavel",
+   "quote": "Their account managers tell them.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Jonas",
+   "quote": "True. Withdrawn.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "quote": "11 percent and four empty issues, I can't defend that. Approved, the release-notes email goes monthly.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Lena",
+   "quote": "Great, I'll let the content people know and tweak the footer.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Meera",
+   "quote": "Thanks. Anything for sign-off gets to me by tomorrow, please, I mean it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Yuki",
+   "quote": "Does the copy count, or can that-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Meera",
+   "quote": "The copy's coming from me, Yuki, you just review it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Yuki",
+   "quote": "Right, right.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Jonas",
+   "quote": "And Dana in IT, about my seven a.m.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Meera",
+   "quote": "I'll ask her.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Pavel",
+   "quote": "Forty declines.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Jonas",
+   "quote": "Forty-one now.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Meera",
+   "quote": "Okay, thanks everybody.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Meera",
+   "quote": "Okay, five of us again. Thanks for moving this, I know half the calendar's still wrong.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Jonas",
+   "quote": "Half? I got invited to this twice, and one of them's tomorrow.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Pavel",
+   "quote": "Skip that one.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Pavel",
+   "quote": "Forty-one declines.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Jonas",
+   "quote": "Forty-two. Someone in Lisbon joined late.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Pavel",
+   "quote": "In. Yesterday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Pavel",
+   "quote": "Still six months there. Twelve goes in next week.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Meera",
+   "quote": "And Tomas's sheet, yes, you carried it a long way, well done.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Meera",
+   "quote": "Lena, is the 19 percent of all attempts or only EU?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Pavel",
+   "quote": "I can pull it. Processor dashboard.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Jonas",
+   "quote": "The ones in the EU who did get the card out, one in five bounced off that check.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Meera",
+   "quote": "19 percent, so a bit under one in five.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "quote": "A bit under one in five. Who wanted in, typed it all in, and got told no.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Jonas",
+   "quote": "Mine stopped working on Tuesday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Meera",
+   "quote": "Is this about the move?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Pavel",
+   "quote": "It's fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "quote": "Yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Jonas",
+   "quote": "I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Lena",
+   "quote": "There was a nice bit in the facilities email about natural light. I thought that was promising.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Meera",
+   "quote": "I don't know anything about it, and Dana would be the one to ask, though she's got enough on.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Jonas",
+   "quote": "Add it to her list, under my seven a.m.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Yuki",
+   "quote": "I just want to know before I bring my plant in.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Lena",
+   "quote": "Yes, good, I'd like that too.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Lena",
+   "quote": "The 8th, isn't it? I had the 8th in the email.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Meera",
+   "quote": "The 9th. Fix that one, please.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Jonas",
+   "quote": "And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Jonas",
+   "quote": "You went through the list that morning, I remember.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Meera",
+   "quote": "All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Meera",
+   "quote": "Three. Has anyone seen tickets on that failed check, people writing in?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Meera",
+   "quote": "Do that, please, by Monday. Count them, don't describe them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Jonas",
+   "quote": "And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Meera",
+   "quote": "You've just volunteered. Two or three real accounts, names, what they said, by Tuesday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Meera",
+   "quote": "Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Pavel",
+   "quote": "Friday for most. Failures maybe Monday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Meera",
+   "quote": "Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Meera",
+   "quote": "I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Meera",
+   "quote": "Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    110
+   ],
+   "speaker": "Yuki",
+   "quote": "So the card stays on the page for now, fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "Jonas",
+   "quote": "Noted, still under protest, for the record.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    113
+   ],
+   "speaker": "Lena",
+   "quote": "I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    116
+   ],
+   "speaker": "Meera",
+   "quote": "Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "quote": "So that puts the trial question back on the table today, properly, it's open.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "quote": "so I'm saying back to the 14 days, free, no card.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "quote": "Insights goes back to the 14-day free trial with no card required.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Pavel",
+   "quote": "Staging switch flipped back by tomorrow.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Meera",
+   "quote": "I'll redo the page copy today, Yuki reviews it, and it's with Ravi's team Monday",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Pavel",
+   "quote": "Card added goes away.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay, I'll tell them this afternoon.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Meera",
+   "quote": "Priya gets the terms tomorrow with the billing clause out",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Lena",
+   "quote": "It says the 9th now, I checked.",
+   "confidence": 0.9
+  }
+ ]
+}

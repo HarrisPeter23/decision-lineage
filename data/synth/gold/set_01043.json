@@ -1,0 +1,562 @@
+{
+ "set_id": "set_01043",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "HR team",
+  "seed": 1043,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 110
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 109
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 117
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 83
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how often the company runs performance reviews",
+ "options": {
+  "A": "one annual review cycle in December",
+  "B": "two rated review cycles a year, in June and December"
+ },
+ "cast": [
+  {
+   "name": "Mateo",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Chloe",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Camila",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Jonas",
+   "slot": "supporter",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "one annual review cycle in December"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "two rated review cycles a year, in June and December"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "one annual review cycle in December"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Chloe proposes keeping a single annual performance review in December for the whole company.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    30,
+    32
+   ],
+   "gist": "Chloe argues that managers spend about six hours per report on each review and that calibrating 310 employees already takes HR three weeks.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    89
+   ],
+   "gist": "Mateo settles it: performance reviews stay annual, in December.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    18,
+    19
+   ],
+   "gist": "Elif reports that the engagement survey shows 47 percent of staff with under two years of tenure say they do not get feedback often enough, and five of the last eight regretted leavers cited lack of feedback.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Camila objects that one review a year means feedback arrives far too late to be useful.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    44
+   ],
+   "gist": "Camila argues for two rated cycles, in June and December, so that people hear where they stand twice a year and mid-year problems are caught while they can be fixed.",
+   "version": 2,
+   "option_key": "B",
+   "option": "two rated review cycles a year, in June and December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    72
+   ],
+   "gist": "Mateo decides to move to two rated review cycles a year.",
+   "version": 2,
+   "option_key": "B",
+   "option": "two rated review cycles a year, in June and December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Jonas",
+   "utterance_idxs": [
+    14,
+    16
+   ],
+   "gist": "Jonas reports that after the first June cycle HR logged nine hours per manager, calibration ran five weeks instead of three because it collided with promotions, and 22 percent of managers submitted late.",
+   "version": 2,
+   "option_key": "B",
+   "option": "two rated review cycles a year, in June and December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    31,
+    32
+   ],
+   "gist": "Chloe objects that two rated cycles double the load without a real gain, since feedback satisfaction rose only from 53 to 56 percent.",
+   "version": 2,
+   "option_key": "B",
+   "option": "two rated review cycles a year, in June and December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    15
+   ],
+   "gist": "Mateo reopens the review structure at the quarterly people meeting.",
+   "version": 2,
+   "option_key": "B",
+   "option": "two rated review cycles a year, in June and December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    33,
+    34
+   ],
+   "gist": "Chloe argues for going back to one annual review because managers who hold monthly one-on-ones report 71 percent feedback satisfaction whatever the review cycle, so the fix is one-on-ones and the annual cycle can stay at half the load.",
+   "version": 3,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Mateo",
+   "utterance_idxs": [
+    75
+   ],
+   "gist": "Mateo settles it without naming the cycle, by asking Elif to take the December dates to the managers.",
+   "version": 3,
+   "option_key": "A",
+   "option": "one annual review cycle in December",
+   "implicit": true,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01043-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how often the company runs performance reviews?",
+   "answer_text": "one annual review cycle in December",
+   "answer_facts": {
+    "option": "one annual review cycle in December"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01043-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how often the company runs performance reviews?",
+   "answer_text": "meeting 1: Mateo - Mateo settles it: performance reviews stay annual, in December.; meeting 2: Mateo - Mateo decides to move to two rated review cycles a year.; meeting 4: Mateo - Mateo settles it without naming the cycle, by asking Elif to take the December dates to the managers.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "one annual review cycle in December",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "two rated review cycles a year, in June and December",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "one annual review cycle in December",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01043-q03",
+   "type": "as_of",
+   "question": "What was the decision about how often the company runs performance reviews as of the end of meeting 2?",
+   "answer_text": "two rated review cycles a year, in June and December",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "two rated review cycles a year, in June and December"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01043-q04",
+   "type": "as_of",
+   "question": "What was the decision about how often the company runs performance reviews as of the end of meeting 3?",
+   "answer_text": "two rated review cycles a year, in June and December",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "two rated review cycles a year, in June and December"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01043-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how often the company runs performance reviews change over time?",
+   "answer_text": "one annual review cycle in December (from meeting 1) -> two rated review cycles a year, in June and December (from meeting 2) -> one annual review cycle in December (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "one annual review cycle in December",
+     "two rated review cycles a year, in June and December",
+     "one annual review cycle in December"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01043-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about how often the company runs performance reviews change at meeting 2?",
+   "answer_text": "Before: one annual review cycle in December, because Chloe argues that managers spend about six hours per report on each review and that calibrating 310 employees already takes HR three weeks. Triggered by: Elif (evidence): Elif reports that the engagement survey shows 47 percent of staff with under two years of tenure say they do not get feedback often enough, and five of the last eight regretted leavers cited lack of feedback. Camila (challenge): Camila objects that one review a year means feedback arrives far too late to be useful. After: two rated review cycles a year, in June and December, because Camila argues for two rated cycles, in June and December, so that people hear where they stand twice a year and mid-year problems are caught while they can be fixed.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01043-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about how often the company runs performance reviews change at meeting 4?",
+   "answer_text": "Before: two rated review cycles a year, in June and December, because Camila argues for two rated cycles, in June and December, so that people hear where they stand twice a year and mid-year problems are caught while they can be fixed. Triggered by: Jonas (evidence): Jonas reports that after the first June cycle HR logged nine hours per manager, calibration ran five weeks instead of three because it collided with promotions, and 22 percent of managers submitted late. Chloe (challenge): Chloe objects that two rated cycles double the load without a real gain, since feedback satisfaction rose only from 53 to 56 percent. Mateo (reconsideration): Mateo reopens the review structure at the quarterly people meeting. After: one annual review cycle in December, because Chloe argues for going back to one annual review because managers who hold monthly one-on-ones report 71 percent feedback satisfaction whatever the review cycle, so the fix is one-on-ones and the annual cycle can stay at half the load.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01043-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how often the company runs performance reviews?",
+   "answer_text": "Chloe",
+   "answer_facts": {
+    "speaker": "Chloe"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01043-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how often the company runs performance reviews?",
+   "answer_text": "Elif (evidence): Elif reports that the engagement survey shows 47 percent of staff with under two years of tenure say they do not get feedback often enough, and five of the last eight regretted leavers cited lack of feedback. Camila (challenge): Camila objects that one review a year means feedback arrives far too late to be useful. Jonas (evidence): Jonas reports that after the first June cycle HR logged nine hours per manager, calibration ran five weeks instead of three because it collided with promotions, and 22 percent of managers submitted late. Chloe (challenge): Chloe objects that two rated cycles double the load without a real gain, since feedback satisfaction rose only from 53 to 56 percent.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01043-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how often the company runs performance reviews?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01043-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how often the company runs performance reviews from proposal to final outcome.",
+   "answer_text": "meeting 1 - Chloe [proposal]: Chloe proposes keeping a single annual performance review in December for the whole company. | meeting 1 - Chloe [rationale]: Chloe argues that managers spend about six hours per report on each review and that calibrating 310 employees already takes HR three weeks. | meeting 1 - Mateo [resolution]: Mateo settles it: performance reviews stay annual, in December. | meeting 2 - Elif [evidence]: Elif reports that the engagement survey shows 47 percent of staff with under two years of tenure say they do not get feedback often enough, and five of the last eight regretted leavers cited lack of feedback. | meeting 2 - Camila [challenge]: Camila objects that one review a year means feedback arrives far too late to be useful. | meeting 2 - Camila [rationale]: Camila argues for two rated cycles, in June and December, so that people hear where they stand twice a year and mid-year problems are caught while they can be fixed. | meeting 2 - Mateo [resolution]: Mateo decides to move to two rated review cycles a year. | meeting 3 - Jonas [evidence]: Jonas reports that after the first June cycle HR logged nine hours per manager, calibration ran five weeks instead of three because it collided with promotions, and 22 percent of managers submitted late. | meeting 3 - Chloe [challenge]: Chloe objects that two rated cycles double the load without a real gain, since feedback satisfaction rose only from 53 to 56 percent. | meeting 4 - Mateo [reconsideration]: Mateo reopens the review structure at the quarterly people meeting. | meeting 4 - Chloe [rationale]: Chloe argues for going back to one annual review because managers who hold monthly one-on-ones report 71 percent feedback satisfaction whatever the review cycle, so the fix is one-on-ones and the annual cycle can stay at half the load. | meeting 4 - Mateo [resolution]: Mateo settles it without naming the cycle, by asking Elif to take the December dates to the managers.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  }
+ ]
+}

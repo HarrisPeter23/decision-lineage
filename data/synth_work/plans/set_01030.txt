@@ -1,0 +1,14 @@
+set_id: set_01030
+seed: 1030
+arc_type: simple_reversal
+topic: which dashboard tool the analytics team standardises on
+option A: Plotbench, a free self-hosted dashboard tool that runs on SQL queries
+option B: Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month
+beat B1: Greta proposes standardising on Plotbench, the free self-hosted dashboard tool.
+beat B2: Greta argues that it has no licence cost against about 13,400 dollars a year for Lumenboard across 62 viewers, takes about one engineer-day a week to maintain, and the SQL behind the 40 existing dashboards ports straight over.
+beat B3: Pavel settles it: the team standardises on Plotbench.
+beat B4: Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week.
+beat B5: Kofi objects that Plotbench needs SQL for everything, which blocks the 30 non-technical users, and the analyst time being lost is worth more than the licence.
+beat B6: Pavel reopens the dashboard tool decision after another week of requests came in at the same rate.
+beat B7: Kofi argues for Lumenboard because its drag-and-drop builder lets finance and operations build their own charts, which saves about 2.5 analyst-days a week, it is hosted so there is nothing to maintain, and a converter tested on 12 of the 40 dashboards imports their queries.
+beat B8: Pavel gives the go-ahead for Lumenboard without naming it, by asking Aisha to get procurement started on the paperwork.

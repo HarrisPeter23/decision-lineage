@@ -1,0 +1,19 @@
+set_id: set_01032
+seed: 1032
+arc_type: partial_override
+topic: where the billing service's audit events are stored
+option A: an append-only table in the existing relational database, partitioned by month
+option A+M: the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention
+distractor topic: the slow-query alert threshold
+distractor option: raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds
+beat B1: Pavel proposes keeping the billing service's audit events in an append-only table in the existing relational database, partitioned by month.
+beat B2: Pavel argues that it needs no new infrastructure, queries can join straight to invoices, and at 4 million events a month the table grows by only about 3 gigabytes a month.
+beat B3: Sofia settles it: audit events go into a monthly-partitioned table in the existing database.
+beat B4: Priya reports that the auditors require seven years of retention, which at the current growth means about 250 gigabytes, and that this would push the primary's backup window from 40 minutes to 95 minutes within three years, past the 60-minute maintenance window.
+beat B5: Kofi objects that keeping seven years on the primary will break the backup window and slow down the failover tests.
+beat B6: Sofia reopens the storage question in light of the retention requirement.
+beat B7: Bashir argues for keeping the table but exporting closed partitions nightly to object storage and holding only 90 days hot, since seven years in cold storage costs about 5 dollars a month and the auditors confirmed by email that checksummed exports in an open columnar file format are acceptable.
+beat B8: Sofia decides: the partitioned table stays, with 90 days hot and nightly exports of closed partitions to object storage.
+beat D1: Bashir suggests raising the slow-query alert threshold from 200 milliseconds to 500.
+beat D2: Bashir points out that the 200 millisecond threshold fired 63 times last week and 58 of those were the nightly report job.
+beat D3: Sofia approves raising the slow-query alert threshold to 500 milliseconds.

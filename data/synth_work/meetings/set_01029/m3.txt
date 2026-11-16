@@ -1,0 +1,109 @@
+Ravi: Okay, I think we're all here. Kwame, can you hear us?
+Kwame: Yeah, I'm here.
+Ravi: Good. First, the Wednesday pipeline review. That was the first one. How did it feel?
+Kofi: Better, I thought. There were, what, five of us?
+Ravi: Six. Gabor popped in for the forecast bit.
+Kofi: Six, okay. Still more than most Fridays.
+Omar: My CRM sync finished at ten so I was fine. Though it did run long, didn't it?
+Sofia: I think maybe it went past noon? I had to, um, leave for another call.
+Ravi: Ten past twelve. I'll tighten the agenda next week.
+Ravi: Next thing, Klara needs the Manchester dinner choices by Friday. If you've got dietary stuff, tell her directly.
+Omar: There's a place near the station that does a set menu, I could-
+Ravi: Omar, send it to Klara, not to me.
+Omar: Yep, will do.
+Kwame: I'm easy, anything is fine.
+Ravi: Noted. Yara's webinar dry run was yesterday. Omar, you sat in?
+Omar: I did. It was fine, the slides are a bit heavy. Forty-five minutes turned into nearly an hour.
+Kofi: Has the date been locked yet?
+Ravi: Not yet, Yara's still waiting on one of the speakers.
+Kofi: Okay, fair enough.
+Sofia: Um, while we're on admin, the new headset came, finally. No more crackling.
+Ravi: Good. Okay, the routing rule. We parked it last week and I don't want it sitting any longer. So I'm reopening it now, properly, and we come out of this call with an answer. @B6
+Omar: Fine by me.
+Ravi: Sofia, you sent your breakdown on Friday. Walk us through it again, briefly.
+Sofia: Um, so, I think maybe the main thing is the thirty-one double calls weren't the same few accounts. It was twenty-six different ones.
+Ravi: Twenty-six accounts. So not one noisy customer.
+Sofia: Right. And of the five complaints, I think maybe two were on the bigger accounts, the ones that have had a named owner for years.
+Kwame: Which are the ones we can least afford to annoy.
+Ravi: Which two?
+Sofia: I'd have to look up the names. One's in the logistics segment, I know that much.
+Ravi: Send them round later. Omar, did you look at the owner field?
+Omar: I did. So it's wired up fine, the owner's right there on the account record. The rule just never reads it. I poked at it in the sandbox, didn't change anything live.
+Ravi: And?
+Omar: And it's, uh, not as bad as I thought. The rule has a condition step, I can add one that checks the owner.
+Kwame: What about when the owner's away?
+Omar: That's the part I'm still- there's the away toggle again, same one as before. So it could check that.
+Ravi: Could, or does?
+Omar: Could. I haven't tried it with an owner who's actually marked away.
+Ravi: Then I'm not taking that as a given.
+Omar: No, no, fair.
+Omar: Can I say the other side though? The plain rotation is simple. Everybody gets the same share, nobody's sitting on a pile. If we start sending things to owners, Vikram's book is huge and he'll get everything.
+Ravi: Vikram has the biggest book, yes. Roughly a third of the existing accounts, I think.
+Kwame: Closer to a quarter.
+Ravi: I'll check the sheet. Say a quarter to a third.
+Omar: So he gets slammed again, like the old Mondays.
+Sofia: I think maybe that's only the existing customers though? Not the new ones?
+Omar: Right, but a hundred twelve out of six-forty, that's still a lot landing on a few people.
+Ravi: Seventeen percent or so. Not nothing.
+Kwame: And that's two weeks of it.
+Kofi: Can I come in here?
+Ravi: Go ahead, Kofi.
+Kofi: Okay, so, zooming out. The part that's clearly working is the speed on new stuff, forty minutes versus five hours, we shouldn't touch that. So new accounts keep going round the six of us like now. @B7
+Kofi: But a customer who already has someone, that one just goes to their person. Straight to them. And if the person's away, it drops back into the rotation, so nobody's left waiting. @B7
+Kofi: And it's one day of work in the CRM, not a project. So it's cheap for what it fixes. @B7
+Ravi: A day. Omar, is that realistic?
+Omar: Um. Yeah, probably. One day including testing, if the away toggle behaves.
+Ravi: If.
+Omar: I'd try it first with a dummy owner, like I did with the rotation.
+Kwame: That's the version I was asking about in the first place.
+Ravi: You were. Sofia?
+Sofia: I think maybe it's reasonable? The owner knows the customer, so, um, the second call just goes away.
+Omar: But Vikram.
+Kofi: Vikram's customers calling Vikram. That's not a problem, that's his book.
+Omar: It's the volume I'm thinking about. If he's out a week and it all dumps back into the rotation, fine, but when he's in-
+Ravi: When he's in, he handles the forms from his own accounts. That's what owning an account means.
+Omar: Yeah. Okay. I just wanted it said.
+Ravi: It's said. Kwame, anything?
+Kwame: No. I'm fine with that. Customers get one call.
+Ravi: Right. Then here's where I land. New accounts stay in the rotation across all six of you, and any lead from an account that has an owner goes to that owner. Omar, build that. @B8
+Omar: Okay. When do you want it?
+Ravi: How soon can you have it?
+Omar: Thursday, probably. I'll test Wednesday.
+Ravi: Fine. Early morning flip again, before nine, and you stay on it.
+Omar: Eight, yeah.
+Ravi: Marisol needs to know, since the queue will look different to her.
+Omar: I'll message her today.
+Kwame: Will she still see all of it?
+Omar: She will, same as before.
+Sofia: Should I still send the names of the two complaint accounts?
+Ravi: Yes, to the group, by tomorrow.
+Sofia: Okay. I think maybe I'll also add which rep made the second call?
+Ravi: Useful, yes.
+Kofi: Should I tell my accounts anything?
+Ravi: Your accounts' forms will come straight to you now, Kofi. So answer them.
+Kofi: Oh, right. Yeah, I'll watch my queue.
+Ravi: I'll write two lines to the group today so everyone knows what changes.
+Omar: Do you want me to draft it?
+Ravi: No, I'll do it.
+Kwame: One thing. I asked Sergei about the laptop refresh.
+Ravi: And?
+Kwame: He says November, but not the first batch. Probably us in the second.
+Ravi: Do we know which week?
+Kwame: He didn't say. Mid-month maybe.
+Sofia: I think maybe I should back up my files before? Last time I lost my bookmarks.
+Omar: There's a sync thing, it should handle most-
+Ravi: Sergei will send instructions. Don't back anything up yourself yet.
+Sofia: Okay.
+Kofi: Is the offsite still Wednesday to Friday?
+Ravi: Tuesday to Thursday. Check Klara's email.
+Kofi: Tuesday. Right, sorry.
+Omar: Trains to Manchester are cheaper if we book this week, by the way.
+Ravi: Klara's handling travel. Don't book yourselves.
+Omar: Oh. Okay, I'll hold off.
+Sofia: Does she need the dietary stuff today or Friday?
+Ravi: Friday.
+Kwame: Mine's already done.
+Ravi: Good. Anyone else? I need to get to another call.
+Omar: Nothing from me.
+Kofi: Nope.
+Ravi: Thanks all, speak next week.

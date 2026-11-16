@@ -1,0 +1,419 @@
+{
+ "set_id": "set_01036",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "IT and security team",
+  "seed": 1036,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 89
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 79
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 88
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the second factor used for staff sign-in",
+ "options": {
+  "A": "one-time codes sent by text message",
+  "B": "hardware security keys issued to every employee"
+ },
+ "cast": [
+  {
+   "name": "Amara",
+   "slot": "manager",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Wei",
+   "slot": "proposer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Lena",
+   "slot": "challenger",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Mateo",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Sven",
+   "slot": "observer",
+   "style": "detail-oriented, quotes numbers"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "one-time codes sent by text message"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "hardware security keys issued to every employee"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    17
+   ],
+   "gist": "Wei proposes using one-time codes sent by text message as the second sign-in factor for staff.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    22,
+    23
+   ],
+   "gist": "Wei argues that it needs no hardware for the 220 staff, can roll out in a week, and the helpdesk estimates about 15 tickets a week while people adjust.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    66
+   ],
+   "gist": "Amara settles it: staff sign-in uses text-message codes.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    12
+   ],
+   "gist": "Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    26
+   ],
+   "gist": "Lena objects that text-message codes are exactly what the attacker captured and the company cannot defend keeping them.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "Amara reopens the sign-in method after the incident review.",
+   "version": 1,
+   "option_key": "A",
+   "option": "one-time codes sent by text message",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    24
+   ],
+   "gist": "Lena argues for hardware keys because they resist phishing and number takeovers, cost about 28 dollars each or 6,160 for 220 people, and a 15-person pilot produced no support tickets.",
+   "version": 2,
+   "option_key": "B",
+   "option": "hardware security keys issued to every employee",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    73
+   ],
+   "gist": "Amara gives the go-ahead for the keys without naming them, by asking Mateo to order and book the team setup sessions.",
+   "version": 2,
+   "option_key": "B",
+   "option": "hardware security keys issued to every employee",
+   "implicit": true,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01036-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the second factor used for staff sign-in?",
+   "answer_text": "hardware security keys issued to every employee",
+   "answer_facts": {
+    "option": "hardware security keys issued to every employee"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01036-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the second factor used for staff sign-in?",
+   "answer_text": "meeting 1: Amara - Amara settles it: staff sign-in uses text-message codes.; meeting 3: Amara - Amara gives the go-ahead for the keys without naming them, by asking Mateo to order and book the team setup sessions.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "one-time codes sent by text message",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "hardware security keys issued to every employee",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01036-q03",
+   "type": "as_of",
+   "question": "What was the decision about the second factor used for staff sign-in as of the end of meeting 1?",
+   "answer_text": "one-time codes sent by text message",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "one-time codes sent by text message"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01036-q04",
+   "type": "as_of",
+   "question": "What was the decision about the second factor used for staff sign-in as of the end of meeting 2?",
+   "answer_text": "one-time codes sent by text message",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "one-time codes sent by text message"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01036-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the second factor used for staff sign-in change over time?",
+   "answer_text": "one-time codes sent by text message (from meeting 1) -> hardware security keys issued to every employee (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "one-time codes sent by text message",
+     "hardware security keys issued to every employee"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01036-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the second factor used for staff sign-in changed?",
+   "answer_text": "Before: one-time codes sent by text message, because Wei argues that it needs no hardware for the 220 staff, can roll out in a week, and the helpdesk estimates about 15 tickets a week while people adjust. Triggered by: Sven (evidence): Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes. Lena (challenge): Lena objects that text-message codes are exactly what the attacker captured and the company cannot defend keeping them. Amara (reconsideration): Amara reopens the sign-in method after the incident review. After: hardware security keys issued to every employee, because Lena argues for hardware keys because they resist phishing and number takeovers, cost about 28 dollars each or 6,160 for 220 people, and a 15-person pilot produced no support tickets.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01036-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the second factor used for staff sign-in?",
+   "answer_text": "Wei",
+   "answer_facts": {
+    "speaker": "Wei"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01036-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the second factor used for staff sign-in?",
+   "answer_text": "Sven (evidence): Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes. Lena (challenge): Lena objects that text-message codes are exactly what the attacker captured and the company cannot defend keeping them.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01036-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the second factor used for staff sign-in?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01036-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the second factor used for staff sign-in from proposal to final outcome.",
+   "answer_text": "meeting 1 - Wei [proposal]: Wei proposes using one-time codes sent by text message as the second sign-in factor for staff. | meeting 1 - Wei [rationale]: Wei argues that it needs no hardware for the 220 staff, can roll out in a week, and the helpdesk estimates about 15 tickets a week while people adjust. | meeting 1 - Amara [resolution]: Amara settles it: staff sign-in uses text-message codes. | meeting 2 - Sven [evidence]: Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes. | meeting 2 - Lena [challenge]: Lena objects that text-message codes are exactly what the attacker captured and the company cannot defend keeping them. | meeting 3 - Amara [reconsideration]: Amara reopens the sign-in method after the incident review. | meeting 3 - Lena [rationale]: Lena argues for hardware keys because they resist phishing and number takeovers, cost about 28 dollars each or 6,160 for 220 people, and a 15-person pilot produced no support tickets. | meeting 3 - Amara [resolution]: Amara gives the go-ahead for the keys without naming them, by asking Mateo to order and book the team setup sessions.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

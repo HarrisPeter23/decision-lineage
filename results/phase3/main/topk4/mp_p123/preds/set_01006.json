@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01006",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "quote": "I think we go with Swiftline Freight",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tomas",
+   "quote": "We sign with Swiftline Freight.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "quote": "they're cheapest per pallet, and they cover all twelve regional stores",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Meera",
+   "quote": "Do we have a better option on the table? Because I don't.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tomas",
+   "quote": "Do that",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tomas",
+   "quote": "I don't want to decide this in the room",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Tomas",
+   "quote": "Next week",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Tomas",
+   "quote": "Yes, ask what's going on",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tomas",
+   "quote": "we have to talk about the vendor again",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tomas",
+   "quote": "We're switching to Dalmar Logistics.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Aisha",
+   "quote": "Can I make the case for Dalmar? I looked into them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "quote": "I called them. They said they're adding drivers.",
+   "confidence": 0.85
+  }
+ ]
+}

@@ -1,0 +1,2141 @@
+{
+ "set_id": "dev_k10_01",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.6,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Priya",
+   "confidence": 0.6,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Choosing a replenishment vendor for the regions",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "Replenishment vendor performance evaluation",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "Replenishment vendor performance evaluation",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "Replenishment vendor performance evaluation",
+   "option": "Swiftline Freight"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "Replenishment vendor performance evaluation",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Meera",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.95,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Meera",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Dalmar"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Priya",
+   "confidence": 0.85,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.9,
+   "decision": "reopening the decision on Swiftline",
+   "option": "Swiftline"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Arjun",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.95,
+   "decision": "restocking method for Leeds depot",
+   "option": "Northway Haulage consolidated van run"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": "Brackenfield daily"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": "Brackenfield daily"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "restocking method for Leeds depot",
+   "option": "Brackenfield daily"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "confidence": 0.6,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Updating the rota for Saturday cover",
+   "option": "Changes to Saturday cover at Leeds and Hull"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Updating the rota for Saturday cover",
+   "option": "Changes to Saturday cover at Leeds and Hull"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Replenishment vendor pricing and lead time",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Replenishment vendor pricing and lead time",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Replenishment vendor pricing and lead time",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Replenishment vendor lead time",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Replenishment vendor lead time",
+   "option": "Duran Scan handheld scanners"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Replenishment vendor quantity",
+   "option": "Fewer units"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Replenishment vendor quantity",
+   "option": "Fewer units"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Replenishment vendor quantity",
+   "option": "Fewer units"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.95,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "challenge",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Scanning app on existing devices"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "proposal",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Implementing scanning method",
+   "option": "Leeds and Hull first"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Leeds and Hull first"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Leeds and Hull first"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Video for training"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Gloves for cold room"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing scanning method",
+   "option": "Budget approval"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "month to month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "month to month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "month to month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "renewal"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "renewal"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "renewal"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "renewal"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "renewal"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Camila",
+   "confidence": 0.95,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "choosing the date for the team offsite",
+   "option": "twentieth"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "choosing the date for the team offsite",
+   "option": "twentieth"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "choosing the date for the team offsite",
+   "option": "twentieth"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Sven",
+   "confidence": 0.95,
+   "decision": "choosing the date for the team offsite",
+   "option": "twentieth"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "choosing the date for the team offsite",
+   "option": "twentieth"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Camila",
+   "confidence": 0.95,
+   "decision": "adding Tadeusz to the headcount for the team offsite",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "adding Tadeusz to the headcount for the team offsite",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Camila",
+   "confidence": 0.95,
+   "decision": "adding Tadeusz to the headcount for the team offsite",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "setting Tadeusz's on-call schedule",
+   "option": "January"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "setting Tadeusz's on-call schedule",
+   "option": "January"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "setting Tadeusz's on-call schedule",
+   "option": "January"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Sven",
+   "confidence": 0.95,
+   "decision": "pairing Tadeusz with Sven for the networking layer",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "pairing Tadeusz with Sven for the networking layer",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Sven",
+   "confidence": 0.95,
+   "decision": "pairing Tadeusz with Sven for the networking layer",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "pairing Tadeusz with Sven for the networking layer",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "pairing Tadeusz with Sven for the networking layer",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "Tadeusz's onboarding progress",
+   "option": "fine"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "Tadeusz's onboarding progress",
+   "option": "fine"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "pay-per-use from next month"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "twenty-seven hundred a month"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "year at nine hundred"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "new schedule applies to everyone"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "volume thing"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "volume would jump around"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "volume was flat"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "six weeks, two people"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "more than six weeks"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "audience groups not in provider"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "four weeks, two engineers"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "four weeks, two engineers"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "day a week of who"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "whoever's on it"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "it would be me"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "it would not always be you"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "save two thousand something a month"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "five months"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "platforms' own services"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "tokens we already store"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "tokens we already store"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "upkeep"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "upkeep"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "checkout rework"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "checkout rework"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "four weeks"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "four weeks"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "she'll want a date"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "she'll get a date"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "contract let us out of anything"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "ask Sanne to send over the actual terms"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "Sanne's going to be thrilled"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "Sanne emails us enough"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "Sanne emailed me again"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "laptop"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Push provider contract renewal",
+   "option": "old one"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "building our own sending service"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "building our own sending service"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "building our own sending service"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "building our own sending service"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Push provider contract renewal",
+   "option": "building our own sending service"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Team offsite venue",
+   "option": "quotes came through"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Team offsite venue",
+   "option": "co-working one's a lot cheaper"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Team offsite venue",
+   "option": "co-working one's a lot cheaper"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "Team offsite venue",
+   "option": "co-working one's a lot cheaper"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Estimating time for the push system implementation",
+   "option": "four weeks"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Estimating time for the push system implementation",
+   "option": "four to five weeks"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Estimating time for the push system implementation",
+   "option": "four to five weeks"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Communicating timeline to Thandi",
+   "option": "end of the year, loosely"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Including token cleanup in the push system plan",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Including token cleanup in the push system plan",
+   "option": "add a rough number"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Addressing delivery reports for marketing",
+   "option": "Pavel will talk to Sunita"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Fixing the login button issue on Android",
+   "option": "fix it"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Ensuring opt-in path remains unchanged",
+   "option": "write it down"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Confirming offsite date",
+   "option": "twentieth of January"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "Booking flights for the offsite",
+   "option": "book today"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Confirming co-working space deposit",
+   "option": "send the number to Davor"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Considering food for the offsite",
+   "option": "can wait"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Assigning ownership of the push system",
+   "option": "leave blank for now"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Setting up staging for the queue",
+   "option": "ask Thandi"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Sana",
+   "confidence": 0.9,
+   "decision": "Setting up test device accounts",
+   "option": "add to the list"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Reviewing cost estimates",
+   "option": "send it over when ready"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01023",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Camila",
+   "quote": "We should use the approval module that comes with the ERP we already have.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Camila",
+   "quote": "It's priced, yeah, eleven thousand a year. But hold on, that's the part-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Camila",
+   "quote": "It's not, but let me finish. We're already licensed for the platform, so there's no new vendor, no new contract, nothing to onboard.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Camila",
+   "quote": "And configuring it is about two weeks, they said. Two weeks of setup. There's no data migration, because the vendors and the GL codes are already sitting in there.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Aisha",
+   "quote": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract.",
+   "confidence": 0.98
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Aisha",
+   "quote": "No. And I don't think we can sign for the bundled module knowing that it will no longer be supported after December and will have no security patches. So I think maybe we need to open the question again and look at what else is out there.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Aisha",
+   "quote": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ravi",
+   "quote": "So what are we looking at? The other one, the one with the capture feature?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Aisha",
+   "quote": "They offered two. Um, the Tuesday and the Thursday after next. I think maybe Thursday is better because of the close.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Camila",
+   "quote": "Thursday's fine with me. As long as it's the afternoon, I have the, the thing with the auditors in the morning.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Aisha",
+   "quote": "So Thursday afternoon then, for that. I'll confirm with them. Um, Camila, you sent me your questions, thank you.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Aisha",
+   "quote": "Not a formal one, no. But he didn't, he didn't seem against it.",
+   "confidence": 0.9
+  }
+ ]
+}

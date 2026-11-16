@@ -1,0 +1,426 @@
+{
+ "set_id": "set_01012",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, um, I think we have, maybe, two things? Scanning at deliveries and the, the rota.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "quote": "the thing with receiving stock is, it's all clipboards still, right?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "quote": "I think we get proper dedicated handheld scanners, three for each store.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "quote": "Quote was about nine hundred each, I think, last time I looked.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Noor",
+   "quote": "Spring.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Noor",
+   "quote": "Handhelds beat everything else for speed, they're rugged so they survive being dropped, the battery lasts a whole shift, and the warehouse people already know how to use the old ones, so training is nothing.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "quote": "Fine. Do they cost more now?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Greta",
+   "quote": "Find out.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "quote": "I think, maybe, that's, um, reasonable? Do we decide today?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Henrik",
+   "quote": "I'd want the current quote first.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kofi",
+   "quote": "Yes, I think that's wise. Let's not decide today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Noor",
+   "quote": "But the clipboards are-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "quote": "I know. I know. We'll decide when we have the quote.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Kofi",
+   "quote": "Can you ask for it this week?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Noor",
+   "quote": "Yes, today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Greta",
+   "quote": "Rota?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Kofi",
+   "quote": "Right, the rota. I think, maybe, Priya, you had the changes?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Priya",
+   "quote": "Um. Yes. Only two changes. Saturday cover at Leeds and Hull.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, that seems fine?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Greta",
+   "quote": "Fine. Done.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "quote": "We could get fewer units, one per store, twelve",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "quote": "Can I propose something? Let's put a scanning app on the tablets and phones we already have in the stores",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Henrik",
+   "quote": "Yes, by Monday",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Noor",
+   "quote": "I'll time a delivery",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "quote": "Okay, so, both one-pagers are in. I read them last night. Let me, um, say where I am. The handhelds are faster, I accept that. But forty-one thousand, ten weeks, and, I mean, they wouldn't be here for the peak. The app is usable now. So I think, yes, we go with the scanning app on the tablets and phones we already have.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "quote": "My timing: six and a half minutes extra per delivery. Henrik was right.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "quote": "Six minutes. Fine.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Priya",
+   "quote": "Which stores first?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kofi",
+   "quote": "Leeds again? Since they've done it.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "quote": "Leeds and Hull, then the rest over three weeks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "quote": "Training?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "quote": "Ten minutes a person. I'll write a card.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Noor",
+   "quote": "I could do a video, I made one for, um, the cold chain thing, anyway-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "quote": "Yes, do the video.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "quote": "Okay! Great.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Priya",
+   "quote": "Gloves?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "quote": "Cold room people can use a phone with touch gloves. They're a few dollars.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "quote": "Buy those.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Henrik",
+   "quote": "Will do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Greta",
+   "quote": "Budget?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Henrik",
+   "quote": "Thirty-five hundred a year, plus gloves.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Kofi",
+   "quote": "Great.",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Shared drive cleanup",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Marco",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      5
+     ]
+    },
+    {
+     "value": "done",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Shared drive cleanup",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "end of week",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Quarterly swag order",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Swag supplier",
+   "attribute": "name",
+   "states": [
+    {
+     "value": "Brightwell",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      48
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-03-04",
+       "evidence": [
+        8,
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Swag order",
+   "attribute": "pens follow-up",
+   "states": [
+    {
+     "value": "Sven to chase",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Customer conference",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "Prague",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      24
+     ]
+    },
+    {
+     "value": "in-person only (same hall, same two days, same three hundred seats)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Customer conference",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "October",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      23
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Customer conference",
+   "attribute": "number of attendees",
+   "states": [
+    {
+     "value": "around 300",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      23
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Customer conference",
+   "attribute": "hotel block",
+   "states": [
+    {
+     "value": "handled by venue",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      88
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Customer conference",
+   "attribute": "contract deadline",
+   "states": [
+    {
+     "value": "before Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Customer conference",
+   "attribute": "legal review",
+   "states": [
+    {
+     "value": "required",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Swag order",
+   "attribute": "notebook design",
+   "states": [
+    {
+     "value": "new logo on green",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Customer conference",
+   "attribute": "invite list",
+   "states": [
+    {
+     "value": "Yuki to start",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      103
+     ]
+    },
+    {
+     "value": "to check with account managers",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Customer conference",
+   "attribute": "invite list source",
+   "states": [
+    {
+     "value": "last year's attendees",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-02-18",
+     "evidence": [
+      104
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Pen date",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "14 March 2025",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      3,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Conference registration",
+   "attribute": "current count",
+   "states": [
+    {
+     "value": "210",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Conference registration export",
+   "attribute": "distribution",
+   "states": [
+    {
+     "value": "to be sent to everyone",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Hotel rooming estimate",
+   "attribute": "response",
+   "states": [
+    {
+     "value": "to be provided by Henrik",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-25",
+     "evidence": [
+      83
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Oksana's badge proof",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "request to make names bigger",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Ticketing",
+   "attribute": "responsibility",
+   "states": [
+    {
+     "value": "organizers",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      35
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Ticketing",
+   "attribute": "stream content",
+   "states": [
+    {
+     "value": "main stage only (no breakouts, no booths, no hallway)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      58
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Prague conference",
+   "attribute": "livestream",
+   "states": [
+    {
+     "value": "main stage for ticket holders",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Prague conference",
+   "attribute": "livestream action",
+   "states": [
+    {
+     "value": "notify AV people today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Prague conference",
+   "attribute": "sponsor notification",
+   "states": [
+    {
+     "value": "not today, to be discussed later",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-03-04",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S12",
+   0,
+   1,
+   2
+  ],
+  [
+   "S0",
+   0,
+   1,
+   3
+  ],
+  [
+   "S5",
+   0,
+   1,
+   3
+  ]
+ ]
+}

@@ -1,0 +1,42 @@
+[{"stream_name":"stdout","time":0.942560269,"data":"21:04:52 prompts 406\n"}
+,{"stream_name":"stdout","time":12.885574749,"data":"21:05:04 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 64.deb ...\n"}
+,{"stream_name":"stdout","time":12.88561127,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":12.885617025,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":12.885621907,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":12.885626869,"data":" 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":12.885631786,"data":"\n"}
+,{"stream_name":"stdout","time":23.6093354,"data":"21:05:14 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":23.609364065,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":23.609367784,"data":"  Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":23.609370286,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":23.609373125,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":23.60937565,"data":"\n"}
+,{"stream_name":"stdout","time":79.589474196,"data":"21:06:10 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull granite4.2:8b rc 0  d86276ca46ac: 100% ▕██████████████████▏  417 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":79.58952239,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":79.589541153,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":79.589546961,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":79.589552386,"data":"\n"}
+,{"stream_name":"stdout","time":189.670062832,"data":"21:08:00 25 judged\n"}
+,{"stream_name":"stdout","time":211.512948318,"data":"21:08:22 50 judged\n"}
+,{"stream_name":"stdout","time":236.912044936,"data":"21:08:48 75 judged\n"}
+,{"stream_name":"stdout","time":262.640446711,"data":"21:09:13 100 judged\n"}
+,{"stream_name":"stdout","time":283.125831232,"data":"21:09:34 125 judged\n"}
+,{"stream_name":"stdout","time":306.91968209,"data":"21:09:58 150 judged\n"}
+,{"stream_name":"stdout","time":330.984030656,"data":"21:10:22 175 judged\n"}
+,{"stream_name":"stdout","time":354.506259544,"data":"21:10:45 200 judged\n"}
+,{"stream_name":"stdout","time":381.519994653,"data":"21:11:12 225 judged\n"}
+,{"stream_name":"stdout","time":406.430827151,"data":"21:11:37 250 judged\n"}
+,{"stream_name":"stdout","time":433.830813852,"data":"21:12:04 275 judged\n"}
+,{"stream_name":"stdout","time":458.553673905,"data":"21:12:29 300 judged\n"}
+,{"stream_name":"stdout","time":484.488791809,"data":"21:12:55 325 judged\n"}
+,{"stream_name":"stdout","time":510.114344056,"data":"21:13:21 350 judged\n"}
+,{"stream_name":"stdout","time":551.865432753,"data":"21:14:02 375 judged\n"}
+,{"stream_name":"stdout","time":608.22176444,"data":"21:14:59 400 judged\n"}
+,{"stream_name":"stdout","time":621.036378452,"data":"21:15:12 DONE 406 in 454 s\n"}
+,{"stream_name":"stderr","time":623.859731504,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":623.859758399,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":624.250965539,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":624.251006214,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":626.277878038,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":627.330510793,"data":"[NbConvertApp] Writing 506921 bytes to __results__.html\n"}
+]

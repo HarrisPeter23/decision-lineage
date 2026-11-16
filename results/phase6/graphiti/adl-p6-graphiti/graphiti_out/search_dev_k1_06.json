@@ -1,0 +1,1382 @@
+[
+ {
+  "qid": "set_01003-q01",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "852ce578-9a54-4216-987d-fbe0f208fcd5",
+    "name": "DECIDED_TO_USE_MATERIAL",
+    "fact": "Tariq decided to use Norvik's vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q02",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b690eb15-84ab-44f5-96f8-a105159ff9f8",
+    "name": "CAN_PERFORM",
+    "fact": "Norvik can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q03",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b690eb15-84ab-44f5-96f8-a105159ff9f8",
+    "name": "CAN_PERFORM",
+    "fact": "Norvik can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0e911e1b-eb0d-4214-ac3f-dde416beda01",
+    "name": "POTENTIAL_DELAY_IMPACT",
+    "fact": "Elif mentioned that a two-day delay in furniture delivery would hurt because of the move-in date.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997666+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q04",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b690eb15-84ab-44f5-96f8-a105159ff9f8",
+    "name": "CAN_PERFORM",
+    "fact": "Norvik can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "7b5c357b-2f6a-4318-8866-7b7c2ce8d69d",
+    "name": "SPECIFIED_FEATURE",
+    "fact": "Tariq specified that the seams of the Norvik vinyl plank flooring should be heat-sealed.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q05",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0e911e1b-eb0d-4214-ac3f-dde416beda01",
+    "name": "POTENTIAL_DELAY_IMPACT",
+    "fact": "Elif mentioned that a two-day delay in furniture delivery would hurt because of the move-in date.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997666+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q06",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0e911e1b-eb0d-4214-ac3f-dde416beda01",
+    "name": "POTENTIAL_DELAY_IMPACT",
+    "fact": "Elif mentioned that a two-day delay in furniture delivery would hurt because of the move-in date.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997666+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q07",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b690eb15-84ab-44f5-96f8-a105159ff9f8",
+    "name": "CAN_PERFORM",
+    "fact": "Norvik can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q08",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9993fc5d-097e-4d96-8f7e-0057cc7ceb1a",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to the dishwasher, noting that a leak could cause issues with the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5474085e-a8d2-4819-8917-86843e266f01",
+    "name": "CONTACTED_SUPPLIER",
+    "fact": "Mateo contacted Norvik to confirm that they can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q09",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa3c638a-6f8f-44d2-bc7e-8410f5590edd",
+    "name": "PLACED_ORDER",
+    "fact": "Tariq placed the order for the Norvik vinyl plank flooring with heat-sealed seams and a ceramic tile band across the pantry and entrance.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40979fa1-4f89-4d32-a724-a273071b2814",
+    "name": "NEEDS_FLOOR_SIGNED_OFF_BY",
+    "fact": "Tariq mentioned that finance wants the floor signed off before the lease incentive ends.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5474085e-a8d2-4819-8917-86843e266f01",
+    "name": "CONTACTED_SUPPLIER",
+    "fact": "Mateo contacted Norvik to confirm that they can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01003-q10",
+  "facts": [
+   {
+    "uuid": "81adb62c-1ab4-4de3-8a8a-6ef0df6ef716",
+    "name": "DECIDING_ON_FLOORING_FOR",
+    "fact": "Tariq is deciding on flooring for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde",
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997625+00:00"
+   },
+   {
+    "uuid": "0e3d587d-3dc2-4e7f-a91f-be720680ba70",
+    "name": "RECOMMENDED_MATERIAL",
+    "fact": "Mateo recommended luxury vinyl plank for the Level 4 fit-out.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997707+00:00"
+   },
+   {
+    "uuid": "434d4420-026e-4302-9bc6-51f0f7e52325",
+    "name": "PROVIDED_INFORMATION",
+    "fact": "Mateo provided information for the flooring line as part of the budget revisions.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6385cbdb-d349-4c66-a3ef-2cba3d13f3a5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to the luxury vinyl plank, noting that it was chosen for the Level 4 fit-out.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997630+00:00"
+   },
+   {
+    "uuid": "e1856c40-8241-49f8-9203-8e9318f10b2a",
+    "name": "INSTRUCTED",
+    "fact": "Tariq instructed Mateo to hold the order for the flooring.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997715+00:00"
+   },
+   {
+    "uuid": "c430f6f2-b313-4cbc-bcf2-4eb6a0778ab5",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Level 2, noting that Norvik delivered the thing for the Level 2 floor on time.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5456fdef-1b6d-4618-b745-73cb0525901e",
+    "name": "SUPPLIER_DELIVERED_PREVIOUSLY",
+    "fact": "Mateo mentioned that Norvik Supply delivered the Level 2 floor on time.",
+    "episodes": [
+     "6e0a5539-75da-4083-97c5-6da771414fde"
+    ],
+    "valid_at": "2025-02-19T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997698+00:00"
+   },
+   {
+    "uuid": "c08efb4b-01c0-4599-9dfa-c1b8fa387b78",
+    "name": "REQUESTED",
+    "fact": "Tariq requested Mateo's numbers for the flooring line.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997709+00:00"
+   },
+   {
+    "uuid": "35e26a38-712e-4edc-8f90-9c1e5cdb6016",
+    "name": "REFERRED_TO",
+    "fact": "Tariq referred to Norvik Supply, noting that the flooring is from Norvik Supply.",
+    "episodes": [
+     "11698aad-08f8-4873-9507-379ec60f0345"
+    ],
+    "valid_at": "2025-02-26T00:00:00+00:00",
+    "invalid_at": "2025-03-05T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:08:43.997721+00:00"
+   },
+   {
+    "uuid": "b690eb15-84ab-44f5-96f8-a105159ff9f8",
+    "name": "CAN_PERFORM",
+    "fact": "Norvik can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5474085e-a8d2-4819-8917-86843e266f01",
+    "name": "CONTACTED_SUPPLIER",
+    "fact": "Mateo contacted Norvik to confirm that they can heat-weld the seams of the vinyl plank flooring at the factory.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "519df551-558d-4093-be76-0466a47da6f8",
+    "name": "SUPPLIES_MATERIAL",
+    "fact": "Norvik supplies the vinyl plank flooring.",
+    "episodes": [
+     "94052d9e-a29f-49d6-9fd6-a5980fb40177"
+    ],
+    "valid_at": "2025-03-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

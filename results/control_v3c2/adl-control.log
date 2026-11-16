@@ -1,0 +1,57 @@
+[{"stream_name":"stdout","time":13.084741177,"data":"16:50:34 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 aring to unpack .../zstd_1.5.5+dfsg2-2build1.1_amd64.deb ...\n"}
+,{"stream_name":"stdout","time":13.084780026,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.084784228,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.084786772,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":13.08478938,"data":" eveloper.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.\n"}
+,{"stream_name":"stdout","time":13.084793181,"data":"\n"}
+,{"stream_name":"stdout","time":76.194285798,"data":"16:51:37 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":76.194316323,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":76.19432217,"data":" ...\n"}
+,{"stream_name":"stdout","time":76.194326961,"data":"\u003e\u003e\u003e Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":76.194331976,"data":"\u003e\u003e\u003e Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":76.194336472,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":76.194341145,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":76.194345812,"data":"\n"}
+,{"stream_name":"stdout","time":146.539188529,"data":"16:52:47 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull mistral-nemo:12b rc 0  ████ ▏ 7.1 GB/7.1 GB   12 MB/s      0s\u001b[K\n"}
+,{"stream_name":"stdout","time":146.539222477,"data":"pulling 65d37de20e59: 100% ▕██████████████████▏  486 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":146.539228856,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":146.539233688,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":146.539238178,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":146.539243213,"data":"\n"}
+,{"stream_name":"stdout","time":206.858569286,"data":"/kaggle/work/w/specs/set_01060/m1.md\n"}
+,{"stream_name":"stdout","time":206.858612742,"data":"/kaggle/work/w/specs/set_01061/m1.md\n"}
+,{"stream_name":"stdout","time":456.290596436,"data":"16:57:57 set_01061 m1 try1 1 problems 249.4 s\n"}
+,{"stream_name":"stdout","time":609.406399217,"data":"17:00:30 set_01060 m1 try1 5 problems 402.5 s\n"}
+,{"stream_name":"stdout","time":851.294923293,"data":"17:04:32 set_01061 m1 try2 10 problems 395.0 s\n"}
+,{"stream_name":"stdout","time":955.213027324,"data":"17:06:16 set_01060 m1 try2 8 problems 345.8 s\n"}
+,{"stream_name":"stdout","time":1153.453933335,"data":"17:09:34 set_01061 m1 try3 7 problems 302.2 s\n"}
+,{"stream_name":"stdout","time":1267.997097957,"data":"17:11:28 set_01060 m1 try3 4 problems 312.8 s\n"}
+,{"stream_name":"stdout","time":1408.245810286,"data":"17:13:49 set_01061 m1 try4 1 problems 254.8 s\n"}
+,{"stream_name":"stdout","time":1408.248979738,"data":"/kaggle/work/w/specs/set_01061/m2.md\n"}
+,{"stream_name":"stdout","time":1578.016830821,"data":"17:16:39 set_01060 m1 try4 10 problems 310.0 s\n"}
+,{"stream_name":"stdout","time":1578.018303327,"data":"/kaggle/work/w/specs/set_01060/m2.md\n"}
+,{"stream_name":"stdout","time":1743.656845689,"data":"17:19:24 set_01061 m2 try1 1 problems 335.4 s\n"}
+,{"stream_name":"stdout","time":1968.254242394,"data":"17:23:09 set_01060 m2 try1 11 problems 390.2 s\n"}
+,{"stream_name":"stdout","time":2307.910918234,"data":"17:28:48 set_01060 m2 try2 10 problems 339.7 s\n"}
+,{"stream_name":"stdout","time":2323.459891372,"data":"17:29:04 set_01061 m2 try2 10 problems 579.8 s\n"}
+,{"stream_name":"stdout","time":2634.851604471,"data":"17:34:15 set_01060 m2 try3 8 problems 326.9 s\n"}
+,{"stream_name":"stdout","time":2875.628906113,"data":"17:38:16 set_01061 m2 try3 11 problems 552.2 s\n"}
+,{"stream_name":"stdout","time":3005.562758423,"data":"17:40:26 set_01060 m2 try4 8 problems 370.7 s\n"}
+,{"stream_name":"stdout","time":3005.56550611,"data":"/kaggle/work/w/specs/set_01060/m3.md\n"}
+,{"stream_name":"stdout","time":3419.135237956,"data":"17:47:20 set_01060 m3 try1 7 problems 413.6 s\n"}
+,{"stream_name":"stdout","time":3492.32851537,"data":"17:48:33 set_01061 m2 try4 8 problems 616.7 s\n"}
+,{"stream_name":"stdout","time":3492.330081221,"data":"/kaggle/work/w/specs/set_01061/m3.md\n"}
+,{"stream_name":"stdout","time":3784.61879401,"data":"17:53:25 set_01061 m3 try1 7 problems 292.3 s\n"}
+,{"stream_name":"stdout","time":3843.169274105,"data":"17:54:24 set_01060 m3 try2 13 problems 424.0 s\n"}
+,{"stream_name":"stdout","time":3993.339986437,"data":"17:56:54 set_01061 m3 try2 4 problems 208.7 s\n"}
+,{"stream_name":"stdout","time":4256.106165591,"data":"18:01:17 set_01061 m3 try3 5 problems 262.8 s\n"}
+,{"stream_name":"stdout","time":4285.990702158,"data":"18:01:46 set_01060 m3 try3 11 problems 442.8 s\n"}
+,{"stream_name":"stdout","time":4546.690797151,"data":"18:06:07 set_01061 m3 try4 11 problems 290.6 s\n"}
+,{"stream_name":"stdout","time":4546.692457035,"data":"/kaggle/work/w/specs/set_01064/m1.md\n"}
+,{"stream_name":"stdout","time":4711.421056211,"data":"18:08:52 set_01060 m3 try4 12 problems 425.4 s\n"}
+,{"stream_name":"stdout","time":4711.423253644,"data":"/kaggle/work/w/specs/set_01062/m1.md\n"}
+,{"stream_name":"stdout","time":4860.101343493,"data":"18:11:21 set_01064 m1 try1 5 problems 313.4 s\n"}
+,{"stream_name":"stdout","time":5042.270413163,"data":"18:14:23 set_01062 m1 try1 2 problems 330.8 s\n"}
+,{"stream_name":"stdout","time":5140.362307941,"data":"18:16:01 set_01064 m1 try2 1 problems 280.3 s\n"}
+,{"stream_name":"stdout","time":5381.564283702,"data":"18:20:02 set_01062 m1 try2 6 problems 339.3 s\n"}
+]

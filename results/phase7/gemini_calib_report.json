@@ -1,0 +1,221 @@
+{
+ "label": "LLM-judged (gemini-3.5-flash-lite); not human evaluation; Gemini is not qualified for sentences (FREEZE 17), so bounds",
+ "unparsed": {
+  "sentences": 0,
+  "answers": 0
+ },
+ "sentences": {
+  "all": {
+   "n": 600,
+   "gemini_yes_rate": 0.733,
+   "nli_supported_rate": 0.288,
+   "gemini_vs_nli": {
+    "n": 600,
+    "agreement": 0.485,
+    "kappa": 0.14
+   },
+   "checker_vs_gemini": {
+    "flagged": 427,
+    "gemini_no": 160,
+    "both": 139,
+    "flag_precision": 0.326,
+    "flag_recall": 0.869
+   }
+  },
+  "evowiki_style@test_k1": {
+   "n": 150,
+   "gemini_yes_rate": 0.72,
+   "nli_supported_rate": 0.147,
+   "gemini_vs_nli": {
+    "n": 150,
+    "agreement": 0.36,
+    "kappa": 0.024
+   },
+   "checker_vs_gemini": {
+    "flagged": 128,
+    "gemini_no": 42,
+    "both": 37,
+    "flag_precision": 0.289,
+    "flag_recall": 0.881
+   }
+  },
+  "graphiti@test_k1": {
+   "n": 150,
+   "gemini_yes_rate": 0.667,
+   "nli_supported_rate": 0.24,
+   "gemini_vs_nli": {
+    "n": 150,
+    "agreement": 0.44,
+    "kappa": 0.045
+   },
+   "checker_vs_gemini": {
+    "flagged": 114,
+    "gemini_no": 50,
+    "both": 40,
+    "flag_precision": 0.351,
+    "flag_recall": 0.8
+   }
+  },
+  "lineage@test_k1": {
+   "n": 150,
+   "gemini_yes_rate": 0.747,
+   "nli_supported_rate": 0.427,
+   "gemini_vs_nli": {
+    "n": 150,
+    "agreement": 0.64,
+    "kappa": 0.329
+   },
+   "checker_vs_gemini": {
+    "flagged": 86,
+    "gemini_no": 38,
+    "both": 35,
+    "flag_precision": 0.407,
+    "flag_recall": 0.921
+   }
+  },
+  "vector_rag@test_k1": {
+   "n": 150,
+   "gemini_yes_rate": 0.8,
+   "nli_supported_rate": 0.34,
+   "gemini_vs_nli": {
+    "n": 150,
+    "agreement": 0.5,
+    "kappa": 0.161
+   },
+   "checker_vs_gemini": {
+    "flagged": 99,
+    "gemini_no": 30,
+    "both": 27,
+    "flag_precision": 0.273,
+    "flag_recall": 0.9
+   }
+  }
+ },
+ "answers": {
+  "all": {
+   "rubric": {
+    "three_class": {
+     "n": 366,
+     "agreement": 0.661,
+     "kappa": 0.508
+    },
+    "binary": {
+     "n": 366,
+     "agreement": 0.801,
+     "kappa": 0.551
+    },
+    "gemini_correct_rate": 0.402,
+    "granite_correct_rate": 0.219
+   },
+   "exact": {
+    "binary": {
+     "n": 234,
+     "agreement": 0.872,
+     "kappa": 0.728
+    },
+    "gemini_correct_rate": 0.585,
+    "exact_match_rate": 0.671
+   }
+  },
+  "evowiki_style@test_k1": {
+   "rubric": {
+    "three_class": {
+     "n": 94,
+     "agreement": 0.67,
+     "kappa": 0.523
+    },
+    "binary": {
+     "n": 94,
+     "agreement": 0.83,
+     "kappa": 0.586
+    },
+    "gemini_correct_rate": 0.351,
+    "granite_correct_rate": 0.202
+   },
+   "exact": {
+    "binary": {
+     "n": 56,
+     "agreement": 0.839,
+     "kappa": 0.647
+    },
+    "gemini_correct_rate": 0.589,
+    "exact_match_rate": 0.75
+   }
+  },
+  "graphiti@test_k1": {
+   "rubric": {
+    "three_class": {
+     "n": 91,
+     "agreement": 0.648,
+     "kappa": 0.462
+    },
+    "binary": {
+     "n": 91,
+     "agreement": 0.78,
+     "kappa": 0.492
+    },
+    "gemini_correct_rate": 0.396,
+    "granite_correct_rate": 0.176
+   },
+   "exact": {
+    "binary": {
+     "n": 59,
+     "agreement": 0.831,
+     "kappa": 0.662
+    },
+    "gemini_correct_rate": 0.492,
+    "exact_match_rate": 0.627
+   }
+  },
+  "lineage@test_k1": {
+   "rubric": {
+    "three_class": {
+     "n": 92,
+     "agreement": 0.641,
+     "kappa": 0.49
+    },
+    "binary": {
+     "n": 92,
+     "agreement": 0.772,
+     "kappa": 0.504
+    },
+    "gemini_correct_rate": 0.424,
+    "granite_correct_rate": 0.239
+   },
+   "exact": {
+    "binary": {
+     "n": 58,
+     "agreement": 0.914,
+     "kappa": 0.802
+    },
+    "gemini_correct_rate": 0.672,
+    "exact_match_rate": 0.69
+   }
+  },
+  "vector_rag@test_k1": {
+   "rubric": {
+    "three_class": {
+     "n": 89,
+     "agreement": 0.685,
+     "kappa": 0.524
+    },
+    "binary": {
+     "n": 89,
+     "agreement": 0.82,
+     "kappa": 0.618
+    },
+    "gemini_correct_rate": 0.438,
+    "granite_correct_rate": 0.258
+   },
+   "exact": {
+    "binary": {
+     "n": 61,
+     "agreement": 0.902,
+     "kappa": 0.794
+    },
+    "gemini_correct_rate": 0.59,
+    "exact_match_rate": 0.623
+   }
+  }
+ }
+}

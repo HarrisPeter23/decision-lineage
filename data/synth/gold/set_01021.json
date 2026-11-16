@@ -1,0 +1,485 @@
+{
+ "set_id": "set_01021",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "mobile app team",
+  "seed": 1021,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 108
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 94
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 98
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how often the mobile app is released",
+ "options": {
+  "A": "a fixed two-week release train with a code freeze the Wednesday before each release",
+  "B": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch"
+ },
+ "cast": [
+  {
+   "name": "Nadia",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Hana",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Mei",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Jonas",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Yuki",
+   "slot": "observer",
+   "style": "talkative, drifts into tangents"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "a fixed two-week release train with a code freeze the Wednesday before each release"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Hana proposes a fixed two-week release train for the mobile app with a code freeze on the Wednesday before each release.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    17,
+    18
+   ],
+   "gist": "Hana argues that last quarter's ad hoc releases caused five store rejections and about 30 hours of QA per release, and a train cuts QA to one regression pass.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    65
+   ],
+   "gist": "Nadia agrees without naming the release plan, by asking Jonas to put the freeze dates in the shared calendar.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    18
+   ],
+   "gist": "Yuki reports that a payment-screen crash hitting 3.4 percent of Android sessions stayed live for nine days in the first train cycle, because the next train had not left and store review of an out-of-train hotfix took four days.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    29
+   ],
+   "gist": "Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    25
+   ],
+   "gist": "Nadia reopens the release cadence after a second crash hit the next cycle.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Mei",
+   "utterance_idxs": [
+    37,
+    38
+   ],
+   "gist": "Mei argues for weekly releases with a staged rollout, since a 5 percent first stage would show the crash within a day, and the regression suite now runs in three hours after the smoke tests were automated.",
+   "version": 2,
+   "option_key": "B",
+   "option": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    74
+   ],
+   "gist": "Nadia decides the app moves to weekly releases with staged rollout.",
+   "version": 2,
+   "option_key": "B",
+   "option": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "the crash-rate alert threshold for paging on-call",
+  "option": "page on-call only when crash-free sessions fall below 99.2 percent",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Jonas",
+    "utterance_idxs": [
+     48
+    ],
+    "gist": "Jonas suggests paging on-call only when crash-free sessions fall below 99.2 percent.",
+    "version": null,
+    "option_key": null,
+    "option": "page on-call only when crash-free sessions fall below 99.2 percent",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Jonas",
+    "utterance_idxs": [
+     50
+    ],
+    "gist": "Jonas points out that the current 99.5 percent threshold paged on-call 11 times last month, 8 of them for one old device model.",
+    "version": null,
+    "option_key": null,
+    "option": "page on-call only when crash-free sessions fall below 99.2 percent",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Nadia",
+    "utterance_idxs": [
+     65
+    ],
+    "gist": "Nadia approves the 99.2 percent paging threshold.",
+    "version": null,
+    "option_key": null,
+    "option": "page on-call only when crash-free sessions fall below 99.2 percent",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01021-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how often the mobile app is released?",
+   "answer_text": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch",
+   "answer_facts": {
+    "option": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how often the mobile app is released?",
+   "answer_text": "meeting 1: Nadia - Nadia agrees without naming the release plan, by asking Jonas to put the freeze dates in the shared calendar.; meeting 3: Nadia - Nadia decides the app moves to weekly releases with staged rollout.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a fixed two-week release train with a code freeze the Wednesday before each release",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q03",
+   "type": "as_of",
+   "question": "What was the decision about how often the mobile app is released as of the end of meeting 1?",
+   "answer_text": "a fixed two-week release train with a code freeze the Wednesday before each release",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "a fixed two-week release train with a code freeze the Wednesday before each release"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01021-q04",
+   "type": "as_of",
+   "question": "What was the decision about how often the mobile app is released as of the end of meeting 3?",
+   "answer_text": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how often the mobile app is released change over time?",
+   "answer_text": "a fixed two-week release train with a code freeze the Wednesday before each release (from meeting 1) -> weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "a fixed two-week release train with a code freeze the Wednesday before each release",
+     "weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01021-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how often the mobile app is released changed?",
+   "answer_text": "Before: a fixed two-week release train with a code freeze the Wednesday before each release, because Hana argues that last quarter's ad hoc releases caused five store rejections and about 30 hours of QA per release, and a train cuts QA to one regression pass. Triggered by: Yuki (evidence): Yuki reports that a payment-screen crash hitting 3.4 percent of Android sessions stayed live for nine days in the first train cycle, because the next train had not left and store review of an out-of-train hotfix took four days. Mei (challenge): Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight. Nadia (reconsideration): Nadia reopens the release cadence after a second crash hit the next cycle. After: weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch, because Mei argues for weekly releases with a staged rollout, since a 5 percent first stage would show the crash within a day, and the regression suite now runs in three hours after the smoke tests were automated.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how often the mobile app is released?",
+   "answer_text": "Hana",
+   "answer_facts": {
+    "speaker": "Hana"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01021-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how often the mobile app is released?",
+   "answer_text": "Yuki (evidence): Yuki reports that a payment-screen crash hitting 3.4 percent of Android sessions stayed live for nine days in the first train cycle, because the next train had not left and store review of an out-of-train hotfix took four days. Mei (challenge): Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01021-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how often the mobile app is released?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how often the mobile app is released from proposal to final outcome.",
+   "answer_text": "meeting 1 - Hana [proposal]: Hana proposes a fixed two-week release train for the mobile app with a code freeze on the Wednesday before each release. | meeting 1 - Hana [rationale]: Hana argues that last quarter's ad hoc releases caused five store rejections and about 30 hours of QA per release, and a train cuts QA to one regression pass. | meeting 1 - Nadia [resolution]: Nadia agrees without naming the release plan, by asking Jonas to put the freeze dates in the shared calendar. | meeting 2 - Yuki [evidence]: Yuki reports that a payment-screen crash hitting 3.4 percent of Android sessions stayed live for nine days in the first train cycle, because the next train had not left and store review of an out-of-train hotfix took four days. | meeting 2 - Mei [challenge]: Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight. | meeting 3 - Nadia [reconsideration]: Nadia reopens the release cadence after a second crash hit the next cycle. | meeting 3 - Mei [rationale]: Mei argues for weekly releases with a staged rollout, since a 5 percent first stage would show the crash within a day, and the regression suite now runs in three hours after the smoke tests were automated. | meeting 3 - Nadia [resolution]: Nadia decides the app moves to weekly releases with staged rollout.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01021-q11",
+   "type": "distractor",
+   "question": "What was decided about the crash-rate alert threshold for paging on-call?",
+   "answer_text": "page on-call only when crash-free sessions fall below 99.2 percent",
+   "answer_facts": {
+    "option": "page on-call only when crash-free sessions fall below 99.2 percent"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

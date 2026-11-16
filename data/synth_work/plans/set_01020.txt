@@ -1,0 +1,19 @@
+set_id: set_01020
+seed: 1020
+arc_type: simple_reversal
+topic: the datastore for the new notification-preferences service
+option A: a managed key-value store billed per request, one table per tenant tier
+option B: new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas
+distractor topic: how long debug logs are kept
+distractor option: cut debug log retention from 30 days to 14 days
+beat B1: Sven proposes using the managed key-value store for the notification-preferences service.
+beat B2: Sven argues that the access pattern is single-key reads peaking at 9,000 a second during campaign pushes, and the key-value store would cost about 600 dollars a month against roughly 2,100 for the relational cluster with two extra replicas.
+beat B3: Arjun agrees without naming the store, by telling Sven to open the infrastructure ticket.
+beat B4: Hana reports a load test in which 7 percent of preference reads during the spike returned stale data, so users who had just unsubscribed still received messages for up to two seconds.
+beat B5: Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked.
+beat B6: Arjun reopens the datastore question after legal confirms the stale-read window counts as a breach of the opt-out policy.
+beat B7: Henrik argues for the relational cluster because it gives read-after-write consistency, and with two extra replicas it held 9,000 reads a second in testing at a 99th-percentile latency of 18 milliseconds, for about 2,100 dollars a month.
+beat B8: Arjun decides the preferences service goes on the shared relational cluster.
+beat D1: Rohan suggests cutting debug log retention from 30 days to 14.
+beat D2: Rohan points out that debug logs are 41 percent of the 5.2 terabyte monthly log bill and nobody queried anything older than nine days last quarter.
+beat D3: Arjun approves cutting debug log retention to 14 days.

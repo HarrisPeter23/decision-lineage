@@ -1,0 +1,9 @@
+{
+ "model": "qwen3:14b",
+ "ctx": 12288,
+ "think": false,
+ "num_predict": 700,
+ "temperature": 0,
+ "seed": 7,
+ "system": "You answer questions about how a team's decisions developed across meetings. You may use ONLY the numbered evidence given. Output ONLY valid JSON, no commentary, no code fences."
+}

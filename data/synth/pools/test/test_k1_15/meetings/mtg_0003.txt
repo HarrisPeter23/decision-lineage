@@ -1,0 +1,101 @@
+Meeting: mtg_0003
+Date: 2025-08-24
+Participants: Nadia, Hana, Mei, Jonas, Yuki
+
+Nadia: Okay, I think that's everyone. Hana, you're muted again.
+Hana: Sorry, sorry. Better?
+Nadia: Better. So first, Yusuf sent the laptop refresh list and I only see three names on it.
+Jonas: Mine's not on there because mine's fine. It's just loud.
+Nadia: Right. Hana, you sent him the model and serial?
+Hana: Monday. Did he not get-
+Nadia: He got it, it's filed under somebody else's name. I'll sort it out with him.
+Hana: Okay, thanks.
+Yuki: Did the offsite lunch place ever get sorted? Somebody said the first one fell through.
+Nadia: Goran's assistant found another one. Smaller portions, Jonas, before you ask.
+Jonas: That's all I wanted.
+Mei: Is it still the twelfth?
+Nadia: The twelfth. Or the thirteenth, hang on.
+Yuki: Thirteenth. It's on my calendar because it's the day after my cousin's, um, engagement party, so I'll be wrecked.
+Nadia: Thirteenth, okay. Good.
+Hana: Can we get to the crash? I've been staring at the dashboard all morning and it's-
+Nadia: Yes, that's where I was going. The photo upload one. Yuki, you flagged it Thursday?
+Yuki: Yeah. iOS this time. Picking from the camera roll just kills the app on the older phones. Around two percent of iOS sessions, I want to say two point one.
+Nadia: And it was live how long? I have eight days but I'd like someone to check me.
+Yuki: Eight. Went out on the Monday, and the actual fix was done by Wednesday, but there was nowhere for it to go.
+Hana: Store review on the hotfix took three days, I think.
+Nadia: Two and a half by the timestamps. Either way that's the second one in two cycles that just sat there.
+Jonas: The payment one was Android and the slow review. This is a different cause entirely.
+Nadia: Different cause, same shape. Fixed in days, live for over a week.
+Hana: Which is what I've been saying since, I mean, since the first week-
+Nadia: You have. Okay, so yes, we open the cadence question again, properly this time and not in the last ten minutes of a call.
+Hana: Finally.
+Jonas: I'll say it though, I'm not sure the schedule is the culprit. The bug was in the build either way.
+Nadia: Sure, but nobody's asking whether it exists. It's how long it stays out there.
+Jonas: Okay, that's a different question.
+Yuki: Wait, which ones are we actually comparing? I know the freeze one, and then there was the one with the percentages-
+Nadia: The two-week train we're on now, and every-week releases with the staged rollout. Five percent, then twenty-five, then everyone, plus the switch to halt it.
+Yuki: Right, that.
+Hana: But weekly sounds like way more QA. Thirty hours a pass, times four a month-
+Nadia: That's the number I'm not sure still holds. Mei, you did the smoke test work, didn't you?
+Mei: Yeah. Um. Can I say something about that?
+Nadia: Please.
+Mei: That thirty was mostly people clicking through the smoke checks by hand. They run on their own now, and the whole suite finishes in about three hours.
+Mei: And the five percent stage, with something like the upload crash, we'd have seen it within a day. Not on day eight.
+Hana: Three hours? Not thirty?
+Mei: Three. I ran it twice Friday to make sure.
+Nadia: I saw the run on Friday, it was a little under three, actually.
+Mei: Okay, yes. Roughly that.
+Jonas: Devil's advocate. Who's watching the five percent? A day of data is only useful if somebody's looking at it.
+Mei: The crash-free line is on the dashboard already. And the halt switch, someone just flips it.
+Hana: Whoever's on-call, then.
+Jonas: Which is Hana on a Saturday at two in the morning.
+Hana: Not if it's above the page line, it won't even buzz me, we changed that-
+Jonas: Exactly, so who looks?
+Nadia: That's a fair hole. We'd have to name somebody. I don't think it's a reason to stay where we are, though.
+Jonas: Fair. I just don't want it to turn into nobody's job.
+Yuki: Can I ask about the Friday thing? Xavier's four o'clock builds, are those just gone, or-
+Hana: They're gone either way, there's a build every week.
+Yuki: Okay, I like that.
+Nadia: Goran's sharing feature, by the way. Still end of September?
+Jonas: Last I heard. It'd get a shot at the next week's release instead of waiting on a freeze.
+Hana: Honestly the freeze part is what bugs me. Wednesday before, three days of nothing merging, and then it still breaks.
+Nadia: The freeze did its job on the payment one. It was the waiting after that hurt.
+Hana: Yeah, no, that's fair.
+Jonas: What about store review? Weekly means a submission every week. If they reject one we've lost a week and a half.
+Nadia: Five rejections last quarter, and that was with no regression pass at all. I'd expect fewer now.
+Mei: Two of those five were re-reviews, and that was a checklist thing. That's fixable.
+Jonas: Hm. Okay.
+Hana: Has Samir said anything about capacity? Three hours is nothing, but his people still have to read the results.
+Nadia: He said the load is fine as long as the handoff is clean. I'm paraphrasing, I'll get it in writing.
+Hana: Okay.
+Yuki: This is making me think of Klara's team again, they went weekly on the web side last year and nobody even noticed after a month.
+Jonas: They don't have a store reviewing them, Yuki.
+Yuki: True. True. Still.
+Nadia: Anything else against it, Jonas? Last chance for poking.
+Jonas: The halt switch. Has anyone actually tested it? Because a switch nobody's pressed is a wish.
+Mei: I tried it on the test build last week. It stopped the rollout at the second stage, took under a minute.
+Jonas: Under a minute. Good enough for me.
+Hana: So are we doing it?
+Nadia: Yes. Weekly releases with the staged rollout, five, twenty-five, everyone, and the halt switch. The two-week train is done.
+Hana: Good. Great.
+Jonas: I'll stop poking, then.
+Yuki: Does this mean the calendar entries come out? Jonas just put in all those Wednesdays.
+Jonas: I did, last week. Of course.
+Nadia: We'll sort the calendar later. Not today.
+Hana: The doc with the skip rules goes too, I guess.
+Nadia: Probably, yeah. Let's not rewrite everything right now.
+Mei: I can write up the rollout steps if somebody tells me who's allowed to press the halt.
+Nadia: Draft it and put a name in, we'll fix it in the channel.
+Mei: Okay.
+Nadia: I'll tell Samir this afternoon. He's going to want details.
+Hana: Tell him the hotfix checklist is still half-written.
+Nadia: Noted.
+Yuki: Oh, and the badge system is down again Thursday, apparently.
+Nadia: Building thing, not ours.
+Yuki: Okay, I'll bring my badge.
+Hana: Wise.
+Jonas: I'm out of time, I've got a one-on-one with Goran in five.
+Nadia: Go. Mei, send me what you ran Friday so I have the actual numbers.
+Mei: Sending it now.
+Jonas: Bye all.
+Nadia: Thanks, everyone.

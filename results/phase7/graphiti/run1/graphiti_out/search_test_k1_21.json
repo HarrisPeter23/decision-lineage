@@ -1,0 +1,1391 @@
+[
+ {
+  "qid": "set_01037-q01",
+  "facts": [
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   },
+   {
+    "uuid": "488cedc3-032f-4d34-bd86-9da57b6d1004",
+    "name": "INFORMED_ABOUT",
+    "fact": "Diego informed Aisha that Eastline and Southgate offer ninety-five percent on-time delivery with credits if they miss it, and they are nine thousand a quarter ahead compared to Parcelwise.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q02",
+  "facts": [
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "46362916-1098-47fe-a85b-a42c81356af4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Lena to send her the zone map for the south-east region.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q03",
+  "facts": [
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "488cedc3-032f-4d34-bd86-9da57b6d1004",
+    "name": "INFORMED_ABOUT",
+    "fact": "Diego informed Aisha that Eastline and Southgate offer ninety-five percent on-time delivery with credits if they miss it, and they are nine thousand a quarter ahead compared to Parcelwise.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q04",
+  "facts": [
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "488cedc3-032f-4d34-bd86-9da57b6d1004",
+    "name": "INFORMED_ABOUT",
+    "fact": "Diego informed Aisha that Eastline and Southgate offer ninety-five percent on-time delivery with credits if they miss it, and they are nine thousand a quarter ahead compared to Parcelwise.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q05",
+  "facts": [
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5567d3d4-01a5-496f-b699-884526c52b70",
+    "name": "INFORMED_ABOUT",
+    "fact": "Arjun informed Aisha that the parcel delivery rate is seventy-nine percent on time this week, with coastal postcodes being the worst at low seventies.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   },
+   {
+    "uuid": "488cedc3-032f-4d34-bd86-9da57b6d1004",
+    "name": "INFORMED_ABOUT",
+    "fact": "Diego informed Aisha that Eastline and Southgate offer ninety-five percent on-time delivery with credits if they miss it, and they are nine thousand a quarter ahead compared to Parcelwise.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q06",
+  "facts": [
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "46362916-1098-47fe-a85b-a42c81356af4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Lena to send her the zone map for the south-east region.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "83b24ba9-123d-4613-8587-6b8a47a07743",
+    "name": "CHANGED",
+    "fact": "Aisha changed the meeting to Thursday because Lena is out on Friday.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q07",
+  "facts": [
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "673ee0c9-71ad-486b-bafe-cb4d93a9f5b9",
+    "name": "shared",
+    "fact": "Diego shared a past experience about a carrier's hidden surcharge conditions.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q08",
+  "facts": [
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "673ee0c9-71ad-486b-bafe-cb4d93a9f5b9",
+    "name": "shared",
+    "fact": "Diego shared a past experience about a carrier's hidden surcharge conditions.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q09",
+  "facts": [
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "d63fe773-3b1c-4aed-8016-4249ad060c3f",
+    "name": "REPORTED",
+    "fact": "Arjun reported that 640 parcels have been late so far under Parcelwise.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772044+00:00"
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a63ad923-6e94-4b6a-8cfe-487f80a37116",
+    "name": "shared",
+    "fact": "Diego shared information about the new label printers and their compatibility with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q10",
+  "facts": [
+   {
+    "uuid": "205c5114-a590-45c8-a709-8417cb6bfb15",
+    "name": "approved",
+    "fact": "Aisha approved the proposal to move the south-east parcels to Parcelwise, subject to the exit clause confirmation.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8ac3e49c-1ca0-4608-bbcb-421db0386207",
+    "name": "explained",
+    "fact": "Dmitri explained that moving all parcels to Parcelwise would simplify operations by having one carrier, one contract, and one set of labels.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a88e8d24-e407-4c0f-85ce-8d65095e5757",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri if the proposal was for all parcels in the south-east region, not just the busy postcodes.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1b61c064-2169-4534-bbaf-44e27daeee57",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the delivery data for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3aaf249a-6bf8-41f7-9cc8-18a6c806cb91",
+    "name": "proposed",
+    "fact": "Dmitri proposed moving the south-east parcels to Parcelwise for twelve months at a rate of four pounds ten per parcel.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": "2026-09-25T00:00:00+00:00",
+    "expired_at": null
+   },
+   {
+    "uuid": "d646854b-a902-48f4-b56f-d5e8ffef8ca4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ce7a0e34-ed53-4c5f-8ea2-efaaf9a64444",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcels.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8401a337-d380-4598-a6b0-e42d70db10d6",
+    "name": "REPORTED",
+    "fact": "Arjun reported that Parcelwise is delivering 81% of parcels on time, compared to 96% from the regional couriers.",
+    "episodes": [
+     "5ada6f63-45f8-4e42-b1e4-3164c074e254"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": "2025-10-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:03:03.772030+00:00"
+   },
+   {
+    "uuid": "46362916-1098-47fe-a85b-a42c81356af4",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Lena to send her the zone map for the south-east region.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "488cedc3-032f-4d34-bd86-9da57b6d1004",
+    "name": "INFORMED_ABOUT",
+    "fact": "Diego informed Aisha that Eastline and Southgate offer ninety-five percent on-time delivery with credits if they miss it, and they are nine thousand a quarter ahead compared to Parcelwise.",
+    "episodes": [
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-10-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dc6c4606-ecbe-4207-b53d-161b7c4ef9a3",
+    "name": "asked",
+    "fact": "Aisha asked Dmitri about the exit clause in the contract with Parcelwise.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11",
+     "0b2965a3-5f6f-47a6-b395-e9dae13b8d1e"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c970cb39-2bf1-4623-b2cf-488d03fd131b",
+    "name": "requested",
+    "fact": "Aisha requested Bao to check the label printer compatibility with the new carrier.",
+    "episodes": [
+     "f598047b-d381-42d0-b984-b3b0f0b98b11"
+    ],
+    "valid_at": "2025-09-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

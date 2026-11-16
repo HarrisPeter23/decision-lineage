@@ -1,0 +1,35 @@
+{
+ "ours": {
+  "n_headline": 15,
+  "n_all": 50,
+  "parse_ok": 50,
+  "f1": 0.056,
+  "p": 0.117,
+  "r": 0.038,
+  "nli_accepted": 0.146,
+  "correct_headline": 0.033,
+  "correct_all": 0.188
+ },
+ "vector_rag": {
+  "n_headline": 15,
+  "n_all": 50,
+  "parse_ok": 50,
+  "f1": 0.198,
+  "p": 0.198,
+  "r": 0.222,
+  "nli_accepted": 0.321,
+  "correct_headline": 0.208,
+  "correct_all": 0.363
+ },
+ "evowiki_style": {
+  "n_headline": 15,
+  "n_all": 50,
+  "parse_ok": 50,
+  "f1": 0.163,
+  "p": 0.339,
+  "r": 0.137,
+  "nli_accepted": 0.123,
+  "correct_headline": 0.208,
+  "correct_all": 0.384
+ }
+}

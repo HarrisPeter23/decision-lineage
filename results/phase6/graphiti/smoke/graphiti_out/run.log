@@ -1,0 +1,10 @@
+06:59:25 $ pip install -q graphiti-core==0.31.2 kuzu==0.11.3 httpx rc 0 
+06:59:37 $ apt-get update -qq && apt-get install -y -qq zstd rc 0 
+07:00:26 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 
+07:01:50 $ ollama pull qwen3:14b rc 0 
+07:01:52 $ ollama pull all-minilm rc 0 
+07:01:52 digests {'all-minilm:latest': '1b226e2802dbb772b5fc32a58f103ca1804ef7501331012de126ab22f67475ef', 'qwen3:14b': 'bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8'}
+07:01:56 corpus dev_k1_00 3 meetings 9 questions
+07:01:58 dev_k1_00 mtg_0001 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'
+07:01:58 dev_k1_00 mtg_0002 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'
+07:01:58 dev_k1_00 mtg_0003 FAILED 0.0 s 0 calls AttributeError: 'KuzuDriver' object has no attribute '_database'

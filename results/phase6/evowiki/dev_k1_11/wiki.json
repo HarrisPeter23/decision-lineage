@@ -1,0 +1,164 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Replenishment vendor for the regions",
+   "attribute": "vendor",
+   "states": [
+    {
+     "value": "Swiftline Freight",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-21",
+     "evidence": [
+      1,
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Next steps",
+   "attribute": "action for Tomas",
+   "states": [
+    {
+     "value": "ask everyone to look at the numbers and reconvene next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-28",
+     "evidence": [
+      14,
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Next steps",
+   "attribute": "action for Elif",
+   "states": [
+    {
+     "value": "call Swiftline to ask what's going on",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-28",
+     "evidence": [
+      17,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Next steps",
+   "attribute": "action for Priya",
+   "states": [
+    {
+     "value": "email the warehouse in Leeds about the issue they mentioned",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-28",
+     "evidence": [
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Vendor decision",
+   "attribute": "transition date",
+   "states": [
+    {
+     "value": "Three weeks from onboarding",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      23,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Vendor decision",
+   "attribute": "backup vendor",
+   "states": [
+    {
+     "value": "Swiftline",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Vendor decision",
+   "attribute": "transition period",
+   "states": [
+    {
+     "value": "Use Swiftline for some regions during transition",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Vendor decision",
+   "attribute": "Final decision",
+   "states": [
+    {
+     "value": "Switch to Dalmar Logistics",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": []
+}

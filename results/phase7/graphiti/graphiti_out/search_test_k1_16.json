@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01033-q01",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q02",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5fbc3919-eab1-4d91-9c99-89f7bf0dd5ee",
+    "name": "WILL_RESEND_FLOWS_LINK_FOR",
+    "fact": "Sven mentioned that he will resend the flows link for version four of the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q03",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "5fbc3919-eab1-4d91-9c99-89f7bf0dd5ee",
+    "name": "WILL_RESEND_FLOWS_LINK_FOR",
+    "fact": "Sven mentioned that he will resend the flows link for version four of the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q04",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "5fbc3919-eab1-4d91-9c99-89f7bf0dd5ee",
+    "name": "WILL_RESEND_FLOWS_LINK_FOR",
+    "fact": "Sven mentioned that he will resend the flows link for version four of the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q05",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "d5109f50-57f1-4d83-99bc-0d9b4e1b87b7",
+    "name": "ASKED_ABOUT",
+    "fact": "Priya asked Elif how long ago the old phone was bought.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q06",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q07",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q08",
+  "facts": [
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5fbc3919-eab1-4d91-9c99-89f7bf0dd5ee",
+    "name": "WILL_RESEND_FLOWS_LINK_FOR",
+    "fact": "Sven mentioned that he will resend the flows link for version four of the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q09",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d72ca78f-6c8a-4025-9f46-df27224058fe",
+    "name": "USES",
+    "fact": "Fatima mentioned that the settings screens already run on the shared framework and suggested that the checkout screen could also use it.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be8f7222-850e-4df8-bd54-aadfc36b0170",
+    "name": "MENTIONED",
+    "fact": "Priya mentioned that she was comfortable with building the checkout in the cross-platform framework, same as settings.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q10",
+  "facts": [
+   {
+    "uuid": "c5352349-fa69-4362-be8a-8ef7b5cbc55b",
+    "name": "SIGNED_OFF_ON",
+    "fact": "Design signed off on version four of the checkout screen flows.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af74d0ae-9c0a-4b08-a3d9-8351213cc0c3",
+    "name": "MENTIONED_DESIGN_REQUEST_FOR",
+    "fact": "Elif mentioned that design wants a little slide on the confirmation for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab6f3073-b6c7-4afa-aa28-b192f4048534",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Fatima estimated that building the checkout screen once would take about nine weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015158+00:00"
+   },
+   {
+    "uuid": "7d44d64a-abba-49b2-afd9-48aa7cc9cef8",
+    "name": "MENTIONED_DOABLE_ANIMATION_FOR",
+    "fact": "Sven mentioned that the slide animation for the checkout screen confirmation is doable, similar to what he did for the toggle.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "98646658-86e0-4da7-8b3f-55f311c1c24f",
+    "name": "REQUESTED_DEADLINE_FOR",
+    "fact": "Camille requested that payments have the checkout screen before the autumn freeze, which is at the end of October.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa734260-9f5e-455c-bad9-f8d55d3f7bcd",
+    "name": "MENTIONED_PERFORMANCE_OF",
+    "fact": "Sven mentioned that the payment sheet stuttered last time, but the checkout screen is mostly forms and performed well on the old test phone.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fdc6d05-2308-4f66-a7b9-60f542f25d04",
+    "name": "ESTIMATED_TIME_FOR",
+    "fact": "Sven estimated that building the checkout screen twice, once per platform, would take about fifteen weeks.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-10T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:41:22.015161+00:00"
+   },
+   {
+    "uuid": "e597370c-9dd0-41c3-b6e3-3b85b4ecd54a",
+    "name": "IMPORTANCE",
+    "fact": "Sven emphasized that checkout is the one screen where performance issues cost conversions.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5fbc3919-eab1-4d91-9c99-89f7bf0dd5ee",
+    "name": "WILL_RESEND_FLOWS_LINK_FOR",
+    "fact": "Sven mentioned that he will resend the flows link for version four of the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b79bbbe5-1170-443a-aa98-acc326630e7d",
+    "name": "USED",
+    "fact": "Fatima used the estimate sheet to calculate the time required to build the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2559785-f384-4b1e-a94e-66373715780a",
+    "name": "ASKED_TO_DRAFT_ACCEPTANCE_CRITERIA",
+    "fact": "Priya asked Sven and Fatima to draft the acceptance criteria for the checkout screen.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0396fe77-5ac7-4533-86af-dd0b22e1dbdc",
+    "name": "TESTED_ON_SECOND_PHONE",
+    "fact": "Elif plans to test the payment sheet on a second old phone.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01033-q11",
+  "facts": [
+   {
+    "uuid": "e74d41e8-0d3e-493d-ac5d-f9ecf8afd1ba",
+    "name": "COMMENTED_ON",
+    "fact": "Wei commented that product should own the store text for release notes.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb4925b-63b2-4d25-a8b8-1d5c8180e9dc",
+    "name": "ASKED_FOR",
+    "fact": "Priya asked who has the release notes for the point release.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": "2025-08-03T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:36.314233+00:00"
+   },
+   {
+    "uuid": "10139aca-ea9a-4047-aea1-924c73b85621",
+    "name": "ASSIGNED_TO",
+    "fact": "Priya assigned the responsibility for release notes to product, starting with the next point release.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c53bd0a6-92fa-4d57-82b0-aeea963ccb58",
+    "name": "HAS_DRAFT_FOR",
+    "fact": "Elif mentioned that he has a draft of the release notes for the point release and needs Caio to check the wording.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "67ea0ae5-2a12-4077-b12a-8d1744ce4593",
+    "name": "ASSIGNED_RELEASE_NOTES",
+    "fact": "Priya assigned the release notes to Joao as a starting point.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f689f71-5ebe-4170-ac93-75589b264d69",
+    "name": "SCHEDULED_FOR",
+    "fact": "Priya noted that the point release is scheduled to go out on Wednesday.",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e22dbe7e-b10f-4fb7-9234-257b241eb371",
+    "name": "WILL_READ_NOTES_FOR",
+    "fact": "Fatima mentioned that she will read the framework upgrade notes this week.",
+    "episodes": [
+     "d91837ad-69aa-4dab-abf0-f274248d78d3"
+    ],
+    "valid_at": "2025-07-27T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da1ba3d8-8bb8-4b0a-9687-d46e42a9b615",
+    "name": "TESTED_ON",
+    "fact": "Elif tested the payment sheet on the older Android (four-year-old one).",
+    "episodes": [
+     "7b479734-f74d-4d22-b827-2cea114b7363"
+    ],
+    "valid_at": "2025-08-03T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "edb05fde-250b-434f-93f6-71af01102914",
+    "name": "MENTIONED",
+    "fact": "Elif mentioned that he was asking about the card field.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3319ab56-ff7f-4c43-9e60-a2727ff34dc2",
+    "name": "MENTIONED",
+    "fact": "Fatima mentioned that the phone makers' payment sheets could still be called from the shared code through native modules.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9ddd633d-cf07-4111-be70-e63cbab48375",
+    "name": "MENTIONED",
+    "fact": "Elif mentioned that he was concerned about the animations on the confirmation slide.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e9148188-8f19-4327-8f2f-36fca02e35d0",
+    "name": "INFORMED_ABOUT",
+    "fact": "Elif informed Priya that Caio said the old phone was about four years ago.",
+    "episodes": [
+     "3a6321a8-e2d9-4f68-aec8-800d743b35a2"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

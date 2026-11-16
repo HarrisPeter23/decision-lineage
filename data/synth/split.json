@@ -1,0 +1,53 @@
+{
+ "rule": "(written before looking at any system output):\n  - DEV is about one third of the sets and contains the 6 toolkit pilot sets and the 4 writer-prompt tuning sets (01013-01016), because\n    those were read and used during prompt tuning; the remaining DEV slots are filled per arc from the other Claude-written sets.\n  - ALL control-writer sets (06x) go to TEST, because H4 compares them with Claude-written sets and H4 is a TEST-only analysis.\n  - Arc quota in DEV (of the sets in that arc): simple_reversal 3, external_trigger 3, no_reversal 2, partial_override 2, re_reversal 2, deferred 2.\n  - Remaining DEV slots are filled by a seeded draw (seed 20261102) that prefers business domains not yet in DEV.",
+ "dev": [
+  "set_01000",
+  "set_01002",
+  "set_01003",
+  "set_01004",
+  "set_01006",
+  "set_01012",
+  "set_01013",
+  "set_01014",
+  "set_01015",
+  "set_01016",
+  "set_01019",
+  "set_01023",
+  "set_01030",
+  "set_01045"
+ ],
+ "test": [
+  "set_01017",
+  "set_01018",
+  "set_01020",
+  "set_01021",
+  "set_01022",
+  "set_01024",
+  "set_01025",
+  "set_01026",
+  "set_01027",
+  "set_01028",
+  "set_01029",
+  "set_01031",
+  "set_01032",
+  "set_01033",
+  "set_01034",
+  "set_01035",
+  "set_01036",
+  "set_01037",
+  "set_01038",
+  "set_01039",
+  "set_01041",
+  "set_01043"
+ ],
+ "control": [],
+ "sha256": {
+  "dev": "1515952fdf86363db3d9285f7c91a86f053cf25b316691e34431f7e819e7ffd7",
+  "test": "6176494f2a17c153431ce7ad264c006f8cce4488165cead2f487cb681adbaada",
+  "all": "fe55a904c0f1d79bedbcef322c1f3ebd00f17bbef2c5406d820ab3037a09277c"
+ },
+ "counts": {
+  "dev": 14,
+  "test": 22
+ }
+}

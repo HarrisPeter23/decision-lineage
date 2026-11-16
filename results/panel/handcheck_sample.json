@@ -1,0 +1,938 @@
+[
+ {
+  "set_id": "set_01000",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "no_reversal",
+  "meeting": 1,
+  "idxs": [
+   5
+  ],
+  "speaker": "Henrik",
+  "gist": "Henrik proposes charging per seat for the analytics add-on, at $12 per seat per month."
+ },
+ {
+  "set_id": "set_01000",
+  "link_id": "B2",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "no_reversal",
+  "meeting": 1,
+  "idxs": [
+   11
+  ],
+  "speaker": "Henrik",
+  "gist": "Henrik says per-seat pricing is predictable for buyers and scales with how many people use the dashboards, unlike the usage-based plan that confused beta customers."
+ },
+ {
+  "set_id": "set_01000",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "no_reversal",
+  "meeting": 2,
+  "idxs": [
+   6
+  ],
+  "speaker": "Ingrid",
+  "gist": "Ingrid argues that big teams will balk at a bill that grows with every hire, and that a flat or tiered price would avoid losing the largest accounts."
+ },
+ {
+  "set_id": "set_01000",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "no_reversal",
+  "meeting": 3,
+  "idxs": [
+   0
+  ],
+  "speaker": "Diego",
+  "gist": "Diego says the pilot team sizes and Ingrid's concern deserve a proper second look at the per-seat decision."
+ },
+ {
+  "set_id": "set_01002",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "external_trigger",
+  "meeting": 1,
+  "idxs": [
+   15
+  ],
+  "speaker": "Greta",
+  "gist": "Greta decides to book the Harborview ballroom for the customer summit."
+ },
+ {
+  "set_id": "set_01002",
+  "link_id": "B5",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "external_trigger",
+  "meeting": 2,
+  "idxs": [
+   11
+  ],
+  "speaker": "Greta",
+  "gist": "Greta says the venue closure and the cost mean the summit plan has to be reopened."
+ },
+ {
+  "set_id": "set_01003",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "partial_override",
+  "meeting": 2,
+  "idxs": [
+   5
+  ],
+  "speaker": "Elif",
+  "gist": "Elif argues the pantry and entrance will get spills and wet shoes every day, so open seams will lift, and the warranty excludes unsealed seams in wet areas."
+ },
+ {
+  "set_id": "set_01003",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "partial_override",
+  "meeting": 3,
+  "idxs": [
+   0
+  ],
+  "speaker": "Tariq",
+  "gist": "Tariq says the mock-up result and the warranty exclusion mean the flooring decision needs another look before ordering."
+ },
+ {
+  "set_id": "set_01003",
+  "link_id": "B8",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "partial_override",
+  "meeting": 3,
+  "idxs": [
+   15
+  ],
+  "speaker": "Tariq",
+  "gist": "Tariq decides to keep Norvik vinyl plank with heat-sealed seams and a ceramic tile band across the pantry and entrance zones."
+ },
+ {
+  "set_id": "set_01004",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "re_reversal",
+  "meeting": 1,
+  "idxs": [
+   0
+  ],
+  "speaker": "Omar",
+  "gist": "Omar proposes a 14-day free trial with no credit card required."
+ },
+ {
+  "set_id": "set_01004",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   1
+  ],
+  "speaker": "Marco",
+  "gist": "Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails."
+ },
+ {
+  "set_id": "set_01004",
+  "link_id": "B6",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   14
+  ],
+  "speaker": "Sofia",
+  "gist": "Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value."
+ },
+ {
+  "set_id": "set_01004",
+  "link_id": "B8",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "re_reversal",
+  "meeting": 3,
+  "idxs": [
+   1
+  ],
+  "speaker": "Nadia",
+  "gist": "Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step."
+ },
+ {
+  "set_id": "set_01004",
+  "link_id": "B9",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "re_reversal",
+  "meeting": 3,
+  "idxs": [
+   5
+  ],
+  "speaker": "Omar",
+  "gist": "Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume."
+ },
+ {
+  "set_id": "set_01006",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "simple_reversal",
+  "meeting": 1,
+  "idxs": [
+   1
+  ],
+  "speaker": "Elif",
+  "gist": "Elif proposes Swiftline Freight to handle regional store replenishment deliveries."
+ },
+ {
+  "set_id": "set_01006",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "simple_reversal",
+  "meeting": 1,
+  "idxs": [
+   21
+  ],
+  "speaker": "Tomas",
+  "gist": "Tomas decides to sign with Swiftline Freight."
+ },
+ {
+  "set_id": "set_01012",
+  "link_id": "B2",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "deferred",
+  "meeting": 1,
+  "idxs": [
+   9
+  ],
+  "speaker": "Noor",
+  "gist": "Noor says handhelds are faster, survive drops, last a full shift on battery, and warehouse staff already know how to use the older models."
+ },
+ {
+  "set_id": "set_01012",
+  "link_id": "B3",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude (earlier se",
+  "arc": "deferred",
+  "meeting": 2,
+  "idxs": [
+   1
+  ],
+  "speaker": "Greta",
+  "gist": "Greta reports the supplier now quotes $1,150 per unit with a ten-week lead time, so 36 units would cost $41,400 and arrive after the holiday peak."
+ },
+ {
+  "set_id": "set_01013",
+  "link_id": "B2",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "simple_reversal",
+  "meeting": 1,
+  "idxs": [
+   36,
+   37
+  ],
+  "speaker": "Hana",
+  "gist": "Hana argues that about 60 percent of the depot's lines are slow movers, so consolidating drops would cut freight spend by roughly 38 percent."
+ },
+ {
+  "set_id": "set_01013",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "simple_reversal",
+  "meeting": 2,
+  "idxs": [
+   35,
+   36
+  ],
+  "speaker": "Zainab",
+  "gist": "Zainab reports that the expedite log shows 17 urgent courier orders for compressor seals in the first week of the run, costing 2,900 pounds, against about 3 in a normal week."
+ },
+ {
+  "set_id": "set_01013",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   30,
+   31
+  ],
+  "speaker": "Yuki",
+  "gist": "Yuki reopens the restocking question after a second week of the expedite log came in as bad as the first."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 1,
+  "idxs": [
+   37
+  ],
+  "speaker": "Jonas",
+  "gist": "Jonas proposes launching the Insights tier with a 14-day free trial and no card required."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B10",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 4,
+  "idxs": [
+   18
+  ],
+  "speaker": "Meera",
+  "gist": "Meera reopens the trial policy after finance confirms the EU failure rate has not improved."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B11",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 4,
+  "idxs": [
+   44
+  ],
+  "speaker": "Jonas",
+  "gist": "Jonas argues for going back to the 14-day no-card trial because the new shared query cache has cut compute to 0.30 dollars per trial account, so the original cost worry has gone, and the EU failures cannot be fixed this quarter."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B12",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 4,
+  "idxs": [
+   63
+  ],
+  "speaker": "Meera",
+  "gist": "Meera decides to return Insights to the 14-day free trial with no card required."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B2",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 1,
+  "idxs": [
+   41
+  ],
+  "speaker": "Jonas",
+  "gist": "Jonas argues that removing the card field took signups up threefold on the pricing-page test the growth team ran in May."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   38
+  ],
+  "speaker": "Yuki",
+  "gist": "Yuki objects that the free trial is paying to host throwaway accounts and is burning the quarter's infrastructure budget."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B7",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   76
+  ],
+  "speaker": "Meera",
+  "gist": "Meera decides to switch Insights to the 30-day trial with a card required."
+ },
+ {
+  "set_id": "set_01014",
+  "link_id": "B9",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "re_reversal",
+  "meeting": 3,
+  "idxs": [
+   53,
+   54
+  ],
+  "speaker": "Jonas",
+  "gist": "Jonas objects that the card requirement is killing the pipeline and that enterprise buyers cannot put a corporate card into a trial form."
+ },
+ {
+  "set_id": "set_01015",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "partial_override",
+  "meeting": 1,
+  "idxs": [
+   28
+  ],
+  "speaker": "Dmitri",
+  "gist": "Dmitri proposes recycled PET felt wall panels from Tessaline across all 310 square metres of the fourth floor."
+ },
+ {
+  "set_id": "set_01015",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "partial_override",
+  "meeting": 2,
+  "idxs": [
+   28
+  ],
+  "speaker": "Fatima",
+  "gist": "Fatima reports that the insurer's surveyor says escape-corridor linings must reach Euroclass B-s1,d0, while the Tessaline test certificate shows only C-s2,d0."
+ },
+ {
+  "set_id": "set_01015",
+  "link_id": "B8",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "partial_override",
+  "meeting": 3,
+  "idxs": [
+   96
+  ],
+  "speaker": "Ravi",
+  "gist": "Ravi decides: Tessaline felt stays across the floor, with the mineral-wool-core panel on the 46 square metres of escape corridor."
+ },
+ {
+  "set_id": "set_01016",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "no_reversal",
+  "meeting": 1,
+  "idxs": [
+   27
+  ],
+  "speaker": "Sofia",
+  "gist": "Sofia proposes replacing the central summit with three one-day regional roadshows in Manchester, Frankfurt and Austin."
+ },
+ {
+  "set_id": "set_01016",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "no_reversal",
+  "meeting": 2,
+  "idxs": [
+   30,
+   31
+  ],
+  "speaker": "Kofi",
+  "gist": "Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher."
+ },
+ {
+  "set_id": "set_01016",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "no_reversal",
+  "meeting": 2,
+  "idxs": [
+   59
+  ],
+  "speaker": "Ingrid",
+  "gist": "Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on."
+ },
+ {
+  "set_id": "set_01016",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-opus-5.5",
+  "arc": "no_reversal",
+  "meeting": 3,
+  "idxs": [
+   21
+  ],
+  "speaker": "Zainab",
+  "gist": "Zainab reopens the question of the summit format now that everyone has had a week with Kofi's numbers."
+ },
+ {
+  "set_id": "set_01018",
+  "link_id": "B12",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 4,
+  "idxs": [
+   99
+  ],
+  "speaker": "Henrik",
+  "gist": "Henrik decides to ship the gradient-boosted model with the reason codes."
+ },
+ {
+  "set_id": "set_01018",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 1,
+  "idxs": [
+   79
+  ],
+  "speaker": "Henrik",
+  "gist": "Henrik agrees without naming the model, by telling Rohan to set up the weekly scoring job."
+ },
+ {
+  "set_id": "set_01019",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "deferred",
+  "meeting": 1,
+  "idxs": [
+   23
+  ],
+  "speaker": "Priya",
+  "gist": "Priya proposes replacing the first-round phone screen for engineering roles with a 30-minute take-home exercise."
+ },
+ {
+  "set_id": "set_01020",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 2,
+  "idxs": [
+   37
+  ],
+  "speaker": "Henrik",
+  "gist": "Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked."
+ },
+ {
+  "set_id": "set_01020",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   20
+  ],
+  "speaker": "Arjun",
+  "gist": "Arjun reopens the datastore question after legal confirms the stale-read window counts as a breach of the opt-out policy."
+ },
+ {
+  "set_id": "set_01022",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "external_trigger",
+  "meeting": 1,
+  "idxs": [
+   14
+  ],
+  "speaker": "Greta",
+  "gist": "Greta proposes putting the whole 120,000 dollar third-quarter budget into paid search and paid social."
+ },
+ {
+  "set_id": "set_01022",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "external_trigger",
+  "meeting": 1,
+  "idxs": [
+   80
+  ],
+  "speaker": "Lakshmi",
+  "gist": "Lakshmi agrees without naming the channel, by telling Greta to book the media plan."
+ },
+ {
+  "set_id": "set_01022",
+  "link_id": "B6",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "external_trigger",
+  "meeting": 2,
+  "idxs": [
+   34,
+   35
+  ],
+  "speaker": "Amara",
+  "gist": "Amara argues for partner webinars plus retargeting because partners bring their own lists, last year's one co-hosted webinar produced 410 leads for 14,000 dollars, and three of them plus retargeting on the remaining 36,000 gets close to the 1,900 target."
+ },
+ {
+  "set_id": "set_01023",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "external_trigger",
+  "meeting": 1,
+  "idxs": [
+   69
+  ],
+  "speaker": "Aisha",
+  "gist": "Aisha agrees without naming the tool, by asking Pavel to schedule the configuration work."
+ },
+ {
+  "set_id": "set_01027",
+  "link_id": "B6",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   57
+  ],
+  "speaker": "Sofia",
+  "gist": "Sofia argues for polished concrete because it needs no adhesive so the moisture does not matter, it costs about 52 pounds a square metre, and it lasts 25 years."
+ },
+ {
+  "set_id": "set_01027",
+  "link_id": "B7",
+  "role": "resolution",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 2,
+  "idxs": [
+   91
+  ],
+  "speaker": "Sana",
+  "gist": "Sana decides to switch the ground floor to polished concrete."
+ },
+ {
+  "set_id": "set_01028",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "partial_override",
+  "meeting": 1,
+  "idxs": [
+   96
+  ],
+  "speaker": "Greta",
+  "gist": "Greta agrees without naming the format, by telling Henrik to go ahead and sign the venue contract."
+ },
+ {
+  "set_id": "set_01029",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "partial_override",
+  "meeting": 2,
+  "idxs": [
+   12
+  ],
+  "speaker": "Sofia",
+  "gist": "Sofia reports that in the first two weeks 112 of 640 inbound leads came from accounts another rep already owned, 31 of those were called by a second rep within the day, and there were five customer complaints."
+ },
+ {
+  "set_id": "set_01029",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "partial_override",
+  "meeting": 2,
+  "idxs": [
+   22
+  ],
+  "speaker": "Kwame",
+  "gist": "Kwame objects that round-robin is walking over existing relationships and customers are getting called twice."
+ },
+ {
+  "set_id": "set_01029",
+  "link_id": "B7",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "partial_override",
+  "meeting": 3,
+  "idxs": [
+   50,
+   51,
+   52
+  ],
+  "speaker": "Kofi",
+  "gist": "Kofi argues for keeping round-robin for new accounts but sending any lead from an owned account to its owner, falling back to round-robin when the owner is out of office, which is a one-day change in the CRM."
+ },
+ {
+  "set_id": "set_01030",
+  "link_id": "B8",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   75
+  ],
+  "speaker": "Pavel",
+  "gist": "Pavel gives the go-ahead for Lumenboard without naming it, by asking Aisha to get procurement started on the paperwork."
+ },
+ {
+  "set_id": "set_01034",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 1,
+  "idxs": [
+   49
+  ],
+  "speaker": "Amara",
+  "gist": "Amara agrees without naming the plan, by asking Wei to put the deposit through finance this week."
+ },
+ {
+  "set_id": "set_01034",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   19
+  ],
+  "speaker": "Amara",
+  "gist": "Amara reopens the launch budget after the organiser's attendance figures were confirmed in writing."
+ },
+ {
+  "set_id": "set_01034",
+  "link_id": "B8",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   53
+  ],
+  "speaker": "Amara",
+  "gist": "Amara gives the go-ahead for the referral route without naming it, by asking Wei to set up the form with Elif and brief sales on Monday."
+ },
+ {
+  "set_id": "set_01035",
+  "link_id": "B2",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "deferred",
+  "meeting": 1,
+  "idxs": [
+   30,
+   32
+  ],
+  "speaker": "Ivan",
+  "gist": "Ivan argues that it is simple and seen as fair, can be in the budget file by the 20th, and lets each department head choose where to cut."
+ },
+ {
+  "set_id": "set_01036",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 2,
+  "idxs": [
+   12
+  ],
+  "speaker": "Sven",
+  "gist": "Sven reports that in the first month there were six attempts to take over staff phone numbers through carrier support, one succeeded, and an executive's mailbox was open to an attacker for 40 minutes."
+ },
+ {
+  "set_id": "set_01036",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   8
+  ],
+  "speaker": "Amara",
+  "gist": "Amara reopens the sign-in method after the incident review."
+ },
+ {
+  "set_id": "set_01036",
+  "link_id": "B8",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   73
+  ],
+  "speaker": "Amara",
+  "gist": "Amara gives the go-ahead for the keys without naming them, by asking Mateo to order and book the team setup sessions."
+ },
+ {
+  "set_id": "set_01037",
+  "link_id": "B1",
+  "role": "proposal",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 1,
+  "idxs": [
+   22
+  ],
+  "speaker": "Dmitri",
+  "gist": "Dmitri proposes moving all south-east parcels to Parcelwise on a 12-month contract at 4.10 pounds a parcel."
+ },
+ {
+  "set_id": "set_01037",
+  "link_id": "B5",
+  "role": "challenge",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 2,
+  "idxs": [
+   47
+  ],
+  "speaker": "Diego",
+  "gist": "Diego objects that late deliveries cost more than the saving, with 1,900 pounds of customer credits in five weeks and complaints from three enterprise customers."
+ },
+ {
+  "set_id": "set_01037",
+  "link_id": "B7",
+  "role": "rationale",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 3,
+  "idxs": [
+   39
+  ],
+  "speaker": "Diego",
+  "gist": "Diego argues for the regional couriers because Eastline and Southgate average 4.35 pounds, guarantee 95 percent on time with credits for misses, saving about 9,000 pounds a quarter, and have no minimum-volume clause where Parcelwise requires 15,000 parcels."
+ },
+ {
+  "set_id": "set_01038",
+  "link_id": "B3",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "external_trigger",
+  "meeting": 1,
+  "idxs": [
+   95
+  ],
+  "speaker": "Wei",
+  "gist": "Wei agrees without naming the discount, by telling Sana to update the pricing page."
+ },
+ {
+  "set_id": "set_01041",
+  "link_id": "B4",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "simple_reversal",
+  "meeting": 2,
+  "idxs": [
+   18,
+   19,
+   20
+  ],
+  "speaker": "Priya",
+  "gist": "Priya reports that in the three weeks since the change the median time to log a close went from 2 minutes to 11, 23 reps closed deals late in the CRM, and 18 percent of deals carry placeholder values such as n/a in the competitor field."
+ },
+ {
+  "set_id": "set_01043",
+  "link_id": "B12",
+  "role": "resolution",
+  "implicit": true,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 4,
+  "idxs": [
+   75
+  ],
+  "speaker": "Mateo",
+  "gist": "Mateo settles it without naming the cycle, by asking Elif to take the December dates to the managers."
+ },
+ {
+  "set_id": "set_01043",
+  "link_id": "B8",
+  "role": "evidence",
+  "implicit": false,
+  "writer": "claude-sonnet-5.5",
+  "arc": "re_reversal",
+  "meeting": 3,
+  "idxs": [
+   14,
+   16
+  ],
+  "speaker": "Jonas",
+  "gist": "Jonas reports that after the first June cycle HR logged nine hours per manager, calibration ran five weeks instead of three because it collided with promotions, and 22 percent of managers submitted late."
+ }
+]

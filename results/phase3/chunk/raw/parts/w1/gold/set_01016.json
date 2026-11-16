@@ -1,0 +1,386 @@
+{
+ "set_id": "set_01016",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "corporate events team",
+  "seed": 1016,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 107
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 91
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 117
+   }
+  ],
+  "models": {
+   "generator": "claude-opus-5.5"
+  }
+ },
+ "topic": "the format of next year's customer summit",
+ "options": {
+  "A": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+  "B": "a single two-day central summit in Lisbon"
+ },
+ "cast": [
+  {
+   "name": "Zainab",
+   "slot": "manager",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Sofia",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Ingrid",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Tariq",
+   "slot": "supporter",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Kofi",
+   "slot": "observer",
+   "style": "likes to play devil's advocate"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    27
+   ],
+   "gist": "Sofia proposes replacing the central summit with three one-day regional roadshows in Manchester, Frankfurt and Austin.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    31,
+    32
+   ],
+   "gist": "Sofia argues that last year's central event spent 180,000 dollars on customer travel subsidies and only 34 percent of target accounts attended, and that roadshows put the event within a short trip of most of them.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    80
+   ],
+   "gist": "Zainab settles it: next year's summit runs as the three regional roadshows.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    30,
+    31
+   ],
+   "gist": "Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Ingrid",
+   "utterance_idxs": [
+    59
+   ],
+   "gist": "Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    21
+   ],
+   "gist": "Zainab reopens the question of the summit format now that everyone has had a week with Kofi's numbers.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    46,
+    47
+   ],
+   "gist": "Sofia answers that the save-the-date went out before executive invitations, which tripled responses last year, and that even with the Frankfurt increase the roadshows come in 61,000 dollars under the central event.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    89
+   ],
+   "gist": "Zainab confirms the three regional roadshows.",
+   "version": 1,
+   "option_key": "A",
+   "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01016-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the format of next year's customer summit?",
+   "answer_text": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "answer_facts": {
+    "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01016-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the format of next year's customer summit?",
+   "answer_text": "meeting 1: Zainab - Zainab settles it: next year's summit runs as the three regional roadshows.; meeting 3: Zainab - Zainab confirms the three regional roadshows.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01016-q03",
+   "type": "as_of",
+   "question": "What was the decision about the format of next year's customer summit as of the end of meeting 2?",
+   "answer_text": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01016-q04",
+   "type": "as_of",
+   "question": "What was the decision about the format of next year's customer summit as of the end of meeting 3?",
+   "answer_text": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01016-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the format of next year's customer summit change over time?",
+   "answer_text": "It did not change: three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01016-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about the format of next year's customer summit?",
+   "answer_text": "It did not change. The team kept three one-day regional roadshows in Manchester, Frankfurt and Austin instead of one central event. Concerns raised: Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on. Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher. Why it stayed: Sofia answers that the save-the-date went out before executive invitations, which tripled responses last year, and that even with the Frankfurt increase the roadshows come in 61,000 dollars under the central event.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01016-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the format of next year's customer summit?",
+   "answer_text": "Sofia",
+   "answer_facts": {
+    "speaker": "Sofia"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01016-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the format of next year's customer summit?",
+   "answer_text": "Kofi (evidence): Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher. Ingrid (challenge): Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01016-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the format of next year's customer summit?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01016-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the format of next year's customer summit from proposal to final outcome.",
+   "answer_text": "meeting 1 - Sofia [proposal]: Sofia proposes replacing the central summit with three one-day regional roadshows in Manchester, Frankfurt and Austin. | meeting 1 - Sofia [rationale]: Sofia argues that last year's central event spent 180,000 dollars on customer travel subsidies and only 34 percent of target accounts attended, and that roadshows put the event within a short trip of most of them. | meeting 1 - Zainab [resolution]: Zainab settles it: next year's summit runs as the three regional roadshows. | meeting 2 - Kofi [evidence]: Kofi reports that only 58 of the 140 target accounts have responded yes to the save-the-date, and the Frankfurt venue has re-quoted 22 percent higher. | meeting 2 - Ingrid [challenge]: Ingrid objects that weak early response and a rising Frankfurt cost mean the roadshows could miss the 1.2 million dollar pipeline target that the event is measured on. | meeting 3 - Zainab [reconsideration]: Zainab reopens the question of the summit format now that everyone has had a week with Kofi's numbers. | meeting 3 - Sofia [rationale]: Sofia answers that the save-the-date went out before executive invitations, which tripled responses last year, and that even with the Frankfurt increase the roadshows come in 61,000 dollars under the central event. | meeting 3 - Zainab [resolution]: Zainab confirms the three regional roadshows.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

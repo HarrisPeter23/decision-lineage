@@ -1,0 +1,45 @@
+{
+ "rule": "D-35: TEST pool-1 sets where no system had any failed call or episode after the single retry (final failure log, results/phase7/failures.md); fixed before any TEST score",
+ "failed_corpora_by_system": {
+  "lineage (extraction; shared by the 3 ablations)": {
+   "test_k1_06": "set_01020"
+  },
+  "evowiki_style": {
+   "test_k1_01": "set_01043",
+   "test_k1_20": "set_01025"
+  },
+  "graphiti": {
+   "test_k1_06": "set_01020",
+   "test_k1_11": "set_01018"
+  },
+  "vector_rag": {}
+ },
+ "excluded_sets": [
+  "set_01018",
+  "set_01020",
+  "set_01025",
+  "set_01043"
+ ],
+ "subset": [
+  "set_01017",
+  "set_01021",
+  "set_01022",
+  "set_01024",
+  "set_01026",
+  "set_01027",
+  "set_01028",
+  "set_01029",
+  "set_01031",
+  "set_01032",
+  "set_01033",
+  "set_01034",
+  "set_01035",
+  "set_01036",
+  "set_01037",
+  "set_01038",
+  "set_01039",
+  "set_01041"
+ ],
+ "n_subset": 18,
+ "n_all": 22
+}

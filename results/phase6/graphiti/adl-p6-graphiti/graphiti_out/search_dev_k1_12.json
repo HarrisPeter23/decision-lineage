@@ -1,0 +1,1098 @@
+[
+ {
+  "qid": "set_01012-q01",
+  "facts": [
+   {
+    "uuid": "427efef6-5d56-427e-9871-7cdeea664ecb",
+    "name": "POSTPONED_DECISION",
+    "fact": "Kofi said that they should not decide today and that they should wait for the current quote.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6eeeb314-0931-4e95-a557-9002271f6013",
+    "name": "USES",
+    "fact": "Noor mentioned that the warehouse people already know how to use the old ones, so training is nothing.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": "2025-08-26T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:17:32.911881+00:00"
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a80744ba-4b28-4c57-8463-cf406eeceb20",
+    "name": "SUPPLIER_OF",
+    "fact": "Noor mentioned that the same supplier, Duran Scan, provides the handheld scanners.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q02",
+  "facts": [
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6eeeb314-0931-4e95-a557-9002271f6013",
+    "name": "USES",
+    "fact": "Noor mentioned that the warehouse people already know how to use the old ones, so training is nothing.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": "2025-08-26T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:17:32.911881+00:00"
+   },
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a80744ba-4b28-4c57-8463-cf406eeceb20",
+    "name": "SUPPLIER_OF",
+    "fact": "Noor mentioned that the same supplier, Duran Scan, provides the handheld scanners.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c051b6f9-971b-4b67-8705-f6276643d1ed",
+    "name": "PROPOSED_VIDEO_MATERIAL",
+    "fact": "Noor proposed making a video for training on the scanning app, as she had already made one for the cold chain thing.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q03",
+  "facts": [
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b225ecb-39b7-4104-8ae3-f0695388d744",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Greta.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c8d16c7e-cd58-4618-b3ac-c62492a9f832",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Henrik.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22ce68f3-8c1b-4419-982c-4e88b02b1b3a",
+    "name": "QUOTE_PRICE_INCREASED_FROM",
+    "fact": "Duran Scan increased the price of their quote from nine hundred to eleven hundred fifty per unit.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823964+00:00"
+   },
+   {
+    "uuid": "ae9e62ee-a3c6-4d77-b904-7f596038a4ff",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Kofi.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q04",
+  "facts": [
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b225ecb-39b7-4104-8ae3-f0695388d744",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Greta.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c8d16c7e-cd58-4618-b3ac-c62492a9f832",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Henrik.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22ce68f3-8c1b-4419-982c-4e88b02b1b3a",
+    "name": "QUOTE_PRICE_INCREASED_FROM",
+    "fact": "Duran Scan increased the price of their quote from nine hundred to eleven hundred fifty per unit.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823964+00:00"
+   },
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ae9e62ee-a3c6-4d77-b904-7f596038a4ff",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Kofi.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q05",
+  "facts": [
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6eeeb314-0931-4e95-a557-9002271f6013",
+    "name": "USES",
+    "fact": "Noor mentioned that the warehouse people already know how to use the old ones, so training is nothing.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": "2025-08-26T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:17:32.911881+00:00"
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2f74a84d-8705-433c-9a71-de798c6eff0e",
+    "name": "COSTS",
+    "fact": "Noor mentioned that the quote was about nine hundred each, last time I looked.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": "2025-08-26T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:17:32.911923+00:00"
+   },
+   {
+    "uuid": "a80744ba-4b28-4c57-8463-cf406eeceb20",
+    "name": "SUPPLIER_OF",
+    "fact": "Noor mentioned that the same supplier, Duran Scan, provides the handheld scanners.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q06",
+  "facts": [
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37948077-9f91-449e-bad3-81b4c83b4604",
+    "name": "PROPOSED_SCANNING_APP_ON_DEVICES",
+    "fact": "Henrik proposed using a scanning app on the tablets and phones already in the stores for Kofi.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0f06938b-6949-4369-9c64-99f46d20c685",
+    "name": "EXISTING_DEVICES_IN_STORES",
+    "fact": "Henrik mentioned that there are existing phones in the stores that can be used for the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2164bf01-21b3-4ec0-a61b-4ebdb3924d16",
+    "name": "EXISTING_DEVICES_IN_STORES",
+    "fact": "Henrik mentioned that there are existing tablets in the stores that can be used for the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6578c33a-edaf-422f-87c2-489b7f33a071",
+    "name": "PROPOSED_TRAINING_MATERIAL",
+    "fact": "Henrik proposed writing a card for training on the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ba4cbe59-0ae9-4154-88fd-00506f4d5f7a",
+    "name": "PROPOSED_LICENSE_COST",
+    "fact": "Henrik proposed a license cost of six dollars per device per month for the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "678ca4ad-778d-4e9d-af28-d2af442e8316",
+    "name": "PROPOSED_LICENSE_COST",
+    "fact": "Henrik proposed a license cost of six dollars per device per month for the scanning app.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.824058+00:00"
+   },
+   {
+    "uuid": "7e8e8182-368e-4fa0-bae3-36918ca2d9bb",
+    "name": "PROPOSED_INSTALLATION_TIME",
+    "fact": "Henrik proposed that installing the scanning app takes ten minutes.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c051b6f9-971b-4b67-8705-f6276643d1ed",
+    "name": "PROPOSED_VIDEO_MATERIAL",
+    "fact": "Noor proposed making a video for training on the scanning app, as she had already made one for the cold chain thing.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4b27334a-a1f0-49c3-9709-ff00c434ea52",
+    "name": "PROPOSED_INSTALLATION_TIME",
+    "fact": "Henrik proposed an installation time of ten minutes for the scanning app.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q07",
+  "facts": [
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6eeeb314-0931-4e95-a557-9002271f6013",
+    "name": "USES",
+    "fact": "Noor mentioned that the warehouse people already know how to use the old ones, so training is nothing.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": "2025-08-26T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:17:32.911881+00:00"
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1c87d394-2a21-44e7-80c8-45c218467f45",
+    "name": "PLANS_TO_ADOPT",
+    "fact": "Noor mentioned that they get proper dedicated handheld scanners, three for each store.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a707723-a3f7-4571-a716-2a1efa1ecaaa",
+    "name": "DECIDED_TO_USE",
+    "fact": "Kofi decided to use the scanning app on the tablets and phones already present in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "ae9e62ee-a3c6-4d77-b904-7f596038a4ff",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Kofi.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22ce68f3-8c1b-4419-982c-4e88b02b1b3a",
+    "name": "QUOTE_PRICE_INCREASED_FROM",
+    "fact": "Duran Scan increased the price of their quote from nine hundred to eleven hundred fifty per unit.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823964+00:00"
+   },
+   {
+    "uuid": "46bde70c-4336-4212-9044-8ebe1e3372fd",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Noor.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01012-q08",
+  "facts": [
+   {
+    "uuid": "2607c966-3e87-4dbd-89c3-5fd5482d1450",
+    "name": "QUOTE_DELIVERY_DATE_PROVIDED",
+    "fact": "Duran Scan provided a delivery date of after the holiday peak for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "22ce68f3-8c1b-4419-982c-4e88b02b1b3a",
+    "name": "QUOTE_PRICE_INCREASED_FROM",
+    "fact": "Duran Scan increased the price of their quote from nine hundred to eleven hundred fifty per unit.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823964+00:00"
+   },
+   {
+    "uuid": "3b225ecb-39b7-4104-8ae3-f0695388d744",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Greta.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f434673-1dbc-4e29-b607-091d2f78d196",
+    "name": "CONFIRMED_TIMING",
+    "fact": "Noor confirmed Henrik's timing of an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fecd5566-24e0-437c-8e9c-d50c6ad24f7a",
+    "name": "CURRENTLY_USES",
+    "fact": "Noor mentioned that receiving stock is still done using clipboards.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c8d16c7e-cd58-4618-b3ac-c62492a9f832",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Henrik.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ae9e62ee-a3c6-4d77-b904-7f596038a4ff",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Kofi.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07733aa1-2f19-456e-af8f-3767186e811f",
+    "name": "TIMED_EXTRA_TIME_PER_DELIVERY",
+    "fact": "Noor timed an extra six and a half minutes per delivery when using the scanning app.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f2cdda16-c1a4-4ffd-b5ef-af7b518b9f7d",
+    "name": "MENTIONED_CLIPBOARDS_ISSUE",
+    "fact": "Noor mentioned that the clipboards are still being used for receiving stock.",
+    "episodes": [
+     "29bb09d2-56e9-4a34-bd20-2978138efbe9"
+    ],
+    "valid_at": "2025-08-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2d05540-9898-4eb6-9a64-8806607406e6",
+    "name": "PROPOSED_USE_ON_EXISTING_DEVICES",
+    "fact": "Henrik proposed using the scanning app on the existing tablets and phones in the stores.",
+    "episodes": [
+     "1797fa8e-ac3a-486d-9b1c-1e07dddc1e94"
+    ],
+    "valid_at": "2025-09-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "14c0fa22-3c9f-4cd1-b244-4653b0d9aeb7",
+    "name": "QUOTE_LEAD_TIME_PROVIDED",
+    "fact": "Duran Scan provided a lead time of ten weeks for the quote.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": "2025-09-02T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:28:45.823949+00:00"
+   },
+   {
+    "uuid": "46bde70c-4336-4212-9044-8ebe1e3372fd",
+    "name": "QUOTE_PROVIDED_TO",
+    "fact": "Duran Scan provided a quote of eleven hundred fifty per unit to Noor.",
+    "episodes": [
+     "f883c710-e459-4e66-9501-687c7a7cc39d"
+    ],
+    "valid_at": "2025-08-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

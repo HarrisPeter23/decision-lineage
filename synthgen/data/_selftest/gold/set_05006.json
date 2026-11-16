@@ -1,0 +1,623 @@
+{
+ "set_id": "set_05006",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "marketing team",
+  "seed": 5006,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 82
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 116
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 100
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 113
+   }
+  ],
+  "models": {
+   "generator": "mock:None",
+   "temperature": 0.9
+  }
+ },
+ "topic": "mock topic for marketing team",
+ "options": {
+  "A": "option a",
+  "B": "option b"
+ },
+ "cast": [
+  {
+   "name": "Noor",
+   "slot": "manager",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Amara",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Nadia",
+   "slot": "challenger",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Kofi",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Hana",
+   "slot": "observer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "option a"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "option b"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "option a"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "proposal content, item a",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "rationale content, item b",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "resolution content, item c",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "evidence content, item d",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    7
+   ],
+   "gist": "challenge content, item e",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "rationale content, item f",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    10
+   ],
+   "gist": "resolution content, item g",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "evidence content, item h",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    7
+   ],
+   "gist": "challenge content, item i",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "reconsideration content, item j",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Amara",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "rationale content, item k",
+   "version": 3,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    10
+   ],
+   "gist": "resolution content, item l",
+   "version": 3,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "mock side issue",
+  "option": "mock side option",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     12
+    ],
+    "gist": "proposal side content, item a",
+    "version": null,
+    "option_key": null,
+    "option": "mock side option",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     13
+    ],
+    "gist": "rationale side content, item b",
+    "version": null,
+    "option_key": null,
+    "option": "mock side option",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Noor",
+    "utterance_idxs": [
+     15
+    ],
+    "gist": "resolution side content, item c",
+    "version": null,
+    "option_key": null,
+    "option": "mock side option",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_05006-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about mock topic for marketing team?",
+   "answer_text": "option a",
+   "answer_facts": {
+    "option": "option a"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_05006-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about mock topic for marketing team?",
+   "answer_text": "meeting 1: Noor - resolution content, item c; meeting 2: Noor - resolution content, item g; meeting 4: Noor - resolution content, item l",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "option a",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "option b",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "option a",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_05006-q03",
+   "type": "as_of",
+   "question": "What was the decision about mock topic for marketing team as of the end of meeting 2?",
+   "answer_text": "option b",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "option b"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05006-q04",
+   "type": "as_of",
+   "question": "What was the decision about mock topic for marketing team as of the end of meeting 3?",
+   "answer_text": "option b",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "option b"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05006-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about mock topic for marketing team change over time?",
+   "answer_text": "option a (from meeting 1) -> option b (from meeting 2) -> option a (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "option a",
+     "option b",
+     "option a"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_05006-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about mock topic for marketing team change at meeting 2?",
+   "answer_text": "Before: option a, because rationale content, item b Triggered by: Hana (evidence): evidence content, item d Nadia (challenge): challenge content, item e After: option b, because rationale content, item f",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05006-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about mock topic for marketing team change at meeting 4?",
+   "answer_text": "Before: option b, because rationale content, item f Triggered by: Kofi (evidence): evidence content, item h Amara (challenge): challenge content, item i Noor (reconsideration): reconsideration content, item j After: option a, because rationale content, item k",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_05006-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about mock topic for marketing team?",
+   "answer_text": "Amara",
+   "answer_facts": {
+    "speaker": "Amara"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_05006-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about mock topic for marketing team?",
+   "answer_text": "Hana (evidence): evidence content, item d Nadia (challenge): challenge content, item e Kofi (evidence): evidence content, item h Amara (challenge): challenge content, item i",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_05006-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about mock topic for marketing team?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_05006-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about mock topic for marketing team from proposal to final outcome.",
+   "answer_text": "meeting 1 - Amara [proposal]: proposal content, item a | meeting 1 - Amara [rationale]: rationale content, item b | meeting 1 - Noor [resolution]: resolution content, item c | meeting 2 - Hana [evidence]: evidence content, item d | meeting 2 - Nadia [challenge]: challenge content, item e | meeting 2 - Nadia [rationale]: rationale content, item f | meeting 2 - Noor [resolution]: resolution content, item g | meeting 3 - Kofi [evidence]: evidence content, item h | meeting 3 - Amara [challenge]: challenge content, item i | meeting 4 - Noor [reconsideration]: reconsideration content, item j | meeting 4 - Amara [rationale]: rationale content, item k | meeting 4 - Noor [resolution]: resolution content, item l",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_05006-q12",
+   "type": "distractor",
+   "question": "What was decided about mock side issue?",
+   "answer_text": "mock side option",
+   "answer_facts": {
+    "option": "mock side option"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

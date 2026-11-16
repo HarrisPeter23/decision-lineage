@@ -1,0 +1,197 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Offsite headcount form",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Wednesday noon",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-01",
+     "evidence": [
+      6,
+      7,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "March invoice",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "cleared this month",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Data team take-home assessment",
+   "attribute": "completion rate",
+   "states": [
+    {
+     "value": "46 out of 120 candidates did not complete",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      18
+     ]
+    },
+    {
+     "value": "off the table for first-round engineering interviews",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-15",
+     "evidence": [
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Data team take-home assessment",
+   "attribute": "time spent",
+   "states": [
+    {
+     "value": "3 hours on average",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Onboarding process",
+   "attribute": "laptop distribution",
+   "states": [
+    {
+     "value": "ship laptops to new hires' homes the Friday before they start",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Onboarding process",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "start with the next hire",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Pass-rate sheet",
+   "attribute": "availability",
+   "states": [
+    {
+     "value": "in the shared folder",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-08",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Interview process",
+   "attribute": "first-round engineering interview format",
+   "states": [
+    {
+     "value": "forty-five minute video screen with two interviewers scoring on a shared rubric",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-15",
+     "evidence": [
+      108
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Interview process",
+   "attribute": "phone screen",
+   "states": [
+    {
+     "value": "retained as part of the process",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-15",
+     "evidence": [
+      108
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   3
+  ]
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "set_id": "set_01019",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Priya",
+   "quote": "So, right now every engineering candidate gets a phone screen first, twenty or thirty minutes with one of us. What if we dropped that and just sent them a short exercise instead?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Priya",
+   "quote": "Look, last quarter I pulled the pass rates by recruiter. One of them was passing about 38 percent of people to the next stage.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Priya",
+   "quote": "A take-home gives everyone the identical task, so we're comparing like with like.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Aisha",
+   "quote": "Okay, but 61 and 38, that could just be who they happened to get.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Priya",
+   "quote": "Could be. I don't think it explains the whole gap, though.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Jonas",
+   "quote": "I mean, directionally it feels right? Like, consistency matters.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Diego",
+   "quote": "Is it the sample size? How many screens each, roughly?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Priya",
+   "quote": "Um, I think around forty for the low one and, hang on, thirty-something for the other. I'd have to check.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Aisha",
+   "quote": "And what about people who just won't do it? Because I'd skip it.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Jonas",
+   "quote": "Yeah, senior people especially. They've got three other offers.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Bashir",
+   "quote": "Maybe Kaveh would know. He's on the engineering side.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Aisha",
+   "quote": "Did they try that? I never heard.",
+   "confidence": 0.75
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Priya",
+   "quote": "Last year, I think. Or the year before. Daan mentioned it once.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Diego",
+   "quote": "It was last year. Because it was around when we had the, uh, the audit.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Jonas",
+   "quote": "The other thing is who looks at the results. It's not us, right?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Aisha",
+   "quote": "Not that often. Stefan did two last month and complained about it.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Diego",
+   "quote": "What about candidates who aren't, like, English first language? A written exercise could be-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Priya",
+   "quote": "There wouldn't be a write-up in thirty minutes. It'd be a small problem and a short note, at most.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Jonas",
+   "quote": "I do wonder if it's, um, if it's too early. For the first thing they see from us.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Priya",
+   "quote": "The phone screen also sells the company a bit.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Priya",
+   "quote": "We could ask those in the application form.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Jonas",
+   "quote": "It's a field, though. Not hard.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Priya",
+   "quote": "Okay. We would have to answer people. That's right.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Priya",
+   "quote": "If it's a rubric, maybe ten minutes. Maybe more at the start.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Priya",
+   "quote": "Last quarter we did, I want to say, a hundred and eighty screens. Roughly.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Priya",
+   "quote": "Thirty if everyone takes ten minutes. It won't be that neat.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Aisha",
+   "quote": "That's more than the calls cost, probably.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Aisha",
+   "quote": "Okay, so about the same.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Bashir",
+   "quote": "Okay. I want to think about it. Um, I'm not ready to say yes or no on this today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Aisha",
+   "quote": "I'm not either, honestly.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Priya",
+   "quote": "I'll put it in the shared folder. And I'll ask Kaveh about the data team.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Bashir",
+   "quote": "I'll take that. Send me the thread.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Bashir",
+   "quote": "Good. That's one off the list.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "quote": "Can I - okay, so if the take-home loses that many people, what if we keep it a conversation, but make it, I don't know, properly structured? Forty-five minutes, on video, two of us on the call, same questions every time.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Priya",
+   "quote": "Agreed. I'd just like both options in the sheet next to each other.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Priya",
+   "quote": "Yes. I'll add a column for the video one with Diego's numbers.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Jonas",
+   "quote": "Oh, while we're here, can I raise a different thing? Onboarding. Laptops.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "quote": "So right now the new starters come to the office on day one and pick up their laptop from IT. What if we just posted them out? Courier it to their home the Friday before they start.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Bashir",
+   "quote": "Okay. Um. I'm fine with that. Ship the laptops to the new hires' homes the Friday before they start. Jonas, can you tell IT?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Bashir",
+   "quote": "Next one, yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Bashir",
+   "quote": "It does. Priya, the sheet, then we'll look again.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Aisha",
+   "quote": "Can we do the interview thing first? I've got a hard stop at half past.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Bashir",
+   "quote": "Yes. That's, um, that's what I wanted. We've been round it twice now.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Bashir",
+   "quote": "I'd like to be done with it today. Priya, you added the, the column?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Jonas",
+   "quote": "So the take-home is, what, off the table then?",
+   "confidence": 0.8
+  }
+ ]
+}

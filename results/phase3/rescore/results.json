@@ -1,0 +1,1944 @@
+{
+ "calibration": {
+  "n_gold_links": 122,
+  "pctl": 0.1,
+  "tau": 0.2753,
+  "own_decision_most_similar": 0.984,
+  "sim_quartiles": [
+   0.05,
+   0.401,
+   0.497,
+   0.587,
+   0.78
+  ],
+  "utterance_coverage_mean": 0.466
+ },
+ "tol": 1,
+ "rows": [
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "none",
+   "sets": 14,
+   "links": 1596,
+   "P": 0.051,
+   "R": 0.672,
+   "F1": 0.095,
+   "F1_ci": [
+    0.072,
+    0.129
+   ],
+   "P_ds": 0.105,
+   "F1_ds": 0.181,
+   "F1_ds_ci": [
+    0.142,
+    0.235
+   ],
+   "fp_scoped": 700,
+   "fp_all": 1514,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.189,
+     "r": 0.842,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.109,
+     "r": 0.515,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.06,
+     "r": 0.75,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.052,
+     "r": 0.545,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.19,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.099,
+     "r": 0.935,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "meeting K=2",
+   "sets": 14,
+   "links": 86,
+   "P": 0.349,
+   "R": 0.246,
+   "F1": 0.288,
+   "F1_ci": [
+    0.208,
+    0.376
+   ],
+   "P_ds": 0.5,
+   "F1_ds": 0.33,
+   "F1_ds_ci": [
+    0.25,
+    0.406
+   ],
+   "fp_scoped": 30,
+   "fp_all": 56,
+   "implicit": "0/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.453,
+     "r": 0.632,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.154,
+     "r": 0.091,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.429,
+     "r": 0.375,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.267,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.226,
+     "r": 0.226,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "meeting K=3",
+   "sets": 14,
+   "links": 129,
+   "P": 0.357,
+   "R": 0.377,
+   "F1": 0.367,
+   "F1_ci": [
+    0.278,
+    0.46
+   ],
+   "P_ds": 0.511,
+   "F1_ds": 0.434,
+   "F1_ds_ci": [
+    0.353,
+    0.511
+   ],
+   "fp_scoped": 44,
+   "fp_all": 83,
+   "implicit": "1/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.4,
+     "r": 0.632,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.238,
+     "r": 0.152,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.486,
+     "r": 0.562,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.25,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.405,
+     "r": 0.548,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "meeting K=4",
+   "sets": 14,
+   "links": 172,
+   "P": 0.308,
+   "R": 0.434,
+   "F1": 0.361,
+   "F1_ci": [
+    0.279,
+    0.444
+   ],
+   "P_ds": 0.453,
+   "F1_ds": 0.444,
+   "F1_ds_ci": [
+    0.364,
+    0.52
+   ],
+   "fp_scoped": 64,
+   "fp_all": 119,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.377,
+     "r": 0.684,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.255,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.455,
+     "r": 0.625,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.235,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.4,
+     "r": 0.677,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "meeting K=6",
+   "sets": 14,
+   "links": 258,
+   "P": 0.233,
+   "R": 0.492,
+   "F1": 0.316,
+   "F1_ci": [
+    0.261,
+    0.376
+   ],
+   "P_ds": 0.366,
+   "F1_ds": 0.42,
+   "F1_ds_ci": [
+    0.359,
+    0.481
+   ],
+   "fp_scoped": 104,
+   "fp_all": 198,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.35,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.267,
+     "r": 0.242,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.323,
+     "r": 0.625,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.182,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.2,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.353,
+     "r": 0.774,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass",
+   "candidate": true,
+   "cap": "meeting K=8",
+   "sets": 14,
+   "links": 344,
+   "P": 0.189,
+   "R": 0.533,
+   "F1": 0.279,
+   "F1_ci": [
+    0.234,
+    0.33
+   ],
+   "P_ds": 0.31,
+   "F1_ds": 0.392,
+   "F1_ds_ci": [
+    0.339,
+    0.447
+   ],
+   "fp_scoped": 145,
+   "fp_all": 279,
+   "implicit": "5/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.304,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.274,
+     "r": 0.303,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.238,
+     "r": 0.625,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.143,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.2,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.32,
+     "r": 0.871,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [sensitivity: set_01019 excluded, its m3 call failed]",
+   "candidate": false,
+   "cap": "none",
+   "sets": 13,
+   "links": 1490,
+   "P": 0.05,
+   "R": 0.664,
+   "F1": 0.094,
+   "F1_ci": [
+    0.068,
+    0.13
+   ],
+   "P_ds": 0.106,
+   "F1_ds": 0.182,
+   "F1_ds_ci": [
+    0.138,
+    0.244
+   ],
+   "fp_scoped": 635,
+   "fp_all": 1415,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.175,
+     "r": 0.875,
+     "support": 16
+    },
+    "rationale": {
+     "f1": 0.109,
+     "r": 0.467,
+     "support": 30
+    },
+    "evidence": {
+     "f1": 0.057,
+     "r": 0.733,
+     "support": 15
+    },
+    "challenge": {
+     "f1": 0.055,
+     "r": 0.545,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.2,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.099,
+     "r": 0.966,
+     "support": 29
+    }
+   }
+  },
+  {
+   "config": "single_pass [sensitivity: set_01019 excluded, its m3 call failed]",
+   "candidate": false,
+   "cap": "meeting K=4",
+   "sets": 13,
+   "links": 164,
+   "P": 0.299,
+   "R": 0.434,
+   "F1": 0.354,
+   "F1_ci": [
+    0.266,
+    0.447
+   ],
+   "P_ds": 0.441,
+   "F1_ds": 0.438,
+   "F1_ds_ci": [
+    0.348,
+    0.524
+   ],
+   "fp_scoped": 62,
+   "fp_all": 115,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.349,
+     "r": 0.688,
+     "support": 16
+    },
+    "rationale": {
+     "f1": 0.238,
+     "r": 0.167,
+     "support": 30
+    },
+    "evidence": {
+     "f1": 0.439,
+     "r": 0.6,
+     "support": 15
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.235,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.412,
+     "r": 0.724,
+     "support": 29
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "none",
+   "sets": 14,
+   "links": 1062,
+   "P": 0.071,
+   "R": 0.615,
+   "F1": 0.127,
+   "F1_ci": [
+    0.089,
+    0.188
+   ],
+   "P_ds": 0.135,
+   "F1_ds": 0.222,
+   "F1_ds_ci": [
+    0.161,
+    0.322
+   ],
+   "fp_scoped": 479,
+   "fp_all": 987,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.13,
+     "r": 0.947,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.213,
+     "r": 0.303,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.115,
+     "r": 0.5,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.051,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.173,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.116,
+     "r": 0.968,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "meeting K=2",
+   "sets": 14,
+   "links": 88,
+   "P": 0.42,
+   "R": 0.303,
+   "F1": 0.352,
+   "F1_ci": [
+    0.274,
+    0.432
+   ],
+   "P_ds": 0.561,
+   "F1_ds": 0.394,
+   "F1_ds_ci": [
+    0.316,
+    0.469
+   ],
+   "fp_scoped": 29,
+   "fp_all": 51,
+   "implicit": "0/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.4,
+     "r": 0.579,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.114,
+     "r": 0.061,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.444,
+     "r": 0.375,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.737,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.349,
+     "r": 0.355,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "meeting K=3",
+   "sets": 14,
+   "links": 132,
+   "P": 0.333,
+   "R": 0.361,
+   "F1": 0.346,
+   "F1_ci": [
+    0.261,
+    0.427
+   ],
+   "P_ds": 0.478,
+   "F1_ds": 0.411,
+   "F1_ds_ci": [
+    0.324,
+    0.49
+   ],
+   "fp_scoped": 48,
+   "fp_all": 88,
+   "implicit": "1/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.349,
+     "r": 0.579,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.205,
+     "r": 0.121,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.4,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.7,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.349,
+     "r": 0.484,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "meeting K=4",
+   "sets": 14,
+   "links": 176,
+   "P": 0.29,
+   "R": 0.418,
+   "F1": 0.342,
+   "F1_ci": [
+    0.27,
+    0.414
+   ],
+   "P_ds": 0.44,
+   "F1_ds": 0.429,
+   "F1_ds_ci": [
+    0.355,
+    0.5
+   ],
+   "fp_scoped": 65,
+   "fp_all": 125,
+   "implicit": "2/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.366,
+     "r": 0.684,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.205,
+     "r": 0.121,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.341,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.583,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.342,
+     "r": 0.613,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "meeting K=6",
+   "sets": 14,
+   "links": 260,
+   "P": 0.227,
+   "R": 0.484,
+   "F1": 0.309,
+   "F1_ci": [
+    0.246,
+    0.364
+   ],
+   "P_ds": 0.355,
+   "F1_ds": 0.41,
+   "F1_ds_ci": [
+    0.348,
+    0.46
+   ],
+   "fp_scoped": 107,
+   "fp_all": 201,
+   "implicit": "4/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.322,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.233,
+     "r": 0.152,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.259,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.235,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.538,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.31,
+     "r": 0.774,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123",
+   "candidate": false,
+   "cap": "meeting K=8",
+   "sets": 14,
+   "links": 340,
+   "P": 0.182,
+   "R": 0.508,
+   "F1": 0.268,
+   "F1_ci": [
+    0.211,
+    0.324
+   ],
+   "P_ds": 0.304,
+   "F1_ds": 0.38,
+   "F1_ds_ci": [
+    0.316,
+    0.442
+   ],
+   "fp_scoped": 142,
+   "fp_all": 278,
+   "implicit": "5/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.294,
+     "r": 0.789,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.267,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.212,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.174,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.467,
+     "r": 0.583,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.255,
+     "r": 0.806,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "none",
+   "sets": 14,
+   "links": 909,
+   "P": 0.07,
+   "R": 0.525,
+   "F1": 0.124,
+   "F1_ci": [
+    0.093,
+    0.175
+   ],
+   "P_ds": 0.137,
+   "F1_ds": 0.217,
+   "F1_ds_ci": [
+    0.161,
+    0.297
+   ],
+   "fp_scoped": 403,
+   "fp_all": 845,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.134,
+     "r": 0.895,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.182,
+     "r": 0.242,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.089,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.026,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.154,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.133,
+     "r": 0.839,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "meeting K=2",
+   "sets": 14,
+   "links": 88,
+   "P": 0.375,
+   "R": 0.27,
+   "F1": 0.314,
+   "F1_ci": [
+    0.26,
+    0.373
+   ],
+   "P_ds": 0.524,
+   "F1_ds": 0.357,
+   "F1_ds_ci": [
+    0.304,
+    0.412
+   ],
+   "fp_scoped": 30,
+   "fp_all": 55,
+   "implicit": "0/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.333,
+     "r": 0.526,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.059,
+     "r": 0.03,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.519,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.588,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.333,
+     "r": 0.323,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "meeting K=3",
+   "sets": 14,
+   "links": 132,
+   "P": 0.303,
+   "R": 0.328,
+   "F1": 0.315,
+   "F1_ci": [
+    0.253,
+    0.384
+   ],
+   "P_ds": 0.449,
+   "F1_ds": 0.379,
+   "F1_ds_ci": [
+    0.318,
+    0.442
+   ],
+   "fp_scoped": 49,
+   "fp_all": 92,
+   "implicit": "1/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.314,
+     "r": 0.579,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.211,
+     "r": 0.121,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.424,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.556,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.317,
+     "r": 0.419,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "meeting K=4",
+   "sets": 14,
+   "links": 176,
+   "P": 0.244,
+   "R": 0.352,
+   "F1": 0.289,
+   "F1_ci": [
+    0.234,
+    0.349
+   ],
+   "P_ds": 0.377,
+   "F1_ds": 0.364,
+   "F1_ds_ci": [
+    0.31,
+    0.414
+   ],
+   "fp_scoped": 71,
+   "fp_all": 133,
+   "implicit": "1/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.278,
+     "r": 0.579,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.205,
+     "r": 0.121,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.333,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.476,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.308,
+     "r": 0.516,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "meeting K=6",
+   "sets": 14,
+   "links": 258,
+   "P": 0.209,
+   "R": 0.443,
+   "F1": 0.284,
+   "F1_ci": [
+    0.232,
+    0.338
+   ],
+   "P_ds": 0.338,
+   "F1_ds": 0.383,
+   "F1_ds_ci": [
+    0.328,
+    0.435
+   ],
+   "fp_scoped": 106,
+   "fp_all": 204,
+   "implicit": "4/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.286,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.279,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.259,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.105,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.435,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.294,
+     "r": 0.677,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "mp_p123_verify",
+   "candidate": false,
+   "cap": "meeting K=8",
+   "sets": 14,
+   "links": 336,
+   "P": 0.167,
+   "R": 0.459,
+   "F1": 0.245,
+   "F1_ci": [
+    0.197,
+    0.293
+   ],
+   "P_ds": 0.273,
+   "F1_ds": 0.343,
+   "F1_ds_ci": [
+    0.294,
+    0.392
+   ],
+   "fp_scoped": 149,
+   "fp_all": 280,
+   "implicit": "5/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.273,
+     "r": 0.789,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.255,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.219,
+     "r": 0.438,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.083,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.37,
+     "r": 0.417,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.237,
+     "r": 0.71,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "none",
+   "sets": 14,
+   "links": 583,
+   "P": 0.158,
+   "R": 0.754,
+   "F1": 0.261,
+   "F1_ci": [
+    0.223,
+    0.308
+   ],
+   "P_ds": 0.235,
+   "F1_ds": 0.359,
+   "F1_ds_ci": [
+    0.31,
+    0.419
+   ],
+   "fp_scoped": 299,
+   "fp_all": 491,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.5,
+     "r": 0.895,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.188,
+     "r": 0.364,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.162,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.108,
+     "r": 0.727,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.585,
+     "r": 1.0,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.395,
+     "r": 0.935,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "meeting K=2",
+   "sets": 14,
+   "links": 84,
+   "P": 0.619,
+   "R": 0.426,
+   "F1": 0.505,
+   "F1_ci": [
+    0.447,
+    0.561
+   ],
+   "P_ds": 0.703,
+   "F1_ds": 0.531,
+   "F1_ds_ci": [
+    0.469,
+    0.589
+   ],
+   "fp_scoped": 22,
+   "fp_all": 32,
+   "implicit": "2/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.581,
+     "r": 0.474,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.162,
+     "r": 0.091,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.686,
+     "r": 0.75,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.667,
+     "r": 0.75,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.562,
+     "r": 0.581,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "meeting K=3",
+   "sets": 14,
+   "links": 124,
+   "P": 0.548,
+   "R": 0.557,
+   "F1": 0.553,
+   "F1_ci": [
+    0.477,
+    0.629
+   ],
+   "P_ds": 0.624,
+   "F1_ds": 0.589,
+   "F1_ds_ci": [
+    0.508,
+    0.673
+   ],
+   "fp_scoped": 41,
+   "fp_all": 56,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.737,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.244,
+     "r": 0.152,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.565,
+     "r": 0.812,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.5,
+     "r": 0.364,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.71,
+     "r": 0.917,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.568,
+     "r": 0.677,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "meeting K=4",
+   "sets": 14,
+   "links": 163,
+   "P": 0.485,
+   "R": 0.648,
+   "F1": 0.554,
+   "F1_ci": [
+    0.481,
+    0.62
+   ],
+   "P_ds": 0.572,
+   "F1_ds": 0.608,
+   "F1_ds_ci": [
+    0.529,
+    0.683
+   ],
+   "fp_scoped": 59,
+   "fp_all": 84,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.714,
+     "r": 0.789,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.311,
+     "r": 0.212,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.5,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.737,
+     "r": 0.636,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.667,
+     "r": 1.0,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.552,
+     "r": 0.774,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "meeting K=6",
+   "sets": 14,
+   "links": 238,
+   "P": 0.357,
+   "R": 0.697,
+   "F1": 0.472,
+   "F1_ci": [
+    0.415,
+    0.53
+   ],
+   "P_ds": 0.455,
+   "F1_ds": 0.55,
+   "F1_ds_ci": [
+    0.482,
+    0.621
+   ],
+   "fp_scoped": 102,
+   "fp_all": 153,
+   "implicit": "4/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.696,
+     "r": 0.842,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.291,
+     "r": 0.242,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.341,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.457,
+     "r": 0.727,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.649,
+     "r": 1.0,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.514,
+     "r": 0.871,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "meeting K=8",
+   "sets": 14,
+   "links": 309,
+   "P": 0.282,
+   "R": 0.713,
+   "F1": 0.404,
+   "F1_ci": [
+    0.356,
+    0.453
+   ],
+   "P_ds": 0.375,
+   "F1_ds": 0.492,
+   "F1_ds_ci": [
+    0.431,
+    0.551
+   ],
+   "fp_scoped": 145,
+   "fp_all": 222,
+   "implicit": "4/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.667,
+     "r": 0.842,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.274,
+     "r": 0.303,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.267,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.34,
+     "r": 0.727,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.632,
+     "r": 1.0,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.45,
+     "r": 0.871,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "decision K=1",
+   "sets": 14,
+   "links": 86,
+   "P": 0.465,
+   "R": 0.328,
+   "F1": 0.385,
+   "F1_ci": [
+    0.333,
+    0.449
+   ],
+   "P_ds": 0.656,
+   "F1_ds": 0.437,
+   "F1_ds_ci": [
+    0.385,
+    0.497
+   ],
+   "fp_scoped": 21,
+   "fp_all": 46,
+   "implicit": "2/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.5,
+     "r": 0.368,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.8,
+     "r": 0.75,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.167,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.696,
+     "r": 0.667,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.293,
+     "r": 0.387,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "decision K=2",
+   "sets": 14,
+   "links": 145,
+   "P": 0.421,
+   "R": 0.5,
+   "F1": 0.457,
+   "F1_ci": [
+    0.378,
+    0.556
+   ],
+   "P_ds": 0.581,
+   "F1_ds": 0.537,
+   "F1_ds_ci": [
+    0.457,
+    0.63
+   ],
+   "fp_scoped": 44,
+   "fp_all": 84,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.651,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.158,
+     "r": 0.091,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.6,
+     "r": 0.75,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.308,
+     "r": 0.182,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.621,
+     "r": 0.75,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.404,
+     "r": 0.677,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass_recap_roles",
+   "candidate": true,
+   "cap": "decision K=3",
+   "sets": 14,
+   "links": 195,
+   "P": 0.395,
+   "R": 0.631,
+   "F1": 0.486,
+   "F1_ci": [
+    0.394,
+    0.588
+   ],
+   "P_ds": 0.538,
+   "F1_ds": 0.581,
+   "F1_ds_ci": [
+    0.487,
+    0.679
+   ],
+   "fp_scoped": 66,
+   "fp_all": 118,
+   "implicit": "4/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.612,
+     "r": 0.789,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.314,
+     "r": 0.242,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.5,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.556,
+     "r": 0.455,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.667,
+     "r": 0.917,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.436,
+     "r": 0.774,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "none",
+   "sets": 14,
+   "links": 2182,
+   "P": 0.038,
+   "R": 0.672,
+   "F1": 0.071,
+   "F1_ci": [
+    0.054,
+    0.102
+   ],
+   "P_ds": 0.081,
+   "F1_ds": 0.144,
+   "F1_ds_ci": [
+    0.114,
+    0.196
+   ],
+   "fp_scoped": 931,
+   "fp_all": 2100,
+   "implicit": "6/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.116,
+     "r": 0.842,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.058,
+     "r": 0.424,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.051,
+     "r": 0.875,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.037,
+     "r": 0.545,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.133,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.092,
+     "r": 0.968,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "meeting K=2",
+   "sets": 14,
+   "links": 88,
+   "P": 0.295,
+   "R": 0.213,
+   "F1": 0.248,
+   "F1_ci": [
+    0.165,
+    0.344
+   ],
+   "P_ds": 0.406,
+   "F1_ds": 0.28,
+   "F1_ds_ci": [
+    0.197,
+    0.366
+   ],
+   "fp_scoped": 38,
+   "fp_all": 62,
+   "implicit": "0/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.491,
+     "r": 0.684,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.15,
+     "r": 0.091,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.333,
+     "r": 0.375,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.0,
+     "r": 0.0,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.133,
+     "r": 0.083,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.111,
+     "r": 0.097,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "meeting K=3",
+   "sets": 14,
+   "links": 132,
+   "P": 0.295,
+   "R": 0.32,
+   "F1": 0.307,
+   "F1_ci": [
+    0.198,
+    0.43
+   ],
+   "P_ds": 0.419,
+   "F1_ds": 0.363,
+   "F1_ds_ci": [
+    0.25,
+    0.472
+   ],
+   "fp_scoped": 54,
+   "fp_all": 93,
+   "implicit": "0/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.426,
+     "r": 0.684,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.222,
+     "r": 0.152,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.409,
+     "r": 0.562,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.143,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.235,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.247,
+     "r": 0.29,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "meeting K=4",
+   "sets": 14,
+   "links": 176,
+   "P": 0.267,
+   "R": 0.385,
+   "F1": 0.315,
+   "F1_ci": [
+    0.217,
+    0.415
+   ],
+   "P_ds": 0.382,
+   "F1_ds": 0.384,
+   "F1_ds_ci": [
+    0.29,
+    0.468
+   ],
+   "fp_scoped": 76,
+   "fp_all": 129,
+   "implicit": "2/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.4,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.25,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.4,
+     "r": 0.688,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.133,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.222,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.283,
+     "r": 0.419,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "meeting K=6",
+   "sets": 14,
+   "links": 264,
+   "P": 0.186,
+   "R": 0.402,
+   "F1": 0.254,
+   "F1_ci": [
+    0.178,
+    0.329
+   ],
+   "P_ds": 0.287,
+   "F1_ds": 0.334,
+   "F1_ds_ci": [
+    0.257,
+    0.407
+   ],
+   "fp_scoped": 122,
+   "fp_all": 215,
+   "implicit": "2/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.337,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.197,
+     "r": 0.182,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.282,
+     "r": 0.688,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.095,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.2,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.244,
+     "r": 0.484,
+     "support": 31
+    }
+   }
+  },
+  {
+   "config": "single_pass [forced 1,200-token chunks; acceptance test only]",
+   "candidate": false,
+   "cap": "meeting K=8",
+   "sets": 14,
+   "links": 352,
+   "P": 0.165,
+   "R": 0.475,
+   "F1": 0.245,
+   "F1_ci": [
+    0.182,
+    0.31
+   ],
+   "P_ds": 0.264,
+   "F1_ds": 0.339,
+   "F1_ds_ci": [
+    0.272,
+    0.406
+   ],
+   "fp_scoped": 162,
+   "fp_all": 294,
+   "implicit": "3/6",
+   "per_role": {
+    "proposal": {
+     "f1": 0.295,
+     "r": 0.737,
+     "support": 19
+    },
+    "rationale": {
+     "f1": 0.237,
+     "r": 0.273,
+     "support": 33
+    },
+    "evidence": {
+     "f1": 0.214,
+     "r": 0.688,
+     "support": 16
+    },
+    "challenge": {
+     "f1": 0.077,
+     "r": 0.091,
+     "support": 11
+    },
+    "reconsideration": {
+     "f1": 0.2,
+     "r": 0.167,
+     "support": 12
+    },
+    "resolution": {
+     "f1": 0.273,
+     "r": 0.677,
+     "support": 31
+    }
+   }
+  }
+ ]
+}

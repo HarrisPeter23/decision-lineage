@@ -1,0 +1,1704 @@
+{
+ "set_id": "set_01031",
+ "cast": [
+  "Mei",
+  "Tariq",
+  "Lena",
+  "Chloe",
+  "Mateo"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-04-10",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Mei",
+     "text": "Okay, I think we're all here. Tariq, you can hear us?",
+     "ts": "2025-04-10T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Tariq",
+     "text": "Yeah, I'm on.",
+     "ts": "2025-04-10T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Mei",
+     "text": "Good. So, the in-office thing. Leadership wants one policy for every team, and apparently it's us writing it up.",
+     "ts": "2025-04-10T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Lena",
+     "text": "Anika's note said she wants a draft before the all-hands.",
+     "ts": "2025-04-10T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Mei",
+     "text": "Right, which is the end of the month. Before that, did the survey numbers come back?",
+     "ts": "2025-04-10T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Lena",
+     "text": "Mostly. We got 214 responses, so about seventy percent of the company, give or take.",
+     "ts": "2025-04-10T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Chloe",
+     "text": "That's actually decent for an internal survey.",
+     "ts": "2025-04-10T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "It is. The free text is a mess though, I'm still tagging it.",
+     "ts": "2025-04-10T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Mateo",
+     "text": "I skimmed a chunk of it. Some people want total flexibility, and a couple basically want everyone back five days.",
+     "ts": "2025-04-10T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Mei",
+     "text": "Five days isn't happening.",
+     "ts": "2025-04-10T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Mateo",
+     "text": "No, no, I'm just saying the range is wide.",
+     "ts": "2025-04-10T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Chloe",
+     "text": "So what are we actually choosing between? I only see a blank page right now.",
+     "ts": "2025-04-10T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Mei",
+     "text": "Fair. Nothing formal yet. Tariq, you said something in the channel last week, didn't you?",
+     "ts": "2025-04-10T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Tariq",
+     "text": "Yeah, um, a little. Two set days for everybody, Tuesday and Wednesday, the same across all teams. That's what I'd put forward.",
+     "ts": "2025-04-10T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Mei",
+     "text": "Okay, so a hard anchor, not a \"pick your own two.\"",
+     "ts": "2025-04-10T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Tariq",
+     "text": "Right, not pick your own.",
+     "ts": "2025-04-10T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Chloe",
+     "text": "Why those two, though? Why not Monday and Thursday, or whatever people happen to like?",
+     "ts": "2025-04-10T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Tariq",
+     "text": "Well, so, the desk booking numbers. Those two days are already the busiest. Sixty-two percent of attendance lands there.",
+     "ts": "2025-04-10T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Lena",
+     "text": "Sixty-two of the total, or of the people who book at all?",
+     "ts": "2025-04-10T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Tariq",
+     "text": "Of bookings, I think. Total badge swipes would be a bit lower, I'd have to check.",
+     "ts": "2025-04-10T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Lena",
+     "text": "Okay, I can pull the swipe data after this.",
+     "ts": "2025-04-10T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Tariq",
+     "text": "And the last group of new joiners, they said they felt pretty isolated. Half of them were barely overlapping with anyone.",
+     "ts": "2025-04-10T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Mateo",
+     "text": "Yeah, I remember that. Bao told me one of them went three weeks without seeing their own team lead in person.",
+     "ts": "2025-04-10T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Mei",
+     "text": "That's not great.",
+     "ts": "2025-04-10T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Tariq",
+     "text": "And, uh, if the days are fixed, meetings across teams actually land. Right now you can't get finance and us in one room.",
+     "ts": "2025-04-10T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Chloe",
+     "text": "Sure, but fixed days means everyone commutes the same days. Trains are packed, desks are packed.",
+     "ts": "2025-04-10T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Lena",
+     "text": "Desk capacity is a real thing. If sixty-two percent is already the peak, are we sure there's room for a hundred percent?",
+     "ts": "2025-04-10T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Tariq",
+     "text": "Not a hundred. Remote folks and part-timers wouldn't all be in.",
+     "ts": "2025-04-10T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Mei",
+     "text": "Facilities said the floor holds about eighty percent of headcount, I think. I'll confirm with Marta.",
+     "ts": "2025-04-10T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Lena",
+     "text": "Eighty of what, the current headcount or the plan for next quarter?",
+     "ts": "2025-04-10T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Mei",
+     "text": "Current. I'll ask.",
+     "ts": "2025-04-10T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Chloe",
+     "text": "I just want to be sure we're not picking the first thing someone said.",
+     "ts": "2025-04-10T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Mei",
+     "text": "Sure, but it's the only thing on the table. If you've got another one, put it out there.",
+     "ts": "2025-04-10T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Chloe",
+     "text": "I don't, honestly. I'm poking at it.",
+     "ts": "2025-04-10T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Mateo",
+     "text": "Can I ask something slightly off topic?",
+     "ts": "2025-04-10T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Mei",
+     "text": "Go ahead, quickly.",
+     "ts": "2025-04-10T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Mateo",
+     "text": "Zofia's leaving do, is it Friday or next Friday? I never got the invite.",
+     "ts": "2025-04-10T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Mei",
+     "text": "Next Friday. Petra's sending the thing around today.",
+     "ts": "2025-04-10T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Mateo",
+     "text": "Okay, cool. I'll get a card going.",
+     "ts": "2025-04-10T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Lena",
+     "text": "Put me down for a few pounds on that.",
+     "ts": "2025-04-10T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Mateo",
+     "text": "Done.",
+     "ts": "2025-04-10T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Mei",
+     "text": "Back to this. Lena, what did the survey say about days people already prefer?",
+     "ts": "2025-04-10T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "Hang on. Um, let me find it. Okay, among people who answered on days, Tuesday and Wednesday came up the most, then Thursday.",
+     "ts": "2025-04-10T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Chloe",
+     "text": "Thursday's close?",
+     "ts": "2025-04-10T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Lena",
+     "text": "Not that close. Maybe ten points behind, it's in the sheet.",
+     "ts": "2025-04-10T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Tariq",
+     "text": "That fits the booking data anyway.",
+     "ts": "2025-04-10T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Mei",
+     "text": "And the Friday thing, nobody wants Fridays?",
+     "ts": "2025-04-10T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Lena",
+     "text": "Hardly anyone. People like their long weekends.",
+     "ts": "2025-04-10T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Mateo",
+     "text": "Honestly the only complaint I heard was childcare on Wednesdays for a couple of people.",
+     "ts": "2025-04-10T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Mei",
+     "text": "Hm. How many is a couple?",
+     "ts": "2025-04-10T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Mateo",
+     "text": "Two, three? I'd have to ask.",
+     "ts": "2025-04-10T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Mei",
+     "text": "Okay, that's something we handle with an exception process, not by moving the days.",
+     "ts": "2025-04-10T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Chloe",
+     "text": "Who approves the exceptions?",
+     "ts": "2025-04-10T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Mei",
+     "text": "The line manager, with us just keeping the log.",
+     "ts": "2025-04-10T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Chloe",
+     "text": "Fine by me.",
+     "ts": "2025-04-10T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Tariq",
+     "text": "Yeah, that sounds workable.",
+     "ts": "2025-04-10T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Lena",
+     "text": "There's also the question of what happens in weeks with a public holiday.",
+     "ts": "2025-04-10T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Mei",
+     "text": "Let's not get into the holiday weeks right now, that's a footnote.",
+     "ts": "2025-04-10T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Lena",
+     "text": "Okay, I'll note it.",
+     "ts": "2025-04-10T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Chloe",
+     "text": "One more devil's advocate thing. If it's all teams, is sales going to be fine with this? They're out at clients half the time.",
+     "ts": "2025-04-10T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Mei",
+     "text": "Client days count as working, they won't be penalised. Yara in sales ops said the same last week.",
+     "ts": "2025-04-10T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Chloe",
+     "text": "Okay. Then I don't have a real objection.",
+     "ts": "2025-04-10T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Mateo",
+     "text": "Me neither. It's simple, which helps. People remember two days.",
+     "ts": "2025-04-10T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Lena",
+     "text": "Simple for the comms, too. One line on the intranet.",
+     "ts": "2025-04-10T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Mei",
+     "text": "Right. So, I don't think we need to go around again. Everyone is in the office on Tuesdays and Wednesdays, with exceptions through the line manager.",
+     "ts": "2025-04-10T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Tariq",
+     "text": "Okay.",
+     "ts": "2025-04-10T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "I'll write that into the draft tonight.",
+     "ts": "2025-04-10T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Mei",
+     "text": "Good. And Lena, the swipe data when you can.",
+     "ts": "2025-04-10T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Lena",
+     "text": "Yep, tomorrow morning at the latest.",
+     "ts": "2025-04-10T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Mateo",
+     "text": "Do we want to tell people before the all-hands, or wait?",
+     "ts": "2025-04-10T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Mei",
+     "text": "Wait for Anika. We take the draft to her first.",
+     "ts": "2025-04-10T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Mateo",
+     "text": "Makes sense.",
+     "ts": "2025-04-10T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Chloe",
+     "text": "Can I send her the survey summary in the meantime?",
+     "ts": "2025-04-10T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Mei",
+     "text": "Lena, is the summary fit to send?",
+     "ts": "2025-04-10T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Lena",
+     "text": "Not yet, the free text isn't finished. Maybe Monday.",
+     "ts": "2025-04-10T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Mei",
+     "text": "Monday's fine.",
+     "ts": "2025-04-10T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Chloe",
+     "text": "Okay.",
+     "ts": "2025-04-10T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Mateo",
+     "text": "Also, did anyone sort out the laptop refresh schedule? I got a ticket that says mine's due.",
+     "ts": "2025-04-10T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Mei",
+     "text": "That's IT, not us. Just reply to the ticket.",
+     "ts": "2025-04-10T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Mateo",
+     "text": "Alright, will do.",
+     "ts": "2025-04-10T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Mei",
+     "text": "Okay, I've got another call in two minutes. Thanks, all.",
+     "ts": "2025-04-10T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Tariq",
+     "text": "Thanks.",
+     "ts": "2025-04-10T10:16:12"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-04-17",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Mei",
+     "text": "Okay, are we all on? Tariq, I can see you, good. Right, before the policy stuff, did Anika reply about the draft timing?",
+     "ts": "2025-04-17T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Lena",
+     "text": "She did, she's fine with Thursday next week for the first read.",
+     "ts": "2025-04-17T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Mei",
+     "text": "Good, that's -",
+     "ts": "2025-04-17T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Mateo",
+     "text": "Sorry, quick one, did the card for Zofia go round? I put in my bit on Monday.",
+     "ts": "2025-04-17T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Mei",
+     "text": "Petra has it, ask her. Anyway, Lena, the swipe data, did you get that?",
+     "ts": "2025-04-17T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Lena",
+     "text": "Yes, sent it yesterday afternoon. Tuesday and Wednesday are the peak, same as the bookings, a bit lower overall.",
+     "ts": "2025-04-17T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Tariq",
+     "text": "Okay, so it holds up.",
+     "ts": "2025-04-17T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "Roughly, yeah. Fifty-eight, fifty-nine percent on the two days, from memory.",
+     "ts": "2025-04-17T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Mei",
+     "text": "Fine. And Marta said the floor does take about eighty percent of current headcount, so capacity isn't the problem.",
+     "ts": "2025-04-17T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Chloe",
+     "text": "Eighty, so we're okay on the two days as long as remote folks stay out.",
+     "ts": "2025-04-17T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Mei",
+     "text": "Right. Which brings me to - Mateo, you said you had something?",
+     "ts": "2025-04-17T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Mateo",
+     "text": "Yeah, so I was in a catch-up with Yara's team, not about this, and they mentioned the pulse survey, the short one that went out last month.",
+     "ts": "2025-04-17T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Mei",
+     "text": "The quarterly one?",
+     "ts": "2025-04-17T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Mateo",
+     "text": "Yes, that one. And I looked at the commute question, because I was curious.",
+     "ts": "2025-04-17T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Lena",
+     "text": "Which cut did you use?",
+     "ts": "2025-04-17T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Mateo",
+     "text": "People with a commute over ninety minutes. About a third of them, thirty-four percent, said they'd think about leaving if the days get fixed.",
+     "ts": "2025-04-17T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Lena",
+     "text": "Thirty-four of how many? That group's small, isn't it?",
+     "ts": "2025-04-17T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Mateo",
+     "text": "Not tiny. Maybe sixty people? I'd have to look. And, um, two of the engineering resignations in the last few weeks, both exit notes mention the policy talk.",
+     "ts": "2025-04-17T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Mei",
+     "text": "Wait, both of them?",
+     "ts": "2025-04-17T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Mateo",
+     "text": "Both. One says it outright, the other is more, you know, hints.",
+     "ts": "2025-04-17T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Tariq",
+     "text": "Hm.",
+     "ts": "2025-04-17T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Mei",
+     "text": "Okay. That's not nothing.",
+     "ts": "2025-04-17T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Lena",
+     "text": "No, it's not. If a third of the long-commute people are thinking about walking, then fixed days is a problem. Replacing an engineer runs us far more than whatever we gain from people overlapping on Tuesdays.",
+     "ts": "2025-04-17T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Chloe",
+     "text": "Hold on, though, devil's advocate. Thinking about leaving in a survey isn't leaving.",
+     "ts": "2025-04-17T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Lena",
+     "text": "Sure, but two already did.",
+     "ts": "2025-04-17T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Chloe",
+     "text": "Two, and one of them was barely about the policy.",
+     "ts": "2025-04-17T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Mateo",
+     "text": "The second one was fairly clear -",
+     "ts": "2025-04-17T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Mei",
+     "text": "Let's not relitigate the exit notes. Tariq, you proposed the days. Anything?",
+     "ts": "2025-04-17T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Tariq",
+     "text": "Um. I mean, the isolation thing for new joiners is still real. That didn't go away.",
+     "ts": "2025-04-17T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Lena",
+     "text": "I'm not saying it did.",
+     "ts": "2025-04-17T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Tariq",
+     "text": "I just - it's why I raised it.",
+     "ts": "2025-04-17T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Mei",
+     "text": "Right. Okay, so where are we. The days stay as the draft says until we have a better picture. Lena, can you get the actual numbers on the long-commute group?",
+     "ts": "2025-04-17T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Lena",
+     "text": "I can ask for the raw cut. Probably Monday.",
+     "ts": "2025-04-17T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Mei",
+     "text": "Monday is fine. Don't tell Anika yet, I'll mention it when I see her.",
+     "ts": "2025-04-17T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Chloe",
+     "text": "Can I ask something separate? The new joiner point. Tariq, you said some of them go weeks without seeing anyone.",
+     "ts": "2025-04-17T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Tariq",
+     "text": "Yeah. Three weeks for one of them.",
+     "ts": "2025-04-17T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Chloe",
+     "text": "Because that's a thing we could look at on its own, right? Without touching the days.",
+     "ts": "2025-04-17T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Mei",
+     "text": "Meaning what?",
+     "ts": "2025-04-17T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Chloe",
+     "text": "What if every new hire gets a buddy from outside their own team? Someone to just ask things.",
+     "ts": "2025-04-17T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Mateo",
+     "text": "Oh, like Bao did for me, kind of.",
+     "ts": "2025-04-17T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Mei",
+     "text": "Bao was on your team though.",
+     "ts": "2025-04-17T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Mateo",
+     "text": "Yeah, true, he was.",
+     "ts": "2025-04-17T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "Is there a reason it needs to be outside the team?",
+     "ts": "2025-04-17T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Chloe",
+     "text": "Eight of the last eleven new hires told us they didn't know who to ask outside their own team. Eight out of eleven, I counted from the onboarding forms.",
+     "ts": "2025-04-17T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Lena",
+     "text": "Okay, that's pretty convincing.",
+     "ts": "2025-04-17T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Tariq",
+     "text": "Yeah. Whoever's on their team, they already have.",
+     "ts": "2025-04-17T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Mei",
+     "text": "Who picks the buddy?",
+     "ts": "2025-04-17T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Chloe",
+     "text": "We could do it, from a list of volunteers. Nothing heavy.",
+     "ts": "2025-04-17T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Mateo",
+     "text": "I'd volunteer. I know half of finance.",
+     "ts": "2025-04-17T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Mei",
+     "text": "You know half of finance because you talk to them for an hour at a time.",
+     "ts": "2025-04-17T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Mateo",
+     "text": "That's networking.",
+     "ts": "2025-04-17T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Lena",
+     "text": "How long does the buddy commitment last?",
+     "ts": "2025-04-17T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Chloe",
+     "text": "First three months? Weekly check-in, fifteen minutes, something like that.",
+     "ts": "2025-04-17T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Lena",
+     "text": "Three months seems long. Six weeks maybe.",
+     "ts": "2025-04-17T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Chloe",
+     "text": "We can argue about that, it's a detail.",
+     "ts": "2025-04-17T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Mei",
+     "text": "Fine. Okay, cross-team onboarding buddies, approved. Chloe, draft the one-pager and we'll fix the length when it's written up.",
+     "ts": "2025-04-17T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Chloe",
+     "text": "Sure. I'll send it by Wednesday.",
+     "ts": "2025-04-17T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Mei",
+     "text": "Good. Mateo, you're the first volunteer, apparently.",
+     "ts": "2025-04-17T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Mateo",
+     "text": "Happy to.",
+     "ts": "2025-04-17T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Tariq",
+     "text": "Do we need to tell the managers?",
+     "ts": "2025-04-17T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Mei",
+     "text": "Yes, I'll mention it in the leads meeting on Friday.",
+     "ts": "2025-04-17T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "Which Friday? The one after Easter?",
+     "ts": "2025-04-17T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Mei",
+     "text": "Oh, right, it's the holiday weekend. Then the Tuesday after.",
+     "ts": "2025-04-17T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Mateo",
+     "text": "Speaking of the holiday, is the office actually open on Monday? My badge email said something odd.",
+     "ts": "2025-04-17T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Lena",
+     "text": "It's closed Friday and Monday. The email was just wrong about Monday.",
+     "ts": "2025-04-17T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Mateo",
+     "text": "Okay, good. I'd rather not find out at the door.",
+     "ts": "2025-04-17T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Chloe",
+     "text": "Back to the policy for a second. If the commute numbers hold, what would we even do about it?",
+     "ts": "2025-04-17T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Mei",
+     "text": "I don't know yet. That's what the raw cut is for.",
+     "ts": "2025-04-17T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Lena",
+     "text": "There are a few things people could look at. Half days, a later start on anchor days, something like that.",
+     "ts": "2025-04-17T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Mei",
+     "text": "Hold that thought, Lena. Let's see the data first.",
+     "ts": "2025-04-17T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Lena",
+     "text": "Okay.",
+     "ts": "2025-04-17T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Tariq",
+     "text": "Can I ask, do the engineers know their exit notes are being talked about?",
+     "ts": "2025-04-17T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Mei",
+     "text": "No, and let's keep it that way. This stays in this room.",
+     "ts": "2025-04-17T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Tariq",
+     "text": "Right, sure.",
+     "ts": "2025-04-17T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Mateo",
+     "text": "Should I forward you the survey cut, Lena, or do you want to pull it fresh?",
+     "ts": "2025-04-17T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Lena",
+     "text": "Forward it, then I'll check what they used for the commute buckets.",
+     "ts": "2025-04-17T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Mateo",
+     "text": "Will do after this.",
+     "ts": "2025-04-17T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Chloe",
+     "text": "And the safe assumption is the days stand in the meantime, yeah?",
+     "ts": "2025-04-17T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Mei",
+     "text": "For the draft, yes. We haven't changed anything.",
+     "ts": "2025-04-17T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Chloe",
+     "text": "Fine.",
+     "ts": "2025-04-17T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Mei",
+     "text": "Anything else? I've got to jump in a minute.",
+     "ts": "2025-04-17T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Lena",
+     "text": "Nope.",
+     "ts": "2025-04-17T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Tariq",
+     "text": "No.",
+     "ts": "2025-04-17T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Mateo",
+     "text": "Just the card for Zofia, I'll chase Petra.",
+     "ts": "2025-04-17T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Mei",
+     "text": "Good. Thanks, everyone.",
+     "ts": "2025-04-17T10:16:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-04-24",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Mei",
+     "text": "Okay, is everyone here? Tariq, I can see you, good.",
+     "ts": "2025-04-24T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Lena",
+     "text": "Anika moved the first read to Thursday afternoon, by the way.",
+     "ts": "2025-04-24T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Mei",
+     "text": "Yeah, I saw. Before that, did the survey cut come back?",
+     "ts": "2025-04-24T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Lena",
+     "text": "Last night. The proper long-commute numbers are in the shared sheet.",
+     "ts": "2025-04-24T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Mateo",
+     "text": "Oh nice, so I wasn't completely making it up.",
+     "ts": "2025-04-24T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Mei",
+     "text": "We'll see. Okay, since the results are in, let's sit down and go through the days again, properly. I'd rather look at it now than after the all-hands.",
+     "ts": "2025-04-24T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Chloe",
+     "text": "Good, because I had a feeling that thirty-four percent was going to haunt us.",
+     "ts": "2025-04-24T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "It's real, it's just the denominator that I want to talk about.",
+     "ts": "2025-04-24T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Mei",
+     "text": "Go on.",
+     "ts": "2025-04-24T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Lena",
+     "text": "So the long-commute group, over ninety minutes each way, is eighteen people. Out of three hundred and ten staff on the roster.",
+     "ts": "2025-04-24T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Mateo",
+     "text": "Eighteen? I said sixty, didn't I.",
+     "ts": "2025-04-24T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Lena",
+     "text": "You said maybe sixty, and you said you'd have to look.",
+     "ts": "2025-04-24T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Mateo",
+     "text": "Yeah, okay. I was way off. Sorry.",
+     "ts": "2025-04-24T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Mei",
+     "text": "It's fine. That's why we asked for the cut.",
+     "ts": "2025-04-24T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Chloe",
+     "text": "Still, eighteen people is eighteen people. If a third of them go -",
+     "ts": "2025-04-24T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Lena",
+     "text": "A third of eighteen is six, give or take.",
+     "ts": "2025-04-24T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Chloe",
+     "text": "Six engineers is still a lot of money.",
+     "ts": "2025-04-24T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Lena",
+     "text": "Replacing one costs us months of recruiting, I'd say, plus the ramp-up.",
+     "ts": "2025-04-24T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Mateo",
+     "text": "Months, yeah. Took Bao's team nearly five to fill the last one.",
+     "ts": "2025-04-24T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Mei",
+     "text": "Sure, but let's not jump. Tariq, you proposed the days. You've been quiet, what do you make of it?",
+     "ts": "2025-04-24T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Tariq",
+     "text": "Um. So, yeah. Six people, that's what the thirty-four percent actually is. Six out of three hundred and ten.",
+     "ts": "2025-04-24T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Chloe",
+     "text": "Six who said they'd think about leaving, not six who'd be gone.",
+     "ts": "2025-04-24T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Tariq",
+     "text": "Right. And, uh, we already have the exception thing. If someone's commute is really long, their manager can approve it. That's been there since the first meeting.",
+     "ts": "2025-04-24T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Chloe",
+     "text": "Has anyone actually used it, though?",
+     "ts": "2025-04-24T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Lena",
+     "text": "Four requests so far, I have the log. All four approved.",
+     "ts": "2025-04-24T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Mei",
+     "text": "Four, okay.",
+     "ts": "2025-04-24T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Chloe",
+     "text": "Four of eighteen is a decent share, then.",
+     "ts": "2025-04-24T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Lena",
+     "text": "About a quarter, yeah.",
+     "ts": "2025-04-24T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Mei",
+     "text": "Mm.",
+     "ts": "2025-04-24T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Tariq",
+     "text": "And the two resignations. I read the exit interviews again. One of them took a promotion at another company. The other one moved cities.",
+     "ts": "2025-04-24T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Mateo",
+     "text": "Wait, but the one note said something about the policy.",
+     "ts": "2025-04-24T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Tariq",
+     "text": "It mentioned the talk, yeah, in passing. But the reason given was the move.",
+     "ts": "2025-04-24T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Mateo",
+     "text": "Huh. I read that as a harder complaint, honestly.",
+     "ts": "2025-04-24T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Lena",
+     "text": "I reread it too. The relocation is what it's about, the policy line is one sentence at the end.",
+     "ts": "2025-04-24T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Mei",
+     "text": "So neither of them left over the days.",
+     "ts": "2025-04-24T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Tariq",
+     "text": "That's how I read it.",
+     "ts": "2025-04-24T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Chloe",
+     "text": "Okay, devil's advocate again. Maybe they just didn't want to say.",
+     "ts": "2025-04-24T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Lena",
+     "text": "They were exit interviews with Bao, they said plenty of other stuff. They weren't shy.",
+     "ts": "2025-04-24T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Chloe",
+     "text": "Fair.",
+     "ts": "2025-04-24T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Mateo",
+     "text": "Sorry, so what I told you two weeks ago -",
+     "ts": "2025-04-24T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Mei",
+     "text": "You flagged what you saw, that's what we want. It just turned out smaller.",
+     "ts": "2025-04-24T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Mateo",
+     "text": "Yeah, yeah.",
+     "ts": "2025-04-24T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "To be fair to the pulse survey, the question was hypothetical. People answer \"would you consider leaving\" very generously.",
+     "ts": "2025-04-24T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Chloe",
+     "text": "That's true. I always say yes to that kind of question and I'm perfectly happy here.",
+     "ts": "2025-04-24T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Mateo",
+     "text": "Same, I'd say yes just to sound spicy.",
+     "ts": "2025-04-24T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Mei",
+     "text": "Wonderful. Okay, moving on - Tariq, the isolation thing, is that still the main reason for you?",
+     "ts": "2025-04-24T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Tariq",
+     "text": "Mostly, yeah. And the cross-team meetings. If everyone's in on the same days it's much easier to get finance in a room.",
+     "ts": "2025-04-24T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Lena",
+     "text": "Facilities numbers back that up, don't they? Marta said eighty percent capacity.",
+     "ts": "2025-04-24T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Mei",
+     "text": "Right, and the two days run at about sixty percent of bookings now, so there's space.",
+     "ts": "2025-04-24T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Tariq",
+     "text": "And the new joiners, the ones from March, two of them told me they finally met their lead on a Tuesday.",
+     "ts": "2025-04-24T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Chloe",
+     "text": "That's a fair point for fixed days.",
+     "ts": "2025-04-24T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Mateo",
+     "text": "I felt that when I started. Nobody was ever in on the same day.",
+     "ts": "2025-04-24T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Lena",
+     "text": "Was that before the buddy thing?",
+     "ts": "2025-04-24T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Mateo",
+     "text": "Before, yeah. The buddies start next month, right, Chloe?",
+     "ts": "2025-04-24T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Chloe",
+     "text": "First pairs go out in May. The one-pager's done, I just need Mei's sign-off.",
+     "ts": "2025-04-24T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Mei",
+     "text": "I'll look at it tonight, remind me.",
+     "ts": "2025-04-24T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Chloe",
+     "text": "Sixty-two, from the bookings. Fifty-eight or nine on swipes.",
+     "ts": "2025-04-24T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Mei",
+     "text": "Whichever. It fits.",
+     "ts": "2025-04-24T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Lena",
+     "text": "Should I add a line to the draft about the long-commute exception? Make it more visible?",
+     "ts": "2025-04-24T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Mei",
+     "text": "Yes. Put it near the top, so nobody has to hunt for it.",
+     "ts": "2025-04-24T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Lena",
+     "text": "Okay, I'll say managers can approve it for commutes over ninety minutes, and we keep the log.",
+     "ts": "2025-04-24T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Chloe",
+     "text": "Can I ask a different thing? What about people who live far and are on the train?",
+     "ts": "2025-04-24T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Lena",
+     "text": "That's the commute number, that's the same group.",
+     "ts": "2025-04-24T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Chloe",
+     "text": "Right. I mean the ones just under ninety.",
+     "ts": "2025-04-24T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Lena",
+     "text": "Hm, there'd be a cluster around eighty, I'd guess. I can check the sheet.",
+     "ts": "2025-04-24T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Chloe",
+     "text": "Even a handful would be good to know.",
+     "ts": "2025-04-24T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "A handful, I'd say. I'd rather look than say.",
+     "ts": "2025-04-24T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Mei",
+     "text": "Don't build a new category off a guess. The manager can use judgment on the edge cases.",
+     "ts": "2025-04-24T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Chloe",
+     "text": "Fine. I'm not pushing.",
+     "ts": "2025-04-24T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Mateo",
+     "text": "Unrelated, are we doing the team lunch thing Thursday? I need to know for the catering form.",
+     "ts": "2025-04-24T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Mei",
+     "text": "Thursday we're meeting Anika at two, so lunch before that, quickly.",
+     "ts": "2025-04-24T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Mateo",
+     "text": "Twelve-thirty then. I'll put in for ten.",
+     "ts": "2025-04-24T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Lena",
+     "text": "Make it eleven, Petra said she might join.",
+     "ts": "2025-04-24T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Mateo",
+     "text": "Eleven. Got it.",
+     "ts": "2025-04-24T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Chloe",
+     "text": "Is Petra bringing the cake or is that a different week?",
+     "ts": "2025-04-24T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Mateo",
+     "text": "Different week, I think. This one's just sandwiches.",
+     "ts": "2025-04-24T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Mei",
+     "text": "Okay. Back to this. Does anyone still want to argue the days?",
+     "ts": "2025-04-24T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Chloe",
+     "text": "I mean, the six people thing took the wind out of it for me.",
+     "ts": "2025-04-24T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Lena",
+     "text": "Same. Honestly I came in thinking we'd need to change something.",
+     "ts": "2025-04-24T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Mateo",
+     "text": "I'm okay with it. Probably.",
+     "ts": "2025-04-24T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Mei",
+     "text": "Probably?",
+     "ts": "2025-04-24T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Mateo",
+     "text": "No, I'm okay. I just like saying probably.",
+     "ts": "2025-04-24T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Tariq",
+     "text": "I'm fine with it.",
+     "ts": "2025-04-24T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Mei",
+     "text": "Chloe, you've gone quiet.",
+     "ts": "2025-04-24T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Chloe",
+     "text": "I'm done arguing. Not much left to argue with.",
+     "ts": "2025-04-24T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Mei",
+     "text": "Good. Lena?",
+     "ts": "2025-04-24T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Lena",
+     "text": "Yeah, fine.",
+     "ts": "2025-04-24T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Mei",
+     "text": "Good. So, Tuesdays and Wednesdays stay as the anchor days for everyone, with the exception route for long commutes. That's what goes to Anika on Thursday.",
+     "ts": "2025-04-24T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Lena",
+     "text": "I'll update the draft this afternoon.",
+     "ts": "2025-04-24T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Mateo",
+     "text": "Do I tell my contacts in finance, or is it still quiet?",
+     "ts": "2025-04-24T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Mei",
+     "text": "Still quiet until Anika's seen it.",
+     "ts": "2025-04-24T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Mateo",
+     "text": "Okay, quiet.",
+     "ts": "2025-04-24T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Chloe",
+     "text": "Does Anika get the commute breakdown too?",
+     "ts": "2025-04-24T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Mei",
+     "text": "Send her the summary, with the eighteen and the four approved exceptions. Short.",
+     "ts": "2025-04-24T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Lena",
+     "text": "Okay.",
+     "ts": "2025-04-24T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Mateo",
+     "text": "Did anyone ever sort out Zofia's card? Petra said she'd got it.",
+     "ts": "2025-04-24T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Mei",
+     "text": "Petra has it, it went round on Monday. You signed it, I watched you.",
+     "ts": "2025-04-24T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Mateo",
+     "text": "Did I? Okay, then I did.",
+     "ts": "2025-04-24T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Chloe",
+     "text": "Everyone signed it. It's a very full card.",
+     "ts": "2025-04-24T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Lena",
+     "text": "Oh, one thing. Yara asked if sales can have the client-day wording in the draft as it was written.",
+     "ts": "2025-04-24T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Mei",
+     "text": "Yes, keep it exactly as it was.",
+     "ts": "2025-04-24T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Lena",
+     "text": "Good.",
+     "ts": "2025-04-24T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Mateo",
+     "text": "Also my laptop refresh ticket got answered. Tuesday next week.",
+     "ts": "2025-04-24T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Mei",
+     "text": "Which is an anchor day, so you'll be in anyway.",
+     "ts": "2025-04-24T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Mateo",
+     "text": "I'll be in, laptop in hand. Hopefully a good one.",
+     "ts": "2025-04-24T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Lena",
+     "text": "Bring the old one for the swap.",
+     "ts": "2025-04-24T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Mateo",
+     "text": "Yeah, will do.",
+     "ts": "2025-04-24T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Mei",
+     "text": "Okay, I have to jump to a call. Anything else quickly?",
+     "ts": "2025-04-24T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Chloe",
+     "text": "Not from me.",
+     "ts": "2025-04-24T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Tariq",
+     "text": "No.",
+     "ts": "2025-04-24T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Lena",
+     "text": "I'm good.",
+     "ts": "2025-04-24T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Mei",
+     "text": "Thanks, everybody.",
+     "ts": "2025-04-24T10:22:12"
+    }
+   ]
+  }
+ ]
+}

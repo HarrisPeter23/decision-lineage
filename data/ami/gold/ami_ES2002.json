@@ -1,0 +1,473 @@
+{
+ "set_id": "ami_ES2002",
+ "meta": {
+  "arc_type": "re_reversal",
+  "n_meetings": 4,
+  "source": "ami",
+  "series": "ES2002",
+  "ami_meetings": [
+   "ES2002a",
+   "ES2002b",
+   "ES2002c",
+   "ES2002d"
+  ],
+  "drafted_by": "agent (claude-opus-5-5)",
+  "verification": "none",
+  "notes": "Abstractive summaries: b 'regular batteries', c 'kinetic battery', d 'not contain a kinetic battery'. The reason in meeting d is stated only briefly (B11, as a question); the detailed cost overrun in meeting d (16.8 against a 12.5 Euro target) comes later and concerns the whole design."
+ },
+ "topic": "how the remote control is powered",
+ "options": {
+  "A": "regular (non-rechargeable) batteries",
+  "B": "kinetic power with a backup battery"
+ },
+ "cast": [
+  "PM",
+  "ME",
+  "UI",
+  "ID"
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "option_text": "regular (non-rechargeable) batteries",
+   "valid_from": 2,
+   "valid_to": 3
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "option_text": "kinetic power with a backup battery",
+   "valid_from": 3,
+   "valid_to": 4
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "option_text": "regular (non-rechargeable) batteries",
+   "valid_from": 4,
+   "valid_to": null
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "PM",
+   "utterance_idxs": [
+    342
+   ],
+   "gist": "The Project Manager raises the power question and asks whether to add a charging unit or simply run on regular batteries.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "ID",
+   "utterance_idxs": [
+    346
+   ],
+   "gist": "The Industrial Designer argues that a rechargeable design adds complexity, cost and a docking cradle, and that users are used to buying batteries.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "PM",
+   "utterance_idxs": [
+    356
+   ],
+   "gist": "The Project Manager settles on sticking to regular batteries.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  },
+  {
+   "link_id": "B4",
+   "role": "proposal",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ID",
+   "utterance_idxs": [
+    190
+   ],
+   "gist": "The Industrial Designer suggests a battery plus something else, finding the kinetic option the most interesting because people like to fiddle with it and it is a sales gimmick.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic power with a backup battery"
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "PM",
+   "utterance_idxs": [
+    363
+   ],
+   "gist": "The Project Manager brings the power question back and says he likes kinetic power with a battery as backup.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  },
+  {
+   "link_id": "B6",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ME",
+   "utterance_idxs": [
+    365,
+    372
+   ],
+   "gist": "The Marketing Expert warns that kinetic power commits the user to moving the remote, and that a device left unused, for example during a holiday, runs down.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic power with a backup battery"
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ME",
+   "utterance_idxs": [
+    369
+   ],
+   "gist": "The Marketing Expert notes that people who wear kinetic watches all the time find them always powered, with no battery to change.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic power with a backup battery"
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "PM",
+   "utterance_idxs": [
+    376
+   ],
+   "gist": "The Project Manager concludes that the battery would keep the kinetic remote ticking over when it is not moved, adopting kinetic power with a backup battery.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": true,
+   "reaffirmation": false,
+   "option": "kinetic power with a backup battery"
+  },
+  {
+   "link_id": "B9",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    127,
+    128
+   ],
+   "gist": "The Project Manager opens the price sheet to see whether anything in the design has to be rethought.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "kinetic power with a backup battery"
+  },
+  {
+   "link_id": "B10",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    130
+   ],
+   "gist": "The Project Manager confirms that the remote has a battery but no kinetic power: just battery.",
+   "version": 3,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    135
+   ],
+   "gist": "The Project Manager gives cost constraints as the reason for dropping kinetic power, phrased as a question to the team.",
+   "version": 3,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "regular (non-rechargeable) batteries"
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B5"
+   ],
+   "new_rationale": [
+    "B4",
+    "B7"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B9"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "ami_ES2002-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the remote control is powered?",
+   "answer_text": "regular (non-rechargeable) batteries",
+   "answer_facts": {
+    "option": "regular (non-rechargeable) batteries"
+   },
+   "supporting_links": [
+    "B10"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the remote control is powered?",
+   "answer_text": "meeting 2: PM - The Project Manager settles on sticking to regular batteries.; meeting 3: PM - The Project Manager concludes that the battery would keep the kinetic remote ticking over when it is not moved, adopting kinetic power with a backup battery.; meeting 4: PM - The Project Manager confirms that the remote has a battery but no kinetic power: just battery.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 2,
+      "option": "regular (non-rechargeable) batteries",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "kinetic power with a backup battery",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "regular (non-rechargeable) batteries",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B10"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the remote control is powered as of the end of meeting 1?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 1,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "ami_ES2002-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the remote control is powered as of the end of meeting 3?",
+   "answer_text": "kinetic power with a backup battery",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "kinetic power with a backup battery"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the remote control is powered change over time?",
+   "answer_text": "regular (non-rechargeable) batteries (from meeting 2) -> kinetic power with a backup battery (from meeting 3) -> regular (non-rechargeable) batteries (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "regular (non-rechargeable) batteries",
+     "kinetic power with a backup battery",
+     "regular (non-rechargeable) batteries"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B10",
+    "B5",
+    "B9"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about how the remote control is powered change at meeting 3?",
+   "answer_text": "Before: regular (non-rechargeable) batteries, because The Industrial Designer argues that a rechargeable design adds complexity, cost and a docking cradle, and that users are used to buying batteries. Triggered by: PM (reconsideration): The Project Manager brings the power question back and says he likes kinetic power with a battery as backup. After: kinetic power with a backup battery, because The Industrial Designer suggests a battery plus something else, finding the kinetic option the most interesting because people like to fiddle with it and it is a sales gimmick. The Marketing Expert notes that people who wear kinetic watches all the time find them always powered, with no battery to change.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about how the remote control is powered change at meeting 4?",
+   "answer_text": "Before: kinetic power with a backup battery, because The Marketing Expert notes that people who wear kinetic watches all the time find them always powered, with no battery to change. Triggered by: PM (reconsideration): The Project Manager opens the price sheet to see whether anything in the design has to be rethought. After: regular (non-rechargeable) batteries, because The Project Manager gives cost constraints as the reason for dropping kinetic power, phrased as a question to the team.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B7",
+    "B9",
+    "B11",
+    "B10"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the remote control is powered?",
+   "answer_text": "PM",
+   "answer_facts": {
+    "speaker": "PM"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the remote control is powered?",
+   "answer_text": "ME (challenge): The Marketing Expert warns that kinetic power commits the user to moving the remote, and that a device left unused, for example during a holiday, runs down.",
+   "answer_facts": {
+    "evidence": [
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B5",
+    "B9"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the remote control is powered?",
+   "answer_text": "meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11"
+   ]
+  },
+  {
+   "qid": "ami_ES2002-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the remote control is powered from proposal to final outcome.",
+   "answer_text": "meeting 2 - PM [proposal]: The Project Manager raises the power question and asks whether to add a charging unit or simply run on regular batteries. | meeting 2 - ID [rationale]: The Industrial Designer argues that a rechargeable design adds complexity, cost and a docking cradle, and that users are used to buying batteries. | meeting 2 - PM [resolution]: The Project Manager settles on sticking to regular batteries. | meeting 3 - ID [proposal]: The Industrial Designer suggests a battery plus something else, finding the kinetic option the most interesting because people like to fiddle with it and it is a sales gimmick. | meeting 3 - PM [reconsideration]: The Project Manager brings the power question back and says he likes kinetic power with a battery as backup. | meeting 3 - ME [challenge]: The Marketing Expert warns that kinetic power commits the user to moving the remote, and that a device left unused, for example during a holiday, runs down. | meeting 3 - ME [rationale]: The Marketing Expert notes that people who wear kinetic watches all the time find them always powered, with no battery to change. | meeting 3 - PM [resolution]: The Project Manager concludes that the battery would keep the kinetic remote ticking over when it is not moved, adopting kinetic power with a backup battery. | meeting 4 - PM [reconsideration]: The Project Manager opens the price sheet to see whether anything in the design has to be rethought. | meeting 4 - PM [resolution]: The Project Manager confirms that the remote has a battery but no kinetic power: just battery. | meeting 4 - PM [rationale]: The Project Manager gives cost constraints as the reason for dropping kinetic power, phrased as a question to the team.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11"
+   ]
+  }
+ ]
+}

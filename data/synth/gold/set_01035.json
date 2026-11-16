@@ -1,0 +1,370 @@
+{
+ "set_id": "set_01035",
+ "meta": {
+  "arc_type": "deferred",
+  "domain": "finance team",
+  "seed": 1035,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 112
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 105
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 78
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how next year's 8 percent budget cut is applied",
+ "options": {
+  "A": "an across-the-board 8 percent cut to every department's budget",
+  "B": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent"
+ },
+ "cast": [
+  {
+   "name": "Aisha",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Ivan",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Yuki",
+   "slot": "challenger",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Kofi",
+   "slot": "supporter",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Wei",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Ivan",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Ivan proposes cutting every department's budget by 8 percent across the board.",
+   "version": null,
+   "option_key": "A",
+   "option": "an across-the-board 8 percent cut to every department's budget",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Ivan",
+   "utterance_idxs": [
+    30,
+    32
+   ],
+   "gist": "Ivan argues that it is simple and seen as fair, can be in the budget file by the 20th, and lets each department head choose where to cut.",
+   "version": null,
+   "option_key": "A",
+   "option": "an across-the-board 8 percent cut to every department's budget",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    19
+   ],
+   "gist": "Wei reports that 62 percent of the budget is committed under multi-year contracts, so an 8 percent cut of the total is really about 21 percent of the remaining uncommitted lines.",
+   "version": null,
+   "option_key": "A",
+   "option": "an across-the-board 8 percent cut to every department's budget",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    31
+   ],
+   "gist": "Yuki proposes targeted cuts instead, aimed at travel, contractors and events on the uncommitted lines.",
+   "version": null,
+   "option_key": "B",
+   "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    45
+   ],
+   "gist": "Yuki argues that concentrated cuts protect hiring and tooling, since spreading 21 percent over every uncommitted line would hit the product tooling renewals due in the second quarter.",
+   "version": null,
+   "option_key": "B",
+   "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    65
+   ],
+   "gist": "Aisha picks the targeted cuts to travel, contractors and events.",
+   "version": 1,
+   "option_key": "B",
+   "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "the manager-only expense approval limit",
+  "option": "raise the manager-only expense approval limit from 500 to 1,000 dollars",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     64
+    ],
+    "gist": "Kofi suggests raising the manager-only expense approval limit from 500 to 1,000 dollars.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the manager-only expense approval limit from 500 to 1,000 dollars",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kofi",
+    "utterance_idxs": [
+     66
+    ],
+    "gist": "Kofi points out that claims between 500 and 1,000 dollars wait an average of four days for a second approval and none were rejected last year.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the manager-only expense approval limit from 500 to 1,000 dollars",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Aisha",
+    "utterance_idxs": [
+     76
+    ],
+    "gist": "Aisha approves raising the manager-only approval limit to 1,000 dollars.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the manager-only expense approval limit from 500 to 1,000 dollars",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01035-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how next year's 8 percent budget cut is applied?",
+   "answer_text": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+   "answer_facts": {
+    "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how next year's 8 percent budget cut is applied?",
+   "answer_text": "meeting 3: Aisha - Aisha picks the targeted cuts to travel, contractors and events.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q03",
+   "type": "as_of",
+   "question": "What was the decision about how next year's 8 percent budget cut is applied as of the end of meeting 2?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 2,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01035-q04",
+   "type": "as_of",
+   "question": "What was the decision about how next year's 8 percent budget cut is applied as of the end of meeting 3?",
+   "answer_text": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how next year's 8 percent budget cut is applied change over time?",
+   "answer_text": "Nothing was decided until meeting 3, when the team chose targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent.",
+   "answer_facts": {
+    "first_decision_meeting": 3
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q06",
+   "type": "who_proposed",
+   "question": "Who proposed targeted cuts to travel, contractors and events on the uncommitted lines, adding up to the same 8 percent?",
+   "answer_text": "Yuki",
+   "answer_facts": {
+    "speaker": "Yuki"
+   },
+   "supporting_links": [
+    "B4"
+   ]
+  },
+  {
+   "qid": "set_01035-q07",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how next year's 8 percent budget cut is applied?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q08",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how next year's 8 percent budget cut is applied from proposal to final outcome.",
+   "answer_text": "meeting 1 - Ivan [proposal]: Ivan proposes cutting every department's budget by 8 percent across the board. | meeting 1 - Ivan [rationale]: Ivan argues that it is simple and seen as fair, can be in the budget file by the 20th, and lets each department head choose where to cut. | meeting 2 - Wei [evidence]: Wei reports that 62 percent of the budget is committed under multi-year contracts, so an 8 percent cut of the total is really about 21 percent of the remaining uncommitted lines. | meeting 2 - Yuki [proposal]: Yuki proposes targeted cuts instead, aimed at travel, contractors and events on the uncommitted lines. | meeting 2 - Yuki [rationale]: Yuki argues that concentrated cuts protect hiring and tooling, since spreading 21 percent over every uncommitted line would hit the product tooling renewals due in the second quarter. | meeting 3 - Aisha [resolution]: Aisha picks the targeted cuts to travel, contractors and events.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01035-q09",
+   "type": "distractor",
+   "question": "What was decided about the manager-only expense approval limit?",
+   "answer_text": "raise the manager-only expense approval limit from 500 to 1,000 dollars",
+   "answer_facts": {
+    "option": "raise the manager-only expense approval limit from 500 to 1,000 dollars"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

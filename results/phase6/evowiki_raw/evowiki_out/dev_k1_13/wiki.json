@@ -1,0 +1,555 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Leeds restocking",
+   "attribute": "freight provider",
+   "states": [
+    {
+     "value": "Northway Haulage",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Leeds restocking",
+   "attribute": "freight schedule",
+   "states": [
+    {
+     "value": "twice a week",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Leeds restocking",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "\u00a34,100 per month",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    },
+    {
+     "value": "open it back up",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      31
+     ]
+    },
+    {
+     "value": "Brackenfield daily at 5,300",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      60
+     ]
+    },
+    {
+     "value": "seals next morning, reduces courier orders, reduces Harlow penalty exposure",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      61
+     ]
+    },
+    {
+     "value": "16,000 per month for van vs 5,300 per month for Brackenfield",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      63
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Leeds restocking",
+   "attribute": "implementation date",
+   "states": [
+    {
+     "value": "26th of June",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Leeds restocking",
+   "attribute": "communication with depot",
+   "states": [
+    {
+     "value": "Arjun to inform Dave",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Leeds restocking",
+   "attribute": "communication with field engineers",
+   "states": [
+    {
+     "value": "Zainab to inform service managers",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      75,
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Racking inspection",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-24",
+     "evidence": [
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Racking in bay six",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "replaced by the 11th",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-01",
+     "evidence": [
+      4
+     ]
+    },
+    {
+     "value": "Friday, 11th",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Stock count",
+   "attribute": "completion",
+   "states": [
+    {
+     "value": "completed yesterday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-01",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Fire warden task",
+   "attribute": "completion",
+   "states": [
+    {
+     "value": "completed by Mei on Sunday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-01",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Lunch",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday, the 3rd",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-01",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Daventry dock door",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "fixed on Thursday",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-07-01",
+     "evidence": [
+      104
+     ]
+    },
+    {
+     "value": "sorted",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      4
+     ]
+    },
+    {
+     "value": "new motor",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Sheffield driver",
+   "attribute": "gate code issue",
+   "states": [
+    {
+     "value": "fixed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Tom",
+   "attribute": "lease signing",
+   "states": [
+    {
+     "value": "signed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Zainab",
+   "attribute": "holiday dates",
+   "states": [
+    {
+     "value": "today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Mei",
+   "attribute": "holiday dates",
+   "states": [
+    {
+     "value": "Saturday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Hana",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "get on to Priya today and start paperwork with them",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 3,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      82
+     ]
+    },
+    {
+     "value": "look at terms for Northway",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Yuki",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "take numbers to Tom",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Mei",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "send tickets to Tom",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Zainab",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "go back to service managers and frame it as evidence-based decision",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Arjun",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "tell Dave and get him to order two seals",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-07-08",
+     "evidence": [
+      90
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S11",
+   0,
+   1,
+   3
+  ],
+  [
+   "S11",
+   1,
+   2,
+   3
+  ],
+  [
+   "S7",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   1,
+   2,
+   3
+  ],
+  [
+   "S2",
+   2,
+   3,
+   3
+  ],
+  [
+   "S2",
+   3,
+   4,
+   3
+  ],
+  [
+   "S16",
+   0,
+   1,
+   3
+  ]
+ ]
+}

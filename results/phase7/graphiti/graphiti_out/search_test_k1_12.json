@@ -1,0 +1,1259 @@
+[
+ {
+  "qid": "set_01035-q01",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "09c56bad-5107-4f75-b765-391d1d208c5f",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "afa97b2c-7a6a-45c5-82f8-5656166ab4bf",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Kofi if Esra had replied about facilities.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5011947-0978-454f-bd0a-ec284bf78566",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "de2f8c5c-f616-4148-98c1-c02eb8dc5185",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's sheet that combined travel, events, and contractors data to cover the targeted cut.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q02",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "09c56bad-5107-4f75-b765-391d1d208c5f",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "afa97b2c-7a6a-45c5-82f8-5656166ab4bf",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Kofi if Esra had replied about facilities.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "423349df-096b-488d-8050-0f5cb8eac819",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5011947-0978-454f-bd0a-ec284bf78566",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q03",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4202d5a1-3f8b-4a5e-9459-b95ab16d789f",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Sione's information about contractors, stating that around half of his people finish up by the end of March.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "09c56bad-5107-4f75-b765-391d1d208c5f",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "04afff4f-4d87-4540-8587-149f9206cd04",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Camille as the person who started a card for Gabor.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5011947-0978-454f-bd0a-ec284bf78566",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q04",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4202d5a1-3f8b-4a5e-9459-b95ab16d789f",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Sione's information about contractors, stating that around half of his people finish up by the end of March.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "04afff4f-4d87-4540-8587-149f9206cd04",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Camille as the person who started a card for Gabor.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "09c56bad-5107-4f75-b765-391d1d208c5f",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9e829cad-0563-4f2d-90c3-7834aa86d1cb",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q05",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "423349df-096b-488d-8050-0f5cb8eac819",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1cea813c-d60a-4e9f-8748-4cc982f5460a",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2494e966-8589-4d9f-a94d-378336fb4ff5",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0564b117-3ea8-415c-afc7-b55d0a7b7891",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Wei to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "afa97b2c-7a6a-45c5-82f8-5656166ab4bf",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Kofi if Esra had replied about facilities.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q06",
+  "facts": [
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "de2f8c5c-f616-4148-98c1-c02eb8dc5185",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's sheet that combined travel, events, and contractors data to cover the targeted cut.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a31d809c-ee30-4b5f-9115-50e5f0662e87",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's travel numbers and events data in the targeted cut analysis.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bcf7e1d9-051c-4d9b-b937-bfe849ff0961",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Sione about the contractors on mid-flight projects.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": "2025-01-23T00:00:00+00:00",
+    "expired_at": "2026-11-09T04:21:49.154796+00:00"
+   },
+   {
+    "uuid": "4202d5a1-3f8b-4a5e-9459-b95ab16d789f",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Sione's information about contractors, stating that around half of his people finish up by the end of March.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3fecc64-e7d7-4304-9278-1d4f7f160b16",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3a0aaa57-779c-484a-b4b9-c46efe1ab308",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would cause some people to be furious, particularly those with conferences booked.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4513651b-3818-40ab-b190-42b8c4c15c1b",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Wei to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9e829cad-0563-4f2d-90c3-7834aa86d1cb",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q07",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "de2f8c5c-f616-4148-98c1-c02eb8dc5185",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's sheet that combined travel, events, and contractors data to cover the targeted cut.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9e829cad-0563-4f2d-90c3-7834aa86d1cb",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5011947-0978-454f-bd0a-ec284bf78566",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q08",
+  "facts": [
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41ae5170-952b-4607-9b59-69ef33f73673",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's point about the tooling renewals being exposed if the cut is applied to all uncommitted lines.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f32f5b77-3102-4b71-8436-b5440311ec84",
+    "name": "PROPOSES",
+    "fact": "Yuki proposes targeting the cut to specific lines like travel, contractors, and events.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4202d5a1-3f8b-4a5e-9459-b95ab16d789f",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Sione's information about contractors, stating that around half of his people finish up by the end of March.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9e829cad-0563-4f2d-90c3-7834aa86d1cb",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "de2f8c5c-f616-4148-98c1-c02eb8dc5185",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Yuki's sheet that combined travel, events, and contractors data to cover the targeted cut.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a5011947-0978-454f-bd0a-ec284bf78566",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a35611dd-7f0a-4965-97a0-a9df3d068899",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3fecc64-e7d7-4304-9278-1d4f7f160b16",
+    "name": "WORKS_WITH",
+    "fact": "Yuki works with Kofi to analyze the targeted cut by line.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4513651b-3818-40ab-b190-42b8c4c15c1b",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Wei to put the targeted cut analysis in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01035-q09",
+  "facts": [
+   {
+    "uuid": "09c56bad-5107-4f75-b765-391d1d208c5f",
+    "name": "SUGGESTS",
+    "fact": "Kofi suggests raising the manager-only expense limit to $1,000.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f7da0063-4a74-44f2-a1fe-ec936eb937a0",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Kofi needs to ask Beatriz to confirm the expense limit change.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "423349df-096b-488d-8050-0f5cb8eac819",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Yuki to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2494e966-8589-4d9f-a94d-378336fb4ff5",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Ivan to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1cea813c-d60a-4e9f-8748-4cc982f5460a",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Kofi to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0564b117-3ea8-415c-afc7-b55d0a7b7891",
+    "name": "ASKS_TO_PUT_IN_NOTES",
+    "fact": "Aisha asks Wei to put the expense limit change in the notes.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6c5a3d8-9086-4aef-842c-9508fc199fcd",
+    "name": "NEEDS_TO_ASK",
+    "fact": "Aisha needs to ask Beatriz about the file lock deadline.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4f55850-7ce6-4a8a-ae27-7345fe37a0da",
+    "name": "WRITES_TO",
+    "fact": "Aisha wrote to Esra about facilities.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4d5542be-cfac-4eeb-90b3-483c07b4ae73",
+    "name": "PROVIDES",
+    "fact": "Ivan provides a table with the budget cut by department.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "afa97b2c-7a6a-45c5-82f8-5656166ab4bf",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Kofi if Esra had replied about facilities.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4ed6a5c0-c961-42d9-9382-0a84521c2ed8",
+    "name": "INFORMS",
+    "fact": "Wei informs Aisha that 62% of the budget is tied up in multi-year contracts.",
+    "episodes": [
+     "4c08ff02-266c-4ed5-b3e6-a63a25f9307c",
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-16T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "724f0b98-cc54-4a5c-8453-4f2f6bb6e4b7",
+    "name": "REFERRED_TO",
+    "fact": "Aisha referred to Kofi's comment that the flat cut would lead to fifteen emails, but a different fifteen than if the cut was targeted.",
+    "episodes": [
+     "6e7aa2b5-370f-43f6-a995-41284a3eea66"
+    ],
+    "valid_at": "2025-01-23T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

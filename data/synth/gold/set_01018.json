@@ -1,0 +1,624 @@
+{
+ "set_id": "set_01018",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "data and analytics team",
+  "seed": 1018,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 107
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 82
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 93
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 107
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "which model produces the renewal-risk scores shown to account managers",
+ "options": {
+  "A": "the gradient-boosted model, scored weekly",
+  "B": "the logistic regression model with readable coefficients"
+ },
+ "cast": [
+  {
+   "name": "Henrik",
+   "slot": "manager",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Diego",
+   "slot": "proposer",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Elif",
+   "slot": "challenger",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Rohan",
+   "slot": "supporter",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Chloe",
+   "slot": "observer",
+   "style": "big-picture, vague on details"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "the gradient-boosted model, scored weekly"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "the logistic regression model with readable coefficients"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "the gradient-boosted model, scored weekly"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Diego proposes shipping the gradient-boosted model for the renewal-risk scores that account managers see from next quarter.",
+   "version": 1,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Diego argues that on the holdout from the last four quarters it catches 71 percent of the accounts that later churned in the top risk decile, against 52 percent for the logistic baseline.",
+   "version": 1,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    79
+   ],
+   "gist": "Henrik agrees without naming the model, by telling Rohan to set up the weekly scoring job.",
+   "version": 1,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    17
+   ],
+   "gist": "Chloe reports an audit finding that 18 percent of the holdout accounts also appear in the training data under a renamed customer ID after a CRM merge, so the 71 percent is inflated.",
+   "version": 1,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    24
+   ],
+   "gist": "Elif objects that the headline gain cannot be trusted and that account managers would be shown scores nobody can explain.",
+   "version": 1,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    33
+   ],
+   "gist": "Elif argues for the logistic regression: on the deduplicated holdout the gradient-boosted model catches 64 percent and the logistic one 61 percent, and the logistic coefficients can be read out to account managers.",
+   "version": 2,
+   "option_key": "B",
+   "option": "the logistic regression model with readable coefficients",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    48
+   ],
+   "gist": "Henrik decides to ship the logistic regression model instead.",
+   "version": 2,
+   "option_key": "B",
+   "option": "the logistic regression model with readable coefficients",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Rohan",
+   "utterance_idxs": [
+    26,
+    28
+   ],
+   "gist": "Rohan reports that the logistic model says 12 percent risk for enterprise accounts where observed churn last quarter was 31 percent, across 40 enterprise accounts.",
+   "version": 2,
+   "option_key": "B",
+   "option": "the logistic regression model with readable coefficients",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Diego objects that the logistic model is underrating enterprise accounts, which hold 58 percent of renewal revenue.",
+   "version": 2,
+   "option_key": "B",
+   "option": "the logistic regression model with readable coefficients",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    29
+   ],
+   "gist": "Henrik reopens the model decision after Chloe confirms the enterprise gap holds on a second quarter of data.",
+   "version": 2,
+   "option_key": "B",
+   "option": "the logistic regression model with readable coefficients",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    40,
+    41
+   ],
+   "gist": "Diego argues for going back to the gradient-boosted model because, recalibrated on the deduplicated data, it matches enterprise churn within 4 points, and per-account reason codes now cover the explanation concern.",
+   "version": 3,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    99
+   ],
+   "gist": "Henrik decides to ship the gradient-boosted model with the reason codes.",
+   "version": 3,
+   "option_key": "A",
+   "option": "the gradient-boosted model, scored weekly",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "when the weekly data-quality review is held",
+  "option": "move the data-quality review from Monday morning to Thursday afternoon",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Rohan",
+    "utterance_idxs": [
+     62
+    ],
+    "gist": "Rohan suggests moving the weekly data-quality review from Monday morning to Thursday afternoon.",
+    "version": null,
+    "option_key": null,
+    "option": "move the data-quality review from Monday morning to Thursday afternoon",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Rohan",
+    "utterance_idxs": [
+     64
+    ],
+    "gist": "Rohan points out that the Friday-night batch jobs are still running on Monday mornings and half the failures are only visible after eleven.",
+    "version": null,
+    "option_key": null,
+    "option": "move the data-quality review from Monday morning to Thursday afternoon",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Henrik",
+    "utterance_idxs": [
+     71
+    ],
+    "gist": "Henrik approves moving the data-quality review to Thursday afternoon.",
+    "version": null,
+    "option_key": null,
+    "option": "move the data-quality review from Monday morning to Thursday afternoon",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01018-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about which model produces the renewal-risk scores shown to account managers?",
+   "answer_text": "the gradient-boosted model, scored weekly",
+   "answer_facts": {
+    "option": "the gradient-boosted model, scored weekly"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about which model produces the renewal-risk scores shown to account managers?",
+   "answer_text": "meeting 1: Henrik - Henrik agrees without naming the model, by telling Rohan to set up the weekly scoring job.; meeting 2: Henrik - Henrik decides to ship the logistic regression model instead.; meeting 4: Henrik - Henrik decides to ship the gradient-boosted model with the reason codes.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "the gradient-boosted model, scored weekly",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "the logistic regression model with readable coefficients",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "the gradient-boosted model, scored weekly",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q03",
+   "type": "as_of",
+   "question": "What was the decision about which model produces the renewal-risk scores shown to account managers as of the end of meeting 3?",
+   "answer_text": "the logistic regression model with readable coefficients",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "the logistic regression model with readable coefficients"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01018-q04",
+   "type": "as_of",
+   "question": "What was the decision about which model produces the renewal-risk scores shown to account managers as of the end of meeting 4?",
+   "answer_text": "the gradient-boosted model, scored weekly",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "the gradient-boosted model, scored weekly"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about which model produces the renewal-risk scores shown to account managers change over time?",
+   "answer_text": "the gradient-boosted model, scored weekly (from meeting 1) -> the logistic regression model with readable coefficients (from meeting 2) -> the gradient-boosted model, scored weekly (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "the gradient-boosted model, scored weekly",
+     "the logistic regression model with readable coefficients",
+     "the gradient-boosted model, scored weekly"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01018-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about which model produces the renewal-risk scores shown to account managers change at meeting 2?",
+   "answer_text": "Before: the gradient-boosted model, scored weekly, because Diego argues that on the holdout from the last four quarters it catches 71 percent of the accounts that later churned in the top risk decile, against 52 percent for the logistic baseline. Triggered by: Chloe (evidence): Chloe reports an audit finding that 18 percent of the holdout accounts also appear in the training data under a renamed customer ID after a CRM merge, so the 71 percent is inflated. Elif (challenge): Elif objects that the headline gain cannot be trusted and that account managers would be shown scores nobody can explain. After: the logistic regression model with readable coefficients, because Elif argues for the logistic regression: on the deduplicated holdout the gradient-boosted model catches 64 percent and the logistic one 61 percent, and the logistic coefficients can be read out to account managers.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01018-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about which model produces the renewal-risk scores shown to account managers change at meeting 4?",
+   "answer_text": "Before: the logistic regression model with readable coefficients, because Elif argues for the logistic regression: on the deduplicated holdout the gradient-boosted model catches 64 percent and the logistic one 61 percent, and the logistic coefficients can be read out to account managers. Triggered by: Rohan (evidence): Rohan reports that the logistic model says 12 percent risk for enterprise accounts where observed churn last quarter was 31 percent, across 40 enterprise accounts. Diego (challenge): Diego objects that the logistic model is underrating enterprise accounts, which hold 58 percent of renewal revenue. Henrik (reconsideration): Henrik reopens the model decision after Chloe confirms the enterprise gap holds on a second quarter of data. After: the gradient-boosted model, scored weekly, because Diego argues for going back to the gradient-boosted model because, recalibrated on the deduplicated data, it matches enterprise churn within 4 points, and per-account reason codes now cover the explanation concern.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about which model produces the renewal-risk scores shown to account managers?",
+   "answer_text": "Diego",
+   "answer_facts": {
+    "speaker": "Diego"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01018-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about which model produces the renewal-risk scores shown to account managers?",
+   "answer_text": "Chloe (evidence): Chloe reports an audit finding that 18 percent of the holdout accounts also appear in the training data under a renamed customer ID after a CRM merge, so the 71 percent is inflated. Elif (challenge): Elif objects that the headline gain cannot be trusted and that account managers would be shown scores nobody can explain. Rohan (evidence): Rohan reports that the logistic model says 12 percent risk for enterprise accounts where observed churn last quarter was 31 percent, across 40 enterprise accounts. Diego (challenge): Diego objects that the logistic model is underrating enterprise accounts, which hold 58 percent of renewal revenue.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01018-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about which model produces the renewal-risk scores shown to account managers?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about which model produces the renewal-risk scores shown to account managers from proposal to final outcome.",
+   "answer_text": "meeting 1 - Diego [proposal]: Diego proposes shipping the gradient-boosted model for the renewal-risk scores that account managers see from next quarter. | meeting 1 - Diego [rationale]: Diego argues that on the holdout from the last four quarters it catches 71 percent of the accounts that later churned in the top risk decile, against 52 percent for the logistic baseline. | meeting 1 - Henrik [resolution]: Henrik agrees without naming the model, by telling Rohan to set up the weekly scoring job. | meeting 2 - Chloe [evidence]: Chloe reports an audit finding that 18 percent of the holdout accounts also appear in the training data under a renamed customer ID after a CRM merge, so the 71 percent is inflated. | meeting 2 - Elif [challenge]: Elif objects that the headline gain cannot be trusted and that account managers would be shown scores nobody can explain. | meeting 2 - Elif [rationale]: Elif argues for the logistic regression: on the deduplicated holdout the gradient-boosted model catches 64 percent and the logistic one 61 percent, and the logistic coefficients can be read out to account managers. | meeting 2 - Henrik [resolution]: Henrik decides to ship the logistic regression model instead. | meeting 3 - Rohan [evidence]: Rohan reports that the logistic model says 12 percent risk for enterprise accounts where observed churn last quarter was 31 percent, across 40 enterprise accounts. | meeting 3 - Diego [challenge]: Diego objects that the logistic model is underrating enterprise accounts, which hold 58 percent of renewal revenue. | meeting 4 - Henrik [reconsideration]: Henrik reopens the model decision after Chloe confirms the enterprise gap holds on a second quarter of data. | meeting 4 - Diego [rationale]: Diego argues for going back to the gradient-boosted model because, recalibrated on the deduplicated data, it matches enterprise churn within 4 points, and per-account reason codes now cover the explanation concern. | meeting 4 - Henrik [resolution]: Henrik decides to ship the gradient-boosted model with the reason codes.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01018-q12",
+   "type": "distractor",
+   "question": "What was decided about when the weekly data-quality review is held?",
+   "answer_text": "move the data-quality review from Monday morning to Thursday afternoon",
+   "answer_facts": {
+    "option": "move the data-quality review from Monday morning to Thursday afternoon"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

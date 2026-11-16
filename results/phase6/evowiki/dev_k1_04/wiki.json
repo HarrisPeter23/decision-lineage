@@ -1,0 +1,522 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Customer Conference",
+   "attribute": "format",
+   "states": [
+    {
+     "value": "in person",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Customer Conference",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "Harborview Hotel, ballroom",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      3,
+      4,
+      15
+     ]
+    },
+    {
+     "value": "do not contact, send polite note",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Customer Conference",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Lakshmi",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Rep Sign-Ups",
+   "attribute": "target count",
+   "states": [
+    {
+     "value": "60",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Rep Sign-Ups",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Noor",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      18
+     ]
+    },
+    {
+     "value": "forty-one",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Customer Newsletter",
+   "attribute": "deadline for draft",
+   "states": [
+    {
+     "value": "by the tenth",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      24
+     ]
+    },
+    {
+     "value": "twenty-second",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      18,
+      20,
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Customer Newsletter",
+   "attribute": "date mention",
+   "states": [
+    {
+     "value": "not until the booking is confirmed",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      27
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Customer Newsletter",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Ivan",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-30",
+     "evidence": [
+      25
+     ]
+    },
+    {
+     "value": "piece about the showcase",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Summit Plan",
+   "attribute": "format",
+   "states": [
+    {
+     "value": "virtual product showcase plus small invite-only reception",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Summit Plan",
+   "attribute": "dates",
+   "states": [
+    {
+     "value": "late November, showcase streams over a week, reception on the last night",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Summit Plan",
+   "attribute": "venue",
+   "states": [
+    {
+     "value": "company office for reception",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      14,
+      16,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Summit Plan",
+   "attribute": "reception size",
+   "states": [
+    {
+     "value": "30-40 attendees",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      16
+     ]
+    },
+    {
+     "value": "forty-two names",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Summit Plan",
+   "attribute": "customer outreach",
+   "states": [
+    {
+     "value": "targeted to top accounts",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Summit Plan",
+   "attribute": "customer engagement",
+   "states": [
+    {
+     "value": "virtual showcase to reach non-traveling customers, in-person reception for top accounts",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Summit Plan",
+   "attribute": "budget",
+   "states": [
+    {
+     "value": "significantly less than hotel venue",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Summit Plan",
+   "attribute": "customer retention",
+   "states": [
+    {
+     "value": "keep customers close and drive pipeline",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-02-06",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Event platform",
+   "attribute": "cost per attendee",
+   "states": [
+    {
+     "value": "four dollars",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      1,
+      4,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Event platform",
+   "attribute": "features",
+   "states": [
+    {
+     "value": "handles registration and reminders automatically",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Event platform",
+   "attribute": "total cost",
+   "states": [
+    {
+     "value": "thirty-two hundred dollars",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Reception",
+   "attribute": "catering budget",
+   "states": [
+    {
+     "value": "three thousand dollars",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Reception layout",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "next week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Reception layout",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Lakshmi",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-13",
+     "evidence": [
+      29
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S1",
+   0,
+   1,
+   2
+  ],
+  [
+   "S11",
+   0,
+   1,
+   3
+  ],
+  [
+   "S4",
+   0,
+   1,
+   3
+  ],
+  [
+   "S7",
+   0,
+   1,
+   3
+  ],
+  [
+   "S5",
+   0,
+   1,
+   3
+  ]
+ ]
+}

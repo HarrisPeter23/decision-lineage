@@ -1,0 +1,31 @@
+[
+ {
+  "meeting_id": "mtg_0001",
+  "date": "2025-05-01",
+  "ok": false,
+  "error": "APITimeoutError: Request timed out.",
+  "tb": "        messages, response_model, max_tokens, model_size, **overrides\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/llm_client/openai_generic_client.py\", line 157, in _generate_response\n    response = await self.client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n    )\n    ^\n  File \"/kaggle/src/script.py\", line 77, in create\n    r = await orig(*a, **kw)\n        ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/resources/chat/completions/completions.py\", line 2907, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n    ...<55 lines>...\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1992, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/openai/_base_client.py\", line 1727, in request\n    raise APITimeoutError(request=request) from err\nopenai.APITimeoutError: Request timed out.\n",
+  "seconds": 2735.0,
+  "llm_calls": 127
+ },
+ {
+  "meeting_id": "mtg_0002",
+  "date": "2025-05-08",
+  "ok": true,
+  "episode_uuid": "3d99e5c2-4486-4f48-9fd4-bbe23af2fcd8",
+  "n_nodes": 31,
+  "n_edges": 22,
+  "seconds": 438.4,
+  "llm_calls": 42
+ },
+ {
+  "meeting_id": "mtg_0003",
+  "date": "2025-05-15",
+  "ok": true,
+  "episode_uuid": "94a5767d-c750-4b92-aa7a-737b237dac37",
+  "n_nodes": 11,
+  "n_edges": 32,
+  "seconds": 569.0,
+  "llm_calls": 49
+ }
+]

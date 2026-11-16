@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01016",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Tariq",
+   "quote": "I think maybe we could make the ninth? I'd have to check with design, they might be-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Zainab",
+   "quote": "Check today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Tariq",
+   "quote": "Yeah. Yeah, will do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Kofi",
+   "quote": "Do we even need new artwork? It's the same product line as Lyon back in June.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Zainab",
+   "quote": "Crates. Who's got theirs?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Zainab",
+   "quote": "Take one. Packed by Friday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Zainab",
+   "quote": "Get one.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Zainab",
+   "quote": "Expense tool. Tomorrow, yes?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Zainab",
+   "quote": "Right. Summit. You've all had a week with Kofi's numbers, so I'm opening it back up. Is the format right or isn't it?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kofi",
+   "quote": "Well, there you go.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Sofia",
+   "quote": "Oh. Okay. Yeah. No, fine, okay.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Tariq",
+   "quote": "Friday, yeah. Friday night, sorry. The AV quotes came in, so I think everything's there now, and Frankfurt's at the higher figure, like you said.",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,501 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Salma",
+   "attribute": "brand deck comments deadline",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Salma",
+   "attribute": "brand deck comments recipient",
+   "states": [
+    {
+     "value": "Salma",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Third quarter budget",
+   "attribute": "allocation",
+   "states": [
+    {
+     "value": "120,000 to be spent on search ads and social ads",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      14
+     ]
+    },
+    {
+     "value": "3 partner webinars plus retargeting; search and social are out",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Creative budget",
+   "attribute": "source",
+   "states": [
+    {
+     "value": "Clara's team",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Media plan",
+   "attribute": "confirmation deadline",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Media plan",
+   "attribute": "confirmation recipient",
+   "states": [
+    {
+     "value": "Lakshmi",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      80
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Media plan",
+   "attribute": "delivery method",
+   "states": [
+    {
+     "value": "direct",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Retrospective meeting",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Newsletter",
+   "attribute": "coverage during Rosa's absence",
+   "states": [
+    {
+     "value": "Amara",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      92
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Newsletter",
+   "attribute": "number of issues",
+   "states": [
+    {
+     "value": "two",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      96
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Newsletter",
+   "attribute": "template availability",
+   "states": [
+    {
+     "value": "available",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Greta",
+   "attribute": "meeting with Lakshmi",
+   "states": [
+    {
+     "value": "tomorrow at 10:00",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-05-28",
+     "evidence": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Third quarter marketing budget",
+   "attribute": "amount",
+   "states": [
+    {
+     "value": "78,000",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Partner webinars",
+   "attribute": "number",
+   "states": [
+    {
+     "value": "3",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Partner webinars",
+   "attribute": "dates",
+   "states": [
+    {
+     "value": "One a month",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Partner webinars",
+   "attribute": "owners",
+   "states": [
+    {
+     "value": "Amara",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      57,
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Newsletter",
+   "attribute": "sender",
+   "states": [
+    {
+     "value": "content lead's name",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      80
+     ]
+    },
+    {
+     "value": "implemented (from content lead's name)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-11",
+     "evidence": [
+      63
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Team lunch",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      87
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0003",
+       "meeting": 3,
+       "date": "2025-06-11",
+       "evidence": [
+        106,
+        107
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Team lunch",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Mateo",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Retargeting spend",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Henrik",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-04",
+     "evidence": [
+      99,
+      100
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "One-pager",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Friday with blanks",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-11",
+     "evidence": [
+      40,
+      41
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "All-hands meeting",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday (2025-06-12)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-11",
+     "evidence": [
+      42,
+      45,
+      47,
+      48,
+      49,
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Retro notes",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Greta to fill in missing details",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-06-11",
+     "evidence": [
+      84,
+      85,
+      86,
+      87
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   2
+  ],
+  [
+   "S16",
+   0,
+   1,
+   3
+  ]
+ ]
+}

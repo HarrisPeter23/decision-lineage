@@ -1,0 +1,29 @@
+[
+ {
+  "meeting_id": "mtg_0001",
+  "date": "2025-05-01",
+  "ok": false,
+  "error": "AttributeError: 'KuzuDriver' object has no attribute '_database'",
+  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 90, in run_corpus\n    res = await g.add_episode(name=m[\"meeting_id\"], episode_body=m[\"text\"], source=EpisodeType.message, source_description=\"team meeting transcript\",\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                              reference_time=datetime.fromisoformat(m[\"date\"]).replace(tzinfo=timezone.utc), group_id=name)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1430, in add_episode\n    group_id, driver, clients = self._resolve_request_scope(group_id)\n                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1327, in _resolve_request_scope\n    if group_id == self.driver._database:\n                   ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'KuzuDriver' object has no attribute '_database'. Did you mean: 'with_database'?\n",
+  "seconds": 0.0,
+  "llm_calls": 0
+ },
+ {
+  "meeting_id": "mtg_0002",
+  "date": "2025-05-08",
+  "ok": false,
+  "error": "AttributeError: 'KuzuDriver' object has no attribute '_database'",
+  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 90, in run_corpus\n    res = await g.add_episode(name=m[\"meeting_id\"], episode_body=m[\"text\"], source=EpisodeType.message, source_description=\"team meeting transcript\",\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                              reference_time=datetime.fromisoformat(m[\"date\"]).replace(tzinfo=timezone.utc), group_id=name)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1430, in add_episode\n    group_id, driver, clients = self._resolve_request_scope(group_id)\n                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1327, in _resolve_request_scope\n    if group_id == self.driver._database:\n                   ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'KuzuDriver' object has no attribute '_database'. Did you mean: 'with_database'?\n",
+  "seconds": 0.0,
+  "llm_calls": 0
+ },
+ {
+  "meeting_id": "mtg_0003",
+  "date": "2025-05-15",
+  "ok": false,
+  "error": "AttributeError: 'KuzuDriver' object has no attribute '_database'",
+  "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 90, in run_corpus\n    res = await g.add_episode(name=m[\"meeting_id\"], episode_body=m[\"text\"], source=EpisodeType.message, source_description=\"team meeting transcript\",\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                              reference_time=datetime.fromisoformat(m[\"date\"]).replace(tzinfo=timezone.utc), group_id=name)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1430, in add_episode\n    group_id, driver, clients = self._resolve_request_scope(group_id)\n                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/graphiti_core/graphiti.py\", line 1327, in _resolve_request_scope\n    if group_id == self.driver._database:\n                   ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'KuzuDriver' object has no attribute '_database'. Did you mean: 'with_database'?\n",
+  "seconds": 0.0,
+  "llm_calls": 0
+ }
+]

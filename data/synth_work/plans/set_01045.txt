@@ -1,0 +1,13 @@
+set_id: set_01045
+seed: 1045
+arc_type: external_trigger
+topic: how the app's push notifications are sent
+option A: renew the managed push-notification provider for a year at 900 dollars a month
+option B: build an in-house service that sends directly through the platforms' own notification services
+beat B1: Pavel proposes renewing the managed push provider for a year at 900 dollars a month.
+beat B2: Pavel argues that it already handles segmentation, delivers 4.2 million pushes a month, needs no engineering upkeep, and rebuilding it would take two engineers six weeks.
+beat B3: Lena settles it: the managed push provider is renewed for the year.
+beat B4: Lena reports that the provider has emailed to say it is moving to usage-based pricing from next month, which for current volume works out at about 2,700 dollars a month, three times the current price.
+beat B5: Lena reopens the push decision because of the price change.
+beat B6: Camila argues for an in-house service because the segmentation already lives in the company's own user service, so only the sending is needed, which is about four weeks for two engineers, plus roughly 250 dollars a month to run and a day a week of upkeep, breaking even within about five months.
+beat B7: Lena decides the team builds the in-house push service.

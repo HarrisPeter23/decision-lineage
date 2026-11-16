@@ -1,0 +1,117 @@
+Meeting: mtg_0010
+Date: 2025-03-25
+Participants: Camila, Zainab, Chloe, Kwame, Diego
+
+Camila: Okay, let's start. Sorry, I was stuck on a call with finance until just now.
+Zainab: Did they say anything about the hardware line?
+Camila: Sort of. I'll get to it. Diego, you had the vendor thing, right?
+Diego: Yeah. Um, heard back Friday. And from two of the agencies yesterday.
+Camila: Okay, good, go ahead.
+Diego: So the vendor says seven weeks, door to door, for all thirty-eight. And the two agencies, uh, they said if contractors have to carry a second laptop for an engagement, they'd sooner pull those people off it.
+Zainab: Seven weeks? They said three, maybe four, when I called in February.
+Diego: That was a smaller number, I think. Thirty-eight is a bigger lot for them.
+Kwame: Which two agencies?
+Diego: The one Alejandra works with, and the data one. I can forward the emails.
+Camila: Yeah, forward them to everyone.
+Chloe: Okay but hold on. Seven weeks is basically two months where every one of those people is still getting into prod from whatever they own, so the exposure just sits there. And we'd be paying forty-three seven, roughly, for a group where half of them are gone by the next half-year anyway. That's a lot of money for something I can't make add up.
+Zainab: They're not gone, we wipe them and reissue-
+Chloe: If they come back, which Kwame already said last week, and he was right-
+Kwame: I did say that, thank you.
+Zainab: Okay, but the alternative is nothing. The audit follow-up is still open.
+Camila: Right, the audit. Big picture, we do need something.
+Kwame: Something. Not necessarily this.
+Zainab: Then what-
+Camila: Hold on. Let's not solve it right now. Diego, can you get the vendor to put the seven weeks in writing?
+Diego: Yeah. They only said it on the phone, I think. Maybe the portal has it.
+Camila: Please.
+Zainab: Can we ask if they'd split it? Ship twenty first, then the rest later?
+Diego: I can ask. I don't know.
+Chloe: Oh, that reminds me of the monitors, when we ordered in two lots and one lot came in the wrong size, or the wrong color, I forget, anyway Rania had to-
+Camila: Chloe.
+Chloe: Sorry, sorry. Sizes. It's fine.
+Kwame: So for now what? We just wait on the vendor?
+Camila: For now, yes. I mean, let's park it, we have other stuff.
+Kwame: Parked with no date.
+Zainab: There's a date, it's a range-
+Camila: Okay, okay. Patch window. Is Sunday still fine for everybody?
+Zainab: Sunday night is fine for me. I'm on call anyway.
+Diego: I'm out until Monday noon, so, um, not me.
+Camila: Fine, Zainab and Kwame then.
+Kwame: I have a thing Sunday afternoon but night's okay.
+Camila: Great.
+Zainab: Is the cert for the VPN gateway done too? Because that expires on the-
+Chloe: The thirtieth? No, I renewed it, I think. Or I started it. There's a ticket.
+Zainab: Started or renewed?
+Chloe: Renewal requested. Waiting on Milan to approve.
+Zainab: That's not renewed.
+Chloe: It's in progress! It's practically the same thing.
+Camila: Can someone chase Milan?
+Diego: I'll message him.
+Camila: Thanks, Diego.
+Kwame: While we're on stuff that quietly expires, the shared password vault. Who's been looking at that?
+Camila: What about it?
+Kwame: Nobody reviews who's in it. Or when they do, it's whenever.
+Zainab: Tomasz did one last year, I think? Autumn.
+Chloe: It was before the reorg, because I remember Alejandra was still on the list and she'd moved by then, and she was actually the one who told me about the-
+Kwame: What if we went through the vault's access list every quarter. Just on a schedule.
+Camila: Why every quarter, why not once a year?
+Kwame: Because when we went through it last, there were nine accounts nobody could explain. Three of those were people who'd already left.
+Zainab: Three who left and still had logins?
+Kwame: Yep.
+Zainab: Okay, that's bad.
+Diego: Was that the one where we diffed against the HR list?
+Kwame: That one.
+Chloe: How long does it take, though? Is it a whole day?
+Diego: Half a day. Mostly the diff.
+Camila: Okay. Quarterly review of the shared password vault, then. Kwame, you own it, first one in June.
+Kwame: Sure. I'll put it in the calendar.
+Zainab: Make it recurring so nobody forgets.
+Kwame: Yes, recurring.
+Camila: Right. Finance. The hardware line.
+Zainab: Finally.
+Camila: They said there's room, I think. Not sure how much room.
+Zainab: For forty-odd thousand?
+Camila: Um. I'd have to ask again. The person who knows is out.
+Kwame: So we don't know if the money exists and we don't know when the laptops exist.
+Camila: We know some things.
+Kwame: Name one.
+Camila: The audit follow-up is open. That's one.
+Zainab: That's a good one, though.
+Chloe: Does the quote hold, though? Or does it move if we wait a few weeks to decide?
+Diego: It's good for thirty days, it says.
+Zainab: So end of April.
+Diego: About. Middle, maybe.
+Kwame: Which is when the seven weeks would already be running.
+Zainab: Only if we order.
+Camila: Right, only if.
+Diego: I'll put the date in the email.
+Camila: Good. When can you do that?
+Diego: Tomorrow. Maybe Wednesday.
+Zainab: Tomorrow's better.
+Diego: Okay, tomorrow.
+Camila: Does anyone know if Sione's onboarding batch is still the first week of April?
+Zainab: That's what Tomasz said last week.
+Kwame: That's the batch that's waiting on all this, isn't it?
+Camila: Partly. I mean, they can start with their own machines.
+Kwame: For now.
+Camila: For now, yeah. Hm.
+Zainab: Which is what Chloe keeps bringing up.
+Chloe: I'm not complaining, I'm pointing at the exposure.
+Zainab: Exposure we have today, with the twelve.
+Chloe: Exactly, so it's not the seven weeks, it's that nothing is different until then.
+Kwame: That's the gap, yeah.
+Zainab: Like what, an interim thing?
+Kwame: I don't know. I'm just saying the gap is the gap.
+Camila: Okay, I really can't settle this today.
+Diego: Should I still send the emails?
+Camila: Yes, please, today.
+Diego: Okay.
+Chloe: Who's taking notes?
+Zainab: Diego did last time.
+Kwame: I'll do it.
+Camila: Thanks, Kwame. And Daan's still covering Chloe's on-call?
+Chloe: Only last week. This week it's me.
+Camila: Right, right. Sorry.
+Chloe: It's fine.
+Zainab: One last thing, are we still on for lunch with Sione?
+Camila: I have to jump, I'm sorry. Send me the details.

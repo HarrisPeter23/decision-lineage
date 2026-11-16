@@ -1,0 +1,394 @@
+{
+ "set_id": "set_01045",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "mobile app team",
+  "seed": 1045,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 90
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 83
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 104
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how the app's push notifications are sent",
+ "options": {
+  "A": "renew the managed push-notification provider for a year at 900 dollars a month",
+  "B": "build an in-house service that sends directly through the platforms' own notification services"
+ },
+ "cast": [
+  {
+   "name": "Lena",
+   "slot": "manager",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Pavel",
+   "slot": "proposer",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Sven",
+   "slot": "challenger",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Camila",
+   "slot": "supporter",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Sana",
+   "slot": "observer",
+   "style": "tends to interrupt others"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "renew the managed push-notification provider for a year at 900 dollars a month"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "build an in-house service that sends directly through the platforms' own notification services"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    32
+   ],
+   "gist": "Pavel proposes renewing the managed push provider for a year at 900 dollars a month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    34,
+    35
+   ],
+   "gist": "Pavel argues that it already handles segmentation, delivers 4.2 million pushes a month, needs no engineering upkeep, and rebuilding it would take two engineers six weeks.",
+   "version": 1,
+   "option_key": "A",
+   "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    59
+   ],
+   "gist": "Lena settles it: the managed push provider is renewed for the year.",
+   "version": 1,
+   "option_key": "A",
+   "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "Lena reports that the provider has emailed to say it is moving to usage-based pricing from next month, which for current volume works out at about 2,700 dollars a month, three times the current price.",
+   "version": 1,
+   "option_key": "A",
+   "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Lena reopens the push decision because of the price change.",
+   "version": 1,
+   "option_key": "A",
+   "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    34,
+    36
+   ],
+   "gist": "Camila argues for an in-house service because the segmentation already lives in the company's own user service, so only the sending is needed, which is about four weeks for two engineers, plus roughly 250 dollars a month to run and a day a week of upkeep, breaking even within about five months.",
+   "version": 2,
+   "option_key": "B",
+   "option": "build an in-house service that sends directly through the platforms' own notification services",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Lena",
+   "utterance_idxs": [
+    67
+   ],
+   "gist": "Lena decides the team builds the in-house push service.",
+   "version": 2,
+   "option_key": "B",
+   "option": "build an in-house service that sends directly through the platforms' own notification services",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01045-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the app's push notifications are sent?",
+   "answer_text": "build an in-house service that sends directly through the platforms' own notification services",
+   "answer_facts": {
+    "option": "build an in-house service that sends directly through the platforms' own notification services"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01045-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the app's push notifications are sent?",
+   "answer_text": "meeting 1: Lena - Lena settles it: the managed push provider is renewed for the year.; meeting 2: Lena - Lena decides the team builds the in-house push service.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "renew the managed push-notification provider for a year at 900 dollars a month",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "build an in-house service that sends directly through the platforms' own notification services",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01045-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the app's push notifications are sent as of the end of meeting 1?",
+   "answer_text": "renew the managed push-notification provider for a year at 900 dollars a month",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "renew the managed push-notification provider for a year at 900 dollars a month"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01045-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the app's push notifications are sent as of the end of meeting 3?",
+   "answer_text": "build an in-house service that sends directly through the platforms' own notification services",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "build an in-house service that sends directly through the platforms' own notification services"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01045-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the app's push notifications are sent change over time?",
+   "answer_text": "renew the managed push-notification provider for a year at 900 dollars a month (from meeting 1) -> build an in-house service that sends directly through the platforms' own notification services (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "renew the managed push-notification provider for a year at 900 dollars a month",
+     "build an in-house service that sends directly through the platforms' own notification services"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01045-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about how the app's push notifications are sent changed?",
+   "answer_text": "Before: renew the managed push-notification provider for a year at 900 dollars a month, because Pavel argues that it already handles segmentation, delivers 4.2 million pushes a month, needs no engineering upkeep, and rebuilding it would take two engineers six weeks. Triggered by: Lena (evidence): Lena reports that the provider has emailed to say it is moving to usage-based pricing from next month, which for current volume works out at about 2,700 dollars a month, three times the current price. Lena (reconsideration): Lena reopens the push decision because of the price change. After: build an in-house service that sends directly through the platforms' own notification services, because Camila argues for an in-house service because the segmentation already lives in the company's own user service, so only the sending is needed, which is about four weeks for two engineers, plus roughly 250 dollars a month to run and a day a week of upkeep, breaking even within about five months.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01045-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the app's push notifications are sent?",
+   "answer_text": "Pavel",
+   "answer_facts": {
+    "speaker": "Pavel"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01045-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the app's push notifications are sent?",
+   "answer_text": "Lena (evidence): Lena reports that the provider has emailed to say it is moving to usage-based pricing from next month, which for current volume works out at about 2,700 dollars a month, three times the current price.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01045-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the app's push notifications are sent?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01045-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the app's push notifications are sent from proposal to final outcome.",
+   "answer_text": "meeting 1 - Pavel [proposal]: Pavel proposes renewing the managed push provider for a year at 900 dollars a month. | meeting 1 - Pavel [rationale]: Pavel argues that it already handles segmentation, delivers 4.2 million pushes a month, needs no engineering upkeep, and rebuilding it would take two engineers six weeks. | meeting 1 - Lena [resolution]: Lena settles it: the managed push provider is renewed for the year. | meeting 2 - Lena [evidence]: Lena reports that the provider has emailed to say it is moving to usage-based pricing from next month, which for current volume works out at about 2,700 dollars a month, three times the current price. | meeting 2 - Lena [reconsideration]: Lena reopens the push decision because of the price change. | meeting 2 - Camila [rationale]: Camila argues for an in-house service because the segmentation already lives in the company's own user service, so only the sending is needed, which is about four weeks for two engineers, plus roughly 250 dollars a month to run and a day a week of upkeep, breaking even within about five months. | meeting 2 - Lena [resolution]: Lena decides the team builds the in-house push service.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

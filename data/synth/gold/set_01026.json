@@ -1,0 +1,385 @@
+{
+ "set_id": "set_01026",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "SaaS product team",
+  "seed": 1026,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 115
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 112
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 114
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how the new team-collaboration add-on is priced",
+ "options": {
+  "A": "a flat 49 dollars per workspace per month with unlimited seats",
+  "B": "6 dollars per seat per month with a five-seat minimum"
+ },
+ "cast": [
+  {
+   "name": "Camila",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Fatima",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Zainab",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Yuki",
+   "slot": "supporter",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "talkative, drifts into tangents"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "a flat 49 dollars per workspace per month with unlimited seats"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Fatima proposes pricing the collaboration add-on at a flat 49 dollars per workspace per month, with unlimited seats.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    32,
+    34
+   ],
+   "gist": "Fatima argues that 9 of 12 workspace admins interviewed said per-seat pricing makes them limit who gets invited, and the median workspace has 14 users, so a flat price works out at about 3.50 dollars a user.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    72
+   ],
+   "gist": "Camila settles it: the add-on launches at the flat 49 dollars per workspace.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Elif reports that the 30 largest workspaces average 240 seats and that at 49 dollars each they would cost more in compute, about 84 dollars a month each, than they pay.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    46
+   ],
+   "gist": "Zainab objects that a flat price gives the heaviest users a loss-making discount and that moving to per-seat pricing later would be a price rise customers would not forgive.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    25
+   ],
+   "gist": "Camila reopens the pricing question now that the large-workspace numbers are on the table.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Fatima",
+   "utterance_idxs": [
+    48,
+    49
+   ],
+   "gist": "Fatima answers that the 30 large workspaces lose about 1,050 dollars a month combined, against roughly 71,000 a month from the 1,450 mid-size workspaces who would accept a flat price, and that the large ones are on annual enterprise contracts that can be moved to custom pricing at renewal without touching the list price.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    66
+   ],
+   "gist": "Camila confirms the flat 49 dollars per workspace.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a flat 49 dollars per workspace per month with unlimited seats",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01026-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how the new team-collaboration add-on is priced?",
+   "answer_text": "a flat 49 dollars per workspace per month with unlimited seats",
+   "answer_facts": {
+    "option": "a flat 49 dollars per workspace per month with unlimited seats"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01026-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how the new team-collaboration add-on is priced?",
+   "answer_text": "meeting 1: Camila - Camila settles it: the add-on launches at the flat 49 dollars per workspace.; meeting 3: Camila - Camila confirms the flat 49 dollars per workspace.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a flat 49 dollars per workspace per month with unlimited seats",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "a flat 49 dollars per workspace per month with unlimited seats",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01026-q03",
+   "type": "as_of",
+   "question": "What was the decision about how the new team-collaboration add-on is priced as of the end of meeting 1?",
+   "answer_text": "a flat 49 dollars per workspace per month with unlimited seats",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "a flat 49 dollars per workspace per month with unlimited seats"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01026-q04",
+   "type": "as_of",
+   "question": "What was the decision about how the new team-collaboration add-on is priced as of the end of meeting 2?",
+   "answer_text": "a flat 49 dollars per workspace per month with unlimited seats",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "a flat 49 dollars per workspace per month with unlimited seats"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01026-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how the new team-collaboration add-on is priced change over time?",
+   "answer_text": "It did not change: a flat 49 dollars per workspace per month with unlimited seats was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01026-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about how the new team-collaboration add-on is priced?",
+   "answer_text": "It did not change. The team kept a flat 49 dollars per workspace per month with unlimited seats. Concerns raised: Zainab objects that a flat price gives the heaviest users a loss-making discount and that moving to per-seat pricing later would be a price rise customers would not forgive. Elif reports that the 30 largest workspaces average 240 seats and that at 49 dollars each they would cost more in compute, about 84 dollars a month each, than they pay. Why it stayed: Fatima answers that the 30 large workspaces lose about 1,050 dollars a month combined, against roughly 71,000 a month from the 1,450 mid-size workspaces who would accept a flat price, and that the large ones are on annual enterprise contracts that can be moved to custom pricing at renewal without touching the list price.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01026-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about how the new team-collaboration add-on is priced?",
+   "answer_text": "Fatima",
+   "answer_facts": {
+    "speaker": "Fatima"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01026-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about how the new team-collaboration add-on is priced?",
+   "answer_text": "Elif (evidence): Elif reports that the 30 largest workspaces average 240 seats and that at 49 dollars each they would cost more in compute, about 84 dollars a month each, than they pay. Zainab (challenge): Zainab objects that a flat price gives the heaviest users a loss-making discount and that moving to per-seat pricing later would be a price rise customers would not forgive.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01026-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how the new team-collaboration add-on is priced?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01026-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how the new team-collaboration add-on is priced from proposal to final outcome.",
+   "answer_text": "meeting 1 - Fatima [proposal]: Fatima proposes pricing the collaboration add-on at a flat 49 dollars per workspace per month, with unlimited seats. | meeting 1 - Fatima [rationale]: Fatima argues that 9 of 12 workspace admins interviewed said per-seat pricing makes them limit who gets invited, and the median workspace has 14 users, so a flat price works out at about 3.50 dollars a user. | meeting 1 - Camila [resolution]: Camila settles it: the add-on launches at the flat 49 dollars per workspace. | meeting 2 - Elif [evidence]: Elif reports that the 30 largest workspaces average 240 seats and that at 49 dollars each they would cost more in compute, about 84 dollars a month each, than they pay. | meeting 2 - Zainab [challenge]: Zainab objects that a flat price gives the heaviest users a loss-making discount and that moving to per-seat pricing later would be a price rise customers would not forgive. | meeting 3 - Camila [reconsideration]: Camila reopens the pricing question now that the large-workspace numbers are on the table. | meeting 3 - Fatima [rationale]: Fatima answers that the 30 large workspaces lose about 1,050 dollars a month combined, against roughly 71,000 a month from the 1,450 mid-size workspaces who would accept a flat price, and that the large ones are on annual enterprise contracts that can be moved to custom pricing at renewal without touching the list price. | meeting 3 - Camila [resolution]: Camila confirms the flat 49 dollars per workspace.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

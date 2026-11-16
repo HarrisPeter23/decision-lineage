@@ -1,0 +1,2880 @@
+[
+ {
+  "qid": "set_01025-q01",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c815236e-bcce-4f06-98b5-7dd015ef6e7b",
+    "name": "HAS_CONTACT_WITH",
+    "fact": "Lena would have to ask Oksana what Calder said about peak demand.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q02",
+  "facts": [
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c815236e-bcce-4f06-98b5-7dd015ef6e7b",
+    "name": "HAS_CONTACT_WITH",
+    "fact": "Lena would have to ask Oksana what Calder said about peak demand.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q03",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d962523-350e-463c-9fc8-cba895476cd1",
+    "name": "DELIVERY_DATE",
+    "fact": "The first Fenmoor load must land before the end of July, as Calder will stop operations at the northern depot.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0011228a-2cc2-4544-9ef6-c5c2d90322bf",
+    "name": "PERFORMS",
+    "fact": "Elif will perform the stock count on Mondays as part of the weekly sheet.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "131f29b0-cc9e-4f10-b665-c36c573ca596",
+    "name": "REQUESTED_NUMBERS",
+    "fact": "Finance has requested numbers for the offsite in September by the end of next week.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e819c5b2-8e01-4cf2-b06d-02e3967aff29",
+    "name": "REQUESTED",
+    "fact": "Zofia has requested that the fire door signage be completed by the end of the month.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q04",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3d962523-350e-463c-9fc8-cba895476cd1",
+    "name": "DELIVERY_DATE",
+    "fact": "The first Fenmoor load must land before the end of July, as Calder will stop operations at the northern depot.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0011228a-2cc2-4544-9ef6-c5c2d90322bf",
+    "name": "PERFORMS",
+    "fact": "Elif will perform the stock count on Mondays as part of the weekly sheet.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "131f29b0-cc9e-4f10-b665-c36c573ca596",
+    "name": "REQUESTED_NUMBERS",
+    "fact": "Finance has requested numbers for the offsite in September by the end of next week.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e819c5b2-8e01-4cf2-b06d-02e3967aff29",
+    "name": "REQUESTED",
+    "fact": "Zofia has requested that the fire door signage be completed by the end of the month.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q05",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60c3d256-27a5-42f7-bf0c-6509d86d699d",
+    "name": "HAS_LEAD_TIME",
+    "fact": "The northern warehouse had a lead time of two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5585b07b-feca-48ea-99b7-0e76971b15ce",
+    "name": "HAS_LEAD_TIME",
+    "fact": "The northern warehouse will have a lead time of five days from the Midlands.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q06",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "7cdd9042-ff6f-4316-b614-2665c39063fe",
+    "name": "CHANGED_MEETING_DATE",
+    "fact": "Aisha changed the meeting date to Thursday because Lena is out on Friday.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q07",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q08",
+  "facts": [
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "0dcbb991-cdc2-441b-8d6b-be226066f710",
+    "name": "SUPPLIES_MATERIALS_TO",
+    "fact": "The Northern warehouse gets its corrugated and void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760450+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c815236e-bcce-4f06-98b5-7dd015ef6e7b",
+    "name": "HAS_CONTACT_WITH",
+    "fact": "Lena would have to ask Oksana what Calder said about peak demand.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q09",
+  "facts": [
+   {
+    "uuid": "07e877a5-b2e7-42b5-9291-db0e03c99566",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot, which will affect the Northern warehouse.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6adcf8f9-ff67-4ffc-89a3-3f48d18bee7c",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Arjun about the quarterly stock count.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "09cc4248-e5a1-4fc8-a2a0-b04b1480f1ea",
+    "name": "USES",
+    "fact": "The Northern warehouse uses void-fill, which moves differently from cartons.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "30b21a6d-cd8d-404e-9518-db8471f79ecc",
+    "name": "HAS_UNUSED_STOCK_OF",
+    "fact": "At the old site, the Northern warehouse had a whole aisle full of unused mailer bags.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q10",
+  "facts": [
+   {
+    "uuid": "1619ceb3-f1c5-4c14-9515-5bbaa64cf2e2",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087022+00:00"
+   },
+   {
+    "uuid": "1e1f67a5-d8f4-4e1d-aa80-58b3858512a9",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087043+00:00"
+   },
+   {
+    "uuid": "2b26c0ad-2214-480c-b5ee-ca9a15253ada",
+    "name": "HAS_STOCK_OF",
+    "fact": "The Northern warehouse holds around five days of stock instead of three weeks.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760521+00:00"
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eda0a66d-a25a-4083-add9-2cc23fe31d89",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087052+00:00"
+   },
+   {
+    "uuid": "40b1407d-38f3-4fec-926f-9864e81b417c",
+    "name": "DELIVERY_LEAD_TIME",
+    "fact": "After the closure of the northern depot, deliveries to the Northern warehouse will come from the Midlands with a five-day lead time.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3b6fed68-1c1c-4547-b420-25403a4d2a28",
+    "name": "HAS_STOCK_LEVEL",
+    "fact": "The northern warehouse had a stock level built on getting a top-up inside two days from Calder.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e50f2a5a-7786-4474-a1bf-3fd87801777e",
+    "name": "USES",
+    "fact": "The Northern warehouse uses corrugated, which is part of the weekly standing order with Calder.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760481+00:00"
+   },
+   {
+    "uuid": "1a565192-27e0-42a5-b38e-7f10f4529f59",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot six weeks from now.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ea516c42-8f23-4232-b2bc-f1d4761addcc",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:26:33.087048+00:00"
+   },
+   {
+    "uuid": "09cc4248-e5a1-4fc8-a2a0-b04b1480f1ea",
+    "name": "USES",
+    "fact": "The Northern warehouse uses void-fill, which moves differently from cartons.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q11",
+  "facts": [
+   {
+    "uuid": "277c8413-22b9-45f4-befe-cb78de4ad6d8",
+    "name": "DRAFTED",
+    "fact": "Ingrid has drafted the carrier note, which includes two-hour appointment windows for carriers starting with the next booking round in July.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "837bd1f3-2a60-4f01-873a-52b41efb5162",
+    "name": "PROPOSE_CHANGE",
+    "fact": "Ingrid proposed giving carriers two-hour appointment windows instead of the whole day.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d23e44ac-8391-442a-b84b-467e423f90e5",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas will notify Bilal about the change in appointment windows for carriers.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a192e2e8-1e70-4675-9213-df931e02e000",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Ingrid will notify Ines about the change in appointment windows for carriers.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b",
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ba73d427-0bb4-42c5-b29b-ac7724884f9a",
+    "name": "HAS_CONTACT_WITH",
+    "fact": "Ingrid had a conversation with Zofia about the dock schedule.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760563+00:00"
+   },
+   {
+    "uuid": "1a2e0994-0b6f-4917-bfa3-044ce81a0ebf",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Ingrid mentioned that Zofia said the dock was full and the pallet sat outside.",
+    "episodes": [
+     "0c5c8859-03d1-4b3e-9b94-d73b0f96a31b"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b06c4ae9-0a95-400d-a44c-504dccf7f9d1",
+    "name": "HAS_ACCESS_TO",
+    "fact": "The Northern warehouse has access to the dock, where deliveries are made.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a04520c2-87c5-4f01-b951-fbf2470965b0",
+    "name": "COPIED",
+    "fact": "Ingrid has copied Bilal on the carrier note.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cff711c0-e76d-4c73-a6d2-a9a5438c5c2c",
+    "name": "HAS_DELIVERY_SCHEDULE_FOR",
+    "fact": "Calder has a delivery schedule for the Northern warehouse on Thursdays, as they are quiet on the dock.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760460+00:00"
+   },
+   {
+    "uuid": "c70ddd70-f632-414c-b0fe-03d9c08fc0cc",
+    "name": "HAS_SCHEDULED",
+    "fact": "The Northern warehouse has scheduled deliveries from Calder on Thursdays, as they are quiet on the dock.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:12:09.760486+00:00"
+   },
+   {
+    "uuid": "c815236e-bcce-4f06-98b5-7dd015ef6e7b",
+    "name": "HAS_CONTACT_WITH",
+    "fact": "Lena would have to ask Oksana what Calder said about peak demand.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "00a3049e-49eb-4891-b3df-2fe16ad6e6ce",
+    "name": "MANAGES",
+    "fact": "Bilal now manages facilities, as per the reorg in April.",
+    "episodes": [
+     "6b97270f-3cc4-4fff-8bb3-aac7128c828c"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q01",
+  "facts": [
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q02",
+  "facts": [
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f19ea9bc-ce26-4f0e-be5e-33bfc9d1afea",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided Aisha with the sheet showing 79% on-time delivery for the south-east parcels this week, with coastal postcodes performing the worst.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q03",
+  "facts": [
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff609265-8aa7-4247-b8bf-c23ee24eacc9",
+    "name": "CONFIRMED",
+    "fact": "Dmitri confirmed with Alejandra that the exit clause in the Parcelwise contract is in place.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q04",
+  "facts": [
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff609265-8aa7-4247-b8bf-c23ee24eacc9",
+    "name": "CONFIRMED",
+    "fact": "Dmitri confirmed with Alejandra that the exit clause in the Parcelwise contract is in place.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q05",
+  "facts": [
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f19ea9bc-ce26-4f0e-be5e-33bfc9d1afea",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided Aisha with the sheet showing 79% on-time delivery for the south-east parcels this week, with coastal postcodes performing the worst.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q06",
+  "facts": [
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q07",
+  "facts": [
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q08",
+  "facts": [
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q09",
+  "facts": [
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "277c8413-22b9-45f4-befe-cb78de4ad6d8",
+    "name": "DRAFTED",
+    "fact": "Ingrid has drafted the carrier note, which includes two-hour appointment windows for carriers starting with the next booking round in July.",
+    "episodes": [
+     "f59bdd29-8b96-41a0-82d5-6a45e7a7fd35"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01037-q10",
+  "facts": [
+   {
+    "uuid": "10d23e53-0d17-4908-9923-3fc04beb8564",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ebc60c2-7b70-4724-831a-e17d8c844537",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the south-east region handles approximately eighteen thousand parcels per quarter.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "64212948-a6a7-4a5f-9da2-cc1724804102",
+    "name": "APPROVES",
+    "fact": "Aisha approves of the proposal to move the south-east parcel operation to Parcelwise, subject to the exit clause check.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": "2025-10-02T00:00:00+00:00",
+    "expired_at": "2026-11-07T21:45:00.076281+00:00"
+   },
+   {
+    "uuid": "89d4100b-1cab-4ab3-bdb8-2c67630b32d1",
+    "name": "MENTIONS",
+    "fact": "Dmitri mentions that the current setup for the south-east parcel operation is a patchwork of three different local couriers.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e2e88fa8-8c1b-4918-ab63-7f04779102ec",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Arjun about the performance of the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "667b6a78-69ee-4233-b2f1-03bd4d04478c",
+    "name": "PROPOSES",
+    "fact": "Dmitri proposes moving the entire south-east parcel operation to Parcelwise at a rate of four pounds ten per parcel for twelve months.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f43ae1cc-f3c7-48df-827f-3b3163056514",
+    "name": "INSTRUCTED",
+    "fact": "Aisha instructed Lena to send the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c10076b3-9b47-4a24-87d6-3d98e4031f15",
+    "name": "PROVIDED_DATA",
+    "fact": "Arjun provided data showing that 640 parcels have been late so far under the south-east parcel switch with Parcelwise.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eceffeb8-e5f8-4d33-844d-e82a3d68e776",
+    "name": "REQUESTED",
+    "fact": "Aisha requested Lena to send her the zone map for the south-east parcels.",
+    "episodes": [
+     "f8d59770-02ab-4a36-9172-d9356fb04b44"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b814f27-6bac-4f54-99f7-3dd7ed0c0c2d",
+    "name": "ASKS_ABOUT",
+    "fact": "Aisha asks Dmitri about the parcel thing for the south-east region.",
+    "episodes": [
+     "b38b39e1-52f4-446d-8614-a96ff5b8dff9"
+    ],
+    "valid_at": "2025-06-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e98aa768-1117-4b54-8711-b6ea924c105b",
+    "name": "ASKED_ABOUT",
+    "fact": "Aisha asked Dmitri about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "be6a93ab-77c6-49b1-8c3b-bbffc3ac958d",
+    "name": "ASKED_ABOUT",
+    "fact": "Dmitri asked Bao about the label stock for the south-east parcel switch.",
+    "episodes": [
+     "9f8c39ae-e884-4b46-b263-c2892b259cd7"
+    ],
+    "valid_at": "2025-10-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

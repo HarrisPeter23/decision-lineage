@@ -1,0 +1,231 @@
+[{"stream_name":"stderr","time":0.542440838,"data":"/kaggle/src/script.py:13: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":0.542483896,"data":"  sh(\"sh -x /tmp/install.sh \u003e /tmp/install.log 2\u003e\u00261; echo rc=$?; grep -v '^#\\|%$' /tmp/install.log | tail -120\", 900)\n"}
+,{"stream_name":"stdout","time":0.613404457,"data":"$ nvidia-smi -L; df -h / /tmp /usr/local | tail -3; free -g | head -2 rc 0\n"}
+,{"stream_name":"stdout","time":0.613445157,"data":"STDOUT: GPU 0: Tesla T4 (UUID: GPU-2d9c4fbf-a7b1-f162-612d-3c16a7ec15ee)\n"}
+,{"stream_name":"stdout","time":0.613450567,"data":"GPU 1: Tesla T4 (UUID: GPU-7fe1574e-a943-42fc-d4a3-8373994ff257)\n"}
+,{"stream_name":"stdout","time":0.613454504,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":0.613458118,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":0.613462076,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":0.613465476,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":0.61346908,"data":"Mem:              31           1          27           0           3          30\n"}
+,{"stream_name":"stdout","time":0.61347282,"data":"\n"}
+,{"stream_name":"stdout","time":0.613475952,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":0.613479033,"data":"\n"}
+,{"stream_name":"stdout","time":6.103814345,"data":"$ pip install -q graphiti-core==0.31.2 httpx rc 0\n"}
+,{"stream_name":"stdout","time":6.103875265,"data":"STDOUT: \n"}
+,{"stream_name":"stdout","time":6.103880696,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":6.10388502,"data":"\n"}
+,{"stream_name":"stdout","time":19.169315624,"data":"$ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd openjdk-17-jre-headless rc 0\n"}
+,{"stream_name":"stdout","time":19.169347721,"data":"STDOUT: Selecting previously unselected package openjdk-17-jre-headless:amd64.\n"}
+,{"stream_name":"stdout","time":19.169352064999998,"data":"(Reading database ... \n"}
+,{"stream_name":"stdout","time":19.169355091,"data":"(Reading database ... 5%\n"}
+,{"stream_name":"stdout","time":19.169358215,"data":"(Reading database ... 10%\n"}
+,{"stream_name":"stdout","time":19.169361046,"data":"(Reading database ... 15%\n"}
+,{"stream_name":"stdout","time":19.169363836,"data":"(Reading database ... 20%\n"}
+,{"stream_name":"stdout","time":19.169366555,"data":"(Reading database ... 25%\n"}
+,{"stream_name":"stdout","time":19.16936935,"data":"(Reading database ... 30%\n"}
+,{"stream_name":"stdout","time":19.169372073,"data":"(Reading database ... 35%\n"}
+,{"stream_name":"stdout","time":19.169374791,"data":"(Reading database ... 40%\n"}
+,{"stream_name":"stdout","time":19.169377497,"data":"(Reading database ... 45%\n"}
+,{"stream_name":"stdout","time":19.1693803,"data":"(Reading database ... 50%\n"}
+,{"stream_name":"stdout","time":19.169408344,"data":"(Reading database ... 55%\n"}
+,{"stream_name":"stdout","time":19.16941139,"data":"(Reading database ... 60%\n"}
+,{"stream_name":"stdout","time":19.169414266,"data":"(Reading database ... 65%\n"}
+,{"stream_name":"stdout","time":19.169417416,"data":"(Reading database ... 70%\n"}
+,{"stream_name":"stdout","time":19.169420342,"data":"(Reading database ... 75%\n"}
+,{"stream_name":"stdout","time":19.16942324,"data":"(Reading database ... 80%\n"}
+,{"stream_name":"stdout","time":19.16942614,"data":"(Reading database ... 85%\n"}
+,{"stream_name":"stdout","time":19.169460867,"data":"(Reading database ... 90%\n"}
+,{"stream_name":"stdout","time":19.169463609,"data":"(Reading database ... 95%\n"}
+,{"stream_name":"stdout","time":19.169473676,"data":"(Reading database ... 100%\n"}
+,{"stream_name":"stdout","time":19.169476224,"data":"(Reading database ... 130169 files and directories currently installed.)\n"}
+,{"stream_name":"stdout","time":19.169478556,"data":"Preparing to unpack .../openjdk-17-jre-headless_17.0.20.1+1-1~24.04_amd64.deb ...\n"}
+,{"stream_name":"stdout","time":19.169480867,"data":"Unpacking openjdk-17-jre-headless:amd64 (17.0.20.1+1-1~24.04) ...\n"}
+,{"stream_name":"stdout","time":19.169483167,"data":"Selecting previously unselected package zstd.\n"}
+,{"stream_name":"stdout","time":19.169485448,"data":"Preparing to unpack .../zstd_1.5.5+dfsg2-2build1.1_amd64.deb ...\n"}
+,{"stream_name":"stdout","time":19.169487709,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":19.169489917,"data":"Setting up openjdk-17-jre-headless:amd64 (17.0.20.1+1-1~24.04) ...\n"}
+,{"stream_name":"stdout","time":19.16949221,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":19.169494412,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":19.169496624,"data":"Processing triggers for ca-certificates-java (20240118) ...\n"}
+,{"stream_name":"stdout","time":19.16949887,"data":"done.\n"}
+,{"stream_name":"stdout","time":19.169501041,"data":"\n"}
+,{"stream_name":"stdout","time":19.169503266,"data":"STDERR: W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":19.169507431,"data":"\n"}
+,{"stream_name":"stdout","time":19.169509921,"data":"\n"}
+,{"stream_name":"stdout","time":20.911141499,"data":"$ curl -fsSL https://dist.neo4j.org/neo4j-community-5.26.17-unix.tar.gz | tar -xz -C /kaggle rc 0\n"}
+,{"stream_name":"stdout","time":20.911167443,"data":"STDOUT: \n"}
+,{"stream_name":"stdout","time":20.911172669,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":20.911176361,"data":"\n"}
+,{"stream_name":"stdout","time":23.682720558,"data":"$ /kaggle/neo4j-community-5.26.17/bin/neo4j-admin dbms set-initial-password graphiti-local-pw rc 0\n"}
+,{"stream_name":"stdout","time":23.682747804999998,"data":"STDOUT: Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.\n"}
+,{"stream_name":"stdout","time":23.682752737,"data":"\n"}
+,{"stream_name":"stdout","time":23.682756348,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":23.682759975,"data":"\n"}
+,{"stream_name":"stdout","time":34.590850559,"data":"$ /kaggle/neo4j-community-5.26.17/bin/neo4j start rc 0\n"}
+,{"stream_name":"stdout","time":34.590882928,"data":"STDOUT: Directories in use:\n"}
+,{"stream_name":"stdout","time":34.590887999,"data":"home:         /kaggle/neo4j-community-5.26.17\n"}
+,{"stream_name":"stdout","time":34.590890729,"data":"config:       /kaggle/neo4j-community-5.26.17/conf\n"}
+,{"stream_name":"stdout","time":34.590893517,"data":"logs:         /kaggle/neo4j-community-5.26.17/logs\n"}
+,{"stream_name":"stdout","time":34.590896067,"data":"plugins:      /kaggle/neo4j-community-5.26.17/plugins\n"}
+,{"stream_name":"stdout","time":34.590898523,"data":"import:       /kaggle/neo4j-community-5.26.17/import\n"}
+,{"stream_name":"stdout","time":34.590900901,"data":"data:         /kaggle/neo4j-community-5.26.17/data\n"}
+,{"stream_name":"stdout","time":34.590903354,"data":"certificates: /kaggle/neo4j-community-5.26.17/certificates\n"}
+,{"stream_name":"stdout","time":34.590916532,"data":"licenses:     /kaggle/neo4j-community-5.26.17/licenses\n"}
+,{"stream_name":"stdout","time":34.59091915,"data":"run:          /kaggle/neo4j-community-5.26.17/run\n"}
+,{"stream_name":"stdout","time":34.590947703,"data":"Starting Neo4j.\n"}
+,{"stream_name":"stdout","time":34.590952474,"data":"Started neo4j (pid:1092). It is available at http://localhost:7474\n"}
+,{"stream_name":"stdout","time":34.590956287,"data":"There may be a short delay until the server is ready.\n"}
+,{"stream_name":"stdout","time":34.590959708,"data":"\n"}
+,{"stream_name":"stdout","time":34.590966307,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":34.590970191,"data":"\n"}
+,{"stream_name":"stdout","time":34.873937949,"data":"$ curl -fsSL https://ollama.com/install.sh -o /tmp/install.sh; ls -la /tmp/install.sh rc 0\n"}
+,{"stream_name":"stdout","time":34.873962505,"data":"STDOUT: -rw-r--r-- 1 root root 15902 Nov  8 16:38 /tmp/install.sh\n"}
+,{"stream_name":"stdout","time":34.873967546,"data":"\n"}
+,{"stream_name":"stdout","time":34.873972394,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":34.873988333,"data":"\n"}
+,{"stream_name":"stdout","time":54.955988894,"data":"$ sh -x /tmp/install.sh \u003e /tmp/install.log 2\u003e\u00261; echo rc=$?; grep -v '^#\\|%$' /tmp/install.log | tail -120 rc 0\n"}
+,{"stream_name":"stdout","time":54.956015503,"data":"STDOUT: rc=0\n"}
+,{"stream_name":"stdout","time":54.956020881,"data":"+ main\n"}
+,{"stream_name":"stdout","time":54.956025159,"data":"+ set -eu\n"}
+,{"stream_name":"stdout","time":54.956029213,"data":"+ red=\n"}
+,{"stream_name":"stdout","time":54.956034901,"data":"+ plain=\n"}
+,{"stream_name":"stdout","time":54.956042678,"data":"+ mktemp -d\n"}
+,{"stream_name":"stdout","time":54.956045604,"data":"+ TEMP_DIR=/tmp/tmp.3H3Qe8AzmX\n"}
+,{"stream_name":"stdout","time":54.956048485,"data":"+ trap cleanup EXIT\n"}
+,{"stream_name":"stdout","time":54.956051258,"data":"+ uname -s\n"}
+,{"stream_name":"stdout","time":54.956053993,"data":"+ OS=Linux\n"}
+,{"stream_name":"stdout","time":54.9560567,"data":"+ uname -m\n"}
+,{"stream_name":"stdout","time":54.956059462,"data":"+ ARCH=x86_64\n"}
+,{"stream_name":"stdout","time":54.956062223,"data":"+ ARCH=amd64\n"}
+,{"stream_name":"stdout","time":54.956066046,"data":"+ VER_PARAM=\n"}
+,{"stream_name":"stdout","time":54.956077758,"data":"+ [ Linux = Darwin ]\n"}
+,{"stream_name":"stdout","time":54.956080728,"data":"+ [ Linux = Linux ]\n"}
+,{"stream_name":"stdout","time":54.956083452,"data":"+ IS_WSL2=false\n"}
+,{"stream_name":"stdout","time":54.956086213,"data":"+ uname -r\n"}
+,{"stream_name":"stdout","time":54.95608893,"data":"+ KERN=6.18.55+\n"}
+,{"stream_name":"stdout","time":54.956091823,"data":"+ SUDO=\n"}
+,{"stream_name":"stdout","time":54.956094555,"data":"+ id -u\n"}
+,{"stream_name":"stdout","time":54.956097256,"data":"+ [ 0 -ne 0 ]\n"}
+,{"stream_name":"stdout","time":54.956100045,"data":"+ require curl awk grep sed tee xargs\n"}
+,{"stream_name":"stdout","time":54.956102949,"data":"+ local MISSING=\n"}
+,{"stream_name":"stdout","time":54.956106068,"data":"+ available curl\n"}
+,{"stream_name":"stdout","time":54.95610912,"data":"+ command -v curl\n"}
+,{"stream_name":"stdout","time":54.956111853,"data":"+ available awk\n"}
+,{"stream_name":"stdout","time":54.956114566,"data":"+ command -v awk\n"}
+,{"stream_name":"stdout","time":54.956117278,"data":"+ available grep\n"}
+,{"stream_name":"stdout","time":54.956119988,"data":"+ command -v grep\n"}
+,{"stream_name":"stdout","time":54.956128651,"data":"+ available sed\n"}
+,{"stream_name":"stdout","time":54.956131268,"data":"+ command -v sed\n"}
+,{"stream_name":"stdout","time":54.956133426,"data":"+ available tee\n"}
+,{"stream_name":"stdout","time":54.956135678,"data":"+ command -v tee\n"}
+,{"stream_name":"stdout","time":54.95613782,"data":"+ available xargs\n"}
+,{"stream_name":"stdout","time":54.95613995,"data":"+ command -v xargs\n"}
+,{"stream_name":"stdout","time":54.956142108,"data":"+ echo\n"}
+,{"stream_name":"stdout","time":54.956144302,"data":"+ NEEDS=\n"}
+,{"stream_name":"stdout","time":54.95614646,"data":"+ [ -n  ]\n"}
+,{"stream_name":"stdout","time":54.956148746,"data":"+ echo /opt/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/tools/node/bin:/tools/google-cloud-sdk/bin\n"}
+,{"stream_name":"stdout","time":54.956151228,"data":"+ grep -q /usr/local/bin\n"}
+,{"stream_name":"stdout","time":54.956153486,"data":"+ break\n"}
+,{"stream_name":"stdout","time":54.956155625,"data":"+ dirname /usr/local/bin\n"}
+,{"stream_name":"stdout","time":54.956157795,"data":"+ OLLAMA_INSTALL_DIR=/usr/local\n"}
+,{"stream_name":"stdout","time":54.956159992,"data":"+ [ -d /usr/local/lib/ollama ]\n"}
+,{"stream_name":"stdout","time":54.956162271,"data":"+ status Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":54.956164504,"data":"+ echo \u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":54.956166888,"data":"\u003e\u003e\u003e Installing ollama to /usr/local\n"}
+,{"stream_name":"stdout","time":54.956169158,"data":"+ install -o0 -g0 -m755 -d /usr/local/bin\n"}
+,{"stream_name":"stdout","time":54.956171393,"data":"+ install -o0 -g0 -m755 -d /usr/local/lib/ollama\n"}
+,{"stream_name":"stdout","time":54.956173661,"data":"+ download_and_extract https://ollama.com/download /usr/local ollama-linux-amd64\n"}
+,{"stream_name":"stdout","time":54.95617595,"data":"+ local url_base=https://ollama.com/download\n"}
+,{"stream_name":"stdout","time":54.956178178,"data":"+ local dest_dir=/usr/local\n"}
+,{"stream_name":"stdout","time":54.956180355,"data":"+ local filename=ollama-linux-amd64\n"}
+,{"stream_name":"stdout","time":54.956182574,"data":"+ curl --fail --silent --head --location https://ollama.com/download/ollama-linux-amd64.tar.zst\n"}
+,{"stream_name":"stdout","time":54.956184888,"data":"+ available zstd\n"}
+,{"stream_name":"stdout","time":54.956187048,"data":"+ command -v zstd\n"}
+,{"stream_name":"stdout","time":54.95618922,"data":"+ status Downloading ollama-linux-amd64.tar.zst\n"}
+,{"stream_name":"stdout","time":54.956191446,"data":"+ echo \u003e\u003e\u003e Downloading ollama-linux-amd64.tar.zst\n"}
+,{"stream_name":"stdout","time":54.956193753,"data":"\u003e\u003e\u003e Downloading ollama-linux-amd64.tar.zst\n"}
+,{"stream_name":"stdout","time":54.956196076,"data":"+ curl --fail --show-error --location --progress-bar https://ollama.com/download/ollama-linux-amd64.tar.zst\n"}
+,{"stream_name":"stdout","time":54.956198458,"data":"+ zstd -d\n"}
+,{"stream_name":"stdout","time":54.9562006,"data":"+ tar -xf - -C /usr/local\n"}
+,{"stream_name":"stdout","time":54.9562028,"data":"+ return 0\n"}
+,{"stream_name":"stdout","time":54.956204943,"data":"+ [ /usr/local/bin/ollama != /usr/local/bin/ollama ]\n"}
+,{"stream_name":"stdout","time":54.956207179,"data":"+ [ -f /etc/nv_tegra_release ]\n"}
+,{"stream_name":"stdout","time":54.956209365,"data":"+ trap install_success EXIT\n"}
+,{"stream_name":"stdout","time":54.956211533,"data":"+ available systemctl\n"}
+,{"stream_name":"stdout","time":54.956215816,"data":"+ command -v systemctl\n"}
+,{"stream_name":"stdout","time":54.956218135,"data":"+ configure_systemd\n"}
+,{"stream_name":"stdout","time":54.95622029,"data":"+ id ollama\n"}
+,{"stream_name":"stdout","time":54.956222475,"data":"+ status Creating ollama user...\n"}
+,{"stream_name":"stdout","time":54.956226015,"data":"+ echo \u003e\u003e\u003e Creating ollama user...\n"}
+,{"stream_name":"stdout","time":54.956228307,"data":"\u003e\u003e\u003e Creating ollama user...\n"}
+,{"stream_name":"stdout","time":54.956230551,"data":"+ useradd -r -s /bin/false -U -m -d /usr/share/ollama ollama\n"}
+,{"stream_name":"stdout","time":54.956232817,"data":"+ getent group render\n"}
+,{"stream_name":"stdout","time":54.956234986,"data":"+ getent group video\n"}
+,{"stream_name":"stdout","time":54.956237185,"data":"+ status Adding ollama user to video group...\n"}
+,{"stream_name":"stdout","time":54.956239407,"data":"+ echo \u003e\u003e\u003e Adding ollama user to video group...\n"}
+,{"stream_name":"stdout","time":54.9562417,"data":"\u003e\u003e\u003e Adding ollama user to video group...\n"}
+,{"stream_name":"stdout","time":54.956243938,"data":"+ usermod -a -G video ollama\n"}
+,{"stream_name":"stdout","time":54.956246555999996,"data":"+ status Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":54.956248838,"data":"+ echo \u003e\u003e\u003e Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":54.956251138,"data":"\u003e\u003e\u003e Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":54.956253439,"data":"+ whoami\n"}
+,{"stream_name":"stdout","time":54.956255593,"data":"+ usermod -a -G ollama root\n"}
+,{"stream_name":"stdout","time":54.956257777,"data":"+ status Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":54.956259998,"data":"+ echo \u003e\u003e\u003e Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":54.956262337,"data":"\u003e\u003e\u003e Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":54.956264617,"data":"+ cat\n"}
+,{"stream_name":"stdout","time":54.956266746,"data":"+ tee /etc/systemd/system/ollama.service\n"}
+,{"stream_name":"stdout","time":54.956268961,"data":"+ systemctl is-system-running\n"}
+,{"stream_name":"stdout","time":54.956271151,"data":"+ true\n"}
+,{"stream_name":"stdout","time":54.956273261,"data":"+ SYSTEMCTL_RUNNING=offline\n"}
+,{"stream_name":"stdout","time":54.956275455,"data":"+ warning systemd is not running\n"}
+,{"stream_name":"stdout","time":54.956277674,"data":"+ echo WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":54.956279867,"data":"WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":54.956282061,"data":"+ [ false = true ]\n"}
+,{"stream_name":"stdout","time":54.956284203,"data":"+ [ false = true ]\n"}
+,{"stream_name":"stdout","time":54.956288775,"data":"+ [ -f /etc/nv_tegra_release ]\n"}
+,{"stream_name":"stdout","time":54.956290945,"data":"+ available lspci\n"}
+,{"stream_name":"stdout","time":54.956293073,"data":"+ command -v lspci\n"}
+,{"stream_name":"stdout","time":54.956295206,"data":"+ available lshw\n"}
+,{"stream_name":"stdout","time":54.956297349,"data":"+ command -v lshw\n"}
+,{"stream_name":"stdout","time":54.956299519,"data":"+ warning Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":54.956301931,"data":"+ echo WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":54.956306151,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":54.956308626,"data":"+ exit 0\n"}
+,{"stream_name":"stdout","time":54.956310758,"data":"+ install_success\n"}
+,{"stream_name":"stdout","time":54.956312916,"data":"+ status The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":54.956315175,"data":"+ echo \u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":54.956317522,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":54.956319798,"data":"+ status Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":54.956322185,"data":"+ echo \u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":54.9563247,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":54.956341939,"data":"\n"}
+,{"stream_name":"stdout","time":54.956345468,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":54.956348791,"data":"\n"}
+,{"stream_name":"stdout","time":54.975805855,"data":"$ which ollama; ls -la /usr/local/bin/ollama /usr/local/lib/ollama 2\u003e\u00261 | head; ollama --version; df -h / /tmp | tail -2 rc 0\n"}
+,{"stream_name":"stdout","time":54.975861224,"data":"STDOUT: /usr/local/bin/ollama\n"}
+,{"stream_name":"stdout","time":54.9758666,"data":"-rwxr-xr-x 1 root root 44145360 Nov  6 01:29 /usr/local/bin/ollama\n"}
+,{"stream_name":"stdout","time":54.975870807,"data":"\n"}
+,{"stream_name":"stdout","time":54.975874486,"data":"/usr/local/lib/ollama:\n"}
+,{"stream_name":"stdout","time":54.975878346,"data":"total 35072\n"}
+,{"stream_name":"stdout","time":54.975881685,"data":"drwxr-xr-x 5 root   root      4096 Nov  8 16:39 .\n"}
+,{"stream_name":"stdout","time":54.975885039,"data":"drwxr-xr-x 1 ubuntu ubuntu    4096 Nov  8 16:38 ..\n"}
+,{"stream_name":"stdout","time":54.975888327,"data":"-rw-r--r-- 1 root   root      1075 Nov  5 01:37 CPP_HTTPLIB_LICENSE\n"}
+,{"stream_name":"stdout","time":54.975891634999996,"data":"drwxr-xr-x 2 root   root      4096 Nov  5 01:48 cuda_v12\n"}
+,{"stream_name":"stdout","time":54.97589494,"data":"drwxr-xr-x 2 root   root      4096 Nov  6 01:17 cuda_v13\n"}
+,{"stream_name":"stdout","time":54.975898293,"data":"-rw-r--r-- 1 root   root     11345 Nov  6 01:09 DLPACK_LICENSE\n"}
+,{"stream_name":"stdout","time":54.975901545,"data":"Warning: could not connect to a running Ollama instance\n"}
+,{"stream_name":"stdout","time":54.9759048,"data":"Warning: client version is 0.40.15\n"}
+,{"stream_name":"stdout","time":54.975908015,"data":"overlay         8.0T  7.1T  964G  89% /\n"}
+,{"stream_name":"stdout","time":54.975911287,"data":"overlay         8.0T  7.1T  964G  89% /\n"}
+,{"stream_name":"stdout","time":54.97591454,"data":"\n"}
+,{"stream_name":"stdout","time":54.975917636,"data":"STDERR: \n"}
+,{"stream_name":"stdout","time":54.975920783,"data":"\n"}
+,{"stream_name":"stderr","time":56.971434599,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":56.971464366,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":57.22917519,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":57.229205033,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":58.081184439,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":61.360191933,"data":"[NbConvertApp] Writing 276626 bytes to __results__.html\n"}
+]

@@ -1,0 +1,147 @@
+{
+ "TS3011a": {
+  "abstract": [
+   "The project manager opened the meeting and introduced the project, describing what the project would involve, the role of each participant and the agenda for the first meeting.",
+   "He the demonstrated the equipment the group would be using, and the group practiced using the SMARTboard by drawing their favourite animals.",
+   "The project manager then went over the project budget.",
+   "The industrial designer gave a brief presentation about his role and his initial ideas for the project, suggesting that the remote should be used for multiple devices and that the group should consider using bluetooth rather than infrared.",
+   "The project manager then asked the others about their initial ideas.",
+   "The user interface designer agreed that the remote should control multiple devices.",
+   "They also discussed having glow in the dark buttons, using bluetooth instead of infrared and using a display and/or a joystick instead of conventional buttons.",
+   "However, they were unsure about what the budget would allow.",
+   "The project manager suggested that the remote should be rechargeable or not use much power, but this might be difficult if using bluetooth.",
+   "The project manager closed the meeting."
+  ],
+  "actions": [
+   "Each member of the group will work on their individual tasks.",
+   "They will receive information from their personal coaches."
+  ],
+  "decisions": [
+   "The group will design a trendy, original and user-friendly remote control.",
+   "The remote control will be sold for 25 euros with a profit aim of 50 million euros.",
+   "The remote will be sold internationally.",
+   "The production costs should be no more than 12.50 euros.",
+   "The remote will control multiple devices.",
+   "The remote will be sold directly to individual consumers rather than companies."
+  ],
+  "problems": [
+   "The group were unsure about whether they would be selling their product directly to consumers or to electronics manufacturers.",
+   "It was felt that the low production costs would not allow them to create a trendy high-end product.",
+   "Whether using glow in the dark buttons and bluetooth would mean that the remote consumes too much energy."
+  ]
+ },
+ "TS3011b": {
+  "abstract": [
+   "There are some new requirements for the project: the device will have to be for TV only, they should ignore the teletext function, as it is dated, and, also, the remote should be recognisable as a Real Reaction product.",
+   "The target group will be people below 40.",
+   "The UI preferred an easy-to-use remote to a multi-function one.",
+   "The function of the remote is relatively simple: by pressing a button a current is passed to the chip, and defines what signal is to be sent to the receiver (the TV) via infrared.",
+   "The use of infrared, energy-efficient power source and cheap circuit was suggested.",
+   "The remote could light up via LED's placed inside.",
+   "Functions like zapping are very prevalent, as well as complaints about remotes being easy to lose.",
+   "It also transpires that customers like innovative technology like speech recognition.",
+   "The design can focus on such customer needs, like finding a mechanism to locate a lost remote.",
+   "The functions of the remote will include a back button to switch between two channels, volume, program selection, and speech recognition, with a focus on simplicity of design."
+  ],
+  "actions": [
+   "The industrial designer will look into what would be an appropriate technology to help users find their remote, when it is lost.",
+   "The project manager will add the minutes into the project folder.",
+   "The ID will present the components concept.",
+   "The UI will present the user interface concept.",
+   "The marketing expert will need to find information on current trends."
+  ],
+  "decisions": [
+   "LED's can be used to light up the remote.",
+   "Using them sparsely, as in mobile phones, could bring down the cost.",
+   "It would be a good idea to integrate a mechanism for finding the remote control, when the user loses it.",
+   "The latter would be preferable to implementing a backlight into the remote.",
+   "A single, large, round button can be used for both volume and channel selection by using the four separate quadrants.",
+   "Another button to switch between two channels could also be implemented.",
+   "The remote will also include volume and program selection, and speech recognition.",
+   "A recharging cradle can be added to compensate for the extra energy consumption."
+  ],
+  "problems": [
+   "LED's would signify extra energy consumption.",
+   "Power-saving LED's are available, but these could be more expensive.",
+   "It's difficult to choose a technique to find a lost remote.",
+   "They cannot install a special button on a TV, and using a special signal, like clapping, is tricky, because it needs to be differentiated from normal sounds.",
+   "Similarly, using an extra base station would probably be too costly.",
+   "Adding such features may complicate the design and escalate costs.",
+   "There was a challenge regarding the need of the digit channels, based on the fact that they are not often used, and they also look dull.",
+   "Despite that, customers may want them to be on a remote; furthermore, they can be designed in a more attractive way.",
+   "The discussion also focused on their replacement with speech recognition, as the latter helps with locating the remote as well.",
+   "However, this solution may prove too expensive.",
+   "An expanded target group may have to be taken into account in order to achieve the projected sales and profits."
+  ]
+ },
+ "TS3011c": {
+  "abstract": [
+   "For the conceptual design, the marketing expert talked about the public's preference for looks over technological innovation; however, they both seem to be more important than ease of use.",
+   "The current fashion among younger people favours bright colours and fruit and vegetable themes and spongy materials: pertinent exchangeable fronts can express such trends on the remote, and could also provide themes for other target groups.",
+   "They could also add some rubber to provide easy grip of the device.",
+   "Cases can be flat, single- or double-curved.",
+   "They can be made of plastic, rubber, wood or titanium.",
+   "Hand or kinetic dynamos, batteries, and solar cells can be used as energy sources.",
+   "Possible interfaces are push buttons, scroll wheels, and LCDs. A way to make this device different would be to use a scroll-wheel on the side with integrated button for volume control and mute.",
+   "Speech recognition can be implemented by adding a sample sensor and speaker on the remote.",
+   "The final decisions also included combined battery with solar cells.",
+   "The team will design a single-curved device with a scroll wheel and speech recognition, in black and yellow, the company colours."
+  ],
+  "actions": [
+   "The industrial designer and the user interface designer will work on a drawing of a prototype.",
+   "They will think about ways to make their product different from the others in the market.",
+   "They will also try to find a way to promote the corporate identity in the design of the look and feel and interface.",
+   "The ID and UI will also have to figure out whether to use rubber just for the buttons and side finish, or for the whole front of the remote.",
+   "The marketing expert will carry out a product evaluation."
+  ],
+  "decisions": [
+   "Changeable covers for the remote control can link the product to current fashion trends, but also trends followed by other age groups.",
+   "A scroll wheel will be included in the design.",
+   "A regular chip will be needed for this.",
+   "A single-curved rubber casing can also be used.",
+   "LCD is not going to be implemented.",
+   "The preferred energy source was a combination of batteries and solar cells."
+  ],
+  "problems": [
+   "It is not clear whether a kinetic dynamo can be used, because it is unlikely that a user shakes the remote enough, as one would do with similarly powered watches.",
+   "The use of a scroll wheel with integrated button was debated, as not everyone was convinced of its use for this project.",
+   "Using the speech recognition on the device may not be convenient, since the remote will have to pointing towards the TV at the same time for the infrared to work.",
+   "LCD screens may add an extra hi-tech touch, but given all the other features, it might be too much.",
+   "The company colours (grey and yellow and black) did not seem sufficiently bright and trendy to everyone.",
+   "Printing an image on the remote to make it more colourful is doable, but cannot be done by the manufacturing department.",
+   "The front could have a rubber finish, or the buttons will be made of rubber.",
+   "It was debated that customers may prefer a total spongy texture, not just in the buttons and the sides of the remote."
+  ]
+ },
+ "TS3011d": {
+  "abstract": [
+   "The UI and ID presented a prototype drawing of the remote control design.",
+   "It can be used as a normal remote, but the speech recognition also provides a more advanced alternative interface.",
+   "The speech recognition works as a finding mechanism as well.",
+   "The rubber case is yellow with grey or black, with buttons either made of plastic or rubber.",
+   "An extra button could activate/deactivate the voice recognition.",
+   "The prototype proved extremely over budget.",
+   "The main contributing factors were the solar cell and speech recognition.",
+   "One way to compensate for the loss of features, but still attract their target group, would be to add more colour to the design.",
+   "After the costing, the original prototype was evaluated on a scale of 1(excellent)-7(very bad).",
+   "The criteria used were fancifulness (2), technological innovation (2), ease of use (2.5), whether it is easy to find (1), sponginess (1.5), number of features (1).",
+   "Finally, the team evaluated the project process in terms of creativity (choices too narrow), leadership and teamwork (happy with it, but they missed communicating in between meetings), and means (SMARTboard was not satisfactory, but the digital pens were alright, but not too useful).",
+   "The delay in providing costs of components was criticised."
+  ],
+  "actions": [
+   "The prototype will have to be redesigned, so that it is compatible with the budget constraints.."
+  ],
+  "decisions": [
+   "The idea to include a solar cell as a power source had to be abandoned, due to the escalated costs.",
+   "The same happened with the speech recognition.",
+   "In order for the cost to come down to the original budget of 12.50, they also had to replace the rubber of the buttons with plastic and not use a curved design."
+  ],
+  "problems": [
+   "The prototype proved extremely over budget.",
+   "It would cost 22 euros.",
+   "The team thought all the changes to accommodate the budget requirements made a very dull device.",
+   "It was suggested that they go for a completely simple design so as to maximise the profit, although this was not what was asked in the project requirements.",
+   "The device cannot be a hi-tech, innovative one any more."
+  ]
+ }
+}

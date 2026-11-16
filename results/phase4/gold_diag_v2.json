@@ -1,0 +1,981 @@
+{
+ "i_gold_assignment": [
+  {
+   "set_id": "set_01000",
+   "arc": "no_reversal",
+   "ok": true,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Sure, sure. For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": true,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay, so, we're keeping per-seat pricing at twelve for launch."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01002",
+   "arc": "external_trigger",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Late November. Okay, so, we're booking the Harborview ballroom for the summit."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01003",
+   "arc": "partial_override",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "A+M"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Fine by me. Mateo, lock in the delivery slot."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "A+M",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay. I'm fine with that. So, we're keeping the Norvik vinyl plank, with heat-sealed seams and a ceramic tile band across the pantry and the entrance."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01004",
+   "arc": "re_reversal",
+   "ok": false,
+   "pred": [
+    "A",
+    "B",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B",
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "I hear it. Let's go with the fourteen day free trial, no card, for launch."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (modified) -> B",
+     "text": "Okay. I'm going to decide. We switch to a seven day trial, credit card required up front."
+    },
+    {
+     "link": "B12",
+     "meeting": 4,
+     "gold_version": 3,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 3 (changed) -> B",
+     "text": "Sure. Marco, you can flip the signup flow back tonight."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01006",
+   "arc": "simple_reversal",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. Let me just decide. We sign with Swiftline Freight."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Okay. We're switching to Dalmar Logistics."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01012",
+   "arc": "deferred",
+   "ok": true,
+   "pred": [
+    "B"
+   ],
+   "gold": [
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B6",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Okay, so, both one-pagers are in. I read them last night. Let me, um, say where I am. The handhelds are faster, I accept that. But forty-one thousand, ten weeks"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01013",
+   "arc": "simple_reversal",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "tentative (R6)",
+     "text": "Right. So, Hana, could you maybe get on to Priya today and start the paperwork with them, and check that cut-off while you're there?"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01014",
+   "arc": "re_reversal",
+   "ok": false,
+   "pred": [
+    "B",
+    "B",
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B",
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Okay. Pavel, I need the Insights entitlement switch in staging by the 20th, and marketing gets final pricing page copy from me next Tuesday."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (modified) -> B",
+     "text": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day t"
+    },
+    {
+     "link": "B12",
+     "meeting": 4,
+     "gold_version": 3,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 3 (modified) -> A",
+     "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card require"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01015",
+   "arc": "partial_override",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "A+M"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "A+M",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01016",
+   "arc": "no_reversal",
+   "ok": true,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": true,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Heard. The planning submission says three regional roadshows, Manchester, Frankfurt, Austin. Tariq, tidy the sheet for it."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01019",
+   "arc": "deferred",
+   "ok": true,
+   "pred": [
+    "B"
+   ],
+   "gold": [
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B6",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Right. Okay. The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone scre"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01023",
+   "arc": "external_trigger",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. Good. Pavel, could you get the configuration work on the calendar, with the ERP admin, for maybe the first week after the close? Um, sorry, I mean, someth"
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable a"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01030",
+   "arc": "simple_reversal",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Right. Aisha, can you get procurement started on the paperwork today? Ask for a fresh quote with the same sixty-two seats, and copy me."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01045",
+   "arc": "external_trigger",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay, so we're renewing the push provider for the year at nine hundred a month."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "tentative (R6)",
+     "text": "Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?"
+    }
+   ]
+  }
+ ],
+ "ii_phase4_linker": [
+  {
+   "set_id": "set_01000",
+   "arc": "no_reversal",
+   "ok": true,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Sure, sure. For now, let's just go with per-seat pricing at twelve dollars for launch, and we revisit if anything looks off."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": true,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay, so, we're keeping per-seat pricing at twelve for launch."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01002",
+   "arc": "external_trigger",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Late November. Okay, so, we're booking the Harborview ballroom for the summit."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01003",
+   "arc": "partial_override",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "A+M"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Fine by me. Mateo, lock in the delivery slot."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "A+M",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay. I'm fine with that. So, we're keeping the Norvik vinyl plank, with heat-sealed seams and a ceramic tile band across the pantry and the entrance."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01004",
+   "arc": "re_reversal",
+   "ok": false,
+   "pred": [
+    "A",
+    "B",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B",
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "I hear it. Let's go with the fourteen day free trial, no card, for launch."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (modified) -> B",
+     "text": "Okay. I'm going to decide. We switch to a seven day trial, credit card required up front."
+    },
+    {
+     "link": "B12",
+     "meeting": 4,
+     "gold_version": 3,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 3 (changed) -> B",
+     "text": "Sure. Marco, you can flip the signup flow back tonight."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01006",
+   "arc": "simple_reversal",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. Let me just decide. We sign with Swiftline Freight."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Okay. We're switching to Dalmar Logistics."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01012",
+   "arc": "deferred",
+   "ok": true,
+   "pred": [
+    "B"
+   ],
+   "gold": [
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B6",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Okay, so, both one-pagers are in. I read them last night. Let me, um, say where I am. The handhelds are faster, I accept that. But forty-one thousand, ten weeks"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01013",
+   "arc": "simple_reversal",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "tentative (R6)",
+     "text": "Right. So, Hana, could you maybe get on to Priya today and start the paperwork with them, and check that cut-off while you're there?"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01014",
+   "arc": "re_reversal",
+   "ok": false,
+   "pred": [
+    "B",
+    "B",
+    "B",
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B",
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Okay. Pavel, I need the Insights entitlement switch in staging by the 20th, and marketing gets final pricing page copy from me next Tuesday."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (modified) -> B",
+     "text": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day t"
+    },
+    {
+     "link": "D3",
+     "meeting": 2,
+     "gold_version": null,
+     "gold_option": null,
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 3 (changed) -> B",
+     "text": "11 percent and four empty issues, I can't defend that. Approved, the release-notes email goes monthly."
+    },
+    {
+     "link": "B12",
+     "meeting": 4,
+     "gold_version": 3,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 4 (modified) -> A",
+     "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card require"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01015",
+   "arc": "partial_override",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "A+M"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "A+M",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01016",
+   "arc": "no_reversal",
+   "ok": true,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": true,
+     "implicit": false,
+     "graph": "reaffirmation (no version)",
+     "text": "Heard. The planning submission says three regional roadshows, Manchester, Frankfurt, Austin. Tariq, tidy the sheet for it."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01019",
+   "arc": "deferred",
+   "ok": true,
+   "pred": [
+    "B"
+   ],
+   "gold": [
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B6",
+     "meeting": 3,
+     "gold_version": 1,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> B",
+     "text": "Right. Okay. The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone scre"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01023",
+   "arc": "external_trigger",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay. Good. Pavel, could you get the configuration work on the calendar, with the ERP admin, for maybe the first week after the close? Um, sorry, I mean, someth"
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 2 (changed) -> B",
+     "text": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable a"
+    }
+   ]
+  },
+  {
+   "set_id": "set_01030",
+   "arc": "simple_reversal",
+   "ok": true,
+   "pred": [
+    "A",
+    "B"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one."
+    },
+    {
+     "link": "B8",
+     "meeting": 3,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": true,
+     "graph": "new version 2 (changed) -> B",
+     "text": "Right. Aisha, can you get procurement started on the paperwork today? Ask for a fresh quote with the same sixty-two seats, and copy me."
+    }
+   ]
+  },
+  {
+   "set_id": "set_01045",
+   "arc": "external_trigger",
+   "ok": false,
+   "pred": [
+    "A"
+   ],
+   "gold": [
+    "A",
+    "B"
+   ],
+   "events": [
+    {
+     "link": "B3",
+     "meeting": 1,
+     "gold_version": 1,
+     "gold_option": "A",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "new version 1 (initial) -> A",
+     "text": "Okay, so we're renewing the push provider for the year at nine hundred a month."
+    },
+    {
+     "link": "B7",
+     "meeting": 2,
+     "gold_version": 2,
+     "gold_option": "B",
+     "gold_reaffirmation": false,
+     "implicit": false,
+     "graph": "tentative (R6)",
+     "text": "Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?"
+    }
+   ]
+  }
+ ]
+}

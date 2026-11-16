@@ -1,0 +1,513 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Project Finance",
+   "attribute": "unit cost",
+   "states": [
+    {
+     "value": "12.5 Euros",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-15T09:00:00",
+     "evidence": [
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Project Finance",
+   "attribute": "selling price",
+   "states": [
+    {
+     "value": "25 Euros",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-15T09:00:00",
+     "evidence": [
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Project Finance",
+   "attribute": "target revenue",
+   "states": [
+    {
+     "value": "50 million Euros",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 4,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-12-15T09:00:00",
+     "evidence": [
+      59
+     ]
+    },
+    {
+     "value": "slightly under budget",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 4,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      89,
+      114
+     ]
+    },
+    {
+     "value": "within budget",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      441
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Remote control design",
+   "attribute": "macro facility",
+   "states": [
+    {
+     "value": "not required due to outdated teletext and limited use",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-12-15T10:00:00",
+     "evidence": [
+      12,
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Power source",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "conventional batteries",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-15T11:00:00",
+     "evidence": [
+      44,
+      46,
+      117
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "User interface",
+   "attribute": "features",
+   "states": [
+    {
+     "value": "joystick, two function buttons, L_C_D_",
+     "label": "Overturned",
+     "valid_from": 3,
+     "valid_to": 4,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-15T11:00:00",
+     "evidence": [
+      0,
+      1,
+      2,
+      139,
+      140,
+      143
+     ]
+    },
+    {
+     "value": "two buttons",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      251,
+      253,
+      255
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "User interface",
+   "attribute": "ergonomic design",
+   "states": [
+    {
+     "value": "articulated for left or right handed users",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-15T11:00:00",
+     "evidence": [
+      144,
+      147,
+      156,
+      157,
+      159,
+      160
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "User interface",
+   "attribute": "modes",
+   "states": [
+    {
+     "value": "basic mode (channel navigation, volume), menu mode (advanced functions)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-12-15T11:00:00",
+     "evidence": [
+      144,
+      147,
+      156,
+      157,
+      159,
+      160
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Product Design",
+   "attribute": "material",
+   "states": [
+    {
+     "value": "plastic",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      90,
+      114,
+      149
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Product Design",
+   "attribute": "case design",
+   "states": [
+    {
+     "value": "single curved with articulation",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      170,
+      172,
+      182
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Product Design",
+   "attribute": "LCD display",
+   "states": [
+    {
+     "value": "retained",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      51,
+      146,
+      162
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Product Design",
+   "attribute": "joystick",
+   "states": [
+    {
+     "value": "scroll wheel",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      139,
+      143
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Product Design",
+   "attribute": "ergonomic features",
+   "states": [
+    {
+     "value": "single curve for joystick placement",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      21,
+      178,
+      182
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Product Design",
+   "attribute": "additional features",
+   "states": [
+    {
+     "value": "removed locator function",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 4,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      203,
+      204
+     ]
+    },
+    {
+     "value": "voice response feature removed",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      197,
+      198
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Joystick design",
+   "attribute": "curve",
+   "states": [
+    {
+     "value": "single curve",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      182,
+      185
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Locator feature",
+   "attribute": "inclusion",
+   "states": [
+    {
+     "value": "excluded",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      203,
+      205
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Voice recognition feature",
+   "attribute": "inclusion",
+   "states": [
+    {
+     "value": "excluded",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      197,
+      199
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Product evaluation",
+   "attribute": "overall score",
+   "states": [
+    {
+     "value": "3",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      342,
+      441
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Prototype",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "exists",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      432
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Product",
+   "attribute": "market readiness",
+   "states": [
+    {
+     "value": "something we think we can stick onto the market and sell",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      454
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Product features",
+   "attribute": "locator thing",
+   "states": [
+    {
+     "value": "cut due to budget",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-12-15T12:00:00",
+     "evidence": [
+      470
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   4
+  ],
+  [
+   "S13",
+   0,
+   1,
+   4
+  ],
+  [
+   "S5",
+   0,
+   1,
+   4
+  ],
+  [
+   "S2",
+   1,
+   2,
+   4
+  ]
+ ]
+}

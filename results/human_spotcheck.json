@@ -1,0 +1,835 @@
+{
+ "summary": [
+  {
+   "group": "all",
+   "n": 40,
+   "human_vs_gold_strict_yes": {
+    "k": 34,
+    "n": 40,
+    "rate": 0.85,
+    "ci95": [
+     0.709,
+     0.929
+    ]
+   },
+   "human_vs_gold_yes_or_partial": {
+    "k": 40,
+    "n": 40,
+    "rate": 1.0,
+    "ci95": [
+     0.912,
+     1.0
+    ]
+   },
+   "human_counts": {
+    "yes": 34,
+    "partial": 6
+   },
+   "human_vs_gemini_binary_yes": {
+    "n": 40,
+    "agree": 34,
+    "rate": 0.85,
+    "ci95": [
+     0.709,
+     0.929
+    ],
+    "kappa": 0.189,
+    "judge_yes": 38,
+    "human_yes": 34
+   },
+   "human_vs_granite_binary_yes": {
+    "n": 40,
+    "agree": 35,
+    "rate": 0.875,
+    "ci95": [
+     0.739,
+     0.945
+    ],
+    "kappa": 0.474,
+    "judge_yes": 35,
+    "human_yes": 34
+   },
+   "human_vs_agent_binary_yes": {
+    "n": 7,
+    "agree": 6,
+    "rate": 0.857,
+    "ci95": [
+     0.487,
+     0.974
+    ],
+    "kappa": 0.696,
+    "judge_yes": 4,
+    "human_yes": 5
+   },
+   "gemini_role_blind_vs_gold_role": {
+    "n": 40,
+    "agree": 24,
+    "rate": 0.6,
+    "ci95": [
+     0.446,
+     0.737
+    ]
+   },
+   "gemini_role_blind_on_human_yes_links": {
+    "n": 34,
+    "agree": 22,
+    "rate": 0.647,
+    "ci95": [
+     0.479,
+     0.785
+    ]
+   }
+  },
+  {
+   "group": "synthetic",
+   "n": 24,
+   "human_vs_gold_strict_yes": {
+    "k": 21,
+    "n": 24,
+    "rate": 0.875,
+    "ci95": [
+     0.69,
+     0.957
+    ]
+   },
+   "human_vs_gold_yes_or_partial": {
+    "k": 24,
+    "n": 24,
+    "rate": 1.0,
+    "ci95": [
+     0.862,
+     1.0
+    ]
+   },
+   "human_counts": {
+    "yes": 21,
+    "partial": 3
+   },
+   "human_vs_gemini_binary_yes": {
+    "n": 24,
+    "agree": 21,
+    "rate": 0.875,
+    "ci95": [
+     0.69,
+     0.957
+    ],
+    "kappa": 0.333,
+    "judge_yes": 22,
+    "human_yes": 21
+   },
+   "human_vs_granite_binary_yes": {
+    "n": 24,
+    "agree": 22,
+    "rate": 0.917,
+    "ci95": [
+     0.742,
+     0.977
+    ],
+    "kappa": 0.704,
+    "judge_yes": 19,
+    "human_yes": 21
+   },
+   "human_vs_agent_binary_yes": {
+    "n": 7,
+    "agree": 6,
+    "rate": 0.857,
+    "ci95": [
+     0.487,
+     0.974
+    ],
+    "kappa": 0.696,
+    "judge_yes": 4,
+    "human_yes": 5
+   },
+   "gemini_role_blind_vs_gold_role": {
+    "n": 24,
+    "agree": 15,
+    "rate": 0.625,
+    "ci95": [
+     0.427,
+     0.788
+    ]
+   },
+   "gemini_role_blind_on_human_yes_links": {
+    "n": 21,
+    "agree": 13,
+    "rate": 0.619,
+    "ci95": [
+     0.409,
+     0.792
+    ]
+   }
+  },
+  {
+   "group": "AMI",
+   "n": 16,
+   "human_vs_gold_strict_yes": {
+    "k": 13,
+    "n": 16,
+    "rate": 0.812,
+    "ci95": [
+     0.57,
+     0.934
+    ]
+   },
+   "human_vs_gold_yes_or_partial": {
+    "k": 16,
+    "n": 16,
+    "rate": 1.0,
+    "ci95": [
+     0.806,
+     1.0
+    ]
+   },
+   "human_counts": {
+    "yes": 13,
+    "partial": 3
+   },
+   "human_vs_gemini_binary_yes": {
+    "n": 16,
+    "agree": 13,
+    "rate": 0.812,
+    "ci95": [
+     0.57,
+     0.934
+    ],
+    "kappa": 0.0,
+    "judge_yes": 16,
+    "human_yes": 13
+   },
+   "human_vs_granite_binary_yes": {
+    "n": 16,
+    "agree": 13,
+    "rate": 0.812,
+    "ci95": [
+     0.57,
+     0.934
+    ],
+    "kappa": 0.0,
+    "judge_yes": 16,
+    "human_yes": 13
+   },
+   "gemini_role_blind_vs_gold_role": {
+    "n": 16,
+    "agree": 9,
+    "rate": 0.562,
+    "ci95": [
+     0.332,
+     0.769
+    ]
+   },
+   "gemini_role_blind_on_human_yes_links": {
+    "n": 13,
+    "agree": 9,
+    "rate": 0.692,
+    "ci95": [
+     0.424,
+     0.873
+    ]
+   }
+  }
+ ],
+ "rows": [
+  {
+   "row": 1,
+   "source": "synthetic",
+   "key": "set_01037/B7",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "partial",
+   "granite": "yes",
+   "agent": "partial",
+   "role_blind": [
+    "proposal",
+    "rationale"
+   ]
+  },
+  {
+   "row": 2,
+   "source": "synthetic",
+   "key": "set_01029/B4",
+   "role": "evidence",
+   "human": "partial",
+   "notes": "640 leads came in, 112 were already existing accounts, and 31 got called by two reps on the same day. But the five customer complaints aren't mentioned here.",
+   "gemini": "partial",
+   "granite": "partial",
+   "agent": "partial",
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 3,
+   "source": "synthetic",
+   "key": "set_01021/B5",
+   "role": "challenge",
+   "human": "partial",
+   "notes": "The increase in support tickets is mentioned, but the actual issue about fixed-train crashes being unresolved for a week is in the previous line, not this one.",
+   "gemini": "yes",
+   "granite": "partial",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "challenge"
+   ]
+  },
+  {
+   "row": 4,
+   "source": "synthetic",
+   "key": "set_01034/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "partial",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 5,
+   "source": "synthetic",
+   "key": "set_01036/B4",
+   "role": "evidence",
+   "human": "partial",
+   "notes": "The six SIM-swap attempts and one successful attempt are mentioned, but there's nothing about the executive mailbox being exposed for 40 minutes.",
+   "gemini": "yes",
+   "granite": "partial",
+   "agent": "partial",
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 6,
+   "source": "synthetic",
+   "key": "set_01036/B5",
+   "role": "challenge",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "partial",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "challenge"
+   ]
+  },
+  {
+   "row": 7,
+   "source": "synthetic",
+   "key": "set_01013/B5",
+   "role": "challenge",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "challenge"
+   ]
+  },
+  {
+   "row": 8,
+   "source": "synthetic",
+   "key": "set_01028/B5",
+   "role": "challenge",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "challenge"
+   ]
+  },
+  {
+   "row": 9,
+   "source": "synthetic",
+   "key": "set_01014/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 10,
+   "source": "synthetic",
+   "key": "set_01037/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 11,
+   "source": "synthetic",
+   "key": "set_01013/B1",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 12,
+   "source": "synthetic",
+   "key": "set_01035/B1",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 13,
+   "source": "synthetic",
+   "key": "set_01016/B2",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "rationale"
+   ]
+  },
+  {
+   "row": 14,
+   "source": "synthetic",
+   "key": "set_01036/B7",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "rationale"
+   ]
+  },
+  {
+   "row": 15,
+   "source": "synthetic",
+   "key": "set_01016/B6",
+   "role": "reconsideration",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": "yes",
+   "role_blind": [
+    "reconsideration",
+    "reconsideration"
+   ]
+  },
+  {
+   "row": 16,
+   "source": "synthetic",
+   "key": "set_01028/B6",
+   "role": "reconsideration",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "reconsideration",
+    "reconsideration"
+   ]
+  },
+  {
+   "row": 17,
+   "source": "synthetic",
+   "key": "set_01016/B3",
+   "role": "resolution",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "resolution",
+    "resolution"
+   ]
+  },
+  {
+   "row": 18,
+   "source": "synthetic",
+   "key": "set_01029/B3",
+   "role": "resolution (implicit)",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "resolution",
+    "resolution"
+   ]
+  },
+  {
+   "row": 19,
+   "source": "synthetic",
+   "key": "set_01016/B5",
+   "role": "challenge",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": "yes",
+   "role_blind": [
+    "rationale",
+    "challenge"
+   ]
+  },
+  {
+   "row": 20,
+   "source": "synthetic",
+   "key": "set_01026/B5",
+   "role": "challenge",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "challenge"
+   ]
+  },
+  {
+   "row": 21,
+   "source": "synthetic",
+   "key": "set_01016/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": "yes",
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 22,
+   "source": "synthetic",
+   "key": "set_01028/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 23,
+   "source": "synthetic",
+   "key": "set_01014/B1",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": "yes",
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 24,
+   "source": "synthetic",
+   "key": "set_01023/B1",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 25,
+   "source": "AMI",
+   "key": "ami_ES2002/B4",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 26,
+   "source": "AMI",
+   "key": "ami_ES2002/B8",
+   "role": "resolution (implicit)",
+   "human": "partial",
+   "notes": "The PM talks about how the battery could keep the device running when it's not being used, but he doesn't clearly confirm that they're going with kinetic power and a backup battery.",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "resolution"
+   ]
+  },
+  {
+   "row": 27,
+   "source": "AMI",
+   "key": "ami_ES2002/B2",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "rationale"
+   ]
+  },
+  {
+   "row": 28,
+   "source": "AMI",
+   "key": "ami_ES2003/B5",
+   "role": "proposal",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "proposal"
+   ]
+  },
+  {
+   "row": 29,
+   "source": "AMI",
+   "key": "ami_ES2003/B4",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 30,
+   "source": "AMI",
+   "key": "ami_ES2003/B3",
+   "role": "resolution",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "resolution",
+    "resolution"
+   ]
+  },
+  {
+   "row": 31,
+   "source": "AMI",
+   "key": "ami_ES2013/B5",
+   "role": "resolution",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "resolution",
+    "resolution"
+   ]
+  },
+  {
+   "row": 32,
+   "source": "AMI",
+   "key": "ami_ES2013/B2",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "rationale",
+    "rationale"
+   ]
+  },
+  {
+   "row": 33,
+   "source": "AMI",
+   "key": "ami_ES2013/B3",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 34,
+   "source": "AMI",
+   "key": "ami_TS3004/B7",
+   "role": "evidence",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "evidence"
+   ]
+  },
+  {
+   "row": 35,
+   "source": "AMI",
+   "key": "ami_TS3004/B9",
+   "role": "resolution",
+   "human": "partial",
+   "notes": "The PM mentions the one-button on/off setup again, but it's not clear whether the team has actually agreed to keep speech recognition.",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "resolution"
+   ]
+  },
+  {
+   "row": 36,
+   "source": "AMI",
+   "key": "ami_TS3004/B6",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "rationale"
+   ]
+  },
+  {
+   "row": 37,
+   "source": "AMI",
+   "key": "ami_TS3012/B1",
+   "role": "proposal",
+   "human": "partial",
+   "notes": "The speaker is explaining what the project is about, not really suggesting a new option. So I think this fits better under evidence/context rather than proposal.",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "proposal"
+   ]
+  },
+  {
+   "row": 38,
+   "source": "AMI",
+   "key": "ami_TS3012/B2",
+   "role": "rationale",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "evidence",
+    "rationale"
+   ]
+  },
+  {
+   "row": 39,
+   "source": "AMI",
+   "key": "ami_TS3012/B3",
+   "role": "resolution",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "resolution"
+   ]
+  },
+  {
+   "row": 40,
+   "source": "AMI",
+   "key": "ami_ES2002/B5",
+   "role": "reconsideration",
+   "human": "yes",
+   "notes": "",
+   "gemini": "yes",
+   "granite": "yes",
+   "agent": null,
+   "role_blind": [
+    "proposal",
+    "reconsideration"
+   ]
+  }
+ ],
+ "no_rows": []
+}

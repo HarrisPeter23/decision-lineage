@@ -1,0 +1,173 @@
+20:38:25 $ pip install -q graphiti-core==0.31.2 httpx rc 0 
+20:38:41 $ apt-get update -qq && apt-get install -y -qq zstd openjdk-17-jre-headless rc 0 
+20:38:43 $ curl -fsSL https://dist.neo4j.org/neo4j-community-5.26.17-unix.tar.gz | tar -xz -C /kaggle rc 0 
+20:38:46 $ /kaggle/neo4j-community-5.26.17/bin/neo4j-admin dbms set-initial-password graphiti-local-p rc 0 
+20:38:57 $ /kaggle/neo4j-community-5.26.17/bin/neo4j start rc 0 
+20:39:19 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 
+20:40:51 $ ollama pull qwen3:14b rc 0 
+20:40:54 $ ollama pull all-minilm rc 0 
+20:40:54 digests {'all-minilm:latest': '1b226e2802dbb772b5fc32a58f103ca1804ef7501331012de126ab22f67475ef', 'qwen3:14b': 'bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8'}
+20:40:58 corpus test_k10_00 32 meetings 106 questions
+20:41:00 corpus test_k10_01 31 meetings 105 questions
+20:41:00 corpus test_k10_02 6 meetings 21 questions
+20:41:00 corpus test_k1_01 4 meetings 11 questions
+20:47:05 test_k10_01 mtg_0001 ok 359.6 s 6 calls 
+20:48:23 test_k1_01 mtg_0001 ok 437.4 s 45 calls 
+20:48:43 test_k10_00 mtg_0001 ok 457.4 s 57 calls 
+20:49:17 test_k10_02 mtg_0001 ok 491.3 s 66 calls 
+20:56:22 test_k10_00 mtg_0002 ok 459.7 s 87 calls 
+20:56:40 test_k1_01 mtg_0002 ok 497.1 s 100 calls 
+20:57:14 test_k10_01 mtg_0002 ok 608.8 s 140 calls 
+21:04:08 test_k10_00 mtg_0003 ok 466.1 s 51 calls 
+21:06:36 test_k1_01 mtg_0003 ok 595.9 s 55 calls 
+21:11:39 test_k10_00 mtg_0004 ok 450.4 s 50 calls 
+21:12:32 test_k10_02 mtg_0002 ok 1395.7 s 183 calls 
+21:20:49 test_k1_01 mtg_0004 ok 853.1 s 104 calls 
+21:20:50 corpus test_k1_09 4 meetings 11 questions
+21:21:15 test_k10_00 mtg_0005 ok 576.7 s 60 calls 
+21:27:07 test_k10_02 mtg_0003 ok 874.5 s 120 calls 
+21:28:05 test_k10_01 mtg_0003 ok 1851.2 s 225 calls 
+21:33:27 test_k1_09 mtg_0001 ok 757.3 s 102 calls 
+21:37:18 test_k10_01 mtg_0004 ok 553.3 s 93 calls 
+21:38:08 test_k10_02 mtg_0004 ok 661.6 s 96 calls 
+21:45:00 test_k10_02 mtg_0005 ok 411.7 s 44 calls 
+21:45:35 test_k1_09 mtg_0002 ok 727.5 s 104 calls 
+21:46:49 test_k10_00 mtg_0006 ok 1534.0 s 223 calls 
+21:53:14 test_k10_01 mtg_0005 ok 956.3 s 100 calls 
+21:57:34 test_k10_02 mtg_0006 ok 753.8 s 76 calls 
+21:57:36 corpus test_k1_11 4 meetings 12 questions
+22:02:35 test_k10_00 mtg_0007 ok 945.1 s 127 calls 
+22:03:18 test_k1_09 mtg_0003 ok 1062.8 s 149 calls 
+22:03:46 test_k10_01 mtg_0006 ok 631.3 s 96 calls 
+22:14:37 test_k10_00 mtg_0008 ok 722.0 s 41 calls 
+22:22:39 test_k1_09 mtg_0004 ok 1161.2 s 101 calls 
+22:22:40 corpus test_k1_00 3 meetings 11 questions
+22:35:29 test_k10_01 mtg_0007 ok 1903.1 s 148 calls 
+22:36:27 test_k1_00 mtg_0001 ok 826.1 s 50 calls 
+22:39:20 test_k1_11 mtg_0001 FAILED 2504.2 s 230 calls JSONDecodeError: Unterminated string starting at: line 1 column 10889 (char 10888)
+22:41:22 test_k1_00 mtg_0002 ok 295.7 s 23 calls 
+22:48:28 test_k1_00 mtg_0003 ok 426.0 s 26 calls 
+22:48:30 corpus test_k1_02 3 meetings 11 questions
+22:50:43 test_k1_11 mtg_0002 ok 682.5 s 47 calls 
+22:59:14 test_k10_01 mtg_0008 ok 1425.5 s 148 calls 
+23:02:07 test_k10_00 mtg_0009 FAILED 2850.2 s 263 calls APITimeoutError: Request timed out.
+23:11:26 test_k10_01 mtg_0009 ok 731.5 s 56 calls 
+23:12:59 test_k10_00 mtg_0010 ok 652.5 s 72 calls 
+23:23:05 test_k10_00 mtg_0011 ok 605.4 s 39 calls 
+23:30:14 test_k10_00 mtg_0012 ok 429.8 s 84 calls 
+23:31:04 test_k1_02 mtg_0001 ok 2554.0 s 297 calls 
+23:36:23 test_k1_11 mtg_0003 FAILED 2740.1 s 313 calls APITimeoutError: Request timed out.
+23:37:18 test_k1_02 mtg_0002 ok 373.5 s 30 calls 
+23:41:03 test_k10_00 mtg_0013 ok 648.9 s 90 calls 
+23:42:02 test_k10_01 mtg_0010 ok 1836.6 s 233 calls 
+23:47:03 test_k1_02 mtg_0003 ok 585.7 s 86 calls 
+23:47:04 corpus test_k1_03 3 meetings 10 questions
+23:49:31 test_k10_00 mtg_0014 ok 507.4 s 47 calls 
+23:51:39 test_k10_01 mtg_0011 ok 576.2 s 73 calls 
+23:58:42 test_k10_00 mtg_0015 ok 551.5 s 50 calls 
+00:01:47 test_k10_01 mtg_0012 ok 608.8 s 54 calls 
+00:07:19 test_k10_00 mtg_0016 ok 517.0 s 55 calls 
+00:10:30 test_k10_01 mtg_0013 ok 522.8 s 49 calls 
+00:14:06 test_k10_00 mtg_0017 ok 406.8 s 41 calls 
+00:16:51 test_k1_11 mtg_0004 ok 2427.8 s 287 calls 
+00:16:52 corpus test_k1_04 3 meetings 10 questions
+00:22:55 test_k10_01 mtg_0014 ok 744.4 s 80 calls 
+00:25:19 test_k10_00 mtg_0018 ok 672.6 s 81 calls 
+00:26:25 test_k1_03 mtg_0001 ok 2361.0 s 248 calls 
+00:32:49 test_k1_03 mtg_0002 ok 383.5 s 25 calls 
+00:35:26 test_k10_01 mtg_0015 ok 751.4 s 69 calls 
+00:38:49 test_k1_04 mtg_0001 ok 1316.8 s 134 calls 
+00:42:09 test_k1_03 mtg_0003 ok 560.4 s 71 calls 
+00:42:10 corpus test_k1_05 3 meetings 10 questions
+00:47:21 test_k1_04 mtg_0002 ok 511.9 s 76 calls 
+00:49:16 test_k10_00 mtg_0019 ok 1436.9 s 179 calls 
+00:50:00 test_k10_01 mtg_0016 ok 873.8 s 129 calls 
+00:56:32 test_k1_04 mtg_0003 ok 550.8 s 57 calls 
+00:56:32 corpus test_k1_06 3 meetings 11 questions
+00:58:10 test_k10_01 mtg_0017 ok 489.8 s 47 calls 
+01:06:25 test_k10_00 mtg_0020 ok 1029.4 s 103 calls 
+01:13:38 test_k10_01 mtg_0018 ok 928.5 s 96 calls 
+01:16:05 test_k1_05 mtg_0001 ok 2034.3 s 283 calls 
+01:17:11 test_k10_00 mtg_0021 ok 646.5 s 102 calls 
+01:23:20 test_k1_05 mtg_0002 ok 434.7 s 35 calls 
+01:27:06 test_k10_01 mtg_0019 ok 808.0 s 115 calls 
+01:28:55 test_k1_05 mtg_0003 ok 335.9 s 41 calls 
+01:28:56 corpus test_k1_07 3 meetings 11 questions
+01:33:21 test_k1_06 mtg_0001 FAILED 2208.1 s 250 calls JSONDecodeError: Unterminated string starting at: line 1 column 10794 (char 10793)
+01:34:39 test_k1_07 mtg_0001 ok 342.1 s 7 calls 
+01:40:05 test_k1_06 mtg_0002 ok 404.4 s 36 calls 
+01:40:23 test_k10_00 mtg_0022 ok 1391.3 s 120 calls 
+01:42:13 test_k1_07 mtg_0002 ok 453.9 s 55 calls 
+01:49:46 test_k1_06 mtg_0003 ok 580.5 s 49 calls 
+01:49:48 corpus test_k1_08 3 meetings 10 questions
+01:53:51 test_k10_00 mtg_0023 ok 808.0 s 108 calls 
+01:54:37 test_k1_07 mtg_0003 ok 744.4 s 94 calls 
+01:54:38 corpus test_k1_10 3 meetings 9 questions
+01:58:45 test_k1_08 mtg_0001 ok 536.5 s 96 calls 
+02:01:54 test_k10_00 mtg_0024 ok 482.7 s 53 calls 
+02:04:04 test_k1_08 mtg_0002 ok 318.8 s 41 calls 
+02:09:23 test_k10_00 mtg_0025 ok 449.3 s 41 calls 
+02:16:36 test_k1_08 mtg_0003 ok 752.5 s 70 calls 
+02:16:37 corpus test_k1_12 3 meetings 9 questions
+02:16:41 test_k10_01 mtg_0020 FAILED 2974.6 s 315 calls APITimeoutError: Request timed out.
+02:19:09 test_k10_00 mtg_0026 ok 586.2 s 72 calls 
+02:22:17 test_k1_12 mtg_0001 ok 339.5 s 66 calls 
+02:22:57 test_k1_10 mtg_0001 ok 1699.4 s 216 calls 
+02:25:48 test_k10_01 mtg_0021 ok 546.9 s 96 calls 
+02:33:38 test_k1_10 mtg_0002 ok 641.0 s 61 calls 
+02:42:17 test_k1_10 mtg_0003 ok 518.9 s 34 calls 
+02:42:18 corpus test_k1_13 3 meetings 11 questions
+02:44:33 test_k1_12 mtg_0002 ok 1336.2 s 128 calls 
+02:50:40 test_k10_00 mtg_0027 ok 1890.9 s 216 calls 
+02:51:14 test_k1_13 mtg_0001 ok 535.7 s 71 calls 
+02:57:53 test_k1_13 mtg_0002 ok 399.4 s 29 calls 
+03:07:37 test_k1_13 mtg_0003 ok 583.7 s 69 calls 
+03:07:38 corpus test_k1_14 3 meetings 11 questions
+03:08:02 test_k10_00 mtg_0028 ok 1042.4 s 100 calls 
+03:13:00 test_k10_01 mtg_0022 FAILED 2832.1 s 248 calls APITimeoutError: Request timed out.
+03:16:12 test_k10_00 mtg_0029 ok 489.5 s 26 calls 
+03:23:33 test_k1_14 mtg_0001 ok 954.7 s 56 calls 
+03:24:35 test_k10_01 mtg_0023 ok 695.1 s 54 calls 
+03:30:57 test_k1_12 mtg_0003 FAILED 2784.1 s 251 calls APITimeoutError: Request timed out.
+03:30:58 corpus test_k1_15 3 meetings 11 questions
+03:31:44 test_k10_01 mtg_0024 ok 428.6 s 61 calls 
+03:34:11 test_k1_14 mtg_0002 ok 638.1 s 94 calls 
+03:36:03 test_k10_00 mtg_0030 ok 1191.2 s 126 calls 
+03:41:57 test_k1_15 mtg_0001 ok 658.6 s 77 calls 
+03:43:22 test_k1_14 mtg_0003 ok 550.7 s 48 calls 
+03:43:25 corpus test_k1_16 3 meetings 11 questions
+03:45:28 test_k10_00 mtg_0031 ok 564.6 s 82 calls 
+03:46:18 test_k10_01 mtg_0025 ok 874.8 s 117 calls 
+03:50:28 test_k1_15 mtg_0002 ok 510.5 s 78 calls 
+03:54:34 test_k10_00 mtg_0032 ok 546.6 s 48 calls 
+03:54:43 corpus test_k1_17 3 meetings 10 questions
+03:54:55 test_k1_16 mtg_0001 ok 689.1 s 85 calls 
+04:04:58 test_k1_17 mtg_0001 ok 614.2 s 131 calls 
+04:05:29 test_k1_16 mtg_0002 ok 633.8 s 142 calls 
+04:07:25 test_k10_01 mtg_0026 ok 1267.1 s 209 calls 
+04:07:26 test_k1_15 mtg_0003 ok 1019.0 s 186 calls 
+04:07:28 corpus test_k1_18 3 meetings 11 questions
+04:13:07 test_k1_18 mtg_0001 ok 339.4 s 42 calls 
+04:15:42 test_k10_01 mtg_0027 ok 496.1 s 73 calls 
+04:16:01 test_k1_17 mtg_0002 ok 662.8 s 106 calls 
+04:22:46 test_k1_18 mtg_0002 ok 578.8 s 68 calls 
+04:24:29 test_k10_01 mtg_0028 ok 527.8 s 64 calls 
+04:30:01 test_k1_17 mtg_0003 ok 840.4 s 106 calls 
+04:30:02 corpus test_k1_19 3 meetings 10 questions
+04:34:04 test_k1_18 mtg_0003 ok 677.9 s 101 calls 
+04:34:05 corpus test_k1_20 3 meetings 11 questions
+04:35:04 test_k1_19 mtg_0001 ok 301.8 s 34 calls 
+04:44:31 test_k1_16 mtg_0003 ok 2342.3 s 374 calls 
+04:44:32 corpus test_k1_21 3 meetings 10 questions
+04:45:00 test_k1_20 mtg_0001 ok 654.7 s 148 calls 
+04:45:18 test_k1_19 mtg_0002 ok 613.5 s 146 calls 
+04:51:27 test_k1_20 mtg_0002 ok 387.3 s 62 calls 
+04:52:09 test_k1_21 mtg_0001 ok 457.5 s 69 calls 
+04:54:51 test_k1_19 mtg_0003 ok 573.8 s 97 calls 
+04:57:27 test_k1_21 mtg_0002 ok 318.0 s 53 calls 
+05:01:00 test_k1_20 mtg_0003 ok 573.3 s 82 calls 
+05:03:38 test_k1_21 mtg_0003 ok 370.7 s 53 calls 
+06:06:38 test_k10_01 mtg_0029 FAILED 6128.6 s 396 calls JSONDecodeError: Unterminated string starting at: line 1 column 50411 (char 50410)
+06:09:50 test_k10_01 mtg_0030 ok 192.2 s 18 calls 
+07:05:33 test_k10_01 mtg_0031 FAILED 3342.7 s 6 calls JSONDecodeError: Unterminated string starting at: line 1582 column 7 (char 46790)
+07:05:40 DONE {"llm_calls": 3614, "llm_s": 255180.35901403427, "llm_errors": 5} wall 37481

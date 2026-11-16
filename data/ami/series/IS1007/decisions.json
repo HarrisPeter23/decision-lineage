@@ -1,0 +1,111 @@
+{
+ "IS1007a": {
+  "abstract": [
+   "The Project Manager introduced the project to the group.",
+   "The group set an agenda for the meeting and discussed the materials sent to them by the Account Manager.",
+   "They discussed and explained their roles in the project.",
+   "The group began a discussion about their initial ideas for the product.",
+   "They discussed several usability features: adding speech recognition and an option to choose what to watch by channel or by content, reducing the number of buttons by using the television screen to display options, and adding a light adaptation system.",
+   "All participants were instructed to gather more information for the next meeting, the functional design meeting."
+  ],
+  "actions": [
+   "All participants were instructed to gather information for the functional design meeting."
+  ],
+  "decisions": [
+   "The group decided to include an option for the user to choose what to watch by channel or by content or program type."
+  ],
+  "problems": [
+   "The project agenda and the participant roles were not clear to all participants at the beginning of the meeting.",
+   "The group could not decide if they wanted to include speech recognition in the design."
+  ]
+ },
+ "IS1007b": {
+  "abstract": [
+   "The Project Manager presented the goals of the meeting and new product requirements.",
+   "The Industrial Designer presented the internal components of a remote control and showed a diagram of how they operate together.",
+   "He suggested that field programmable gateway arrays be used for the chip controlling software functionalities, and it was suggested that the remote be used with a recharging stand.",
+   "The User Interface Designer gave a presentation on the technical functions of the remote, and displayed the interfaces of two existing products for comparison.",
+   "He showed that the competitors' remotes were too complicated.",
+   "He suggested that the televisions that the remotes are used with connect to the internet to access downloadable programs.",
+   "He suggested a simple design with few buttons, small size, and a locator function.",
+   "The Marketing Expert presented several characteristics important to users.",
+   "He discussed using speech recognition and ways to make it feasible for the project, small size, low price point, and incorporating teletext in different languages.",
+   "The group discussed the new requirement that required them to omit teletext from their design, and discussed the possibility of using the remote to access the internet through the television."
+  ],
+  "decisions": [
+   "The remote will be used with a recharging stand.",
+   "The group decided not to include a lighting adaptation system."
+  ],
+  "problems": [
+   "The participants disagreed on how to easily move through channels using the design of the User Interface Designer, which included very few buttons.",
+   "There was no resolution on whether or not to allow users to use the remote to access the internet through their television, as opposed to including teletext capabilities."
+  ]
+ },
+ "IS1007c": {
+  "abstract": [
+   "The Industrial Designer presented options for each component.",
+   "He suggested kinetic energy, a titanium case, and rubber push buttons.",
+   "The group will ask if the kinetic energy component can provide enough energy.",
+   "The User Interface Designer introduced the graphical user interface to the group and suggested using an LCD screen.",
+   "He presented several existing products and suggested the following: large buttons; voice recognition; either push, scroll, or spinning buttons; and incorporating some customizable components.",
+   "The group discussed including a help button; it was decided that it would make the device seem more complicated.",
+   "The Marketing Expert presented that users found remotes too easily lost, complicated, and ugly.",
+   "He showed that users were willing to pay more for a fancy remote.",
+   "He suggested the LCD screen; the group felt that it was better to utilize the user's television as a display screen, but that they would inquire about cost before deciding.",
+   "The group will inquire about the cost of voice recognition and scroll buttons.",
+   "The group discussed incorporating a locator function and customization for children.",
+   "They discussed the sensitivity of the voice recognizer to other noises; the group will ask about the capability of the recognizer."
+  ],
+  "actions": [
+   "The group will find out if the kinetic energy component can provide enough energy.",
+   "The group will inquire about the cost of voice recognition and the scroll button.",
+   "The group will ask about the capability of the voice recognition component."
+  ],
+  "decisions": [
+   "The group decided not to include a help button on the device because it would make the remote seem more complicated."
+  ],
+  "problems": [
+   "There was not enough information about the capabilities of the voice recognizer or the kinetic energy source.",
+   "There was not enough information on the cost of several components.",
+   "No decision was made about whether or not the LCD screen should be included.",
+   "No decision was made about including a locator function, or what form it should take.",
+   "No decision was made about making the remote programmable for children."
+  ]
+ },
+ "IS1007d": {
+  "abstract": [
+   "The User Interface Designer and the Industrial Designer presented two prototypes, one with an LCD screen and one without.",
+   "They demonstrated how to navigate through the menus and presented the voice recognition and energy source components and the charging stand.",
+   "They discussed their modular design.",
+   "They discussed the parental control module and the titanium casing.",
+   "The production costs were below budget for the basic models.",
+   "The Marketing Expert presented three important user requirements, and also the fruit and vegetable and spongy material trends in fashion.",
+   "He then led an evaluation of the prototypes according to these requirements.",
+   "The group did not feel that the remotes sufficiently met the criteria.",
+   "They decided to continue working on the design and to take out the LCD screen and voice recognition.",
+   "They discussed the modular design and its advantages in attracting customers.",
+   "The group discussed how to incorporate the fashion trends; it was suggested that one shape was used, which could be customized with skins.",
+   "The Project Manager led an evaluation of the group's experience on the project.",
+   "The group was pleased with the teamwork and leadership, but one participant complained that not enough information was given about each meeting's agenda."
+  ],
+  "actions": [
+   "The User Interface Designer and the Industrial Designer will look into options for spongy skin materials."
+  ],
+  "decisions": [
+   "The remote will feature rechargeable double-A batteries and a charging stand.",
+   "The remote can be customized for adults, children, or the elderly.",
+   "The remote has a misplacement reminder that sends a message to the television screen to remind users to put the remote back in the charger when not in use.",
+   "The remote features a modular design that allows users to add as many or as few components as they wish to the basic model.",
+   "The group was unsatisfied with the design and decided to continue working on it, focusing on a fancier design.",
+   "The remote will not feature an LCD screen or voice recognition.",
+   "The group decided that the teamwork and leadership of the project were good, but that not enough information was given about each meeting's agenda."
+  ],
+  "problems": [
+   "The group had difficulty deciding what would be displayed on the LCD screen.",
+   "The group felt that too much focus was placed on the functionality of the remote such that they could not achieve a fancy look.",
+   "The group did not feel that the prototype met the user requirements presented by the Marketing Expert.",
+   "The group could not decide how to incorporate the fashion trends into the design.",
+   "Not enough information was given about the agenda of each meeting."
+  ]
+ }
+}

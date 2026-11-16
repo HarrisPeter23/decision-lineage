@@ -1,0 +1,250 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Intranet banner for benefits webinar",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "2025-06-12",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      8,
+      9,
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Intranet banner for benefits webinar",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Chloe",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      4,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Performance review cycle",
+   "attribute": "frequency",
+   "states": [
+    {
+     "value": "annual",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      22,
+      79,
+      89
+     ]
+    },
+    {
+     "value": "changed from one annual review (December only) to two reviews per year (June and December)",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-12",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Performance review cycle",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "first week of December",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      18,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Performance review cycle",
+   "attribute": "budget",
+   "states": [
+    {
+     "value": "no change",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      43,
+      45,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Calibration weeks",
+   "attribute": "date range",
+   "states": [
+    {
+     "value": "second to nineteenth",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      93,
+      94
+     ]
+    },
+    {
+     "value": "kept for December only for now",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-12",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Budget sheet",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Jonas",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Budget sheet",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      105
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Review structure",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "reopened",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-26",
+     "evidence": [
+      13,
+      14,
+      15,
+      16,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Review calendar",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "send to managers",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-26",
+     "evidence": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S2",
+   0,
+   1,
+   2
+  ],
+  [
+   "S5",
+   0,
+   1,
+   2
+  ]
+ ]
+}

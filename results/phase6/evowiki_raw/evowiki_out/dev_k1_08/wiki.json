@@ -1,0 +1,597 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Quarterly survey",
+   "attribute": "action required",
+   "states": [
+    {
+     "value": "nudge from every manager",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      4,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Quarterly survey",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "extended to the fourth",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Dashboards",
+   "attribute": "proposed solution",
+   "states": [
+    {
+     "value": "Plotbench (self-hosted, free)",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      72
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-04-06",
+       "evidence": [
+        55
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Dashboards",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Marco",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Staging boxes",
+   "attribute": "move date",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      45
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Shared drive cleanup",
+   "attribute": "action required",
+   "states": [
+    {
+     "value": "done before audit people come",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Shared drive cleanup",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Greta",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-03-30",
+     "evidence": [
+      79
+     ]
+    },
+    {
+     "value": "before audit on eighteenth",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-06",
+     "evidence": [
+      61,
+      62,
+      63,
+      64,
+      65
+     ]
+    },
+    {
+     "value": "mostly done",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      86
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Rosa's offsite",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "week after the fourteenth, twenty-first through the twenty-third",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-06",
+     "evidence": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Change requests",
+   "attribute": "list",
+   "states": [
+    {
+     "value": "to be sent by Aisha",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-06",
+     "evidence": [
+      50,
+      51,
+      57
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "SQL user count",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Kofi to pull count from access logs",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-04-06",
+     "evidence": [
+      58,
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Ticket count for the past week",
+   "attribute": "number",
+   "states": [
+    {
+     "value": "55",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Ticket count for the past week",
+   "attribute": "rate",
+   "states": [
+    {
+     "value": "same as previous week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Keeping-things-running part",
+   "attribute": "time spent",
+   "states": [
+    {
+     "value": "around two days",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "SQL headcount",
+   "attribute": "number of people who ran a query in the last quarter",
+   "states": [
+    {
+     "value": "34",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "SQL headcount",
+   "attribute": "number of viewers",
+   "states": [
+    {
+     "value": "62",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "SQL headcount",
+   "attribute": "number of people who never ran a query",
+   "states": [
+    {
+     "value": "28",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Ticket list",
+   "attribute": "hours burned",
+   "states": [
+    {
+     "value": "2.5 analyst-days a week",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Ticket list",
+   "attribute": "cost of licence",
+   "states": [
+    {
+     "value": "13,400 (eighteen per viewer, sixty-two viewers, twelve months)",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      36
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Ticket list",
+   "attribute": "next year's cost increase",
+   "states": [
+    {
+     "value": "7%",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      37
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Dashboard conversion",
+   "attribute": "number of dashboards converted",
+   "states": [
+    {
+     "value": "12 of 40",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      40
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Procurement",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Aisha to get procurement started on the paperwork today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Procurement",
+   "attribute": "quote request",
+   "states": [
+    {
+     "value": "fresh quote with the same sixty-two seats",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      75
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Procurement",
+   "attribute": "notice date on the contract",
+   "states": [
+    {
+     "value": "thirtieth",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      64
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Offsite flights",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "Wednesday, 2025-04-23",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      49
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Offsite flights",
+   "attribute": "Kofi's flight time",
+   "states": [
+    {
+     "value": "afternoon, not morning",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      50
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Venue",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "converted mill outside the city",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Venue",
+   "attribute": "wifi",
+   "states": [
+    {
+     "value": "available",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Survey",
+   "attribute": "response rate",
+   "states": [
+    {
+     "value": "46 of 48",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-04-13",
+     "evidence": [
+      83
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S6",
+   0,
+   1,
+   2
+  ],
+  [
+   "S6",
+   1,
+   2,
+   3
+  ]
+ ]
+}

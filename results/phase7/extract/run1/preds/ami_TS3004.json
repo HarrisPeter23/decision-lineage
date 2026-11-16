@@ -1,0 +1,1976 @@
+{
+ "set_id": "ami_TS3004",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    225
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "unique design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    231
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "different colours"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "iMac-like design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    236
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "iMac-like design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    241
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "mobile phone design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    276
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "red LED"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    280
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "integrate LED in design"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    288
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "LED indicator"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    335
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "normal light LED"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    342
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "LED around buttons"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    347
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "LED around buttons"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    366
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "mobile phone-like lighting"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    382
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "LED lighting"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    386
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "sound device"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    396
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "sound device"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    433
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "mobile phone-like features"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    434
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "mobile phone-like features"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    456
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    474
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    489
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    179
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    180
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    181
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    183
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    184
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    186
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    187
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    189
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    191
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    192
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    194
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    196
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    198
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    200
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    202
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    204
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    206
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    208
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    210
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    212
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    214
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    216
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    218
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    220
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    222
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    224
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    228
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    230
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    234
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    236
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    238
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    240
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    242
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    244
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    246
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    248
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    250
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    252
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    254
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    256
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    258
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    259
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "transparent case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    260
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    261
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "different fronts on the remote control"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    262
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    264
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "release one version"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    264
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    265
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "release one version"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    266
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "sell different versions"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    266
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    268
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    270
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "soft material for the case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    270
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    272
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "plastic for the case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    272
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    273
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "plastic for the case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    274
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    276
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rubber buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    276
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    277
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "buttons as part of the style"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    278
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    281
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "buttons as part of the style"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    283
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "position of buttons on remote control",
+   "option": "text TV button on bottom"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    288
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "buttons as part of the style"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    290
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "hard plastic for the case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    291
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "hard plastic for the case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    302
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "transparent case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    303
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "transparent case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    312
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "transparent case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    316
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "LED colors"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    322
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "LED colors"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    346
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "recharger"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    350
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "recharger"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    358
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "recharger"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    365
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "recharger"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    369
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "flat buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    373
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "flat buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    384
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "scroll wheels"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    387
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheels"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    389
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheels"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    392
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rubber case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    395
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rubber case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    396
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rubber case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    406
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "rubber case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    407
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "rubber case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    422
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "regular chip"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    423
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "regular chip"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    426
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "plastic case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    430
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "plastic case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    431
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "plastic case"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    440
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "prototype drawing"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    468
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    480
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    483
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    485
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    488
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    492
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    498
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    500
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    511
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "scroll wheel placement"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    520
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "remote control should be round in shape"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    529
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "number of fronts"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    531
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "buy separate ones"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    534
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "buy separate ones"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    536
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "docking station"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    540
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "design the docking station"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    542
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the docking station",
+   "option": "design the docking station"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    544
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the docking station",
+   "option": "design the docking station"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    546
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the docking station",
+   "option": "simple design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    547
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the docking station",
+   "option": "simple design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    549
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "Design of the docking station",
+   "option": "square design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    549
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "docking station"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    550
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "Design of the docking station",
+   "option": "square design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    553
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the docking station",
+   "option": "square design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    555
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "round remote control"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    557
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "round remote control"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    560
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    566
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    570
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    575
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    581
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    590
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    591
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    592
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "rounded corners"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    607
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "Design of the remote control",
+   "option": "make a decision on the form"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    610
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "iPod-like design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    611
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "iPod-like design"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    627
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "keep it square"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    630
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "keep it square"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    634
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "keep it square"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    636
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "keep it square"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    637
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "make it fancy and original"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    641
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "fancy with lights"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    645
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "fancy with lights"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    654
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "ask for feedback"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    657
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "paint images"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    662
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "make it like iPod"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    665
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "make it like iPod"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    667
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "skip speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    671
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of the remote control",
+   "option": "skip speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    683
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of the remote control",
+   "option": "include speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    720
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "skip speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    725
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Design of the remote control",
+   "option": "include speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    329
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "beautiful look-and-feel",
+   "option": "one"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    335
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "beautiful look-and-feel",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    369
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "fancy look-and-feel",
+   "option": "one"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    375
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "fancy look-and-feel",
+   "option": "one"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    406
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "easy to use",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    413
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "easy to use",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    467
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "new features",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    479
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "targeted audience",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    501
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "average score",
+   "option": "eleven"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    534
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "production cost",
+   "option": "twelve point three Euros"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    559
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "sample speaker cost",
+   "option": "four Euros"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    567
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "project evaluation",
+   "option": "complete"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    585
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "creativity",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    621
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "teamwork",
+   "option": "okay"
+  }
+ ]
+}

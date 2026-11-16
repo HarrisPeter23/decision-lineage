@@ -1,0 +1,431 @@
+{
+ "set_id": "test_k1_03",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Second step for staff sign-in",
+   "option": "Password plus something else"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Second step for staff sign-in",
+   "option": "Password plus something else"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "Second step for staff sign-in",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "Printer contract renewal",
+   "option": "Reject three-year term"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "Printer contract renewal",
+   "option": "Reject three-year term"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Printer contract renewal",
+   "option": "Reject three-year term"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Printer contract renewal",
+   "option": "Reject three-year term"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Printer contract renewal",
+   "option": "Reject three-year term"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "speaker": "Sven",
+   "confidence": 0.95,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    25,
+    26
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.75,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Staff sign-in method security",
+   "option": "Add PIN on carrier account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "Staff sign-in method security",
+   "option": "Add PIN on carrier account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Staff sign-in method security",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "Staff sign-in method security",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    7,
+    8
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "Staff sign-in method",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    22,
+    23
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    24,
+    25
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "Staff sign-in method",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Lena",
+   "confidence": 0.75,
+   "decision": "Staff sign-in method",
+   "option": "Text message code"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Sven",
+   "confidence": 0.75,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "Staff sign-in method",
+   "option": "Physical keys"
+  }
+ ]
+}

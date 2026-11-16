@@ -1,0 +1,392 @@
+{
+ "set_id": "set_01002",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "corporate events team",
+  "seed": 1002,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 113
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 120
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 103
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "the format of the annual customer conference",
+ "options": {
+  "A": "In-person customer summit at the Harborview Hotel ballroom",
+  "B": "Virtual product showcase plus a small invite-only reception for top accounts"
+ },
+ "cast": [
+  {
+   "name": "Greta",
+   "slot": "manager",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Lakshmi",
+   "slot": "proposer",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Elif",
+   "slot": "challenger",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Noor",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Ivan",
+   "slot": "observer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "In-person customer summit at the Harborview Hotel ballroom"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "Virtual product showcase plus a small invite-only reception for top accounts"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    3
+   ],
+   "gist": "Lakshmi proposes holding the annual customer conference as an in-person summit at the Harborview Hotel ballroom.",
+   "version": 1,
+   "option_key": "A",
+   "option": "In-person customer summit at the Harborview Hotel ballroom",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Lakshmi",
+   "utterance_idxs": [
+    7
+   ],
+   "gist": "Lakshmi says in-person summits have generated more pipeline than any other format the company has tried and customers say they value meeting the product team face to face.",
+   "version": 1,
+   "option_key": "A",
+   "option": "In-person customer summit at the Harborview Hotel ballroom",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    15
+   ],
+   "gist": "Greta decides to book the Harborview ballroom for the customer summit.",
+   "version": 1,
+   "option_key": "A",
+   "option": "In-person customer summit at the Harborview Hotel ballroom",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Greta reports that the Harborview Hotel is closing its ballroom for renovation through the end of the year, and the next-best venue wants a deposit $18,000 over the event budget.",
+   "version": 1,
+   "option_key": "A",
+   "option": "In-person customer summit at the Harborview Hotel ballroom",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    11
+   ],
+   "gist": "Greta says the venue closure and the cost mean the summit plan has to be reopened.",
+   "version": 1,
+   "option_key": "A",
+   "option": "In-person customer summit at the Harborview Hotel ballroom",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Noor",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Noor says a virtual product showcase plus a small invite-only reception in the company's own office costs far less, reaches customers who cannot travel, and keeps a personal touch for the top accounts.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Virtual product showcase plus a small invite-only reception for top accounts",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    22
+   ],
+   "gist": "Greta decides to switch to a virtual product showcase plus a small invite-only reception.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Virtual product showcase plus a small invite-only reception for top accounts",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01002-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the format of the annual customer conference?",
+   "answer_text": "Virtual product showcase plus a small invite-only reception for top accounts",
+   "answer_facts": {
+    "option": "Virtual product showcase plus a small invite-only reception for top accounts"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the format of the annual customer conference?",
+   "answer_text": "meeting 1: Greta - Greta decides to book the Harborview ballroom for the customer summit.; meeting 2: Greta - Greta decides to switch to a virtual product showcase plus a small invite-only reception.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "In-person customer summit at the Harborview Hotel ballroom",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "Virtual product showcase plus a small invite-only reception for top accounts",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q03",
+   "type": "as_of",
+   "question": "What was the decision about the format of the annual customer conference as of the end of meeting 2?",
+   "answer_text": "Virtual product showcase plus a small invite-only reception for top accounts",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "Virtual product showcase plus a small invite-only reception for top accounts"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q04",
+   "type": "as_of",
+   "question": "What was the decision about the format of the annual customer conference as of the end of meeting 3?",
+   "answer_text": "Virtual product showcase plus a small invite-only reception for top accounts",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "Virtual product showcase plus a small invite-only reception for top accounts"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the format of the annual customer conference change over time?",
+   "answer_text": "In-person customer summit at the Harborview Hotel ballroom (from meeting 1) -> Virtual product showcase plus a small invite-only reception for top accounts (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "In-person customer summit at the Harborview Hotel ballroom",
+     "Virtual product showcase plus a small invite-only reception for top accounts"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01002-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the format of the annual customer conference changed?",
+   "answer_text": "Before: In-person customer summit at the Harborview Hotel ballroom, because Lakshmi says in-person summits have generated more pipeline than any other format the company has tried and customers say they value meeting the product team face to face. Triggered by: Greta (evidence): Greta reports that the Harborview Hotel is closing its ballroom for renovation through the end of the year, and the next-best venue wants a deposit $18,000 over the event budget. Greta (reconsideration): Greta says the venue closure and the cost mean the summit plan has to be reopened. After: Virtual product showcase plus a small invite-only reception for top accounts, because Noor says a virtual product showcase plus a small invite-only reception in the company's own office costs far less, reaches customers who cannot travel, and keeps a personal touch for the top accounts.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the format of the annual customer conference?",
+   "answer_text": "Lakshmi",
+   "answer_facts": {
+    "speaker": "Lakshmi"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01002-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the format of the annual customer conference?",
+   "answer_text": "Greta (evidence): Greta reports that the Harborview Hotel is closing its ballroom for renovation through the end of the year, and the next-best venue wants a deposit $18,000 over the event budget.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01002-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the format of the annual customer conference?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01002-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the format of the annual customer conference from proposal to final outcome.",
+   "answer_text": "meeting 1 - Lakshmi [proposal]: Lakshmi proposes holding the annual customer conference as an in-person summit at the Harborview Hotel ballroom. | meeting 1 - Lakshmi [rationale]: Lakshmi says in-person summits have generated more pipeline than any other format the company has tried and customers say they value meeting the product team face to face. | meeting 1 - Greta [resolution]: Greta decides to book the Harborview ballroom for the customer summit. | meeting 2 - Greta [evidence]: Greta reports that the Harborview Hotel is closing its ballroom for renovation through the end of the year, and the next-best venue wants a deposit $18,000 over the event budget. | meeting 2 - Greta [reconsideration]: Greta says the venue closure and the cost mean the summit plan has to be reopened. | meeting 2 - Noor [rationale]: Noor says a virtual product showcase plus a small invite-only reception in the company's own office costs far less, reaches customers who cannot travel, and keeps a personal touch for the top accounts. | meeting 2 - Greta [resolution]: Greta decides to switch to a virtual product showcase plus a small invite-only reception.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2550 @@
+{
+ "set_id": "set_01014",
+ "cast": [
+  "Meera",
+  "Jonas",
+  "Yuki",
+  "Lena",
+  "Pavel"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-08-07",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Okay, that's five of us, so that's everyone. Pavel, is your mic working?",
+     "ts": "2025-08-07T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Pavel",
+     "text": "Works.",
+     "ts": "2025-08-07T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Yuki",
+     "text": "Yeah, we can hear-",
+     "ts": "2025-08-07T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Meera",
+     "text": "Good. First thing, the Halden Foods ticket. Open eleven days and they've escalated twice now.",
+     "ts": "2025-08-07T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Yuki",
+     "text": "That one's with me, the export was timing out on anything over 40,000 rows and we-",
+     "ts": "2025-08-07T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Pavel",
+     "text": "Patched Tuesday.",
+     "ts": "2025-08-07T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Yuki",
+     "text": "Patched Tuesday, right, but I haven't told them yet because-",
+     "ts": "2025-08-07T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Meera",
+     "text": "Why haven't we told them?",
+     "ts": "2025-08-07T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Yuki",
+     "text": "Because I want one clean run on their actual dataset first. It goes tonight.",
+     "ts": "2025-08-07T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Meera",
+     "text": "Fine. Note to their account manager by noon tomorrow, please.",
+     "ts": "2025-08-07T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Yuki",
+     "text": "Yep.",
+     "ts": "2025-08-07T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Lena",
+     "text": "Is that, you know, part of a bigger story on exports? It just feels like-",
+     "ts": "2025-08-07T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Pavel",
+     "text": "No. One bad query.",
+     "ts": "2025-08-07T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Lena",
+     "text": "Okay. Fair.",
+     "ts": "2025-08-07T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Meera",
+     "text": "SOC 2 questionnaire. 62 questions, 48 answered, due Friday the fifteenth.",
+     "ts": "2025-08-07T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Lena",
+     "text": "Oh, I had that as this Friday.",
+     "ts": "2025-08-07T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Meera",
+     "text": "The fifteenth. Next week.",
+     "ts": "2025-08-07T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Jonas",
+     "text": "Who's got the last fourteen? Because half of those are surely security's, not ours.",
+     "ts": "2025-08-07T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Meera",
+     "text": "Nine are theirs, five are ours. I'll send the list round.",
+     "ts": "2025-08-07T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Yuki",
+     "text": "Speaking of lists, did everybody get moved to the new calendar thing? Because mine just ate my-",
+     "ts": "2025-08-07T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Jonas",
+     "text": "Mine too. It turned my dentist appointment into an all-hands.",
+     "ts": "2025-08-07T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Lena",
+     "text": "Wait, did people see that?",
+     "ts": "2025-08-07T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Jonas",
+     "text": "Forty people declined my dentist.",
+     "ts": "2025-08-07T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Pavel",
+     "text": "Good.",
+     "ts": "2025-08-07T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Yuki",
+     "text": "No but seriously, every recurring invite came over an hour late, I showed up to the design review and it was just-",
+     "ts": "2025-08-07T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Meera",
+     "text": "That's the time zone import. IT said it would be sorted by Monday.",
+     "ts": "2025-08-07T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Lena",
+     "text": "I kind of like the colours, though. It feels calmer, I mean, generally.",
+     "ts": "2025-08-07T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Jonas",
+     "text": "Calmer because nobody's turning up to anything.",
+     "ts": "2025-08-07T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Yuki",
+     "text": "I sat in that room alone for twenty minutes, I ate a whole-",
+     "ts": "2025-08-07T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Meera",
+     "text": "Okay. Moving on. Insights.",
+     "ts": "2025-08-07T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Lena",
+     "text": "Yes, good, Insights.",
+     "ts": "2025-08-07T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Meera",
+     "text": "We launch September 9th, that's 33 days, and the pricing page has a gap where the trial line goes. Marketing asked me again yesterday.",
+     "ts": "2025-08-07T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Lena",
+     "text": "There's a whole bigger thing here, right, about how people first meet this tier, and whether it feels like-",
+     "ts": "2025-08-07T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Yuki",
+     "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-",
+     "ts": "2025-08-07T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Meera",
+     "text": "Nothing's settled. That's why it's on here.",
+     "ts": "2025-08-07T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Yuki",
+     "text": "Okay. Okay, just checking, because that copy reads like it is.",
+     "ts": "2025-08-07T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Lena",
+     "text": "That was a placeholder, I think? Somebody in marketing, I don't remember who.",
+     "ts": "2025-08-07T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Jonas",
+     "text": "Well, somebody's got to say something, so. Fourteen days, free, and nobody hands over a card. That's how Insights goes out the door.",
+     "ts": "2025-08-07T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Yuki",
+     "text": "Hang on, you? You argued with me about free anything back in March.",
+     "ts": "2025-08-07T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Jonas",
+     "text": "I argue with everybody about everything. Doesn't make me wrong this time.",
+     "ts": "2025-08-07T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Pavel",
+     "text": "Why no card?",
+     "ts": "2025-08-07T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Jonas",
+     "text": "Because of the test the growth team ran on the pricing page in May. They pulled the card field out and signups went up threefold. Three times over.",
+     "ts": "2025-08-07T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Meera",
+     "text": "Threefold. On what base, do you have that?",
+     "ts": "2025-08-07T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Jonas",
+     "text": "Not in front of me, Tomas in growth has the sheet. It wasn't some tiny-",
+     "ts": "2025-08-07T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Yuki",
+     "text": "But that's signups on the main plans, it's not this, it's a different buyer-",
+     "ts": "2025-08-07T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Jonas",
+     "text": "Sure, it's a different buyer, I'm not saying-",
+     "ts": "2025-08-07T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Yuki",
+     "text": "Reporting people are, like, they already have a budget, they're not the same as-",
+     "ts": "2025-08-07T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Jonas",
+     "text": "Which is exactly why they shouldn't have to go find a corporate card to look at a dashboard.",
+     "ts": "2025-08-07T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Lena",
+     "text": "Mm, that's sort of what I was getting at. The first touch, right, it should feel easy.",
+     "ts": "2025-08-07T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Pavel",
+     "text": "Signups aren't revenue.",
+     "ts": "2025-08-07T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Jonas",
+     "text": "No. They aren't. Agreed.",
+     "ts": "2025-08-07T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Pavel",
+     "text": "So?",
+     "ts": "2025-08-07T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Jonas",
+     "text": "So it fills the top. What happens to them after that is on us, I'm not pretending that thing does the selling by itself.",
+     "ts": "2025-08-07T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Meera",
+     "text": "What does one of those accounts cost us? Because Insights isn't a free seat. It backfills twelve months of reports on first login.",
+     "ts": "2025-08-07T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Pavel",
+     "text": "About four dollars.",
+     "ts": "2025-08-07T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Meera",
+     "text": "Per account?",
+     "ts": "2025-08-07T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Pavel",
+     "text": "Per account. One time. Large tenants more.",
+     "ts": "2025-08-07T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Yuki",
+     "text": "How much more, because if somebody with, like, the Halden volume turns it on-",
+     "ts": "2025-08-07T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Pavel",
+     "text": "Thirty. Maybe.",
+     "ts": "2025-08-07T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Meera",
+     "text": "So thirty dollars at the far end, four typical. If that test held at anything like that scale, finance is going to ask me for a total.",
+     "ts": "2025-08-07T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Jonas",
+     "text": "Then give them one. It's still cheaper than the two sales calls we'd spend getting anybody to try it.",
+     "ts": "2025-08-07T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Yuki",
+     "text": "Is it, though? Has anyone actually-",
+     "ts": "2025-08-07T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Lena",
+     "text": "I mean, directionally, it has to be, no?",
+     "ts": "2025-08-07T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Yuki",
+     "text": "Directionally isn't a number, Lena.",
+     "ts": "2025-08-07T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Lena",
+     "text": "No, I know, I know.",
+     "ts": "2025-08-07T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Jonas",
+     "text": "I'll play the other side of my own idea for a second. People will sign up with five different emails and just keep it going forever.",
+     "ts": "2025-08-07T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Yuki",
+     "text": "That's what I was about to say! You took my-",
+     "ts": "2025-08-07T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Jonas",
+     "text": "You were going to take longer.",
+     "ts": "2025-08-07T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Pavel",
+     "text": "Domain check catches most of it.",
+     "ts": "2025-08-07T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Yuki",
+     "text": "Most, okay, free-mail people though, you can't-",
+     "ts": "2025-08-07T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Pavel",
+     "text": "Free-mail people aren't buying Insights.",
+     "ts": "2025-08-07T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Yuki",
+     "text": "Well, some of the small agencies are literally on-",
+     "ts": "2025-08-07T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Meera",
+     "text": "Hold on, one at a time. How many of the May signups were on free email domains, does anyone know?",
+     "ts": "2025-08-07T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Jonas",
+     "text": "No idea. Tomas would.",
+     "ts": "2025-08-07T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Meera",
+     "text": "Okay, that's a follow-up. Jonas, get me the sheet from Tomas, base and domain split, by Monday.",
+     "ts": "2025-08-07T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Jonas",
+     "text": "Will do.",
+     "ts": "2025-08-07T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Lena",
+     "text": "And support? Is that a thing? I feel like someone mentioned it being a thing.",
+     "ts": "2025-08-07T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Yuki",
+     "text": "Support's the thing that actually worries me, because every time we open something up, the queue-",
+     "ts": "2025-08-07T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Meera",
+     "text": "Last time we opened the sandbox, tickets went up about 18 percent for three weeks. Then back down.",
+     "ts": "2025-08-07T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Yuki",
+     "text": "Was it three weeks? Felt like six.",
+     "ts": "2025-08-07T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Meera",
+     "text": "Three. I've got the chart.",
+     "ts": "2025-08-07T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Jonas",
+     "text": "Eighteen percent for three weeks. I could live with that, if I'm honest.",
+     "ts": "2025-08-07T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Pavel",
+     "text": "Fine by me too.",
+     "ts": "2025-08-07T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Yuki",
+     "text": "Yeah, I mean, okay. If it's that and not, like, a permanent- no, okay. That's survivable.",
+     "ts": "2025-08-07T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Lena",
+     "text": "And it says something, doesn't it. Come in, look around, no strings. That's the sort of company we keep telling people we are.",
+     "ts": "2025-08-07T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Jonas",
+     "text": "So that's where I land. Two weeks, nothing on file, and they find out what the thing does on their own data.",
+     "ts": "2025-08-07T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Pavel",
+     "text": "Yep.",
+     "ts": "2025-08-07T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Meera",
+     "text": "Okay. Pavel, I need the Insights entitlement switch in staging by the 20th, and marketing gets final pricing page copy from me next Tuesday.",
+     "ts": "2025-08-07T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Pavel",
+     "text": "The 20th works.",
+     "ts": "2025-08-07T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Yuki",
+     "text": "Do you want me on the page changes, or is that going through web?",
+     "ts": "2025-08-07T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Meera",
+     "text": "Through web, but you review it. Ravi's team can turn it round in about two days.",
+     "ts": "2025-08-07T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Yuki",
+     "text": "Okay, but they'll need the, uh, the event names from me before-",
+     "ts": "2025-08-07T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Meera",
+     "text": "Send those over to them this week.",
+     "ts": "2025-08-07T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Yuki",
+     "text": "Yep. Tomorrow, probably.",
+     "ts": "2025-08-07T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Meera",
+     "text": "Then finance. I'll take Pavel's four dollars to Dmitri, and legal needs a look at the terms page before it goes live.",
+     "ts": "2025-08-07T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Jonas",
+     "text": "Is legal going to be weird about it?",
+     "ts": "2025-08-07T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Meera",
+     "text": "Priya usually needs five working days. So that goes to her by the 22nd at the latest.",
+     "ts": "2025-08-07T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Lena",
+     "text": "Should we be thinking about a, like, a story for the launch email? Something about the bigger picture?",
+     "ts": "2025-08-07T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Meera",
+     "text": "Lena, can you take a first draft? One page. By the 15th.",
+     "ts": "2025-08-07T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Lena",
+     "text": "Sure, yes, I'll rough something out.",
+     "ts": "2025-08-07T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Pavel",
+     "text": "Keep it short.",
+     "ts": "2025-08-07T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Lena",
+     "text": "It'll be short-ish.",
+     "ts": "2025-08-07T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Jonas",
+     "text": "And the free-mail question, do we need-",
+     "ts": "2025-08-07T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Meera",
+     "text": "Let's take that offline once you've got the sheet.",
+     "ts": "2025-08-07T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Jonas",
+     "text": "Fair enough.",
+     "ts": "2025-08-07T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Meera",
+     "text": "Last thing, I'm out the 18th and 19th, so anything for sign-off needs to reach me before Friday the 15th.",
+     "ts": "2025-08-07T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Yuki",
+     "text": "Wait, does that include the Halden thing, or-",
+     "ts": "2025-08-07T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Meera",
+     "text": "Halden's done by noon tomorrow, remember.",
+     "ts": "2025-08-07T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Yuki",
+     "text": "Right, right. Yes.",
+     "ts": "2025-08-07T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Jonas",
+     "text": "And somebody please tell IT about my dentist.",
+     "ts": "2025-08-07T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Pavel",
+     "text": "Forty declines.",
+     "ts": "2025-08-07T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Meera",
+     "text": "Okay, thanks everybody.",
+     "ts": "2025-08-07T10:22:12"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-08-14",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Okay, is that all five? Jonas, you're on mute, I think.",
+     "ts": "2025-08-14T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Jonas",
+     "text": "I'm not on mute, I was just choosing not to talk.",
+     "ts": "2025-08-14T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Pavel",
+     "text": "Rare.",
+     "ts": "2025-08-14T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Meera",
+     "text": "SOC 2 first. It's due tomorrow, the fifteenth. We were at 48 of 62 last week and we're at 60 now.",
+     "ts": "2025-08-14T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Yuki",
+     "text": "Which two are left, because if it's the logging ones I already sent those to-",
+     "ts": "2025-08-14T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Meera",
+     "text": "Both are security's. I'm chasing them at two o'clock.",
+     "ts": "2025-08-14T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Lena",
+     "text": "Oh good, so I did have it right, it was this Friday.",
+     "ts": "2025-08-14T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Jonas",
+     "text": "You had last Friday.",
+     "ts": "2025-08-14T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Lena",
+     "text": "I had a Friday.",
+     "ts": "2025-08-14T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Meera",
+     "text": "Halden. Yuki, that's closed?",
+     "ts": "2025-08-14T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Yuki",
+     "text": "Closed, clean run on their full dataset, took about nine minutes, and their account manager got the note on-",
+     "ts": "2025-08-14T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Pavel",
+     "text": "Wednesday.",
+     "ts": "2025-08-14T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Yuki",
+     "text": "Thursday, actually, but yes, it went out.",
+     "ts": "2025-08-14T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Meera",
+     "text": "Fine. And did IT ever sort the calendar? They told me Monday.",
+     "ts": "2025-08-14T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Jonas",
+     "text": "They did not. My recurring one-on-one is now at seven in the morning.",
+     "ts": "2025-08-14T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Yuki",
+     "text": "Mine fixed itself and then it unfixed itself, I got three copies of the same review, and then one of them-",
+     "ts": "2025-08-14T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Lena",
+     "text": "I still like the colours.",
+     "ts": "2025-08-14T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Jonas",
+     "text": "The dentist has been rescheduled, by the way. By the calendar. Without me.",
+     "ts": "2025-08-14T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Pavel",
+     "text": "Good.",
+     "ts": "2025-08-14T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Yuki",
+     "text": "No, but who's actually got that ticket, because I raised it and it just says pending vendor, and I don't-",
+     "ts": "2025-08-14T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Meera",
+     "text": "Dana in IT. I'll ask her after this. Okay, Insights, because Pavel sent me something last night that I'd like everybody to hear.",
+     "ts": "2025-08-14T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Lena",
+     "text": "Is this the preview thing?",
+     "ts": "2025-08-14T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Meera",
+     "text": "The waitlist preview, yes. Marketing opened it last Thursday on the two-week terms, no card, so we've got seven days of real data. Pavel.",
+     "ts": "2025-08-14T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Pavel",
+     "text": "First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses. Compute is 1.80 dollars per trial account.",
+     "ts": "2025-08-14T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Jonas",
+     "text": "Sorry, 2.1?",
+     "ts": "2025-08-14T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Pavel",
+     "text": "2.1.",
+     "ts": "2025-08-14T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Meera",
+     "text": "So 412 at 2.1, that's what, between eight and nine accounts. Call it nine.",
+     "ts": "2025-08-14T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Yuki",
+     "text": "Nine? Out of four hundred-",
+     "ts": "2025-08-14T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Meera",
+     "text": "And 31 percent is about 128 accounts on throwaway addresses.",
+     "ts": "2025-08-14T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Lena",
+     "text": "Hm. Okay. That's, um, that's not the picture I had in my head.",
+     "ts": "2025-08-14T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Meera",
+     "text": "Pavel, you told us four dollars last week and this says 1.80.",
+     "ts": "2025-08-14T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Pavel",
+     "text": "Backfill's capped in preview. Six months, not twelve.",
+     "ts": "2025-08-14T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Yuki",
+     "text": "So it goes up at launch.",
+     "ts": "2025-08-14T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Pavel",
+     "text": "Likely.",
+     "ts": "2025-08-14T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Meera",
+     "text": "At 1.80 that's 741 dollars and change for one week, and most of that for accounts nobody ever logged back into.",
+     "ts": "2025-08-14T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Jonas",
+     "text": "Okay, but it's a preview. Waitlist people are the curious ones, they sign up for everything, you can't-",
+     "ts": "2025-08-14T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Yuki",
+     "text": "They're not curious, Jonas, they're throwaway addresses, I went through the list this morning, one of them was literally-",
+     "ts": "2025-08-14T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Jonas",
+     "text": "I'm saying a week is a week.",
+     "ts": "2025-08-14T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Yuki",
+     "text": "We are paying to host junk accounts, that's what this is, and every one of them comes straight out of this quarter's infrastructure budget, which we are burning for nothing.",
+     "ts": "2025-08-14T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Meera",
+     "text": "How much of that budget is left, do we know? Dmitri will ask.",
+     "ts": "2025-08-14T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Pavel",
+     "text": "Not much. Storage overran in July.",
+     "ts": "2025-08-14T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Yuki",
+     "text": "Right, so-",
+     "ts": "2025-08-14T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "But isn't this, I mean, isn't this the price of being open? We said that was kind of the point of it.",
+     "ts": "2025-08-14T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Yuki",
+     "text": "The point was people trying it, nobody's trying it, that's nine-",
+     "ts": "2025-08-14T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Jonas",
+     "text": "Let me stick up for it anyway, since it was mine. I got the sheet from Tomas, like you asked.",
+     "ts": "2025-08-14T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Meera",
+     "text": "Base and domain split, go on.",
+     "ts": "2025-08-14T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Jonas",
+     "text": "Just under 9,400 visitors on each arm, 38 percent of signups on free mail, and the threefold holds up. Take that field away and you get three times the people. Put it back, you lose them.",
+     "ts": "2025-08-14T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Pavel",
+     "text": "Lose who, though?",
+     "ts": "2025-08-14T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Jonas",
+     "text": "Well, that's the question, yes.",
+     "ts": "2025-08-14T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Yuki",
+     "text": "Lose these guys, the 128, that's who you lose, and honestly-",
+     "ts": "2025-08-14T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Jonas",
+     "text": "You'd lose some real ones with them.",
+     "ts": "2025-08-14T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Yuki",
+     "text": "Not the ones who matter, because if you make it thirty days and take a card up front, the throwaways just don't bother, and anybody serious gets a proper month with it instead of two weeks.",
+     "ts": "2025-08-14T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Lena",
+     "text": "Thirty days, with the card, so that's the other thing that was floating around?",
+     "ts": "2025-08-14T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Yuki",
+     "text": "Reporting buyers need a month-end in there anyway, that's when they'd actually look at the-",
+     "ts": "2025-08-14T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Jonas",
+     "text": "Hang on, though, those people need a corporate card, I said that last week, and-",
+     "ts": "2025-08-14T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Yuki",
+     "text": "You said it and it was a fair point when we had no numbers.",
+     "ts": "2025-08-14T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Jonas",
+     "text": "It's still a fair point. Somebody in finance at a mid-size company isn't typing in a corporate card to look at a dashboard.",
+     "ts": "2025-08-14T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Pavel",
+     "text": "They'd pay for it. If they want it.",
+     "ts": "2025-08-14T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Jonas",
+     "text": "And double the window means double the hosting, doesn't it?",
+     "ts": "2025-08-14T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Pavel",
+     "text": "No. Backfill's the cost. One time.",
+     "ts": "2025-08-14T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Meera",
+     "text": "So the 1.80, or the four, gets spent once, on the first login, however long they stay.",
+     "ts": "2025-08-14T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Pavel",
+     "text": "Mostly.",
+     "ts": "2025-08-14T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Jonas",
+     "text": "Okay, then what about people who forget and get charged on day 31? That's a refund, that's an angry ticket, that's-",
+     "ts": "2025-08-14T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Meera",
+     "text": "Sandbox was 18 percent more tickets for three weeks, and that was with nothing to bill.",
+     "ts": "2025-08-14T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Yuki",
+     "text": "Six weeks.",
+     "ts": "2025-08-14T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Meera",
+     "text": "Three. And billing tickets are worse, you're not wrong, Jonas.",
+     "ts": "2025-08-14T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "We could maybe, I don't know, be really upfront about it? A reminder or something, so it doesn't feel like a trap.",
+     "ts": "2025-08-14T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Jonas",
+     "text": "That's the payment processor's dunning emails with a nicer hat on.",
+     "ts": "2025-08-14T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Lena",
+     "text": "I mean more the overall feeling of it.",
+     "ts": "2025-08-14T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Yuki",
+     "text": "Can I just- nine accounts. We can argue about how it feels, but nine accounts for 741 dollars is eighty-something dollars an activation.",
+     "ts": "2025-08-14T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Meera",
+     "text": "82, if it's nine.",
+     "ts": "2025-08-14T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Pavel",
+     "text": "Before launch costs.",
+     "ts": "2025-08-14T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Jonas",
+     "text": "And if the card takes signups down to a third, you might get nine anyway. For a lot less. Hm. That's annoying, actually.",
+     "ts": "2025-08-14T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Yuki",
+     "text": "Thank you.",
+     "ts": "2025-08-14T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Jonas",
+     "text": "I didn't say you were right, I said it's annoying.",
+     "ts": "2025-08-14T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Lena",
+     "text": "It does sort of hurt, the no-strings thing. I liked that. But if it's mostly fake accounts then who's it really for, I guess.",
+     "ts": "2025-08-14T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Meera",
+     "text": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup.",
+     "ts": "2025-08-14T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Jonas",
+     "text": "Noted, under protest, for the record.",
+     "ts": "2025-08-14T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Pavel",
+     "text": "Fine.",
+     "ts": "2025-08-14T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Yuki",
+     "text": "Good. Sorry. Good.",
+     "ts": "2025-08-14T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Meera",
+     "text": "Pavel, does that move the 20th for the staging switch?",
+     "ts": "2025-08-14T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Pavel",
+     "text": "No. Card check's maybe a day extra.",
+     "ts": "2025-08-14T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Meera",
+     "text": "Then I rewrite the page copy today. Yuki, you still review it, and Ravi's team needs it by Monday at the latest because I'm out the 18th and 19th.",
+     "ts": "2025-08-14T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Yuki",
+     "text": "Do the event names change? Because I sent those over with the old-",
+     "ts": "2025-08-14T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Pavel",
+     "text": "One new one. Card added.",
+     "ts": "2025-08-14T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Yuki",
+     "text": "Okay, I'll send them that this afternoon.",
+     "ts": "2025-08-14T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Meera",
+     "text": "Priya has to see the terms by the 22nd regardless, and now there's a billing clause, so I'll get it to her tomorrow. Dmitri gets the new per-account figure too.",
+     "ts": "2025-08-14T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Jonas",
+     "text": "Tell him about Tomas's sheet while you're there, or I've carried it around for nothing.",
+     "ts": "2025-08-14T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Meera",
+     "text": "Send it to me. Lena, the launch email draft was due tomorrow, and it'll need to say thirty days and mention the card.",
+     "ts": "2025-08-14T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Lena",
+     "text": "Yep, I'd sort of gone big on the free angle, so, um, I'll rework that bit.",
+     "ts": "2025-08-14T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Pavel",
+     "text": "Short.",
+     "ts": "2025-08-14T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Lena",
+     "text": "Short-ish. Oh, while I've got you all, the other email. The release notes. Could that just go out monthly instead of every week?",
+     "ts": "2025-08-14T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Jonas",
+     "text": "Is anyone reading it either way?",
+     "ts": "2025-08-14T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Lena",
+     "text": "Well, that's kind of it. The weekly send sits at an 11 percent open rate, and the last four issues had almost nothing in them.",
+     "ts": "2025-08-14T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Yuki",
+     "text": "One of them was literally a tooltip fix, I remember because I-",
+     "ts": "2025-08-14T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Lena",
+     "text": "Yes, thank you, the tooltip one.",
+     "ts": "2025-08-14T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Jonas",
+     "text": "Devil's advocate, enterprise customers like Halden might want to see fixes when they ship.",
+     "ts": "2025-08-14T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Pavel",
+     "text": "Their account managers tell them.",
+     "ts": "2025-08-14T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Jonas",
+     "text": "True. Withdrawn.",
+     "ts": "2025-08-14T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Meera",
+     "text": "11 percent and four empty issues, I can't defend that. Approved, the release-notes email goes monthly.",
+     "ts": "2025-08-14T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Lena",
+     "text": "Great, I'll let the content people know and tweak the footer.",
+     "ts": "2025-08-14T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Meera",
+     "text": "Thanks. Anything for sign-off gets to me by tomorrow, please, I mean it.",
+     "ts": "2025-08-14T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Yuki",
+     "text": "Does the copy count, or can that-",
+     "ts": "2025-08-14T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Meera",
+     "text": "The copy's coming from me, Yuki, you just review it.",
+     "ts": "2025-08-14T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Yuki",
+     "text": "Right, right.",
+     "ts": "2025-08-14T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Jonas",
+     "text": "And Dana in IT, about my seven a.m.",
+     "ts": "2025-08-14T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Meera",
+     "text": "I'll ask her.",
+     "ts": "2025-08-14T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Pavel",
+     "text": "Forty declines.",
+     "ts": "2025-08-14T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Jonas",
+     "text": "Forty-one now.",
+     "ts": "2025-08-14T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Meera",
+     "text": "Okay, thanks everybody.",
+     "ts": "2025-08-14T10:21:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-08-21",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Okay, five of us again. Thanks for moving this, I know half the calendar's still wrong.",
+     "ts": "2025-08-21T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Jonas",
+     "text": "Half? I got invited to this twice, and one of them's tomorrow.",
+     "ts": "2025-08-21T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Pavel",
+     "text": "Skip that one.",
+     "ts": "2025-08-21T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Yuki",
+     "text": "Mine said Wednesday, I sat in here yesterday for about ten minutes before I-",
+     "ts": "2025-08-21T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Meera",
+     "text": "Dana says the vendor's patch lands next Tuesday. I asked her before I went out and again this morning.",
+     "ts": "2025-08-21T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Jonas",
+     "text": "And my seven a.m.?",
+     "ts": "2025-08-21T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Meera",
+     "text": "Same patch, apparently.",
+     "ts": "2025-08-21T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "I'd just say, the colours have held up really well through all this.",
+     "ts": "2025-08-21T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Pavel",
+     "text": "Forty-one declines.",
+     "ts": "2025-08-21T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Jonas",
+     "text": "Forty-two. Someone in Lisbon joined late.",
+     "ts": "2025-08-21T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Meera",
+     "text": "SOC 2. Submitted on the fifteenth, 62 of 62. Security got their two in at about ten past four.",
+     "ts": "2025-08-21T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Meera",
+     "text": "Release notes. Lena, footer done?",
+     "ts": "2025-08-21T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Lena",
+     "text": "Footer's done, the content people are happy, and the first monthly one goes out, um, start of September sometime.",
+     "ts": "2025-08-21T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Meera",
+     "text": "The 2nd, according to their sheet.",
+     "ts": "2025-08-21T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Meera",
+     "text": "Staging. Pavel, the switch was due the 20th.",
+     "ts": "2025-08-21T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Pavel",
+     "text": "In. Yesterday.",
+     "ts": "2025-08-21T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Meera",
+     "text": "Thank you. And the backfill?",
+     "ts": "2025-08-21T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Pavel",
+     "text": "Still six months there. Twelve goes in next week.",
+     "ts": "2025-08-21T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Meera",
+     "text": "Okay. Page copy got to Ravi's team on Monday, and Yuki, you reviewed it?",
+     "ts": "2025-08-21T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Yuki",
+     "text": "Reviewed it, two typos, and one of the buttons still said start free, which I flagged because-",
+     "ts": "2025-08-21T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Meera",
+     "text": "That's fixed, I saw it. Priya's had the terms since Friday, so a week ahead of her deadline, and Dmitri has the per-account figure.",
+     "ts": "2025-08-21T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Jonas",
+     "text": "And Tomas's sheet?",
+     "ts": "2025-08-21T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Meera",
+     "text": "And Tomas's sheet, yes, you carried it a long way, well done.",
+     "ts": "2025-08-21T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Lena",
+     "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email.",
+     "ts": "2025-08-21T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Meera",
+     "text": "Is this about the launch email?",
+     "ts": "2025-08-21T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Lena",
+     "text": "Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong.",
+     "ts": "2025-08-21T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Lena",
+     "text": "So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor.",
+     "ts": "2025-08-21T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Pavel",
+     "text": "Say the second one again.",
+     "ts": "2025-08-21T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Lena",
+     "text": "19 percent of the EU attempts. Failed that, the authentication step.",
+     "ts": "2025-08-21T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Meera",
+     "text": "The 64, that's off the preview? Same waitlist page?",
+     "ts": "2025-08-21T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Lena",
+     "text": "I believe so, yes, it's the same, the same sort of place.",
+     "ts": "2025-08-21T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Meera",
+     "text": "So against the 412, that would be, what, about 148 for the week.",
+     "ts": "2025-08-21T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Yuki",
+     "text": "Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those.",
+     "ts": "2025-08-21T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Jonas",
+     "text": "Fewer. Not that many fewer.",
+     "ts": "2025-08-21T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Yuki",
+     "text": "31 percent were junk, you can't be surprised when-",
+     "ts": "2025-08-21T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Jonas",
+     "text": "31 isn't 64, Yuki.",
+     "ts": "2025-08-21T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Yuki",
+     "text": "I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is.",
+     "ts": "2025-08-21T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Jonas",
+     "text": "That was a hypothetical, and I also said it was annoying.",
+     "ts": "2025-08-21T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Pavel",
+     "text": "He did.",
+     "ts": "2025-08-21T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Meera",
+     "text": "Lena, is the 19 percent of all attempts or only EU?",
+     "ts": "2025-08-21T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Lena",
+     "text": "EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number.",
+     "ts": "2025-08-21T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Meera",
+     "text": "Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty?",
+     "ts": "2025-08-21T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "I can ask.",
+     "ts": "2025-08-21T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Pavel",
+     "text": "I can pull it. Processor dashboard.",
+     "ts": "2025-08-21T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Yuki",
+     "text": "Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing-",
+     "ts": "2025-08-21T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Pavel",
+     "text": "Don't know yet. Could be our integration.",
+     "ts": "2025-08-21T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Yuki",
+     "text": "Because if it's ours, that's just a bug, that's not a, you know, that's a ticket.",
+     "ts": "2025-08-21T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Pavel",
+     "text": "Could be. Could be not.",
+     "ts": "2025-08-21T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Meera",
+     "text": "What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now?",
+     "ts": "2025-08-21T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Pavel",
+     "text": "Haven't got it.",
+     "ts": "2025-08-21T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Meera",
+     "text": "At all?",
+     "ts": "2025-08-21T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Pavel",
+     "text": "Week's barely closed. Friday, maybe.",
+     "ts": "2025-08-21T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Yuki",
+     "text": "See, that's what I want to see, because if that 148 turns out to have the same nine in it-",
+     "ts": "2025-08-21T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Jonas",
+     "text": "Can I do my job for a minute? Because you've all gone a bit calm about this.",
+     "ts": "2025-08-21T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Jonas",
+     "text": "That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them.",
+     "ts": "2025-08-21T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Yuki",
+     "text": "You don't know that.",
+     "ts": "2025-08-21T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Jonas",
+     "text": "I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard.",
+     "ts": "2025-08-21T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Yuki",
+     "text": "Some of them have-",
+     "ts": "2025-08-21T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Jonas",
+     "text": "Some. And the ones in the EU who did get the card out, one in five bounced off that check.",
+     "ts": "2025-08-21T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Meera",
+     "text": "19 percent, so a bit under one in five.",
+     "ts": "2025-08-21T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Jonas",
+     "text": "A bit under one in five. Who wanted in, typed it all in, and got told no.",
+     "ts": "2025-08-21T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Pavel",
+     "text": "Numbers first.",
+     "ts": "2025-08-21T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Jonas",
+     "text": "Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked.",
+     "ts": "2025-08-21T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Lena",
+     "text": "It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean.",
+     "ts": "2025-08-21T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Yuki",
+     "text": "A front door without 128 throwaway addresses in it.",
+     "ts": "2025-08-21T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Lena",
+     "text": "Well, yes.",
+     "ts": "2025-08-21T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Jonas",
+     "text": "Meera, you were out for half the week it happened, did Dmitri say anything?",
+     "ts": "2025-08-21T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Meera",
+     "text": "Dmitri asked if the 1.80 had moved. That's all I've had from him.",
+     "ts": "2025-08-21T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Pavel",
+     "text": "Hasn't.",
+     "ts": "2025-08-21T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Yuki",
+     "text": "Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are-",
+     "ts": "2025-08-21T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Jonas",
+     "text": "Oh, the badge thing. Mine stopped working on Tuesday.",
+     "ts": "2025-08-21T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Meera",
+     "text": "Is this about the move?",
+     "ts": "2025-08-21T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Yuki",
+     "text": "Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like-",
+     "ts": "2025-08-21T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Pavel",
+     "text": "It's fine.",
+     "ts": "2025-08-21T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Yuki",
+     "text": "You work from home, Pavel.",
+     "ts": "2025-08-21T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Pavel",
+     "text": "Yes.",
+     "ts": "2025-08-21T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Jonas",
+     "text": "I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about.",
+     "ts": "2025-08-21T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Lena",
+     "text": "There was a nice bit in the facilities email about natural light. I thought that was promising.",
+     "ts": "2025-08-21T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Yuki",
+     "text": "Natural light from what? It's a corridor.",
+     "ts": "2025-08-21T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Meera",
+     "text": "I don't know anything about it, and Dana would be the one to ask, though she's got enough on.",
+     "ts": "2025-08-21T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Jonas",
+     "text": "Add it to her list, under my seven a.m.",
+     "ts": "2025-08-21T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Yuki",
+     "text": "I just want to know before I bring my plant in.",
+     "ts": "2025-08-21T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Meera",
+     "text": "Okay. Back on this, because I'd like to leave here knowing what we don't know.",
+     "ts": "2025-08-21T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Lena",
+     "text": "Yes, good, I'd like that too.",
+     "ts": "2025-08-21T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Meera",
+     "text": "It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page.",
+     "ts": "2025-08-21T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Lena",
+     "text": "The 8th, isn't it? I had the 8th in the email.",
+     "ts": "2025-08-21T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Meera",
+     "text": "The 9th. Fix that one, please.",
+     "ts": "2025-08-21T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Lena",
+     "text": "Fixing it now. Well, in a minute.",
+     "ts": "2025-08-21T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Jonas",
+     "text": "And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty.",
+     "ts": "2025-08-21T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Yuki",
+     "text": "I said they were throwaway addresses, I didn't say-",
+     "ts": "2025-08-21T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Jonas",
+     "text": "You went through the list that morning, I remember.",
+     "ts": "2025-08-21T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Meera",
+     "text": "All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks.",
+     "ts": "2025-08-21T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Yuki",
+     "text": "Six.",
+     "ts": "2025-08-21T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Meera",
+     "text": "Three. Has anyone seen tickets on that failed check, people writing in?",
+     "ts": "2025-08-21T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Yuki",
+     "text": "I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for-",
+     "ts": "2025-08-21T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Meera",
+     "text": "Do that, please, by Monday. Count them, don't describe them.",
+     "ts": "2025-08-21T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Yuki",
+     "text": "Yep.",
+     "ts": "2025-08-21T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Jonas",
+     "text": "And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that.",
+     "ts": "2025-08-21T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Meera",
+     "text": "You've just volunteered. Two or three real accounts, names, what they said, by Tuesday.",
+     "ts": "2025-08-21T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Jonas",
+     "text": "I walked into that.",
+     "ts": "2025-08-21T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Pavel",
+     "text": "Yes.",
+     "ts": "2025-08-21T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Meera",
+     "text": "Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included.",
+     "ts": "2025-08-21T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Pavel",
+     "text": "Friday for most. Failures maybe Monday.",
+     "ts": "2025-08-21T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Meera",
+     "text": "Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary?",
+     "ts": "2025-08-21T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Lena",
+     "text": "Yes, I'll forward it. It's a slide, I think, there's a nice chart.",
+     "ts": "2025-08-21T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Pavel",
+     "text": "Send the base number.",
+     "ts": "2025-08-21T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Lena",
+     "text": "I'll see if there's a base number.",
+     "ts": "2025-08-21T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Meera",
+     "text": "I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table.",
+     "ts": "2025-08-21T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Jonas",
+     "text": "And until then?",
+     "ts": "2025-08-21T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Meera",
+     "text": "Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th.",
+     "ts": "2025-08-21T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Yuki",
+     "text": "So the card stays on the page for now, fine.",
+     "ts": "2025-08-21T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Jonas",
+     "text": "Noted, still under protest, for the record.",
+     "ts": "2025-08-21T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Meera",
+     "text": "It's in the notes, Jonas.",
+     "ts": "2025-08-21T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Lena",
+     "text": "I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass.",
+     "ts": "2025-08-21T10:22:36"
+    },
+    {
+     "idx": 114,
+     "speaker": "Pavel",
+     "text": "Short.",
+     "ts": "2025-08-21T10:22:48"
+    },
+    {
+     "idx": 115,
+     "speaker": "Lena",
+     "text": "Short-ish.",
+     "ts": "2025-08-21T10:23:00"
+    },
+    {
+     "idx": 116,
+     "speaker": "Meera",
+     "text": "Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th.",
+     "ts": "2025-08-21T10:23:12"
+    },
+    {
+     "idx": 117,
+     "speaker": "Yuki",
+     "text": "Mine's got it on a Wednesday.",
+     "ts": "2025-08-21T10:23:24"
+    },
+    {
+     "idx": 118,
+     "speaker": "Jonas",
+     "text": "Mine's got it in Lisbon.",
+     "ts": "2025-08-21T10:23:36"
+    },
+    {
+     "idx": 119,
+     "speaker": "Meera",
+     "text": "Okay, thanks everybody.",
+     "ts": "2025-08-21T10:23:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m4",
+   "date": "2025-08-28",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Okay, is that five? Did this slot actually land on everyone's calendar this time?",
+     "ts": "2025-08-28T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Jonas",
+     "text": "It did. Also in Lisbon, but it did.",
+     "ts": "2025-08-28T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Yuki",
+     "text": "Mine moved on its own at, like, nine this morning, so I don't-",
+     "ts": "2025-08-28T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Meera",
+     "text": "Dana says the patch went in on Tuesday as planned.",
+     "ts": "2025-08-28T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Jonas",
+     "text": "My seven a.m. is now at six.",
+     "ts": "2025-08-28T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Pavel",
+     "text": "Progress.",
+     "ts": "2025-08-28T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Lena",
+     "text": "The colours shifted a bit too, did anyone- no? Just me?",
+     "ts": "2025-08-28T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Pavel",
+     "text": "Forty-two declines.",
+     "ts": "2025-08-28T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Meera",
+     "text": "Release notes. First monthly one is the 2nd, so Tuesday. Lena, is it ready?",
+     "ts": "2025-08-28T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Lena",
+     "text": "Nearly, um, the content people have it, it's got a nice sort of shape to it.",
+     "ts": "2025-08-28T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Meera",
+     "text": "Good. Yuki, did anything come of the floor thing, since you raised it?",
+     "ts": "2025-08-28T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Yuki",
+     "text": "So Sanjay says it's definitely happening, the readers went in Monday, we're down by the printers from the 15th, and I already took the plant home because-",
+     "ts": "2025-08-28T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Jonas",
+     "text": "My badge works again, but only on the door to the kitchen.",
+     "ts": "2025-08-28T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Lena",
+     "text": "Well, that's the important door.",
+     "ts": "2025-08-28T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Yuki",
+     "text": "No but the printers, the big one does this thing every ninety seconds, this sort of-",
+     "ts": "2025-08-28T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Pavel",
+     "text": "Still fine.",
+     "ts": "2025-08-28T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Yuki",
+     "text": "You've never met it, Pavel.",
+     "ts": "2025-08-28T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Meera",
+     "text": "Okay. We'll survive the printers. Insights.",
+     "ts": "2025-08-28T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Meera",
+     "text": "Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open.",
+     "ts": "2025-08-28T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Jonas",
+     "text": "Finally.",
+     "ts": "2025-08-28T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Meera",
+     "text": "Twelve days to the 9th. Everything I asked for last week, one at a time. Pavel, the 148.",
+     "ts": "2025-08-28T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Pavel",
+     "text": "148 signups. 3.4 percent activated. Five accounts.",
+     "ts": "2025-08-28T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Yuki",
+     "text": "Okay, but five out of- that's a better rate, right, that's up from 2.1 and-",
+     "ts": "2025-08-28T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Jonas",
+     "text": "Five is less than nine, Yuki.",
+     "ts": "2025-08-28T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Yuki",
+     "text": "It's a better rate on a cleaner-",
+     "ts": "2025-08-28T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Pavel",
+     "text": "Throwaways about 3 percent. Four accounts.",
+     "ts": "2025-08-28T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Yuki",
+     "text": "Thank you. Four, not 128.",
+     "ts": "2025-08-28T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Meera",
+     "text": "So it did clear out the junk. It also took four of the nine real ones with it, if that's what they were.",
+     "ts": "2025-08-28T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Lena",
+     "text": "Hm. It's kind of a smaller room but a, a nicer room? I don't know.",
+     "ts": "2025-08-28T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Meera",
+     "text": "Failures. Pavel, the count behind the 19.",
+     "ts": "2025-08-28T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Pavel",
+     "text": "96 EU attempts first week, 18 failed. Second week, 110 and 21.",
+     "ts": "2025-08-28T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Meera",
+     "text": "So 18.75, then 19.1. And the EU's what share of attempts overall?",
+     "ts": "2025-08-28T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Pavel",
+     "text": "57 percent.",
+     "ts": "2025-08-28T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Yuki",
+     "text": "Is that us, though, because I said last time, if it's a bug then-",
+     "ts": "2025-08-28T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Pavel",
+     "text": "Not a bug. Issuer banks want the newer flow. Processor ships their version in January.",
+     "ts": "2025-08-28T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Jonas",
+     "text": "January.",
+     "ts": "2025-08-28T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Meera",
+     "text": "Yuki, tickets.",
+     "ts": "2025-08-28T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Yuki",
+     "text": "23 with the payment error tag since the 14th, and I read them, a bunch of them are people who-",
+     "ts": "2025-08-28T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Meera",
+     "text": "Count, I said, not describe.",
+     "ts": "2025-08-28T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Yuki",
+     "text": "Twenty-three. Fine.",
+     "ts": "2025-08-28T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Jonas",
+     "text": "My homework. Two accounts from sales. Corvane Logistics, their procurement won't issue a card for any trial, and Brightmoor Health said much the same.",
+     "ts": "2025-08-28T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Meera",
+     "text": "Lena, did that slide have a base number on it?",
+     "ts": "2025-08-28T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "It did not, no, but it's got a lovely, um, I forwarded it. It's sort of directional.",
+     "ts": "2025-08-28T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Pavel",
+     "text": "412 to 148. That's the base.",
+     "ts": "2025-08-28T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Jonas",
+     "text": "Okay, so, what nobody's said yet. The new shared query cache has taken compute down to 0.30 dollars a trial account, so the cost worry we started with is just gone, and those EU failures can't be fixed this quarter, so I'm saying back to the 14 days, free, no card.",
+     "ts": "2025-08-28T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Meera",
+     "text": "0.30, Pavel? With the twelve months on?",
+     "ts": "2025-08-28T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Pavel",
+     "text": "Yes. Went in Monday. Backfill's mostly shared queries.",
+     "ts": "2025-08-28T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Meera",
+     "text": "So 412 accounts at that is 123 dollars 60, against 741 for that first week.",
+     "ts": "2025-08-28T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Jonas",
+     "text": "And with nine activating, that's under fourteen dollars each. It was 82.",
+     "ts": "2025-08-28T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Yuki",
+     "text": "Sure, but it's still junk, it's 128 throwaway-",
+     "ts": "2025-08-28T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Jonas",
+     "text": "Who now cost us, what-",
+     "ts": "2025-08-28T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Meera",
+     "text": "38 dollars 40.",
+     "ts": "2025-08-28T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Yuki",
+     "text": "Okay, that's- hm. But money was only half of it, the other half is they're just noise in every number we-",
+     "ts": "2025-08-28T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Pavel",
+     "text": "Domain filter. In the report.",
+     "ts": "2025-08-28T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Yuki",
+     "text": "And the people who actually want a month, with a month-end in it, where do they-",
+     "ts": "2025-08-28T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Jonas",
+     "text": "No, that's real, I'll argue your side for you. Two weeks can miss a month-end.",
+     "ts": "2025-08-28T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Yuki",
+     "text": "See?",
+     "ts": "2025-08-28T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Jonas",
+     "text": "It can also miss it with a declined card.",
+     "ts": "2025-08-28T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Lena",
+     "text": "I mean, the whole spirit of it was come in, look around, wasn't it. I did sort of keep a bit of that in the email, just in case.",
+     "ts": "2025-08-28T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Pavel",
+     "text": "Of course you did.",
+     "ts": "2025-08-28T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Yuki",
+     "text": "And support, though, every time we open something up it's 18 percent for six-",
+     "ts": "2025-08-28T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Meera",
+     "text": "Three. And with nothing to bill there's no refund on day 31, and those 23 tickets stop coming.",
+     "ts": "2025-08-28T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Yuki",
+     "text": "I mean, okay. I don't love it. Most of what I was waving around was the 1.80, and that's, yeah.",
+     "ts": "2025-08-28T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Meera",
+     "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required.",
+     "ts": "2025-08-28T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Jonas",
+     "text": "I'd like my protest removed from the notes, please.",
+     "ts": "2025-08-28T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Meera",
+     "text": "It stays in, Jonas. Both of them.",
+     "ts": "2025-08-28T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Pavel",
+     "text": "Staging switch flipped back by tomorrow.",
+     "ts": "2025-08-28T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Meera",
+     "text": "Thank you. I'll redo the page copy today, Yuki reviews it, and it's with Ravi's team Monday, they need about two days.",
+     "ts": "2025-08-28T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Yuki",
+     "text": "Event names, do I need to-",
+     "ts": "2025-08-28T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Pavel",
+     "text": "Card added goes away.",
+     "ts": "2025-08-28T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Yuki",
+     "text": "Okay, I'll tell them this afternoon. And that button can say start free again, which, funny.",
+     "ts": "2025-08-28T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Meera",
+     "text": "Priya gets the terms tomorrow with the billing clause out, five working days puts us at the 5th. Dmitri gets the 0.30 today.",
+     "ts": "2025-08-28T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Lena",
+     "text": "And I'll do the email, um, that's mostly just un-reworking it. It says the 9th now, I checked.",
+     "ts": "2025-08-28T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Pavel",
+     "text": "Short.",
+     "ts": "2025-08-28T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Lena",
+     "text": "Short-ish.",
+     "ts": "2025-08-28T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Jonas",
+     "text": "And Dana, about my six a.m.",
+     "ts": "2025-08-28T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Meera",
+     "text": "I'll ask her. Okay, thanks everybody.",
+     "ts": "2025-08-28T10:15:12"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "set_id": "set_01014",
+ "method": "single_pass+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Meera",
+   "confidence": 0.75
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    0,
+    1
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8
+  }
+ ]
+}

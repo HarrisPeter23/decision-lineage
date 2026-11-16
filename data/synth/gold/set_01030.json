@@ -1,0 +1,419 @@
+{
+ "set_id": "set_01030",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "data and analytics team",
+  "seed": 1030,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 73
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 72
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 92
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "which dashboard tool the analytics team standardises on",
+ "options": {
+  "A": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+  "B": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month"
+ },
+ "cast": [
+  {
+   "name": "Pavel",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Greta",
+   "slot": "proposer",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Kofi",
+   "slot": "challenger",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Marco",
+   "slot": "supporter",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Aisha",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    18
+   ],
+   "gist": "Greta proposes standardising on Plotbench, the free self-hosted dashboard tool.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Greta",
+   "utterance_idxs": [
+    21,
+    23
+   ],
+   "gist": "Greta argues that it has no licence cost against about 13,400 dollars a year for Lumenboard across 62 viewers, takes about one engineer-day a week to maintain, and the SQL behind the 40 existing dashboards ports straight over.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    72
+   ],
+   "gist": "Pavel settles it: the team standardises on Plotbench.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    31
+   ],
+   "gist": "Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Kofi objects that Plotbench needs SQL for everything, which blocks the 30 non-technical users, and the analyst time being lost is worth more than the licence.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Pavel reopens the dashboard tool decision after another week of requests came in at the same rate.",
+   "version": 1,
+   "option_key": "A",
+   "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    31
+   ],
+   "gist": "Kofi argues for Lumenboard because its drag-and-drop builder lets finance and operations build their own charts, which saves about 2.5 analyst-days a week, it is hosted so there is nothing to maintain, and a converter tested on 12 of the 40 dashboards imports their queries.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    75
+   ],
+   "gist": "Pavel gives the go-ahead for Lumenboard without naming it, by asking Aisha to get procurement started on the paperwork.",
+   "version": 2,
+   "option_key": "B",
+   "option": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month",
+   "implicit": true,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01030-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about which dashboard tool the analytics team standardises on?",
+   "answer_text": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month",
+   "answer_facts": {
+    "option": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01030-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about which dashboard tool the analytics team standardises on?",
+   "answer_text": "meeting 1: Pavel - Pavel settles it: the team standardises on Plotbench.; meeting 3: Pavel - Pavel gives the go-ahead for Lumenboard without naming it, by asking Aisha to get procurement started on the paperwork.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01030-q03",
+   "type": "as_of",
+   "question": "What was the decision about which dashboard tool the analytics team standardises on as of the end of meeting 1?",
+   "answer_text": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01030-q04",
+   "type": "as_of",
+   "question": "What was the decision about which dashboard tool the analytics team standardises on as of the end of meeting 2?",
+   "answer_text": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01030-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about which dashboard tool the analytics team standardises on change over time?",
+   "answer_text": "Plotbench, a free self-hosted dashboard tool that runs on SQL queries (from meeting 1) -> Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "Plotbench, a free self-hosted dashboard tool that runs on SQL queries",
+     "Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01030-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about which dashboard tool the analytics team standardises on changed?",
+   "answer_text": "Before: Plotbench, a free self-hosted dashboard tool that runs on SQL queries, because Greta argues that it has no licence cost against about 13,400 dollars a year for Lumenboard across 62 viewers, takes about one engineer-day a week to maintain, and the SQL behind the 40 existing dashboards ports straight over. Triggered by: Aisha (evidence): Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week. Kofi (challenge): Kofi objects that Plotbench needs SQL for everything, which blocks the 30 non-technical users, and the analyst time being lost is worth more than the licence. Pavel (reconsideration): Pavel reopens the dashboard tool decision after another week of requests came in at the same rate. After: Lumenboard, a hosted commercial BI tool with a drag-and-drop builder at 18 dollars per viewer per month, because Kofi argues for Lumenboard because its drag-and-drop builder lets finance and operations build their own charts, which saves about 2.5 analyst-days a week, it is hosted so there is nothing to maintain, and a converter tested on 12 of the 40 dashboards imports their queries.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01030-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about which dashboard tool the analytics team standardises on?",
+   "answer_text": "Greta",
+   "answer_facts": {
+    "speaker": "Greta"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01030-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about which dashboard tool the analytics team standardises on?",
+   "answer_text": "Aisha (evidence): Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week. Kofi (challenge): Kofi objects that Plotbench needs SQL for everything, which blocks the 30 non-technical users, and the analyst time being lost is worth more than the licence.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01030-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about which dashboard tool the analytics team standardises on?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01030-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about which dashboard tool the analytics team standardises on from proposal to final outcome.",
+   "answer_text": "meeting 1 - Greta [proposal]: Greta proposes standardising on Plotbench, the free self-hosted dashboard tool. | meeting 1 - Greta [rationale]: Greta argues that it has no licence cost against about 13,400 dollars a year for Lumenboard across 62 viewers, takes about one engineer-day a week to maintain, and the SQL behind the 40 existing dashboards ports straight over. | meeting 1 - Pavel [resolution]: Pavel settles it: the team standardises on Plotbench. | meeting 2 - Aisha [evidence]: Aisha reports that three weeks in the finance team cannot build their own charts, analysts have received 58 change requests against 11 in a normal three weeks, and maintenance is taking two days a week. | meeting 2 - Kofi [challenge]: Kofi objects that Plotbench needs SQL for everything, which blocks the 30 non-technical users, and the analyst time being lost is worth more than the licence. | meeting 3 - Pavel [reconsideration]: Pavel reopens the dashboard tool decision after another week of requests came in at the same rate. | meeting 3 - Kofi [rationale]: Kofi argues for Lumenboard because its drag-and-drop builder lets finance and operations build their own charts, which saves about 2.5 analyst-days a week, it is hosted so there is nothing to maintain, and a converter tested on 12 of the 40 dashboards imports their queries. | meeting 3 - Pavel [resolution]: Pavel gives the go-ahead for Lumenboard without naming it, by asking Aisha to get procurement started on the paperwork.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

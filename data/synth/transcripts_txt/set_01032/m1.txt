@@ -1,0 +1,96 @@
+Meeting: m1
+Date: 2025-06-12
+Participants: Sofia, Pavel, Kofi, Bashir, Priya
+
+Sofia: Okay, let's get going, I know Bashir has a hard stop at eleven.
+Bashir: Yep. Eleven sharp.
+Sofia: So, a couple of things. Audit events for billing, that's the main one. And the on-call swap.
+Priya: Um, before we start, did anyone see Rania's email about the staging freeze?
+Sofia: Rania's, uh, I saw the subject line. Something about Thursday?
+Priya: I think maybe it's Wednesday night through Thursday morning. I wasn't sure.
+Bashir: Wednesday.
+Sofia: Okay, Wednesday. Fine. We don't have a deploy planned anyway, right?
+Kofi: Not unless somebody sneaks one in.
+Sofia: Nobody's sneaking. Okay, audit events. So compliance has been asking where these live, and right now they're just, you know, log lines.
+Kofi: Log lines that rotate after thirty days.
+Sofia: Right, which is the problem. Sunita from compliance wants something queryable, and kept for a lot longer.
+Priya: How much longer, do we know?
+Sofia: Seven years was the number floating around. I'd have to double check that.
+Bashir: Seven is standard.
+Pavel: Okay so, I've been thinking about this since Monday, and honestly I'd just put them in the database we already have. A table, append-only, no updates, no deletes, and partition it by month so old stuff is easy to detach and archive. That's what I'd want.
+Kofi: Hang on, append-only how? Like enforced, or just by convention?
+Pavel: Enforced. Revoke update and delete from the service account, only insert. I did that on the old ledger thing at my last place.
+Kofi: Mm. Okay.
+Sofia: So that's, um, the big picture, one table, same database.
+Pavel: Yeah. And the reason it's attractive is, well, there's nothing new to stand up. No new cluster, no new on-call thing, nobody has to learn anything.
+Priya: That's true, I guess.
+Pavel: And the other thing, when compliance asks which invoice an event belongs to, you just join. It's the same database, so it's one query, not two systems stitched together.
+Kofi: Sure, but how big does it get? That's the thing I'd worry about.
+Pavel: So we're at about four million events a month, right? Priya, that's your number from the dashboard.
+Priya: Um, I think it was closer to three point eight? Maybe four. It's around there.
+Pavel: Right, round it to four. And each row is tiny, so that's about three gigs a month. Three, maybe a bit more. Which is nothing. We have more than that in temp files.
+Kofi: Three a month, so what, thirty-something a year.
+Pavel: Roughly. Over seven years it's, uh, I'd have to get the calculator out, but it's not scary.
+Bashir: Not scary.
+Kofi: Okay, devil's advocate. A table that only grows. What does that do to backups?
+Pavel: Detach old partitions, dump them to cold storage. That's the whole point of the monthly split.
+Kofi: And vacuum? Or whatever, index bloat?
+Pavel: Append-only, so there's basically nothing to vacuum. It's the nicest kind of table.
+Priya: I think maybe the index thing is still worth a look? Like if we index by invoice and by time, that's two indexes on every insert.
+Pavel: It's two. Two indexes on four million a month is, I mean, that's like one or two a second. The database won't notice.
+Bashir: Agree.
+Kofi: Okay, but what about the noisy neighbor angle. If audit writes spike, they're hitting the same box as the invoice stuff.
+Sofia: Is that a real worry? Like has it spiked before?
+Kofi: Month end. Everything spikes at month end.
+Pavel: Month end it's maybe three times normal. Still tiny.
+Priya: Um, I could pull the month-end numbers if we want. I think I have them from the capacity review.
+Sofia: That'd be good, Priya, but I don't want to hold things up on it.
+Priya: No, no, of course. I'll just send it around.
+Kofi: Fine. Someone has to say it, and I said it.
+Pavel: Appreciated, honestly.
+Sofia: Okay. Switching for a sec. Gabor pinged me about the load test environment. Does anyone know who owns that now?
+Bashir: Nikos.
+Sofia: Nikos, right, I thought it moved to Nikos. Okay, I'll ask him.
+Pavel: Speaking of Nikos, did you all hear about his bike thing? He rode to the office in the rain, from, what, twenty kilometers away, and then realized he left his badge at home.
+Kofi: Of course he did.
+Pavel: And so Irina had to let him in, and they got talking, and it turns out Irina used to race. Like properly, in a club. She did a thing in the hills outside Brno, one of those long climbs where you can't even see the top.
+Priya: Oh, that's interesting, I didn't know that.
+Pavel: Yeah and she said the trick is you never look up, you just look at the wheel in front of you. Which, I mean, is kind of good advice for most things.
+Sofia: Pavel, I love it, but we have Bashir for another twenty minutes.
+Pavel: Right, right. Sorry. Tangent.
+Bashir: Ten minutes now, actually.
+Sofia: Okay. Okay. Back to audit events. Before I decide anything, is there anyone who thinks the table is a bad idea outright?
+Kofi: Not outright. I'd want to see the month-end numbers, but I'm not going to die on it.
+Priya: I think maybe, um, I'm fine with it. As long as someone writes down the retention bit.
+Sofia: The retention. Right. Meaning, how long we keep the detached partitions.
+Priya: Yes. And where they go.
+Pavel: I'll write that up. Seven years, cold storage bucket, some kind of checksum.
+Sofia: Do we need Sunita to sign off on the bucket?
+Pavel: Probably. I'll send her the design when it exists.
+Sofia: Good. Sanne also had a question, something about whether the events carry the user's email.
+Bashir: They shouldn't.
+Pavel: They carry a user id. Not the email.
+Sofia: Okay, that was Sanne's question, so I'll tell her. User id only.
+Kofi: And if someone deletes a user, for privacy?
+Pavel: The id stays, the user record goes. Compliance has been okay with that before.
+Kofi: Has been. Okay.
+Sofia: Alright. I'm hearing a lot of comfort and a few small asks. Month-end numbers, the retention doc, Sunita on the bucket. Nobody is saying stop.
+Bashir: Nobody.
+Sofia: Then it's decided. Audit events go into the monthly-partitioned table in our existing database, and we'll build against that.
+Pavel: Great. I'll start on the schema tomorrow.
+Sofia: Perfect. Not urgent urgent, but this sprint if you can.
+Pavel: Yep.
+Kofi: Who's reviewing the grants part? The revoke stuff?
+Bashir: Me.
+Sofia: Thanks, Bashir. Okay, the on-call swap. Priya, you asked about trading the week of the twenty-third?
+Priya: Um, yes, I think maybe, if it's okay. I have a family thing and I wasn't sure if it clashed.
+Kofi: I can take the twenty-third. I'm free.
+Priya: Oh, really? That's, um, thank you. I can take your week in July then.
+Kofi: Sure. Whichever one it is.
+Sofia: I'll update the sheet, just remind me which July week.
+Priya: The seventh, I think. Or the fourteenth. I'll check.
+Sofia: Okay, send me the actual one.
+Priya: I will.
+Bashir: Gotta go.
+Sofia: Yep, go, go. Thanks everyone.
+Bashir: Bye.

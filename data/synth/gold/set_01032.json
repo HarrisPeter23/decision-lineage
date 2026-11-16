@@ -1,0 +1,485 @@
+{
+ "set_id": "set_01032",
+ "meta": {
+  "arc_type": "partial_override",
+  "domain": "backend engineering team",
+  "seed": 1032,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 103
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 86
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 120
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "where the billing service's audit events are stored",
+ "options": {
+  "A": "an append-only table in the existing relational database, partitioned by month",
+  "A+M": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention"
+ },
+ "cast": [
+  {
+   "name": "Sofia",
+   "slot": "manager",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Pavel",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Kofi",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Bashir",
+   "slot": "supporter",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Priya",
+   "slot": "observer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "an append-only table in the existing relational database, partitioned by month"
+  },
+  {
+   "version": 2,
+   "option": "A+M",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    15
+   ],
+   "gist": "Pavel proposes keeping the billing service's audit events in an append-only table in the existing relational database, partitioned by month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    26
+   ],
+   "gist": "Pavel argues that it needs no new infrastructure, queries can join straight to invoices, and at 4 million events a month the table grows by only about 3 gigabytes a month.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    74
+   ],
+   "gist": "Sofia settles it: audit events go into a monthly-partitioned table in the existing database.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    20,
+    21
+   ],
+   "gist": "Priya reports that the auditors require seven years of retention, which at the current growth means about 250 gigabytes, and that this would push the primary's backup window from 40 minutes to 95 minutes within three years, past the 60-minute maintenance window.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    24
+   ],
+   "gist": "Kofi objects that keeping seven years on the primary will break the backup window and slow down the failover tests.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    24
+   ],
+   "gist": "Sofia reopens the storage question in light of the retention requirement.",
+   "version": 1,
+   "option_key": "A",
+   "option": "an append-only table in the existing relational database, partitioned by month",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Bashir",
+   "utterance_idxs": [
+    40,
+    41
+   ],
+   "gist": "Bashir argues for keeping the table but exporting closed partitions nightly to object storage and holding only 90 days hot, since seven years in cold storage costs about 5 dollars a month and the auditors confirmed by email that checksummed exports in an open columnar file format are acceptable.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    77
+   ],
+   "gist": "Sofia decides: the partitioned table stays, with 90 days hot and nightly exports of closed partitions to object storage.",
+   "version": 2,
+   "option_key": "A+M",
+   "option": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "the slow-query alert threshold",
+  "option": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Bashir",
+    "utterance_idxs": [
+     46
+    ],
+    "gist": "Bashir suggests raising the slow-query alert threshold from 200 milliseconds to 500.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Bashir",
+    "utterance_idxs": [
+     48
+    ],
+    "gist": "Bashir points out that the 200 millisecond threshold fired 63 times last week and 58 of those were the nightly report job.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Sofia",
+    "utterance_idxs": [
+     58
+    ],
+    "gist": "Sofia approves raising the slow-query alert threshold to 500 milliseconds.",
+    "version": null,
+    "option_key": null,
+    "option": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01032-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about where the billing service's audit events are stored?",
+   "answer_text": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention",
+   "answer_facts": {
+    "option": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about where the billing service's audit events are stored?",
+   "answer_text": "meeting 1: Sofia - Sofia settles it: audit events go into a monthly-partitioned table in the existing database.; meeting 3: Sofia - Sofia decides: the partitioned table stays, with 90 days hot and nightly exports of closed partitions to object storage.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "an append-only table in the existing relational database, partitioned by month",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q03",
+   "type": "as_of",
+   "question": "What was the decision about where the billing service's audit events are stored as of the end of meeting 2?",
+   "answer_text": "an append-only table in the existing relational database, partitioned by month",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "an append-only table in the existing relational database, partitioned by month"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01032-q04",
+   "type": "as_of",
+   "question": "What was the decision about where the billing service's audit events are stored as of the end of meeting 3?",
+   "answer_text": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about where the billing service's audit events are stored change over time?",
+   "answer_text": "an append-only table in the existing relational database, partitioned by month (from meeting 1) -> the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "an append-only table in the existing relational database, partitioned by month",
+     "the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01032-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about where the billing service's audit events are stored changed?",
+   "answer_text": "Before: an append-only table in the existing relational database, partitioned by month, because Pavel argues that it needs no new infrastructure, queries can join straight to invoices, and at 4 million events a month the table grows by only about 3 gigabytes a month. Triggered by: Priya (evidence): Priya reports that the auditors require seven years of retention, which at the current growth means about 250 gigabytes, and that this would push the primary's backup window from 40 minutes to 95 minutes within three years, past the 60-minute maintenance window. Kofi (challenge): Kofi objects that keeping seven years on the primary will break the backup window and slow down the failover tests. Sofia (reconsideration): Sofia reopens the storage question in light of the retention requirement. After: the same partitioned table, keeping only 90 days hot and exporting closed partitions nightly to cheap object storage for seven-year retention, because Bashir argues for keeping the table but exporting closed partitions nightly to object storage and holding only 90 days hot, since seven years in cold storage costs about 5 dollars a month and the auditors confirmed by email that checksummed exports in an open columnar file format are acceptable.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about where the billing service's audit events are stored?",
+   "answer_text": "Pavel",
+   "answer_facts": {
+    "speaker": "Pavel"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01032-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about where the billing service's audit events are stored?",
+   "answer_text": "Priya (evidence): Priya reports that the auditors require seven years of retention, which at the current growth means about 250 gigabytes, and that this would push the primary's backup window from 40 minutes to 95 minutes within three years, past the 60-minute maintenance window. Kofi (challenge): Kofi objects that keeping seven years on the primary will break the backup window and slow down the failover tests.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01032-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about where the billing service's audit events are stored?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about where the billing service's audit events are stored from proposal to final outcome.",
+   "answer_text": "meeting 1 - Pavel [proposal]: Pavel proposes keeping the billing service's audit events in an append-only table in the existing relational database, partitioned by month. | meeting 1 - Pavel [rationale]: Pavel argues that it needs no new infrastructure, queries can join straight to invoices, and at 4 million events a month the table grows by only about 3 gigabytes a month. | meeting 1 - Sofia [resolution]: Sofia settles it: audit events go into a monthly-partitioned table in the existing database. | meeting 2 - Priya [evidence]: Priya reports that the auditors require seven years of retention, which at the current growth means about 250 gigabytes, and that this would push the primary's backup window from 40 minutes to 95 minutes within three years, past the 60-minute maintenance window. | meeting 2 - Kofi [challenge]: Kofi objects that keeping seven years on the primary will break the backup window and slow down the failover tests. | meeting 3 - Sofia [reconsideration]: Sofia reopens the storage question in light of the retention requirement. | meeting 3 - Bashir [rationale]: Bashir argues for keeping the table but exporting closed partitions nightly to object storage and holding only 90 days hot, since seven years in cold storage costs about 5 dollars a month and the auditors confirmed by email that checksummed exports in an open columnar file format are acceptable. | meeting 3 - Sofia [resolution]: Sofia decides: the partitioned table stays, with 90 days hot and nightly exports of closed partitions to object storage.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01032-q11",
+   "type": "distractor",
+   "question": "What was decided about the slow-query alert threshold?",
+   "answer_text": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds",
+   "answer_facts": {
+    "option": "raise the slow-query alert threshold from 200 milliseconds to 500 milliseconds"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

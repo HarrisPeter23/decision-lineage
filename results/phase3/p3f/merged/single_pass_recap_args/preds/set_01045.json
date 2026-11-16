@@ -1,0 +1,499 @@
+{
+ "set_id": "set_01045",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.75,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sven",
+   "confidence": 0.65,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "renewing the push provider contract",
+   "option": "year at nine hundred a month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "choosing the venue for the team offsite",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Lena",
+   "confidence": 0.85,
+   "decision": "choosing the venue for the team offsite",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sana",
+   "confidence": 0.85,
+   "decision": "renewing the push provider contract",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Camila",
+   "confidence": 0.85,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Camila",
+   "confidence": 0.85,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "renewing the push provider contract",
+   "option": "building it ourselves"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Sana",
+   "confidence": 0.95,
+   "decision": "choosing the venue for the team offsite",
+   "option": "co-working space"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    32,
+    34,
+    35
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    45,
+    47
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "choosing the venue for the team offsite",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "choosing the venue for the team offsite",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract (option: building it ourselves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract (option: building it ourselves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "renewing the push provider contract (option: building it ourselves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "choosing the venue for the team offsite (option: co-working space)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract (option: building it ourselves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "renewing the push provider contract (option: building it ourselves)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "model": "qwen3:14b",
+ "digest": [
+  "bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8"
+ ],
+ "corpora": {
+  "test_k10_02": {
+   "meetings": 6,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 71,
+   "decided": 37,
+   "states": 37,
+   "slots": 35,
+   "seconds": 1250
+  },
+  "ami_ES2003": {
+   "meetings": 4,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 82,
+   "decided": 25,
+   "states": 25,
+   "slots": 21,
+   "seconds": 919
+  },
+  "ami_ES2002": {
+   "meetings": 4,
+   "extract_failed": 3,
+   "route_failed": 0,
+   "updates": 104,
+   "decided": 51,
+   "states": 48,
+   "slots": 45,
+   "seconds": 2183
+  },
+  "ami_ES2013": {
+   "meetings": 4,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 89,
+   "decided": 30,
+   "states": 30,
+   "slots": 28,
+   "seconds": 1205
+  },
+  "ami_TS3004": {
+   "meetings": 4,
+   "extract_failed": 2,
+   "route_failed": 0,
+   "updates": 95,
+   "decided": 51,
+   "states": 50,
+   "slots": 45,
+   "seconds": 1988
+  },
+  "test_k10_00": {
+   "meetings": 32,
+   "extract_failed": 1,
+   "route_failed": 4,
+   "updates": 400,
+   "decided": 169,
+   "states": 168,
+   "slots": 154,
+   "seconds": 4248
+  },
+  "test_k10_01": {
+   "meetings": 31,
+   "extract_failed": 0,
+   "route_failed": 4,
+   "updates": 501,
+   "decided": 255,
+   "states": 250,
+   "slots": 223,
+   "seconds": 4760
+  },
+  "test_k1_01": {
+   "meetings": 4,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 30,
+   "decided": 12,
+   "states": 12,
+   "slots": 10,
+   "seconds": 601
+  },
+  "test_k1_09": {
+   "meetings": 4,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 35,
+   "decided": 14,
+   "states": 14,
+   "slots": 12,
+   "seconds": 631
+  },
+  "test_k1_00": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 37,
+   "decided": 18,
+   "states": 18,
+   "slots": 14,
+   "seconds": 325
+  },
+  "test_k1_02": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 32,
+   "decided": 17,
+   "states": 17,
+   "slots": 14,
+   "seconds": 373
+  },
+  "test_k1_11": {
+   "meetings": 4,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 65,
+   "decided": 30,
+   "states": 30,
+   "slots": 27,
+   "seconds": 536
+  },
+  "ami_TS3012": {
+   "meetings": 4,
+   "extract_failed": 3,
+   "route_failed": 0,
+   "updates": 81,
+   "decided": 34,
+   "states": 33,
+   "slots": 31,
+   "seconds": 2116
+  },
+  "test_k1_04": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 36,
+   "decided": 17,
+   "states": 15,
+   "slots": 12,
+   "seconds": 289
+  },
+  "test_k1_03": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 52,
+   "decided": 37,
+   "states": 35,
+   "slots": 34,
+   "seconds": 498
+  },
+  "test_k1_05": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 33,
+   "decided": 12,
+   "states": 11,
+   "slots": 11,
+   "seconds": 375
+  },
+  "test_k1_06": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 45,
+   "decided": 31,
+   "states": 31,
+   "slots": 26,
+   "seconds": 435
+  },
+  "test_k1_07": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 48,
+   "decided": 31,
+   "states": 31,
+   "slots": 28,
+   "seconds": 401
+  },
+  "test_k1_08": {
+   "meetings": 3,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 30,
+   "decided": 12,
+   "states": 12,
+   "slots": 12,
+   "seconds": 525
+  },
+  "test_k1_10": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 67,
+   "decided": 37,
+   "states": 36,
+   "slots": 29,
+   "seconds": 594
+  },
+  "test_k1_12": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 36,
+   "decided": 8,
+   "states": 8,
+   "slots": 8,
+   "seconds": 345
+  },
+  "test_k1_13": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 47,
+   "decided": 26,
+   "states": 25,
+   "slots": 23,
+   "seconds": 403
+  },
+  "test_k1_14": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 38,
+   "decided": 20,
+   "states": 20,
+   "slots": 19,
+   "seconds": 331
+  },
+  "test_k1_15": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 34,
+   "decided": 8,
+   "states": 8,
+   "slots": 7,
+   "seconds": 315
+  },
+  "test_k1_16": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 48,
+   "decided": 22,
+   "states": 21,
+   "slots": 18,
+   "seconds": 384
+  },
+  "test_k1_17": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 32,
+   "decided": 23,
+   "states": 22,
+   "slots": 22,
+   "seconds": 331
+  },
+  "test_k1_19": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 50,
+   "decided": 26,
+   "states": 25,
+   "slots": 24,
+   "seconds": 398
+  },
+  "test_k1_18": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 57,
+   "decided": 40,
+   "states": 40,
+   "slots": 35,
+   "seconds": 532
+  },
+  "test_k1_21": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 37,
+   "decided": 15,
+   "states": 14,
+   "slots": 14,
+   "seconds": 398
+  },
+  "test_k1_20": {
+   "meetings": 3,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 36,
+   "decided": 20,
+   "states": 20,
+   "slots": 20,
+   "seconds": 475
+  }
+ },
+ "wall_s": 7130
+}

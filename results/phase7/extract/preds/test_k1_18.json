@@ -1,0 +1,544 @@
+{
+ "set_id": "test_k1_18",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    59,
+    60,
+    61,
+    62,
+    63
+   ],
+   "speaker": "Omar",
+   "confidence": 0.6,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "When to hold the pipeline review",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "When to hold the pipeline review",
+   "option": "Friday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "When to hold the pipeline review",
+   "option": "Friday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "When to hold the pipeline review",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "When to hold the pipeline review",
+   "option": "Friday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "When to hold the pipeline review",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Omar",
+   "confidence": 0.75,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Omar",
+   "confidence": 0.75,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Round-robin distribution across all six reps"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "How to distribute inbound leads",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Use the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Use the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "How to distribute inbound leads",
+   "option": "Use the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Use the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Use the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "How to distribute inbound leads",
+   "option": "Send the list of thirty-one"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Routing rule for lead distribution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Routing rule for lead distribution",
+   "option": "New accounts stay in rotation across all six reps, and any lead from an account that has an owner goes to that owner"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "Routing rule for lead distribution",
+   "option": "Check the owner field on the account"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "What about when the owner's away?"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "The plain rotation is simple. Everybody gets the same share, nobody's sitting on a pile."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Routing rule for lead distribution",
+   "option": "The part that's clearly working is the speed on new stuff, forty minutes versus five hours, we shouldn't touch that."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Routing rule for lead distribution",
+   "option": "A customer who already has someone, that one just goes to their person."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "It's one day of work in the CRM, not a project. So it's cheap for what it fixes."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "The owner knows the customer, so, um, the second call just goes away."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "But Vikram."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "Vikram's customers calling Vikram. That's not a problem, that's his book."
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Routing rule for lead distribution",
+   "option": "It's the volume I'm thinking about. If he's out a week and it all dumps back into the rotation, fine, but when he's in-"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Routing rule for lead distribution",
+   "option": "When he's in, he handles the forms from his own accounts. That's what owning an account means."
+  }
+ ]
+}

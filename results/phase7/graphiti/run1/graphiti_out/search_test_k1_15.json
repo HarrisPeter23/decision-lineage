@@ -1,0 +1,1511 @@
+[
+ {
+  "qid": "set_01021-q01",
+  "facts": [
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "7dbed3ad-ee7a-4473-8d37-4f739d9fe147",
+    "name": "MENTIONED",
+    "fact": "Hana said that she was finally happy that the cadence question would be opened again properly.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b45c57e-3a72-46bb-b3ac-0b8aff5a9229",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Klara's team had gone weekly on the web side last year, and nobody had even noticed after a month.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e3d3f03-fafa-418d-ba20-589929786dd3",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she will look at the crash screen tomorrow and put what she finds in the channel.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "84fb92ff-e5d5-4d4b-aa4e-1105699419c4",
+    "name": "REPLIED",
+    "fact": "Nadia replied that he should go, and that Mei should send her what she had run on Friday so she had the actual numbers.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   },
+   {
+    "uuid": "b87289d8-2396-4ca7-bc4f-79db39137be4",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the store review on the hotfix had taken three days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q02",
+  "facts": [
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e5a54a6a-0cdd-420b-8f59-373cb38b324b",
+    "name": "ASKED",
+    "fact": "Yuki asked Nadia if Xavier's four o'clock builds on Fridays were gone or if they were still happening.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e3d3f03-fafa-418d-ba20-589929786dd3",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she will look at the crash screen tomorrow and put what she finds in the channel.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   },
+   {
+    "uuid": "5079d479-5fc6-4331-a689-b2450cec0f8b",
+    "name": "MENTIONED",
+    "fact": "Hana said that she was happy that they were going to do weekly releases with the staged rollout, five, twenty-five, everyone, and the halt switch.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "84fb92ff-e5d5-4d4b-aa4e-1105699419c4",
+    "name": "REPLIED",
+    "fact": "Nadia replied that he should go, and that Mei should send her what she had run on Friday so she had the actual numbers.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q03",
+  "facts": [
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c06430f7-1e2f-4dd6-b35c-cf861ed35de2",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the freeze part was what bugged her, as it was the Wednesday before, three days of nothing merging, and then it still broke.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab2c183e-b90c-40b6-a056-4e84ce2dab54",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that Goran's sharing feature was still estimated for the end of September.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "2029aed8-0bfd-413d-bf46-00bea02f7eb4",
+    "name": "MENTIONED_FEATURE_ESTIMATE",
+    "fact": "Nadia mentioned that Goran's feature is currently estimated for the end of September.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5bf76f-e854-45ca-b6a3-a69d62bd0745",
+    "name": "REPLIED",
+    "fact": "Nadia confirmed the offsite lunch was scheduled for the thirteenth, as it was on Yuki's calendar.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71e1b0f2-ac96-4a15-8616-69922e255663",
+    "name": "REPLIED",
+    "fact": "Yuki confirmed the photo upload crash was on iOS and affected around two point one percent of iOS sessions.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q04",
+  "facts": [
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c06430f7-1e2f-4dd6-b35c-cf861ed35de2",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the freeze part was what bugged her, as it was the Wednesday before, three days of nothing merging, and then it still broke.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ab2c183e-b90c-40b6-a056-4e84ce2dab54",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that Goran's sharing feature was still estimated for the end of September.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "2029aed8-0bfd-413d-bf46-00bea02f7eb4",
+    "name": "MENTIONED_FEATURE_ESTIMATE",
+    "fact": "Nadia mentioned that Goran's feature is currently estimated for the end of September.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b87289d8-2396-4ca7-bc4f-79db39137be4",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the store review on the hotfix had taken three days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5bf76f-e854-45ca-b6a3-a69d62bd0745",
+    "name": "REPLIED",
+    "fact": "Nadia confirmed the offsite lunch was scheduled for the thirteenth, as it was on Yuki's calendar.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0ab3603b-09e9-4bf2-b38d-8b1b96c18c39",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that Samir had said the load was fine as long as the handoff was clean, and she would get it in writing.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q05",
+  "facts": [
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a42d812b-8c8e-4a08-be34-4412bad332f8",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that support tickets increased by 22% over the fortnight due to the payment-screen issue.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b87289d8-2396-4ca7-bc4f-79db39137be4",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the store review on the hotfix had taken three days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   },
+   {
+    "uuid": "624a3cc3-4da3-4f96-b560-1e7d5a381e9c",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she touched the toggle, and it is likely the permission prompt on older phones.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3036486c-15ca-4948-8c69-00d92c049fb4",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the photo upload crash had been fixed in days but had been live for over a week.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q06",
+  "facts": [
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "45ed4de7-5f42-41bd-9781-d6b79fe36d52",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that the schedule was a different question, and he was not sure it was the culprit.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "077ada22-20d8-475d-84ee-3f512675f91b",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that two of the five rejections had been re-reviews, and that was a checklist thing, which was fixable.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e5bf76f-e854-45ca-b6a3-a69d62bd0745",
+    "name": "REPLIED",
+    "fact": "Nadia confirmed the offsite lunch was scheduled for the thirteenth, as it was on Yuki's calendar.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b3773ae1-ce79-42e4-9db5-2db32ef50ec5",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he was not sure the schedule was the culprit, as the bug had been in the build either way.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q07",
+  "facts": [
+   {
+    "uuid": "a1317087-708d-4621-8efa-9078c8ef4a42",
+    "name": "PROPOSED",
+    "fact": "Jonas proposed changing the alert threshold to 99.2% crash-free sessions to reduce the number of on-call pages.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b87289d8-2396-4ca7-bc4f-79db39137be4",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that the store review on the hotfix had taken three days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "37a16a44-f534-48dc-ae95-c290af438341",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that she would add the product lead and QA person to the doc as the ones who can call off a train.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "624a3cc3-4da3-4f96-b560-1e7d5a381e9c",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she touched the toggle, and it is likely the permission prompt on older phones.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q08",
+  "facts": [
+   {
+    "uuid": "f8026269-6f11-405b-a3ba-3f2b5fbae8e8",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that the badge system was down on Thursday, which caused her to be locked out for forty minutes.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a",
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3fda764a-ad17-47f9-980e-b4ba02c7e9b7",
+    "name": "MENTIONED",
+    "fact": "Hana agreed that the freeze had done its job on the payment one, but it was the waiting after that that had hurt.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b45c57e-3a72-46bb-b3ac-0b8aff5a9229",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that Klara's team had gone weekly on the web side last year, and nobody had even noticed after a month.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc8ffe13-f94f-4596-a86b-5b97e5c5c70d",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the freeze had done its job on the payment one, but it was the waiting after that that had hurt.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "41aff248-0c72-4fae-b0dd-b47871b3d072",
+    "name": "EXPLAINED",
+    "fact": "Yuki explained that the payment-screen issue was live for nine days because the next train had not left yet and the hotfix store review took four days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e3d3f03-fafa-418d-ba20-589929786dd3",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she will look at the crash screen tomorrow and put what she finds in the channel.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q09",
+  "facts": [
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3e3d1dd1-ad14-4768-8d86-f87cc359614c",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that he had heard about the same tablet issue for the third time this month.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a36dd4b-c690-4322-8713-e1feb54e163d",
+    "name": "INFORMED_ABOUT",
+    "fact": "Hana informed Nadia that the alert was related to the same old tablet issue, which she closed out.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f8026269-6f11-405b-a3ba-3f2b5fbae8e8",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned that the badge system was down on Thursday, which caused her to be locked out for forty minutes.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a",
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2c19cbda-52e1-4fb0-9ece-509495998d1a",
+    "name": "MENTIONED",
+    "fact": "Jonas mentioned that weekly releases would mean a submission every week, and if they were rejected, they would have lost a week and a half.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "077ada22-20d8-475d-84ee-3f512675f91b",
+    "name": "MENTIONED",
+    "fact": "Mei mentioned that two of the five rejections had been re-reviews, and that was a checklist thing, which was fixable.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71e1b0f2-ac96-4a15-8616-69922e255663",
+    "name": "REPLIED",
+    "fact": "Yuki confirmed the photo upload crash was on iOS and affected around two point one percent of iOS sessions.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ea874c94-4942-48ee-9425-ca8f3c34c654",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Hana mentioned that the settings screen is now the top crash screen, with eight percent of sessions affected.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "142edeaa-b0bf-4c9b-bd10-fa35c7655ef8",
+    "name": "PROPOSED_FIXED_SCHEDULE",
+    "fact": "Hana proposed a fixed schedule for releases, with a freeze on the Wednesday before each release.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290381+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q10",
+  "facts": [
+   {
+    "uuid": "60a589df-2c1f-45e2-8509-049ec5f93cf7",
+    "name": "APPROVED",
+    "fact": "Nadia approved Jonas's proposal to change the alert threshold to 99.2% crash-free sessions.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b89e5f88-0c2a-4149-9558-a2209ea65f8c",
+    "name": "MENTIONED",
+    "fact": "Yuki mentioned a payment-screen issue on Android that affected 3.4% of sessions and was live for nine days.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b609251-bec8-41da-b3a6-c2fd5c7351d9",
+    "name": "MENTIONED_QA_TIME",
+    "fact": "Hana mentioned that last quarter, releases ate about thirty hours of QA time due to retesting everything from scratch.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": "2025-08-24T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:04:06.290412+00:00"
+   },
+   {
+    "uuid": "1681e2c2-33a3-4b9c-aece-ae690cfae291",
+    "name": "REQUESTED",
+    "fact": "Nadia requested Yuki to write up the payment-screen numbers and include the top three or four devices affected.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ec2bc825-9d4e-4438-a7c7-efd4a556e9f0",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the bug's existence was not the issue, but how long it stayed out there was.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a9e5cb51-dc4d-4b9a-83f6-719718151723",
+    "name": "ASKED",
+    "fact": "Nadia asked Yuki how long the photo upload crash had been live, and if he could confirm it was eight days.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32503678-cc2b-41ea-b7dd-f49ac3adcc4d",
+    "name": "MENTIONED",
+    "fact": "Hana asked if they were going to do weekly releases with the staged rollout, five, twenty-five, everyone, and the halt switch, and if the two-week train was done.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71e1b0f2-ac96-4a15-8616-69922e255663",
+    "name": "REPLIED",
+    "fact": "Yuki confirmed the photo upload crash was on iOS and affected around two point one percent of iOS sessions.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2029aed8-0bfd-413d-bf46-00bea02f7eb4",
+    "name": "MENTIONED_FEATURE_ESTIMATE",
+    "fact": "Nadia mentioned that Goran's feature is currently estimated for the end of September.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "31833723-c415-423c-9f79-86bfc0a46ff4",
+    "name": "MENTIONED_ON_CALL_SWAP",
+    "fact": "Nadia mentioned that Keiko is out the last week of August, and whoever has her on-call slots needs to swap.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ea874c94-4942-48ee-9425-ca8f3c34c654",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Hana mentioned that the settings screen is now the top crash screen, with eight percent of sessions affected.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a1317087-708d-4621-8efa-9078c8ef4a42",
+    "name": "PROPOSED",
+    "fact": "Jonas proposed changing the alert threshold to 99.2% crash-free sessions to reduce the number of on-call pages.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01021-q11",
+  "facts": [
+   {
+    "uuid": "a1317087-708d-4621-8efa-9078c8ef4a42",
+    "name": "PROPOSED",
+    "fact": "Jonas proposed changing the alert threshold to 99.2% crash-free sessions to reduce the number of on-call pages.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "60a589df-2c1f-45e2-8509-049ec5f93cf7",
+    "name": "APPROVED",
+    "fact": "Nadia approved Jonas's proposal to change the alert threshold to 99.2% crash-free sessions.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a33a5ecc-c2c4-48b5-8853-f098f70b58fb",
+    "name": "NOTIFIED_ABOUT",
+    "fact": "Hana notified Nadia that there was an alert on her phone at around 2:00 AM on Saturday.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1648ed50-676b-444f-b9e8-652cb60755c4",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that the payment crash had been on Android and had a slow review, while the photo upload crash was a different cause entirely.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ea874c94-4942-48ee-9425-ca8f3c34c654",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Hana mentioned that the settings screen is now the top crash screen, with eight percent of sessions affected.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9a36dd4b-c690-4322-8713-e1feb54e163d",
+    "name": "INFORMED_ABOUT",
+    "fact": "Hana informed Nadia that the alert was related to the same old tablet issue, which she closed out.",
+    "episodes": [
+     "a72208be-6a1c-4c6b-9fbc-b8631d65c82a"
+    ],
+    "valid_at": "2025-08-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71e1b0f2-ac96-4a15-8616-69922e255663",
+    "name": "REPLIED",
+    "fact": "Yuki confirmed the photo upload crash was on iOS and affected around two point one percent of iOS sessions.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5e3d3f03-fafa-418d-ba20-589929786dd3",
+    "name": "MENTIONED_CRASH_SCREEN",
+    "fact": "Mei mentioned that she will look at the crash screen tomorrow and put what she finds in the channel.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cfbe4642-53a6-4064-8938-cc0219f9b8b3",
+    "name": "MENTIONED",
+    "fact": "Hana mentioned that she had been saying since the first week that the crash had been an issue.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "009261e8-b1f5-4eb6-a686-673c56f16750",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that Hana had been staring at the crash dashboard all morning and it was concerning.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6c4674a-f73c-42c6-91eb-d84e95cec710",
+    "name": "MENTIONED_ON_CALL_SWAP",
+    "fact": "Hana mentioned that she can take Tuesday for Keiko's on-call slot.",
+    "episodes": [
+     "a28bd074-20a3-4ccc-9b04-fa9a5533af79"
+    ],
+    "valid_at": "2025-08-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7e63d5a2-b076-4482-993b-edd75a99f2ca",
+    "name": "MENTIONED",
+    "fact": "Nadia mentioned that Yuki had flagged the photo upload crash on iOS on Thursday.",
+    "episodes": [
+     "ddc09c91-dc09-4600-a709-2f6e847501f5"
+    ],
+    "valid_at": "2025-08-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

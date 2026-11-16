@@ -1,0 +1,769 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Q4 quota sheets",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "distributed",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Klara",
+   "attribute": "offsite room headcount",
+   "states": [
+    {
+     "value": "needs it by Thursday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Offsite room",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "Manchester",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      10
+     ]
+    },
+    {
+     "value": "Tuesday to Thursday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Offsite room",
+   "attribute": "headcount",
+   "states": [
+    {
+     "value": "eight",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Inbound leads",
+   "attribute": "distribution method",
+   "states": [
+    {
+     "value": "round-robin across all six inside reps",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      21,
+      25,
+      32,
+      36,
+      40,
+      43
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Inbound leads",
+   "attribute": "implementation date",
+   "states": [
+    {
+     "value": "Monday",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      82,
+      83,
+      84,
+      85
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Marisol",
+   "attribute": "action on lead distribution",
+   "states": [
+    {
+     "value": "stop handing things out by hand",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Omar",
+   "attribute": "action on lead distribution",
+   "states": [
+    {
+     "value": "message Marisol today",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Ravi",
+   "attribute": "action on lead distribution",
+   "states": [
+    {
+     "value": "write two lines to the group",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      87
+     ]
+    },
+    {
+     "value": "will write two lines to the group today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Sofia",
+   "attribute": "action on headset",
+   "states": [
+    {
+     "value": "put it in the IT ticket with model number",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      97
+     ]
+    },
+    {
+     "value": "received, no more crackling",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Omar",
+   "attribute": "action on coffee place",
+   "states": [
+    {
+     "value": "send link in chat",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-10-08",
+     "evidence": [
+      99
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Quota sheet corrections",
+   "attribute": "deadline",
+   "states": [
+    {
+     "value": "end of day tomorrow",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Quota sheet corrections",
+   "attribute": "method",
+   "states": [
+    {
+     "value": "send account name, not a screenshot of the whole sheet",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Lead data analysis",
+   "attribute": "follow-up action",
+   "states": [
+    {
+     "value": "Sofia to provide breakdown by Friday or Monday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Webinar dry run",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "next Tuesday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Webinar dry run",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "2:00 PM, 45 minutes",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      46
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Pipeline review",
+   "attribute": "proposed day",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      61
+     ]
+    },
+    {
+     "value": "2025-10-22",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Pipeline review",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "moved to Wednesday, time to be adjusted",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 3,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      61
+     ]
+    },
+    {
+     "value": "10 past twelve",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Pipeline review",
+   "attribute": "forecast numbers",
+   "states": [
+    {
+     "value": "Gabor will pull them on Tuesday night instead of Friday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Duplicate calls",
+   "attribute": "list availability",
+   "states": [
+    {
+     "value": "Sofia to send list tonight",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Duplicate calls",
+   "attribute": "distribution",
+   "states": [
+    {
+     "value": "sent to the group, not just Kwame",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Account owner field",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "Omar to check how it's wired",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-10-15",
+     "evidence": [
+      74
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Klara",
+   "attribute": "deadline for Manchester dinner choices",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Yara's webinar",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "2025-10-21",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Yara's webinar",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "dry run completed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Yara's webinar",
+   "attribute": "duration",
+   "states": [
+    {
+     "value": "45 minutes turned into nearly an hour",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Routing rule",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "reopened",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Routing rule",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "new accounts stay in rotation across all six, any lead from an account that has an owner goes to that owner",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "entity": "Omar",
+   "attribute": "deadline for routing rule implementation",
+   "states": [
+    {
+     "value": "Thursday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "entity": "Omar",
+   "attribute": "testing deadline for routing rule",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "entity": "Marisol",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "queue will look different",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      73
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "entity": "Sofia",
+   "attribute": "deadline for sending names of two complaint accounts",
+   "states": [
+    {
+     "value": "tomorrow",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      78
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "entity": "Sofia",
+   "attribute": "additional information to send",
+   "states": [
+    {
+     "value": "which rep made the second call",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "entity": "Kofi",
+   "attribute": "notification",
+   "states": [
+    {
+     "value": "forms will come straight to him",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "entity": "Klara",
+   "attribute": "deadline for dietary stuff",
+   "states": [
+    {
+     "value": "Friday",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-10-22",
+     "evidence": [
+      103
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S16",
+   0,
+   1,
+   3
+  ],
+  [
+   "S17",
+   0,
+   1,
+   3
+  ],
+  [
+   "S9",
+   0,
+   1,
+   3
+  ],
+  [
+   "S8",
+   0,
+   1,
+   3
+  ],
+  [
+   "S2",
+   0,
+   1,
+   3
+  ]
+ ]
+}

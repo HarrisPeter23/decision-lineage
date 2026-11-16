@@ -1,0 +1,369 @@
+{
+ "set_id": "set_01019",
+ "meta": {
+  "arc_type": "deferred",
+  "domain": "HR team",
+  "seed": 1019,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 98
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 80
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 114
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "how first-round interviews are run for engineering hires",
+ "options": {
+  "A": "replace the phone screen with a 30-minute take-home exercise",
+  "B": "a 45-minute structured video screen, two interviewers scoring against a shared rubric"
+ },
+ "cast": [
+  {
+   "name": "Bashir",
+   "slot": "manager",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Priya",
+   "slot": "proposer",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Diego",
+   "slot": "challenger",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Jonas",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Aisha",
+   "slot": "observer",
+   "style": "tends to interrupt others"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "a 45-minute structured video screen, two interviewers scoring against a shared rubric"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Priya proposes replacing the first-round phone screen for engineering roles with a 30-minute take-home exercise.",
+   "version": null,
+   "option_key": "A",
+   "option": "replace the phone screen with a 30-minute take-home exercise",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    29,
+    30
+   ],
+   "gist": "Priya argues that phone screens are inconsistent, since last quarter the pass rate was 38 percent with one recruiter and 61 percent with another, and a take-home gives every candidate the same task.",
+   "version": null,
+   "option_key": "A",
+   "option": "replace the phone screen with a 30-minute take-home exercise",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Aisha",
+   "utterance_idxs": [
+    18,
+    19
+   ],
+   "gist": "Aisha reports that the data team's take-home last spring lost 46 of 120 invited candidates before they returned it, and those who finished said they spent about three hours.",
+   "version": null,
+   "option_key": "A",
+   "option": "replace the phone screen with a 30-minute take-home exercise",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    30
+   ],
+   "gist": "Diego proposes a 45-minute structured video screen with two interviewers scoring the same questions against a shared rubric.",
+   "version": null,
+   "option_key": "B",
+   "option": "a 45-minute structured video screen, two interviewers scoring against a shared rubric",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    38
+   ],
+   "gist": "Diego argues this fixes the consistency problem without the drop-off, at a cost of about 90 interviewer-minutes per candidate against 30 for a phone screen.",
+   "version": null,
+   "option_key": "B",
+   "option": "a 45-minute structured video screen, two interviewers scoring against a shared rubric",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Bashir",
+   "utterance_idxs": [
+    108
+   ],
+   "gist": "Bashir picks the structured video screen for first-round engineering interviews.",
+   "version": 1,
+   "option_key": "B",
+   "option": "a 45-minute structured video screen, two interviewers scoring against a shared rubric",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "how new-hire laptops reach people",
+  "option": "ship laptops to new hires' homes the Friday before their start date",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Jonas",
+    "utterance_idxs": [
+     60
+    ],
+    "gist": "Jonas suggests shipping new-hire laptops to their homes the Friday before their start date.",
+    "version": null,
+    "option_key": null,
+    "option": "ship laptops to new hires' homes the Friday before their start date",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Jonas",
+    "utterance_idxs": [
+     68
+    ],
+    "gist": "Jonas points out that the Tuesday office pickup eats half of day one, with the last three starters waiting an average of 70 minutes in the IT queue.",
+    "version": null,
+    "option_key": null,
+    "option": "ship laptops to new hires' homes the Friday before their start date",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Bashir",
+    "utterance_idxs": [
+     79
+    ],
+    "gist": "Bashir approves shipping laptops to new hires' homes.",
+    "version": null,
+    "option_key": null,
+    "option": "ship laptops to new hires' homes the Friday before their start date",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01019-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about how first-round interviews are run for engineering hires?",
+   "answer_text": "a 45-minute structured video screen, two interviewers scoring against a shared rubric",
+   "answer_facts": {
+    "option": "a 45-minute structured video screen, two interviewers scoring against a shared rubric"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01019-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about how first-round interviews are run for engineering hires?",
+   "answer_text": "meeting 3: Bashir - Bashir picks the structured video screen for first-round engineering interviews.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "a 45-minute structured video screen, two interviewers scoring against a shared rubric",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01019-q03",
+   "type": "as_of",
+   "question": "What was the decision about how first-round interviews are run for engineering hires as of the end of meeting 1?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 1,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01019-q04",
+   "type": "as_of",
+   "question": "What was the decision about how first-round interviews are run for engineering hires as of the end of meeting 2?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 2,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01019-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about how first-round interviews are run for engineering hires change over time?",
+   "answer_text": "Nothing was decided until meeting 3, when the team chose a 45-minute structured video screen, two interviewers scoring against a shared rubric.",
+   "answer_facts": {
+    "first_decision_meeting": 3
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01019-q06",
+   "type": "who_proposed",
+   "question": "Who proposed a 45-minute structured video screen, two interviewers scoring against a shared rubric?",
+   "answer_text": "Diego",
+   "answer_facts": {
+    "speaker": "Diego"
+   },
+   "supporting_links": [
+    "B4"
+   ]
+  },
+  {
+   "qid": "set_01019-q07",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about how first-round interviews are run for engineering hires?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01019-q08",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about how first-round interviews are run for engineering hires from proposal to final outcome.",
+   "answer_text": "meeting 1 - Priya [proposal]: Priya proposes replacing the first-round phone screen for engineering roles with a 30-minute take-home exercise. | meeting 1 - Priya [rationale]: Priya argues that phone screens are inconsistent, since last quarter the pass rate was 38 percent with one recruiter and 61 percent with another, and a take-home gives every candidate the same task. | meeting 2 - Aisha [evidence]: Aisha reports that the data team's take-home last spring lost 46 of 120 invited candidates before they returned it, and those who finished said they spent about three hours. | meeting 2 - Diego [proposal]: Diego proposes a 45-minute structured video screen with two interviewers scoring the same questions against a shared rubric. | meeting 2 - Diego [rationale]: Diego argues this fixes the consistency problem without the drop-off, at a cost of about 90 interviewer-minutes per candidate against 30 for a phone screen. | meeting 3 - Bashir [resolution]: Bashir picks the structured video screen for first-round engineering interviews.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01019-q09",
+   "type": "distractor",
+   "question": "What was decided about how new-hire laptops reach people?",
+   "answer_text": "ship laptops to new hires' homes the Friday before their start date",
+   "answer_facts": {
+    "option": "ship laptops to new hires' homes the Friday before their start date"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

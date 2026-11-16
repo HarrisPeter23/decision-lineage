@@ -1,0 +1,519 @@
+{
+ "a": {
+  "calls": 44,
+  "own_rebuild_matches": 44,
+  "gold_rebuild_matches": 14,
+  "static": {
+   "mentions_gold_path": false,
+   "reads_only": [
+    "transcripts"
+   ]
+  },
+  "rows": [
+   {
+    "tag": "set_01000-m1-recap",
+    "logged": 5862,
+    "rebuilt_own": 5862,
+    "rebuilt_gold": 5862,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01000-m2-recap",
+    "logged": 6881,
+    "rebuilt_own": 6881,
+    "rebuilt_gold": 5948,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01000-m3-recap",
+    "logged": 7231,
+    "rebuilt_own": 7231,
+    "rebuilt_gold": 6321,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01002-m1-recap",
+    "logged": 5267,
+    "rebuilt_own": 5267,
+    "rebuilt_gold": 5267,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01002-m2-recap",
+    "logged": 6792,
+    "rebuilt_own": 6792,
+    "rebuilt_gold": 6245,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01002-m3-recap",
+    "logged": 6944,
+    "rebuilt_own": 6944,
+    "rebuilt_gold": 6146,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01003-m1-recap",
+    "logged": 5595,
+    "rebuilt_own": 5595,
+    "rebuilt_gold": 5595,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01003-m2-recap",
+    "logged": 6760,
+    "rebuilt_own": 6760,
+    "rebuilt_gold": 5773,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01003-m3-recap",
+    "logged": 7054,
+    "rebuilt_own": 7054,
+    "rebuilt_gold": 5988,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01004-m1-recap",
+    "logged": 5054,
+    "rebuilt_own": 5054,
+    "rebuilt_gold": 5054,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01004-m2-recap",
+    "logged": 7051,
+    "rebuilt_own": 7051,
+    "rebuilt_gold": 5987,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01004-m3-recap",
+    "logged": 7002,
+    "rebuilt_own": 7002,
+    "rebuilt_gold": 6048,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01004-m4-recap",
+    "logged": 6813,
+    "rebuilt_own": 6813,
+    "rebuilt_gold": 6307,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01006-m1-recap",
+    "logged": 5218,
+    "rebuilt_own": 5218,
+    "rebuilt_gold": 5218,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01006-m2-recap",
+    "logged": 5786,
+    "rebuilt_own": 5786,
+    "rebuilt_gold": 5542,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01006-m3-recap",
+    "logged": 6184,
+    "rebuilt_own": 6184,
+    "rebuilt_gold": 5812,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01012-m1-recap",
+    "logged": 5072,
+    "rebuilt_own": 5072,
+    "rebuilt_gold": 5072,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01012-m2-recap",
+    "logged": 6188,
+    "rebuilt_own": 6188,
+    "rebuilt_gold": 5636,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01012-m3-recap",
+    "logged": 6509,
+    "rebuilt_own": 6509,
+    "rebuilt_gold": 5243,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01013-m1-recap",
+    "logged": 10161,
+    "rebuilt_own": 10161,
+    "rebuilt_gold": 10161,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01013-m2-recap",
+    "logged": 13254,
+    "rebuilt_own": 13254,
+    "rebuilt_gold": 12918,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01013-m3-recap",
+    "logged": 13294,
+    "rebuilt_own": 13294,
+    "rebuilt_gold": 12102,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01014-m1-recap",
+    "logged": 11185,
+    "rebuilt_own": 11185,
+    "rebuilt_gold": 11185,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01014-m2-recap",
+    "logged": 14134,
+    "rebuilt_own": 14134,
+    "rebuilt_gold": 12274,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01014-m3-recap",
+    "logged": 16245,
+    "rebuilt_own": 16245,
+    "rebuilt_gold": 13782,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01014-m4-recap",
+    "logged": 13353,
+    "rebuilt_own": 13353,
+    "rebuilt_gold": 10836,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01015-m1-recap",
+    "logged": 10582,
+    "rebuilt_own": 10582,
+    "rebuilt_gold": 10582,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01015-m2-recap",
+    "logged": 11799,
+    "rebuilt_own": 11799,
+    "rebuilt_gold": 11176,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01015-m3-recap",
+    "logged": 13399,
+    "rebuilt_own": 13399,
+    "rebuilt_gold": 12696,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01016-m1-recap",
+    "logged": 10416,
+    "rebuilt_own": 10416,
+    "rebuilt_gold": 10416,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01016-m2-recap",
+    "logged": 11566,
+    "rebuilt_own": 11566,
+    "rebuilt_gold": 11146,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01016-m3-recap",
+    "logged": 12338,
+    "rebuilt_own": 12338,
+    "rebuilt_gold": 12055,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01019-m1-recap",
+    "logged": 10436,
+    "rebuilt_own": 10436,
+    "rebuilt_gold": 10436,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01019-m2-recap",
+    "logged": 10880,
+    "rebuilt_own": 10880,
+    "rebuilt_gold": 10324,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01019-m3-recap",
+    "logged": 13130,
+    "rebuilt_own": 13130,
+    "rebuilt_gold": 12040,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01023-m1-recap",
+    "logged": 10250,
+    "rebuilt_own": 10250,
+    "rebuilt_gold": 10250,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01023-m2-recap",
+    "logged": 11423,
+    "rebuilt_own": 11423,
+    "rebuilt_gold": 11055,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01023-m3-recap",
+    "logged": 12085,
+    "rebuilt_own": 12085,
+    "rebuilt_gold": 11500,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01030-m1-recap",
+    "logged": 9546,
+    "rebuilt_own": 9546,
+    "rebuilt_gold": 9546,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01030-m2-recap",
+    "logged": 9108,
+    "rebuilt_own": 9108,
+    "rebuilt_gold": 8744,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01030-m3-recap",
+    "logged": 11325,
+    "rebuilt_own": 11325,
+    "rebuilt_gold": 10504,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01045-m1-recap",
+    "logged": 9365,
+    "rebuilt_own": 9365,
+    "rebuilt_gold": 9365,
+    "own_match": true,
+    "gold_match": true
+   },
+   {
+    "tag": "set_01045-m2-recap",
+    "logged": 9863,
+    "rebuilt_own": 9863,
+    "rebuilt_gold": 9475,
+    "own_match": true,
+    "gold_match": false
+   },
+   {
+    "tag": "set_01045-m3-recap",
+    "logged": 12134,
+    "rebuilt_own": 12134,
+    "rebuilt_gold": 11912,
+    "own_match": true,
+    "gold_match": false
+   }
+  ]
+ },
+ "b": {
+  "examples": [
+   {
+    "example": "Brightway is cheaper and they already know the building.",
+    "longest_ngram_utterance": 2,
+    "ngram_u": "cheaper and",
+    "longest_ngram_gist": 2,
+    "ngram_g": "already know",
+    "nearest_cos": 0.383,
+    "nearest": {
+     "set": "set_01016",
+     "meeting": "m1",
+     "idx": 68,
+     "text": "A very expensive room."
+    }
+   },
+   {
+    "example": "Brightway's quote came in at 4,200 a month, the other one 5,100.",
+    "longest_ngram_utterance": 3,
+    "ngram_u": "the other one",
+    "longest_ngram_gist": 3,
+    "ngram_g": "came in at",
+    "nearest_cos": 0.582,
+    "nearest": {
+     "set": "set_01012",
+     "meeting": "m1",
+     "idx": 5,
+     "text": "Quote was about nine hundred each, I think, last time I looked."
+    }
+   },
+   {
+    "example": "Their last audit failed two of six floors.",
+    "longest_ngram_utterance": 2,
+    "ngram_u": "two of",
+    "longest_ngram_gist": 1,
+    "ngram_g": "of",
+    "nearest_cos": 0.418,
+    "nearest": {
+     "set": "set_01023",
+     "meeting": "m1",
+     "idx": 56,
+     "text": "Oh, that reminds me, the audit people wanted the thresholds written down too. Last year they asked and we sort of, we showed them an email from, from like twenty-nineteen."
+    }
+   },
+   {
+    "example": "I'm not comfortable staying with Brightway after those audits.",
+    "longest_ngram_utterance": 3,
+    "ngram_u": "i'm not comfortable",
+    "longest_ngram_gist": 1,
+    "ngram_g": "with",
+    "nearest_cos": 0.479,
+    "nearest": {
+     "set": "set_01030",
+     "meeting": "m2",
+     "idx": 62,
+     "text": "When do the audit people come?"
+    }
+   },
+   {
+    "example": "Brightway would be cheaper.",
+    "longest_ngram_utterance": 2,
+    "ngram_u": "would be",
+    "longest_ngram_gist": 1,
+    "ngram_g": "would",
+    "nearest_cos": 0.423,
+    "nearest": {
+     "set": "set_01012",
+     "meeting": "m2",
+     "idx": 18,
+     "text": "Cheaper by a mile, though."
+    }
+   },
+   {
+    "example": "Okay, let's revisit the cleaning contract at the next review.",
+    "longest_ngram_utterance": 3,
+    "ngram_u": "the cleaning contract",
+    "longest_ngram_gist": 2,
+    "ngram_g": "at the",
+    "nearest_cos": 0.699,
+    "nearest": {
+     "set": "set_01015",
+     "meeting": "m2",
+     "idx": 76,
+     "text": "I've got the cleaning contract on the thirty-first, is that still-"
+    }
+   },
+   {
+    "example": "We could switch to Clearline.",
+    "longest_ngram_utterance": 2,
+    "ngram_u": "switch to",
+    "longest_ngram_gist": 2,
+    "ngram_g": "switch to",
+    "nearest_cos": 0.518,
+    "nearest": {
+     "set": "set_01006",
+     "meeting": "m3",
+     "idx": 19,
+     "text": "And Swiftline? I'll handle that."
+    }
+   },
+   {
+    "example": "I just think we picked wrong.",
+    "longest_ngram_utterance": 3,
+    "ngram_u": "i just think",
+    "longest_ngram_gist": 0,
+    "ngram_g": "",
+    "nearest_cos": 0.408,
+    "nearest": {
+     "set": "set_01012",
+     "meeting": "m1",
+     "idx": 13,
+     "text": "I think, maybe, that's, um, reasonable? Do we decide today?"
+    }
+   },
+   {
+    "example": "Right, Clearline then. Priya, tell Brightway.",
+    "longest_ngram_utterance": 1,
+    "ngram_u": "right",
+    "longest_ngram_gist": 1,
+    "ngram_g": "priya",
+    "nearest_cos": 0.586,
+    "nearest": {
+     "set": "set_01006",
+     "meeting": "m1",
+     "idx": 15,
+     "text": "Priya."
+    }
+   }
+  ],
+  "name_counts_in_dev": {
+   "Brightway": [],
+   "Clearline": [],
+   "Priya": [
+    "set_01006",
+    "set_01012",
+    "set_01013",
+    "set_01014",
+    "set_01015",
+    "set_01016",
+    "set_01019"
+   ],
+   "Sam": []
+  }
+ },
+ "c": {
+  "structure_phrases_in_guide": [
+   [
+    "exactly one ",
+    ""
+   ]
+  ]
+ }
+}

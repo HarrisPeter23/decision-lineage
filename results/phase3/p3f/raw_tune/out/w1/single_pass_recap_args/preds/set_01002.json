@@ -1,0 +1,549 @@
+{
+ "set_id": "set_01002",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Where to hold the customer conference",
+   "option": "Summit at Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Elif",
+   "confidence": 0.6,
+   "decision": "Where to hold the customer conference",
+   "option": "Same place as two years ago"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Where to hold the customer conference",
+   "option": "Summit at Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Where to hold the customer conference",
+   "option": "Summit at Harborview Hotel in the ballroom"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference",
+   "option": "Harborview ballroom for the summit"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "How to increase rep sign-ups",
+   "option": "Write a short ask in the customer newsletter"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "How to increase rep sign-ups",
+   "option": "Write a short ask in the customer newsletter"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "When to mention the conference date in the newsletter",
+   "option": "Not until the booking's confirmed"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "Where to hold the customer conference",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "Where to hold the customer conference",
+   "option": "Harborview ballroom for the summit"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "Where to hold the customer conference",
+   "option": "Virtual product showcase plus small invite-only reception"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Where to hold the customer conference",
+   "option": "Virtual product showcase plus small invite-only reception"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.75,
+   "decision": "Where to hold the customer conference",
+   "option": "Virtual product showcase plus small invite-only reception"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Greta",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference",
+   "option": "Virtual product showcase plus small invite-only reception"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "When to mention the conference date in the newsletter",
+   "option": "After confirming the platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "Choosing event platform",
+   "option": "Four dollars an attendee platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Choosing event platform",
+   "option": "Four dollars an attendee platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.6,
+   "decision": "Choosing event platform",
+   "option": "Four dollars an attendee platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "Choosing event platform",
+   "option": "Four dollars an attendee platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Choosing event platform",
+   "option": "Four dollars an attendee platform"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Choosing catering for reception",
+   "option": "Local caterer, small plates"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Choosing catering for reception",
+   "option": "Local caterer, small plates"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "Choosing catering for reception",
+   "option": "Local caterer, small plates"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Tracking rep sign-ups",
+   "option": "Forty-one signed up"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "Writing newsletter about showcase",
+   "option": "Ivan wrote the piece about the showcase"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Including start date in newsletter",
+   "option": "Include start date"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Preparing product demo clips",
+   "option": "Need product demo clips"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Preparing product demo clips",
+   "option": "Record in office on Saturday"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "Preparing product demo clips",
+   "option": "Record in office on Saturday"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Reception layout",
+   "option": "Sketch layout next week"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Reception layout",
+   "option": "Sketch layout next week"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "How to increase rep sign-ups (option: Write a short ask in the customer newsletter)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Elif",
+   "confidence": 0.6,
+   "decision": "Where to hold the customer conference (option: Same place as two years ago)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "When to mention the conference date in the newsletter (option: Not until the booking's confirmed)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "When to mention the conference date in the newsletter (option: After confirming the platform)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.95,
+   "decision": "Where to hold the customer conference (option: Harborview ballroom for the summit)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.7,
+   "decision": "Where to hold the customer conference (option: Harborview ballroom for the summit)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Where to hold the customer conference (option: Virtual product showcase plus small invite-only reception)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Choosing event platform",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.7,
+   "decision": "Tracking rep sign-ups",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Tracking rep sign-ups",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "Writing newsletter about showcase",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "Preparing product demo clips",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Preparing product demo clips",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.6,
+   "decision": "Preparing product demo clips",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

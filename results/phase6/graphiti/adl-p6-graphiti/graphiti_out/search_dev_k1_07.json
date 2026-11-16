@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01015-q01",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77a68435-d88b-41c9-80ec-fa84abae444a",
+    "name": "USED_FOR",
+    "fact": "Dmitri mentioned that the recycled PET felt wall panel is used for noise absorption.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.510836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q02",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77a68435-d88b-41c9-80ec-fa84abae444a",
+    "name": "USED_FOR",
+    "fact": "Dmitri mentioned that the recycled PET felt wall panel is used for noise absorption.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.510836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q03",
+  "facts": [
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5cac5bbd-1c01-4daa-a2d5-f6aabc3bd2f2",
+    "name": "SCHEDULED_FOR",
+    "fact": "The cleaning contract review was scheduled for the 31st.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.510817+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q04",
+  "facts": [
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95274a77-5cac-4936-a5ef-6439eff672a4",
+    "name": "SERVICE_VISIT_SCHEDULED",
+    "fact": "Ravi mentioned that the service visit for lift two was moved to the twenty-second.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-22T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q05",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "f8a554d9-eab8-4a19-9b3a-6b7d7c808c7a",
+    "name": "DISCUSSED_WITH",
+    "fact": "Kwame discussed with Tessaline about the mineral-wool-core panel and its cost.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q06",
+  "facts": [
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77a68435-d88b-41c9-80ec-fa84abae444a",
+    "name": "USED_FOR",
+    "fact": "Dmitri mentioned that the recycled PET felt wall panel is used for noise absorption.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.510836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q07",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "77a68435-d88b-41c9-80ec-fa84abae444a",
+    "name": "USED_FOR",
+    "fact": "Dmitri mentioned that the recycled PET felt wall panel is used for noise absorption.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.510836+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q08",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f1467d52-f6bf-4380-8497-24a1a6edc4b1",
+    "name": "PROVIDED_INFORMATION_TO",
+    "fact": "Tessaline provided information to the insurer about the mineral-wool-core panel and its test results.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q09",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6b77bdd-89e7-4224-a0d5-7d2145524df1",
+    "name": "HAS_MATERIAL",
+    "fact": "Dmitri mentioned that the escape corridor will use the mineral-wool-core panel, which tests at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01015-q10",
+  "facts": [
+   {
+    "uuid": "5f0be98e-dcb9-42cf-ad9b-1f9e86b5f467",
+    "name": "SELECTED",
+    "fact": "Ravi selected Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "862e3830-3633-4a00-807b-de9329fcdf85",
+    "name": "HAS_REFIT_PLANNED_FOR",
+    "fact": "Ravi mentioned that the refit for the fourth floor starts in nine weeks.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7b435253-f00c-4481-b96f-bebd77796c2d",
+    "name": "ORDERED",
+    "fact": "Ravi ordered the Tessaline felt panels for the fourth floor refit.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23f45fe2-eb56-411e-b03b-4459cbb450d4",
+    "name": "COST",
+    "fact": "The cost of the Tessaline felt panels for the fourth floor refit is 19,220 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511007+00:00"
+   },
+   {
+    "uuid": "af2584ac-14c7-45da-851d-7bd8d456ec64",
+    "name": "COST",
+    "fact": "The timber slat quote for the fourth floor refit was 24,025 pounds.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b8482afb-4d9b-40dc-a8f5-535d2d04cd96",
+    "name": "HAS_ISSUE_WITH",
+    "fact": "Ravi mentioned that the fourth floor has an issue with noise.",
+    "episodes": [
+     "02c80552-480f-47df-9d32-32c675a9f0f8"
+    ],
+    "valid_at": "2025-01-10T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75ef9d53-914e-4056-b5ac-0dc6e2bff0f8",
+    "name": "COVERED",
+    "fact": "The Tessaline felt panels are intended to cover 310 square metres of the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": "2025-01-24T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:59:11.511015+00:00"
+   },
+   {
+    "uuid": "346da913-1743-44cd-8b98-f780e92e10ca",
+    "name": "REQUESTED",
+    "fact": "Ravi requested Dmitri to measure the escape corridors on the fourth floor.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e0bbc80a-ebb8-49b7-a99d-cffe8af4db38",
+    "name": "USED_MATERIAL",
+    "fact": "Dmitri used the Tessaline felt panels for the floor, but the escape corridor will use the mineral-wool-core panel.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "47588606-1205-45e5-8f40-bd059ec9c3ff",
+    "name": "USES",
+    "fact": "Ravi decided that the Tessaline felt panels will stay across the floor, and the 46 square metres of escape corridor will get the mineral-wool-core panel at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4bcc627e-9ed1-400c-90c2-6d69dbb0c29a",
+    "name": "SCHEDULED_FOR",
+    "fact": "The deep clean on the second floor was scheduled for Thursday.",
+    "episodes": [
+     "241a3d09-53a0-43e2-a8a3-43a62942b43a"
+    ],
+    "valid_at": "2025-01-17T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d6b77bdd-89e7-4224-a0d5-7d2145524df1",
+    "name": "HAS_MATERIAL",
+    "fact": "Dmitri mentioned that the escape corridor will use the mineral-wool-core panel, which tests at B-s1,d0.",
+    "episodes": [
+     "27d6379b-1298-4ad3-b1f9-9a6c51491ab8"
+    ],
+    "valid_at": "2025-01-24T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

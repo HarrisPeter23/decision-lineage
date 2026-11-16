@@ -1,0 +1,488 @@
+{
+ "set_id": "set_01020",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "backend engineering team",
+  "seed": 1020,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 101
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 95
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 81
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the datastore for the new notification-preferences service",
+ "options": {
+  "A": "a managed key-value store billed per request, one table per tenant tier",
+  "B": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas"
+ },
+ "cast": [
+  {
+   "name": "Arjun",
+   "slot": "manager",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Sven",
+   "slot": "proposer",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Henrik",
+   "slot": "challenger",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Rohan",
+   "slot": "supporter",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Hana",
+   "slot": "observer",
+   "style": "talkative, drifts into tangents"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "a managed key-value store billed per request, one table per tenant tier"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    23
+   ],
+   "gist": "Sven proposes using the managed key-value store for the notification-preferences service.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    27,
+    28,
+    30,
+    32
+   ],
+   "gist": "Sven argues that the access pattern is single-key reads peaking at 9,000 a second during campaign pushes, and the key-value store would cost about 600 dollars a month against roughly 2,100 for the relational cluster with two extra replicas.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    69
+   ],
+   "gist": "Arjun agrees without naming the store, by telling Sven to open the infrastructure ticket.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    30
+   ],
+   "gist": "Hana reports a load test in which 7 percent of preference reads during the spike returned stale data, so users who had just unsubscribed still received messages for up to two seconds.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    37
+   ],
+   "gist": "Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Arjun reopens the datastore question after legal confirms the stale-read window counts as a breach of the opt-out policy.",
+   "version": 1,
+   "option_key": "A",
+   "option": "a managed key-value store billed per request, one table per tenant tier",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Henrik",
+   "utterance_idxs": [
+    37,
+    38,
+    39
+   ],
+   "gist": "Henrik argues for the relational cluster because it gives read-after-write consistency, and with two extra replicas it held 9,000 reads a second in testing at a 99th-percentile latency of 18 milliseconds, for about 2,100 dollars a month.",
+   "version": 2,
+   "option_key": "B",
+   "option": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Arjun",
+   "utterance_idxs": [
+    62
+   ],
+   "gist": "Arjun decides the preferences service goes on the shared relational cluster.",
+   "version": 2,
+   "option_key": "B",
+   "option": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": {
+  "topic": "how long debug logs are kept",
+  "option": "cut debug log retention from 30 days to 14 days",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Rohan",
+    "utterance_idxs": [
+     60
+    ],
+    "gist": "Rohan suggests cutting debug log retention from 30 days to 14.",
+    "version": null,
+    "option_key": null,
+    "option": "cut debug log retention from 30 days to 14 days",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Rohan",
+    "utterance_idxs": [
+     62
+    ],
+    "gist": "Rohan points out that debug logs are 41 percent of the 5.2 terabyte monthly log bill and nobody queried anything older than nine days last quarter.",
+    "version": null,
+    "option_key": null,
+    "option": "cut debug log retention from 30 days to 14 days",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Arjun",
+    "utterance_idxs": [
+     70
+    ],
+    "gist": "Arjun approves cutting debug log retention to 14 days.",
+    "version": null,
+    "option_key": null,
+    "option": "cut debug log retention from 30 days to 14 days",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01020-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the datastore for the new notification-preferences service?",
+   "answer_text": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas",
+   "answer_facts": {
+    "option": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the datastore for the new notification-preferences service?",
+   "answer_text": "meeting 1: Arjun - Arjun agrees without naming the store, by telling Sven to open the infrastructure ticket.; meeting 3: Arjun - Arjun decides the preferences service goes on the shared relational cluster.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "a managed key-value store billed per request, one table per tenant tier",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q03",
+   "type": "as_of",
+   "question": "What was the decision about the datastore for the new notification-preferences service as of the end of meeting 1?",
+   "answer_text": "a managed key-value store billed per request, one table per tenant tier",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "a managed key-value store billed per request, one table per tenant tier"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01020-q04",
+   "type": "as_of",
+   "question": "What was the decision about the datastore for the new notification-preferences service as of the end of meeting 3?",
+   "answer_text": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the datastore for the new notification-preferences service change over time?",
+   "answer_text": "a managed key-value store billed per request, one table per tenant tier (from meeting 1) -> new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "a managed key-value store billed per request, one table per tenant tier",
+     "new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01020-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the datastore for the new notification-preferences service changed?",
+   "answer_text": "Before: a managed key-value store billed per request, one table per tenant tier, because Sven argues that the access pattern is single-key reads peaking at 9,000 a second during campaign pushes, and the key-value store would cost about 600 dollars a month against roughly 2,100 for the relational cluster with two extra replicas. Triggered by: Hana (evidence): Hana reports a load test in which 7 percent of preference reads during the spike returned stale data, so users who had just unsubscribed still received messages for up to two seconds. Henrik (challenge): Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked. Arjun (reconsideration): Arjun reopens the datastore question after legal confirms the stale-read window counts as a breach of the opt-out policy. After: new tables in the shared relational cluster that the accounts service already runs, with two extra read replicas, because Henrik argues for the relational cluster because it gives read-after-write consistency, and with two extra replicas it held 9,000 reads a second in testing at a 99th-percentile latency of 18 milliseconds, for about 2,100 dollars a month.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the datastore for the new notification-preferences service?",
+   "answer_text": "Sven",
+   "answer_facts": {
+    "speaker": "Sven"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01020-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the datastore for the new notification-preferences service?",
+   "answer_text": "Hana (evidence): Hana reports a load test in which 7 percent of preference reads during the spike returned stale data, so users who had just unsubscribed still received messages for up to two seconds. Henrik (challenge): Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01020-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the datastore for the new notification-preferences service?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the datastore for the new notification-preferences service from proposal to final outcome.",
+   "answer_text": "meeting 1 - Sven [proposal]: Sven proposes using the managed key-value store for the notification-preferences service. | meeting 1 - Sven [rationale]: Sven argues that the access pattern is single-key reads peaking at 9,000 a second during campaign pushes, and the key-value store would cost about 600 dollars a month against roughly 2,100 for the relational cluster with two extra replicas. | meeting 1 - Arjun [resolution]: Arjun agrees without naming the store, by telling Sven to open the infrastructure ticket. | meeting 2 - Hana [evidence]: Hana reports a load test in which 7 percent of preference reads during the spike returned stale data, so users who had just unsubscribed still received messages for up to two seconds. | meeting 2 - Henrik [challenge]: Henrik objects that sending to someone who has just opted out breaks the company's opt-out policy and that an unsubscribe has to hold the moment it is clicked. | meeting 3 - Arjun [reconsideration]: Arjun reopens the datastore question after legal confirms the stale-read window counts as a breach of the opt-out policy. | meeting 3 - Henrik [rationale]: Henrik argues for the relational cluster because it gives read-after-write consistency, and with two extra replicas it held 9,000 reads a second in testing at a 99th-percentile latency of 18 milliseconds, for about 2,100 dollars a month. | meeting 3 - Arjun [resolution]: Arjun decides the preferences service goes on the shared relational cluster.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01020-q11",
+   "type": "distractor",
+   "question": "What was decided about how long debug logs are kept?",
+   "answer_text": "cut debug log retention from 30 days to 14 days",
+   "answer_facts": {
+    "option": "cut debug log retention from 30 days to 14 days"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

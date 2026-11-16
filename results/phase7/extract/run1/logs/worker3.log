@@ -1,0 +1,13 @@
+
+=== single_pass_recap_roles ===
+   ami_TS3004-mtg_0004-recap: extraction failed (RuntimeError: network failure after 8 tries: ReadTimeout); recording no links
+ami_TS3004: 179 links
+test_k10_02: 136 links
+test_k1_03: 37 links
+test_k1_07: 65 links
+test_k1_11: 110 links
+test_k1_15: 59 links
+test_k1_19: 28 links
+single_pass_recap_roles: status=FAILED (1/26 meeting calls failed)  role-typed P 0.000 R 0.000 F1 0.000
+
+wrote /kaggle/working/out/w3/summary.md

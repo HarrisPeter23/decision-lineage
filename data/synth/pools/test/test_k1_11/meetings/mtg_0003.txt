@@ -1,0 +1,109 @@
+Meeting: mtg_0003
+Date: 2025-08-06
+Participants: Henrik, Diego, Elif, Rohan, Chloe
+
+Henrik: Okay. Who's missing? Chloe's on, Rohan's on.
+Chloe: Hi, yeah, sorry, I was muting and unmuting, the- it's fine now.
+Rohan: Morning. Is the Thursday slot actually on everyone's calendar? Mine shows two o'clock but Diego's shows as, uh, tentative.
+Diego: That's me clicking the wrong button. I'm in.
+Elif: Good.
+Henrik: Rohan, the schema. Did Zofia come back?
+Rohan: She did, Monday. Approved it, no questions. So the weekly job ran for the first time this week.
+Chloe: Oh nice, so it's live?
+Rohan: Live on the old cluster. The table's filling, Rosa's column is pointing at it.
+Diego: Did she swap the column already? I thought that was going to be, what, next week-
+Rohan: Tuesday. She said it took her an hour.
+Elif: Told you.
+Chloe: Good. I mean, good for her.
+Diego: Okay, so account managers have been looking at the new numbers for two days.
+Elif: Any feedback?
+Chloe: Um, Jamal sent a message, something like, the colors are different, are they supposed to be different. That was it.
+Diego: That's a fair question, honestly.
+Elif: They're supposed to be different.
+Chloe: Right, I said that. I said it's a new, you know, a refresh.
+Henrik: Mm.
+Rohan: Can I bring something up on the scores? While I was checking the first run I did a thing I wasn't asked to do.
+Elif: Of course you did.
+Rohan: Well, it was sitting right there. I pulled the enterprise accounts out and compared the score to what happened last quarter.
+Diego: Compared how?
+Rohan: Just, what the model says versus who actually left. Forty accounts, that's all the enterprise tier we've got.
+Chloe: Forty, that's not many.
+Rohan: No, but it's the whole tier, it's not a sample. So the average the logistic one gives them is about twelve percent.
+Diego: Twelve.
+Rohan: And last quarter, uh, thirty-one percent of them walked. Or didn't renew, whichever you call it.
+Elif: Thirty-one.
+Rohan: Yeah. Twelve versus thirty-one, and I double-checked the join this time, given everything.
+Diego: Huh. That's not a small miss.
+Chloe: Is that, like, a one-quarter thing though? Could be a weird quarter.
+Rohan: Could be. I only did the one quarter. I didn't go back further.
+Elif: Do it.
+Rohan: Yeah, yeah, I will, I just wanted to say it before the thing sat in a notebook for a week.
+Diego: Okay, sorry, I need a second. Because what bothers me isn't the miss itself.
+Diego: It's who it's on. Enterprise is where the money is. Something like fifty-eight percent of renewal revenue sits in those accounts.
+Elif: Is it that high?
+Diego: Last I looked, yeah. Fifty-eight, give or take. So the model that's wrong about them is wrong about the part that pays for everything else.
+Chloe: From the big picture, that's, yeah. That's the whole point of the score, isn't it, knowing who to call.
+Diego: Right. And right now a quarter of the big ones are leaving and the sheet is telling the account managers they're basically fine.
+Rohan: Well, twelve percent average, not all of them show twelve.
+Diego: Sure, but the average is what it is. I'm not saying the readable coefficients don't have value. I'm saying we picked on a decile number, and that number didn't have an enterprise cut in it.
+Elif: It didn't.
+Diego: So, I mean, I'm playing devil's advocate, but is this a fluke or is it the model?
+Elif: Small tier. Forty accounts. Ten or twelve of them moved.
+Diego: Ten or twelve is a lot of money.
+Elif: I know that.
+Rohan: Thirty-one percent of forty is, um, twelve and a bit. So yeah. Twelve accounts.
+Chloe: Twelve accounts leaving, wow.
+Rohan: Not leaving all at once, it's, there was some downgrading in there too, I'd have to look at how I flagged that-
+Elif: Which one is it, leaving or downgrading?
+Rohan: Both counted. I'd have to split them.
+Elif: Then split them.
+Rohan: Okay, okay.
+Henrik: Hm.
+Diego: Can I ask what the boosted one would have said for those same forty?
+Rohan: I haven't run it. It's not scoring them in production, I'd have to go back and pull the old notebook output.
+Diego: I can pull it. It's a quick query.
+Elif: Do it before next time. Not a rerun, just those forty.
+Diego: Yeah, fine.
+Chloe: Sorry, is anyone else's screen freezing? I lost you for a second.
+Rohan: I'm fine.
+Chloe: Okay, I'm back.
+Elif: Anyway.
+Rohan: Related, kind of, the enterprise accounts, I noticed a bunch have two contract IDs. Because of the merge.
+Chloe: Ugh, the merge.
+Rohan: So some of that twelve might be me counting the same account half a time. I don't know. I'd need to check.
+Diego: That would cut the other way, though, wouldn't it? Fewer accounts, same people leaving.
+Rohan: Or more, if I'm missing some. I really don't know yet.
+Elif: Check it.
+Rohan: Yes. Yes. It's on my list.
+Chloe: It's a long list.
+Rohan: You have no idea. Did you see the train strike is back? Another three days next week.
+Chloe: Again? Is that the northern one?
+Rohan: The same one. I'm remote anyway Thursdays but now it's Wednesday and Friday too, probably.
+Elif: Hotspot.
+Rohan: I know, I know, I have a new one. It still drops.
+Chloe: Which one did you get?
+Rohan: I don't even know, the cheap one. A guy at the shop said it was fine.
+Diego: They always say it's fine.
+Chloe: Mine at home is okay, but it's, like, a different thing, it's the box from the- the provider.
+Henrik: Okay. Can we get back to the scores for a minute?
+Rohan: Sorry. Yes.
+Henrik: What do we know for sure, and what don't we?
+Elif: We know it ran. We know twelve against thirty-one on one quarter and forty accounts. We don't know the split.
+Diego: And I don't know if the other one does any better on them.
+Rohan: And I don't know about the double IDs.
+Henrik: Fine. So the column stays as it is this week.
+Chloe: Does that mean the account managers keep seeing the same numbers?
+Henrik: For now.
+Chloe: Okay. I should maybe tell Rosa so she doesn't think it's about to change again.
+Elif: Tell her it's being looked at. Nothing more.
+Chloe: Right, being looked at. I can do that.
+Diego: And we come back to this next time, with the numbers.
+Henrik: Next time, yes. Bring the forty accounts split out.
+Rohan: I'll send what I have tonight so you're not starting cold.
+Diego: Please. And put the query in the doc.
+Rohan: It's already in the doc. It's, uh, the second tab.
+Diego: Is it? I never look at the second tab.
+Elif: Nobody looks at the second tab.
+Henrik: I've got a call. Thanks, everyone.
+Diego: Thanks.
+Chloe: Bye!

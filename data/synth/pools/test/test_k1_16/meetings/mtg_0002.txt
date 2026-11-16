@@ -1,0 +1,97 @@
+Meeting: mtg_0002
+Date: 2025-08-03
+Participants: Priya, Fatima, Sven, Wei, Elif
+
+Priya: Okay, um, I think maybe we can start. Is everyone on?
+Sven: All here.
+Elif: Yep, hi, sorry, my headset was being weird.
+Priya: No problem. So the demo is Thursday now, I moved it. Does that work for everybody?
+Wei: Fine.
+Fatima: Fine with me.
+Sven: Thursday's good. I'll have the address step done by then.
+Priya: Great. And did Ines get back to anyone about the card field wrapper?
+Sven: Friday afternoon. It supports both platforms and she says it's tested on the framework version we're on.
+Priya: Oh, good. Then that story can come off blocked, I think?
+Sven: Already took the flag off.
+Priya: Thank you. Okay. Elif, you said in the channel you'd tried something over the weekend?
+Elif: Yeah, I built the payment sheet both ways. Quick and dirty, just to see how they feel.
+Priya: Oh, that's, that's really above and beyond.
+Elif: It's rough. But the scrolling on the older Android, the four-year-old one, it just crawls in the shared version. Thirty-eight frames, about.
+Elif: Native one held fifty-eight on the same handset. And I checked analytics, that model is still twenty-two percent of our users.
+Wei: Hm.
+Priya: Oh. Um. That's, that's not nothing.
+Sven: Which handset exactly? The one I tested on in July was a different one, I got sixty on that.
+Elif: The older one. The small-screen model, the one Caio keeps in his drawer.
+Sven: Okay, that's slower than mine, yeah. Hang on though-
+Elif: And I only did the payment sheet, it's not the full-
+Sven: No, no, it matters. Checkout is where the money comes in. If a fifth of the phones stutter right when someone's about to pay, we'll see it in conversions.
+Sven: Nobody abandons a cart over a sluggish settings list. This is the one screen where it costs us.
+Fatima: Could we tune it, maybe? Like, the list virtualization?
+Elif: I tried a couple of things. It went from thirty to thirty-eight, so that's after.
+Priya: Oh, so thirty-eight is after tuning?
+Elif: Some. Not all, I ran out of time.
+Wei: Native is more work though.
+Sven: Fifteen versus nine, yes. But I'd want to know what the nine looks like with a perf pass in it.
+Priya: Right, right, the review week is, um, probably eaten by that then.
+Fatima: I can rerun the estimate sheet. With a perf week in.
+Priya: That'd be, yeah, helpful. Thank you, Fatima.
+Fatima: Okay. I'll look tomorrow.
+Elif: Should we test on more than one old phone, though? Because I only had the one-
+Sven: Two at least. I have a spare tablet too but that's not representative.
+Priya: I don't want to settle anything off one prototype, honestly.
+Wei: Fair.
+Priya: Okay, other things. The point release goes out Wednesday. Release notes are still in the doc?
+Elif: Draft's there. Caio hasn't checked the wording yet.
+Priya: He's back, isn't he?
+Elif: He's back, he's just buried. Support sync stuff.
+Wei: Honestly product should own the store text. Not us.
+Priya: Oh. Um, say more?
+Wei: Four of the last six went out late.
+Wei: And we write what the code does, not what the feature is. Camille's people rewrote ours twice.
+Elif: The last one was late because the build was-
+Wei: Four of six.
+Elif: Okay, okay, fine.
+Sven: Who in product would take it? Joao?
+Priya: Joao does the listing copy already, I think. Maybe Leila's team, no, she's engineering. Joao.
+Sven: He'd need a feed of what changed.
+Priya: Tickets, I'd say. Titles at least.
+Priya: Okay, then product writes the release notes from now on, starting with the next point release. I'll tell Joao and Camille today.
+Elif: Do I still send my draft?
+Priya: Send it to Joao as a starting point, yes.
+Elif: Will do.
+Sven: I'll give him read access to the ticket board.
+Wei: He has it.
+Sven: Oh. Good.
+Priya: Okay, what else. Laptop refresh form, has anybody filled that in? Procurement wants it Friday.
+Fatima: I did. Mine's the oldest, I think.
+Sven: I haven't. What's it asking?
+Priya: Serial number, purchase date, um, whether you need the bigger screen.
+Sven: Purchase date I'd have to dig up. Spring of 2022, probably.
+Wei: Check the asset sticker.
+Sven: Right, yes.
+Elif: Mine's fine, I'm not doing it.
+Priya: Please do fill it, even if it's fine, they want everyone.
+Elif: Ugh. Okay.
+Priya: And the retro, I wanted to move it, Sunita has the support sync clash again.
+Wei: When?
+Priya: Thursday afternoon maybe? After the demo.
+Fatima: That's okay.
+Elif: I have a thing at four.
+Priya: We'll be done by three thirty, I'd hope.
+Elif: Okay.
+Sven: Back on checkout for a sec, sorry. If Fatima redoes the sheet, can she send it before Thursday so we're not guessing in the demo?
+Fatima: Wednesday evening. Probably.
+Priya: That'd be good.
+Elif: And I'll test on a second old phone. Caio might have another.
+Sven: Ask him for the model number too.
+Elif: Yeah.
+Wei: And the sprint board?
+Priya: Oh, it's, um, the same, I don't think anyone needs to touch it.
+Wei: Ok.
+Sven: Alright. Does the on-call rota change for August, by the way?
+Priya: Um, same as last month I think. I'll check.
+Sven: Because I'm away the twelfth.
+Priya: Oh. Okay, noted. Wei, can you swap?
+Wei: Maybe. Send me the days.
+Sven: Will do.
+Priya: Okay, I have to run, thanks all.

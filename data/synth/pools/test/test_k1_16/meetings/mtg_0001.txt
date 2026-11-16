@@ -1,0 +1,105 @@
+Meeting: mtg_0001
+Date: 2025-07-27
+Participants: Priya, Fatima, Sven, Wei, Elif
+
+Priya: Okay, um, let's get going. Is everyone, is Elif on yet?
+Elif: Here, sorry, I was on mute.
+Priya: No worries. So, before the main thing, did the build server get sorted out? It was timing out Friday.
+Wei: Restarted it. Fine now.
+Sven: It was the disk, actually. Ninety-something percent full on the cache volume. I cleared out old artifacts.
+Priya: Oh good, okay. Thank you, Sven.
+Sven: I put a ticket in to have it alert before that happens again.
+Priya: Great. Um, and standup is moving to ten, it's, Sunita asked because of the support sync.
+Elif: Ten is fine with me.
+Wei: Fine.
+Fatima: Fine.
+Priya: Okay. So then, the checkout screen. Design signed off the flows on Friday, I think maybe?
+Sven: Version four of the flows, yeah. Version three had the old address step so ignore that one.
+Priya: Right, four. So the, uh, the question is how we actually build it.
+Wei: Native or not.
+Priya: Well, sort of, I mean, that's, that's what I was hoping we could talk through.
+Elif: Camille said payments wants it before the autumn freeze-
+Priya: End of October, yes.
+Elif: So not much runway.
+Sven: About fourteen weeks from today if you don't count holidays. Which you should.
+Priya: Yeah. Okay. Fatima, you had something in the chat, I think? About this?
+Fatima: Um. Yeah. A little.
+Priya: Go ahead, no pressure.
+Fatima: So the settings screens already run on that shared framework, right? I was wondering if checkout could just, you know, live there too.
+Wei: Hm.
+Priya: Okay. That's, um, that's a real possibility.
+Sven: Same setup? Same build config as settings?
+Fatima: Same, yeah. It's already wired into both apps.
+Priya: And the, uh, the reason would be...?
+Fatima: Time, mostly. I went through the estimate sheet. Doing it once comes to about nine weeks.
+Fatima: Building it twice, once per platform, is more like fifteen.
+Fatima: And, um, two of our four already know the framework.
+Elif: Which two? Is it you and-
+Sven: Me and Fatima. We did settings together.
+Wei: So Elif and I learn it.
+Elif: I did the tutorial once. It's not scary.
+Priya: Mm. Nine against fifteen is, um, quite a gap.
+Sven: The nine has slack in it though. I think there's a review week. Maybe eight and a half without.
+Fatima: The review week was mine, yeah.
+Priya: Okay. Does anyone, uh, have a worry about it?
+Wei: Payment sheet performance. It stuttered last time.
+Sven: That was the big settings list. Checkout is mostly forms. I got around sixty frames on the old test phone.
+Wei: Fine.
+Elif: What about the card entry field? Don't we need the secure piece from the payment-
+Sven: Vendor ships a wrapper for it. Ines read the docs, I think.
+Priya: I'll ask Ines to confirm. That one's mine.
+Elif: Okay, thanks.
+Priya: And accessibility, does that carry over, or...?
+Sven: Screen reader labels behave the same in settings. The audit in May passed with two small issues.
+Fatima: Both fixed.
+Priya: Good. I'd forgotten that.
+Wei: Native animates better. We don't need it.
+Elif: Design wants a little slide on the confirmation but it's-
+Sven: Doable. I did something close for the toggle.
+Priya: Okay, so what's the, um, the risk? If it goes this way?
+Sven: Biggest is the framework upgrade in September. If it breaks the bridge we lose a few days.
+Wei: Few days is fine.
+Priya: Is Leila still doing that upgrade?
+Elif: She's out second half of August, Camille said.
+Priya: Oh. I thought first half.
+Elif: Second. It's on the calendar.
+Priya: Okay, whichever. That's separate anyway.
+Sven: Should be done before she goes either way.
+Fatima: I can read the upgrade notes this week.
+Priya: That'd be great, thanks.
+Wei: Are we done on this?
+Priya: Almost, I'm just, hang on. The backlog still has the old stories in it, doesn't it?
+Sven: Eleven of them, tagged iOS and Android separately. They'd need merging.
+Elif: I can merge them, it's an hour-
+Priya: Mm, well. Wei, could you set up the epics and the sprint board, and fold those old stories in? I'd like it ready for Monday.
+Wei: Yep. Tomorrow morning.
+Elif: Do you want me to do the acceptance criteria then?
+Priya: Maybe, um, Sven and Fatima could draft those? Since they know the- yeah.
+Sven: Sure. I'll start with the address step.
+Fatima: Okay.
+Wei: Where does the vendor wrapper work go, its own epic?
+Priya: Um, probably just a story under the main one, I'd say.
+Wei: Ok.
+Sven: Should I flag it as waiting on whatever Ines says?
+Priya: Yes, mark it blocked until she replies.
+Sven: Will do.
+Elif: And the test accounts for the payment sandbox, who has those?
+Fatima: I have two. I can share them.
+Elif: Great, I'll need them for the flows.
+Fatima: Sending after this.
+Priya: Good. I'm, uh, a little nervous about the nine, honestly, but it's an estimate.
+Sven: An estimate with a margin.
+Priya: Right. Okay, other things. Release notes for the point release, who has those?
+Elif: Me. Draft is in the doc, I need Caio to check the wording.
+Priya: Caio is back Wednesday, I think.
+Elif: Tuesday. Doesn't matter, I'll ping him.
+Priya: Okay.
+Wei: Anything else?
+Priya: Um, I think that's, no wait. Sven, the flows link, can you resend it?
+Sven: Version four, sure.
+Priya: Thanks. And Fatima, thank you for the estimate sheet.
+Fatima: Sure.
+Elif: Oh, one thing, can the demo move? I have a clash on Friday-
+Priya: Let me look. Probably to Thursday?
+Elif: Thursday's great.
+Priya: Okay, I'll move it. Alright, I have to jump to another call. Thanks everyone.

@@ -1,0 +1,3202 @@
+{
+ "set_id": "ami_TS3012",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    192
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    193
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    194
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    197
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    198
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    199
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a universal remote control",
+   "option": "universal remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    202
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    202
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    207
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    209
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    210
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    213
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    214
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include speech recognition",
+   "option": "speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    224
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    226
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    232
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    233
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    236
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    238
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    241
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    247
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    248
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include exchangeable covers for the remote control",
+   "option": "exchangeable covers"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    251
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    252
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    254
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include trend-watching in the design process",
+   "option": "trend-watching"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    256
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the user interface intuitive",
+   "option": "intuitive user interface"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    257
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the user interface intuitive",
+   "option": "intuitive user interface"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    258
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    260
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    262
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    263
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    266
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a second level menu for advanced functions",
+   "option": "second level menu"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    270
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    271
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    271
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    274
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    276
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    277
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    279
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to use a double-sided remote control",
+   "option": "double-sided remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    290
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    292
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    293
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    294
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    295
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    296
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include all functions of a television in the remote control",
+   "option": "all functions of a television"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    297
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    300
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    301
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    302
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    303
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control distinct from other brands",
+   "option": "distinct remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    309
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    310
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    311
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to present design ideas next time",
+   "option": "present design ideas"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    342
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    342
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    344
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    347
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    349
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    352
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    353
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    354
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    355
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    356
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a flash for people who are deaf",
+   "option": "flash for deaf people"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    368
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    368
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    369
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    412
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    412
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    413
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    414
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    416
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    424
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    424
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    425
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    427
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    431
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    432
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    436
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    437
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    438
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    439
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    440
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    440
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    441
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    442
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    443
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    444
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    445
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    446
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    447
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    448
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    448
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    449
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    449
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    450
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    451
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    452
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    453
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    454
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    454
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    455
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to make the remote control rechargeable",
+   "option": "rechargeable remote control"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    457
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Separate signal station"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    458
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design of remote control base station",
+   "option": "Separate signal station"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    462
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    463
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    465
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    467
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Design of remote control base station",
+   "option": "Base station with remote insertion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    472
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Market research on pricing"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    479
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Market research on pricing"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    481
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Market research on pricing"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    482
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Pricing and customer willingness to pay",
+   "option": "Market research on pricing"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    552
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "Younger audience with LCD and speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    561
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "Younger audience with LCD and speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    565
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Target market and features",
+   "option": "Younger audience with LCD and speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    570
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Target market and features",
+   "option": "Younger audience with LCD and speech recognition"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    580
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    619
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    624
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    644
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    648
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    649
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Design and cost of LCD screen",
+   "option": "LCD screen inclusion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    655
+   ],
+   "speaker": "UI",
+   "confidence": 0.6,
+   "decision": "Button placement on remote",
+   "option": "Volume and channel controls on top"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    661
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Button placement on remote",
+   "option": "Volume and channel controls on top"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    671
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Battery and space considerations",
+   "option": "Single rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    672
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Battery and space considerations",
+   "option": "Single rechargeable battery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    701
+   ],
+   "speaker": "ME",
+   "confidence": 0.6,
+   "decision": "Product naming",
+   "option": "Product name suggestion"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    702
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Product naming",
+   "option": "Product name suggestion"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    154
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "Target market for remote control",
+   "option": "Younger people"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    155
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "Target market for remote control",
+   "option": "Younger people"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    197
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "Use of push-buttons for channel control",
+   "option": "Push-buttons"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    200
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Use of L_C_D_ screen",
+   "option": "L_C_D_ screen"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    211
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Offering two editions of remote control",
+   "option": "Deluxe edition and standard edition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    220
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "Inclusion of voice recognition",
+   "option": "Voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    240
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Inclusion of voice recognition",
+   "option": "Voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    256
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Inclusion of voice recognition in deluxe edition",
+   "option": "Voice recognition"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    657
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "placement of batteries in remote control",
+   "option": "batteries here"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    658
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "placement of batteries in remote control",
+   "option": "batteries here"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    659
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "placement of batteries in remote control",
+   "option": "batteries here"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    660
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "placement of batteries in remote control",
+   "option": "batteries here"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    663
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "placement of microphone in remote control",
+   "option": "on top"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    664
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "placement of microphone in remote control",
+   "option": "on top"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    665
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "placement of microphone in remote control",
+   "option": "on top"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    669
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "placement of microphone in remote control",
+   "option": "on top"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    670
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "placement of microphone in remote control",
+   "option": "on top"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    676
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    677
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    678
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    683
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    684
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    685
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    688
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "inclusion of speaker in remote control",
+   "option": "speaker on side"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    690
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    691
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    693
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    694
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    695
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    697
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    698
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    699
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    701
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    702
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    704
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    705
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    706
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    707
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    708
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    709
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    710
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    711
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    712
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    713
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    714
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    715
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    716
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    717
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    718
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    720
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    721
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    722
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    723
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    724
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    725
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    727
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    728
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    730
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    731
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    732
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    733
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    734
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    735
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    736
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    737
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    739
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    740
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    741
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    742
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    744
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    745
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    746
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    747
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    748
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    749
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    750
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    751
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    752
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    753
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    755
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    756
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    758
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    759
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    760
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    760
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    761
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    762
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    763
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    765
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    766
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    767
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    768
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    769
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    770
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    771
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    772
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    773
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    773
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    774
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    774
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    775
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    775
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    776
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    777
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    778
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    779
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    779
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    780
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    780
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    781
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    782
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    782
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    783
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    783
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    784
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    785
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    786
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    787
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "include scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    787
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    788
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    789
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    790
+   ],
+   "speaker": "ID",
+   "confidence": 0.8,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "exclude scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    791
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    792
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    793
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    794
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    795
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "exclude scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    797
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to include a scroll-wheel on the remote control",
+   "option": "exclude scroll-wheel"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    799
+   ],
+   "speaker": "UI",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    800
+   ],
+   "speaker": "ID",
+   "confidence": 0.9,
+   "decision": "use of LCD screen for navigation",
+   "option": "LCD screen for navigation"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "proposal",
+   "utterance_idxs": [
+    808
+   ],
+   "speaker": "ID",
+   "confidence": 0.7,
+   "decision": "whether to use yellow rubber for the remote control",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    809
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "whether to use yellow rubber for the remote control",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    811
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "whether to use yellow rubber for the remote control",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    812
+   ],
+   "speaker": "UI",
+   "confidence": 0.8,
+   "decision": "whether to use yellow rubber for the remote control",
+   "option": "use yellow rubber"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    151
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "whether to keep the curve",
+   "option": "keep the curve"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    177
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "whether to keep the special colour",
+   "option": "keep the special colour"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    206
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "whether the product meets user requirements",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    354,
+    355,
+    356
+   ],
+   "speaker": "ME",
+   "confidence": 0.9,
+   "decision": "Overall product score",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    383,
+    384,
+    385
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Overall product score",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    390,
+    391,
+    392
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Use of L_C_D_ screen",
+   "option": "two"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    408,
+    409,
+    410
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Inclusion of speech recognition",
+   "option": "not included"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    415,
+    416,
+    417
+   ],
+   "speaker": "PM",
+   "confidence": 0.6,
+   "decision": "Product evaluation",
+   "option": "completed"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    531,
+    532,
+    533,
+    534,
+    535,
+    536
+   ],
+   "speaker": "ME",
+   "confidence": 0.1,
+   "decision": "Product name for remote control",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    547,
+    548,
+    549,
+    550,
+    551
+   ],
+   "speaker": "ME",
+   "confidence": 0.3,
+   "decision": "Product name for remote control",
+   "option": "Real Reaction"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569
+   ],
+   "speaker": "UI",
+   "confidence": 0.5,
+   "decision": "Product name for remote control",
+   "option": "Real Reactor"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    579,
+    580,
+    581,
+    582,
+    583,
+    584
+   ],
+   "speaker": "PM",
+   "confidence": 0.7,
+   "decision": "Product name for remote control",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598
+   ],
+   "speaker": "ME",
+   "confidence": 0.5,
+   "decision": "Product name for remote control",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619
+   ],
+   "speaker": "ME",
+   "confidence": 0.7,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628
+   ],
+   "speaker": "PM",
+   "confidence": 0.8,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    629,
+    630,
+    631,
+    632,
+    633
+   ],
+   "speaker": "ID",
+   "confidence": 0.6,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    634,
+    635,
+    636,
+    637,
+    638
+   ],
+   "speaker": "UI",
+   "confidence": 0.7,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    639,
+    640,
+    641,
+    642,
+    643,
+    644
+   ],
+   "speaker": "ME",
+   "confidence": 0.8,
+   "decision": "Product name for remote control",
+   "option": "banana remote"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652
+   ],
+   "speaker": "PM",
+   "confidence": 0.9,
+   "decision": "Product name for remote control",
+   "option": "triple R_"
+  }
+ ]
+}

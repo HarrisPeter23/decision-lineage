@@ -1,0 +1,422 @@
+{
+ "set_id": "set_01041",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "domain": "sales operations team",
+  "seed": 1041,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 113
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 114
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 87
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "which fields are mandatory when a rep closes an opportunity in the CRM",
+ "options": {
+  "A": "eight mandatory fields at close-won, including competitor, use case and champion name",
+  "B": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later"
+ },
+ "cast": [
+  {
+   "name": "Kofi",
+   "slot": "manager",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Sven",
+   "slot": "proposer",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Zainab",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Meera",
+   "slot": "supporter",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Priya",
+   "slot": "observer",
+   "style": "quiet, speaks up rarely"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 3,
+   "option_text": "eight mandatory fields at close-won, including competitor, use case and champion name"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Sven proposes making eight fields mandatory when a rep closes an opportunity as won.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Sven",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Sven argues that last quarter's win-loss analysis stalled because 57 of 140 closed deals had no competitor recorded, and mandatory fields would fix that.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    94
+   ],
+   "gist": "Kofi settles it: the eight fields become mandatory at close-won.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Priya",
+   "utterance_idxs": [
+    18,
+    19,
+    20
+   ],
+   "gist": "Priya reports that in the three weeks since the change the median time to log a close went from 2 minutes to 11, 23 reps closed deals late in the CRM, and 18 percent of deals carry placeholder values such as n/a in the competitor field.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    36,
+    37,
+    38
+   ],
+   "gist": "Zainab objects that mandatory fields are producing junk data and costing each rep about 40 minutes a week, so the analysis is no better.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Kofi reopens the close-won rules.",
+   "version": 1,
+   "option_key": "A",
+   "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    31
+   ],
+   "gist": "Zainab argues for three mandatory fields plus a survey link sent to the rep two days after close, since a trial with 20 reps reached 83 percent completion with real answers.",
+   "version": 2,
+   "option_key": "B",
+   "option": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Kofi",
+   "utterance_idxs": [
+    60
+   ],
+   "gist": "Kofi decides on three mandatory fields plus the automatic survey link.",
+   "version": 2,
+   "option_key": "B",
+   "option": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 3,
+   "triggered_by": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "new_rationale": [
+    "B7"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01041-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about which fields are mandatory when a rep closes an opportunity in the CRM?",
+   "answer_text": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later",
+   "answer_facts": {
+    "option": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01041-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about which fields are mandatory when a rep closes an opportunity in the CRM?",
+   "answer_text": "meeting 1: Kofi - Kofi settles it: the eight fields become mandatory at close-won.; meeting 3: Kofi - Kofi decides on three mandatory fields plus the automatic survey link.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "eight mandatory fields at close-won, including competitor, use case and champion name",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01041-q03",
+   "type": "as_of",
+   "question": "What was the decision about which fields are mandatory when a rep closes an opportunity in the CRM as of the end of meeting 1?",
+   "answer_text": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "eight mandatory fields at close-won, including competitor, use case and champion name"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01041-q04",
+   "type": "as_of",
+   "question": "What was the decision about which fields are mandatory when a rep closes an opportunity in the CRM as of the end of meeting 2?",
+   "answer_text": "eight mandatory fields at close-won, including competitor, use case and champion name",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "eight mandatory fields at close-won, including competitor, use case and champion name"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01041-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about which fields are mandatory when a rep closes an opportunity in the CRM change over time?",
+   "answer_text": "eight mandatory fields at close-won, including competitor, use case and champion name (from meeting 1) -> three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later (from meeting 3)",
+   "answer_facts": {
+    "sequence": [
+     "eight mandatory fields at close-won, including competitor, use case and champion name",
+     "three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01041-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about which fields are mandatory when a rep closes an opportunity in the CRM changed?",
+   "answer_text": "Before: eight mandatory fields at close-won, including competitor, use case and champion name, because Sven argues that last quarter's win-loss analysis stalled because 57 of 140 closed deals had no competitor recorded, and mandatory fields would fix that. Triggered by: Priya (evidence): Priya reports that in the three weeks since the change the median time to log a close went from 2 minutes to 11, 23 reps closed deals late in the CRM, and 18 percent of deals carry placeholder values such as n/a in the competitor field. Zainab (challenge): Zainab objects that mandatory fields are producing junk data and costing each rep about 40 minutes a week, so the analysis is no better. Kofi (reconsideration): Kofi reopens the close-won rules. After: three mandatory fields (amount, close date, product) plus an automatic post-close survey link sent to the rep two days later, because Zainab argues for three mandatory fields plus a survey link sent to the rep two days after close, since a trial with 20 reps reached 83 percent completion with real answers.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01041-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about which fields are mandatory when a rep closes an opportunity in the CRM?",
+   "answer_text": "Sven",
+   "answer_facts": {
+    "speaker": "Sven"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01041-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about which fields are mandatory when a rep closes an opportunity in the CRM?",
+   "answer_text": "Priya (evidence): Priya reports that in the three weeks since the change the median time to log a close went from 2 minutes to 11, 23 reps closed deals late in the CRM, and 18 percent of deals carry placeholder values such as n/a in the competitor field. Zainab (challenge): Zainab objects that mandatory fields are producing junk data and costing each rep about 40 minutes a week, so the analysis is no better.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01041-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about which fields are mandatory when a rep closes an opportunity in the CRM?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01041-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about which fields are mandatory when a rep closes an opportunity in the CRM from proposal to final outcome.",
+   "answer_text": "meeting 1 - Sven [proposal]: Sven proposes making eight fields mandatory when a rep closes an opportunity as won. | meeting 1 - Sven [rationale]: Sven argues that last quarter's win-loss analysis stalled because 57 of 140 closed deals had no competitor recorded, and mandatory fields would fix that. | meeting 1 - Kofi [resolution]: Kofi settles it: the eight fields become mandatory at close-won. | meeting 2 - Priya [evidence]: Priya reports that in the three weeks since the change the median time to log a close went from 2 minutes to 11, 23 reps closed deals late in the CRM, and 18 percent of deals carry placeholder values such as n/a in the competitor field. | meeting 2 - Zainab [challenge]: Zainab objects that mandatory fields are producing junk data and costing each rep about 40 minutes a week, so the analysis is no better. | meeting 3 - Kofi [reconsideration]: Kofi reopens the close-won rules. | meeting 3 - Zainab [rationale]: Zainab argues for three mandatory fields plus a survey link sent to the rep two days after close, since a trial with 20 reps reached 83 percent completion with real answers. | meeting 3 - Kofi [resolution]: Kofi decides on three mandatory fields plus the automatic survey link.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  }
+ ]
+}

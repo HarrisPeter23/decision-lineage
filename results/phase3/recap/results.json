@@ -1,0 +1,64 @@
+{
+ "tol1": [
+  {
+   "name": "single_pass_recap_roles",
+   "status": "degraded (meetings with no links: ['set_01023-m3', 'set_01045-m3']; worker exit codes: [0, 0, 0, 0])",
+   "role_typed": {
+    "p": 0.15780445969125215,
+    "r": 0.7540983606557377,
+    "f1": 0.26099290780141843
+   },
+   "localization": {
+    "p": 0.19039451114922812,
+    "r": 0.9098360655737705,
+    "f1": 0.31489361702127666
+   },
+   "usage": {
+    "calls": 44,
+    "input_tokens": 113210,
+    "output_tokens": 32927
+   },
+   "ci": {
+    "role_typed_f1_ci": [
+     0.22303921568627452,
+     0.3079178885630498
+    ],
+    "chain_completeness_ci": [
+     0.6845238095238095,
+     0.8414115646258503
+    ]
+   }
+  }
+ ],
+ "tol0": [
+  {
+   "name": "single_pass_recap_roles",
+   "status": "degraded (meetings with no links: ['set_01023-m3', 'set_01045-m3']; worker exit codes: [0, 0, 0, 0])",
+   "role_typed": {
+    "p": 0.1509433962264151,
+    "r": 0.7213114754098361,
+    "f1": 0.24964539007092199
+   },
+   "localization": {
+    "p": 0.18524871355060035,
+    "r": 0.8852459016393442,
+    "f1": 0.30638297872340425
+   },
+   "usage": {
+    "calls": 44,
+    "input_tokens": 113210,
+    "output_tokens": 32927
+   },
+   "ci": {
+    "role_typed_f1_ci": [
+     0.21361815754339117,
+     0.2930298719772404
+    ],
+    "chain_completeness_ci": [
+     0.6670918367346939,
+     0.8056972789115646
+    ]
+   }
+  }
+ ]
+}

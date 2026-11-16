@@ -1,0 +1,1875 @@
+{
+ "transcript": {
+  "set_id": "set_01060",
+  "cast": [
+   "Marco",
+   "Arjun",
+   "Lena",
+   "Ivan",
+   "Noor"
+  ],
+  "meetings": [
+   {
+    "meeting_id": "m1",
+    "date": "2025-01-14",
+    "utterances": [
+     {
+      "idx": 0,
+      "speaker": "Marco",
+      "text": "\"Alright everyone, let's kick off. Today we're talking about staff laptop software policy.\"",
+      "ts": "2025-01-14T10:00:00"
+     },
+     {
+      "idx": 1,
+      "speaker": "Arjun",
+      "text": "\"Right, so Marco and I have been looking into this, and I think we should go with a strict allowlist.\"",
+      "ts": "2025-01-14T10:00:12"
+     },
+     {
+      "idx": 2,
+      "speaker": "Lena",
+      "text": "\"What's that mean?\"",
+      "ts": "2025-01-14T10:00:24"
+     },
+     {
+      "idx": 3,
+      "speaker": "Arjun",
+      "text": "\"It means staff can only install software we've approved. Last year's scan found 212 unapproved apps on 340 laptops, 9 of them with known vulnerabilities.\"",
+      "ts": "2025-01-14T10:00:36"
+     },
+     {
+      "idx": 4,
+      "speaker": "Ivan",
+      "text": "\"That's a lot.\"",
+      "ts": "2025-01-14T10:00:48"
+     },
+     {
+      "idx": 5,
+      "speaker": "Noor",
+      "text": "\"Yeah, but didn't we have something like this in place before? Why'd it not work?\"",
+      "ts": "2025-01-14T10:01:00"
+     },
+     {
+      "idx": 6,
+      "speaker": "Arjun",
+      "text": "\"Well, that's where the conversation gets complex, but I think this time we can enforce it better.\"",
+      "ts": "2025-01-14T10:01:12"
+     },
+     {
+      "idx": 7,
+      "speaker": "Lena",
+      "text": "\"I dunno, sounds like a lot of work for us.\"",
+      "ts": "2025-01-14T10:01:24"
+     },
+     {
+      "idx": 8,
+      "speaker": "Marco",
+      "text": "\"It is, but it's necessary. Arjun, can you send around a draft policy for us to review?\"",
+      "ts": "2025-01-14T10:01:36"
+     },
+     {
+      "idx": 9,
+      "speaker": "Arjun",
+      "text": "\"Sure thing, Marco. I'll have it ready by EOD.\"",
+      "ts": "2025-01-14T10:01:48"
+     },
+     {
+      "idx": 10,
+      "speaker": "Noor",
+      "text": "\"Speaking of work, did anyone see Esra's email about the new hardware rollout?\"",
+      "ts": "2025-01-14T10:02:00"
+     },
+     {
+      "idx": 11,
+      "speaker": "Ivan",
+      "text": "\"Oh, yeah, that. When's that happening again?\"",
+      "ts": "2025-01-14T10:02:12"
+     },
+     {
+      "idx": 12,
+      "speaker": "Noor",
+      "text": "\"Next month, I think. But that's not why we're here. Let's keep focused.\"",
+      "ts": "2025-01-14T10:02:24"
+     },
+     {
+      "idx": 13,
+      "speaker": "Marco",
+      "text": "\"Good point, Noor. Now, Arjun, about that policy draft...\"",
+      "ts": "2025-01-14T10:02:36"
+     },
+     {
+      "idx": 14,
+      "speaker": "Arjun",
+      "text": "\"I'm on it, Marco. I'll have it ready for us to discuss at our next meeting.\"",
+      "ts": "2025-01-14T10:02:48"
+     },
+     {
+      "idx": 15,
+      "speaker": "Marco",
+      "text": "\"Sounds good. In the meantime, let's start drafting a list of approved apps. Let's not make this harder on ourselves than it needs to be.\"",
+      "ts": "2025-01-14T10:03:00"
+     },
+     {
+      "idx": 16,
+      "speaker": "Lena",
+      "text": "\"I'll start making a list. Maybe we can take it offline tomorrow?\"",
+      "ts": "2025-01-14T10:03:12"
+     },
+     {
+      "idx": 17,
+      "speaker": "Marco",
+      "text": "\"Works for me. Alright, anything else before we wrap up today?\"",
+      "ts": "2025-01-14T10:03:24"
+     },
+     {
+      "idx": 18,
+      "speaker": "Ivan",
+      "text": "\"Just one thing - did we ever decide on that new antivirus software?\"",
+      "ts": "2025-01-14T10:03:36"
+     },
+     {
+      "idx": 19,
+      "speaker": "Marco",
+      "text": "\"Not yet, Ivan. Let's put that on the agenda for next time. We've got a lot to cover today.\"",
+      "ts": "2025-01-14T10:03:48"
+     },
+     {
+      "idx": 20,
+      "speaker": "Arjun",
+      "text": "\"Just to keep us on track, let's revisit our proposal. I think we should stick with the strict allowlist.\"",
+      "ts": "2025-01-14T10:04:00"
+     },
+     {
+      "idx": 21,
+      "speaker": "Lena",
+      "text": "\"But Arjun, that's a lot of maintenance. Who's going to handle all those requests?\"",
+      "ts": "2025-01-14T10:04:12"
+     },
+     {
+      "idx": 22,
+      "speaker": "Arjun",
+      "text": "\"We'll set up a process. Staff can submit requests through our ticket system. We'll review them monthly.\"",
+      "ts": "2025-01-14T10:04:24"
+     },
+     {
+      "idx": 23,
+      "speaker": "Noor",
+      "text": "\"That sounds like a lot of work for such a minor issue.\"",
+      "ts": "2025-01-14T10:04:36"
+     },
+     {
+      "idx": 24,
+      "speaker": "Ivan",
+      "text": "\"Minor? Arjun just mentioned 212 unapproved apps. That's not minor.\"",
+      "ts": "2025-01-14T10:04:48"
+     },
+     {
+      "idx": 25,
+      "speaker": "Arjun",
+      "text": "\"You're right, Ivan. And that's why we need to stick with the allowlist. It's the only way to keep our laptops secure.\"",
+      "ts": "2025-01-14T10:05:00"
+     },
+     {
+      "idx": 26,
+      "speaker": "Marco",
+      "text": "\"Alright, let's not dwell on the negatives. We've decided on the allowlist. Let's discuss how to implement it.\"",
+      "ts": "2025-01-14T10:05:12"
+     },
+     {
+      "idx": 27,
+      "speaker": "Arjun",
+      "text": "\"You know, last year's scan really opened our eyes. We found 212 unapproved apps across 340 laptops, 9 of them with known vulnerabilities. That's a major risk we can't afford to ignore.\"",
+      "ts": "2025-01-14T10:05:24"
+     },
+     {
+      "idx": 28,
+      "speaker": "Lena",
+      "text": "\"Yeah, but 212 out of 340 isn't that bad, right? Maybe we're just being too strict.\"",
+      "ts": "2025-01-14T10:05:36"
+     },
+     {
+      "idx": 29,
+      "speaker": "Arjun",
+      "text": "\"I understand where you're coming from, Lena, but even one unapproved app could cause a breach. And 9 with known vulnerabilities? That's too high a risk.\"",
+      "ts": "2025-01-14T10:05:48"
+     },
+     {
+      "idx": 30,
+      "speaker": "Noor",
+      "text": "\"I had no idea it was that bad. I thought we had better control over this.\"",
+      "ts": "2025-01-14T10:06:00"
+     },
+     {
+      "idx": 31,
+      "speaker": "Ivan",
+      "text": "\"Same here. I think we need to tighten our policies, not loosen them.\"",
+      "ts": "2025-01-14T10:06:12"
+     },
+     {
+      "idx": 32,
+      "speaker": "Marco",
+      "text": "\"I agree. Arjun, your numbers speak for themselves. Let's make sure this policy is airtight.\"",
+      "ts": "2025-01-14T10:06:24"
+     },
+     {
+      "idx": 33,
+      "speaker": "Arjun",
+      "text": "\"Thanks, Marco. I'll work on the policy draft and make sure to include clear guidelines for staff on how to request new software.\"",
+      "ts": "2025-01-14T10:06:36"
+     },
+     {
+      "idx": 34,
+      "speaker": "Lena",
+      "text": "\"And what about existing software? Are we just going to remove everything that's not on the allowlist?\"",
+      "ts": "2025-01-14T10:06:48"
+     },
+     {
+      "idx": 35,
+      "speaker": "Arjun",
+      "text": "\"That's a good point, Lena. We'll have to communicate the change well in advance and give staff time to save their work and request any software they need.\"",
+      "ts": "2025-01-14T10:07:00"
+     },
+     {
+      "idx": 36,
+      "speaker": "Ivan",
+      "text": "\"Sounds like a lot of work. But if it keeps our laptops secure, it's worth it.\"",
+      "ts": "2025-01-14T10:07:12"
+     },
+     {
+      "idx": 37,
+      "speaker": "Marco",
+      "text": "\"Exactly, Ivan. Now, let's discuss how we're going to communicate this change to the rest of the company.\"",
+      "ts": "2025-01-14T10:07:24"
+     },
+     {
+      "idx": 38,
+      "speaker": "Noor",
+      "text": "\"I'll draft an email for you, Marco. Something clear and concise that explains why we're making this change.\"",
+      "ts": "2025-01-14T10:07:36"
+     },
+     {
+      "idx": 39,
+      "speaker": "Marco",
+      "text": "\"Great, Noor. Let's aim to have this policy in place by the first of next month.\"",
+      "ts": "2025-01-14T10:07:48"
+     },
+     {
+      "idx": 40,
+      "speaker": "Arjun",
+      "text": "\"That gives us plenty of time to finalize the policy and communicate the change. I'll make sure to include a deadline for staff to submit their requests.\"",
+      "ts": "2025-01-14T10:08:00"
+     },
+     {
+      "idx": 41,
+      "speaker": "Marco",
+      "text": "\"Alright, let's make sure everyone's clear on the timeline. Arjun, what's the cut-off date for staff to submit their requests?\"",
+      "ts": "2025-01-14T10:08:12"
+     },
+     {
+      "idx": 42,
+      "speaker": "Arjun",
+      "text": "\"Well, Marco, I was thinking we'd give them until the 15th of this month.\"",
+      "ts": "2025-01-14T10:08:24"
+     },
+     {
+      "idx": 43,
+      "speaker": "Marco",
+      "text": "\"That works. Noor, could you remind us in your email when the policy takes effect?\"",
+      "ts": "2025-01-14T10:08:36"
+     },
+     {
+      "idx": 44,
+      "speaker": "Noor",
+      "text": "\"Sure thing, Marco. I'll make it clear that the strict allowlist will be in place from the first of next month.\"",
+      "ts": "2025-01-14T10:08:48"
+     },
+     {
+      "idx": 45,
+      "speaker": "Lena",
+      "text": "\"So, does this mean we're going to have to review every single request manually?\"",
+      "ts": "2025-01-14T10:09:00"
+     },
+     {
+      "idx": 46,
+      "speaker": "Arjun",
+      "text": "\"Initially, yes. But we'll automate the process once we've established a baseline of approved software.\"",
+      "ts": "2025-01-14T10:09:12"
+     },
+     {
+      "idx": 47,
+      "speaker": "Ivan",
+      "text": "\"That makes sense. But what about updates? Staff might need to install them without waiting for our approval.\"",
+      "ts": "2025-01-14T10:09:24"
+     },
+     {
+      "idx": 48,
+      "speaker": "Arjun",
+      "text": "\"Good point, Ivan. We'll have to allow automatic updates for approved software. I'll make sure to include that in the policy.\"",
+      "ts": "2025-01-14T10:09:36"
+     },
+     {
+      "idx": 49,
+      "speaker": "Marco",
+      "text": "\"Sounds good. Now, let's discuss how we're going to enforce this policy. Any ideas?\"",
+      "ts": "2025-01-14T10:09:48"
+     },
+     {
+      "idx": 50,
+      "speaker": "Noor",
+      "text": "\"We could set up regular scans to check for unapproved software. That way, we can catch any violations early.\"",
+      "ts": "2025-01-14T10:10:00"
+     },
+     {
+      "idx": 51,
+      "speaker": "Lena",
+      "text": "\"And what about punishment? Should there be consequences for installing unapproved software?\"",
+      "ts": "2025-01-14T10:10:12"
+     },
+     {
+      "idx": 52,
+      "speaker": "Marco",
+      "text": "\"That's a discussion for another time, Lena. For now, let's focus on prevention and education. We want to make sure everyone understands why this policy is important.\"",
+      "ts": "2025-01-14T10:10:24"
+     },
+     {
+      "idx": 53,
+      "speaker": "Arjun",
+      "text": "\"I agree. We should schedule some training sessions to explain the risks of unapproved software and how to request new software properly.\"",
+      "ts": "2025-01-14T10:10:36"
+     },
+     {
+      "idx": 54,
+      "speaker": "Ivan",
+      "text": "\"That's a great idea, Arjun. I'll volunteer to help with that.\"",
+      "ts": "2025-01-14T10:10:48"
+     },
+     {
+      "idx": 55,
+      "speaker": "Marco",
+      "text": "\"Thanks, Ivan. Alright, let's wrap this up. We've decided on the strict allowlist, we've got a timeline, and we've started planning enforcement. Anything else before we adjourn?\"",
+      "ts": "2025-01-14T10:11:00"
+     },
+     {
+      "idx": 56,
+      "speaker": "Noor",
+      "text": "\"Just one thing - should we involve the HR department in communicating this change?\"",
+      "ts": "2025-01-14T10:11:12"
+     },
+     {
+      "idx": 57,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Noor. I'll loop them in. Anything else?\"",
+      "ts": "2025-01-14T10:11:24"
+     },
+     {
+      "idx": 58,
+      "speaker": "Lena",
+      "text": "\"I don't think so. Let's reconvene in a week to finalize the policy and discuss next steps.\"",
+      "ts": "2025-01-14T10:11:36"
+     },
+     {
+      "idx": 59,
+      "speaker": "Marco",
+      "text": "\"Sounds like a plan. Let's reconvene then. Meeting adjourned.\"",
+      "ts": "2025-01-14T10:11:48"
+     },
+     {
+      "idx": 60,
+      "speaker": "Marco",
+      "text": "\"Alright, thanks everyone. Let's reconvene next week as planned. Have a good rest of your day.\"",
+      "ts": "2025-01-14T10:12:00"
+     },
+     {
+      "idx": 61,
+      "speaker": "Arjun",
+      "text": "\"Thanks, Marco. I'll start working on that policy draft right away.\"",
+      "ts": "2025-01-14T10:12:12"
+     },
+     {
+      "idx": 62,
+      "speaker": "Lena",
+      "text": "\"And I'll get started on that list of approved apps. See you all next week.\"",
+      "ts": "2025-01-14T10:12:24"
+     },
+     {
+      "idx": 63,
+      "speaker": "Ivan",
+      "text": "\"Count me in. See you then.\"",
+      "ts": "2025-01-14T10:12:36"
+     },
+     {
+      "idx": 64,
+      "speaker": "Noor",
+      "text": "\"Bye everyone. See you next week.\"",
+      "ts": "2025-01-14T10:12:48"
+     }
+    ]
+   },
+   {
+    "meeting_id": "m2",
+    "date": "2025-01-21",
+    "utterances": [
+     {
+      "idx": 0,
+      "speaker": "Marco",
+      "text": "\"Alright everyone, let's continue where we left off. Today we're discussing the staff laptop software policy.\"",
+      "ts": "2025-01-21T10:00:00"
+     },
+     {
+      "idx": 1,
+      "speaker": "Arjun",
+      "text": "\"Right, we've been looking into this, and I still think we should stick with the strict allowlist approach.\"",
+      "ts": "2025-01-21T10:00:12"
+     },
+     {
+      "idx": 2,
+      "speaker": "Lena",
+      "text": "\"But Arjun, that's such a hassle. Don't you think we're being too strict?\"",
+      "ts": "2025-01-21T10:00:24"
+     },
+     {
+      "idx": 3,
+      "speaker": "Arjun",
+      "text": "\"Not at all. Last year's scan showed that 212 unapproved apps were installed on 340 laptops, Lena. That's a serious risk we can't afford to ignore.\"",
+      "ts": "2025-01-21T10:00:36"
+     },
+     {
+      "idx": 4,
+      "speaker": "Ivan",
+      "text": "\"I still think it's worth considering other options. What about a restricted allowlist?\"",
+      "ts": "2025-01-21T10:00:48"
+     },
+     {
+      "idx": 5,
+      "speaker": "Noor",
+      "text": "\"I've been looking into the helpdesk tickets, and I think we might want to reconsider that. Um, so, in the first three weeks, we've had 118 software requests come in, with a median wait time of six days. And get this - 14 teams have moved work tools onto personal devices as a workaround.\"",
+      "ts": "2025-01-21T10:01:00"
+     },
+     {
+      "idx": 6,
+      "speaker": "Marco",
+      "text": "\"That's not ideal, Noor. We need to find a way to manage these requests better.\"",
+      "ts": "2025-01-21T10:01:12"
+     },
+     {
+      "idx": 7,
+      "speaker": "Lena",
+      "text": "\"But that's exactly my point, Marco. The allowlist is pushing staff onto unmanaged personal devices. Isn't that worse than what it's supposed to replace?\"",
+      "ts": "2025-01-21T10:01:24"
+     },
+     {
+      "idx": 8,
+      "speaker": "Marco",
+      "text": "\"Hmm, that's a valid concern, Lena. Noor, can you send us a breakdown of those requests? Maybe we can find a pattern there.\"",
+      "ts": "2025-01-21T10:01:36"
+     },
+     {
+      "idx": 9,
+      "speaker": "Noor",
+      "text": "\"Sure thing, Marco. I'll have it ready by EOD today.\"",
+      "ts": "2025-01-21T10:01:48"
+     },
+     {
+      "idx": 10,
+      "speaker": "Arjun",
+      "text": "\"But even with those workarounds, the allowlist is the best way to keep our laptops secure. We can't just let staff install whatever they want.\"",
+      "ts": "2025-01-21T10:02:00"
+     },
+     {
+      "idx": 11,
+      "speaker": "Ivan",
+      "text": "\"I understand that, Arjun, but we also need to consider usability. If staff can't use the tools they need, they'll find a way around the policy.\"",
+      "ts": "2025-01-21T10:02:12"
+     },
+     {
+      "idx": 12,
+      "speaker": "Marco",
+      "text": "\"Ivan makes a good point. We need to strike a balance between security and usability. Let's table this for now and revisit it later in the meeting. In the meantime, let's discuss how we're going to communicate this change to staff.\"",
+      "ts": "2025-01-21T10:02:24"
+     },
+     {
+      "idx": 13,
+      "speaker": "Lena",
+      "text": "\"I think we should involve Keiko in this. She's great at communicating complex ideas.\"",
+      "ts": "2025-01-21T10:02:36"
+     },
+     {
+      "idx": 14,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Lena. I'll loop Keiko in. Now, let's talk about enforcement. How are we going to make sure staff comply with this policy?\"",
+      "ts": "2025-01-21T10:02:48"
+     },
+     {
+      "idx": 15,
+      "speaker": "Noor",
+      "text": "\"We could set up regular scans to check for unapproved software. That way, we can catch any violations early.\"",
+      "ts": "2025-01-21T10:03:00"
+     },
+     {
+      "idx": 16,
+      "speaker": "Arjun",
+      "text": "\"And we'll need to set up a process for staff to request new software. We can't just have them sending us emails with their requests.\"",
+      "ts": "2025-01-21T10:03:12"
+     },
+     {
+      "idx": 17,
+      "speaker": "Ivan",
+      "text": "\"What about using our ticket system for that? That way, we can track the requests and make sure none fall through the cracks.\"",
+      "ts": "2025-01-21T10:03:24"
+     },
+     {
+      "idx": 18,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Ivan. We'll set that up and make sure staff know how to use it. Now, let's talk about training. We'll need to educate staff on the risks of unapproved software and how to request new software properly.\"",
+      "ts": "2025-01-21T10:03:36"
+     },
+     {
+      "idx": 19,
+      "speaker": "Lena",
+      "text": "\"I can help with that, Marco. I'll draft some training materials and coordinate with HR to schedule some sessions.\"",
+      "ts": "2025-01-21T10:03:48"
+     },
+     {
+      "idx": 20,
+      "speaker": "Marco",
+      "text": "\"Thanks, Lena. That's a big help. Now, let's discuss the timeline for this policy implementation. Arjun, what do you think is a reasonable timeframe for this?\"",
+      "ts": "2025-01-21T10:04:00"
+     },
+     {
+      "idx": 21,
+      "speaker": "Arjun",
+      "text": "\"Well, Marco, I think we should give staff at least a month's notice before the policy takes effect. That should give them enough time to save their work and request any software they need.\"",
+      "ts": "2025-01-21T10:04:12"
+     },
+     {
+      "idx": 22,
+      "speaker": "Marco",
+      "text": "\"That sounds reasonable. So, let's aim to have this policy in place by the end of February.\"",
+      "ts": "2025-01-21T10:04:24"
+     },
+     {
+      "idx": 23,
+      "speaker": "Noor",
+      "text": "\"That gives us plenty of time to finalize the policy and communicate the change. I'll make sure to include a clear deadline in my email to staff.\"",
+      "ts": "2025-01-21T10:04:36"
+     },
+     {
+      "idx": 24,
+      "speaker": "Marco",
+      "text": "\"Great. Now, let's discuss the next steps for implementing this policy. Arjun, you've done a lot of work on this already. What do you think we should do next?\"",
+      "ts": "2025-01-21T10:04:48"
+     },
+     {
+      "idx": 25,
+      "speaker": "Arjun",
+      "text": "\"Well, Marco, I think we should start by finalizing the list of approved software. Once we have that, we can start setting up the process for staff to request new software.\"",
+      "ts": "2025-01-21T10:05:00"
+     },
+     {
+      "idx": 26,
+      "speaker": "Ivan",
+      "text": "\"That makes sense. And we should also start planning the training sessions. The sooner we get started on that, the better.\"",
+      "ts": "2025-01-21T10:05:12"
+     },
+     {
+      "idx": 27,
+      "speaker": "Marco",
+      "text": "\"Agreed. Alright, let's reconvene in a week to finalize the policy and discuss next steps. Anything else before we adjourn?\"",
+      "ts": "2025-01-21T10:05:24"
+     },
+     {
+      "idx": 28,
+      "speaker": "Lena",
+      "text": "\"Just one thing - should we also consider providing some kind of software alternative for staff who need to use unapproved software for work? Like a work-only laptop or something?\"",
+      "ts": "2025-01-21T10:05:36"
+     },
+     {
+      "idx": 29,
+      "speaker": "Marco",
+      "text": "\"That's an interesting idea, Lena. We'll have to look into that. Alright, let's reconvene next week. Meeting adjourned.\"",
+      "ts": "2025-01-21T10:05:48"
+     },
+     {
+      "idx": 30,
+      "speaker": "Noor",
+      "text": "\"You know, I've been looking into the helpdesk tickets, and I think we might want to reconsider that. Um, so, in the first three weeks, we've had 118 software requests come in, with a median wait time of six days. And get this - 14 teams have moved work tools onto personal devices as a workaround.\"",
+      "ts": "2025-01-21T10:06:00"
+     },
+     {
+      "idx": 31,
+      "speaker": "Marco",
+      "text": "\"That's not ideal, Noor. We need to find a way to manage these requests better.\"",
+      "ts": "2025-01-21T10:06:12"
+     },
+     {
+      "idx": 32,
+      "speaker": "Lena",
+      "text": "\"But that's exactly my point, Marco. The allowlist is pushing staff onto unmanaged personal devices. Isn't that worse than what it's supposed to replace?\"",
+      "ts": "2025-01-21T10:06:24"
+     },
+     {
+      "idx": 33,
+      "speaker": "Marco",
+      "text": "\"Hmm, that's a valid concern, Lena. Noor, can you send us a breakdown of those requests? Maybe we can find a pattern there.\"",
+      "ts": "2025-01-21T10:06:36"
+     },
+     {
+      "idx": 34,
+      "speaker": "Arjun",
+      "text": "\"Even with those workarounds, the allowlist is the best way to keep our laptops secure. We can't just let staff install whatever they want.\"",
+      "ts": "2025-01-21T10:06:48"
+     },
+     {
+      "idx": 35,
+      "speaker": "Ivan",
+      "text": "\"I understand that, Arjun, but we also need to consider usability. If staff can't use the tools they need, they'll find a way around the policy.\"",
+      "ts": "2025-01-21T10:07:00"
+     },
+     {
+      "idx": 36,
+      "speaker": "Marco",
+      "text": "\"Ivan makes a good point. We need to strike a balance between security and usability. Let's table this for now and revisit it later in the meeting.\"",
+      "ts": "2025-01-21T10:07:12"
+     },
+     {
+      "idx": 37,
+      "speaker": "Lena",
+      "text": "\"But Arjun, don't you see? The allowlist is creating more problems than it's solving. We need to find a better way.\"",
+      "ts": "2025-01-21T10:07:24"
+     },
+     {
+      "idx": 38,
+      "speaker": "Arjun",
+      "text": "\"I understand your concern, Lena, but we can't just open the floodgates. We need to maintain some control over what software is installed on company laptops.\"",
+      "ts": "2025-01-21T10:07:36"
+     },
+     {
+      "idx": 39,
+      "speaker": "Noor",
+      "text": "\"You know, I've been thinking about this. What if we implement a trial period for software requests? That way, staff can try out new software, and if it's not useful, we can remove it.\"",
+      "ts": "2025-01-21T10:07:48"
+     },
+     {
+      "idx": 40,
+      "speaker": "Ivan",
+      "text": "\"That's an interesting idea, Noor. But how would we determine if the software is useful or not?\"",
+      "ts": "2025-01-21T10:08:00"
+     },
+     {
+      "idx": 41,
+      "speaker": "Noor",
+      "text": "\"Well, we could ask the requesting team to provide some metrics or feedback after the trial period. If the software isn't used or isn't helpful, we can remove it from the allowlist.\"",
+      "ts": "2025-01-21T10:08:12"
+     },
+     {
+      "idx": 42,
+      "speaker": "Marco",
+      "text": "\"That's a novel idea, Noor. Let's table that for now and consider it alongside our other options. In the meantime, let's discuss how we're going to handle existing software that's not on the allowlist.\"",
+      "ts": "2025-01-21T10:08:24"
+     },
+     {
+      "idx": 43,
+      "speaker": "Lena",
+      "text": "\"What about those 212 unapproved apps Arjun mentioned earlier? Are we just going to remove them all at once?\"",
+      "ts": "2025-01-21T10:08:36"
+     },
+     {
+      "idx": 44,
+      "speaker": "Arjun",
+      "text": "\"We can't just remove them without giving staff a chance to save their work. We'll have to communicate the change well in advance and give staff time to migrate to approved alternatives.\"",
+      "ts": "2025-01-21T10:08:48"
+     },
+     {
+      "idx": 45,
+      "speaker": "Ivan",
+      "text": "\"That's going to be a lot of work for everyone involved. Are you sure we can't just grandfather in some of the existing software?\"",
+      "ts": "2025-01-21T10:09:00"
+     },
+     {
+      "idx": 46,
+      "speaker": "Marco",
+      "text": "\"We can't make any promises, Ivan. But we'll consider it as part of our review process. Now, let's discuss how we're going to handle software updates. We can't just block them all.\"",
+      "ts": "2025-01-21T10:09:12"
+     },
+     {
+      "idx": 47,
+      "speaker": "Arjun",
+      "text": "\"We'll have to allow automatic updates for approved software. But we'll need to have some way to monitor and control updates for unapproved software.\"",
+      "ts": "2025-01-21T10:09:24"
+     },
+     {
+      "idx": 48,
+      "speaker": "Noor",
+      "text": "\"What if we use a software management tool that allows us to set update policies for each app? That way, we can control when and how updates are installed.\"",
+      "ts": "2025-01-21T10:09:36"
+     },
+     {
+      "idx": 49,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Noor. We'll have to look into what tools are available and which ones would work best for our needs. Now, let's discuss the timeline for this policy implementation again. With all these new considerations, do we still think we can have this in place by the end of February?\"",
+      "ts": "2025-01-21T10:09:48"
+     },
+     {
+      "idx": 50,
+      "speaker": "Arjun",
+      "text": "\"I think we can make that deadline, but it's going to be tight. We'll have to work hard to finalize the policy and communicate the change to staff in time.\"",
+      "ts": "2025-01-21T10:10:00"
+     },
+     {
+      "idx": 51,
+      "speaker": "Lena",
+      "text": "\"I think we should also consider involving our IT support team in this process. They're the ones who are going to be fielding the helpdesk tickets and managing the software requests.\"",
+      "ts": "2025-01-21T10:10:12"
+     },
+     {
+      "idx": 52,
+      "speaker": "Marco",
+      "text": "\"You're right, Lena. I'll make sure to loop them in. Now, let's discuss how we're going to handle software requests once this policy is in place. We don't want to create a backlog of requests that we can't keep up with.\"",
+      "ts": "2025-01-21T10:10:24"
+     },
+     {
+      "idx": 53,
+      "speaker": "Ivan",
+      "text": "\"We could allocate one person from the IT support team to handle software requests full-time. That way, we can ensure that requests are processed in a timely manner.\"",
+      "ts": "2025-01-21T10:10:36"
+     },
+     {
+      "idx": 54,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Ivan. We'll have to discuss this with the IT support team and make sure they have the bandwidth to take on this responsibility. Now, let's discuss how we're going to communicate this change to staff. We need to make sure everyone understands why this policy is important and how it's going to affect them.\"",
+      "ts": "2025-01-21T10:10:48"
+     },
+     {
+      "idx": 55,
+      "speaker": "Noor",
+      "text": "\"I'll draft an email for you, Marco, explaining the reasons behind the policy and outlining what staff can expect. I'll make sure to include contact information for the IT support team so staff know who to reach out to with any questions or concerns.\"",
+      "ts": "2025-01-21T10:11:00"
+     },
+     {
+      "idx": 56,
+      "speaker": "Marco",
+      "text": "\"Thanks, Noor. Let's make sure that email goes out at least a week before the policy takes effect. Now, let's discuss how we're going to enforce this policy. We need to make sure staff comply with the allowlist and don't install unapproved software.\"",
+      "ts": "2025-01-21T10:11:12"
+     },
+     {
+      "idx": 57,
+      "speaker": "Arjun",
+      "text": "\"We can set up regular scans to check for unapproved software, like Noor suggested earlier. But we'll also need to have a process in place for handling violations.\"",
+      "ts": "2025-01-21T10:11:24"
+     },
+     {
+      "idx": 58,
+      "speaker": "Lena",
+      "text": "\"What about a three-strikes system? If a staff member is caught installing unapproved software three times, we can escalate the issue and consider disciplinary action.\"",
+      "ts": "2025-01-21T10:11:36"
+     },
+     {
+      "idx": 59,
+      "speaker": "Marco",
+      "text": "\"That's a bit harsh, Lena. We don't want to punish staff for honest mistakes. Let's reconsider that approach and come up with something more reasonable.\"",
+      "ts": "2025-01-21T10:11:48"
+     },
+     {
+      "idx": 60,
+      "speaker": "Ivan",
+      "text": "\"What if we start with a warning system? If a staff member is caught installing unapproved software, we can send them a warning and explain why the policy is important. If they violate the policy again within a certain timeframe, we can escalate the issue and consider further action.\"",
+      "ts": "2025-01-21T10:12:00"
+     },
+     {
+      "idx": 61,
+      "speaker": "Marco",
+      "text": "\"That's a more reasonable approach, Ivan. Let's discuss that further and come up with a plan for handling policy violations. Now, let's take a short break and reconvene in 15 minutes. That'll give us a chance to gather our thoughts and come back to the discussion with fresh minds.\"",
+      "ts": "2025-01-21T10:12:12"
+     },
+     {
+      "idx": 62,
+      "speaker": "Lena",
+      "text": "\"But Marco, I still think we're missing the point here. The allowlist is supposed to keep our laptops secure, but it's actually pushing staff to use their personal devices for work instead. Isn't that worse than just letting them install whatever they want?\"",
+      "ts": "2025-01-21T10:12:24"
+     },
+     {
+      "idx": 63,
+      "speaker": "Marco",
+      "text": "\"That's a valid concern, Lena. But we can't just open the floodgates and let staff install unapproved software willy-nilly.\"",
+      "ts": "2025-01-21T10:12:36"
+     },
+     {
+      "idx": 64,
+      "speaker": "Noor",
+      "text": "\"I understand where Lena's coming from, Marco. But we have to consider the bigger picture here. We can't just ignore the security risks.\"",
+      "ts": "2025-01-21T10:12:48"
+     },
+     {
+      "idx": 65,
+      "speaker": "Ivan",
+      "text": "\"But surely there's a middle ground we can find. We don't have to choose between security and usability.\"",
+      "ts": "2025-01-21T10:13:00"
+     },
+     {
+      "idx": 66,
+      "speaker": "Arjun",
+      "text": "\"I still believe the allowlist is the best way to keep our laptops secure. But Lena raises a good point. We need to find a way to minimize the workarounds.\"",
+      "ts": "2025-01-21T10:13:12"
+     },
+     {
+      "idx": 67,
+      "speaker": "Lena",
+      "text": "\"Exactly. The allowlist is creating more problems than it's solving. We need to find a better way.\"",
+      "ts": "2025-01-21T10:13:24"
+     },
+     {
+      "idx": 68,
+      "speaker": "Lena",
+      "text": "\"I mean, what's the point of having this strict policy if it's just going to drive people to use their personal devices?\"",
+      "ts": "2025-01-21T10:13:36"
+     },
+     {
+      "idx": 69,
+      "speaker": "Marco",
+      "text": "\"Lena, we understand your concern, but we have to balance security and usability.\"",
+      "ts": "2025-01-21T10:13:48"
+     },
+     {
+      "idx": 70,
+      "speaker": "Noor",
+      "text": "\"But Lena's right, Marco. The current system isn't working. We need to find a better way.\"",
+      "ts": "2025-01-21T10:14:00"
+     },
+     {
+      "idx": 71,
+      "speaker": "Ivan",
+      "text": "\"Maybe we should consider a restricted allowlist. That way, staff can still use approved software, but we have more control over what gets installed.\"",
+      "ts": "2025-01-21T10:14:12"
+     },
+     {
+      "idx": 72,
+      "speaker": "Arjun",
+      "text": "\"That's an idea, Ivan. But we'd still need a way to manage requests and updates.\"",
+      "ts": "2025-01-21T10:14:24"
+     },
+     {
+      "idx": 73,
+      "speaker": "Marco",
+      "text": "\"Let's look into that. Noor, can you send us some examples of the software requests you mentioned earlier? That might help us understand what staff need.\"",
+      "ts": "2025-01-21T10:14:36"
+     },
+     {
+      "idx": 74,
+      "speaker": "Noor",
+      "text": "\"Sure thing, Marco. I'll send them over as soon as we're done here.\"",
+      "ts": "2025-01-21T10:14:48"
+     },
+     {
+      "idx": 75,
+      "speaker": "Lena",
+      "text": "\"But what about the helpdesk tickets? We've been getting a lot of requests for software that's not on the allowlist. What do we do about those?\"",
+      "ts": "2025-01-21T10:15:00"
+     },
+     {
+      "idx": 76,
+      "speaker": "Arjun",
+      "text": "\"We'll have to communicate the change clearly and give staff time to migrate to approved alternatives. We can't just cut them off cold turkey.\"",
+      "ts": "2025-01-21T10:15:12"
+     },
+     {
+      "idx": 77,
+      "speaker": "Ivan",
+      "text": "\"That's true. But we also need to consider the impact on productivity. If staff can't use the tools they need, they won't be able to do their jobs effectively.\"",
+      "ts": "2025-01-21T10:15:24"
+     },
+     {
+      "idx": 78,
+      "speaker": "Marco",
+      "text": "\"We understand that, Ivan. But we have to consider the bigger picture. If we don't secure our laptops, we're putting the whole company at risk.\"",
+      "ts": "2025-01-21T10:15:36"
+     },
+     {
+      "idx": 79,
+      "speaker": "Lena",
+      "text": "\"But at what cost, Marco? We can't just ignore the usability issues.\"",
+      "ts": "2025-01-21T10:15:48"
+     },
+     {
+      "idx": 80,
+      "speaker": "Noor",
+      "text": "\"I think we're getting bogged down in the details here. Let's take a step back and look at the bigger picture. What are we trying to achieve with this policy?\"",
+      "ts": "2025-01-21T10:16:00"
+     },
+     {
+      "idx": 81,
+      "speaker": "Marco",
+      "text": "\"We're trying to keep our laptops secure, Noor. That's our main goal here.\"",
+      "ts": "2025-01-21T10:16:12"
+     },
+     {
+      "idx": 82,
+      "speaker": "Noor",
+      "text": "\"Right, but we also need to consider usability. If staff can't use the tools they need, they won't be able to do their jobs effectively. And that's going to impact productivity and morale.\"",
+      "ts": "2025-01-21T10:16:24"
+     },
+     {
+      "idx": 83,
+      "speaker": "Ivan",
+      "text": "\"Exactly. We need to find a way to balance security and usability. That's the only way this policy is going to work.\"",
+      "ts": "2025-01-21T10:16:36"
+     },
+     {
+      "idx": 84,
+      "speaker": "Arjun",
+      "text": "\"I understand where you're coming from, but we can't just open the floodgates. We have to maintain some control over what software is installed on company laptops.\"",
+      "ts": "2025-01-21T10:16:48"
+     },
+     {
+      "idx": 85,
+      "speaker": "Lena",
+      "text": "\"But Arjun, don't you see? The allowlist is creating more problems than it's solving. We need to find a better way. And until we do, we're just spinning our wheels here.\"",
+      "ts": "2025-01-21T10:17:00"
+     },
+     {
+      "idx": 86,
+      "speaker": "Marco",
+      "text": "\"Alright, Lena, we hear you. Let's table the allowlist for now and consider other options. Noor, can you look into some alternatives for us?\"",
+      "ts": "2025-01-21T10:17:12"
+     },
+     {
+      "idx": 87,
+      "speaker": "Noor",
+      "text": "\"Sure thing, Marco. I'll do some research and get back to you with some options we can consider.\"",
+      "ts": "2025-01-21T10:17:24"
+     },
+     {
+      "idx": 88,
+      "speaker": "Marco",
+      "text": "\"Thanks, Noor. In the meantime, let's discuss the timeline for this policy implementation again. With all these new considerations, do we still think we can have this in place by the end of February?\"",
+      "ts": "2025-01-21T10:17:36"
+     },
+     {
+      "idx": 89,
+      "speaker": "Arjun",
+      "text": "\"I think we need to push that back a bit, Marco. We've got a lot to consider here, and we don't want to rush into anything.\"",
+      "ts": "2025-01-21T10:17:48"
+     },
+     {
+      "idx": 90,
+      "speaker": "Marco",
+      "text": "\"You're right, Arjun. Let's aim to have this policy in place by the end of March instead. That gives us plenty of time to consider all our options and make sure we're making the right decision.\"",
+      "ts": "2025-01-21T10:18:00"
+     },
+     {
+      "idx": 91,
+      "speaker": "Lena",
+      "text": "\"That works for me. I just want to make sure we're doing this right, you know?\"",
+      "ts": "2025-01-21T10:18:12"
+     },
+     {
+      "idx": 92,
+      "speaker": "Marco",
+      "text": "\"We all do, Lena. That's why we're taking our time with this. Alright, let's reconvene in two weeks to discuss the alternatives Noor finds and make a decision. Anything else before we adjourn?\"",
+      "ts": "2025-01-21T10:18:24"
+     },
+     {
+      "idx": 93,
+      "speaker": "Noor",
+      "text": "\"Just one thing - should we involve Keiko in this again? She might have some insights into the usability issues we're facing.\"",
+      "ts": "2025-01-21T10:18:36"
+     },
+     {
+      "idx": 94,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Noor. I'll loop Keiko in again. Alright, let's reconvene in two weeks. Meeting adjourned.\"",
+      "ts": "2025-01-21T10:18:48"
+     },
+     {
+      "idx": 95,
+      "speaker": "Ivan",
+      "text": "\"Thanks everyone. I'll see you all in two weeks.\"",
+      "ts": "2025-01-21T10:19:00"
+     },
+     {
+      "idx": 96,
+      "speaker": "Arjun",
+      "text": "\"Yeah, see you then. Let's make sure we've done our homework before we reconvene.\"",
+      "ts": "2025-01-21T10:19:12"
+     },
+     {
+      "idx": 97,
+      "speaker": "Lena",
+      "text": "\"Bye everyone. See you in two weeks. And let's really consider all our options this time, okay?\"",
+      "ts": "2025-01-21T10:19:24"
+     },
+     {
+      "idx": 98,
+      "speaker": "Noor",
+      "text": "\"Absolutely, Lena. See you all then.\"",
+      "ts": "2025-01-21T10:19:36"
+     }
+    ]
+   },
+   {
+    "meeting_id": "m3",
+    "date": "2025-01-28",
+    "utterances": [
+     {
+      "idx": 0,
+      "speaker": "Marco",
+      "text": "\"Alright, let's get started. We've got a lot on our plate today. First up, let's revisit our decision on the software policy. Arjun, can you remind us where we left off?\"",
+      "ts": "2025-01-28T10:00:00"
+     },
+     {
+      "idx": 1,
+      "speaker": "Arjun",
+      "text": "\"Sure, Marco. We decided on a strict allowlist, but we've been seeing an increase in software requests and some teams using personal devices as a workaround.\"",
+      "ts": "2025-01-28T10:00:12"
+     },
+     {
+      "idx": 2,
+      "speaker": "Lena",
+      "text": "\"Hang on, didn't we already decide on this? Why are we revisiting it?\"",
+      "ts": "2025-01-28T10:00:24"
+     },
+     {
+      "idx": 3,
+      "speaker": "Marco",
+      "text": "\" Because, Lena, we need to make sure we're making the right decision for our company. We've got new data to consider.\"",
+      "ts": "2025-01-28T10:00:36"
+     },
+     {
+      "idx": 4,
+      "speaker": "Noor",
+      "text": "\"Yeah, Lena, we've got to be flexible. Things change, you know?\"",
+      "ts": "2025-01-28T10:00:48"
+     },
+     {
+      "idx": 5,
+      "speaker": "Ivan",
+      "text": "\"So, what's the latest on the software requests, Noor? Anything new since last week?\"",
+      "ts": "2025-01-28T10:01:00"
+     },
+     {
+      "idx": 6,
+      "speaker": "Noor",
+      "text": "\"Well, I've been tracking the tickets, and it seems like the number of requests is actually going up. It's like the more people know about the policy, the more they realize how many apps they actually use.\"",
+      "ts": "2025-01-28T10:01:12"
+     },
+     {
+      "idx": 7,
+      "speaker": "Arjun",
+      "text": "\"That's... concerning. It seems like we might have underestimated the impact on productivity.\"",
+      "ts": "2025-01-28T10:01:24"
+     },
+     {
+      "idx": 8,
+      "speaker": "Marco",
+      "text": "\"Let's not panic just yet. Arjun, can you crunch some numbers and see if this is a significant trend?\"",
+      "ts": "2025-01-28T10:01:36"
+     },
+     {
+      "idx": 9,
+      "speaker": "Arjun",
+      "text": "\"On it, Marco. I'll have something for us to discuss next week.\"",
+      "ts": "2025-01-28T10:01:48"
+     },
+     {
+      "idx": 10,
+      "speaker": "Marco",
+      "text": "\"Good. In the meantime, let's keep an eye on this. Noor, thank you for bringing this to our attention. It's important we stay on top of these kinds of developments.\"",
+      "ts": "2025-01-28T10:02:00"
+     },
+     {
+      "idx": 11,
+      "speaker": "Noor",
+      "text": "\"Thanks, Marco. I just think we should be aware of the full picture, you know?\"",
+      "ts": "2025-01-28T10:02:12"
+     },
+     {
+      "idx": 12,
+      "speaker": "Ivan",
+      "text": "\"I agree. And I think we should also consider the possibility that people might not understand why we're doing this. You know, if we can't explain the reasoning behind it, they might just resent it.\"",
+      "ts": "2025-01-28T10:02:24"
+     },
+     {
+      "idx": 13,
+      "speaker": "Lena",
+      "text": "\"Well, isn't that what the communication plan is for? We'll explain everything in the email and the FAQ.\"",
+      "ts": "2025-01-28T10:02:36"
+     },
+     {
+      "idx": 14,
+      "speaker": "Ivan",
+      "text": "\"That's true, Lena. But we should also consider having some kind of Q&A session, you know? Like, give people a chance to ask questions and voice their concerns.\"",
+      "ts": "2025-01-28T10:02:48"
+     },
+     {
+      "idx": 15,
+      "speaker": "Marco",
+      "text": "\"That's a good idea, Ivan. We'll include that in our communication plan. Now, let's move on to the next item on our agenda. Arjun, you wanted to discuss something about the policy document?\"",
+      "ts": "2025-01-28T10:03:00"
+     },
+     {
+      "idx": 16,
+      "speaker": "Arjun",
+      "text": "\"Yes, Marco. I was thinking, given the recent developments, we might want to include a clause allowing for exceptions in cases where productivity is significantly impacted.\"",
+      "ts": "2025-01-28T10:03:12"
+     },
+     {
+      "idx": 17,
+      "speaker": "Lena",
+      "text": "\"Exceptions? But that just opens the door for people to abuse the system, doesn't it?\"",
+      "ts": "2025-01-28T10:03:24"
+     },
+     {
+      "idx": 18,
+      "speaker": "Arjun",
+      "text": "\"Not if we have a clear process for requesting and evaluating exceptions. We could include that in the policy document, along with the data we have to support our decision.\"",
+      "ts": "2025-01-28T10:03:36"
+     },
+     {
+      "idx": 19,
+      "speaker": "Marco",
+      "text": "\"Let's discuss that next week. We'll take it offline and see if we can come up with something that balances security and productivity. Alright, everyone, let's reconvene next week to discuss these new developments. Have a good rest of your day.\"",
+      "ts": "2025-01-28T10:03:48"
+     },
+     {
+      "idx": 20,
+      "speaker": "Arjun",
+      "text": "\"See you next week, everyone.\"",
+      "ts": "2025-01-28T10:04:00"
+     },
+     {
+      "idx": 21,
+      "speaker": "Lena",
+      "text": "\"Yeah, see you. And hey, anyone want to grab lunch before then? I'm thinking we could try that new caf\u00e9 down the street.\"",
+      "ts": "2025-01-28T10:04:12"
+     },
+     {
+      "idx": 22,
+      "speaker": "Noor",
+      "text": "\"I'm in, Lena. And hey, Ivan, if you're free later this week, we could catch up on that research you mentioned.\"",
+      "ts": "2025-01-28T10:04:24"
+     },
+     {
+      "idx": 23,
+      "speaker": "Ivan",
+      "text": "\"Actually, I just remembered, I've got that meeting with Alejandra. I've gotta run. We can pick this up later, right?\"",
+      "ts": "2025-01-28T10:04:36"
+     },
+     {
+      "idx": 24,
+      "speaker": "Marco",
+      "text": "\"Of course, Ivan. Let's take this offline. Alright, everyone, let's reconvene next week to finalize the policy and discuss communication. Have a good rest of your day.\"",
+      "ts": "2025-01-28T10:04:48"
+     },
+     {
+      "idx": 25,
+      "speaker": "Arjun",
+      "text": "\"See you next week, everyone.\"",
+      "ts": "2025-01-28T10:05:00"
+     },
+     {
+      "idx": 26,
+      "speaker": "Lena",
+      "text": "\"Yeah, see you. And hey, Noor, want to grab a coffee before we head out? My treat.\"",
+      "ts": "2025-01-28T10:05:12"
+     },
+     {
+      "idx": 27,
+      "speaker": "Noor",
+      "text": "\"Sure thing, Lena. Let's hit the caf\u00e9 downstairs. Catch you later, Arjun. See you next week, Marco.\"",
+      "ts": "2025-01-28T10:05:24"
+     },
+     {
+      "idx": 28,
+      "speaker": "Marco",
+      "text": "\"Have a good one, Noor, Lena. And Arjun, I'll catch you in my office in a bit to discuss the next steps.\"",
+      "ts": "2025-01-28T10:05:36"
+     },
+     {
+      "idx": 29,
+      "speaker": "Arjun",
+      "text": "\"See you there, Marco. And everyone, have a great rest of your day!\"",
+      "ts": "2025-01-28T10:05:48"
+     },
+     {
+      "idx": 30,
+      "speaker": "Marco",
+      "text": "\" You know what? Given the increase in requests and the use of personal devices, I think we need to revisit our decision on the software policy. Let's look at the numbers together and see if we're on the right track.\"",
+      "ts": "2025-01-28T10:06:00"
+     },
+     {
+      "idx": 31,
+      "speaker": "Arjun",
+      "text": "\"That's a good idea, Marco. Let me pull up the latest figures.\"",
+      "ts": "2025-01-28T10:06:12"
+     },
+     {
+      "idx": 32,
+      "speaker": "Arjun",
+      "text": "\"Alright, here we are. In the past month, we've had 275 software requests, and that's only going up.\"",
+      "ts": "2025-01-28T10:06:24"
+     },
+     {
+      "idx": 33,
+      "speaker": "Lena",
+      "text": "\"Wow, that's more than I thought. But what about the approvals? How many are we actually approving?\"",
+      "ts": "2025-01-28T10:06:36"
+     },
+     {
+      "idx": 34,
+      "speaker": "Noor",
+      "text": "\"That's the thing, Lena. Only 43% of requests are getting approved. The rest are either denied or stuck in limbo.\"",
+      "ts": "2025-01-28T10:06:48"
+     },
+     {
+      "idx": 35,
+      "speaker": "Ivan",
+      "text": "\"So, what you're saying is, our current policy isn't working as intended. That's not good.\"",
+      "ts": "2025-01-28T10:07:00"
+     },
+     {
+      "idx": 36,
+      "speaker": "Marco",
+      "text": "\"No, it's not. It seems we've created more issues than we've solved. Let's consider other options. Lena, you mentioned a vetted self-service catalogue earlier. What are your thoughts on that now?\"",
+      "ts": "2025-01-28T10:07:12"
+     },
+     {
+      "idx": 37,
+      "speaker": "Lena",
+      "text": "\"Well, I think it could work. If we pre-approve common tools and have a system for evaluating new requests, we could streamline the process and reduce wait times.\"",
+      "ts": "2025-01-28T10:07:24"
+     },
+     {
+      "idx": 38,
+      "speaker": "Arjun",
+      "text": "\"That's an interesting idea, Lena. Let's crunch some numbers. If we pre-approve the top 30 tools, that's around 85% of all requests. That could significantly reduce the backlog.\"",
+      "ts": "2025-01-28T10:07:36"
+     },
+     {
+      "idx": 39,
+      "speaker": "Noor",
+      "text": "\"And we could have a weekly vulnerability scan to keep everything secure. That way, we're not just opening the floodgates without proper checks.\"",
+      "ts": "2025-01-28T10:07:48"
+     },
+     {
+      "idx": 40,
+      "speaker": "Ivan",
+      "text": "\"I like where this is going. But how do we handle the remaining 15% of requests? We can't just approve everything, can we?\"",
+      "ts": "2025-01-28T10:08:00"
+     },
+     {
+      "idx": 41,
+      "speaker": "Marco",
+      "text": "\" Lena, could you elaborate on how you envision this working? What's the process for evaluating new requests?\"",
+      "ts": "2025-01-28T10:08:12"
+     },
+     {
+      "idx": 42,
+      "speaker": "Lena",
+      "text": "\"Sure, Marco. So, we have a pre-approved list of 30 common tools. For anything else, we have a request form where users fill out details about the app, why they need it, and how it will benefit their work. We then have a dedicated team reviewing these requests, approving what makes sense, and denying what doesn't.\"",
+      "ts": "2025-01-28T10:08:24"
+     },
+     {
+      "idx": 43,
+      "speaker": "Noor",
+      "text": "\"And we could have a turnaround time of, say, three business days. That way, people don't have to wait too long for a response.\"",
+      "ts": "2025-01-28T10:08:36"
+     },
+     {
+      "idx": 44,
+      "speaker": "Arjun",
+      "text": "\"That's fair. And we could have a weekly review of the approved apps to ensure they're still necessary and secure. That way, we can weed out any apps that are no longer in use or have known vulnerabilities.\"",
+      "ts": "2025-01-28T10:08:48"
+     },
+     {
+      "idx": 45,
+      "speaker": "Ivan",
+      "text": "\"But what about the impact on productivity? If we make it too easy for people to install apps, we might see an increase in unapproved apps again.\"",
+      "ts": "2025-01-28T10:09:00"
+     },
+     {
+      "idx": 46,
+      "speaker": "Lena",
+      "text": "\"Good point, Ivan. That's why we need to make sure the review process is thorough and thoughtful. We don't want to be too lax, but we also don't want to make it so difficult that people try to find workarounds.\"",
+      "ts": "2025-01-28T10:09:12"
+     },
+     {
+      "idx": 47,
+      "speaker": "Marco",
+      "text": "\" Alright, everyone, I think we've found our solution here. Let's go with the vetted self-service catalogue. Lena, Arjun, could you both work on drafting a policy that reflects what we've discussed today?\"",
+      "ts": "2025-01-28T10:09:24"
+     },
+     {
+      "idx": 48,
+      "speaker": "Arjun",
+      "text": "\"Sure thing, Marco. I'll get started on that right away.\"",
+      "ts": "2025-01-28T10:09:36"
+     },
+     {
+      "idx": 49,
+      "speaker": "Lena",
+      "text": "\"I'll help, Arjun. Let's aim to have a draft ready by the end of the week.\"",
+      "ts": "2025-01-28T10:09:48"
+     },
+     {
+      "idx": 50,
+      "speaker": "Noor",
+      "text": "\"And I'll start working on the communication plan. We'll need to explain this new policy clearly to the rest of the company.\"",
+      "ts": "2025-01-28T10:10:00"
+     },
+     {
+      "idx": 51,
+      "speaker": "Ivan",
+      "text": "\"Great. And I'll look into how other companies are handling this, just to make sure we're not missing anything. We should have everything ready for next week's meeting.\"",
+      "ts": "2025-01-28T10:10:12"
+     },
+     {
+      "idx": 52,
+      "speaker": "Marco",
+      "text": "\"Sounds like a plan. Alright, everyone, let's reconvene next week to discuss the draft policy and communication plan. Have a good rest of your day.\"",
+      "ts": "2025-01-28T10:10:24"
+     },
+     {
+      "idx": 53,
+      "speaker": "Arjun",
+      "text": "\"See you next week, everyone.\"",
+      "ts": "2025-01-28T10:10:36"
+     },
+     {
+      "idx": 54,
+      "speaker": "Lena",
+      "text": "\"Yeah, see you. And hey, Noor, want to grab that coffee now? My treat.\"",
+      "ts": "2025-01-28T10:10:48"
+     },
+     {
+      "idx": 55,
+      "speaker": "Noor",
+      "text": "\"You know what? Let's make it a working session. We can start drafting the communication plan together.\"",
+      "ts": "2025-01-28T10:11:00"
+     },
+     {
+      "idx": 56,
+      "speaker": "Ivan",
+      "text": "\"Count me in too. I'll bring my laptop, and we can work from the caf\u00e9.\"",
+      "ts": "2025-01-28T10:11:12"
+     },
+     {
+      "idx": 57,
+      "speaker": "Marco",
+      "text": "\"Sounds like a plan. Alright, everyone, let's get started on this. See you next week.\"",
+      "ts": "2025-01-28T10:11:24"
+     },
+     {
+      "idx": 58,
+      "speaker": "Lena",
+      "text": "\"Marco, I want to expand on why I think the vetted self-service catalogue is the way to go. You know, we've been looking at numbers, but there's more to it.\"",
+      "ts": "2025-01-28T10:11:36"
+     },
+     {
+      "idx": 59,
+      "speaker": "Marco",
+      "text": "\" Lena, please elaborate. What's the main advantage you see in this approach?\"",
+      "ts": "2025-01-28T10:11:48"
+     },
+     {
+      "idx": 60,
+      "speaker": "Marco",
+      "text": "\"Alright, let's summarize. We've decided to go with Lena's idea of a vetted self-service catalogue. Noor, Ivan, I want you two to work on the tool list. Make sure we've covered all the essential apps.\"",
+      "ts": "2025-01-28T10:12:00"
+     },
+     {
+      "idx": 61,
+      "speaker": "Noor",
+      "text": "\"Got it, Marco. I'll start working on it today.\"",
+      "ts": "2025-01-28T10:12:12"
+     },
+     {
+      "idx": 62,
+      "speaker": "Ivan",
+      "text": "\"I'll help, Noor. We'll make sure it's comprehensive.\"",
+      "ts": "2025-01-28T10:12:24"
+     },
+     {
+      "idx": 63,
+      "speaker": "Marco",
+      "text": "\" Noor, once you have the list, you'll need to brief the helpdesk. We don't want any confusion when this goes live.\"",
+      "ts": "2025-01-28T10:12:36"
+     },
+     {
+      "idx": 64,
+      "speaker": "Noor",
+      "text": "\"Will do, Marco. I'll set up a meeting with the helpdesk team later this week.\"",
+      "ts": "2025-01-28T10:12:48"
+     },
+     {
+      "idx": 65,
+      "speaker": "Lena",
+      "text": "\"This is going to make a real difference, Marco. Thank you for reconsidering.\"",
+      "ts": "2025-01-28T10:13:00"
+     },
+     {
+      "idx": 66,
+      "speaker": "Marco",
+      "text": "\"It's not just me, Lena. It's a team effort. We've made the right call today.\"",
+      "ts": "2025-01-28T10:13:12"
+     },
+     {
+      "idx": 67,
+      "speaker": "Arjun",
+      "text": "\"Absolutely. And I'll start drafting the policy document, incorporating what we've discussed.\"",
+      "ts": "2025-01-28T10:13:24"
+     },
+     {
+      "idx": 68,
+      "speaker": "Marco",
+      "text": "\"Great. Now, let's wrap this up. Everyone, we've got a plan. Let's execute it. See you next week.\"",
+      "ts": "2025-01-28T10:13:36"
+     },
+     {
+      "idx": 69,
+      "speaker": "Arjun",
+      "text": "\"See you, Marco. And everyone, have a great rest of your day.\"",
+      "ts": "2025-01-28T10:13:48"
+     },
+     {
+      "idx": 70,
+      "speaker": "Lena",
+      "text": "\"Thanks, Marco. See you next week.\"",
+      "ts": "2025-01-28T10:14:00"
+     },
+     {
+      "idx": 71,
+      "speaker": "Noor",
+      "text": "\"Bye, everyone. Let's make this happen.\"",
+      "ts": "2025-01-28T10:14:12"
+     }
+    ]
+   }
+  ]
+ },
+ "gold": {
+  "set_id": "set_01060",
+  "meta": {
+   "arc_type": "simple_reversal",
+   "domain": "IT and security team",
+   "seed": 1060,
+   "n_meetings": 3,
+   "noise": [
+    {
+     "interruptions": "some",
+     "filler_talk_pct": 35,
+     "false_starts": "rare",
+     "pronoun_heavy": true,
+     "digression": true,
+     "target_utterances": 109
+    },
+    {
+     "interruptions": "few",
+     "filler_talk_pct": 15,
+     "false_starts": "common",
+     "pronoun_heavy": false,
+     "digression": false,
+     "target_utterances": 115
+    },
+    {
+     "interruptions": "some",
+     "filler_talk_pct": 25,
+     "false_starts": "common",
+     "pronoun_heavy": true,
+     "digression": false,
+     "target_utterances": 77
+    }
+   ],
+   "models": {
+    "generator": "mistral-nemo:12b"
+   }
+  },
+  "topic": "the policy for installing software on staff laptops",
+  "options": {
+   "A": "a strict allowlist where staff can install only IT-approved software",
+   "B": "a vetted self-service catalogue with installs logged and weekly vulnerability scans"
+  },
+  "cast": [
+   {
+    "name": "Marco",
+    "slot": "manager",
+    "style": "blunt and brief"
+   },
+   {
+    "name": "Arjun",
+    "slot": "proposer",
+    "style": "detail-oriented, quotes numbers"
+   },
+   {
+    "name": "Lena",
+    "slot": "challenger",
+    "style": "tends to interrupt others"
+   },
+   {
+    "name": "Ivan",
+    "slot": "supporter",
+    "style": "big-picture, vague on details"
+   },
+   {
+    "name": "Noor",
+    "slot": "observer",
+    "style": "talkative, drifts into tangents"
+   }
+  ],
+  "versions": [
+   {
+    "version": 1,
+    "option": "A",
+    "valid_from": 1,
+    "valid_to": 3,
+    "option_text": "a strict allowlist where staff can install only IT-approved software"
+   },
+   {
+    "version": 2,
+    "option": "B",
+    "valid_from": 3,
+    "valid_to": null,
+    "option_text": "a vetted self-service catalogue with installs logged and weekly vulnerability scans"
+   }
+  ],
+  "chain": [
+   {
+    "link_id": "B1",
+    "role": "proposal",
+    "meeting": 1,
+    "meeting_id": "m1",
+    "speaker": "Arjun",
+    "utterance_idxs": [
+     26
+    ],
+    "gist": "Arjun proposes a strict allowlist so staff can install only IT-approved software.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B2",
+    "role": "rationale",
+    "meeting": 1,
+    "meeting_id": "m1",
+    "speaker": "Arjun",
+    "utterance_idxs": [
+     27
+    ],
+    "gist": "Arjun argues that last year's scan found 212 unapproved applications across 340 laptops, 9 of them with known vulnerabilities.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B3",
+    "role": "resolution",
+    "meeting": 1,
+    "meeting_id": "m1",
+    "speaker": "Marco",
+    "utterance_idxs": [
+     40,
+     44
+    ],
+    "gist": "Marco settles it: the strict allowlist applies from the first of next month.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B4",
+    "role": "evidence",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Noor",
+    "utterance_idxs": [
+     30
+    ],
+    "gist": "Noor reports that in the first three weeks the helpdesk logged 118 software requests with a median wait of six days, and 14 teams moved work tools onto personal devices as a workaround.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B5",
+    "role": "challenge",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Lena",
+    "utterance_idxs": [
+     67
+    ],
+    "gist": "Lena objects that the allowlist is pushing staff onto unmanaged personal devices, which is worse than what it replaced.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B6",
+    "role": "reconsideration",
+    "meeting": 3,
+    "meeting_id": "m3",
+    "speaker": "Marco",
+    "utterance_idxs": [
+     3,
+     30
+    ],
+    "gist": "Marco reopens the software policy after the request backlog figures.",
+    "version": 1,
+    "option_key": "A",
+    "option": "a strict allowlist where staff can install only IT-approved software",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B7",
+    "role": "rationale",
+    "meeting": 3,
+    "meeting_id": "m3",
+    "speaker": "Lena",
+    "utterance_idxs": [
+     41,
+     59
+    ],
+    "gist": "Lena argues for a vetted self-service catalogue because 85 percent of requests were for 30 common tools that could be pre-approved, installs would be logged and scanned weekly, and the wait would drop to the same day.",
+    "version": 2,
+    "option_key": "B",
+    "option": "a vetted self-service catalogue with installs logged and weekly vulnerability scans",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "B8",
+    "role": "resolution",
+    "meeting": 3,
+    "meeting_id": "m3",
+    "speaker": "Marco",
+    "utterance_idxs": [
+     47,
+     63
+    ],
+    "gist": "Marco gives the go-ahead for the catalogue without naming it, by asking Noor to work with Ivan on the tool list and tell the helpdesk.",
+    "version": 2,
+    "option_key": "B",
+    "option": "a vetted self-service catalogue with installs logged and weekly vulnerability scans",
+    "implicit": true,
+    "reaffirmation": false
+   }
+  ],
+  "changes": [
+   {
+    "from_version": 1,
+    "to_version": 2,
+    "at_meeting": 3,
+    "triggered_by": [
+     "B4",
+     "B5",
+     "B6"
+    ],
+    "new_rationale": [
+     "B7"
+    ]
+   }
+  ],
+  "distractor": null,
+  "questions": [
+   {
+    "qid": "set_01060-q01",
+    "type": "lookup_final",
+    "question": "What did the team finally decide about the policy for installing software on staff laptops?",
+    "answer_text": "a vetted self-service catalogue with installs logged and weekly vulnerability scans",
+    "answer_facts": {
+     "option": "a vetted self-service catalogue with installs logged and weekly vulnerability scans"
+    },
+    "supporting_links": [
+     "B8"
+    ]
+   },
+   {
+    "qid": "set_01060-q02",
+    "type": "decisions_about",
+    "question": "What decisions were made about the policy for installing software on staff laptops?",
+    "answer_text": "meeting 1: Marco - Marco settles it: the strict allowlist applies from the first of next month.; meeting 3: Marco - Marco gives the go-ahead for the catalogue without naming it, by asking Noor to work with Ivan on the tool list and tell the helpdesk.",
+    "answer_facts": {
+     "decisions": [
+      {
+       "meeting": 1,
+       "option": "a strict allowlist where staff can install only IT-approved software",
+       "reaffirmation": false
+      },
+      {
+       "meeting": 3,
+       "option": "a vetted self-service catalogue with installs logged and weekly vulnerability scans",
+       "reaffirmation": false
+      }
+     ]
+    },
+    "supporting_links": [
+     "B3",
+     "B8"
+    ]
+   },
+   {
+    "qid": "set_01060-q03",
+    "type": "as_of",
+    "question": "What was the decision about the policy for installing software on staff laptops as of the end of meeting 1?",
+    "answer_text": "a strict allowlist where staff can install only IT-approved software",
+    "answer_facts": {
+     "as_of": 1,
+     "option": "a strict allowlist where staff can install only IT-approved software"
+    },
+    "supporting_links": [
+     "B3"
+    ]
+   },
+   {
+    "qid": "set_01060-q04",
+    "type": "as_of",
+    "question": "What was the decision about the policy for installing software on staff laptops as of the end of meeting 3?",
+    "answer_text": "a vetted self-service catalogue with installs logged and weekly vulnerability scans",
+    "answer_facts": {
+     "as_of": 3,
+     "option": "a vetted self-service catalogue with installs logged and weekly vulnerability scans"
+    },
+    "supporting_links": [
+     "B8"
+    ]
+   },
+   {
+    "qid": "set_01060-q05",
+    "type": "change_over_time",
+    "question": "How did the decision about the policy for installing software on staff laptops change over time?",
+    "answer_text": "a strict allowlist where staff can install only IT-approved software (from meeting 1) -> a vetted self-service catalogue with installs logged and weekly vulnerability scans (from meeting 3)",
+    "answer_facts": {
+     "sequence": [
+      "a strict allowlist where staff can install only IT-approved software",
+      "a vetted self-service catalogue with installs logged and weekly vulnerability scans"
+     ]
+    },
+    "supporting_links": [
+     "B3",
+     "B8",
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   {
+    "qid": "set_01060-q06",
+    "type": "why_changed",
+    "question": "Why was the original decision about the policy for installing software on staff laptops changed?",
+    "answer_text": "Before: a strict allowlist where staff can install only IT-approved software, because Arjun argues that last year's scan found 212 unapproved applications across 340 laptops, 9 of them with known vulnerabilities. Triggered by: Noor (evidence): Noor reports that in the first three weeks the helpdesk logged 118 software requests with a median wait of six days, and 14 teams moved work tools onto personal devices as a workaround. Lena (challenge): Lena objects that the allowlist is pushing staff onto unmanaged personal devices, which is worse than what it replaced. Marco (reconsideration): Marco reopens the software policy after the request backlog figures. After: a vetted self-service catalogue with installs logged and weekly vulnerability scans, because Lena argues for a vetted self-service catalogue because 85 percent of requests were for 30 common tools that could be pre-approved, installs would be logged and scanned weekly, and the wait would drop to the same day.",
+    "answer_facts": {
+     "from_version": 1,
+     "to_version": 2,
+     "triggers": [
+      "B4",
+      "B5",
+      "B6"
+     ]
+    },
+    "supporting_links": [
+     "B2",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   {
+    "qid": "set_01060-q07",
+    "type": "who_proposed",
+    "question": "Who proposed the original decision about the policy for installing software on staff laptops?",
+    "answer_text": "Arjun",
+    "answer_facts": {
+     "speaker": "Arjun"
+    },
+    "supporting_links": [
+     "B1"
+    ]
+   },
+   {
+    "qid": "set_01060-q08",
+    "type": "evidence_to_reconsider",
+    "question": "What evidence caused the team to reconsider its decision about the policy for installing software on staff laptops?",
+    "answer_text": "Noor (evidence): Noor reports that in the first three weeks the helpdesk logged 118 software requests with a median wait of six days, and 14 teams moved work tools onto personal devices as a workaround. Lena (challenge): Lena objects that the allowlist is pushing staff onto unmanaged personal devices, which is worse than what it replaced.",
+    "answer_facts": {
+     "evidence": [
+      "B4",
+      "B5"
+     ]
+    },
+    "supporting_links": [
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   {
+    "qid": "set_01060-q09",
+    "type": "meetings_contributed",
+    "question": "Which meetings contributed to the final decision about the policy for installing software on staff laptops?",
+    "answer_text": "meeting 1, meeting 2, meeting 3",
+    "answer_facts": {
+     "meetings": [
+      1,
+      2,
+      3
+     ]
+    },
+    "supporting_links": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   {
+    "qid": "set_01060-q10",
+    "type": "full_lineage",
+    "question": "Show the complete lineage of the decision about the policy for installing software on staff laptops from proposal to final outcome.",
+    "answer_text": "meeting 1 - Arjun [proposal]: Arjun proposes a strict allowlist so staff can install only IT-approved software. | meeting 1 - Arjun [rationale]: Arjun argues that last year's scan found 212 unapproved applications across 340 laptops, 9 of them with known vulnerabilities. | meeting 1 - Marco [resolution]: Marco settles it: the strict allowlist applies from the first of next month. | meeting 2 - Noor [evidence]: Noor reports that in the first three weeks the helpdesk logged 118 software requests with a median wait of six days, and 14 teams moved work tools onto personal devices as a workaround. | meeting 2 - Lena [challenge]: Lena objects that the allowlist is pushing staff onto unmanaged personal devices, which is worse than what it replaced. | meeting 3 - Marco [reconsideration]: Marco reopens the software policy after the request backlog figures. | meeting 3 - Lena [rationale]: Lena argues for a vetted self-service catalogue because 85 percent of requests were for 30 common tools that could be pre-approved, installs would be logged and scanned weekly, and the wait would drop to the same day. | meeting 3 - Marco [resolution]: Marco gives the go-ahead for the catalogue without naming it, by asking Noor to work with Ivan on the tool list and tell the helpdesk.",
+    "answer_facts": {
+     "order": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+     ]
+    },
+    "supporting_links": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   }
+  ]
+ },
+ "errors": [
+  "B1: key utterance spoken by Marco, expected Arjun",
+  "B3: key utterance spoken by Arjun, expected Marco",
+  "B7: key utterance spoken by Marco, expected Lena"
+ ]
+}

@@ -1,0 +1,1866 @@
+{
+ "set_id": "set_01045",
+ "cast": [
+  "Lena",
+  "Pavel",
+  "Sven",
+  "Camila",
+  "Sana"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-11-02",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Lena",
+     "text": "Okay, I think we're all here. Sven, can you hear us alright?",
+     "ts": "2025-11-02T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Sven",
+     "text": "Yeah, yeah, I'm here. Sorry, the train had no signal for a bit, I just got back on.",
+     "ts": "2025-11-02T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Lena",
+     "text": "No worries. So, a few things today, nothing huge.",
+     "ts": "2025-11-02T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Pavel",
+     "text": "Is Camila on?",
+     "ts": "2025-11-02T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Camila",
+     "text": "I'm here. Just muted.",
+     "ts": "2025-11-02T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Lena",
+     "text": "Great. First, the Thursday release. Sana, where are we on that?",
+     "ts": "2025-11-02T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Sana",
+     "text": "Build's green as of this morning. There's one flaky test on the settings screen, but it fails like one in ten runs.",
+     "ts": "2025-11-02T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "Is that blocking?",
+     "ts": "2025-11-02T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Sana",
+     "text": "No, I mean, it's not the screen itself, it's the test. I'll look at it-",
+     "ts": "2025-11-02T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Sven",
+     "text": "Is that the one that does the animation wait? Because I hit that same thing on the profile screen back in, what, September?",
+     "ts": "2025-11-02T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Sana",
+     "text": "Probably. Probably the same helper.",
+     "ts": "2025-11-02T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Sven",
+     "text": "Yeah, someone hardcoded a timeout in there. Two seconds, I think. Which is fine on a laptop and terrible on the CI box.",
+     "ts": "2025-11-02T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Lena",
+     "text": "Okay, can you two sort that out offline?",
+     "ts": "2025-11-02T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Sana",
+     "text": "Sure.",
+     "ts": "2025-11-02T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Sven",
+     "text": "Yep.",
+     "ts": "2025-11-02T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Lena",
+     "text": "Good. Camila, the store listing screenshots, did those come back from design?",
+     "ts": "2025-11-02T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Camila",
+     "text": "Yes, Anika sent them yesterday. Two of them still have the old logo.",
+     "ts": "2025-11-02T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Lena",
+     "text": "Oh. That's not great.",
+     "ts": "2025-11-02T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Camila",
+     "text": "I asked her to redo them. She said Monday.",
+     "ts": "2025-11-02T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Lena",
+     "text": "Monday's fine, as long as it's before the submission.",
+     "ts": "2025-11-02T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Camila",
+     "text": "It is. Submission's Wednesday.",
+     "ts": "2025-11-02T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Lena",
+     "text": "Okay. So the other thing, and this one's got a clock on it, is the push thing. The contract with the provider runs out at the end of the month.",
+     "ts": "2025-11-02T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Pavel",
+     "text": "Right. I looked at the renewal paperwork on Friday.",
+     "ts": "2025-11-02T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Lena",
+     "text": "And remind me, it's a year or month to month?",
+     "ts": "2025-11-02T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Pavel",
+     "text": "They offered both. Month to month is more per month.",
+     "ts": "2025-11-02T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Lena",
+     "text": "Mm. How much more?",
+     "ts": "2025-11-02T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Pavel",
+     "text": "Over a thousand. I'd have to look.",
+     "ts": "2025-11-02T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Sven",
+     "text": "Is this the one Sanne from procurement keeps emailing about?",
+     "ts": "2025-11-02T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Lena",
+     "text": "I think so, yes. She wanted an answer by the fifteenth.",
+     "ts": "2025-11-02T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Sven",
+     "text": "She's very persistent. She emailed me too, and I'm not even on the contract.",
+     "ts": "2025-11-02T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Sana",
+     "text": "She emailed everybody.",
+     "ts": "2025-11-02T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Lena",
+     "text": "Okay. So, Pavel, where's your head on it?",
+     "ts": "2025-11-02T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Pavel",
+     "text": "Just renew it. A year, nine hundred a month, done.",
+     "ts": "2025-11-02T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Lena",
+     "text": "Okay. Say more, though, so everyone's got it.",
+     "ts": "2025-11-02T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Pavel",
+     "text": "It already does the segmentation for us, all the audience groups marketing set up. That's four point two million pushes a month right now.",
+     "ts": "2025-11-02T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Pavel",
+     "text": "And nobody on this team touches it. No upkeep. If we rebuilt it ourselves it's two engineers for six weeks, easily.",
+     "ts": "2025-11-02T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Sana",
+     "text": "Six weeks is generous, I'd say, because the retry logic alone-",
+     "ts": "2025-11-02T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Pavel",
+     "text": "Fine, so more.",
+     "ts": "2025-11-02T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Sana",
+     "text": "Yeah, so more, I'd say.",
+     "ts": "2025-11-02T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Lena",
+     "text": "Right. So nobody's super excited about building it.",
+     "ts": "2025-11-02T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Sven",
+     "text": "I'm not, no. Although, I mean, there's an argument that-",
+     "ts": "2025-11-02T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Sana",
+     "text": "We looked at this last spring, didn't we?",
+     "ts": "2025-11-02T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Sven",
+     "text": "We looked at something. I don't remember it going far.",
+     "ts": "2025-11-02T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Lena",
+     "text": "It didn't. It was a spike, I think.",
+     "ts": "2025-11-02T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Camila",
+     "text": "Can I ask what the number is per push?",
+     "ts": "2025-11-02T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Pavel",
+     "text": "Per push it's tiny. Fractions of a cent, basically.",
+     "ts": "2025-11-02T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Camila",
+     "text": "Okay. I just wanted to know if it was going to jump around.",
+     "ts": "2025-11-02T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Pavel",
+     "text": "Flat fee. It doesn't move with volume until we go way past where we are.",
+     "ts": "2025-11-02T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Camila",
+     "text": "Okay, thanks.",
+     "ts": "2025-11-02T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Lena",
+     "text": "Anyone have a reason not to do it?",
+     "ts": "2025-11-02T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Sven",
+     "text": "Uh, honestly, no. The only thing I'd say is the annual part, if we change our minds mid-year are we stuck?",
+     "ts": "2025-11-02T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Pavel",
+     "text": "Yes. That's the trade.",
+     "ts": "2025-11-02T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Sven",
+     "text": "Right, right. I figured.",
+     "ts": "2025-11-02T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Lena",
+     "text": "It's what you get for the lower rate.",
+     "ts": "2025-11-02T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Sana",
+     "text": "And the finance side, does Davor have to sign?",
+     "ts": "2025-11-02T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Lena",
+     "text": "He does. Anything over ten thousand a year goes through him.",
+     "ts": "2025-11-02T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Sana",
+     "text": "That's, what, ten eight?",
+     "ts": "2025-11-02T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Lena",
+     "text": "Ten point eight, yes. So yes.",
+     "ts": "2025-11-02T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Sana",
+     "text": "Okay, so that goes to him.",
+     "ts": "2025-11-02T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Lena",
+     "text": "Okay, so we're renewing the push provider for the year at nine hundred a month.",
+     "ts": "2025-11-02T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Pavel",
+     "text": "I'll send Sanne the yes today.",
+     "ts": "2025-11-02T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "Thanks. And copy me so I can forward to Davor.",
+     "ts": "2025-11-02T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Pavel",
+     "text": "Will do.",
+     "ts": "2025-11-02T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Sven",
+     "text": "Can I ask something totally different?",
+     "ts": "2025-11-02T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Lena",
+     "text": "Go for it.",
+     "ts": "2025-11-02T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Sven",
+     "text": "The team offsite, is that still in January? Because I need to book a flight if it's in Berlin.",
+     "ts": "2025-11-02T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "I thought we said Berlin. Camila, didn't you check venues?",
+     "ts": "2025-11-02T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Camila",
+     "text": "I got two quotes. One is a hotel conference room, the other is a co-working space.",
+     "ts": "2025-11-02T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Lena",
+     "text": "Which was cheaper?",
+     "ts": "2025-11-02T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Camila",
+     "text": "The co-working one. Quite a bit.",
+     "ts": "2025-11-02T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Lena",
+     "text": "Okay. Can you send me both?",
+     "ts": "2025-11-02T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Camila",
+     "text": "Yes. Today.",
+     "ts": "2025-11-02T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Sana",
+     "text": "Is the date set though? Because last I heard it was the twentieth or the twenty-seventh.",
+     "ts": "2025-11-02T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Lena",
+     "text": "Twentieth, I think. I'll confirm.",
+     "ts": "2025-11-02T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Sana",
+     "text": "I have a thing on the twenty-seventh anyway, so that's good.",
+     "ts": "2025-11-02T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Sven",
+     "text": "Okay, I'll hold off booking until you confirm.",
+     "ts": "2025-11-02T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Lena",
+     "text": "Yeah, hold off, please.",
+     "ts": "2025-11-02T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Pavel",
+     "text": "Anything else? I have a call at the top of the hour.",
+     "ts": "2025-11-02T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Lena",
+     "text": "A couple minutes. Sana, how's Tadeusz's onboarding going?",
+     "ts": "2025-11-02T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Sana",
+     "text": "Fine. He's got the repo running locally, and he fixed a typo in the readme, so, you know, he's contributing.",
+     "ts": "2025-11-02T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Lena",
+     "text": "Ha. Good. Is he paired with anyone?",
+     "ts": "2025-11-02T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Sana",
+     "text": "With me, mostly. Sven's going to take him for the networking layer next week.",
+     "ts": "2025-11-02T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Sven",
+     "text": "Right, the networking layer. That's a lot to dump on someone in week two.",
+     "ts": "2025-11-02T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Sana",
+     "text": "He's sharp, he'll be fine.",
+     "ts": "2025-11-02T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Sven",
+     "text": "I just remember my second week, I got handed the auth code and I didn't sleep.",
+     "ts": "2025-11-02T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Lena",
+     "text": "Let's be gentle then.",
+     "ts": "2025-11-02T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Sven",
+     "text": "I'll be gentle. I'll start with the easy bits.",
+     "ts": "2025-11-02T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Lena",
+     "text": "Thandi was asking if he'd be on call by December.",
+     "ts": "2025-11-02T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Sana",
+     "text": "I'd say no. January at the earliest.",
+     "ts": "2025-11-02T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Lena",
+     "text": "Okay, I'll tell her January.",
+     "ts": "2025-11-02T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Camila",
+     "text": "Is he going to the offsite?",
+     "ts": "2025-11-02T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Lena",
+     "text": "I'd think so, yes. It's a good way to meet people.",
+     "ts": "2025-11-02T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Camila",
+     "text": "Okay. I'll add him to the headcount for the venue.",
+     "ts": "2025-11-02T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Lena",
+     "text": "Thanks, Camila. Anything else from anyone?",
+     "ts": "2025-11-02T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Sana",
+     "text": "Nope.",
+     "ts": "2025-11-02T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Sven",
+     "text": "Not from me.",
+     "ts": "2025-11-02T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Pavel",
+     "text": "I'm good.",
+     "ts": "2025-11-02T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Camila",
+     "text": "Nothing here.",
+     "ts": "2025-11-02T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Lena",
+     "text": "Great. Thanks, everyone. Pavel, go take your call.",
+     "ts": "2025-11-02T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Pavel",
+     "text": "Thanks. Bye.",
+     "ts": "2025-11-02T10:19:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-11-09",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Lena",
+     "text": "Okay, can everyone hear me? Sven, you were frozen a second ago.",
+     "ts": "2025-11-09T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Sven",
+     "text": "I'm here, I'm here. Sorry, I was fighting with the headphones.",
+     "ts": "2025-11-09T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Pavel",
+     "text": "Morning.",
+     "ts": "2025-11-09T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Lena",
+     "text": "Morning. So, before the release stuff, I got an email last night and I'm still, uh, chewing on it.",
+     "ts": "2025-11-09T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Sana",
+     "text": "From who?",
+     "ts": "2025-11-09T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Lena",
+     "text": "The push provider. Hang on, let me find the-",
+     "ts": "2025-11-09T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Sana",
+     "text": "Is this about the renewal? Because Pavel already sent the-",
+     "ts": "2025-11-09T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Pavel",
+     "text": "I sent the yes. Last Sunday. Monday. Whatever, it went.",
+     "ts": "2025-11-09T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Lena",
+     "text": "Right, it did. This is after that. They're switching everybody over to pay-per-use from next month, and I put our volume into their little calculator and it says something like twenty-seven hundred a month.",
+     "ts": "2025-11-09T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Pavel",
+     "text": "Twenty-seven hundred.",
+     "ts": "2025-11-09T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Lena",
+     "text": "Yeah. So, three times what we thought we were paying. Give or take.",
+     "ts": "2025-11-09T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Sana",
+     "text": "But we signed a year at nine hundred. That was the whole-",
+     "ts": "2025-11-09T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Lena",
+     "text": "That's what I thought too, but the email says the new schedule applies to everyone, and I haven't read the fine print properly yet.",
+     "ts": "2025-11-09T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Pavel",
+     "text": "Did you read any of it?",
+     "ts": "2025-11-09T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Lena",
+     "text": "The first page. Then Davor pinged me about something else.",
+     "ts": "2025-11-09T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Sven",
+     "text": "Davor always pings at the worst moment. Last week he got me while I was in the middle of, actually, no, it was a Tuesday, I was on the train again-",
+     "ts": "2025-11-09T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Pavel",
+     "text": "Sven.",
+     "ts": "2025-11-09T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Sven",
+     "text": "Sorry. Go on.",
+     "ts": "2025-11-09T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Lena",
+     "text": "So the point is, nine hundred isn't what we're looking at anymore. We settled on the yearly thing on one set of numbers, and the numbers just moved.",
+     "ts": "2025-11-09T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sana",
+     "text": "Yeah, that's- yeah.",
+     "ts": "2025-11-09T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Lena",
+     "text": "So I want to take the whole push question back off the shelf before anything else goes out to them. Everyone okay with that?",
+     "ts": "2025-11-09T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Pavel",
+     "text": "Fine by me.",
+     "ts": "2025-11-09T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Sven",
+     "text": "Sure. I did sort of wonder about the volume thing last week, when Camila asked about it-",
+     "ts": "2025-11-09T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Camila",
+     "text": "I only asked if it would jump around.",
+     "ts": "2025-11-09T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Sven",
+     "text": "Right, and he said flat. Which was true then.",
+     "ts": "2025-11-09T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Pavel",
+     "text": "It was true then.",
+     "ts": "2025-11-09T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Lena",
+     "text": "Nobody's blaming anybody. It's just an email.",
+     "ts": "2025-11-09T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Sana",
+     "text": "What's the other option, though? Building it ourselves? Because we said six weeks and that was-",
+     "ts": "2025-11-09T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Pavel",
+     "text": "Six weeks, two people. That was my number.",
+     "ts": "2025-11-09T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Sana",
+     "text": "And I said more.",
+     "ts": "2025-11-09T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Pavel",
+     "text": "You did say more.",
+     "ts": "2025-11-09T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Sana",
+     "text": "I still think more. The retry stuff, the-",
+     "ts": "2025-11-09T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Camila",
+     "text": "Can I say something about that?",
+     "ts": "2025-11-09T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Lena",
+     "text": "Please, Camila.",
+     "ts": "2025-11-09T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Camila",
+     "text": "Um. So the thing I keep coming back to is the audience groups. The ones marketing set up. Those aren't really living in the provider. The segments get worked out in our own user service, and the provider just gets handed a list and sends to it.",
+     "ts": "2025-11-09T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Sana",
+     "text": "Wait, really? I thought they built them in the dashboard.",
+     "ts": "2025-11-09T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Camila",
+     "text": "Marketing looks at them there. But the data's ours. So we wouldn't redo that part at all, only the sending. I'd guess four weeks, two engineers, and then running it is maybe two-fifty a month plus a day a week of somebody looking after it.",
+     "ts": "2025-11-09T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Sven",
+     "text": "Huh. I didn't know that.",
+     "ts": "2025-11-09T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Pavel",
+     "text": "A day a week of who?",
+     "ts": "2025-11-09T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Camila",
+     "text": "Whoever's on it. I haven't thought about who.",
+     "ts": "2025-11-09T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Sven",
+     "text": "It'd be me, let's be honest. It always ends up being me.",
+     "ts": "2025-11-09T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Sana",
+     "text": "It would not always be you.",
+     "ts": "2025-11-09T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Sven",
+     "text": "Last spring-",
+     "ts": "2025-11-09T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Sana",
+     "text": "That was one time.",
+     "ts": "2025-11-09T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Lena",
+     "text": "Okay, okay. Camila, so against twenty-seven hundred, what does that look like?",
+     "ts": "2025-11-09T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Camila",
+     "text": "We'd save two thousand something a month once it's live. The build has to pay itself back first, so, about five months before it's even.",
+     "ts": "2025-11-09T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Pavel",
+     "text": "Five months. Not bad.",
+     "ts": "2025-11-09T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Camila",
+     "text": "Roughly. I did it on the back of a notebook, don't hold me to it.",
+     "ts": "2025-11-09T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Sana",
+     "text": "What about the platforms' own services, though? Aren't there tokens or limits or-",
+     "ts": "2025-11-09T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Camila",
+     "text": "Tokens we already store. The app registers them.",
+     "ts": "2025-11-09T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Sana",
+     "text": "Oh. Yeah, okay, right.",
+     "ts": "2025-11-09T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Pavel",
+     "text": "So what's the catch.",
+     "ts": "2025-11-09T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Camila",
+     "text": "The upkeep, mostly. And it's four weeks those two aren't doing the other thing.",
+     "ts": "2025-11-09T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Lena",
+     "text": "Which other thing?",
+     "ts": "2025-11-09T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Sana",
+     "text": "The checkout rework.",
+     "ts": "2025-11-09T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Lena",
+     "text": "Right. That one slips a bit, I'd think.",
+     "ts": "2025-11-09T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Sven",
+     "text": "A bit as in two weeks, or a bit as in-",
+     "ts": "2025-11-09T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Lena",
+     "text": "I'd say about the four. I'll talk to Thandi.",
+     "ts": "2025-11-09T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Pavel",
+     "text": "She'll want a date.",
+     "ts": "2025-11-09T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Lena",
+     "text": "She'll get a date.",
+     "ts": "2025-11-09T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Sana",
+     "text": "Does the contract let us out of anything, now that their pricing changed?",
+     "ts": "2025-11-09T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "That's what I want to find out. I'll ask Sanne to send over the actual terms.",
+     "ts": "2025-11-09T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Pavel",
+     "text": "Sanne's going to be thrilled.",
+     "ts": "2025-11-09T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Lena",
+     "text": "She emails us enough.",
+     "ts": "2025-11-09T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Sven",
+     "text": "She emailed me again this morning. About a laptop.",
+     "ts": "2025-11-09T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Sana",
+     "text": "A laptop?",
+     "ts": "2025-11-09T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Sven",
+     "text": "My old one. I'm supposed to return it. It's, uh, in a bag somewhere.",
+     "ts": "2025-11-09T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Lena",
+     "text": "Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?",
+     "ts": "2025-11-09T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Camila",
+     "text": "Okay. Yes. I can do that.",
+     "ts": "2025-11-09T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Pavel",
+     "text": "Wednesday work?",
+     "ts": "2025-11-09T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Camila",
+     "text": "Wednesday's good.",
+     "ts": "2025-11-09T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Pavel",
+     "text": "Want me to loop Sana in?",
+     "ts": "2025-11-09T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Sana",
+     "text": "Please. I've got opinions on the retry thing.",
+     "ts": "2025-11-09T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Pavel",
+     "text": "We know.",
+     "ts": "2025-11-09T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Sven",
+     "text": "Release is still Thursday, right?",
+     "ts": "2025-11-09T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Lena",
+     "text": "I think so. Anything blocking?",
+     "ts": "2025-11-09T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Sana",
+     "text": "The flaky settings test is fixed. Sven, it was the timeout.",
+     "ts": "2025-11-09T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Sven",
+     "text": "Two seconds. I told you.",
+     "ts": "2025-11-09T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Sana",
+     "text": "You did tell you- me. You did tell me.",
+     "ts": "2025-11-09T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Sven",
+     "text": "Hardcoded. In a helper. Somebody should be shamed.",
+     "ts": "2025-11-09T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Pavel",
+     "text": "Somebody was you.",
+     "ts": "2025-11-09T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Sven",
+     "text": "It was before I was here. Possibly.",
+     "ts": "2025-11-09T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Lena",
+     "text": "Offsite, quickly. Camila, did the quotes come through?",
+     "ts": "2025-11-09T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Camila",
+     "text": "I sent both Friday. The co-working one's a lot cheaper.",
+     "ts": "2025-11-09T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Lena",
+     "text": "I saw. I'll confirm the date this week. Sven, hold off on flights.",
+     "ts": "2025-11-09T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Sven",
+     "text": "Holding.",
+     "ts": "2025-11-09T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Lena",
+     "text": "Okay. Anything else?",
+     "ts": "2025-11-09T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Pavel",
+     "text": "No. I've got a call.",
+     "ts": "2025-11-09T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Lena",
+     "text": "Go. Thanks everyone.",
+     "ts": "2025-11-09T10:17:36"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-11-16",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Lena",
+     "text": "Okay, I think that's everyone. Sven, you're on mute, I can see your mouth moving.",
+     "ts": "2025-11-16T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Sven",
+     "text": "Sorry, sorry. Hi. I was saying good morning to nobody.",
+     "ts": "2025-11-16T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Lena",
+     "text": "Good morning to nobody, then. So, uh, where did the thing from Wednesday land? Pavel, Camila, you two sat down on it.",
+     "ts": "2025-11-16T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Pavel",
+     "text": "We did. Two hours. It's a doc now, sort of.",
+     "ts": "2025-11-16T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Camila",
+     "text": "It's more of a skeleton. I haven't put the, um, the sequence diagram in yet.",
+     "ts": "2025-11-16T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Lena",
+     "text": "That's fine. Just walk me through the shape of it.",
+     "ts": "2025-11-16T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Camila",
+     "text": "So there's a queue in front. The user service drops a message on it when marketing fires a campaign, and a worker picks up batches and sends them out to the platforms.",
+     "ts": "2025-11-16T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Pavel",
+     "text": "One worker type for each platform. Not one big thing.",
+     "ts": "2025-11-16T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Sana",
+     "text": "Why two? Is it- I mean, the retry stuff is the same either way-",
+     "ts": "2025-11-16T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Pavel",
+     "text": "The payloads are different. Different limits, different error codes.",
+     "ts": "2025-11-16T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Sana",
+     "text": "Right, but the backoff could live in one place and-",
+     "ts": "2025-11-16T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Camila",
+     "text": "That's what I wrote down, actually. Shared retry, separate adapters.",
+     "ts": "2025-11-16T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Sana",
+     "text": "Oh. Okay. Good.",
+     "ts": "2025-11-16T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Lena",
+     "text": "And that's, what, the four weeks we talked about?",
+     "ts": "2025-11-16T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Camila",
+     "text": "It's still about four. Maybe a bit more because of the error handling. I'd say four to five now.",
+     "ts": "2025-11-16T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Lena",
+     "text": "Okay. Not wildly different.",
+     "ts": "2025-11-16T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Pavel",
+     "text": "Not wildly. I wouldn't promise a date to Thandi yet though.",
+     "ts": "2025-11-16T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Lena",
+     "text": "She keeps asking. I told her end of the year, loosely.",
+     "ts": "2025-11-16T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Pavel",
+     "text": "Loosely is right.",
+     "ts": "2025-11-16T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Sven",
+     "text": "Can I ask about the, um, the tokens thing? Because I was reading something about how the tokens go stale when people uninstall, and then you get these errors back from the platform-",
+     "ts": "2025-11-16T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Camila",
+     "text": "The invalid token ones. Yes. We'd have to clean those out as the responses come back.",
+     "ts": "2025-11-16T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Sven",
+     "text": "Right, because otherwise you keep sending into the void. I had a friend at another company, they sent to forty percent dead tokens for a year and nobody noticed until the bill-",
+     "ts": "2025-11-16T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Pavel",
+     "text": "We don't have a bill per push.",
+     "ts": "2025-11-16T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Sven",
+     "text": "No, no, I know, this was a different setup. It was more the principle.",
+     "ts": "2025-11-16T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Pavel",
+     "text": "Okay.",
+     "ts": "2025-11-16T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Lena",
+     "text": "So that's a cleanup job. Is that in the skeleton?",
+     "ts": "2025-11-16T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Camila",
+     "text": "It's a line item. I haven't sized it.",
+     "ts": "2025-11-16T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Lena",
+     "text": "Mm. Okay. Put a rough number next to it when you can.",
+     "ts": "2025-11-16T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Camila",
+     "text": "I will.",
+     "ts": "2025-11-16T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Sana",
+     "text": "Can I flag something? The provider's dashboard shows delivery receipts. Open rates too, I think. Do we get those?",
+     "ts": "2025-11-16T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Pavel",
+     "text": "The platforms give back a delivery status. Opens, we'd have to log from the app side.",
+     "ts": "2025-11-16T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Sana",
+     "text": "Does the app already do that?",
+     "ts": "2025-11-16T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Pavel",
+     "text": "Some of it. Not all of it. I'd have to look.",
+     "ts": "2025-11-16T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Sana",
+     "text": "Because marketing leans on those numbers, is all I'm saying.",
+     "ts": "2025-11-16T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Lena",
+     "text": "Sunita mentioned it last week, actually. She was asking whether the reports would look the same.",
+     "ts": "2025-11-16T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Pavel",
+     "text": "They won't look the same.",
+     "ts": "2025-11-16T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Lena",
+     "text": "Right, but, like, close?",
+     "ts": "2025-11-16T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Pavel",
+     "text": "Close is a stretch. I'll talk to her.",
+     "ts": "2025-11-16T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Lena",
+     "text": "Thanks.",
+     "ts": "2025-11-16T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Sven",
+     "text": "Is that the same Sunita who does the, uh, the campaign calendar? Because she once sent me a calendar with every Friday highlighted in green and I never found out why.",
+     "ts": "2025-11-16T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Sana",
+     "text": "Why do you remember that?",
+     "ts": "2025-11-16T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Sven",
+     "text": "It was very green.",
+     "ts": "2025-11-16T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Lena",
+     "text": "Okay. Let's park that. Release. Where are we? Sana?",
+     "ts": "2025-11-16T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Sana",
+     "text": "Thursday's build is cut. QA has it. They found one thing on the older Android phones, the keyboard covers the login button.",
+     "ts": "2025-11-16T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Lena",
+     "text": "Is that new?",
+     "ts": "2025-11-16T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Sana",
+     "text": "No, it's been there. We just never tested the small screen with the long email layout.",
+     "ts": "2025-11-16T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Lena",
+     "text": "Okay. Is it a fix or a known issue?",
+     "ts": "2025-11-16T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Sana",
+     "text": "I'd rather fix it. Maybe an hour.",
+     "ts": "2025-11-16T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Lena",
+     "text": "Then fix it, as long as it doesn't move the date.",
+     "ts": "2025-11-16T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Sana",
+     "text": "It won't.",
+     "ts": "2025-11-16T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Pavel",
+     "text": "Who's on QA this week?",
+     "ts": "2025-11-16T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Sana",
+     "text": "Tadeusz is sitting in with them, actually. He wanted to see the test devices.",
+     "ts": "2025-11-16T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Lena",
+     "text": "Oh, nice. How's he doing?",
+     "ts": "2025-11-16T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Sana",
+     "text": "Good. He asked a lot of questions about the notification screens, funnily.",
+     "ts": "2025-11-16T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Pavel",
+     "text": "What kind?",
+     "ts": "2025-11-16T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Sana",
+     "text": "Like, where do the permission prompts get triggered. Nothing deep.",
+     "ts": "2025-11-16T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Camila",
+     "text": "That's actually relevant. If we change how it's sent, the opt-in path doesn't change, right?",
+     "ts": "2025-11-16T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Pavel",
+     "text": "Shouldn't. The app registers the token the same way.",
+     "ts": "2025-11-16T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Camila",
+     "text": "Okay. I'll write that down so it doesn't get lost.",
+     "ts": "2025-11-16T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Lena",
+     "text": "Good. Now, the offsite. I confirmed the date, it's the twentieth.",
+     "ts": "2025-11-16T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Sven",
+     "text": "The twentieth of January. Berlin.",
+     "ts": "2025-11-16T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "Yes. So you can book now.",
+     "ts": "2025-11-16T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Sven",
+     "text": "Great. Finally. I was going to look at flights last night and I got sidetracked, because I found this old route map and it turns out the train I take actually goes through, uh, I think it's Leipzig, and it's, well, the whole line was rebuilt in the nineties-",
+     "ts": "2025-11-16T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Pavel",
+     "text": "Sven.",
+     "ts": "2025-11-16T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Sven",
+     "text": "Right, yes. Flights. I'll book today.",
+     "ts": "2025-11-16T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Lena",
+     "text": "Camila, the co-working space, did they confirm?",
+     "ts": "2025-11-16T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Camila",
+     "text": "They said they'd hold the room until the end of the month. I need to send them a deposit.",
+     "ts": "2025-11-16T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Lena",
+     "text": "How much?",
+     "ts": "2025-11-16T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Camila",
+     "text": "Something like a quarter of the total. I'll check the email.",
+     "ts": "2025-11-16T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Lena",
+     "text": "Okay. Send me the number and I'll run it past Davor.",
+     "ts": "2025-11-16T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Camila",
+     "text": "Yes.",
+     "ts": "2025-11-16T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Lena",
+     "text": "And food. Do we need to think about food?",
+     "ts": "2025-11-16T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Camila",
+     "text": "They have a kitchen. We could order in. I haven't asked yet.",
+     "ts": "2025-11-16T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Lena",
+     "text": "Fine. It can wait.",
+     "ts": "2025-11-16T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Pavel",
+     "text": "Can we go back to the push thing for a second?",
+     "ts": "2025-11-16T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Lena",
+     "text": "Sure.",
+     "ts": "2025-11-16T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Pavel",
+     "text": "The provider. When does the plan with them actually end? Because Sanne's last email said the new pricing starts in December and I keep reading it differently.",
+     "ts": "2025-11-16T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Lena",
+     "text": "I had the same problem. I think the pricing changes the first, but the contract itself, I don't know.",
+     "ts": "2025-11-16T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Pavel",
+     "text": "So the overlap is the question.",
+     "ts": "2025-11-16T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Lena",
+     "text": "Yes. Sanne said she'd send the actual terms. I haven't seen them.",
+     "ts": "2025-11-16T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Pavel",
+     "text": "Did you chase?",
+     "ts": "2025-11-16T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Lena",
+     "text": "I sent a short note on Friday.",
+     "ts": "2025-11-16T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Sana",
+     "text": "She's usually quick.",
+     "ts": "2025-11-16T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Lena",
+     "text": "Not on Fridays, apparently.",
+     "ts": "2025-11-16T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Sven",
+     "text": "She sent me the laptop thing on a Saturday.",
+     "ts": "2025-11-16T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Pavel",
+     "text": "Different department.",
+     "ts": "2025-11-16T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Sven",
+     "text": "Is it? I thought it was all one team.",
+     "ts": "2025-11-16T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Lena",
+     "text": "Okay. Whatever the terms say, we still have to build the thing. So, what do you need from me?",
+     "ts": "2025-11-16T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Camila",
+     "text": "Honestly, someone to say who looks after it once it's running. I keep leaving it blank in the doc.",
+     "ts": "2025-11-16T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Lena",
+     "text": "Hm. I'd rather not answer that today. Can it stay blank a bit?",
+     "ts": "2025-11-16T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Camila",
+     "text": "It can. It just looks odd.",
+     "ts": "2025-11-16T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Lena",
+     "text": "I know. I'll come back to it.",
+     "ts": "2025-11-16T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Sven",
+     "text": "I mean, if it's helpful, I'm not saying it'd be me-",
+     "ts": "2025-11-16T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Sana",
+     "text": "It would be you.",
+     "ts": "2025-11-16T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Sven",
+     "text": "I'm saying I'm not volunteering.",
+     "ts": "2025-11-16T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Lena",
+     "text": "Noted.",
+     "ts": "2025-11-16T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Pavel",
+     "text": "I need a staging setup for the queue. Who do I ask?",
+     "ts": "2025-11-16T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Lena",
+     "text": "Ask Anika's team? No, wait, that's design. Is it the platform people?",
+     "ts": "2025-11-16T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Pavel",
+     "text": "Thandi's group, I think.",
+     "ts": "2025-11-16T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Lena",
+     "text": "Then ask Thandi, she'll know who.",
+     "ts": "2025-11-16T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Pavel",
+     "text": "Okay. I'll message her after this.",
+     "ts": "2025-11-16T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Sana",
+     "text": "And a test device account for each platform, so we're not sending to real people.",
+     "ts": "2025-11-16T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Pavel",
+     "text": "Yes. That's on the list.",
+     "ts": "2025-11-16T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Sana",
+     "text": "Is it? I didn't see it.",
+     "ts": "2025-11-16T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Pavel",
+     "text": "It's in my head. I'll put it on the list.",
+     "ts": "2025-11-16T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Sana",
+     "text": "Okay. Good.",
+     "ts": "2025-11-16T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Camila",
+     "text": "I can add it. It's easy to add.",
+     "ts": "2025-11-16T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Pavel",
+     "text": "Thanks.",
+     "ts": "2025-11-16T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Lena",
+     "text": "Okay. Any other thing on this?",
+     "ts": "2025-11-16T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Camila",
+     "text": "Only that I'd like a second pair of eyes on the numbers before it goes further. The cost side especially.",
+     "ts": "2025-11-16T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Lena",
+     "text": "Pavel, could you-",
+     "ts": "2025-11-16T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Pavel",
+     "text": "Sure. Send it over when you're ready.",
+     "ts": "2025-11-16T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Camila",
+     "text": "Thanks. Probably Tuesday.",
+     "ts": "2025-11-16T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Lena",
+     "text": "Great. I have to jump to another call. Anything else, quickly?",
+     "ts": "2025-11-16T10:22:36"
+    },
+    {
+     "idx": 114,
+     "speaker": "Sven",
+     "text": "No, I'm good. Booking flights.",
+     "ts": "2025-11-16T10:22:48"
+    },
+    {
+     "idx": 115,
+     "speaker": "Sana",
+     "text": "Nope.",
+     "ts": "2025-11-16T10:23:00"
+    },
+    {
+     "idx": 116,
+     "speaker": "Lena",
+     "text": "Okay, thanks, everyone.",
+     "ts": "2025-11-16T10:23:12"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+\begin{table}[t]\centering
+\caption{Where our pipeline loses the gold lineage on TEST (post-hoc): 365 question--link pairs from the 65 headline questions (180 unique links). Retrieval and generation are counted jointly.}\label{tab:stage_loss}
+\resizebox{\columnwidth}{!}{\begin{tabular}{lrrl}\toprule
+Stage & Pairs & Share & Reading \\ \midrule
+Never extracted & 57 & 15.6\% & unavailable downstream \\
+Extracted, cut by the top-4 cap & 76 & 20.8\% & compression loses history \\
+Kept, not cited (retrieval + generation) & 90 & 24.7\% & downstream loss \\
+Cited in the final answer & 142 & 38.9\% & localized \\
+\midrule
+\multicolumn{4}{l}{Answer level: false premise rejected in 2 of 4; no gold link cited in 14 of 65 answers.} \\
+\bottomrule\end{tabular}}\end{table}

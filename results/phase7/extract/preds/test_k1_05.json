@@ -1,0 +1,359 @@
+{
+ "set_id": "test_k1_05",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "annual plan discount structure",
+   "option": "fifteen percent off for anyone who prepays for the full year"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "blanket approval for the whole plan"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "twelve flat"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Sana",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "twelve flat"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Sana",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "annual plan discount structure",
+   "option": "ten percent and the price lock"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Wei",
+   "confidence": 0.95,
+   "decision": "annual plan discount structure",
+   "option": "ten percent off with the twenty-four month price lock"
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+{
+ "set_id": "set_01012",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Get proper dedicated handheld scanners, three for each store"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Get proper dedicated handheld scanners, three for each store"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "confidence": 0.6,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Get proper dedicated handheld scanners, three for each store"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Updating the rota for Saturday cover",
+   "option": "Only two changes. Saturday cover at Leeds and Hull"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Updating the rota for Saturday cover",
+   "option": "Only two changes. Saturday cover at Leeds and Hull"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners",
+   "option": "Get proper dedicated handheld scanners, three for each store"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Get proper dedicated handheld scanners, three for each store"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Purchasing handheld scanners",
+   "option": "Get fewer units, one per store, twelve"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Get fewer units, one per store, twelve"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners",
+   "option": ""
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.95,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "confidence": 0.85,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Use a scanning app on existing devices"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Which stores first"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Leeds again"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Leeds and Hull, then the rest over three weeks"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "confidence": 0.75,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Training"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Ten minutes a person"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Do a video"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Do the video"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Gloves"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Cold room people can use a phone with touch gloves"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Buy those"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Will do"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Greta",
+   "confidence": 0.75,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Budget"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Thirty-five hundred a year, plus gloves"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "Implementing handheld scanners for receiving stock",
+   "option": "Great"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Noor",
+   "confidence": 0.9,
+   "decision": "Implementing handheld scanners for receiving stock (option: Get proper dedicated handheld scanners, three for each store",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Get proper dedicated handheld scanners, three for each store",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners (option: Get fewer units, one per store, twelve)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Purchasing handheld scanners (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Purchasing handheld scanners (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Purchasing handheld scanners (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Implementing handheld scanners for receiving stock (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Noor",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Which stores first)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Which stores first)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Which stores first)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Which stores first)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Greta",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Training)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Training)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Noor",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Do a video)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Do a video)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Gloves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Implementing handheld scanners for receiving stock (option: Gloves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Gloves)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "Implementing handheld scanners for receiving stock (option: Use a scanning app on existing devices)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

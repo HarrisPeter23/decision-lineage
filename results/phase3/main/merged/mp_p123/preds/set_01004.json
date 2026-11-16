@@ -1,0 +1,786 @@
+{
+ "set_id": "set_01004",
+ "method": "multipass:1,2,3:verify=False",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Omar",
+   "quote": "I think we do a fourteen day free trial, no credit card needed.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "quote": "Nobody wants to type one in for a product they haven't tried.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Nadia",
+   "quote": "I think maybe that's what, um, Slack and those companies did?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Sofia",
+   "quote": "What stops someone from signing up forty times?",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Omar",
+   "quote": "Email verification. I mean, that's coming.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Diego",
+   "quote": "Let's go with the fourteen day free trial, no card, for launch.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Omar",
+   "quote": "Yes!",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "quote": "Okay.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Nadia",
+   "quote": "I'll update the, um, signup page copy.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "quote": "Oh, the logo, the new one, did anyone see it?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "quote": "It's fine.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Sofia",
+   "quote": "I like the blue.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Omar",
+   "quote": "I'm outvoted. Okay. Moving on.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Diego",
+   "quote": "Marco, analytics dashboard, ready by the launch?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Marco",
+   "quote": "Yes. Mostly.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Diego",
+   "quote": "Mostly?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "quote": "Signup funnel is ready. Retention isn't.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Marco",
+   "quote": "Then yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "quote": "So, we've been live three weeks. Marco, numbers.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "quote": "Nineteen hundred trial signups. Three point one percent converted to paid.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Omar",
+   "quote": "Three percent isn't bad for three weeks.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Nadia",
+   "quote": "Forty percent, that's, I think, a lot?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "quote": "We need a card up front.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "quote": "Eleven hundred a month is nothing next to what we'd lose if-",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Sofia",
+   "quote": "It's nothing now. It's launch.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Nadia",
+   "quote": "Could, um, email verification fix some of it?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "quote": "Next month. Doesn't fix people with real throwaway addresses.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Omar",
+   "quote": "Wait, are those fake or just, like, privacy people?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Marco",
+   "quote": "Mostly obvious junk. Mailinator, stuff like that.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "quote": "Sofia, what would you do?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "quote": "Seven-day trial, card required.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Omar",
+   "quote": "Seven days is short. People have a week with meetings, they don't touch anything till day five.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Sofia",
+   "quote": "Real teams will. Serious ones, I mean.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Nadia",
+   "quote": "I think maybe seven could work, if onboarding is quick?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Marco",
+   "quote": "Onboarding's ten minutes.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "quote": "Okay. I'm going to decide. We switch to a seven day trial, credit card required up front.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Omar",
+   "quote": "Hm. Okay. I disagree but okay.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "quote": "Noted.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Nadia",
+   "quote": "I'll change the copy again.",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Diego",
+   "quote": "Marco, track it. Signups, conversion, both.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Sofia",
+   "quote": "Also the email verification date, is it fixed?",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Diego",
+   "quote": "Next month, the fifteenth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Sofia",
+   "quote": "Good.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "quote": "Two weeks since the change. Nadia, you had the numbers?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Nadia",
+   "quote": "Yes, so, I think it's a, um, big difference. Signups fell sixty-two percent.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "quote": "Not all junk. I checked. Real-domain signups fell forty percent.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "quote": "This is what I said. This is, I mean, the card wall blocks exactly the serious teams.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Marco",
+   "quote": "Two prospects told sales they'd come back after a PO. They haven't yet.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Nadia",
+   "quote": "I think we, maybe, should wait one more week? To see?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Omar",
+   "quote": "Every week is another batch of lost prospects.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Sofia",
+   "quote": "We changed this for a reason. The fake signups.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Omar",
+   "quote": "Email verification ships in two weeks anyway-",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "quote": "Which doesn't stop throwaway domains.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Marco",
+   "quote": "It does stop most.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Diego",
+   "quote": "I don't want to decide now. I want the actual conversion numbers on the paid side first.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "quote": "Then let's revisit next week.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "quote": "I think we should reopen it",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Marco",
+   "quote": "The cohort conversion came in. Eight point four percent, up from three point one",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Sofia",
+   "quote": "See? Higher conversion",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Marco",
+   "quote": "On a much smaller base. Total paid conversions are lower than before. Eleven, versus about fifty-nine",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Sofia",
+   "quote": "Eleven versus fifty-nine. Hm",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "quote": "The abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sofia",
+   "quote": "And if the fakes come back?",
+   "confidence": 0.75
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "quote": "Then we look at it. With real data",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Omar",
+   "quote": "So, my ask is, drop the card and go back to the fourteen days, no card",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Nadia",
+   "quote": "Maybe, I think, we could watch the compute number weekly? Just so we know",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Marco",
+   "quote": "I can alert on it. Over two thousand a month",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Sofia",
+   "quote": "That's something. I'm still nervous",
+   "confidence": 0.7
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Diego",
+   "quote": "I know. But I think the loss on the other side is bigger",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "quote": "Sure. Marco, you can flip the signup flow back tonight",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Omar",
+   "quote": "Yes!",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Nadia",
+   "quote": "I'll change the page, again. I'm sorry, I'm not complaining",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Diego",
+   "quote": "Thank you. Marco, same tracking",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Marco",
+   "quote": "Sure. Weekly",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Sofia",
+   "quote": "Put the card idea in a doc somewhere, in case",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "quote": "Good idea",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Nadia",
+   "quote": "Should we tell sales the news today?",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Diego",
+   "quote": "I'll tell them. Thanks everyone",
+   "confidence": 0.95
+  }
+ ]
+}

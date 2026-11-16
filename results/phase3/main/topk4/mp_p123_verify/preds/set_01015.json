@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01015",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Fatima",
+   "quote": "I can do that.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Ravi",
+   "quote": "The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Ravi",
+   "quote": "Good thought, I'll drop her a line. The training's the thirtieth, half a day.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Ravi",
+   "quote": "Fatima, you've got the permit list. Dmitri, the Tessaline paperwork. I've got the lift, and I'm late for the fire people.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ravi",
+   "quote": "Then reopen it, Dmitri, I can't fix it from here.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Ravi",
+   "quote": "Reopen it. Fatima, the permit list?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Ravi",
+   "quote": "36 against 44 requests, then. Thanks. Parked till April anyway.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ravi",
+   "quote": "Good thing you checked. I'll pay it. Who signed for the hour?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Ravi",
+   "quote": "Fine, I'll warn the cleaners. Right. The panel order. Tessaline have answered on the corridor rating, so I want that back open, properly, before my name goes on anything.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Ravi",
+   "quote": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ravi",
+   "quote": "Legal came back Wednesday. It's one policy, whole building, and there's a condition that escape routes are kept to whatever standard the insurer's surveyor sets. Breach it and they can decline a claim.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Dmitri",
+   "quote": "That's the thing, they've got it, it's in the email, if the order's in today it comes on the same delivery. So it doesn't touch the fitters.",
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,3267 @@
+[
+ {
+  "qid": "set_01019-q02",
+  "type": "decisions_about",
+  "text": "The decision excluded the use of take-home assessments for first-round interviews.",
+  "cites": [
+   {
+    "speaker": "Bashir",
+    "role": "resolution",
+    "text": "Right. Okay. The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone screen goes, and no take-home."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G000"
+ },
+ {
+  "qid": "set_01019-q07",
+  "type": "meetings_contributed",
+  "text": "Bashir confirmed that the final decision was to use a forty-five minute video interview with two people scoring on a shared rubric for first-round engineering interviews.",
+  "cites": [
+   {
+    "speaker": "Bashir",
+    "role": "resolution",
+    "text": "Right. Okay. The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone screen goes, and no take-home."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G001"
+ },
+ {
+  "qid": "set_01019-q09",
+  "type": "distractor",
+  "text": "In meeting 1, Bashir decided that new-hire laptops should be shipped to the new hires' homes the Friday before they start.",
+  "cites": [
+   {
+    "speaker": "Bashir",
+    "role": "resolution",
+    "text": "Okay. Um. I'm fine with that. Ship the laptops to the new hires' homes the Friday before they start. Jonas, can you tell IT? I'll message Daan today. Does that start with the next hire? Next one, yes."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G002"
+ },
+ {
+  "qid": "set_01000-q05",
+  "type": "change_over_time",
+  "text": "The pricing model for the new analytics add-on was set to per-seat pricing at twelve dollars a seat, per month, and this decision remained unchanged.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "Okay, so, we're keeping per-seat pricing at twelve for launch."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G003"
+ },
+ {
+  "qid": "set_01000-q11",
+  "type": "distractor",
+  "text": "Wei mentioned in meeting 1 that Friday demos keep getting skipped because half the team takes Friday off or leaves early, and there were only two real ones last month.",
+  "cites": [
+   {
+    "speaker": "Wei",
+    "role": "rationale",
+    "text": "Because Friday demos keep getting skipped. Half the team takes Friday off or leaves early. Last month we had like two real ones."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G004"
+ },
+ {
+  "qid": "set_01000-q11",
+  "type": "distractor",
+  "text": "Diego proposed in meeting 1 that the weekly demo should move to Thursday afternoons, starting next week.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "Okay, then. The weekly demo moves to Thursday afternoons, starting next week."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G005"
+ },
+ {
+  "qid": "set_01000-q11",
+  "type": "distractor",
+  "text": "Wei provided the rationale for the change in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Wei",
+    "role": "rationale",
+    "text": "Because Friday demos keep getting skipped. Half the team takes Friday off or leaves early. Last month we had like two real ones."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G006"
+ },
+ {
+  "qid": "set_01000-q11",
+  "type": "distractor",
+  "text": "The decision is still in force as of the latest version.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "Okay, then. The weekly demo moves to Thursday afternoons, starting next week."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G007"
+ },
+ {
+  "qid": "set_01004-q04",
+  "type": "as_of",
+  "text": "In meeting 3, Nadia reported a significant drop in signups and enterprise prospects due to the card requirement.",
+  "cites": [
+   {
+    "speaker": "Nadia",
+    "role": "evidence",
+    "text": "Yes, so, I think it's a, um, big difference. Signups fell sixty-two percent. And sales told me four enterprise prospects dropped out at the card step, which together are worth about ninety thousand a year."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G008"
+ },
+ {
+  "qid": "set_01004-q07",
+  "type": "why_changed",
+  "text": "In meeting 3, Omar challenged the decision, stating that the card wall blocks exactly the serious teams, and the volume lost is the good volume.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "challenge",
+    "text": "This is what I said. This is, I mean, the card wall blocks exactly the serious teams. Big companies can't just type a card, they need approvals, procurement, a purchase order, somebody's boss. So the volume we lost is the good volume."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G009"
+ },
+ {
+  "qid": "set_01004-q07",
+  "type": "why_changed",
+  "text": "In meeting 3, Diego suggested revisiting the trial policy next week.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Then let's revisit next week."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G010"
+ },
+ {
+  "qid": "set_01004-q07",
+  "type": "why_changed",
+  "text": "In meeting 4, Omar stated that the abuse cost is small but the loss from the four stalled enterprise deals is significant, worth ninety thousand a year.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "evidence",
+    "text": "Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G011"
+ },
+ {
+  "qid": "set_01004-q09",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 3, Omar challenged the decision, stating that the card wall blocks exactly the serious teams, and the volume lost is the good volume.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "challenge",
+    "text": "This is what I said. This is, I mean, the card wall blocks exactly the serious teams. Big companies can't just type a card, they need approvals, procurement, a purchase order, somebody's boss. So the volume we lost is the good volume."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G012"
+ },
+ {
+  "qid": "set_01014-q02",
+  "type": "decisions_about",
+  "text": "In meeting 3, Meera said, 'Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th.' This shows that the 30-day trial policy remained in place until the next meeting.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G013"
+ },
+ {
+  "qid": "set_01014-q08",
+  "type": "who_proposed",
+  "text": "The trial policy was not mentioned in any other meeting prior to meeting 2.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-"
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G014"
+ },
+ {
+  "qid": "set_01014-q09",
+  "type": "evidence_to_reconsider",
+  "text": "Pavel also noted in meeting 4 that throwaways accounted for about 3 percent of the signups, indicating a small but notable portion of low-quality signups.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "evidence",
+    "text": "Throwaways about 3 percent. Four accounts."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G015"
+ },
+ {
+  "qid": "set_01014-q12",
+  "type": "distractor",
+  "text": "The release-notes email frequency was not discussed in meeting 3.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G016"
+ },
+ {
+  "qid": "set_01002-q04",
+  "type": "as_of",
+  "text": "In meeting 1, Noor agreed to the initial decision, which was to wait until the booking was confirmed.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": null,
+    "text": "Sounds good."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G017"
+ },
+ {
+  "qid": "set_01002-q08",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 2, Greta mentioned that the Harborview ballroom was closing for renovation through the end of the year.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Okay, before anything else, I got an email from the Harborview yesterday. They're closing the ballroom for renovation through the end of the year. And I called around, and the next best venue wants a deposit that's eighteen thousand over what we budgeted."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G018"
+ },
+ {
+  "qid": "set_01002-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 2, Greta presented evidence that the Harborview ballroom was closing for renovation and that the next best venue would exceed the budget, making the original plan unfeasible.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Okay, before anything else, I got an email from the Harborview yesterday. They're closing the ballroom for renovation through the end of the year. And I called around, and the next best venue wants a deposit that's eighteen thousand over what we budgeted."
+   },
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Over. On top of what finance already approved."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G019"
+ },
+ {
+  "qid": "set_01002-q10",
+  "type": "full_lineage",
+  "text": "In meeting 3, Noor proposed a virtual platform for the event, and Greta requested sign-ups for the reception.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "proposal",
+    "text": "I looked at three. The one I like is four dollars an attendee and handles registration and reminders automatically."
+   },
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Sign up for it. Lakshmi, the reception, we need a guest list."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G020"
+ },
+ {
+  "qid": "set_01016-q03",
+  "type": "as_of",
+  "text": "In meeting 1, Zainab made the decision that next year's summit would run as the three regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G021"
+ },
+ {
+  "qid": "set_01016-q04",
+  "type": "as_of",
+  "text": "In meeting 1, Zainab made the decision that next year's summit would run as the three regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G022"
+ },
+ {
+  "qid": "set_01016-q10",
+  "type": "full_lineage",
+  "text": "Sofia proposed that next year's summit be replaced with three one-day regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Sofia",
+    "role": "proposal",
+    "text": "So, okay, this has been rattling around since the debrief. What if there just isn't a central one next year, and instead it's three one-day regional roadshows, Manchester, Frankfurt and Austin? Three. Three. One day each, more or less the same content."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G023"
+ },
+ {
+  "qid": "set_01016-q10",
+  "type": "full_lineage",
+  "text": "Sofia acknowledged Ingrid's challenge.",
+  "cites": [
+   {
+    "speaker": "Sofia",
+    "role": "rationale",
+    "text": "Oh. Okay."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G024"
+ },
+ {
+  "qid": "set_01003-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, Sven confirmed that the delivery was on time.",
+  "cites": [
+   {
+    "speaker": "Sven",
+    "role": null,
+    "text": "They confirmed the fourteenth. On time."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G025"
+ },
+ {
+  "qid": "set_01003-q05",
+  "type": "change_over_time",
+  "text": "In meeting 2, Tariq changed the decision to 'Hold the order, yes'.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Hold the order, yes."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G026"
+ },
+ {
+  "qid": "set_01003-q07",
+  "type": "who_proposed",
+  "text": "In meeting 1, Tariq suggested that they pick the flooring for the Level 4 fit-out.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": null,
+    "text": "Morning. Let's pick the flooring for the Level 4 fit-out today, plus the furniture delivery schedule."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G027"
+ },
+ {
+  "qid": "set_01003-q10",
+  "type": "full_lineage",
+  "text": "In meeting 3, Tariq reiterated the need to reconsider the flooring choice based on the mock-up and warranty concerns.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "reconsideration",
+    "text": "Right. The flooring question again. With the mock-up result and what Elif found in the warranty, I think we need to look at this again before we order anything."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G028"
+ },
+ {
+  "qid": "set_01015-q01",
+  "type": "lookup_final",
+  "text": "In meeting 1, Ravi mentioned that the fourth floor's refit had no written plan for noise treatment.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": null,
+    "text": "Thank you. Okay, fourth floor. Refit starts in, what, nine weeks, and we've still got nothing written down for the noise."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G029"
+ },
+ {
+  "qid": "set_01015-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, Fatima informed that the insurer's surveyor required escape-corridor linings to meet Euroclass B-s1,d0, but the Tessaline test certificate only showed C-s2,d0.",
+  "cites": [
+   {
+    "speaker": "Fatima",
+    "role": "evidence",
+    "text": "The insurer's surveyor was in on Wednesday, for the renewal walk-round. I took him up to four and mentioned the panels. What's he got to do with- He says escape-corridor linings have to reach Euroclass B-s1,d0, and I checked Dmitri's datasheet, and the Tessaline test certificate only shows C-s2,d0. Hang on, which certificate, the one I sent round? The one you sent Ravi on the tenth. Page three. B-s1,d0 against C-s2,d0. Say that again, the first one's the requirement? B is what he wants. C is what they've got."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G030"
+ },
+ {
+  "qid": "set_01015-q05",
+  "type": "change_over_time",
+  "text": "This initial decision remained in place until meeting 3.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G031"
+ },
+ {
+  "qid": "set_01015-q05",
+  "type": "change_over_time",
+  "text": "The modified decision added mineral-wool-core panels for the escape corridor.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G032"
+ },
+ {
+  "qid": "set_01015-q06",
+  "type": "why_changed",
+  "text": "In meeting 3, Ravi confirmed that Tessaline had answered regarding the corridor rating and wanted the order to be reopened before proceeding.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "reconsideration",
+    "text": "Fine, I'll warn the cleaners. Right. The panel order. Tessaline have answered on the corridor rating, so I want that back open, properly, before my name goes on anything."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G033"
+ },
+ {
+  "qid": "set_01015-q07",
+  "type": "who_proposed",
+  "text": "In meeting 1, Ravi mentioned the need for acoustic treatment on the fourth floor, indicating he was the one who initially proposed the decision.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": null,
+    "text": "Thank you. Okay, fourth floor. Refit starts in, what, nine weeks, and we've still got nothing written down for the noise."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G034"
+ },
+ {
+  "qid": "set_01030-q02",
+  "type": "decisions_about",
+  "text": "Marco was assigned the responsibility of setting up Plotbench in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G035"
+ },
+ {
+  "qid": "set_01030-q03",
+  "type": "as_of",
+  "text": "In meeting 1, Pavel stated that they would standardise on Plotbench.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G036"
+ },
+ {
+  "qid": "set_01030-q05",
+  "type": "change_over_time",
+  "text": "In meeting 2, Pavel paused the decision and instructed Marco to continue with the setup as planned, requesting real numbers before further discussion.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "Some. I'm not moving on this today. Marco, carry on with the setup as planned, and I want the real numbers before we talk about it again."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G037"
+ },
+ {
+  "qid": "set_01030-q07",
+  "type": "who_proposed",
+  "text": "In meeting 1, Greta proposed that the team go with Plotbench, the free and self-hosted option.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "proposal",
+    "text": "Right, and that's, that's sort of the point. Okay so, can I just say, I'd say we go with Plotbench. The free one, the self-hosted one."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G038"
+ },
+ {
+  "qid": "set_01045-q02",
+  "type": "decisions_about",
+  "text": "In meeting 1, Pavel said he would send Sanne the yes today.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "I'll send Sanne the yes today."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G039"
+ },
+ {
+  "qid": "set_01045-q03",
+  "type": "as_of",
+  "text": "No information about how the app's push notifications are sent was discussed in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "resolution",
+    "text": "Okay, so we're renewing the push provider for the year at nine hundred a month."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G040"
+ },
+ {
+  "qid": "set_01045-q04",
+  "type": "as_of",
+  "text": "This decision was made in meeting 2 (2025-11-09) by Sana.",
+  "cites": [
+   {
+    "speaker": "Sana",
+    "role": "resolution",
+    "text": "The flaky settings test is fixed. Sven, it was the timeout."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G041"
+ },
+ {
+  "qid": "set_01045-q06",
+  "type": "why_changed",
+  "text": "In meeting 2, Lena mentioned that they are switching to a pay-per-use model starting next month, and the cost calculation came out to around twenty-seven hundred a month.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Right, it did. This is after that. They're switching everybody over to pay-per-use from next month, and I put our volume into their little calculator and it says something like twenty-seven hundred a month."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G042"
+ },
+ {
+  "qid": "set_01006-q05",
+  "type": "change_over_time",
+  "text": "In meeting 3, Tomas announced that the team was switching to Dalmar Logistics.",
+  "cites": [
+   {
+    "speaker": "Tomas",
+    "role": "resolution",
+    "text": "Okay. We're switching to Dalmar Logistics."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G043"
+ },
+ {
+  "qid": "set_01006-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 2, Priya presented evidence that Swiftline Freight only delivered 71% of shipments on time, below the contract's 95% requirement.",
+  "cites": [
+   {
+    "speaker": "Priya",
+    "role": "evidence",
+    "text": "I do, and it's, um, a lot. Okay, so Swiftline delivered seventy-one percent of shipments on time. The contract says ninety-five. And a bunch of the late ones landed on promotion items, so we had stockouts on, I think, nine promo items across, like, five stores."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G044"
+ },
+ {
+  "qid": "set_01006-q10",
+  "type": "full_lineage",
+  "text": "In meeting 2, Priya presented evidence that Swiftline Freight only delivered 71% of shipments on time, below the contract's 95% requirement.",
+  "cites": [
+   {
+    "speaker": "Priya",
+    "role": "evidence",
+    "text": "I do, and it's, um, a lot. Okay, so Swiftline delivered seventy-one percent of shipments on time. The contract says ninety-five. And a bunch of the late ones landed on promotion items, so we had stockouts on, I think, nine promo items across, like, five stores."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G045"
+ },
+ {
+  "qid": "set_01012-q02",
+  "type": "decisions_about",
+  "text": "There was a mention of the need for proper dedicated handheld scanners, with three for each store.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G046"
+ },
+ {
+  "qid": "set_01012-q02",
+  "type": "decisions_about",
+  "text": "The initial decision remains unchanged as of the meeting.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G047"
+ },
+ {
+  "qid": "set_01012-q07",
+  "type": "meetings_contributed",
+  "text": "The final decision about how stores will scan stock during deliveries was made in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "proposal",
+    "text": "Yes. So, the thing with receiving stock is, it's all clipboards still, right? Which is, it's honestly wild, my cousin works at a store in, anyway, I think we get proper dedicated handheld scanners, three for each store."
+   },
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G048"
+ },
+ {
+  "qid": "set_01012-q08",
+  "type": "full_lineage",
+  "text": "Noor also mentioned that the cost of the scanners was about nine hundred each, based on a previous quote.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "evidence",
+    "text": "Quote was about nine hundred each, I think, last time I looked."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G049"
+ },
+ {
+  "qid": "set_01013-q01",
+  "type": "lookup_final",
+  "text": "The discussion about restocking the Leeds service-parts depot began in meeting 1, where Yuki mentioned that the restocking had been on the list since May.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Okay, thanks. So, um, I think the main thing today is maybe Leeds. The restocking. It's been sitting on the list since, what, May?"
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G050"
+ },
+ {
+  "qid": "set_01013-q08",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 1, the team initially decided that Leeds would move to the twice-weekly Northway run starting from the 26th.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G051"
+ },
+ {
+  "qid": "set_01013-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Yuki stated that they had planned to revisit the decision once they had more than one week of data.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G052"
+ },
+ {
+  "qid": "set_01013-q08",
+  "type": "evidence_to_reconsider",
+  "text": "The team was prompted to reconsider their decision based on the new data.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": false,
+  "agent": true,
+  "gid": "G053"
+ },
+ {
+  "qid": "set_01013-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 1, Hana proposed that Leeds should move to a twice-weekly Northway run, starting on the 26th of June, with all items consolidated on one load.",
+  "cites": [
+   {
+    "speaker": "Hana",
+    "role": "evidence",
+    "text": "Them, yeah. What I'd want is Leeds on a consolidated van run, twice a week, from Northway, everything on the one load. It's 4,100 pounds a month. Could start the 26th of June."
+   }
+  ],
+  "nli_supported": true,
+  "agent": true,
+  "gid": "G054"
+ },
+ {
+  "qid": "set_01016-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 2, Ingrid challenged the decision, pointing out that the roadshows might not meet the target goals.",
+  "cites": [
+   {
+    "speaker": "Ingrid",
+    "role": "challenge",
+    "text": "That number doesn't care how many cities we went to. Fifty-eight soft yeses out of a hundred and forty, and Frankfurt costing more before we've signed anything. I don't see how that gets us to one point two. These roadshows could miss it."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G055"
+ },
+ {
+  "qid": "set_01013-q07",
+  "type": "who_proposed",
+  "text": "Yuki suggested that they should properly address how Leeds gets restocked rather than just monitoring the log.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "So I think maybe we need to properly open it back up, how Leeds gets restocked, rather than just, um, keep watching that log and hoping."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G056"
+ },
+ {
+  "qid": "set_01006-q05",
+  "type": "change_over_time",
+  "text": "Elif confirmed that legal had it and she would chase it in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Elif",
+    "role": "resolution",
+    "text": "Legal has it, I'll chase."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G057"
+ },
+ {
+  "qid": "set_01004-q07",
+  "type": "why_changed",
+  "text": "In meeting 4, Diego reopened the discussion on the trial policy after reviewing the signup drop and the enterprise prospects that fell out at the card step.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Okay. Trial policy again. Having looked at the signup drop and the enterprise prospects that fell out at the card step, I think we should reopen it."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G058"
+ },
+ {
+  "qid": "set_01016-q01",
+  "type": "lookup_final",
+  "text": "She acknowledged the concerns raised but reaffirmed the decision.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G059"
+ },
+ {
+  "qid": "set_01014-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, the team decided to switch Insights to a 30-day trial with a card required at signup due to data issues.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G060"
+ },
+ {
+  "qid": "set_01004-q02",
+  "type": "decisions_about",
+  "text": "In meeting 4, Omar proposed to look at the free-trial policy with real data.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "resolution",
+    "text": "Then we look at it. With real data."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G061"
+ },
+ {
+  "qid": "set_01000-q11",
+  "type": "distractor",
+  "text": "The decision was made in response to the issue of skipped Friday demos.",
+  "cites": [
+   {
+    "speaker": "Wei",
+    "role": "rationale",
+    "text": "Because Friday demos keep getting skipped. Half the team takes Friday off or leaves early. Last month we had like two real ones."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G062"
+ },
+ {
+  "qid": "set_01003-q09",
+  "type": "meetings_contributed",
+  "text": "Tariq decided to hold the order and reconsider the decision.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Hold the order, yes."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G063"
+ },
+ {
+  "qid": "set_01045-q03",
+  "type": "as_of",
+  "text": "The discussion about push notifications was not mentioned in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "resolution",
+    "text": "Okay, so we're renewing the push provider for the year at nine hundred a month."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G064"
+ },
+ {
+  "qid": "set_01016-q09",
+  "type": "meetings_contributed",
+  "text": "Zainab resolved in meeting 1 that next year's summit would run as the three regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G065"
+ },
+ {
+  "qid": "set_01014-q07",
+  "type": "why_changed",
+  "text": "In meeting 4, Meera mentioned that the EU failure rate remained at 19 percent in the second week, which put the trial question back on the table.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "reconsideration",
+    "text": "Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G066"
+ },
+ {
+  "qid": "set_01014-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Lena shared data showing that the card field was negatively impacting signups and that 19 percent of EU card attempts failed strong customer authentication.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G067"
+ },
+ {
+  "qid": "set_01002-q02",
+  "type": "decisions_about",
+  "text": "Initially, the team decided not to confirm the format until the booking was confirmed.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Not until the booking's confirmed."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G068"
+ },
+ {
+  "qid": "set_01030-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Kofi provided evidence in meeting 3 that only thirty-four out of sixty-two viewers had run a query in the last quarter, with twenty-eight never having done so.",
+  "cites": [
+   {
+    "speaker": "Kofi",
+    "role": "evidence",
+    "text": "Yeah, so, uh, from the access logs, I think maybe thirty-four people have run a query in the last quarter. Out of the sixty-two viewers, so, um, twenty-eight or so who never have."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G069"
+ },
+ {
+  "qid": "set_01014-q11",
+  "type": "full_lineage",
+  "text": "In meeting 4, Meera announced that Insights would revert to a 14-day free trial with no card required.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G070"
+ },
+ {
+  "qid": "set_01015-q07",
+  "type": "who_proposed",
+  "text": "The initial decision was made in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": null,
+    "text": "Thank you. Okay, fourth floor. Refit starts in, what, nine weeks, and we've still got nothing written down for the noise."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G071"
+ },
+ {
+  "qid": "set_01016-q01",
+  "type": "lookup_final",
+  "text": "No new information or arguments were presented in meeting 2 that would change the decision.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G072"
+ },
+ {
+  "qid": "set_01015-q07",
+  "type": "who_proposed",
+  "text": "This initial decision was in place from meeting 1 until meeting 3.",
+  "cites": [
+   {
+    "speaker": "Fatima",
+    "role": null,
+    "text": "I can do that."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G073"
+ },
+ {
+  "qid": "set_01006-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Aisha challenged the decision, pointing out that late shipments during promotions led to stockouts, which could cost sales and customer trust.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "challenge",
+    "text": "I think, um, this might actually be the problem I was nervous about? When a shipment is late for a promotion, customers show up and there's nothing on the shelf, and I think we lose the sale and maybe the customer. The cheaper rate won't cover that."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G074"
+ },
+ {
+  "qid": "set_01013-q09",
+  "type": "meetings_contributed",
+  "text": "No other meetings contributed to the final decision about restocking the Leeds service-parts depot.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "resolution",
+    "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G075"
+ },
+ {
+  "qid": "set_01015-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 1, Ravi decided that the fourth floor would get Tessaline felt panels.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+   },
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G076"
+ },
+ {
+  "qid": "set_01023-q10",
+  "type": "full_lineage",
+  "text": "Aisha explained that the standalone accounts payable automation tool, although more expensive, reduces typing and provides support.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "resolution",
+    "text": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G077"
+ },
+ {
+  "qid": "set_01003-q03",
+  "type": "as_of",
+  "text": "In meeting 2, Aisha reported that a mock-up of the flooring showed issues with the seams after being mopped.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "They came Thursday. So I did a mock-up of the pantry floor, laid planks with the seams as delivered, and had the cleaners mop it wet the way they do every night. After forty-eight hours the seams had lifted and the edges had warped. The surface was fine. Just the seams."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G078"
+ },
+ {
+  "qid": "set_01003-q06",
+  "type": "why_changed",
+  "text": "The initial decision was to proceed with the flooring but not to delay anything for it.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "They came Thursday. So I did a mock-up of the pantry floor, laid planks with the seams as delivered, and had the cleaners mop it wet the way they do every night. After forty-eight hours the seams had lifted and the edges had warped. The surface was fine. Just the seams."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G079"
+ },
+ {
+  "qid": "set_01013-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Yuki's statement in meeting 2 highlighted the need for further evaluation.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G080"
+ },
+ {
+  "qid": "set_01045-q05",
+  "type": "change_over_time",
+  "text": "The initial decision was made in meeting 1, where Pavel stated that he would send Sanne the yes today.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "I'll send Sanne the yes today."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G081"
+ },
+ {
+  "qid": "set_01006-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Elif mentioned that Swiftline Freight was adding drivers to improve their service.",
+  "cites": [
+   {
+    "speaker": "Elif",
+    "role": "evidence",
+    "text": "I called them. They said they're adding drivers."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G082"
+ },
+ {
+  "qid": "set_01002-q06",
+  "type": "why_changed",
+  "text": "The initial decision was changed due to the venue closure and budget constraints.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Okay, before anything else, I got an email from the Harborview yesterday. They're closing the ballroom for renovation through the end of the year. And I called around, and the next best venue wants a deposit that's eighteen thousand over what we budgeted."
+   },
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Over. On top of what finance already approved."
+   },
+   {
+    "speaker": "Greta",
+    "role": "reconsideration",
+    "text": "So, with the venue closing and the cost, we can't keep the summit plan as it was. I want to open it back up."
+   },
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G083"
+ },
+ {
+  "qid": "set_01012-q03",
+  "type": "as_of",
+  "text": "Noor mentioned the cost of the scanners during meeting 1, stating that the quote was about nine hundred each.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "evidence",
+    "text": "Quote was about nine hundred each, I think, last time I looked."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G084"
+ },
+ {
+  "qid": "set_01030-q06",
+  "type": "why_changed",
+  "text": "Kofi provided evidence that only thirty-four out of sixty-two viewers had run a query in the last quarter, indicating low usage.",
+  "cites": [
+   {
+    "speaker": "Kofi",
+    "role": "evidence",
+    "text": "Yeah, so, uh, from the access logs, I think maybe thirty-four people have run a query in the last quarter. Out of the sixty-two viewers, so, um, twenty-eight or so who never have."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G085"
+ },
+ {
+  "qid": "set_01016-q02",
+  "type": "decisions_about",
+  "text": "In meeting 1, Zainab confirmed that next year's summit will run as the three regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G086"
+ },
+ {
+  "qid": "set_01004-q10",
+  "type": "meetings_contributed",
+  "text": "Omar presented evidence that the abuse cost was small and that the enterprise deals lost were significant, and he proposed to look at the policy again with real data.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "evidence",
+    "text": "Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear."
+   },
+   {
+    "speaker": "Omar",
+    "role": "resolution",
+    "text": "Then we look at it. With real data."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G087"
+ },
+ {
+  "qid": "set_01016-q07",
+  "type": "who_proposed",
+  "text": "Sofia proposed during meeting 1 that next year's summit would consist of three one-day regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Sofia",
+    "role": "proposal",
+    "text": "So, okay, this has been rattling around since the debrief. What if there just isn't a central one next year, and instead it's three one-day regional roadshows, Manchester, Frankfurt and Austin? Three. Three. One day each, more or less the same content."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G088"
+ },
+ {
+  "qid": "set_01002-q03",
+  "type": "as_of",
+  "text": "As a result of these challenges, Greta decided to switch the format of the annual customer conference.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G089"
+ },
+ {
+  "qid": "set_01012-q07",
+  "type": "meetings_contributed",
+  "text": "Noor also mentioned that the cost of the scanners was about nine hundred each, based on a quote she had seen.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "evidence",
+    "text": "Quote was about nine hundred each, I think, last time I looked."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G090"
+ },
+ {
+  "qid": "set_01014-q09",
+  "type": "evidence_to_reconsider",
+  "text": "The team decided to revert Insights to the 14-day free trial with no card required based on the reconsideration of the evidence.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "reconsideration",
+    "text": "Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open."
+   },
+   {
+    "speaker": "Pavel",
+    "role": "evidence",
+    "text": "148 signups. 3.4 percent activated. Five accounts."
+   },
+   {
+    "speaker": "Pavel",
+    "role": "evidence",
+    "text": "Throwaways about 3 percent. Four accounts."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G091"
+ },
+ {
+  "qid": "set_01045-q09",
+  "type": "meetings_contributed",
+  "text": "Lena confirmed the decision to renew the push provider for the year at nine hundred a month in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "resolution",
+    "text": "Okay, so we're renewing the push provider for the year at nine hundred a month."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G092"
+ },
+ {
+  "qid": "set_01004-q02",
+  "type": "decisions_about",
+  "text": "The initial decision was a fourteen day free trial with no card required.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "I hear it. Let's go with the fourteen day free trial, no card, for launch."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G093"
+ },
+ {
+  "qid": "set_01004-q09",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 3, Diego suggested that they revisit the decision next week.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Then let's revisit next week."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G094"
+ },
+ {
+  "qid": "set_01014-q05",
+  "type": "change_over_time",
+  "text": "In meeting 3, Meera confirmed that nothing would change until the 28th, and the previous decisions would remain in place.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G095"
+ },
+ {
+  "qid": "set_01023-q08",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 2, Aisha pointed out that the bundled module they had chosen would no longer be supported after December, with no security patches available.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G096"
+ },
+ {
+  "qid": "set_01002-q10",
+  "type": "full_lineage",
+  "text": "Greta confirmed the decision to book the Harborview ballroom for the summit in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Late November. Okay, so, we're booking the Harborview ballroom for the summit."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G097"
+ },
+ {
+  "qid": "set_01014-q10",
+  "type": "meetings_contributed",
+  "text": "The decision to revert to a 14-day free trial with no card required was made in meeting 4.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G098"
+ },
+ {
+  "qid": "set_01023-q09",
+  "type": "meetings_contributed",
+  "text": "Camila also mentioned in meeting 1 that the average processing time is worse, with a long tail of stuff stuck over a month.",
+  "cites": [
+   {
+    "speaker": "Camila",
+    "role": "rationale",
+    "text": "Median. The average is worse, there's a long tail of stuff stuck over a month."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G099"
+ },
+ {
+  "qid": "set_01030-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Pavel asked Kofi to firm up the cost comparison between the current tool and Plotbench.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": null,
+    "text": "Kofi, last week you said the hours burned cost more than the licence would. Did you ever firm that up?"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G100"
+ },
+ {
+  "qid": "set_01014-q06",
+  "type": "why_changed",
+  "text": "The need to finalize the page by a specific deadline contributed to the decision to change the trial policy.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Then I rewrite the page copy today. Yuki, you still review it, and Ravi's team needs it by Monday at the latest because I'm out the 18th and 19th."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G101"
+ },
+ {
+  "qid": "set_01013-q03",
+  "type": "as_of",
+  "text": "The initial decision from meeting 1 was still in force at the start of meeting 2.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "resolution",
+    "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G102"
+ },
+ {
+  "qid": "set_01014-q10",
+  "type": "meetings_contributed",
+  "text": "Meeting 3 did not contribute to the final decision about the trial policy for the new Insights reporting tier.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   },
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G103"
+ },
+ {
+  "qid": "set_01015-q04",
+  "type": "as_of",
+  "text": "This decision was recorded as version 1 and was in effect until meeting 3.",
+  "cites": [
+   {
+    "speaker": "Fatima",
+    "role": null,
+    "text": "I can do that."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G104"
+ },
+ {
+  "qid": "set_01004-q01",
+  "type": "lookup_final",
+  "text": "Omar agreed with the fourteen day free trial with no card.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": null,
+    "text": "Yes!"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G105"
+ },
+ {
+  "qid": "set_01023-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, Aisha mentioned that she would inform Emeka about the decision and ask Marisol to start on the contract.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "resolution",
+    "text": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G106"
+ },
+ {
+  "qid": "set_01002-q08",
+  "type": "evidence_to_reconsider",
+  "text": "The team's decision was influenced by the financial constraints and the unavailability of the original venue.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Okay, before anything else, I got an email from the Harborview yesterday. They're closing the ballroom for renovation through the end of the year. And I called around, and the next best venue wants a deposit that's eighteen thousand over what we budgeted."
+   },
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Over. On top of what finance already approved."
+   },
+   {
+    "speaker": "Greta",
+    "role": "reconsideration",
+    "text": "So, with the venue closing and the cost, we can't keep the summit plan as it was. I want to open it back up."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G107"
+ },
+ {
+  "qid": "set_01019-q01",
+  "type": "lookup_final",
+  "text": "The decision was made in meeting 3, where Bashir outlined the new process for first-round interviews.",
+  "cites": [
+   {
+    "speaker": "Bashir",
+    "role": "resolution",
+    "text": "Right. Okay. The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone screen goes, and no take-home."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G108"
+ },
+ {
+  "qid": "set_01030-q08",
+  "type": "evidence_to_reconsider",
+  "text": "The evidence from Kofi about low usage and the benefits of the paid tool prompted the team to reconsider the decision.",
+  "cites": [
+   {
+    "speaker": "Kofi",
+    "role": "evidence",
+    "text": "Yeah, so, uh, from the access logs, I think maybe thirty-four people have run a query in the last quarter. Out of the sixty-two viewers, so, um, twenty-eight or so who never have."
+   },
+   {
+    "speaker": "Kofi",
+    "role": "evidence",
+    "text": "Um, kind of. So, I think maybe the thing is, the drag-and-drop builder in the paid one means finance and ops can just make their own charts. And when I went through the ticket list, that's about two and a half analyst-days a week that stop landing on us. It's hosted too, so nobody's babysitting a server. And, uh, Greta's worry was porting, so I ran the converter on twelve of the forty dashboards and the queries came across fine."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G109"
+ },
+ {
+  "qid": "set_01014-q09",
+  "type": "evidence_to_reconsider",
+  "text": "The combination of the 19 percent EU failure rate and the significant drop in signups led the team to reconsider the trial policy.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   },
+   {
+    "speaker": "Meera",
+    "role": "reconsideration",
+    "text": "Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G110"
+ },
+ {
+  "qid": "set_01015-q04",
+  "type": "as_of",
+  "text": "No changes to the decision about the acoustic treatment for the fourth-floor refit were made by the end of meeting 2.",
+  "cites": [
+   {
+    "speaker": "Fatima",
+    "role": null,
+    "text": "I can do that."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G111"
+ },
+ {
+  "qid": "set_01019-q03",
+  "type": "as_of",
+  "text": "In meeting 1, Bashir mentioned that the main topic was the first round for engineering hires.",
+  "cites": [
+   {
+    "speaker": "Bashir",
+    "role": null,
+    "text": "Thanks. So, um. The main thing today is the first round for engineering hires."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G112"
+ },
+ {
+  "qid": "set_01023-q05",
+  "type": "change_over_time",
+  "text": "Aisha planned to inform Emeka about the decision and asked Marisol to start on the contract.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "resolution",
+    "text": "The old one has no patches after December. The other one costs more but saves a lot of typing, and it has someone to call. So, the standalone accounts payable automation tool is what we're adopting. I'll tell Emeka today, and I'll ask Marisol to start on the contract."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G113"
+ },
+ {
+  "qid": "set_01012-q05",
+  "type": "change_over_time",
+  "text": "The initial decision about how stores will scan stock during deliveries was that they still use clipboards, and there was a mention of getting proper dedicated handheld scanners, but no change was recorded in the evidence.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G114"
+ },
+ {
+  "qid": "set_01015-q02",
+  "type": "decisions_about",
+  "text": "In meeting 1, Ravi decided that the fourth floor would get Tessaline felt panels and noted this in a note to finance.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+   },
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. The fourth floor gets the Tessaline felt panels, I'll put that in the note to finance today."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G115"
+ },
+ {
+  "qid": "set_01013-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 2, Yuki reconsidered the decision after observing that the situation had not improved over the following two weeks.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G116"
+ },
+ {
+  "qid": "set_01015-q05",
+  "type": "change_over_time",
+  "text": "The modified decision from meeting 3 is still in force.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "resolution",
+    "text": "Okay. Tessaline felt stays across the floor, and the 46 square metres of escape corridor get the mineral-wool-core panel at B-s1,d0."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G117"
+ },
+ {
+  "qid": "set_01013-q01",
+  "type": "lookup_final",
+  "text": "Yuki suggested that they should properly reopen the discussion on how Leeds gets restocked rather than just monitoring the logs.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "So I think maybe we need to properly open it back up, how Leeds gets restocked, rather than just, um, keep watching that log and hoping."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G118"
+ },
+ {
+  "qid": "set_01002-q05",
+  "type": "change_over_time",
+  "text": "The decision was further changed in meeting 3 to involve rep sign-ups.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Elif, rep sign-ups."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G119"
+ },
+ {
+  "qid": "set_01012-q01",
+  "type": "lookup_final",
+  "text": "In meeting 1, Greta agreed to the resolution, stating that it was fine and done.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G120"
+ },
+ {
+  "qid": "set_01014-q08",
+  "type": "who_proposed",
+  "text": "There is no explicit mention of who proposed the trial policy in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G121"
+ },
+ {
+  "qid": "set_01003-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Elif also mentioned that the warranty would not cover moisture damage on unsealed seams in wet areas, which added to the concern about the flooring choice.",
+  "cites": [
+   {
+    "speaker": "Elif",
+    "role": "challenge",
+    "text": "Can I say something? I think this is a real problem. The pantry and the entrance, that's where the spills and the wet shoes are, every single day. If seams are open there, I think the planks will lift, and from what I read the warranty won't cover moisture damage on unsealed seams in wet areas."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G122"
+ },
+ {
+  "qid": "set_01003-q03",
+  "type": "as_of",
+  "text": "The decision was changed in meeting 2 to hold the order.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Hold the order, yes."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G123"
+ },
+ {
+  "qid": "set_01004-q01",
+  "type": "lookup_final",
+  "text": "In meeting 4, Omar stated that the abuse cost is small but the loss of enterprise deals is significant.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "evidence",
+    "text": "Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G124"
+ },
+ {
+  "qid": "set_01000-q03",
+  "type": "as_of",
+  "text": "At the end of meeting 1, no decision had been made yet about the pricing model for the new analytics add-on.",
+  "cites": [
+   {
+    "speaker": "Henrik",
+    "role": "proposal",
+    "text": "So I think we charge per seat for the analytics add-on. Twelve dollars a seat, per month."
+   },
+   {
+    "speaker": "Henrik",
+    "role": "rationale",
+    "text": "Because it's, like, predictable. A buyer can do the math in their head, ten people, a hundred twenty dollars, done. And it grows with how many people are actually looking at the dashboards. The usage-based thing we tried in the beta confused everybody, remember? Nobody could forecast the bill."
+   },
+   {
+    "speaker": "Henrik",
+    "role": "rationale",
+    "text": "Exactly."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G125"
+ },
+ {
+  "qid": "set_01000-q08",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 3, Sven mentioned that he had asked the success manager about the pilot accounts the previous day.",
+  "cites": [
+   {
+    "speaker": "Sven",
+    "role": "evidence",
+    "text": "I asked the success manager yesterday."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G126"
+ },
+ {
+  "qid": "set_01015-q06",
+  "type": "why_changed",
+  "text": "Dmitri provided the measurement of the escape corridor as 46 square metres.",
+  "cites": [
+   {
+    "speaker": "Dmitri",
+    "role": "evidence",
+    "text": "46. I measured it off the refit drawings, twice, 46 square metres of escape corridor."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G127"
+ },
+ {
+  "qid": "set_01012-q04",
+  "type": "as_of",
+  "text": "In meeting 1, Noor mentioned that the quote for scanners was about nine hundred each.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "evidence",
+    "text": "Quote was about nine hundred each, I think, last time I looked."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G128"
+ },
+ {
+  "qid": "set_01013-q10",
+  "type": "full_lineage",
+  "text": "Hana noted that about 60 percent of the lines at Leeds are slow movers, which do not require a van most days.",
+  "cites": [
+   {
+    "speaker": "Hana",
+    "role": "evidence",
+    "text": "About 60 percent of the lines there are slow movers. They just don't need a van most days."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G129"
+ },
+ {
+  "qid": "set_01023-q03",
+  "type": "as_of",
+  "text": "In meeting 2, Aisha presented evidence that the bundled module they had previously chosen would no longer be supported after December, with no security patches available.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G130"
+ },
+ {
+  "qid": "set_01003-q09",
+  "type": "meetings_contributed",
+  "text": "Tariq agreed to the proposal but emphasized not to delay anything for it.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Fine, but don't delay anything for it."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G131"
+ },
+ {
+  "qid": "set_01030-q10",
+  "type": "full_lineage",
+  "text": "In meeting 1, Greta proposed standardising on Plotbench, citing its cost-effectiveness and the high cost of the paid option, Lumenboard.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "proposal",
+    "text": "Right, and that's, that's sort of the point. Okay so, can I just say, I'd say we go with Plotbench. The free one, the self-hosted one."
+   },
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "That's the one. So the thing is, it costs us nothing to license, and the paid option was, what was it, about thirteen four a year for the sixty-two viewers we have."
+   },
+   {
+    "speaker": "Pavel",
+    "role": "evidence",
+    "text": "Thirteen thousand four hundred, yeah, that's what the quote said. That was Lumenboard, with the viewer seats."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G132"
+ },
+ {
+  "qid": "set_01014-q03",
+  "type": "as_of",
+  "text": "As of the end of meeting 1, no decision had been made about the trial policy for the new Insights reporting tier.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Fine. Note to their account manager by noon tomorrow, please."
+   },
+   {
+    "speaker": "Lena",
+    "role": null,
+    "text": "Yes, good, Insights."
+   },
+   {
+    "speaker": "Meera",
+    "role": null,
+    "text": "We launch September 9th, that's 33 days, and the pricing page has a gap where the trial line goes. Marketing asked me again yesterday."
+   },
+   {
+    "speaker": "Lena",
+    "role": null,
+    "text": "There's a whole bigger thing here, right, about how people first meet this tier, and whether it feels like-"
+   },
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G133"
+ },
+ {
+  "qid": "set_01045-q05",
+  "type": "change_over_time",
+  "text": "The updated decision was made in meeting 2, where Sana stated that the timeout should be set to two seconds.",
+  "cites": [
+   {
+    "speaker": "Sana",
+    "role": "resolution",
+    "text": "Two seconds. I told you."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G134"
+ },
+ {
+  "qid": "set_01002-q05",
+  "type": "change_over_time",
+  "text": "Noor suggested that around three thousand for thirty would be needed for the reception.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "resolution",
+    "text": "Around three thousand for thirty."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G135"
+ },
+ {
+  "qid": "set_01014-q09",
+  "type": "evidence_to_reconsider",
+  "text": "Lena emphasized that the card field was killing the pipeline, reducing signups from 412 to under 150 in a week.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G136"
+ },
+ {
+  "qid": "set_01002-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Greta resolved that sign-ups for the reception should be made.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Sign up for it. Lakshmi, the reception, we need a guest list."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G137"
+ },
+ {
+  "qid": "set_01013-q07",
+  "type": "who_proposed",
+  "text": "No other person explicitly proposed the original decision about how the Leeds service-parts depot gets restocked.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Okay, thanks. So, um, I think the main thing today is maybe Leeds. The restocking. It's been sitting on the list since, what, May?"
+   },
+   {
+    "speaker": "Arjun",
+    "role": null,
+    "text": "Since the, uh, the regional review, yeah, because that's when somebody finally pulled the freight line out and went, hang on, why is it that big."
+   },
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   },
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "So I think maybe we need to properly open it back up, how Leeds gets restocked, rather than just, um, keep watching that log and hoping."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G138"
+ },
+ {
+  "qid": "set_01030-q10",
+  "type": "full_lineage",
+  "text": "Pavel resolved to proceed with the standardisation on Plotbench, instructing Aisha to initiate procurement and request a fresh quote.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "Right. Aisha, can you get procurement started on the paperwork today? Ask for a fresh quote with the same sixty-two seats, and copy me."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G139"
+ },
+ {
+  "qid": "set_01004-q01",
+  "type": "lookup_final",
+  "text": "Diego supported Omar's suggestion of a fourteen day free trial with no card for launch.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": null,
+    "text": "I hear it. Let's go with the fourteen day free trial, no card, for launch."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G140"
+ },
+ {
+  "qid": "set_01003-q01",
+  "type": "lookup_final",
+  "text": "In meeting 1, Mateo suggested using luxury vinyl plank from Norvik Supply.",
+  "cites": [
+   {
+    "speaker": "Mateo",
+    "role": null,
+    "text": "I, um, I've been looking at it. I think we go with luxury vinyl plank, from Norvik Supply."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G141"
+ },
+ {
+  "qid": "set_01045-q07",
+  "type": "who_proposed",
+  "text": "None of the evidence directly addresses the original decision about how the app's push notifications are sent.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "proposal",
+    "text": "Just renew it. A year, nine hundred a month, done."
+   },
+   {
+    "speaker": "Sana",
+    "role": null,
+    "text": "From who?"
+   },
+   {
+    "speaker": "Sana",
+    "role": null,
+    "text": "Does the app already do that?"
+   },
+   {
+    "speaker": "Pavel",
+    "role": null,
+    "text": "What kind?"
+   },
+   {
+    "speaker": "Camila",
+    "role": null,
+    "text": "That's actually relevant. If we change how it's sent, the opt-in path doesn't change, right?"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G142"
+ },
+ {
+  "qid": "set_01002-q08",
+  "type": "evidence_to_reconsider",
+  "text": "This decision marked a change from the initial plan of not proceeding until the booking was confirmed.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "reconsideration",
+    "text": "So, with the venue closing and the cost, we can't keep the summit plan as it was. I want to open it back up."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G143"
+ },
+ {
+  "qid": "set_01002-q06",
+  "type": "why_changed",
+  "text": "Greta decided to switch to a virtual product showcase plus a small invite-only reception.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G144"
+ },
+ {
+  "qid": "set_01045-q07",
+  "type": "who_proposed",
+  "text": "Sana asked 'From who?' in meeting 2, but this is unrelated to push notifications.",
+  "cites": [
+   {
+    "speaker": "Sana",
+    "role": null,
+    "text": "From who?"
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G145"
+ },
+ {
+  "qid": "set_01002-q02",
+  "type": "decisions_about",
+  "text": "In meeting 3, Greta mentioned that sign-ups were needed for the reception.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Sign up for it. Lakshmi, the reception, we need a guest list."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G146"
+ },
+ {
+  "qid": "set_01002-q08",
+  "type": "evidence_to_reconsider",
+  "text": "The new format was chosen as a response to the challenges presented by the venue closure and increased costs.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "reconsideration",
+    "text": "So, with the venue closing and the cost, we can't keep the summit plan as it was. I want to open it back up."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G147"
+ },
+ {
+  "qid": "set_01000-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 1, Henrik proposed charging per seat for the analytics add-on at twelve dollars a seat, per month.",
+  "cites": [
+   {
+    "speaker": "Henrik",
+    "role": "proposal",
+    "text": "So I think we charge per seat for the analytics add-on. Twelve dollars a seat, per month."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G148"
+ },
+ {
+  "qid": "set_01015-q10",
+  "type": "full_lineage",
+  "text": "In meeting 3, Ravi confirmed that Tessaline had answered the corridor rating question and wanted the order to be reconsidered.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "reconsideration",
+    "text": "Fine, I'll warn the cleaners. Right. The panel order. Tessaline have answered on the corridor rating, so I want that back open, properly, before my name goes on anything."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G149"
+ },
+ {
+  "qid": "set_01012-q08",
+  "type": "full_lineage",
+  "text": "The decision to use proper dedicated handheld scanners was proposed in meeting 1 but was not finalized due to the increased cost and lead time mentioned in meeting 2.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "proposal",
+    "text": "Yes. So, the thing with receiving stock is, it's all clipboards still, right? Which is, it's honestly wild, my cousin works at a store in, anyway, I think we get proper dedicated handheld scanners, three for each store."
+   },
+   {
+    "speaker": "Greta",
+    "role": "evidence",
+    "text": "Got it. It's now eleven hundred fifty per unit, and the lead time is ten weeks. For thirty-six that's forty-one thousand four hundred, and they won't arrive until after the holiday peak."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G150"
+ },
+ {
+  "qid": "set_01016-q01",
+  "type": "lookup_final",
+  "text": "Therefore, the final decision remained the same as initially proposed.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   },
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G151"
+ },
+ {
+  "qid": "set_01004-q04",
+  "type": "as_of",
+  "text": "As of the end of meeting 4, the decision was to look at the trial policy again with real data.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": "resolution",
+    "text": "Then we look at it. With real data."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G152"
+ },
+ {
+  "qid": "set_01016-q10",
+  "type": "full_lineage",
+  "text": "Sofia provided evidence that last year's summit had a low attendance rate due to the high cost of travel for customers.",
+  "cites": [
+   {
+    "speaker": "Sofia",
+    "role": "evidence",
+    "text": "Because look at last year. We put 180,000 dollars into customer travel subsidies and only 34 percent of target accounts actually turned up. Whereas with those three cities most of them are a short trip away, a train or a quick hop, not a whole week gone out of the office."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G153"
+ },
+ {
+  "qid": "set_01014-q03",
+  "type": "as_of",
+  "text": "The discussion in meeting 1 did not resolve the trial policy for the new Insights reporting tier.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Fine. Note to their account manager by noon tomorrow, please."
+   },
+   {
+    "speaker": "Lena",
+    "role": null,
+    "text": "Yes, good, Insights."
+   },
+   {
+    "speaker": "Meera",
+    "role": null,
+    "text": "We launch September 9th, that's 33 days, and the pricing page has a gap where the trial line goes. Marketing asked me again yesterday."
+   },
+   {
+    "speaker": "Lena",
+    "role": null,
+    "text": "There's a whole bigger thing here, right, about how people first meet this tier, and whether it feels like-"
+   },
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Sorry, sorry, is it even settled that there's a trial? Because I've seen it in the draft copy and I never-"
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G154"
+ },
+ {
+  "qid": "set_01014-q11",
+  "type": "full_lineage",
+  "text": "In meeting 3, Lena provided data showing that the card field was negatively impacting the pipeline, leading to a discussion about the trial policy.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Um, can I jump in on that general area? Because marketing sent me something this morning while I was fixing up the launch email. Is this about the launch email? Sort of. It's more about how the whole thing's landing, the mood out there, I've actually written it down because I knew I'd get it wrong. So, signups fell 64 percent in the week after the change, and 19 percent of EU card attempts failed strong customer authentication at the payment processor. Say the second one again. 19 percent of the EU attempts. Failed that, the authentication step. The 64, that's off the preview? Same waitlist page? I believe so, yes, it's the same, the same sort of place. So against the 412, that would be, what, about 148 for the week. Right, but that's- okay, hang on, that's the whole point of it, isn't it? We wanted fewer of those. Fewer. Not that many fewer. 31 percent were junk, you can't be surprised when- 31 isn't 64, Yuki. I know it isn't, but Tomas's sheet said a third, you said it yourself, down to a third, and that's more or less exactly what this is. That was a hypothetical, and I also said it was annoying. He did. Lena, is the 19 percent of all attempts or only EU? EU, just EU. How big a chunk that is overall, I don't have that, it's more of a, it was a headline number. Okay. How many attempts is it? Is it nineteen out of a hundred or four out of twenty? I can ask. I can pull it. Processor dashboard. Is that even us, though, or is it the banks, because that step's been flaky for everyone, I read a thing- Don't know yet. Could be our integration. Because if it's ours, that's just a bug, that's not a, you know, that's a ticket. Could be. Could be not. What about activation? 2.1 percent, nine accounts, that was the number that moved us last week. What's it now? Haven't got it. At all? Week's barely closed. Friday, maybe. See, that's what I want to see, because if that 148 turns out to have the same nine in it- Can I do my job for a minute? Because you've all gone a bit calm about this. That card field is killing the pipeline, plain and simple, it's gone from 412 to under 150 in a week, and the enterprise buyers we actually want can't put a corporate card into a trial form, so it's not throwaways we're losing, it's them. You don't know that. I know they're not allowed to. Procurement doesn't hand out the company card so somebody can look at a dashboard. Some of them have- Some. And the ones in the EU who did get the card out, one in five bounced off that check. 19 percent, so a bit under one in five. A bit under one in five. Who wanted in, typed it all in, and got told no. Numbers first. Sure, but you notice who's actually shown up in the ones we've got? Nobody knows, because nobody's looked. It does feel like it's sort of, I don't know, a different kind of front door now. For the bigger picture, I mean. A front door without 128 throwaway addresses in it. Well, yes. Meera, you were out for half the week it happened, did Dmitri say anything? Dmitri asked if the 1.80 had moved. That's all I've had from him. Hasn't. Sorry, can I ask something totally different while I remember, are they really moving us off the third floor? Because Sanjay said the badges are- Oh, the badge thing. Mine stopped working on Tuesday. Is this about the move? Sanjay said new readers go in next week and they're moving us down next to the printers, which, I've sat near those printers, it's like- It's fine. You work from home, Pavel. Yes. I got let into the building by a man delivering sandwiches. That's the security we told the SOC 2 people about. There was a nice bit in the facilities email about natural light. I thought that was promising. Natural light from what? It's a corridor. I don't know anything about it, and Dana would be the one to ask, though she's got enough on. Add it to her list, under my seven a.m. I just want to know before I bring my plant in. Okay. Back on this, because I'd like to leave here knowing what we don't know. Yes, good, I'd like that too. It's the 21st, launch is the 9th, so that's 19 days. We've got one week of data on one page. The 8th, isn't it? I had the 8th in the email. The 9th. Fix that one, please. Fixing it now. Well, in a minute. And that's one week of data is what you said to me when I defended the last one, by the way, and Yuki told me a week was plenty. I said they were throwaway addresses, I didn't say- You went through the list that morning, I remember. All right, both of you, it cuts both ways, I'm aware. The sandbox thing's worth keeping in mind too, 18 percent for three weeks. Six. Three. Has anyone seen tickets on that failed check, people writing in? I haven't looked, I can look. There's a tag for payment errors, I think, or I can just search for- Do that, please, by Monday. Count them, don't describe them. Yep. And somebody asks sales, that's where I'd go. Whether anyone's actually had a buyer say that. You've just volunteered. Two or three real accounts, names, what they said, by Tuesday. I walked into that. Yes. Pavel, I want activation on the 148, the domain split so we can see the throwaways, and the attempt count behind that 19 percent, EU share included. Friday for most. Failures maybe Monday. Monday's fine. Lena, can you send me what marketing sent you, the actual thing, not the summary? Yes, I'll forward it. It's a slide, I think, there's a nice chart. Send the base number. I'll see if there's a base number. I'm not going to settle this today, not on two figures I haven't seen the working for. It comes back next Thursday, the 28th, with all of that on the table. And until then? Until then nothing changes. What went to Ravi and to Priya stays as it is, and we look at it on the 28th. So the card stays on the page for now, fine. Noted, still under protest, for the record. It's in the notes, Jonas. I'll finish the launch email on what we've got, then, and if it needs another pass, it needs another pass. Short. Short-ish. Thanks. Last thing, the Thursday slot's been eaten by the calendar twice now, so check it's really on yours for the 28th. Mine's got it on a Wednesday. Mine's got it in Lisbon. Okay, thanks everybody."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G155"
+ },
+ {
+  "qid": "set_01000-q10",
+  "type": "full_lineage",
+  "text": "Diego concluded the meeting by confirming that per-seat pricing at twelve dollars would be used for the analytics add-on's launch.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "Okay, so, we're keeping per-seat pricing at twelve for launch."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G156"
+ },
+ {
+  "qid": "set_01003-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Tariq agreed to keep the Norvik vinyl plank but with heat-sealed seams and a ceramic tile band in specific areas.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Okay. I'm fine with that. So, we're keeping the Norvik vinyl plank, with heat-sealed seams and a ceramic tile band across the pantry and the entrance."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G157"
+ },
+ {
+  "qid": "set_01013-q07",
+  "type": "who_proposed",
+  "text": "Yuki revisited the topic in meeting 2 on 2025-07-08, noting that the situation had not improved.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G158"
+ },
+ {
+  "qid": "set_01002-q10",
+  "type": "full_lineage",
+  "text": "Greta finalized the decision to proceed with a format based on rep sign-ups in meeting 3.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Elif, rep sign-ups."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G159"
+ },
+ {
+  "qid": "set_01014-q09",
+  "type": "evidence_to_reconsider",
+  "text": "Pavel provided data in meeting 4 that there were 148 signups with only 3.4 percent activated, highlighting the low activation rate.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "evidence",
+    "text": "148 signups. 3.4 percent activated. Five accounts."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G160"
+ },
+ {
+  "qid": "set_01003-q08",
+  "type": "evidence_to_reconsider",
+  "text": "Tariq suggested in meeting 2 that the team should reconsider the decision and come back to discuss it further the following week.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "reconsideration",
+    "text": "Right. I don't want to decide this in the meeting. Let's all think about it and come back next week."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G161"
+ },
+ {
+  "qid": "set_01002-q09",
+  "type": "meetings_contributed",
+  "text": "In meeting 3, Noor proposed a virtual platform for the conference at a cost of four dollars per attendee.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "proposal",
+    "text": "I looked at three. The one I like is four dollars an attendee and handles registration and reminders automatically."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G162"
+ },
+ {
+  "qid": "set_01016-q10",
+  "type": "full_lineage",
+  "text": "Zainab resolved that next year's summit would be held as the three regional roadshows in Manchester, Frankfurt, and Austin.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "resolution",
+    "text": "Right. That's it, then. Next year's summit runs as the three regional roadshows, Manchester, Frankfurt, Austin. Yes. Okay. Great."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G163"
+ },
+ {
+  "qid": "set_01003-q05",
+  "type": "change_over_time",
+  "text": "In meeting 1, Tariq stated that the flooring was fine but emphasized not to delay anything for it.",
+  "cites": [
+   {
+    "speaker": "Tariq",
+    "role": "resolution",
+    "text": "Fine, but don't delay anything for it."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G164"
+ },
+ {
+  "qid": "set_01014-q10",
+  "type": "meetings_contributed",
+  "text": "Meeting 1 did not contribute to the final decision about the trial policy for the new Insights reporting tier.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "resolution",
+    "text": "Okay. Okay, just checking, because that copy reads like it is."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G165"
+ },
+ {
+  "qid": "set_01023-q01",
+  "type": "lookup_final",
+  "text": "In meeting 1, Camila provided data showing that the average processing time is worse, with a long tail of stuff stuck over a month.",
+  "cites": [
+   {
+    "speaker": "Camila",
+    "role": "rationale",
+    "text": "Median. The average is worse, there's a long tail of stuff stuck over a month."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G166"
+ },
+ {
+  "qid": "set_01004-q09",
+  "type": "evidence_to_reconsider",
+  "text": "Based on the evidence from meetings 3 and 4, the team decided to reconsider the free-trial policy.",
+  "cites": [
+   {
+    "speaker": "Nadia",
+    "role": "evidence",
+    "text": "Yes, so, I think it's a, um, big difference. Signups fell sixty-two percent. And sales told me four enterprise prospects dropped out at the card step, which together are worth about ninety thousand a year."
+   },
+   {
+    "speaker": "Omar",
+    "role": "challenge",
+    "text": "This is what I said. This is, I mean, the card wall blocks exactly the serious teams. Big companies can't just type a card, they need approvals, procurement, a purchase order, somebody's boss. So the volume we lost is the good volume."
+   },
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Okay. Trial policy again. Having looked at the signup drop and the enterprise prospects that fell out at the card step, I think we should reopen it."
+   },
+   {
+    "speaker": "Omar",
+    "role": "evidence",
+    "text": "Yes. Look, the abuse cost is real but it's small. Eleven hundred a month in compute. Those four stalled enterprise deals alone are ninety thousand a year. And email verification went live this week, so a lot of the fakes should just disappear."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G167"
+ },
+ {
+  "qid": "set_01013-q01",
+  "type": "lookup_final",
+  "text": "Yuki concluded the meeting by stating that Leeds would move to the twice-weekly Northway run starting on the 26th.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "resolution",
+    "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G168"
+ },
+ {
+  "qid": "set_01015-q04",
+  "type": "as_of",
+  "text": "Dmitri discussed the Tessaline felt panels, stating that they reach the 0.85 target at 62 pounds a square metre and are about 20 percent under the timber slat quote.",
+  "cites": [
+   {
+    "speaker": "Dmitri",
+    "role": "evidence",
+    "text": "Different supplier, I think. Look, it does the job, right, it reaches the 0.85 target at 62 pounds a square metre, which is about 20 percent under that timber slat quote, and it counts toward the landlord's recycled-content clause."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G169"
+ },
+ {
+  "qid": "set_01004-q04",
+  "type": "as_of",
+  "text": "In meeting 1, Diego proposed a fourteen-day free trial with no card required for launch.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": null,
+    "text": "I hear it. Let's go with the fourteen day free trial, no card, for launch."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G170"
+ },
+ {
+  "qid": "set_01045-q10",
+  "type": "full_lineage",
+  "text": "In meeting 2, Lena provided evidence that the push provider was switching to a pay-per-use model, which would cost twenty-seven hundred a month.",
+  "cites": [
+   {
+    "speaker": "Lena",
+    "role": "evidence",
+    "text": "Right, it did. This is after that. They're switching everybody over to pay-per-use from next month, and I put our volume into their little calculator and it says something like twenty-seven hundred a month."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G171"
+ },
+ {
+  "qid": "set_01023-q10",
+  "type": "full_lineage",
+  "text": "Camila mentioned that the average processing time for the current system is worse, with a long tail of delays.",
+  "cites": [
+   {
+    "speaker": "Camila",
+    "role": "rationale",
+    "text": "Median. The average is worse, there's a long tail of stuff stuck over a month."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G172"
+ },
+ {
+  "qid": "set_01003-q06",
+  "type": "why_changed",
+  "text": "Elif also mentioned that the warranty would not cover moisture damage on unsealed seams in wet areas.",
+  "cites": [
+   {
+    "speaker": "Elif",
+    "role": "challenge",
+    "text": "Can I say something? I think this is a real problem. The pantry and the entrance, that's where the spills and the wet shoes are, every single day. If seams are open there, I think the planks will lift, and from what I read the warranty won't cover moisture damage on unsealed seams in wet areas."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G173"
+ },
+ {
+  "qid": "set_01014-q10",
+  "type": "meetings_contributed",
+  "text": "The final decision about the trial policy for the new Insights reporting tier was influenced by the data presented in meeting 4.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "reconsideration",
+    "text": "Dmitri came back to me yesterday. Finance went through the processor statement, and the EU failure rate hasn't moved, it's 19 percent again in the second week. So that puts the trial question back on the table today, properly, it's open."
+   },
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G174"
+ },
+ {
+  "qid": "set_01013-q10",
+  "type": "full_lineage",
+  "text": "The decision was made during the first meeting and was not changed in the second meeting.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": "resolution",
+    "text": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land."
+   },
+   {
+    "speaker": "Yuki",
+    "role": "reconsideration",
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G175"
+ },
+ {
+  "qid": "set_01030-q05",
+  "type": "change_over_time",
+  "text": "In meeting 1, Pavel decided to standardise on Plotbench and assigned Marco to own the setup.",
+  "cites": [
+   {
+    "speaker": "Pavel",
+    "role": "resolution",
+    "text": "Fine. Then that's it, we're standardising on Plotbench. Marco, you'll own the setup, and I'll tell finance we're not renewing the other one."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G176"
+ },
+ {
+  "qid": "set_01000-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, Sven provided evidence that the pilot had five accounts, three of which had teams over forty people, and at twelve dollars a seat, the monthly bill would be over four hundred eighty dollars for a typical bill.",
+  "cites": [
+   {
+    "speaker": "Sven",
+    "role": "evidence",
+    "text": "I did. So, um, the pilot has five accounts, and three of them have teams over forty people. At twelve a seat that's over four hundred eighty a month for a typical bill, and two of those accounts told our success manager it felt steep."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G177"
+ },
+ {
+  "qid": "set_01004-q07",
+  "type": "why_changed",
+  "text": "In meeting 3, Nadia pointed out that signups fell sixty-two percent and four enterprise prospects dropped out at the card step, which together are worth about ninety thousand a year.",
+  "cites": [
+   {
+    "speaker": "Nadia",
+    "role": "evidence",
+    "text": "Yes, so, I think it's a, um, big difference. Signups fell sixty-two percent. And sales told me four enterprise prospects dropped out at the card step, which together are worth about ninety thousand a year."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G178"
+ },
+ {
+  "qid": "set_01014-q05",
+  "type": "change_over_time",
+  "text": "The decision was made by Meera during meeting 4, and it was the final decision.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G179"
+ },
+ {
+  "qid": "set_01000-q06",
+  "type": "why_changed",
+  "text": "Henrik also mentioned that he had consulted with the success manager about the pricing concerns.",
+  "cites": [
+   {
+    "speaker": "Sven",
+    "role": "evidence",
+    "text": "I asked the success manager yesterday."
+   }
+  ],
+  "nli_supported": false,
+  "agent": false,
+  "gid": "G180"
+ },
+ {
+  "qid": "set_01023-q01",
+  "type": "lookup_final",
+  "text": "In meeting 2, Aisha presented evidence that the bundled module they had chosen would no longer be supported after December, with no security patches.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "The module we picked, the bundled one, they stop supporting it at the end of this year. After December there are no security patches for it, none."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G181"
+ },
+ {
+  "qid": "set_01004-q08",
+  "type": "who_proposed",
+  "text": "Omar proposed the initial free-trial policy during meeting 1, suggesting a fourteen day free trial with no credit card needed.",
+  "cites": [
+   {
+    "speaker": "Omar",
+    "role": null,
+    "text": "Okay so, trial length for the launch, I've been thinking about this all weekend, and honestly I also finally watched that documentary about, never mind. I think we do a fourteen day free trial, no credit card needed."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G182"
+ },
+ {
+  "qid": "set_01004-q10",
+  "type": "meetings_contributed",
+  "text": "In meeting 4, Diego proposed reopening the trial policy after reviewing the data on the signup drop and enterprise prospects that fell out at the card step.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Okay. Trial policy again. Having looked at the signup drop and the enterprise prospects that fell out at the card step, I think we should reopen it."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G183"
+ },
+ {
+  "qid": "set_01000-q01",
+  "type": "lookup_final",
+  "text": "In meeting 3, Henrik explained that the three big accounts were on enterprise contracts, so their price was negotiated, and the two accounts that found the price steep were free trial accounts.",
+  "cites": [
+   {
+    "speaker": "Henrik",
+    "role": "evidence",
+    "text": "Three things. The three big accounts, they're on enterprise contracts, so their price gets negotiated anyway, nobody pays list. The two that said steep are free trial accounts, so they were never paying. And I checked the competitors, they all do per-seat at fifteen to twenty. Twelve leaves room."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G184"
+ },
+ {
+  "qid": "set_01004-q05",
+  "type": "change_over_time",
+  "text": "In meeting 2, Diego changed the decision to a seven day trial with credit card required up front.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "resolution",
+    "text": "Okay. I'm going to decide. We switch to a seven day trial, credit card required up front."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G185"
+ },
+ {
+  "qid": "set_01014-q05",
+  "type": "change_over_time",
+  "text": "In meeting 2, Meera stated that due to time constraints and data issues, the trial policy was changed to a 30-day trial with a card required at signup.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G186"
+ },
+ {
+  "qid": "set_01016-q06",
+  "type": "why_changed",
+  "text": "Sofia explained that this decision was based on last year's low attendance despite high travel subsidies.",
+  "cites": [
+   {
+    "speaker": "Sofia",
+    "role": "evidence",
+    "text": "Because look at last year. We put 180,000 dollars into customer travel subsidies and only 34 percent of target accounts actually turned up. Whereas with those three cities most of them are a short trip away, a train or a quick hop, not a whole week gone out of the office."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G187"
+ },
+ {
+  "qid": "set_01014-q07",
+  "type": "why_changed",
+  "text": "Meera resolved that the trial policy would revert to a 14-day free trial with no card required.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Right. 19 percent failing that we can't touch before January, 30 cents an account, twelve days. Insights goes back to the 14-day free trial with no card required."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G188"
+ },
+ {
+  "qid": "set_01013-q04",
+  "type": "as_of",
+  "text": "In meeting 2, Yuki mentioned that the situation at Leeds had not improved and that they needed to properly re-evaluate how Leeds gets restocked.",
+  "cites": [
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other."
+   },
+   {
+    "speaker": "Yuki",
+    "role": null,
+    "text": "So I think maybe we need to properly open it back up, how Leeds gets restocked, rather than just, um, keep watching that log and hoping."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G189"
+ },
+ {
+  "qid": "set_01002-q10",
+  "type": "full_lineage",
+  "text": "Greta proposed reconsidering the summit plan due to the venue and cost issues in meeting 2.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "reconsideration",
+    "text": "So, with the venue closing and the cost, we can't keep the summit plan as it was. I want to open it back up."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G190"
+ },
+ {
+  "qid": "set_01030-q06",
+  "type": "why_changed",
+  "text": "In meeting 2, Aisha challenged the decision by pointing out that finance cannot make their own charts and that there were a high number of change requests.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": "challenge",
+    "text": "Yeah. Finance can't make their own charts. Not at all. I went through the last three weeks of tickets."
+   },
+   {
+    "speaker": "Aisha",
+    "role": "evidence",
+    "text": "Can't. Fifty-eight change requests landed on us in those three weeks. A normal three weeks is eleven. And just keeping things running is eating two days a week now."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G191"
+ },
+ {
+  "qid": "set_01012-q08",
+  "type": "full_lineage",
+  "text": "Greta agreed to the proposal and stated that the decision was made in meeting 1.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Fine. Done."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G192"
+ },
+ {
+  "qid": "set_01016-q09",
+  "type": "meetings_contributed",
+  "text": "Zainab reiterated her stance in meeting 2, acknowledging Ingrid's concerns but maintaining the decision to proceed with the three roadshows.",
+  "cites": [
+   {
+    "speaker": "Zainab",
+    "role": "reconsideration",
+    "text": "Nothing's changed today. It's still the three roadshows until somebody shows me otherwise. But I've heard you, Ingrid."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G193"
+ },
+ {
+  "qid": "set_01000-q10",
+  "type": "full_lineage",
+  "text": "During meeting 3, Diego acknowledged the need to reconsider the pricing model based on Sven's pilot data and Ingrid's input on big teams.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "reconsideration",
+    "text": "Okay, pricing first today, like we said. So, where we are is per-seat at twelve was the plan, and then Sven showed us the pilot team sizes and Ingrid made a case about big teams. I think that deserves a proper second look before we lock it."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G194"
+ },
+ {
+  "qid": "set_01019-q01",
+  "type": "lookup_final",
+  "text": "In meeting 1, Priya suggested replacing the phone screen with a short exercise that candidates complete on their own time.",
+  "cites": [
+   {
+    "speaker": "Priya",
+    "role": null,
+    "text": "So, right now every engineering candidate gets a phone screen first, twenty or thirty minutes with one of us. What if we dropped that and just sent them a short exercise instead? Thirty minutes, they do it on their own time, we review what comes back."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G195"
+ },
+ {
+  "qid": "set_01019-q03",
+  "type": "as_of",
+  "text": "In meeting 3, Aisha asked if they could do the interview thing first, indicating a shift in focus.",
+  "cites": [
+   {
+    "speaker": "Aisha",
+    "role": null,
+    "text": "Can we do the interview thing first? I've got a hard stop at half past."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G196"
+ },
+ {
+  "qid": "set_01019-q07",
+  "type": "meetings_contributed",
+  "text": "In meeting 2, Diego proposed a structured video interview that lasts forty-five minutes with two people scoring on the same rubric.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "proposal",
+    "text": "Can I - okay, so if the take-home loses that many people, what if we keep it a conversation, but make it, I don't know, properly structured? Forty-five minutes, on video, two of us on the call, same questions every time. Two of us? On every screen? Yeah, both scoring at the same time against one rubric. Like a shared sheet, each person fills in their own column."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G197"
+ },
+ {
+  "qid": "set_01014-q05",
+  "type": "change_over_time",
+  "text": "Meera also mentioned that Priya needed to see the terms by the 22nd, and there was a new billing clause.",
+  "cites": [
+   {
+    "speaker": "Meera",
+    "role": "resolution",
+    "text": "Priya has to see the terms by the 22nd regardless, and now there's a billing clause, so I'll get it to her tomorrow. Dmitri gets the new per-account figure too."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G198"
+ },
+ {
+  "qid": "set_01002-q05",
+  "type": "change_over_time",
+  "text": "In meeting 2, Greta decided to switch the format to a virtual product showcase plus a small invite-only reception.",
+  "cites": [
+   {
+    "speaker": "Greta",
+    "role": "resolution",
+    "text": "Okay. Then I'm deciding: we're switching to a virtual product showcase plus a small invite-only reception."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G199"
+ },
+ {
+  "qid": "set_01015-q08",
+  "type": "evidence_to_reconsider",
+  "text": "In meeting 3, Ravi stated that Tessaline had answered regarding the corridor rating and wanted the order to be reconsidered.",
+  "cites": [
+   {
+    "speaker": "Ravi",
+    "role": "reconsideration",
+    "text": "Fine, I'll warn the cleaners. Right. The panel order. Tessaline have answered on the corridor rating, so I want that back open, properly, before my name goes on anything."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G200"
+ },
+ {
+  "qid": "set_01019-q04",
+  "type": "as_of",
+  "text": "In meeting 2, Diego proposed a structured video interview with two people scoring on a shared rubric.",
+  "cites": [
+   {
+    "speaker": "Diego",
+    "role": "proposal",
+    "text": "Can I - okay, so if the take-home loses that many people, what if we keep it a conversation, but make it, I don't know, properly structured? Forty-five minutes, on video, two of us on the call, same questions every time. Two of us? On every screen? Yeah, both scoring at the same time against one rubric. Like a shared sheet, each person fills in their own column."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G201"
+ },
+ {
+  "qid": "set_01012-q08",
+  "type": "full_lineage",
+  "text": "In meeting 1, Noor proposed that stores should use proper dedicated handheld scanners, three for each store, instead of clipboards for scanning stock during deliveries.",
+  "cites": [
+   {
+    "speaker": "Noor",
+    "role": "proposal",
+    "text": "Yes. So, the thing with receiving stock is, it's all clipboards still, right? Which is, it's honestly wild, my cousin works at a store in, anyway, I think we get proper dedicated handheld scanners, three for each store."
+   }
+  ],
+  "nli_supported": true,
+  "agent": false,
+  "gid": "G202"
+ }
+]

@@ -1,0 +1,656 @@
+{
+ "set_id": "test_k1_15",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Hana",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Implementing a fixed release schedule",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Reviewing top ten crash screens",
+   "option": "Klara's design folks review top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Laptop refresh batch",
+   "option": "Hana sends laptop details to Yusuf"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Offsite lunch booking",
+   "option": "Jonas adds calendar entries before leaving"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Offsite lunch booking",
+   "option": "Nadia confirms lunch booking details"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": "Page on-call only when crash-free sessions drop under 99.2%"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": "Page on-call only when crash-free sessions drop under 99.2%"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": "Page on-call only when crash-free sessions drop under 99.2%"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "Fixed release schedule cadence",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Fixed release schedule cadence",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "Fixed release schedule cadence",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "Hotfix timing and crash impact",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Hotfix timing and crash impact",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Mei",
+   "confidence": 0.75,
+   "decision": "Hotfix timing and crash impact",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Mei",
+   "confidence": 0.7,
+   "decision": "Hotfix timing and crash impact",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "Adjusting crash alert threshold for on-call paging",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "Release schedule cadence",
+   "option": "Weekly releases with staged rollout"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "Release schedule cadence",
+   "option": "Fixed schedule every two weeks with a Wednesday freeze"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Release schedule cadence",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "Release schedule cadence",
+   "option": "Weekly releases with staged rollout"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "Release schedule cadence",
+   "option": "Weekly releases with staged rollout"
+  }
+ ]
+}

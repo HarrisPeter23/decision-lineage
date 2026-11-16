@@ -1,0 +1,1668 @@
+[
+ {
+  "qid": "set_01014-q01",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e664544a-725b-4683-a384-5cdb181698fc",
+    "name": "INFORMED",
+    "fact": "Yuki will inform Ravi's team this afternoon that the 'Card Added' button will be removed from the Insights page.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b22f3ca2-6e53-42c9-a103-3e817a2f82d1",
+    "name": "ASSIGNED_TASK",
+    "fact": "Yuki mentioned that Ravi's team can turn around page changes in about two days.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q02",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71b05790-c358-493e-be34-db52b6a8cb8d",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the cost per Insights account is 0.30 dollars.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q03",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2b3b1f2f-cee9-4152-9cf4-d180c03fc371",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Yuki to send event names to Ravi's team before the end of the week.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q04",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2b3b1f2f-cee9-4152-9cf4-d180c03fc371",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Yuki to send event names to Ravi's team before the end of the week.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3af55672-ce99-4a7f-97c5-d93e33c2863b",
+    "name": "INFORMED",
+    "fact": "Meera will ask Dana about Jonas's six a.m. meeting.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q05",
+  "facts": [
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71b05790-c358-493e-be34-db52b6a8cb8d",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the cost per Insights account is 0.30 dollars.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q06",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "51b00287-2806-4d02-b802-049fa9f742dd",
+    "name": "ASSIGNED_DEADLINE",
+    "fact": "Meera mentioned that the SOC 2 questionnaire is due on Friday the fifteenth.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3af55672-ce99-4a7f-97c5-d93e33c2863b",
+    "name": "INFORMED",
+    "fact": "Meera will ask Dana about Jonas's six a.m. meeting.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q07",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3af55672-ce99-4a7f-97c5-d93e33c2863b",
+    "name": "INFORMED",
+    "fact": "Meera will ask Dana about Jonas's six a.m. meeting.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q08",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71b05790-c358-493e-be34-db52b6a8cb8d",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the cost per Insights account is 0.30 dollars.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q09",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "e664544a-725b-4683-a384-5cdb181698fc",
+    "name": "INFORMED",
+    "fact": "Yuki will inform Ravi's team this afternoon that the 'Card Added' button will be removed from the Insights page.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q10",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71b05790-c358-493e-be34-db52b6a8cb8d",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the cost per Insights account is 0.30 dollars.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q11",
+  "facts": [
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2a839b41-8b8f-45a4-9651-573927d819aa",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned the Insights page copy to Ravi's team for implementation.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "925922ca-ed73-4196-9967-054848b2c18b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Yuki to review the page copy for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2483d06-6bb5-40bc-9531-c5c5bba118e1",
+    "name": "INFORMED",
+    "fact": "Pavel informed Yuki that the 'Card Added' button will be removed from the Insights page.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "69a059ba-fe4f-4ed5-a635-c70def289641",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera assigned Pavel to get the Insights entitlement switch in staging by the 20th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051162+00:00"
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "07dff990-94ad-4928-be98-d32448b268d8",
+    "name": "COST_INFORMATION",
+    "fact": "Pavel mentioned that Insights costs about four dollars per account, with larger tenants paying up to thirty dollars.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": "2025-08-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T09:18:51.051174+00:00"
+   },
+   {
+    "uuid": "5d62c4e3-149b-4c28-b6d7-d13aa527cb9d",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Pavel to flip the Insights entitlement switch back in staging by the next day.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01014-q12",
+  "facts": [
+   {
+    "uuid": "e4ab61fc-04f8-4d65-aade-5394df5787d3",
+    "name": "PLANNING_LAUNCH",
+    "fact": "Meera mentioned that Insights is set to launch on September 9th, and the pricing page has a gap where the trial line goes.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4cb8753a-49ac-4c84-b214-e269d7958a4e",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera mentioned that legal needs to review the terms page before Insights goes live, and that it should be sent to Priya by the 22nd at the latest.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b22f3ca2-6e53-42c9-a103-3e817a2f82d1",
+    "name": "ASSIGNED_TASK",
+    "fact": "Yuki mentioned that Ravi's team can turn around page changes in about two days.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c87b33b5-a3d2-47be-a8a5-53105428645b",
+    "name": "ASSIGNED_TASK",
+    "fact": "Meera asked Lena to draft a one-page story for the Insights launch email by the 15th.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34",
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "975feb7e-2584-4b49-ba8c-08b4a17302cc",
+    "name": "HANDLING_ISSUE",
+    "fact": "Yuki is handling the Halden Foods ticket, which involves an export timing out on datasets over 40,000 rows.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9602a500-728c-46b7-a7be-8f7db1d8eab1",
+    "name": "INFORMED",
+    "fact": "Yuki informed Meera that the floor thing is happening, with the printers being used from the 15th.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "815f91a7-35cc-4fc7-924f-5ec786065e37",
+    "name": "INFORMED",
+    "fact": "Meera informed Dmitri about the 0.30 dollar cost per account for Insights.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8111e340-8949-4f11-86b8-a25773a86f07",
+    "name": "INFORMED",
+    "fact": "Dmitri informed Meera that the EU failure rate is 19 percent again in the second week.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c271379b-a9e7-452e-9539-ee95a27e7118",
+    "name": "INFORMED",
+    "fact": "Sanjay informed Yuki that the floor thing is definitely happening, with the printers being used from the 15th.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c3a2be0f-451f-464c-bf22-b86c6094f977",
+    "name": "INFORMED",
+    "fact": "Pavel informed Meera that the Insights entitlement switch was flipped in staging on Monday.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4b4040aa-fd5e-4855-8108-14395aac6209",
+    "name": "INFORMED",
+    "fact": "Lena informed Meera that the slide did not have a base number on it, but it was directional.",
+    "episodes": [
+     "c33f1cb3-2947-4536-af3f-2c5209726997"
+    ],
+    "valid_at": "2025-08-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4d34100b-b008-44d9-89ea-ae8a81b1f621",
+    "name": "DISCUSSING_TRIAL",
+    "fact": "Jonas discussed the possibility of offering a trial for Insights, referencing a test run by the growth team in May that increased signups threefold.",
+    "episodes": [
+     "f6329aa2-465b-47d3-9d55-c797b8a44a34"
+    ],
+    "valid_at": "2025-08-07T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

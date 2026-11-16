@@ -1,0 +1,494 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Offsite",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "2025-05-01",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Offsite",
+   "attribute": "time",
+   "states": [
+    {
+     "value": "10:00",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Offsite",
+   "attribute": "location",
+   "states": [
+    {
+     "value": "different room",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Offsite",
+   "attribute": "lunch",
+   "states": [
+    {
+     "value": "covered",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "CRM",
+   "attribute": "mandatory fields at close-won",
+   "states": [
+    {
+     "value": "eight fields",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      14,
+      94
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2025-05-02",
+       "evidence": [
+        44
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "CRM",
+   "attribute": "mandatory fields list",
+   "states": [
+    {
+     "value": "competitor, use case, champion name, and the usual ones on top of those",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "CRM",
+   "attribute": "implementation",
+   "states": [
+    {
+     "value": "validation rule",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      79
+     ]
+    },
+    {
+     "value": "not being touched today",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      44
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "CRM",
+   "attribute": "implementation owner",
+   "states": [
+    {
+     "value": "Sione",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "CRM",
+   "attribute": "implementation timeline",
+   "states": [
+    {
+     "value": "short",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Offsite",
+   "attribute": "laptop requirement",
+   "states": [
+    {
+     "value": "yes",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Offsite",
+   "attribute": "charger requirement",
+   "states": [
+    {
+     "value": "yes",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      106
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "CRM",
+   "attribute": "application to existing deals",
+   "states": [
+    {
+     "value": "no, only new deals after implementation",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      76
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "CRM",
+   "attribute": "communication to reps",
+   "states": [
+    {
+     "value": "Kofi will send a short message",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-04-25",
+     "evidence": [
+      97
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Close screen",
+   "attribute": "next action",
+   "states": [
+    {
+     "value": "Priya to provide breakdown by field next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Pipeline review",
+   "attribute": "presentation date",
+   "states": [
+    {
+     "value": "Wednesday",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      71
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Pipeline review",
+   "attribute": "presentation content",
+   "states": [
+    {
+     "value": "Aiko's deck, Irina's joining for forecast part",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Pipeline review",
+   "attribute": "data required",
+   "states": [
+    {
+     "value": "quarter-to-date numbers",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Pipeline review",
+   "attribute": "data source",
+   "states": [
+    {
+     "value": "dashboard",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-05-02",
+     "evidence": [
+      79
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Pipeline review",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "completed",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Close-won rules",
+   "attribute": "proposed alternative",
+   "states": [
+    {
+     "value": "three fields: amount, close date, product, plus survey link",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      19,
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Survey link",
+   "attribute": "automatic sending",
+   "states": [
+    {
+     "value": "yes",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Survey",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Sven",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      67,
+      68
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Survey",
+   "attribute": "deadline for Sione",
+   "states": [
+    {
+     "value": "today",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      69,
+      70
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Survey",
+   "attribute": "report columns",
+   "states": [
+    {
+     "value": "left as is, with new ones empty",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-05-09",
+     "evidence": [
+      72
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S6",
+   0,
+   1,
+   2
+  ]
+ ]
+}

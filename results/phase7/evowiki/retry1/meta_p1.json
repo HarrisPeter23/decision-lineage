@@ -1,0 +1,79 @@
+{
+ "model": "qwen3:14b",
+ "digest": [
+  "bdbd181c33f2ed1b31c972991882db3cf4d192569092138a7d29e973cd9debe8"
+ ],
+ "corpora": {
+  "test_k1_01": {
+   "meetings": 4,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 33,
+   "decided": 11,
+   "states": 11,
+   "slots": 8,
+   "seconds": 796
+  },
+  "test_k1_09": {
+   "meetings": 4,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 53,
+   "decided": 21,
+   "states": 20,
+   "slots": 16,
+   "seconds": 639
+  },
+  "ami_TS3004": {
+   "meetings": 4,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 97,
+   "decided": 52,
+   "states": 46,
+   "slots": 42,
+   "seconds": 1922
+  },
+  "test_k1_08": {
+   "meetings": 3,
+   "extract_failed": 0,
+   "route_failed": 0,
+   "updates": 62,
+   "decided": 28,
+   "states": 27,
+   "slots": 24,
+   "seconds": 527
+  },
+  "ami_ES2002": {
+   "meetings": 4,
+   "extract_failed": 3,
+   "route_failed": 0,
+   "updates": 87,
+   "decided": 35,
+   "states": 32,
+   "slots": 30,
+   "seconds": 2132
+  },
+  "ami_TS3012": {
+   "meetings": 4,
+   "extract_failed": 3,
+   "route_failed": 1,
+   "updates": 66,
+   "decided": 26,
+   "states": 23,
+   "slots": 22,
+   "seconds": 2171
+  },
+  "test_k1_20": {
+   "meetings": 3,
+   "extract_failed": 1,
+   "route_failed": 0,
+   "updates": 36,
+   "decided": 20,
+   "states": 20,
+   "slots": 20,
+   "seconds": 376
+  }
+ },
+ "wall_s": 2299
+}

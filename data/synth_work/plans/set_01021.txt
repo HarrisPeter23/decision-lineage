@@ -1,0 +1,19 @@
+set_id: set_01021
+seed: 1021
+arc_type: simple_reversal
+topic: how often the mobile app is released
+option A: a fixed two-week release train with a code freeze the Wednesday before each release
+option B: weekly releases with a staged rollout to 5 percent, then 25 percent, then everyone, and a halt switch
+distractor topic: the crash-rate alert threshold for paging on-call
+distractor option: page on-call only when crash-free sessions fall below 99.2 percent
+beat B1: Hana proposes a fixed two-week release train for the mobile app with a code freeze on the Wednesday before each release.
+beat B2: Hana argues that last quarter's ad hoc releases caused five store rejections and about 30 hours of QA per release, and a train cuts QA to one regression pass.
+beat B3: Nadia agrees without naming the release plan, by asking Jonas to put the freeze dates in the shared calendar.
+beat B4: Yuki reports that a payment-screen crash hitting 3.4 percent of Android sessions stayed live for nine days in the first train cycle, because the next train had not left and store review of an out-of-train hotfix took four days.
+beat B5: Mei objects that a fixed train leaves crashes live for a week or more and that support tickets rose 22 percent over that fortnight.
+beat B6: Nadia reopens the release cadence after a second crash hit the next cycle.
+beat B7: Mei argues for weekly releases with a staged rollout, since a 5 percent first stage would show the crash within a day, and the regression suite now runs in three hours after the smoke tests were automated.
+beat B8: Nadia decides the app moves to weekly releases with staged rollout.
+beat D1: Jonas suggests paging on-call only when crash-free sessions fall below 99.2 percent.
+beat D2: Jonas points out that the current 99.5 percent threshold paged on-call 11 times last month, 8 of them for one old device model.
+beat D3: Nadia approves the 99.2 percent paging threshold.

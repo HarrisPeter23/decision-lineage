@@ -1,0 +1,450 @@
+{
+ "set_id": "set_01024",
+ "meta": {
+  "arc_type": "no_reversal",
+  "domain": "IT and security team",
+  "seed": 1024,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 117
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 119
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 70
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the device policy for contractors with production access",
+ "options": {
+  "A": "issue company-managed laptops to all 38 contractors who have production data access",
+  "B": "let contractors use their own devices through a virtual desktop"
+ },
+ "cast": [
+  {
+   "name": "Camila",
+   "slot": "manager",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Zainab",
+   "slot": "proposer",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Chloe",
+   "slot": "challenger",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Kwame",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Diego",
+   "slot": "observer",
+   "style": "quiet, speaks up rarely"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": null,
+   "option_text": "issue company-managed laptops to all 38 contractors who have production data access"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Zainab proposes issuing company-managed laptops to all 38 contractors who have production data access.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    18,
+    21
+   ],
+   "gist": "Zainab argues that last quarter's audit found 12 of the 38 contractors reaching production from unmanaged devices with no disk encryption, and managed laptops at about 1,150 dollars each close that gap.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    89
+   ],
+   "gist": "Camila settles it: contractors with production access get company-managed laptops.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Diego reports that the laptop vendor quoted seven weeks for 38 units and that two contractor agencies said they would pull people from engagements that require a second laptop.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Chloe",
+   "utterance_idxs": [
+    11
+   ],
+   "gist": "Chloe objects that seven weeks leaves production data exposed for two months and that spending 43,700 dollars on a group that turns over about half every six months is poor value.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "reconsideration",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    4
+   ],
+   "gist": "Camila reopens the device policy in light of the lead time and cost concerns.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Zainab",
+   "utterance_idxs": [
+    13,
+    14
+   ],
+   "gist": "Zainab answers that the vendor's rental programme costs about 38 dollars a unit per month on six-month terms, which fits the turnover, and that blocking production access from unmanaged devices from week two covers the gap, which the two agencies have accepted.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": true
+  },
+  {
+   "link_id": "B8",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Camila",
+   "utterance_idxs": [
+    41
+   ],
+   "gist": "Camila confirms the company-managed laptops for contractors.",
+   "version": 1,
+   "option_key": "A",
+   "option": "issue company-managed laptops to all 38 contractors who have production data access",
+   "implicit": false,
+   "reaffirmation": true
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "how often the shared password vault is reviewed",
+  "option": "review access to the shared password vault every quarter",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kwame",
+    "utterance_idxs": [
+     51
+    ],
+    "gist": "Kwame suggests reviewing access to the shared password vault every quarter.",
+    "version": null,
+    "option_key": null,
+    "option": "review access to the shared password vault every quarter",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Kwame",
+    "utterance_idxs": [
+     53
+    ],
+    "gist": "Kwame points out that the last review found nine stale accounts, three of them belonging to people who had left.",
+    "version": null,
+    "option_key": null,
+    "option": "review access to the shared password vault every quarter",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Camila",
+    "utterance_idxs": [
+     61
+    ],
+    "gist": "Camila approves a quarterly review of the shared password vault.",
+    "version": null,
+    "option_key": null,
+    "option": "review access to the shared password vault every quarter",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01024-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the device policy for contractors with production access?",
+   "answer_text": "issue company-managed laptops to all 38 contractors who have production data access",
+   "answer_facts": {
+    "option": "issue company-managed laptops to all 38 contractors who have production data access"
+   },
+   "supporting_links": [
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the device policy for contractors with production access?",
+   "answer_text": "meeting 1: Camila - Camila settles it: contractors with production access get company-managed laptops.; meeting 3: Camila - Camila confirms the company-managed laptops for contractors.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "issue company-managed laptops to all 38 contractors who have production data access",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 3,
+      "option": "issue company-managed laptops to all 38 contractors who have production data access",
+      "reaffirmation": true
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q03",
+   "type": "as_of",
+   "question": "What was the decision about the device policy for contractors with production access as of the end of meeting 1?",
+   "answer_text": "issue company-managed laptops to all 38 contractors who have production data access",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "issue company-managed laptops to all 38 contractors who have production data access"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01024-q04",
+   "type": "as_of",
+   "question": "What was the decision about the device policy for contractors with production access as of the end of meeting 2?",
+   "answer_text": "issue company-managed laptops to all 38 contractors who have production data access",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "issue company-managed laptops to all 38 contractors who have production data access"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01024-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the device policy for contractors with production access change over time?",
+   "answer_text": "It did not change: issue company-managed laptops to all 38 contractors who have production data access was decided in meeting 1 and reaffirmed later.",
+   "answer_facts": {
+    "changed": false
+   },
+   "supporting_links": [
+    "B3",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q06",
+   "type": "why_changed",
+   "question": "Why did the team change its decision about the device policy for contractors with production access?",
+   "answer_text": "It did not change. The team kept issue company-managed laptops to all 38 contractors who have production data access. Concerns raised: Chloe objects that seven weeks leaves production data exposed for two months and that spending 43,700 dollars on a group that turns over about half every six months is poor value. Diego reports that the laptop vendor quoted seven weeks for 38 units and that two contractor agencies said they would pull people from engagements that require a second laptop. Why it stayed: Zainab answers that the vendor's rental programme costs about 38 dollars a unit per month on six-month terms, which fits the turnover, and that blocking production access from unmanaged devices from week two covers the gap, which the two agencies have accepted.",
+   "answer_facts": {
+    "false_premise": true
+   },
+   "supporting_links": [
+    "B5",
+    "B4",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the device policy for contractors with production access?",
+   "answer_text": "Zainab",
+   "answer_facts": {
+    "speaker": "Zainab"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01024-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the device policy for contractors with production access?",
+   "answer_text": "Diego (evidence): Diego reports that the laptop vendor quoted seven weeks for 38 units and that two contractor agencies said they would pull people from engagements that require a second laptop. Chloe (challenge): Chloe objects that seven weeks leaves production data exposed for two months and that spending 43,700 dollars on a group that turns over about half every six months is poor value.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01024-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the device policy for contractors with production access?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the device policy for contractors with production access from proposal to final outcome.",
+   "answer_text": "meeting 1 - Zainab [proposal]: Zainab proposes issuing company-managed laptops to all 38 contractors who have production data access. | meeting 1 - Zainab [rationale]: Zainab argues that last quarter's audit found 12 of the 38 contractors reaching production from unmanaged devices with no disk encryption, and managed laptops at about 1,150 dollars each close that gap. | meeting 1 - Camila [resolution]: Camila settles it: contractors with production access get company-managed laptops. | meeting 2 - Diego [evidence]: Diego reports that the laptop vendor quoted seven weeks for 38 units and that two contractor agencies said they would pull people from engagements that require a second laptop. | meeting 2 - Chloe [challenge]: Chloe objects that seven weeks leaves production data exposed for two months and that spending 43,700 dollars on a group that turns over about half every six months is poor value. | meeting 3 - Camila [reconsideration]: Camila reopens the device policy in light of the lead time and cost concerns. | meeting 3 - Zainab [rationale]: Zainab answers that the vendor's rental programme costs about 38 dollars a unit per month on six-month terms, which fits the turnover, and that blocking production access from unmanaged devices from week two covers the gap, which the two agencies have accepted. | meeting 3 - Camila [resolution]: Camila confirms the company-managed laptops for contractors.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "qid": "set_01024-q11",
+   "type": "distractor",
+   "question": "What was decided about how often the shared password vault is reviewed?",
+   "answer_text": "review access to the shared password vault every quarter",
+   "answer_facts": {
+    "option": "review access to the shared password vault every quarter"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

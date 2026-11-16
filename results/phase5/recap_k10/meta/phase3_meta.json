@@ -1,0 +1,1 @@
+{"cfg": {"server": "ollama", "model": "qwen3:14b", "configs": ["single_pass_recap_roles"], "workers": 2, "dev_sets": ["dev_k10_00", "dev_k10_01"], "max_num_seqs": 16, "chunk_budget": 0}, "t0": 1793800694.88573, "server_ready": true, "ready_s": 121, "run_s": 1741, "worker_rc": [0, 0], "calls": 44, "input_tokens": 152835, "output_tokens": 41979, "out_tok_per_s": 24.1}

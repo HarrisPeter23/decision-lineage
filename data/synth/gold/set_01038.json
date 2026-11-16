@@ -1,0 +1,394 @@
+{
+ "set_id": "set_01038",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "SaaS product team",
+  "seed": 1038,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 15,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 102
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 90
+   },
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 85
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the discount structure for annual plans",
+ "options": {
+  "A": "15 percent off for customers who prepay for a year",
+  "B": "10 percent off for annual prepay plus a 24-month price lock"
+ },
+ "cast": [
+  {
+   "name": "Wei",
+   "slot": "manager",
+   "style": "big-picture, vague on details"
+  },
+  {
+   "name": "Yuki",
+   "slot": "proposer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Noor",
+   "slot": "challenger",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Sana",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Mateo",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "15 percent off for customers who prepay for a year"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "10 percent off for annual prepay plus a 24-month price lock"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "Yuki proposes a 15 percent discount for customers who prepay for a year.",
+   "version": 1,
+   "option_key": "A",
+   "option": "15 percent off for customers who prepay for a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Yuki",
+   "utterance_idxs": [
+    20,
+    21
+   ],
+   "gist": "Yuki argues that the pilot at 15 percent moved 31 percent of 300 trial accounts to annual plans against 18 percent at the old 8 percent discount.",
+   "version": 1,
+   "option_key": "A",
+   "option": "15 percent off for customers who prepay for a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    95
+   ],
+   "gist": "Wei agrees without naming the discount, by telling Sana to update the pricing page.",
+   "version": 1,
+   "option_key": "A",
+   "option": "15 percent off for customers who prepay for a year",
+   "implicit": true,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    24
+   ],
+   "gist": "Wei reports that finance has ruled that from this month any annual discount above 12 percent needs the CFO's sign-off deal by deal, and the CFO has said there will be no exceptions for self-serve.",
+   "version": 1,
+   "option_key": "A",
+   "option": "15 percent off for customers who prepay for a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    32
+   ],
+   "gist": "Wei reopens the discount question because the new rule makes a 15 percent offer unworkable.",
+   "version": 1,
+   "option_key": "A",
+   "option": "15 percent off for customers who prepay for a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sana",
+   "utterance_idxs": [
+    56,
+    57
+   ],
+   "gist": "Sana argues for 10 percent plus a 24-month price lock because list prices are expected to rise about 8 percent this year, so the lock is worth more to buyers than five extra points of discount, and it stays under the 12 percent limit with no sign-off.",
+   "version": 2,
+   "option_key": "B",
+   "option": "10 percent off for annual prepay plus a 24-month price lock",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Wei",
+   "utterance_idxs": [
+    75
+   ],
+   "gist": "Wei decides annual plans get 10 percent off with a 24-month price lock.",
+   "version": 2,
+   "option_key": "B",
+   "option": "10 percent off for annual prepay plus a 24-month price lock",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01038-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the discount structure for annual plans?",
+   "answer_text": "10 percent off for annual prepay plus a 24-month price lock",
+   "answer_facts": {
+    "option": "10 percent off for annual prepay plus a 24-month price lock"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01038-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the discount structure for annual plans?",
+   "answer_text": "meeting 1: Wei - Wei agrees without naming the discount, by telling Sana to update the pricing page.; meeting 2: Wei - Wei decides annual plans get 10 percent off with a 24-month price lock.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "15 percent off for customers who prepay for a year",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "10 percent off for annual prepay plus a 24-month price lock",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01038-q03",
+   "type": "as_of",
+   "question": "What was the decision about the discount structure for annual plans as of the end of meeting 1?",
+   "answer_text": "15 percent off for customers who prepay for a year",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "15 percent off for customers who prepay for a year"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01038-q04",
+   "type": "as_of",
+   "question": "What was the decision about the discount structure for annual plans as of the end of meeting 3?",
+   "answer_text": "10 percent off for annual prepay plus a 24-month price lock",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "10 percent off for annual prepay plus a 24-month price lock"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01038-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the discount structure for annual plans change over time?",
+   "answer_text": "15 percent off for customers who prepay for a year (from meeting 1) -> 10 percent off for annual prepay plus a 24-month price lock (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "15 percent off for customers who prepay for a year",
+     "10 percent off for annual prepay plus a 24-month price lock"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01038-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the discount structure for annual plans changed?",
+   "answer_text": "Before: 15 percent off for customers who prepay for a year, because Yuki argues that the pilot at 15 percent moved 31 percent of 300 trial accounts to annual plans against 18 percent at the old 8 percent discount. Triggered by: Wei (evidence): Wei reports that finance has ruled that from this month any annual discount above 12 percent needs the CFO's sign-off deal by deal, and the CFO has said there will be no exceptions for self-serve. Wei (reconsideration): Wei reopens the discount question because the new rule makes a 15 percent offer unworkable. After: 10 percent off for annual prepay plus a 24-month price lock, because Sana argues for 10 percent plus a 24-month price lock because list prices are expected to rise about 8 percent this year, so the lock is worth more to buyers than five extra points of discount, and it stays under the 12 percent limit with no sign-off.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01038-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the discount structure for annual plans?",
+   "answer_text": "Yuki",
+   "answer_facts": {
+    "speaker": "Yuki"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01038-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the discount structure for annual plans?",
+   "answer_text": "Wei (evidence): Wei reports that finance has ruled that from this month any annual discount above 12 percent needs the CFO's sign-off deal by deal, and the CFO has said there will be no exceptions for self-serve.",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_01038-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the discount structure for annual plans?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01038-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the discount structure for annual plans from proposal to final outcome.",
+   "answer_text": "meeting 1 - Yuki [proposal]: Yuki proposes a 15 percent discount for customers who prepay for a year. | meeting 1 - Yuki [rationale]: Yuki argues that the pilot at 15 percent moved 31 percent of 300 trial accounts to annual plans against 18 percent at the old 8 percent discount. | meeting 1 - Wei [resolution]: Wei agrees without naming the discount, by telling Sana to update the pricing page. | meeting 2 - Wei [evidence]: Wei reports that finance has ruled that from this month any annual discount above 12 percent needs the CFO's sign-off deal by deal, and the CFO has said there will be no exceptions for self-serve. | meeting 2 - Wei [reconsideration]: Wei reopens the discount question because the new rule makes a 15 percent offer unworkable. | meeting 2 - Sana [rationale]: Sana argues for 10 percent plus a 24-month price lock because list prices are expected to rise about 8 percent this year, so the lock is worth more to buyers than five extra points of discount, and it stays under the 12 percent limit with no sign-off. | meeting 2 - Wei [resolution]: Wei decides annual plans get 10 percent off with a 24-month price lock.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

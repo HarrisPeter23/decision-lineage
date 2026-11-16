@@ -1,0 +1,10 @@
+{
+ "checker": "agent (Claude Opus 5.5), NOT a human; blind to mapper outputs; 2026-11-06",
+ "rule": "the gold option the ANSWER states; 'unclear' when it states none (counts as wrong for every mapper)",
+ "labels": {
+  "M01": "A+M", "M02": "B", "M03": "A", "M04": "B", "M05": "B", "M06": "A", "M07": "A", "M08": "A", "M09": "A+M", "M10": "B",
+  "M11": "B", "M12": "A", "M13": "B", "M14": "A", "M15": "A", "M16": "B", "M17": "A", "M18": "A", "M19": "B", "M20": "A",
+  "M21": "unclear", "M22": "A", "M23": "A", "M24": "B", "M25": "A", "M26": "B", "M27": "unclear", "M28": "A", "M29": "unclear", "M30": "A",
+  "M31": "B", "M32": "A", "M33": "A", "M34": "B", "M35": "A", "M36": "A", "M37": "B", "M38": "A", "M39": "A", "M40": "B"
+ }
+}

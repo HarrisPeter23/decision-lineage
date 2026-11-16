@@ -1,0 +1,122 @@
+Meeting: m1
+Date: 2025-07-23
+Participants: Henrik, Diego, Elif, Rohan, Chloe
+
+Henrik: Okay, is everyone here? Chloe, are you on?
+Chloe: Yeah, I'm here, just finishing a note to Marta about the offsite thing.
+Rohan: Before we start, did anyone look at the warehouse access request from Daan? It's been sitting since Friday and I keep-
+Elif: Not now.
+Rohan: Sure, sure, but it blocks my-
+Henrik: Rohan, after.
+Rohan: Fine.
+Diego: So, the scores. Account managers are still looking at that old column in the sheet, right?
+Chloe: Yeah, the, uh, the traffic light thing. Rosa said they mostly ignore it now.
+Elif: Because it's stale.
+Diego: Right. It's from the March refresh, isn't it?
+Chloe: February, I think.
+Elif: March.
+Chloe: Okay, March. Anyway, it's old.
+Diego: So what I'd like is to get the boosted model in front of them next quarter. The one I've been running in my notebook.
+Rohan: The gradient one? The one with the, uh, the two hundred features-
+Diego: Fewer than that now. I trimmed it.
+Rohan: Okay but does it need a different pipeline, because the current one-
+Diego: Hang on, let me finish the case first.
+Rohan: Sorry. Go.
+Elif: Go.
+Diego: So I backtested it on the last four quarters of holdout. Look at the top decile, the accounts it flags as riskiest.
+Chloe: Mm.
+Diego: Of everyone who actually churned afterwards, it caught about seventy-one percent of them in that decile.
+Elif: And the old one?
+Diego: Logistic baseline got around fifty-two. So it's not a small gap.
+Chloe: That's, yeah, that's a big jump. In the big picture.
+Rohan: Is that seventy-one on all four quarters or just the last one? Because the last one was weird, the-
+Diego: All four pooled. Last quarter alone was a bit higher, actually.
+Rohan: Huh. Okay.
+Elif: Leakage?
+Diego: I checked. Features are all cut off at the snapshot date.
+Elif: Fine.
+Henrik: Mm.
+Chloe: Sorry, can I just say, did anyone book the room for Thursday? Zofia was asking.
+Rohan: I thought you did.
+Chloe: I thought Xavier did.
+Elif: Ask facilities.
+Chloe: Right, I'll ask. Sorry, back to the thing.
+Diego: To play the other side for a second, though, why not just retrain the baseline? It's easier to explain to the account managers.
+Elif: Fifty-two.
+Diego: I know, I know, I'm asking so someone says it out loud.
+Rohan: The explainability thing is real though, they'll ask why an account is red and the boosted one can't just-
+Diego: There's the feature contribution output. It's not perfect but it gives them the top three reasons.
+Rohan: Top three out of what, though-
+Chloe: I mean, from the big picture, they don't need the full why, they need to know who to call.
+Rohan: Sure, but then Jamal's team is going to come back and say the reasons look random, and then-
+Elif: Then we look at it.
+Rohan: Okay.
+Diego: And honestly the reasons are fairly sensible. Contract end date, support tickets, seat usage dropping.
+Chloe: Seat usage, yeah, that one always comes up.
+Rohan: Wait, are we scoring daily or what? Because the old one was kind of monthly, wasn't it?
+Diego: Weekly. Daily is overkill, nobody calls a customer every day.
+Elif: Weekly is fine.
+Rohan: Weekly means a job, which means the scheduler, which means-
+Diego: Which is the thing I wanted to ask you about, yes.
+Rohan: Okay but the scheduler's still on the old cluster, and Daan said the migration is-
+Elif: Not till September.
+Rohan: Right. So it'd have to go on the old one first.
+Diego: That's fine.
+Chloe: Hey, unrelated, is anyone going to the thing for the new analytics lead? Is it Thursday or Friday?
+Elif: Friday.
+Chloe: Friday, okay.
+Rohan: I can't do Friday, I've got the, um, the car in the-
+Henrik: Rohan.
+Rohan: Yeah, sorry.
+Henrik: What would it take to get this running in production?
+Diego: Mostly packaging. The model file, the feature query, and a table the account managers' dashboard can read from. Maybe two weeks of my time.
+Rohan: Two weeks if nobody asks me for anything else.
+Elif: Everybody always asks you for something else.
+Rohan: That is true, that is true.
+Henrik: Okay.
+Diego: And Rosa already said she'd take a look at the dashboard side.
+Chloe: She did, she said she could make the column swap pretty quick. A day or something.
+Rohan: A day for her is like a week for us, no offence-
+Chloe: She's not here.
+Rohan: No, I know, I know.
+Elif: Anything else on the model?
+Diego: One thing. If the first month looks bad, we can still put the old numbers back. It's a switch.
+Henrik: Good. Rohan, go ahead and get the weekly scoring job set up, and loop Diego in on the table.
+Rohan: Yep, yep, I can do that. Does Monday morning work for the first run?
+Henrik: Whatever's cleanest.
+Rohan: Monday, then. I'll need the feature query from Diego by, like, Wednesday-
+Diego: Tomorrow if you want.
+Rohan: Wow. Okay.
+Elif: Good.
+Chloe: Yay, so that's sort of done.
+Rohan: Can I ask about the warehouse thing now?
+Henrik: Go ahead.
+Rohan: So Daan sent the access request for the new schema and it says it needs approval from someone in finance, and I don't know who.
+Elif: Jamal?
+Rohan: Jamal's on sales ops, I think.
+Chloe: Marta used to approve those.
+Rohan: She moved teams in May.
+Chloe: Oh. Right, I forgot.
+Elif: Ask Daan.
+Rohan: I did. He said ask you guys.
+Elif: Ha.
+Henrik: I'll find out.
+Rohan: Thanks. It's only blocking me for, you know, everything.
+Diego: Does anyone know if the quarterly numbers are due on the twentieth or the twenty-fifth?
+Chloe: Twenty-fifth. Pretty sure.
+Elif: Twentieth.
+Chloe: Twentieth?
+Elif: Xavier sent it Monday.
+Chloe: Okay, twentieth, I guess I should write that down.
+Diego: Great, that's a week less than I was planning on.
+Elif: Yeah.
+Rohan: Did anyone else see that the train from the north is cancelled again on Thursday? I'm going to have to-
+Chloe: Oh, is that the strike?
+Rohan: Yeah, three days this time. I had to book the later one and now I'll miss the whole morning.
+Chloe: Ugh, that's rough. Can you work from home?
+Rohan: Yeah, but the connection is-
+Elif: Use the hotspot.
+Rohan: I will. I just, it keeps dropping on calls.
+Henrik: Okay, I have to jump on another call. Thanks, everybody.
+Diego: Thanks.
+Chloe: Bye!

@@ -1,0 +1,618 @@
+{
+ "set_id": "set_01013",
+ "method": "multipass:1,2,3:verify=True",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Hana",
+   "quote": "So, I, um, I got a quote last week. From Northway Haulage.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Hana",
+   "quote": "Them, yeah. What I'd want is Leeds on a consolidated van run, twice a week, from Northway, everything on the one load. It's 4,100 pounds a month. Could start the 26th of June.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Zainab",
+   "quote": "I like the shape of it. One flow, one partner, it's a cleaner story for the region.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Hana",
+   "quote": "About 60 percent of the lines there are slow movers. They just don't need a van most days.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Hana",
+   "quote": "So if you put those drops together, the freight spend comes down by, um, roughly 38 percent.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Arjun",
+   "quote": "Okay, yeah, that does, that works, I was doing it in my head and I got lost at the, uh, never mind.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Yuki",
+   "quote": "So, um, I think we'll say Leeds moves to the twice-weekly Northway run, from the 26th. That's, yes, that's where I'd like us to land.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Mei",
+   "quote": "Fine.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Hana",
+   "quote": "Okay.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Zainab",
+   "quote": "Yeah, I can frame that for them, sure. I'll get something in front of them this week.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Mei",
+   "quote": "Send it before Thursday.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    0,
+    1,
+    2
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay, um, I think maybe we're all- is Zainab on her way, or-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Mei",
+   "quote": "Passed. Two bent uprights in bay six. Replaced by the 11th.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Yuki",
+   "quote": "Oh, Sunday, gosh, okay, thank you.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Arjun",
+   "quote": "Thursday, the Thai place, half twelve, they've not moved it, I rang them, because last time we all turned up and it was, um, it was shut for a refit.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Mei",
+   "quote": "He owes me a sign-off.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay, I'll, um, I'll mention it. Maybe gently.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Arjun",
+   "quote": "So, it started, the vans turned up, Thursday and then yesterday, Dave didn't send anybody away, which, with Dave, is a result.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Yuki",
+   "quote": "Oh, good. That's, I think that's maybe the main thing we were-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Mei",
+   "quote": "Ask what's on the shelf. Actual count.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Mei",
+   "quote": "Seals specifically.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Yuki",
+   "quote": "Mm. So, um, look, I think, I'm not comfortable pretending this is nothing. But I also don't think, on a few days and without seeing the, the part numbers and what Dave's got, I don't think I can sensibly say anything today.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Mei",
+   "quote": "Harlow's a contract.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Mei",
+   "quote": "When?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Yuki",
+   "quote": "Um, next week's session? I think maybe, if that's in the diary. Until then it, you know, the vans carry on as they are.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Mei",
+   "quote": "Fine. Noted.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Zainab",
+   "quote": "I can pull the log again before then. See if the picture shifts.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Mei",
+   "quote": "And I'll get the Harlow ticket numbers.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Yuki",
+   "quote": "Thank you. And send them to, maybe to me and Hana?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Arjun",
+   "quote": "I'll report back on the shelf, and I'll put the gate code in the group chat because honestly, that one's going to bite somebody.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Yuki",
+   "quote": "Great. Um, should I tell Tom? I think maybe I'd rather wait till I've got the, the actual numbers, otherwise it's just, you know, a bit alarming over a Thai lunch.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Mei",
+   "quote": "He still owes me that lease.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Yuki",
+   "quote": "Yes. Yes, sorry, the lease, I've written it down this time.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Arjun",
+   "quote": "I've put mine in, second and third weeks, we're going to my sister's in Cork, assuming the ferry doesn't- anyway, they're in.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Hana",
+   "quote": "Mine too.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Mei",
+   "quote": "Not booked yet.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Zainab",
+   "quote": "I'll do mine today. Remind me if I don't.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Mei",
+   "quote": "Thursday.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Arjun",
+   "quote": "This Thursday? While we're at lunch? Who's letting them in?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Yuki",
+   "quote": "Ha, okay. Well, um, I think that's probably us, unless- no? Thanks, everyone.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Hana",
+   "quote": "Thanks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    110
+   ],
+   "speaker": "Zainab",
+   "quote": "Thanks, all.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay. I said we'd come back to it once we had more than one week, and now we've got two, and they're as bad as each other.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Yuki",
+   "quote": "So I think maybe we need to properly open it back up, how Leeds gets restocked, rather than just, um, keep watching that log and hoping.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Mei",
+   "quote": "Yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Zainab",
+   "quote": "I think that's right, yeah.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Yuki",
+   "quote": "Okay. Hm. So I think, um, what are we actually saying here? Is the van the problem, or-",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Yuki",
+   "quote": "Um, Hana, you know that one better than anyone. Does it hold up, do you think?",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Hana",
+   "quote": "The numbers do. Yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Yuki",
+   "quote": "And I think maybe Tom won't love a higher line, but it's, hm, it's hard to argue with sixteen against five three.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Yuki",
+   "quote": "Right. So, Hana, could you maybe get on to Priya today and start the paperwork with them, and check that cut-off while you're there?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Yuki",
+   "quote": "Thank you. And I'll, um, I'll take the numbers to Tom, the real ones this time, so he doesn't hear it over lunch.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Mei",
+   "quote": "Send him the tickets as well.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Zainab",
+   "quote": "I'll need to go back to the service managers, I think, I can frame it as, you know, we looked at the evidence.",
+   "confidence": 0.85
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Mei",
+   "quote": "Say seals. Say next morning.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Zainab",
+   "quote": "Yes, okay, more specific than that, fine. Once Hana has a date from them.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Arjun",
+   "quote": "I'll tell Dave, he'll need to know, and I'll get him to order in those two seals in the meantime if Hana's happy, that's just normal stock anyway.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Yuki",
+   "quote": "And the vans carry on as they are for now, I think, until we've got something signed. Hana, you'll have a look at their terms too?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Yuki",
+   "quote": "Lovely. Um, is there anything else? Oh, the August cover, I think maybe it's still looking a bit thin in the third week.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Yuki",
+   "quote": "Oh, good, okay. Thanks, Mei. Um, I think that's probably us, then.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Zainab",
+   "quote": "Thanks, all. Holiday dates, I'm doing it now.",
+   "confidence": 0.9
+  }
+ ]
+}

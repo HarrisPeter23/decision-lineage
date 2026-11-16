@@ -1,0 +1,89 @@
+Meeting: mtg_0023
+Date: 2025-06-19
+Participants: Arjun, Sven, Henrik, Rohan, Hana
+
+Arjun: Okay, I think that's everyone. Hana, did you find out who changed the staging job?
+Hana: I did, it was Goran's team. They moved a cleanup to two a.m. and forgot it restarts the whole box.
+Arjun: And it's fixed?
+Hana: Moved to Sunday. Well, they said they'd move it. I haven't checked.
+Henrik: Check it.
+Hana: Yeah, yeah, I will. Today.
+Arjun: Offsite headcount, did the venue get a number?
+Hana: Eleven. Tadeusz said yes, and Henrik's Wednesday only.
+Henrik: Wednesday only.
+Hana: Right, that's what I wrote down. Venue's fine with it, they just want the lunch count by Monday.
+Arjun: Okay, lunch count is yours.
+Hana: Mine, yes.
+Arjun: Sven, I read the pager schedule. Four weeks is fine, but the first cycle, who's actually on?
+Sven: Goran's people don't start till the seventh, so the first one is just us. I put a note at the bottom of the doc.
+Arjun: Right, okay. Henrik, handoff doc?
+Henrik: Anders finally sent his section.
+Arjun: Ha. Good.
+Henrik: Needs merging. Tomorrow.
+Rohan: Is it going to mention the new rotation?
+Henrik: Once the schedule's final.
+Arjun: Fine. Alright, the preferences service. Sven, the ticket, where is it?
+Sven: Opened Thursday. Rui came back with two questions on the request limits, I answered both, so it's with him now.
+Arjun: Good. Rohan, Davor?
+Rohan: Told him Friday. They're, um, building the client against a mock for now so they're not stuck.
+Arjun: Good, good.
+Hana: So, I ran the load test on that table yesterday. Did anyone see the thread?
+Henrik: No.
+Sven: I saw it was running. Didn't read the results.
+Hana: Okay, so, throughput was fine, we went past the nine thousand no problem. But there's something odd with the reads.
+Arjun: Odd how?
+Hana: During the spike, about seven percent of the preference reads came back stale. And I had a test user unsubscribe right in the middle of it, and they still got messages for up to two seconds afterwards.
+Rohan: Seven percent. Is that, is that a lot?
+Sven: Which read mode did you use? The default on that store is eventual, you can ask for the strongly consistent ones.
+Hana: Default. I didn't touch any settings.
+Sven: Okay, so, that's the cheaper mode. The consistent reads cost double per request, I think.
+Arjun: Double, so that's like, twelve hundred-
+Sven: Roughly, but I'd have to redo the sheet to be sure.
+Henrik: Doesn't matter. Somebody hits unsubscribe and gets a push two seconds later, that's against our opt-out policy. It has to hold the moment they click.
+Rohan: Yeah, I mean, legal wouldn't love that.
+Arjun: Compliance signed off on the wording last year, Anders was in that.
+Henrik: Two seconds is two seconds.
+Hana: And it wasn't one lucky user, I flipped like twenty during the spike. I wrote the results down somewhere.
+Arjun: Okay. So we've got half a picture.
+Sven: Want me to rerun it with the consistent reads on? Then we'd have the cost too.
+Arjun: Yes, do that. But I'm not going to settle anything on the store today. I'd rather see the whole thing first.
+Rohan: That makes sense to me.
+Henrik: Fine. Just not shipping it as is.
+Arjun: Nobody said shipping.
+Henrik: Okay.
+Hana: This reminds me, with the consent flags thing, the other service, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks. It was the TTL, somebody set it in the wrong units...
+Arjun: Hana-
+Hana: Sorry, I know. But Magnus found it, he was furious, the dashboards all looked completely fine, and then it turned out...
+Arjun: Let's stay on this one. Please.
+Hana: Right, right. Sorry.
+Sven: I'll rerun it tomorrow morning. Both modes, same spike profile, and I'll put the latency in as well.
+Arjun: Good. Henrik, can you ask Anders what the policy actually says on timing?
+Henrik: I'll ask him.
+Arjun: Okay. Next thing, quick one. The logging bill came in. Rohan, you were looking at it.
+Rohan: Yeah, so, it's big. We're at, um, 5.2 terabytes a month now, and it just keeps climbing.
+Arjun: Right. What do you want to do about it?
+Rohan: What if we cut the debug logs down, from keeping them thirty days to fourteen.
+Henrik: Why debug?
+Rohan: Because it's the biggest chunk. It's forty-one percent of that 5.2. And I went through the query history, and last quarter nobody looked at anything older than nine days.
+Sven: Nine days at most? Across the whole quarter?
+Rohan: That's what the audit showed. I can send it.
+Sven: Send it. I'd want to check there's no incident review hiding in there.
+Henrik: Those use the info logs.
+Sven: Mostly. Okay.
+Hana: Would that cover staging too? Those ones have been noisy since the restart thing.
+Rohan: Everything tagged debug, yeah, all environments.
+Arjun: Okay, fourteen days for debug logs, approved. Rohan, change it in the config and tell Rui, he owns the retention settings.
+Rohan: Will do, today or tomorrow.
+Henrik: Does it delete what's already older?
+Rohan: On the next sweep, yeah. So anyone who wants something from before the cutoff should grab it.
+Hana: Oh, I should pull the staging ones from last week then. For the restart thing.
+Rohan: Pull them today.
+Hana: Yeah, will do.
+Sven: While we're on Rui, did he say anything about the status page footer?
+Henrik: I fixed that. The subscribe link.
+Hana: Oh, thank you, I forgot to say.
+Henrik: Wasn't hard.
+Arjun: Sorry, I've got to jump, my next one started two minutes ago. Sven, send me the rerun when you have it.
+Sven: Will do.
+Rohan: Thanks.
+Hana: Bye, everyone.

@@ -1,0 +1,130 @@
+{
+ "TS3009a": {
+  "abstract": [
+   "After introducing the remote control objective, the project manager demonstrated the SmartBoard technology they would be using.",
+   "They tested it by drawing animals.",
+   "The project manager informed the group of the budget, before beginning the discussion of current remotes and initial ideas.",
+   "They considered taking the best of their competitors designs and making a multifunction remote.",
+   "It needs to be useable internationally, with few buttons.",
+   "The considered options for the shape of the remote control, imagining how it would fit in the hand.",
+   "The group ended the discussion by touching very briefly on some materials issues, and discussed remote covers."
+  ],
+  "actions": [
+   "Individual must come up with their ideas for the next meeting.",
+   "The interface specialist will look at button and over all look."
+  ],
+  "decisions": [
+   "Specific ideas as to components and materials are to be left to the next meeting.",
+   "They will look further at the idea of covers in the mext meeting too."
+  ],
+  "problems": [
+   "*NA*"
+  ]
+ },
+ "TS3009b": {
+  "abstract": [
+   "There are some new requirements for the project: the device will have to be for TV only, they should ignore the teletext function, as it is dated, and, also, the remote should be recognisable as a Real Reaction product.",
+   "The target group will be people below 30.",
+   "It transpires that customers are willing to pay more for fancier looking remotes, especially if they include LCD screens and speech recognition.",
+   "Functions like zapping are very prevalent, as well as complaints about remotes being difficult to learn and easy to lose.",
+   "The function of the remote is relatively simple: by pressing a button a current is passed to the chip, and defines what signal is to be sent to the receiver (the TV) via infrared.",
+   "The team agreed to follow a user-centred approach and simplify the design by somehow minimising the number of buttons.",
+   "They plan to include an LCD screen to display relevant information.",
+   "Other functions are served by push buttons: OK, menu, screen sizing, AV, settings buttons, mute, digits 1-9, power, volume control, channel up/down with the last three types being prominent on the device.",
+   "The exact design and placement of the components will be decided in the next meeting."
+  ],
+  "actions": [
+   "Each member of the team will come for the next meeting with their views on function and design issues that they had not time to consolidate during this meeting."
+  ],
+  "decisions": [
+   "The solution to complaints about remote controls being difficult to learn is to focus on an intuitive design instead of a thorough manual.",
+   "The idea of interchangeable fronts was mentioned again; if it were adopted, the company should be recognisable in all the available fronts as well as the remote itself.",
+   "The team agreed to follow a user-centred approach and simplify the design by somehow minimising the number of buttons.",
+   "An LCD screen is going to be used to display information, but would not be interactive.",
+   "The buttons are going to include: OK, menu, screen sizing, AV, settings buttons, mute, digits 1-9, power, volume control, channel up/down.",
+   "There is no need for a special button to recognise two-digit numbers.",
+   "The power button will be placed at the top separately.",
+   "The less frequently used buttons will not be hidden under a flip, as it had been previously suggested, as there are not that many of them; they will just be clearly separated from the more important ones."
+  ],
+  "problems": [
+   "A discussion on ergonomic solutions like placing the main buttons (power, channel selection, volume) where they can be easily reached with the thumb (as many users complain of RSI), did not reach a conclusion as to whether this would actually cause more repetitive movements.",
+   "Some advanced features, like LCD screen with program information or speech recognition, would be very important in order to attract their target group, but there are costing issues that have not been clarified yet.",
+   "There was some disagreement as to whether the LCD screen should be placed at the top or the bottom of the remote.",
+   "No consensus was reached regarding the positioning of the main buttons (zapping, volume, power) either: should they be placed close together or more scattered (to avoid RSI complaints)?",
+   "A special AV button for direct access to the video channel, although its necessity was disputed, because there are alternative solutions that make it obsolete."
+  ]
+ },
+ "TS3009c": {
+  "abstract": [
+   "For the conceptual design, the marketing expert talked about the public's preference for looks and texture over technological innovation; however, they both seem to be more important than ease of use.",
+   "The current fashion among younger people favours bright colours and fruit and vegetable themes: pertinent exchangeable fronts can express such trends on the remote.",
+   "Materials also need to be strong: the marketing expert suggested an iron-plate or titanium front.",
+   "The industrial designer suggested they use rubber push buttons (and no scroll wheel), simple battery (instead of solar cells or kinetic dynamo), and advanced chip.",
+   "Speech recognition can be implemented, but it does not link speech commands to remote control actions.",
+   "He also advised that the users within the target group prefer primary colours, soft textures and curved shapes.",
+   "The team drew a provisional prototype.",
+   "They placed the LCD below the buttons.",
+   "If it is implemented, a recording button, microphone and speaker need to be included in the design.",
+   "Finally, they decided to have a titanium case with plastic front and the company logo and slogan engraved.",
+   "Packages with a variety of changeable fronts will be launched."
+  ],
+  "actions": [
+   "The industrial designer and the user interface designer will work on a drawing of a prototype, where they will also sort out the details about the buttons.",
+   "The marketing expert will carry out an evaluation of the product."
+  ],
+  "decisions": [
+   "The push buttons are going to be made of rubber.",
+   "The chip needs to be an advanced one to be compatible with the LCD screen that is going to be incorporated in the design.",
+   "Making changeable fascias can allow for the integration of this or future fashion trends in the device.",
+   "The team agreed to place the LCD at the bottom of the device, below the buttons.",
+   "TV settings will be included in menus there instead of having separate buttons for them.",
+   "They will implement speech recognition as well, because their target group like such gimmicks.",
+   "The case will be titanium with a plastic front with rounded buttons.",
+   "Parts of the front (like the bottom where the LCD is and the top corner where the logo is) will also be titanium.",
+   "The chip is going to be a standard one.",
+   "They will launch the product with various fronts to choose from including a couple of basic colours or fruit and vegetable themes to go with the current fashion.",
+   "The logo will be both at the front and the back of the remote; the company slogan will be engraved at the back."
+  ],
+  "problems": [
+   "The team found a possible conflict between the need for strong materials and the customers' preference for soft textures.",
+   "Plastic may be strong, but it does not necessarily look it.",
+   "The version of speech recognition discussed does not link voice commands to actual device actions.",
+   "Changing the front colours may make the front clash with the titanium, but it was also thought neutral enough for it not to matter.",
+   "They wondered whether to use both the logo and the slogan on the device and where it would be best for them to be placed."
+  ]
+ },
+ "TS3009d": {
+  "abstract": [
+   "The ID and UI presented the drawing of a prototype.",
+   "It is rounded, with the front made of hard plastic in different colours.",
+   "The back, as well as the lower part of the front are made of titanium.",
+   "The back has the logo and slogan of the company engraved in its middle.",
+   "The buttons include oval digit buttons, arrow-shaped channel and volume controls in the middle; below those, is the menu (for the LCD) and the video button.",
+   "The LCD can be found at the lower section of the device.",
+   "After the presentation, the product was evaluated.",
+   "This was done on a scale of 1(excellent)-7(very bad) on fancifulness, ease of use, finding the device when it is lost, hi-tech features, incorporation of fashion trends, and ergonomic design.",
+   "Because it was over budget, titanium was replaced by plastic and the speech recognition was discarded.",
+   "They thought it would have been more sensible to have the component costs before the prototype design.",
+   "Finally, the team evaluated the project process in terms of creativity (generally satisfied), leadership (the process was democratic, not happy with management), teamwork (happy with it), and means (SMARTboard was 'a disaster' and the digital pens only good for drawings)."
+  ],
+  "actions": [
+   "*NA*"
+  ],
+  "decisions": [
+   "Despite disagreement regarding the position of the LCD (top or bottom), the screen was left at the bottom as it was in the prototype.",
+   "The sample speaker was taken out to bring the cost of the prototype down to the original budget of 12.50 euros.",
+   "They also decided to replace titanium with similar-looking plastic for the same reason."
+  ],
+  "problems": [
+   "There was criticism for the shape of the remote (thicker at the ends, thinner at the middle).",
+   "The project manager still disagreed on the position of the LCD: he would prefer it to be at the top.",
+   "The total cost of the prototype was 18.6 euros.",
+   "The team had to discuss which features should be discarded.",
+   "The only way was to go to a regular chip, but that would mean losing the LCD screen, which was integral to the design.",
+   "Replacing the titanium with plastic would have a detrimental effect on the looks of the remote.",
+   "The team discussed the possibility to leave the remaining cost at 14.10.",
+   "The SMARTboard was considered a disaster as they could not draw, and the digital pens can only be useful for drawings.",
+   "Some people thought that there was no advantage to using the SMARTboard instead of a normal blackboard and chalk, although you can save and reuse things with the former."
+  ]
+ }
+}

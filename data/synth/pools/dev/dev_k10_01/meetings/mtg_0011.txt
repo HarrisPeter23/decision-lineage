@@ -1,0 +1,93 @@
+Meeting: mtg_0011
+Date: 2025-11-09
+Participants: Lena, Pavel, Sven, Camila, Sana
+
+Lena: Okay, can everyone hear me? Sven, you were frozen a second ago.
+Sven: I'm here, I'm here. Sorry, I was fighting with the headphones.
+Pavel: Morning.
+Lena: Morning. So, before the release stuff, I got an email last night and I'm still, uh, chewing on it.
+Sana: From who?
+Lena: The push provider. Hang on, let me find the-
+Sana: Is this about the renewal? Because Pavel already sent the-
+Pavel: I sent the yes. Last Sunday. Monday. Whatever, it went.
+Lena: Right, it did. This is after that. They're switching everybody over to pay-per-use from next month, and I put our volume into their little calculator and it says something like twenty-seven hundred a month.
+Pavel: Twenty-seven hundred.
+Lena: Yeah. So, three times what we thought we were paying. Give or take.
+Sana: But we signed a year at nine hundred. That was the whole-
+Lena: That's what I thought too, but the email says the new schedule applies to everyone, and I haven't read the fine print properly yet.
+Pavel: Did you read any of it?
+Lena: The first page. Then Davor pinged me about something else.
+Sven: Davor always pings at the worst moment. Last week he got me while I was in the middle of, actually, no, it was a Tuesday, I was on the train again-
+Pavel: Sven.
+Sven: Sorry. Go on.
+Lena: So the point is, nine hundred isn't what we're looking at anymore. We settled on the yearly thing on one set of numbers, and the numbers just moved.
+Sana: Yeah, that's- yeah.
+Lena: So I want to take the whole push question back off the shelf before anything else goes out to them. Everyone okay with that?
+Pavel: Fine by me.
+Sven: Sure. I did sort of wonder about the volume thing last week, when Camila asked about it-
+Camila: I only asked if it would jump around.
+Sven: Right, and he said flat. Which was true then.
+Pavel: It was true then.
+Lena: Nobody's blaming anybody. It's just an email.
+Sana: What's the other option, though? Building it ourselves? Because we said six weeks and that was-
+Pavel: Six weeks, two people. That was my number.
+Sana: And I said more.
+Pavel: You did say more.
+Sana: I still think more. The retry stuff, the-
+Camila: Can I say something about that?
+Lena: Please, Camila.
+Camila: Um. So the thing I keep coming back to is the audience groups. The ones marketing set up. Those aren't really living in the provider. The segments get worked out in our own user service, and the provider just gets handed a list and sends to it.
+Sana: Wait, really? I thought they built them in the dashboard.
+Camila: Marketing looks at them there. But the data's ours. So we wouldn't redo that part at all, only the sending. I'd guess four weeks, two engineers, and then running it is maybe two-fifty a month plus a day a week of somebody looking after it.
+Sven: Huh. I didn't know that.
+Pavel: A day a week of who?
+Camila: Whoever's on it. I haven't thought about who.
+Sven: It'd be me, let's be honest. It always ends up being me.
+Sana: It would not always be you.
+Sven: Last spring-
+Sana: That was one time.
+Lena: Okay, okay. Camila, so against twenty-seven hundred, what does that look like?
+Camila: We'd save two thousand something a month once it's live. The build has to pay itself back first, so, about five months before it's even.
+Pavel: Five months. Not bad.
+Camila: Roughly. I did it on the back of a notebook, don't hold me to it.
+Sana: What about the platforms' own services, though? Aren't there tokens or limits or-
+Camila: Tokens we already store. The app registers them.
+Sana: Oh. Yeah, okay, right.
+Pavel: So what's the catch.
+Camila: The upkeep, mostly. And it's four weeks those two aren't doing the other thing.
+Lena: Which other thing?
+Sana: The checkout rework.
+Lena: Right. That one slips a bit, I'd think.
+Sven: A bit as in two weeks, or a bit as in-
+Lena: I'd say about the four. I'll talk to Thandi.
+Pavel: She'll want a date.
+Lena: She'll get a date.
+Sana: Does the contract let us out of anything, now that their pricing changed?
+Lena: That's what I want to find out. I'll ask Sanne to send over the actual terms.
+Pavel: Sanne's going to be thrilled.
+Lena: She emails us enough.
+Sven: She emailed me again this morning. About a laptop.
+Sana: A laptop?
+Sven: My old one. I'm supposed to return it. It's, uh, in a bag somewhere.
+Lena: Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?
+Camila: Okay. Yes. I can do that.
+Pavel: Wednesday work?
+Camila: Wednesday's good.
+Pavel: Want me to loop Sana in?
+Sana: Please. I've got opinions on the retry thing.
+Pavel: We know.
+Sven: Release is still Thursday, right?
+Lena: I think so. Anything blocking?
+Sana: The flaky settings test is fixed. Sven, it was the timeout.
+Sven: Two seconds. I told you.
+Sana: You did tell you- me. You did tell me.
+Sven: Hardcoded. In a helper. Somebody should be shamed.
+Pavel: Somebody was you.
+Sven: It was before I was here. Possibly.
+Lena: Offsite, quickly. Camila, did the quotes come through?
+Camila: I sent both Friday. The co-working one's a lot cheaper.
+Lena: I saw. I'll confirm the date this week. Sven, hold off on flights.
+Sven: Holding.
+Lena: Okay. Anything else?
+Pavel: No. I've got a call.
+Lena: Go. Thanks everyone.

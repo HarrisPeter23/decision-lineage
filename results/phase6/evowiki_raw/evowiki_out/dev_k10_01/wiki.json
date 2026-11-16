@@ -1,0 +1,1069 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Replenishment vendor for the regions",
+   "attribute": "vendor",
+   "states": [
+    {
+     "value": "Swiftline Freight",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-21",
+     "evidence": [
+      1,
+      20,
+      21
+     ]
+    },
+    {
+     "value": "Switch to Dalmar Logistics",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Replenishment vendor for the regions",
+   "attribute": "reason for selection",
+   "states": [
+    {
+     "value": "cheapest per pallet, covers all twelve regional stores, about eleven percent under other quotes",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-01-21",
+     "evidence": [
+      4,
+      5,
+      6,
+      17,
+      19,
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Next steps",
+   "attribute": "action for Tomas",
+   "states": [
+    {
+     "value": "ask everyone to look at the numbers and reconvene next week",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-28",
+     "evidence": [
+      14,
+      15,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Next steps",
+   "attribute": "action for Elif",
+   "states": [
+    {
+     "value": "call Swiftline to ask what's going on",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-01-28",
+     "evidence": [
+      17,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Vendor decision",
+   "attribute": "transition date",
+   "states": [
+    {
+     "value": "Three weeks from onboarding",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      23,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Vendor decision",
+   "attribute": "backup vendor",
+   "states": [
+    {
+     "value": "Swiftline",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Vendor decision",
+   "attribute": "transition period",
+   "states": [
+    {
+     "value": "Use Swiftline for some regions during transition",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-02-04",
+     "evidence": [
+      25
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Leeds restocking",
+   "attribute": "freight provider",
+   "states": [
+    {
+     "value": "Northway Haulage",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "Leeds restocking",
+   "attribute": "freight schedule",
+   "states": [
+    {
+     "value": "consolidated van run, twice a week",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "Leeds restocking",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "\u00a34,100 per month",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "Leeds restocking",
+   "attribute": "implementation date",
+   "states": [
+    {
+     "value": "26th of June",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      28,
+      66
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "Leeds restocking",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Arjun",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 6,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      69
+     ]
+    },
+    {
+     "value": "open it back up and properly address restocking",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Leeds restocking",
+   "attribute": "communication with depot",
+   "states": [
+    {
+     "value": "Arjun to contact Dave",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 6,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      69
+     ]
+    },
+    {
+     "value": "tell Dave and get him to order two seals",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      90
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Leeds restocking",
+   "attribute": "confirmation with Northway Haulage",
+   "states": [
+    {
+     "value": "Hana to confirm this afternoon",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 6,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      72
+     ]
+    },
+    {
+     "value": "review Northway terms",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Leeds restocking",
+   "attribute": "communication with field engineers",
+   "states": [
+    {
+     "value": "Zainab to frame message for service managers",
+     "label": "Overturned",
+     "valid_from": 4,
+     "valid_to": 6,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      75,
+      76
+     ]
+    },
+    {
+     "value": "go back to service managers and frame it as evidence-based decision",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Leeds restocking",
+   "attribute": "deadline for communication with field engineers",
+   "states": [
+    {
+     "value": "before Thursday",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-24",
+     "evidence": [
+      77
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Racking in bay six",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "replaced by the 11th",
+     "label": "Active",
+     "valid_from": 5,
+     "valid_to": null,
+     "meeting_id": "mtg_0005",
+     "meeting": 5,
+     "date": "2025-07-01",
+     "evidence": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Stock count",
+   "attribute": "completion",
+   "states": [
+    {
+     "value": "completed yesterday",
+     "label": "Active",
+     "valid_from": 5,
+     "valid_to": null,
+     "meeting_id": "mtg_0005",
+     "meeting": 5,
+     "date": "2025-07-01",
+     "evidence": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Fire warden task",
+   "attribute": "completion",
+   "states": [
+    {
+     "value": "completed by Mei on Sunday",
+     "label": "Active",
+     "valid_from": 5,
+     "valid_to": null,
+     "meeting_id": "mtg_0005",
+     "meeting": 5,
+     "date": "2025-07-01",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Lunch",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "Thursday, the 3rd",
+     "label": "Active",
+     "valid_from": 5,
+     "valid_to": null,
+     "meeting_id": "mtg_0005",
+     "meeting": 5,
+     "date": "2025-07-01",
+     "evidence": [
+      19
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Daventry dock door",
+   "attribute": "status",
+   "states": [
+    {
+     "value": "fixed on Thursday",
+     "label": "Overturned",
+     "valid_from": 5,
+     "valid_to": 6,
+     "meeting_id": "mtg_0005",
+     "meeting": 5,
+     "date": "2025-07-01",
+     "evidence": [
+      104
+     ]
+    },
+    {
+     "value": "sorted",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Sheffield driver",
+   "attribute": "gate code issue",
+   "states": [
+    {
+     "value": "fixed",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "entity": "Tom",
+   "attribute": "lease signing",
+   "states": [
+    {
+     "value": "signed",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "entity": "Hana",
+   "attribute": "task",
+   "states": [
+    {
+     "value": "contact Priya and start paperwork with Brackenfield",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "entity": "Yuki",
+   "attribute": "task",
+   "states": [
+    {
+     "value": "take numbers to Tom",
+     "label": "Active",
+     "valid_from": 6,
+     "valid_to": null,
+     "meeting_id": "mtg_0006",
+     "meeting": 6,
+     "date": "2025-07-08",
+     "evidence": [
+      84
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "entity": "Rota",
+   "attribute": "changes",
+   "states": [
+    {
+     "value": "Saturday cover at Leeds and Hull",
+     "label": "Active",
+     "valid_from": 7,
+     "valid_to": null,
+     "meeting_id": "mtg_0007",
+     "meeting": 7,
+     "date": "2025-08-19",
+     "evidence": [
+      24,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "entity": "Scanning solution",
+   "attribute": "deliverable",
+   "states": [
+    {
+     "value": "One-pager by Henrik",
+     "label": "Active",
+     "valid_from": 8,
+     "valid_to": null,
+     "meeting_id": "mtg_0008",
+     "meeting": 8,
+     "date": "2025-08-26",
+     "evidence": [
+      21
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "entity": "Scanning solution",
+   "attribute": "additional input",
+   "states": [
+    {
+     "value": "Noor to time a delivery",
+     "label": "Active",
+     "valid_from": 8,
+     "valid_to": null,
+     "meeting_id": "mtg_0008",
+     "meeting": 8,
+     "date": "2025-08-26",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "entity": "Scanning solution",
+   "attribute": "next steps",
+   "states": [
+    {
+     "value": "Evaluation next week",
+     "label": "Active",
+     "valid_from": 8,
+     "valid_to": null,
+     "meeting_id": "mtg_0008",
+     "meeting": 8,
+     "date": "2025-08-26",
+     "evidence": [
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "entity": "Scanning app",
+   "attribute": "device",
+   "states": [
+    {
+     "value": "tablets and phones we already have",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "entity": "Training",
+   "attribute": "duration per person",
+   "states": [
+    {
+     "value": "ten minutes",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      11
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "entity": "Training",
+   "attribute": "method",
+   "states": [
+    {
+     "value": "card",
+     "label": "Overturned",
+     "valid_from": 9,
+     "valid_to": 9,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      11
+     ]
+    },
+    {
+     "value": "video",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "entity": "Gloves",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "touch gloves",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "entity": "Gloves",
+   "attribute": "cost",
+   "states": [
+    {
+     "value": "a few dollars",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "entity": "Gloves",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "buy",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "entity": "Budget",
+   "attribute": "amount",
+   "states": [
+    {
+     "value": "thirty-five hundred a year, plus gloves",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      20
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "entity": "Implementation",
+   "attribute": "stores first",
+   "states": [
+    {
+     "value": "Leeds and Hull",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "entity": "Implementation",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "Leeds and Hull first, then the rest over three weeks",
+     "label": "Active",
+     "valid_from": 9,
+     "valid_to": null,
+     "meeting_id": "mtg_0009",
+     "meeting": 9,
+     "date": "2025-09-02",
+     "evidence": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "entity": "Push provider contract",
+   "attribute": "renewal decision",
+   "states": [
+    {
+     "value": "renew for the year at nine hundred a month",
+     "label": "Active",
+     "valid_from": 10,
+     "valid_to": null,
+     "meeting_id": "mtg_0010",
+     "meeting": 10,
+     "date": "2025-11-02",
+     "evidence": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "entity": "Push provider contract",
+   "attribute": "renewal owner",
+   "states": [
+    {
+     "value": "Pavel",
+     "label": "Overturned",
+     "valid_from": 10,
+     "valid_to": 11,
+     "meeting_id": "mtg_0010",
+     "meeting": 10,
+     "date": "2025-11-02",
+     "evidence": [
+      60,
+      61,
+      62
+     ]
+    },
+    {
+     "value": "re-evaluate terms",
+     "label": "Overturned",
+     "valid_from": 11,
+     "valid_to": 11,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      20
+     ]
+    },
+    {
+     "value": "ask Sanne to send actual terms",
+     "label": "Active",
+     "valid_from": 11,
+     "valid_to": null,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      61
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "entity": "Push service",
+   "attribute": "alternative solution",
+   "states": [
+    {
+     "value": "build internal sending service",
+     "label": "Active",
+     "valid_from": 11,
+     "valid_to": null,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "entity": "Internal sending service",
+   "attribute": "owner",
+   "states": [
+    {
+     "value": "Camila and Pavel",
+     "label": "Active",
+     "valid_from": 11,
+     "valid_to": null,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "entity": "Internal sending service",
+   "attribute": "timeline",
+   "states": [
+    {
+     "value": "plan to be sketched by Wednesday",
+     "label": "Active",
+     "valid_from": 11,
+     "valid_to": null,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      69
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "entity": "Offsite meeting",
+   "attribute": "flights",
+   "states": [
+    {
+     "value": "hold off on booking",
+     "label": "Overturned",
+     "valid_from": 11,
+     "valid_to": 12,
+     "meeting_id": "mtg_0011",
+     "meeting": 11,
+     "date": "2025-11-09",
+     "evidence": [
+      84
+     ]
+    },
+    {
+     "value": "20th of January",
+     "label": "Active",
+     "valid_from": 12,
+     "valid_to": null,
+     "meeting_id": "mtg_0012",
+     "meeting": 12,
+     "date": "2025-11-16",
+     "evidence": [
+      59,
+      60
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "entity": "Campaign delivery system",
+   "attribute": "architecture",
+   "states": [
+    {
+     "value": "queue with worker types per platform, shared retry, separate adapters",
+     "label": "Active",
+     "valid_from": 12,
+     "valid_to": null,
+     "meeting_id": "mtg_0012",
+     "meeting": 12,
+     "date": "2025-11-16",
+     "evidence": [
+      6,
+      7,
+      11,
+      12
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S0",
+   0,
+   1,
+   3
+  ],
+  [
+   "S20",
+   0,
+   1,
+   6
+  ],
+  [
+   "S11",
+   0,
+   1,
+   6
+  ],
+  [
+   "S14",
+   0,
+   1,
+   6
+  ],
+  [
+   "S12",
+   0,
+   1,
+   6
+  ],
+  [
+   "S13",
+   0,
+   1,
+   6
+  ],
+  [
+   "S31",
+   0,
+   1,
+   9
+  ],
+  [
+   "S39",
+   0,
+   1,
+   11
+  ],
+  [
+   "S39",
+   1,
+   2,
+   11
+  ],
+  [
+   "S43",
+   0,
+   1,
+   12
+  ]
+ ]
+}

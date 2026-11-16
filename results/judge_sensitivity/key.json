@@ -1,0 +1,793 @@
+{
+ "s000": {
+  "set_id": "set_01012",
+  "link_id": "B3",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s001": {
+  "set_id": "set_01004",
+  "link_id": "B11",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s002": {
+  "set_id": "set_01045",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "shifted_utt",
+  "note": "target [32] -> [26]"
+ },
+ "s003": {
+  "set_id": "set_01013",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s004": {
+  "set_id": "set_01045",
+  "link_id": "B7",
+  "role": "resolution",
+  "kind": "wrong_role",
+  "note": "role resolution -> proposal"
+ },
+ "s005": {
+  "set_id": "set_01045",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "unsupportive",
+  "note": "target moved to m1[87]"
+ },
+ "s006": {
+  "set_id": "set_01004",
+  "link_id": "B6",
+  "role": "rationale",
+  "kind": "unsupportive",
+  "note": "target moved to m3[12]"
+ },
+ "s007": {
+  "set_id": "set_01014",
+  "link_id": "B11",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s008": {
+  "set_id": "set_01014",
+  "link_id": "B9",
+  "role": "challenge",
+  "kind": "wrong_role",
+  "note": "role challenge -> rationale"
+ },
+ "s009": {
+  "set_id": "set_01004",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "wrong_speaker",
+  "note": "speaker Marco -> Omar"
+ },
+ "s010": {
+  "set_id": "set_01045",
+  "link_id": "B6",
+  "role": "rationale",
+  "kind": "shifted_utt",
+  "note": "target [34, 36] -> [39]"
+ },
+ "s011": {
+  "set_id": "set_01016",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s012": {
+  "set_id": "set_01045",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s013": {
+  "set_id": "set_01015",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s014": {
+  "set_id": "set_01014",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s015": {
+  "set_id": "set_01019",
+  "link_id": "B4",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s016": {
+  "set_id": "set_01002",
+  "link_id": "B7",
+  "role": "resolution",
+  "kind": "wrong_role",
+  "note": "role resolution -> proposal"
+ },
+ "s017": {
+  "set_id": "set_01015",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s018": {
+  "set_id": "set_01023",
+  "link_id": "B5",
+  "role": "reconsideration",
+  "kind": "shifted_utt",
+  "note": "target [23] -> [26]"
+ },
+ "s019": {
+  "set_id": "set_01003",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "wrong_speaker",
+  "note": "speaker Elif -> Aisha"
+ },
+ "s020": {
+  "set_id": "set_01019",
+  "link_id": "B6",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s021": {
+  "set_id": "set_01000",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "wrong_speaker",
+  "note": "speaker Ingrid -> Diego"
+ },
+ "s022": {
+  "set_id": "set_01002",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s023": {
+  "set_id": "set_01023",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s024": {
+  "set_id": "set_01014",
+  "link_id": "B8",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s025": {
+  "set_id": "set_01012",
+  "link_id": "B4",
+  "role": "proposal",
+  "kind": "wrong_speaker",
+  "note": "speaker Henrik -> Kofi"
+ },
+ "s026": {
+  "set_id": "set_01012",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "unsupportive",
+  "note": "target moved to m3[3]"
+ },
+ "s027": {
+  "set_id": "set_01003",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "wrong_speaker",
+  "note": "speaker Tariq -> Aisha"
+ },
+ "s028": {
+  "set_id": "set_01014",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "wrong_role",
+  "note": "role evidence -> challenge"
+ },
+ "s029": {
+  "set_id": "set_01015",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s030": {
+  "set_id": "set_01030",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s031": {
+  "set_id": "set_01004",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "wrong_speaker",
+  "note": "speaker Diego -> Sofia"
+ },
+ "s032": {
+  "set_id": "set_01012",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s033": {
+  "set_id": "set_01030",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "wrong_role",
+  "note": "role reconsideration -> resolution"
+ },
+ "s034": {
+  "set_id": "set_01023",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s035": {
+  "set_id": "set_01000",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "wrong_role",
+  "note": "role proposal -> rationale"
+ },
+ "s036": {
+  "set_id": "set_01006",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "unsupportive",
+  "note": "target moved to m1[0]"
+ },
+ "s037": {
+  "set_id": "set_01015",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "wrong_speaker",
+  "note": "speaker Dmitri -> Kwame"
+ },
+ "s038": {
+  "set_id": "set_01030",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "unsupportive",
+  "note": "target moved to m1[38]"
+ },
+ "s039": {
+  "set_id": "set_01014",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s040": {
+  "set_id": "set_01030",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "shifted_utt",
+  "note": "target [18] -> [25]"
+ },
+ "s041": {
+  "set_id": "set_01016",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "unsupportive",
+  "note": "target moved to m1[0]"
+ },
+ "s042": {
+  "set_id": "set_01030",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "shifted_utt",
+  "note": "target [31] -> [35]"
+ },
+ "s043": {
+  "set_id": "set_01015",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "unsupportive",
+  "note": "target moved to m1[58]"
+ },
+ "s044": {
+  "set_id": "set_01013",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "shifted_utt",
+  "note": "target [46, 47] -> [49]"
+ },
+ "s045": {
+  "set_id": "set_01023",
+  "link_id": "B7",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s046": {
+  "set_id": "set_01006",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "wrong_speaker",
+  "note": "speaker Elif -> Priya"
+ },
+ "s047": {
+  "set_id": "set_01004",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s048": {
+  "set_id": "set_01003",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s049": {
+  "set_id": "set_01014",
+  "link_id": "B7",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s050": {
+  "set_id": "set_01013",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "shifted_utt",
+  "note": "target [35, 36] -> [38]"
+ },
+ "s051": {
+  "set_id": "set_01019",
+  "link_id": "B5",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s052": {
+  "set_id": "set_01004",
+  "link_id": "B12",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s053": {
+  "set_id": "set_01013",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s054": {
+  "set_id": "set_01004",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s055": {
+  "set_id": "set_01013",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "wrong_role",
+  "note": "role resolution -> proposal"
+ },
+ "s056": {
+  "set_id": "set_01000",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "shifted_utt",
+  "note": "target [18] -> [21]"
+ },
+ "s057": {
+  "set_id": "set_01002",
+  "link_id": "B5",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s058": {
+  "set_id": "set_01030",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s059": {
+  "set_id": "set_01006",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s060": {
+  "set_id": "set_01014",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "real",
+  "note": ""
+ },
+ "s061": {
+  "set_id": "set_01016",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "wrong_role",
+  "note": "role rationale -> evidence"
+ },
+ "s062": {
+  "set_id": "set_01004",
+  "link_id": "B9",
+  "role": "challenge",
+  "kind": "real",
+  "note": ""
+ },
+ "s063": {
+  "set_id": "set_01004",
+  "link_id": "B10",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s064": {
+  "set_id": "set_01016",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s065": {
+  "set_id": "set_01002",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s066": {
+  "set_id": "set_01002",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s067": {
+  "set_id": "set_01003",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "real",
+  "note": ""
+ },
+ "s068": {
+  "set_id": "set_01023",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s069": {
+  "set_id": "set_01016",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "wrong_role",
+  "note": "role proposal -> rationale"
+ },
+ "s070": {
+  "set_id": "set_01013",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "unsupportive",
+  "note": "target moved to m1[5]"
+ },
+ "s071": {
+  "set_id": "set_01004",
+  "link_id": "B7",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s072": {
+  "set_id": "set_01003",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s073": {
+  "set_id": "set_01015",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "wrong_speaker",
+  "note": "speaker Ravi -> Henrik"
+ },
+ "s074": {
+  "set_id": "set_01015",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "real",
+  "note": ""
+ },
+ "s075": {
+  "set_id": "set_01013",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s076": {
+  "set_id": "set_01012",
+  "link_id": "B5",
+  "role": "rationale",
+  "kind": "unsupportive",
+  "note": "target moved to m3[16]"
+ },
+ "s077": {
+  "set_id": "set_01016",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "shifted_utt",
+  "note": "target [80] -> [76]"
+ },
+ "s078": {
+  "set_id": "set_01006",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s079": {
+  "set_id": "set_01023",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s080": {
+  "set_id": "set_01003",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "shifted_utt",
+  "note": "target [3] -> [20]"
+ },
+ "s081": {
+  "set_id": "set_01013",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "unsupportive",
+  "note": "target moved to m3[53]"
+ },
+ "s082": {
+  "set_id": "set_01019",
+  "link_id": "B3",
+  "role": "evidence",
+  "kind": "wrong_role",
+  "note": "role evidence -> challenge"
+ },
+ "s083": {
+  "set_id": "set_01014",
+  "link_id": "B6",
+  "role": "rationale",
+  "kind": "wrong_role",
+  "note": "role rationale -> evidence"
+ },
+ "s084": {
+  "set_id": "set_01000",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "wrong_speaker",
+  "note": "speaker Henrik -> Sven"
+ },
+ "s085": {
+  "set_id": "set_01016",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "wrong_role",
+  "note": "role challenge -> rationale"
+ },
+ "s086": {
+  "set_id": "set_01023",
+  "link_id": "B6",
+  "role": "rationale",
+  "kind": "wrong_role",
+  "note": "role rationale -> evidence"
+ },
+ "s087": {
+  "set_id": "set_01000",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "real",
+  "note": ""
+ },
+ "s088": {
+  "set_id": "set_01030",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "unsupportive",
+  "note": "target moved to m3[89]"
+ },
+ "s089": {
+  "set_id": "set_01006",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "wrong_speaker",
+  "note": "speaker Tomas -> Priya"
+ },
+ "s090": {
+  "set_id": "set_01014",
+  "link_id": "B10",
+  "role": "reconsideration",
+  "kind": "shifted_utt",
+  "note": "target [18] -> [10]"
+ },
+ "s091": {
+  "set_id": "set_01012",
+  "link_id": "B6",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s092": {
+  "set_id": "set_01045",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "unsupportive",
+  "note": "target moved to m3[57]"
+ },
+ "s093": {
+  "set_id": "set_01014",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s094": {
+  "set_id": "set_01000",
+  "link_id": "B6",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s095": {
+  "set_id": "set_01004",
+  "link_id": "B8",
+  "role": "evidence",
+  "kind": "shifted_utt",
+  "note": "target [1] -> [10]"
+ },
+ "s096": {
+  "set_id": "set_01015",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s097": {
+  "set_id": "set_01000",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "real",
+  "note": ""
+ },
+ "s098": {
+  "set_id": "set_01019",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "wrong_speaker",
+  "note": "speaker Priya -> Diego"
+ },
+ "s099": {
+  "set_id": "set_01002",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "shifted_utt",
+  "note": "target [15] -> [11]"
+ },
+ "s100": {
+  "set_id": "set_01006",
+  "link_id": "B4",
+  "role": "evidence",
+  "kind": "wrong_speaker",
+  "note": "speaker Priya -> Elif"
+ },
+ "s101": {
+  "set_id": "set_01000",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "shifted_utt",
+  "note": "target [11] -> [7]"
+ },
+ "s102": {
+  "set_id": "set_01016",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s103": {
+  "set_id": "set_01003",
+  "link_id": "B3",
+  "role": "resolution",
+  "kind": "wrong_role",
+  "note": "role resolution -> proposal"
+ },
+ "s104": {
+  "set_id": "set_01004",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "real",
+  "note": ""
+ },
+ "s105": {
+  "set_id": "set_01006",
+  "link_id": "B7",
+  "role": "rationale",
+  "kind": "wrong_role",
+  "note": "role rationale -> evidence"
+ },
+ "s106": {
+  "set_id": "set_01019",
+  "link_id": "B1",
+  "role": "proposal",
+  "kind": "unsupportive",
+  "note": "target moved to m3[40]"
+ },
+ "s107": {
+  "set_id": "set_01002",
+  "link_id": "B6",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s108": {
+  "set_id": "set_01014",
+  "link_id": "B12",
+  "role": "resolution",
+  "kind": "unsupportive",
+  "note": "target moved to m2[26]"
+ },
+ "s109": {
+  "set_id": "set_01006",
+  "link_id": "B5",
+  "role": "challenge",
+  "kind": "real",
+  "note": ""
+ },
+ "s110": {
+  "set_id": "set_01045",
+  "link_id": "B5",
+  "role": "reconsideration",
+  "kind": "real",
+  "note": ""
+ },
+ "s111": {
+  "set_id": "set_01030",
+  "link_id": "B2",
+  "role": "rationale",
+  "kind": "real",
+  "note": ""
+ },
+ "s112": {
+  "set_id": "set_01003",
+  "link_id": "B8",
+  "role": "resolution",
+  "kind": "wrong_speaker",
+  "note": "speaker Tariq -> Aisha"
+ }
+}

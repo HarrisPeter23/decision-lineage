@@ -1,0 +1,252 @@
+{
+ "set_id": "example_001",
+ "cast": [
+  "Meera",
+  "Arjun",
+  "Lena",
+  "Tomas",
+  "Wei"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-03-03",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Okay, let's get started, um, three things today - the order-tracking datastore, sprint dates, and, Tomas, your CI thing.",
+     "ts": "2025-03-03T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Tomas",
+     "text": "Yeah the CI thing can be quick. Datastore first though, that one blocks me.",
+     "ts": "2025-03-03T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Arjun",
+     "text": "So, I've been thinking about this, and I'd say we just go with MongoDB for the order-tracking service.",
+     "ts": "2025-03-03T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Lena",
+     "text": "Hm. Why Mongo, specifically?",
+     "ts": "2025-03-03T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Arjun",
+     "text": "Because the schema's going to keep moving for the first few months - carriers, return flows, whatever finance asks for. With documents we don't write a migration every time someone adds a field, we just ship.",
+     "ts": "2025-03-03T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Wei",
+     "text": "I mean, that part's true, we changed the shipment object twice last quarter.",
+     "ts": "2025-03-03T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Lena",
+     "text": "Sure, but- no, okay, go on, I don't want to derail this.",
+     "ts": "2025-03-03T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Tomas",
+     "text": "Is anyone else hungry? Sorry. Ignore me.",
+     "ts": "2025-03-03T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Meera",
+     "text": "Ha, lunch after. Arjun, you're confident enough about the, the document model?",
+     "ts": "2025-03-03T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Arjun",
+     "text": "Yeah, for now. I can have a prototype by next week.",
+     "ts": "2025-03-03T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Meera",
+     "text": "Fine. Let's do that.",
+     "ts": "2025-03-03T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Meera",
+     "text": "Sprint dates - I was thinking we start on the 17th, does that clash with anyone?",
+     "ts": "2025-03-03T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Wei",
+     "text": "I'm out on the 18th, but that's, that's fine.",
+     "ts": "2025-03-03T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Tomas",
+     "text": "Okay so the CI thing - the flaky tests are mostly the payment mocks. I'll pin them this week.",
+     "ts": "2025-03-03T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Meera",
+     "text": "Great. That's it, thanks everyone.",
+     "ts": "2025-03-03T10:02:48"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-03-10",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Quick recap on the datastore - Arjun has the Mongo prototype running, right?",
+     "ts": "2025-03-10T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Arjun",
+     "text": "Running, yeah, it's on the staging box. Orders go in, shipment events attach as sub-documents.",
+     "ts": "2025-03-10T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Wei",
+     "text": "So - I ran a load test on it over the weekend, because I was curious. At about two million orders the daily report aggregation takes, I think, thirty-eight seconds, and it was still climbing.",
+     "ts": "2025-03-10T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Arjun",
+     "text": "Thirty-eight seconds? That might be the index, I didn't tune-",
+     "ts": "2025-03-10T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Lena",
+     "text": "I don't think it's the index. This is what I was worried about last time. The report is basically joins across orders and payments, and finance is going to want consistent transactions across those, which is not what Mongo's great at. I think this gets worse, not better, as we grow.",
+     "ts": "2025-03-10T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Arjun",
+     "text": "I mean, I could denormalize the payments in.",
+     "ts": "2025-03-10T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Lena",
+     "text": "And then you've got two copies of every payment to keep in sync.",
+     "ts": "2025-03-10T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Tomas",
+     "text": "Can I ask a dumb question - does finance actually need the transactions?",
+     "ts": "2025-03-10T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Wei",
+     "text": "They said they do. Audit thing.",
+     "ts": "2025-03-10T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Meera",
+     "text": "Okay. I don't want to decide this on the fly. Let's all think and, um, come back to it Monday.",
+     "ts": "2025-03-10T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Meera",
+     "text": "Other thing - the carrier demo is on the 20th, so...",
+     "ts": "2025-03-10T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Tomas",
+     "text": "That's tight with the sprint starting on the 17th.",
+     "ts": "2025-03-10T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Meera",
+     "text": "I know. We'll talk about it after.",
+     "ts": "2025-03-10T10:02:24"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-03-17",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Meera",
+     "text": "Right. So, the datastore again. Having sat with it - the load test numbers, and finance needing those transactions - I think we have to reopen the decision.",
+     "ts": "2025-03-17T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Arjun",
+     "text": "Yeah. I've been poking at it all weekend and, honestly, the denormalizing thing is getting ugly.",
+     "ts": "2025-03-17T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Lena",
+     "text": "Can I make the case for Postgres? With JSONB we still get the flexible fields Arjun wanted, so the schema thing isn't lost, and we get joins and proper transactions. And we've barely written any Mongo code, so switching now costs us maybe a week.",
+     "ts": "2025-03-17T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Wei",
+     "text": "A week is fine by me.",
+     "ts": "2025-03-17T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Tomas",
+     "text": "I can help with the, the migrations tooling, if that's the plan.",
+     "ts": "2025-03-17T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Arjun",
+     "text": "I'm, yeah. I'm okay with it. It was a fair bet but the numbers don't lie.",
+     "ts": "2025-03-17T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Meera",
+     "text": "Okay, decision: we're switching the order-tracking service to PostgreSQL. Arjun, you redo the schema this sprint, Lena reviews.",
+     "ts": "2025-03-17T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Arjun",
+     "text": "On it.",
+     "ts": "2025-03-17T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Meera",
+     "text": "Good. Sprint planning in five minutes, grab coffee.",
+     "ts": "2025-03-17T10:01:36"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+Arjun: Okay, I think we're all, Rohan, are you, yep there you are.
+Rohan: Yeah, sorry, my headset did a thing.
+Arjun: Fine. Before anything, Hana, the lunch count. Did it go to the venue?
+Hana: It went Monday. Eleven, and they said fine, and then they asked about, um, allergies, which I did not think of.
+Arjun: Can you just send them a form or-
+Hana: Already did. Tadeusz is the only one who replied so far.
+Arjun: Of course he is.
+Henrik: I got an answer from Anders.
+Arjun: On the policy? Good, hang on, Sven, did you-
+Sven: I did the rerun, yes, I'm about to, it's in the thread.
+Arjun: Okay, hold both of those a second. Henrik, go.
+Henrik: Anders took it to legal. They came back yesterday afternoon.
+Rohan: And?
+Henrik: The wording is that opt-out applies "immediately upon request". Legal read that as no window at all. So a couple of seconds of stale reads counts as a breach.
+Sven: Not even a short grace, like under a second?
+Henrik: No. I asked. They said they'd not sign off on a number.
+Rohan: Huh. So that's, yeah, that's pretty clear then.
+Hana: Does that mean the seven percent is, like, seven percent of messages that would've been a breach, or only the ones right after someone clicks?
+Sven: Only the ones right after. Most of those reads are for people who haven't touched anything.
+Hana: Okay, but still.
+Arjun: Right. So that changes what I said last week. I wasn't going to settle anything on the store until we had the whole picture, and now we've got it, so we're looking at the datastore again, all of it, starting now. @B6
+Henrik: Good.
+Arjun: Sven, your numbers first, since you-
+Sven: Yeah, so I ran both modes, same spike profile as Hana's. Eventual is the same as before, a few ticks of staleness. Consistent reads are clean, zero stale in the run.
+Arjun: And the price?
+Sven: Around twelve hundred a month at the nine thousand peak. Maybe a bit over, I'd say twelve-fifty if the campaigns grow.
+Rohan: So that's, what, double the six hundred.
+Sven: Double, yeah. Which is what we figured.
+Hana: And latency on those?
+Sven: Higher than the eventual ones. Somewhere around, um, I wrote it down. Twenty-something milliseconds at the ninety-ninth.
+Arjun: Okay so it works, it's just-
+Sven: It works. I'm not saying it doesn't work.
+Rohan: So honestly that still seems cheaper than the other one. Roughly half?
+Sven: Than the cluster, yeah. A bit over half, under, I mean, it's twelve versus twenty-one.
+Arjun: Henrik, you've got that look.
+Henrik: Because cheaper isn't the point anymore.
+Arjun: Go on.
+Henrik: Cluster. We already run it for accounts, and a write there is visible to the very next read. No mode to forget, no flag somebody leaves off in a client. @B7
+Henrik: I put two extra replicas on the staging copy and hit it with the same nine thousand a second. Ninety-ninth percentile came out at eighteen milliseconds. @B7
+Henrik: Twenty-one hundred a month for that setup. Yes it costs more. But the thing is correct by default. @B7
+Rohan: Right, and the key-value one is correct only if everybody remembers to ask.
+Sven: Well, the client wrapper could force strong reads.
+Henrik: Could. Somebody's going to bypass the wrapper.
+Sven: That's, okay, that's fair.
+Hana: Wait, with replicas though, aren't those async? Like doesn't the replica lag?
+Henrik: Reads that need to be fresh go to the primary. Opt-out check goes to the primary path.
+Hana: Oh. That's what we did on the consent thing, wasn't it, I remember the-
+Arjun: Hana, stay with me here.
+Hana: Sorry. Yes. Fine.
+Sven: Did the test have the unsubscribe in the middle of it, like hers did?
+Henrik: Yes. Twenty users flipped during the spike. Nobody got a message after.
+Sven: Okay. That's what I wanted to know.
+Rohan: And Rui is fine with the replica count?
+Henrik: He said two was okay on the current hardware. I haven't asked about three.
+Rohan: We won't need three.
+Arjun: Okay. Anything else against it? Sven?
+Sven: Just the bill, honestly. And I'd mention the tier tables, that's all still one schema in the cluster, so I'd have to redo the doc.
+Arjun: That's a doc.
+Sven: Sure, yes. Just flagging.
+Hana: And the backups, is it the same as the accounts thing?
+Henrik: Same.
+Hana: Good. Okay.
+Arjun: Alright. Then the preferences service goes on the shared relational cluster, with the two extra read replicas. Sven, close out the key-value ticket with Rui and open the new one. @B8
+Henrik: Right.
+Sven: Okay, I'll do it today. I'll copy Henrik's numbers into the description.
+Arjun: Good. Rohan, Davor again.
+Rohan: Yeah, he's going to be annoyed. Another change.
+Arjun: It's a different backend but, uh, the client doesn't see it, does it?
+Rohan: Not really. I'll say that.
+Hana: Can I tell you something about the offsite? Not about the venue, the dinner.
+Arjun: Quick.
+Hana: So the place that does the Wednesday dinner has a rooftop and it's, um, I've been there, it's very nice, but they close the roof if there's any rain, and the forecast for that week is-
+Arjun: Hana, is that a decision or a-
+Hana: It's, um, I want to know if we book it or look at the other one.
+Henrik: Other one.
+Hana: The other one is indoor, so I guess yes.
+Arjun: Fine. Book the indoor one.
+Hana: Okay. Done, I'll do it today.
+Rohan: Did the debug log change go in?
+Arjun: Rohan, that's yours.
+Rohan: It went in Friday. Rui said the sweep already ran.
+Hana: Did I pull my staging logs? I think I pulled them.
+Henrik: You said you did.
+Hana: I pulled them. Yes.
+Arjun: Okay. Sven, the pager rotation, any complaints from Goran's side?
+Sven: One. Magnus wants to swap his first week, that's it.
+Arjun: Fine, let them sort it. I have to jump, I've got a call at the top of the hour. Thanks.
+Sven: Thanks.
+Hana: Bye.

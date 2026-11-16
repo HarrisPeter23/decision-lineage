@@ -1,0 +1,1908 @@
+{
+ "set_id": "set_01025",
+ "cast": [
+  "Tomas",
+  "Lena",
+  "Priya",
+  "Ingrid",
+  "Elif"
+ ],
+ "meetings": [
+  {
+   "meeting_id": "m1",
+   "date": "2025-06-05",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Tomas",
+     "text": "Okay, I think everyone's here. Ingrid, you're muted - no, you're on.",
+     "ts": "2025-06-05T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Ingrid",
+     "text": "Sorry, sorry, I was just finishing a thing with Zofia about the dock schedule. Morning.",
+     "ts": "2025-06-05T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Lena",
+     "text": "Morning. Is this the packaging thing or the other thing?",
+     "ts": "2025-06-05T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Tomas",
+     "text": "Packaging. Northern warehouse.",
+     "ts": "2025-06-05T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Priya",
+     "text": "Oh good, I have opinions about that.",
+     "ts": "2025-06-05T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Elif",
+     "text": "You always have opinions.",
+     "ts": "2025-06-05T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Priya",
+     "text": "That's the point of me being here.",
+     "ts": "2025-06-05T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Tomas",
+     "text": "Right. So, um, where we are is, the boxes keep running out up there and nobody likes how it's been going.",
+     "ts": "2025-06-05T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Elif",
+     "text": "Last month we had two mornings where the packers were waiting on cartons. I logged both.",
+     "ts": "2025-06-05T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Ingrid",
+     "text": "Was that the Tuesday when the van broke down? Because I heard Bilal say the van broke down and that was why-",
+     "ts": "2025-06-05T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Elif",
+     "text": "Different van. That was the inbound pallets.",
+     "ts": "2025-06-05T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Ingrid",
+     "text": "Oh. Okay. Sorry.",
+     "ts": "2025-06-05T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Tomas",
+     "text": "So what's the fix. Lena, you had something?",
+     "ts": "2025-06-05T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Lena",
+     "text": "Yeah, so, I've been thinking about it as, like, stop ordering when we panic and just get it on a rhythm. A weekly standing order with Calder, for all the corrugated and the void-fill, northern only.",
+     "ts": "2025-06-05T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Priya",
+     "text": "Everything? Both?",
+     "ts": "2025-06-05T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Lena",
+     "text": "Both, yeah. One order, one day, done.",
+     "ts": "2025-06-05T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Elif",
+     "text": "What's the weekly volume you're picturing? Because the void-fill moves differently from the cartons.",
+     "ts": "2025-06-05T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Lena",
+     "text": "Um, roughly what we use now, I'd say. I haven't got the sheet in front of me.",
+     "ts": "2025-06-05T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Elif",
+     "text": "It's about, hmm, fourteen hundred cartons a week on average, but it swings.",
+     "ts": "2025-06-05T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Priya",
+     "text": "See, that swing is my worry. A fixed order on a swinging number.",
+     "ts": "2025-06-05T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Lena",
+     "text": "Right, but that's sort of the thing. Calder gets it to us inside forty-eight hours, so we don't need to hold a big cushion.",
+     "ts": "2025-06-05T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Lena",
+     "text": "We could hold around five days of stock instead of what, three weeks? And that frees up something like a hundred and forty pallet positions.",
+     "ts": "2025-06-05T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Elif",
+     "text": "At eleven pounds a position a month, that's-",
+     "ts": "2025-06-05T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Lena",
+     "text": "Yeah, don't make me do it, it's like fifteen hundred a month, give or take.",
+     "ts": "2025-06-05T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Elif",
+     "text": "Fifteen forty, if it's exactly one-forty.",
+     "ts": "2025-06-05T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Lena",
+     "text": "There you go.",
+     "ts": "2025-06-05T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Ingrid",
+     "text": "That's a lot of floor space. When I was at the old site we had a whole aisle just full of mailer bags nobody used and-",
+     "ts": "2025-06-05T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Priya",
+     "text": "Ingrid.",
+     "ts": "2025-06-05T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Ingrid",
+     "text": "Right. Yes. Sorry. Carry on.",
+     "ts": "2025-06-05T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Priya",
+     "text": "Okay, devil's advocate. Forty-eight hours is what they say. What do they actually do?",
+     "ts": "2025-06-05T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Elif",
+     "text": "I have the last six months from the portal. Mostly inside two days. Twice it was three.",
+     "ts": "2025-06-05T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Priya",
+     "text": "Twice it was three. So that's the two mornings.",
+     "ts": "2025-06-05T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Elif",
+     "text": "No, the two mornings were before we used the portal. Different cause.",
+     "ts": "2025-06-05T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Priya",
+     "text": "Mm. Okay.",
+     "ts": "2025-06-05T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Tomas",
+     "text": "Hm.",
+     "ts": "2025-06-05T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Lena",
+     "text": "And if it slips we just have five days of cover, which is still-",
+     "ts": "2025-06-05T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Priya",
+     "text": "Five days isn't a lot when it slips by three.",
+     "ts": "2025-06-05T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Lena",
+     "text": "It's two days of margin, though.",
+     "ts": "2025-06-05T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Priya",
+     "text": "A bit thin.",
+     "ts": "2025-06-05T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Ingrid",
+     "text": "Can I just say, did anyone else get the email about the badge readers? Because mine stopped working on the east door yesterday.",
+     "ts": "2025-06-05T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Tomas",
+     "text": "Not now, Ingrid.",
+     "ts": "2025-06-05T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Ingrid",
+     "text": "Okay. Later.",
+     "ts": "2025-06-05T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Elif",
+     "text": "Mine worked fine.",
+     "ts": "2025-06-05T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Ingrid",
+     "text": "It's probably just mine.",
+     "ts": "2025-06-05T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Priya",
+     "text": "Back to it. What happens at peak? The July stuff.",
+     "ts": "2025-06-05T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Lena",
+     "text": "Well, that's, um, I'd have to ask Oksana what Calder said about peak.",
+     "ts": "2025-06-05T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Elif",
+     "text": "Oksana told me they hold buffer for standing customers. Standing orders get priority over the ad hoc ones.",
+     "ts": "2025-06-05T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Priya",
+     "text": "That's a point for it, I guess.",
+     "ts": "2025-06-05T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Lena",
+     "text": "Thank you.",
+     "ts": "2025-06-05T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Priya",
+     "text": "I'm not agreeing. I'm acknowledging.",
+     "ts": "2025-06-05T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Elif",
+     "text": "And the price? Is it the same per unit on a standing order?",
+     "ts": "2025-06-05T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Lena",
+     "text": "Same or slightly better, I think. I'd want to double check with Bao.",
+     "ts": "2025-06-05T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Elif",
+     "text": "Bao quoted me two percent under list for committed volume. That was in April.",
+     "ts": "2025-06-05T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Lena",
+     "text": "See, that's even better then.",
+     "ts": "2025-06-05T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Priya",
+     "text": "Unless the committed volume bites us.",
+     "ts": "2025-06-05T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Elif",
+     "text": "There's no minimum on the quote, there's a, um, a band. Plus or minus twenty percent we can change without a fee.",
+     "ts": "2025-06-05T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Priya",
+     "text": "Plus or minus twenty. Okay, that's more reasonable than I thought.",
+     "ts": "2025-06-05T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Ingrid",
+     "text": "Is that written down anywhere?",
+     "ts": "2025-06-05T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Elif",
+     "text": "It's in the quote. I can forward it.",
+     "ts": "2025-06-05T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Ingrid",
+     "text": "Yes please.",
+     "ts": "2025-06-05T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Tomas",
+     "text": "Mm.",
+     "ts": "2025-06-05T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "So it's basically, it's just a way of not having to think about it every week.",
+     "ts": "2025-06-05T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Priya",
+     "text": "Which is what people say right before they stop checking.",
+     "ts": "2025-06-05T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Elif",
+     "text": "We'd still check. The stock count is on Mondays anyway.",
+     "ts": "2025-06-05T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Priya",
+     "text": "Fine. But someone owns the Monday check.",
+     "ts": "2025-06-05T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Elif",
+     "text": "I can. For now.",
+     "ts": "2025-06-05T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "Great.",
+     "ts": "2025-06-05T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Ingrid",
+     "text": "I could do it too, I'm up there on Mondays anyway for-",
+     "ts": "2025-06-05T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Elif",
+     "text": "It's fine, I've got it.",
+     "ts": "2025-06-05T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Ingrid",
+     "text": "Okay.",
+     "ts": "2025-06-05T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Priya",
+     "text": "What about the existing orders? Joao had a couple of open ones, didn't he?",
+     "ts": "2025-06-05T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Elif",
+     "text": "Two open with the old supplier, both delivering by the twentieth. They'd just run off.",
+     "ts": "2025-06-05T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "So no overlap problem.",
+     "ts": "2025-06-05T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Elif",
+     "text": "A bit of overlap, we'd have a lot of boxes for a week or so.",
+     "ts": "2025-06-05T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Priya",
+     "text": "That's fine, nobody ever complained about too many boxes.",
+     "ts": "2025-06-05T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Ingrid",
+     "text": "Actually, there was a time at the other site where we had so many-",
+     "ts": "2025-06-05T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Priya",
+     "text": "Ingrid.",
+     "ts": "2025-06-05T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Ingrid",
+     "text": "Yes. Sorry.",
+     "ts": "2025-06-05T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Tomas",
+     "text": "Anyone else got a concern? Before I-",
+     "ts": "2025-06-05T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Priya",
+     "text": "One more. If Calder has a bad month, who do we call?",
+     "ts": "2025-06-05T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Lena",
+     "text": "Their account person. Elif's got the number.",
+     "ts": "2025-06-05T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Elif",
+     "text": "I do. And the old supplier is still on the system if we need a one-off.",
+     "ts": "2025-06-05T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Priya",
+     "text": "So we're not locked out of the other route.",
+     "ts": "2025-06-05T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Elif",
+     "text": "No. It's just not the default.",
+     "ts": "2025-06-05T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Priya",
+     "text": "Okay. That's a decent answer. I'll stop.",
+     "ts": "2025-06-05T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Lena",
+     "text": "That's it?",
+     "ts": "2025-06-05T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Priya",
+     "text": "For now.",
+     "ts": "2025-06-05T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Tomas",
+     "text": "Okay. Then the northern warehouse gets its corrugated and void-fill from the weekly Calder standing order. That's how we're doing it.",
+     "ts": "2025-06-05T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Lena",
+     "text": "Brilliant.",
+     "ts": "2025-06-05T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Elif",
+     "text": "Do you want me to tell Bao, or you?",
+     "ts": "2025-06-05T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Tomas",
+     "text": "You do it. Cc me.",
+     "ts": "2025-06-05T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Elif",
+     "text": "Will do. I'll ask about the first delivery date as well.",
+     "ts": "2025-06-05T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Lena",
+     "text": "Can we make it a Thursday? Thursdays are quiet on the dock.",
+     "ts": "2025-06-05T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Elif",
+     "text": "I'll ask. Might depend on their routes.",
+     "ts": "2025-06-05T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Ingrid",
+     "text": "Thursday's good. Thursdays Ines is off, so there's less people in the way.",
+     "ts": "2025-06-05T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Tomas",
+     "text": "Right.",
+     "ts": "2025-06-05T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Priya",
+     "text": "I'd still like the Monday check in writing somewhere.",
+     "ts": "2025-06-05T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Elif",
+     "text": "I'll put a line in the weekly sheet.",
+     "ts": "2025-06-05T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Priya",
+     "text": "Thank you.",
+     "ts": "2025-06-05T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Ingrid",
+     "text": "Okay, so, the badge thing. I think it might actually be the whole east door and not just mine.",
+     "ts": "2025-06-05T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Tomas",
+     "text": "Raise it with facilities.",
+     "ts": "2025-06-05T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Ingrid",
+     "text": "Facilities is Zofia's thing, isn't it?",
+     "ts": "2025-06-05T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Lena",
+     "text": "It's Bilal now.",
+     "ts": "2025-06-05T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Ingrid",
+     "text": "Since when?",
+     "ts": "2025-06-05T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Lena",
+     "text": "Since the reorg. March, I think.",
+     "ts": "2025-06-05T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Elif",
+     "text": "April.",
+     "ts": "2025-06-05T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Lena",
+     "text": "April, whatever.",
+     "ts": "2025-06-05T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Ingrid",
+     "text": "Okay, I'll ping Bilal then.",
+     "ts": "2025-06-05T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Tomas",
+     "text": "Anything else?",
+     "ts": "2025-06-05T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Lena",
+     "text": "No, I think that's us.",
+     "ts": "2025-06-05T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Priya",
+     "text": "I've got a call at half past.",
+     "ts": "2025-06-05T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Tomas",
+     "text": "Then that's it. Thanks, all.",
+     "ts": "2025-06-05T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Elif",
+     "text": "Thanks.",
+     "ts": "2025-06-05T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Ingrid",
+     "text": "Bye!",
+     "ts": "2025-06-05T10:22:36"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m2",
+   "date": "2025-06-12",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Tomas",
+     "text": "Right, we're all here. Before anything, did the Thursday slot go through with Calder?",
+     "ts": "2025-06-12T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Elif",
+     "text": "Yes, first drop was last Thursday, came in at ten past nine. Fine.",
+     "ts": "2025-06-12T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Lena",
+     "text": "Oh good. Did the cartons look okay? I heard someone say the corners were crushed.",
+     "ts": "2025-06-12T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Elif",
+     "text": "That was one pallet. Bottom layer, I took photos.",
+     "ts": "2025-06-12T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Ingrid",
+     "text": "Was that the pallet that sat outside because the dock was busy? Because Zofia said something about the dock being full and then-",
+     "ts": "2025-06-12T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Priya",
+     "text": "Let him talk, Ingrid, he's got something.",
+     "ts": "2025-06-12T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Tomas",
+     "text": "Yeah. Um. I got a call from Oksana yesterday afternoon.",
+     "ts": "2025-06-12T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Lena",
+     "text": "About the Calder thing?",
+     "ts": "2025-06-12T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Tomas",
+     "text": "About Calder, yes. They're shutting the northern depot. Six weeks from now.",
+     "ts": "2025-06-12T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Priya",
+     "text": "Shutting it. Like fully?",
+     "ts": "2025-06-12T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Tomas",
+     "text": "Fully. So what we get comes up from the Midlands instead, and that's a five-day lead, not two. Plus they add four hundred and fifty a drop.",
+     "ts": "2025-06-12T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Elif",
+     "text": "Four fifty per delivery? Not per pallet?",
+     "ts": "2025-06-12T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Tomas",
+     "text": "Per drop. It's in the email, I'll forward it.",
+     "ts": "2025-06-12T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Lena",
+     "text": "Huh. That's not great.",
+     "ts": "2025-06-12T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Priya",
+     "text": "Five days. So the whole forty-eight hours business-",
+     "ts": "2025-06-12T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Tomas",
+     "text": "That's the bit. The stock level we picked was built on getting a top-up inside two days. That's gone.",
+     "ts": "2025-06-12T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Tomas",
+     "text": "So I'd like to look at it again. Properly. Not just tweak the number.",
+     "ts": "2025-06-12T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Elif",
+     "text": "Fair. Five days of cover with a five day lead means we're basically ordering on the day we run out.",
+     "ts": "2025-06-12T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Lena",
+     "text": "Right, so the whole idea sort of falls over.",
+     "ts": "2025-06-12T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Priya",
+     "text": "Does it though? You could just hold more.",
+     "ts": "2025-06-12T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Elif",
+     "text": "More than five days, sure, but then you're back to the floor space we wanted to give up.",
+     "ts": "2025-06-12T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Priya",
+     "text": "Which is a cost, not a disaster.",
+     "ts": "2025-06-12T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Ingrid",
+     "text": "Can I ask what the weekly drops cost now? Before the closure I mean.",
+     "ts": "2025-06-12T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Elif",
+     "text": "Nothing extra. It was in the unit price.",
+     "ts": "2025-06-12T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Ingrid",
+     "text": "Okay, so it's all new money then.",
+     "ts": "2025-06-12T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Tomas",
+     "text": "Yeah.",
+     "ts": "2025-06-12T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Lena",
+     "text": "Is the old supplier still an option? The one we used before?",
+     "ts": "2025-06-12T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Elif",
+     "text": "They're on the system. Their lead time was never great though, and I don't have a current quote.",
+     "ts": "2025-06-12T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Priya",
+     "text": "What about the other one, the paper mill? Fenmoor. Didn't Bao get a figure from them?",
+     "ts": "2025-06-12T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Elif",
+     "text": "Bao did, back in the spring. I'd have to find it.",
+     "ts": "2025-06-12T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Ingrid",
+     "text": "I've got it, actually. It was in that thread with Joao.",
+     "ts": "2025-06-12T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Tomas",
+     "text": "Go on.",
+     "ts": "2025-06-12T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Ingrid",
+     "text": "So, um, Fenmoor came in about eight percent under on the tonne. And that's for the month's worth in one go.",
+     "ts": "2025-06-12T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Priya",
+     "text": "One go. So that's the monthly bulk thing.",
+     "ts": "2025-06-12T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Ingrid",
+     "text": "Right. And the catch is you need somewhere to put it. A buffer of about three weeks sitting at the warehouse.",
+     "ts": "2025-06-12T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Lena",
+     "text": "Which is a lot of boxes.",
+     "ts": "2025-06-12T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Ingrid",
+     "text": "It's roughly ninety pallet positions. At what we pay per position that's about a thousand a month, give or take.",
+     "ts": "2025-06-12T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Elif",
+     "text": "Ninety times eleven. Nine-ninety. Yes, call it a thousand.",
+     "ts": "2025-06-12T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Ingrid",
+     "text": "And the Calder way, with the surcharge, you'd have four drops a month. Four fifty each. That's, um, eighteen hundred.",
+     "ts": "2025-06-12T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Priya",
+     "text": "So the storage is cheaper than the surcharges.",
+     "ts": "2025-06-12T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Ingrid",
+     "text": "By a fair margin, and you also get the lower price on the paper. And three weeks of cover means a late truck doesn't hurt.",
+     "ts": "2025-06-12T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Priya",
+     "text": "Devil's advocate. Three weeks of stock is exactly what we said we didn't want.",
+     "ts": "2025-06-12T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Ingrid",
+     "text": "We said we didn't want it when it was free to avoid. Now it isn't.",
+     "ts": "2025-06-12T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Priya",
+     "text": "Hm. Okay. That's not a bad answer.",
+     "ts": "2025-06-12T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Lena",
+     "text": "And the space is there? In the northern building?",
+     "ts": "2025-06-12T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Elif",
+     "text": "It's there. Ninety positions is the same as what we freed up, nearly.",
+     "ts": "2025-06-12T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Lena",
+     "text": "So it's like going back to before, but cheaper.",
+     "ts": "2025-06-12T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Elif",
+     "text": "Roughly, yes. The paper price is the difference.",
+     "ts": "2025-06-12T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Priya",
+     "text": "And no minimum from Fenmoor?",
+     "ts": "2025-06-12T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Ingrid",
+     "text": "Um, I don't remember. I think there's a minimum drop size.",
+     "ts": "2025-06-12T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Elif",
+     "text": "I'll check the quote. It's a monthly volume anyway, so we'd be over it.",
+     "ts": "2025-06-12T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Tomas",
+     "text": "Okay. Then the northern warehouse moves to the monthly Fenmoor bulk order, with the three-week buffer.",
+     "ts": "2025-06-12T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Lena",
+     "text": "Okay, great.",
+     "ts": "2025-06-12T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Elif",
+     "text": "Do I tell Bao, or Oksana, about Calder stopping the weekly?",
+     "ts": "2025-06-12T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Tomas",
+     "text": "Tell Oksana. She should hear it from us before the depot thing is official.",
+     "ts": "2025-06-12T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Elif",
+     "text": "Will do. I'll keep the Monday count going.",
+     "ts": "2025-06-12T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Priya",
+     "text": "Please do. More stock, more to lose track of.",
+     "ts": "2025-06-12T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Elif",
+     "text": "It's in the sheet already.",
+     "ts": "2025-06-12T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Lena",
+     "text": "Is there anything else on this, or are we done? I've got a thing at eleven.",
+     "ts": "2025-06-12T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Tomas",
+     "text": "One other item. Ingrid, the dock.",
+     "ts": "2025-06-12T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Ingrid",
+     "text": "Right, yes. The carriers. Okay so, what if we give them two-hour appointment windows, rather than the whole day?",
+     "ts": "2025-06-12T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Priya",
+     "text": "Instead of all-day, you mean.",
+     "ts": "2025-06-12T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Ingrid",
+     "text": "Yeah. Instead of the whole day.",
+     "ts": "2025-06-12T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Lena",
+     "text": "Is that a big change for them?",
+     "ts": "2025-06-12T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Ingrid",
+     "text": "Not really, most of the big ones already do it at other sites.",
+     "ts": "2025-06-12T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Tomas",
+     "text": "Why now?",
+     "ts": "2025-06-12T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Ingrid",
+     "text": "Because of the yard. The trucks are sitting there about ninety-five minutes on average, I pulled it from the gate log.",
+     "ts": "2025-06-12T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Elif",
+     "text": "Ninety-five. That's a lot.",
+     "ts": "2025-06-12T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Ingrid",
+     "text": "And then most afternoons the dock itself is empty for, I want to say three hours. Nothing coming in at all.",
+     "ts": "2025-06-12T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Priya",
+     "text": "So everyone turns up in the morning because they can.",
+     "ts": "2025-06-12T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Ingrid",
+     "text": "Exactly that. And Zofia says it's the same mess every day.",
+     "ts": "2025-06-12T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Lena",
+     "text": "That does sound daft when you say it like that.",
+     "ts": "2025-06-12T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "Any downside? Drivers hate being held to a time.",
+     "ts": "2025-06-12T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Ingrid",
+     "text": "They hate sitting on our yard more.",
+     "ts": "2025-06-12T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Priya",
+     "text": "Fair.",
+     "ts": "2025-06-12T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Tomas",
+     "text": "Okay. Two-hour windows for carriers, starting with the next booking round.",
+     "ts": "2025-06-12T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Ingrid",
+     "text": "I'll draft the note to them. And Ines will need to know for the gate.",
+     "ts": "2025-06-12T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Tomas",
+     "text": "Copy Bilal as well.",
+     "ts": "2025-06-12T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Ingrid",
+     "text": "Will do. Sorry, was Bilal facilities or is that still Zofia?",
+     "ts": "2025-06-12T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Lena",
+     "text": "Bilal.",
+     "ts": "2025-06-12T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Tomas",
+     "text": "Right. That's us, thanks.",
+     "ts": "2025-06-12T10:16:00"
+    }
+   ]
+  },
+  {
+   "meeting_id": "m3",
+   "date": "2025-06-19",
+   "utterances": [
+    {
+     "idx": 0,
+     "speaker": "Tomas",
+     "text": "Okay, we're all here. Um, let's start with the Fenmoor side, since that's the one with dates on it.",
+     "ts": "2025-06-19T10:00:00"
+    },
+    {
+     "idx": 1,
+     "speaker": "Elif",
+     "text": "I checked the quote like I said. The minimum drop is eight pallets, so the monthly volume clears it easily.",
+     "ts": "2025-06-19T10:00:12"
+    },
+    {
+     "idx": 2,
+     "speaker": "Priya",
+     "text": "Eight. And we'd be doing, what, forty-odd a month?",
+     "ts": "2025-06-19T10:00:24"
+    },
+    {
+     "idx": 3,
+     "speaker": "Elif",
+     "text": "Closer to fifty. It's in the sheet.",
+     "ts": "2025-06-19T10:00:36"
+    },
+    {
+     "idx": 4,
+     "speaker": "Lena",
+     "text": "Good. So that's, that's not an issue then.",
+     "ts": "2025-06-19T10:00:48"
+    },
+    {
+     "idx": 5,
+     "speaker": "Elif",
+     "text": "No. The thing I don't have is a first delivery date.",
+     "ts": "2025-06-19T10:01:00"
+    },
+    {
+     "idx": 6,
+     "speaker": "Tomas",
+     "text": "Did you ask?",
+     "ts": "2025-06-19T10:01:12"
+    },
+    {
+     "idx": 7,
+     "speaker": "Elif",
+     "text": "I asked Bao to ask them. He said he'd come back this week.",
+     "ts": "2025-06-19T10:01:24"
+    },
+    {
+     "idx": 8,
+     "speaker": "Tomas",
+     "text": "When does Calder actually stop up north? I had six weeks from the call.",
+     "ts": "2025-06-19T10:01:36"
+    },
+    {
+     "idx": 9,
+     "speaker": "Elif",
+     "text": "End of July, if I count it from the email. I'd have to look at the exact day.",
+     "ts": "2025-06-19T10:01:48"
+    },
+    {
+     "idx": 10,
+     "speaker": "Lena",
+     "text": "So it's sort of a month and a bit from now.",
+     "ts": "2025-06-19T10:02:00"
+    },
+    {
+     "idx": 11,
+     "speaker": "Elif",
+     "text": "About that. Which matters, because the first Fenmoor load has to land before then, not after.",
+     "ts": "2025-06-19T10:02:12"
+    },
+    {
+     "idx": 12,
+     "speaker": "Priya",
+     "text": "Or you have a gap with nothing coming.",
+     "ts": "2025-06-19T10:02:24"
+    },
+    {
+     "idx": 13,
+     "speaker": "Elif",
+     "text": "Yes. That's the gap I don't love.",
+     "ts": "2025-06-19T10:02:36"
+    },
+    {
+     "idx": 14,
+     "speaker": "Lena",
+     "text": "Could the last Calder drops just cover it?",
+     "ts": "2025-06-19T10:02:48"
+    },
+    {
+     "idx": 15,
+     "speaker": "Elif",
+     "text": "They could, if the weekly ones keep running until the depot shuts. I'd want that in writing.",
+     "ts": "2025-06-19T10:03:00"
+    },
+    {
+     "idx": 16,
+     "speaker": "Tomas",
+     "text": "Mm. Ask Oksana.",
+     "ts": "2025-06-19T10:03:12"
+    },
+    {
+     "idx": 17,
+     "speaker": "Elif",
+     "text": "I'll put it in the same email.",
+     "ts": "2025-06-19T10:03:24"
+    },
+    {
+     "idx": 18,
+     "speaker": "Priya",
+     "text": "And the buffer, does it have to be full on day one? Or does it build up?",
+     "ts": "2025-06-19T10:03:36"
+    },
+    {
+     "idx": 19,
+     "speaker": "Elif",
+     "text": "It builds. The first month's load is the buffer, more or less. Then each month tops it up.",
+     "ts": "2025-06-19T10:03:48"
+    },
+    {
+     "idx": 20,
+     "speaker": "Priya",
+     "text": "So the first few weeks you're thin.",
+     "ts": "2025-06-19T10:04:00"
+    },
+    {
+     "idx": 21,
+     "speaker": "Elif",
+     "text": "Thin, yes, but with Calder still running that's covered.",
+     "ts": "2025-06-19T10:04:12"
+    },
+    {
+     "idx": 22,
+     "speaker": "Lena",
+     "text": "Right. Right, that makes sense.",
+     "ts": "2025-06-19T10:04:24"
+    },
+    {
+     "idx": 23,
+     "speaker": "Ingrid",
+     "text": "Can I ask about the pallet positions? Where are the ninety actually going? Is it the back bay?",
+     "ts": "2025-06-19T10:04:36"
+    },
+    {
+     "idx": 24,
+     "speaker": "Elif",
+     "text": "Aisles fourteen to seventeen, the ones we cleared in the spring.",
+     "ts": "2025-06-19T10:04:48"
+    },
+    {
+     "idx": 25,
+     "speaker": "Ingrid",
+     "text": "Oh, those. Those were full of the returns stuff before, weren't they. Did anyone ever-",
+     "ts": "2025-06-19T10:05:00"
+    },
+    {
+     "idx": 26,
+     "speaker": "Tomas",
+     "text": "They're clear.",
+     "ts": "2025-06-19T10:05:12"
+    },
+    {
+     "idx": 27,
+     "speaker": "Ingrid",
+     "text": "Okay. Good.",
+     "ts": "2025-06-19T10:05:24"
+    },
+    {
+     "idx": 28,
+     "speaker": "Priya",
+     "text": "Who checks that? Because \"clear\" in my experience means \"clear apart from three pallets\".",
+     "ts": "2025-06-19T10:05:36"
+    },
+    {
+     "idx": 29,
+     "speaker": "Elif",
+     "text": "I walked it on Tuesday. Two empty racks have a bent beam, though.",
+     "ts": "2025-06-19T10:05:48"
+    },
+    {
+     "idx": 30,
+     "speaker": "Lena",
+     "text": "Is that bad?",
+     "ts": "2025-06-19T10:06:00"
+    },
+    {
+     "idx": 31,
+     "speaker": "Elif",
+     "text": "It's a safety thing, they can't be loaded until it's fixed. So maybe eighty-five usable. Maybe less.",
+     "ts": "2025-06-19T10:06:12"
+    },
+    {
+     "idx": 32,
+     "speaker": "Priya",
+     "text": "Eighty-five. Ha. So not quite ninety.",
+     "ts": "2025-06-19T10:06:24"
+    },
+    {
+     "idx": 33,
+     "speaker": "Elif",
+     "text": "Close enough for the first month. I've asked maintenance for a date.",
+     "ts": "2025-06-19T10:06:36"
+    },
+    {
+     "idx": 34,
+     "speaker": "Tomas",
+     "text": "Who's maintenance, Bilal?",
+     "ts": "2025-06-19T10:06:48"
+    },
+    {
+     "idx": 35,
+     "speaker": "Elif",
+     "text": "Bilal's got the request, yes.",
+     "ts": "2025-06-19T10:07:00"
+    },
+    {
+     "idx": 36,
+     "speaker": "Lena",
+     "text": "Is that going to eat into the budget?",
+     "ts": "2025-06-19T10:07:12"
+    },
+    {
+     "idx": 37,
+     "speaker": "Elif",
+     "text": "It's an existing line. I don't think it's anything we have to find.",
+     "ts": "2025-06-19T10:07:24"
+    },
+    {
+     "idx": 38,
+     "speaker": "Lena",
+     "text": "Okay. I just wanted to be sure that wasn't coming out of us.",
+     "ts": "2025-06-19T10:07:36"
+    },
+    {
+     "idx": 39,
+     "speaker": "Priya",
+     "text": "What about the Monday count? Is it still just the one sheet?",
+     "ts": "2025-06-19T10:07:48"
+    },
+    {
+     "idx": 40,
+     "speaker": "Elif",
+     "text": "One sheet. I'm adding a column for weeks of cover, so you can see it drop.",
+     "ts": "2025-06-19T10:08:00"
+    },
+    {
+     "idx": 41,
+     "speaker": "Priya",
+     "text": "Weeks, not days.",
+     "ts": "2025-06-19T10:08:12"
+    },
+    {
+     "idx": 42,
+     "speaker": "Elif",
+     "text": "Weeks now, yes. Days looks silly at that level.",
+     "ts": "2025-06-19T10:08:24"
+    },
+    {
+     "idx": 43,
+     "speaker": "Priya",
+     "text": "Fine. Someone other than you should be able to read it though.",
+     "ts": "2025-06-19T10:08:36"
+    },
+    {
+     "idx": 44,
+     "speaker": "Elif",
+     "text": "It's got a note at the top.",
+     "ts": "2025-06-19T10:08:48"
+    },
+    {
+     "idx": 45,
+     "speaker": "Tomas",
+     "text": "Anything else on this one? Otherwise I'd like to get the others.",
+     "ts": "2025-06-19T10:09:00"
+    },
+    {
+     "idx": 46,
+     "speaker": "Lena",
+     "text": "Just that I'll tell the others upstairs once there's a date.",
+     "ts": "2025-06-19T10:09:12"
+    },
+    {
+     "idx": 47,
+     "speaker": "Tomas",
+     "text": "Please. Yeah.",
+     "ts": "2025-06-19T10:09:24"
+    },
+    {
+     "idx": 48,
+     "speaker": "Elif",
+     "text": "I'll send it round once Bao replies.",
+     "ts": "2025-06-19T10:09:36"
+    },
+    {
+     "idx": 49,
+     "speaker": "Tomas",
+     "text": "Good. Next. The carrier note. Ingrid, where's that?",
+     "ts": "2025-06-19T10:09:48"
+    },
+    {
+     "idx": 50,
+     "speaker": "Ingrid",
+     "text": "Drafted. It's basically one page. Two-hour windows, from the first booking round in July.",
+     "ts": "2025-06-19T10:10:00"
+    },
+    {
+     "idx": 51,
+     "speaker": "Priya",
+     "text": "Did Ines see it?",
+     "ts": "2025-06-19T10:10:12"
+    },
+    {
+     "idx": 52,
+     "speaker": "Ingrid",
+     "text": "She did, she's fine with the gate part. She did ask whether the windows are fixed or if carriers can swap.",
+     "ts": "2025-06-19T10:10:24"
+    },
+    {
+     "idx": 53,
+     "speaker": "Lena",
+     "text": "Can they?",
+     "ts": "2025-06-19T10:10:36"
+    },
+    {
+     "idx": 54,
+     "speaker": "Ingrid",
+     "text": "Um, I put that they can swap with a day's notice, but I'm not sure that's right.",
+     "ts": "2025-06-19T10:10:48"
+    },
+    {
+     "idx": 55,
+     "speaker": "Priya",
+     "text": "A day's notice will become no notice in a week.",
+     "ts": "2025-06-19T10:11:00"
+    },
+    {
+     "idx": 56,
+     "speaker": "Ingrid",
+     "text": "Probably, yes.",
+     "ts": "2025-06-19T10:11:12"
+    },
+    {
+     "idx": 57,
+     "speaker": "Tomas",
+     "text": "Leave it as is for now. See how it goes.",
+     "ts": "2025-06-19T10:11:24"
+    },
+    {
+     "idx": 58,
+     "speaker": "Ingrid",
+     "text": "Okay. And Bilal asked to be copied, so I did.",
+     "ts": "2025-06-19T10:11:36"
+    },
+    {
+     "idx": 59,
+     "speaker": "Lena",
+     "text": "Did anyone see the thing from Zofia about the fire door signage?",
+     "ts": "2025-06-19T10:11:48"
+    },
+    {
+     "idx": 60,
+     "speaker": "Priya",
+     "text": "Is that the one with the new stickers?",
+     "ts": "2025-06-19T10:12:00"
+    },
+    {
+     "idx": 61,
+     "speaker": "Lena",
+     "text": "Yes, that. She wants the stickers done by the end of the month.",
+     "ts": "2025-06-19T10:12:12"
+    },
+    {
+     "idx": 62,
+     "speaker": "Priya",
+     "text": "It's a sticker.",
+     "ts": "2025-06-19T10:12:24"
+    },
+    {
+     "idx": 63,
+     "speaker": "Lena",
+     "text": "It's sixty doors.",
+     "ts": "2025-06-19T10:12:36"
+    },
+    {
+     "idx": 64,
+     "speaker": "Priya",
+     "text": "Oh. Okay, that's a different sticker.",
+     "ts": "2025-06-19T10:12:48"
+    },
+    {
+     "idx": 65,
+     "speaker": "Elif",
+     "text": "I can do the northern ones. Southern's someone else.",
+     "ts": "2025-06-19T10:13:00"
+    },
+    {
+     "idx": 66,
+     "speaker": "Lena",
+     "text": "Great, thanks.",
+     "ts": "2025-06-19T10:13:12"
+    },
+    {
+     "idx": 67,
+     "speaker": "Tomas",
+     "text": "Anyone else got something? Priya?",
+     "ts": "2025-06-19T10:13:24"
+    },
+    {
+     "idx": 68,
+     "speaker": "Priya",
+     "text": "Quarterly review. I need a number from each of you for the supplier scorecard by Friday.",
+     "ts": "2025-06-19T10:13:36"
+    },
+    {
+     "idx": 69,
+     "speaker": "Lena",
+     "text": "What number?",
+     "ts": "2025-06-19T10:13:48"
+    },
+    {
+     "idx": 70,
+     "speaker": "Priya",
+     "text": "On-time delivery and any complaints. Same as last quarter.",
+     "ts": "2025-06-19T10:14:00"
+    },
+    {
+     "idx": 71,
+     "speaker": "Lena",
+     "text": "Oh. Is that the one with the colours?",
+     "ts": "2025-06-19T10:14:12"
+    },
+    {
+     "idx": 72,
+     "speaker": "Priya",
+     "text": "Red, amber, green. Yes.",
+     "ts": "2025-06-19T10:14:24"
+    },
+    {
+     "idx": 73,
+     "speaker": "Lena",
+     "text": "Right. I don't have mine.",
+     "ts": "2025-06-19T10:14:36"
+    },
+    {
+     "idx": 74,
+     "speaker": "Priya",
+     "text": "That's why I'm asking.",
+     "ts": "2025-06-19T10:14:48"
+    },
+    {
+     "idx": 75,
+     "speaker": "Elif",
+     "text": "Mine's done. I'll send it after this.",
+     "ts": "2025-06-19T10:15:00"
+    },
+    {
+     "idx": 76,
+     "speaker": "Ingrid",
+     "text": "I think mine's mostly done. There was a Calder complaint that I wasn't sure about.",
+     "ts": "2025-06-19T10:15:12"
+    },
+    {
+     "idx": 77,
+     "speaker": "Priya",
+     "text": "Which one?",
+     "ts": "2025-06-19T10:15:24"
+    },
+    {
+     "idx": 78,
+     "speaker": "Ingrid",
+     "text": "The crushed corners one? Or was that Elif's photos.",
+     "ts": "2025-06-19T10:15:36"
+    },
+    {
+     "idx": 79,
+     "speaker": "Elif",
+     "text": "That was mine. One pallet.",
+     "ts": "2025-06-19T10:15:48"
+    },
+    {
+     "idx": 80,
+     "speaker": "Ingrid",
+     "text": "Then I haven't got any. Great.",
+     "ts": "2025-06-19T10:16:00"
+    },
+    {
+     "idx": 81,
+     "speaker": "Priya",
+     "text": "Please check, though.",
+     "ts": "2025-06-19T10:16:12"
+    },
+    {
+     "idx": 82,
+     "speaker": "Ingrid",
+     "text": "Yes, will do.",
+     "ts": "2025-06-19T10:16:24"
+    },
+    {
+     "idx": 83,
+     "speaker": "Tomas",
+     "text": "Okay. Um. One more thing, the offsite.",
+     "ts": "2025-06-19T10:16:36"
+    },
+    {
+     "idx": 84,
+     "speaker": "Lena",
+     "text": "The one in September?",
+     "ts": "2025-06-19T10:16:48"
+    },
+    {
+     "idx": 85,
+     "speaker": "Tomas",
+     "text": "Yes. Finance wants numbers by the end of next week.",
+     "ts": "2025-06-19T10:17:00"
+    },
+    {
+     "idx": 86,
+     "speaker": "Lena",
+     "text": "How many are we?",
+     "ts": "2025-06-19T10:17:12"
+    },
+    {
+     "idx": 87,
+     "speaker": "Tomas",
+     "text": "The five of us. Maybe Bao as well.",
+     "ts": "2025-06-19T10:17:24"
+    },
+    {
+     "idx": 88,
+     "speaker": "Priya",
+     "text": "Bao isn't in our team.",
+     "ts": "2025-06-19T10:17:36"
+    },
+    {
+     "idx": 89,
+     "speaker": "Tomas",
+     "text": "He's on the supplier side. I'll check if it's allowed.",
+     "ts": "2025-06-19T10:17:48"
+    },
+    {
+     "idx": 90,
+     "speaker": "Lena",
+     "text": "Is the train covered?",
+     "ts": "2025-06-19T10:18:00"
+    },
+    {
+     "idx": 91,
+     "speaker": "Tomas",
+     "text": "Standard class, yes.",
+     "ts": "2025-06-19T10:18:12"
+    },
+    {
+     "idx": 92,
+     "speaker": "Lena",
+     "text": "That's fine.",
+     "ts": "2025-06-19T10:18:24"
+    },
+    {
+     "idx": 93,
+     "speaker": "Priya",
+     "text": "Can we do a hotel that isn't next to the ring road this time?",
+     "ts": "2025-06-19T10:18:36"
+    },
+    {
+     "idx": 94,
+     "speaker": "Tomas",
+     "text": "I'll ask. No promises.",
+     "ts": "2025-06-19T10:18:48"
+    },
+    {
+     "idx": 95,
+     "speaker": "Priya",
+     "text": "Thanks. That was a bad week.",
+     "ts": "2025-06-19T10:19:00"
+    },
+    {
+     "idx": 96,
+     "speaker": "Elif",
+     "text": "It was really loud.",
+     "ts": "2025-06-19T10:19:12"
+    },
+    {
+     "idx": 97,
+     "speaker": "Lena",
+     "text": "I slept fine.",
+     "ts": "2025-06-19T10:19:24"
+    },
+    {
+     "idx": 98,
+     "speaker": "Priya",
+     "text": "You sleep fine anywhere.",
+     "ts": "2025-06-19T10:19:36"
+    },
+    {
+     "idx": 99,
+     "speaker": "Lena",
+     "text": "I do, yes.",
+     "ts": "2025-06-19T10:19:48"
+    },
+    {
+     "idx": 100,
+     "speaker": "Tomas",
+     "text": "Right. Back to the warehouse for a second. Elif, the Calder weekly orders still open, how many?",
+     "ts": "2025-06-19T10:20:00"
+    },
+    {
+     "idx": 101,
+     "speaker": "Elif",
+     "text": "Two. This Thursday and next Thursday, both already placed.",
+     "ts": "2025-06-19T10:20:12"
+    },
+    {
+     "idx": 102,
+     "speaker": "Tomas",
+     "text": "And after that, nothing's booked?",
+     "ts": "2025-06-19T10:20:24"
+    },
+    {
+     "idx": 103,
+     "speaker": "Elif",
+     "text": "Not yet. I'd rather wait for Oksana's reply before I place any more.",
+     "ts": "2025-06-19T10:20:36"
+    },
+    {
+     "idx": 104,
+     "speaker": "Tomas",
+     "text": "Okay.",
+     "ts": "2025-06-19T10:20:48"
+    },
+    {
+     "idx": 105,
+     "speaker": "Priya",
+     "text": "What if she's slow?",
+     "ts": "2025-06-19T10:21:00"
+    },
+    {
+     "idx": 106,
+     "speaker": "Elif",
+     "text": "Then I'll chase. I don't want to put a third one in blind.",
+     "ts": "2025-06-19T10:21:12"
+    },
+    {
+     "idx": 107,
+     "speaker": "Lena",
+     "text": "And if Fenmoor can't hit the date, we've got a hole.",
+     "ts": "2025-06-19T10:21:24"
+    },
+    {
+     "idx": 108,
+     "speaker": "Elif",
+     "text": "That's the hole I mentioned. I'm saying it out loud so it's said.",
+     "ts": "2025-06-19T10:21:36"
+    },
+    {
+     "idx": 109,
+     "speaker": "Priya",
+     "text": "Noted. I'll keep it on the risk list.",
+     "ts": "2025-06-19T10:21:48"
+    },
+    {
+     "idx": 110,
+     "speaker": "Lena",
+     "text": "Is there a risk list?",
+     "ts": "2025-06-19T10:22:00"
+    },
+    {
+     "idx": 111,
+     "speaker": "Priya",
+     "text": "There is now.",
+     "ts": "2025-06-19T10:22:12"
+    },
+    {
+     "idx": 112,
+     "speaker": "Lena",
+     "text": "Ha. Okay.",
+     "ts": "2025-06-19T10:22:24"
+    },
+    {
+     "idx": 113,
+     "speaker": "Tomas",
+     "text": "I've got to jump, I've got finance at half past. Elif, you'll keep everyone posted?",
+     "ts": "2025-06-19T10:22:36"
+    },
+    {
+     "idx": 114,
+     "speaker": "Elif",
+     "text": "Yes, tomorrow once I've heard from Bao.",
+     "ts": "2025-06-19T10:22:48"
+    },
+    {
+     "idx": 115,
+     "speaker": "Tomas",
+     "text": "Thanks, all.",
+     "ts": "2025-06-19T10:23:00"
+    },
+    {
+     "idx": 116,
+     "speaker": "Ingrid",
+     "text": "Bye!",
+     "ts": "2025-06-19T10:23:12"
+    },
+    {
+     "idx": 117,
+     "speaker": "Lena",
+     "text": "Bye.",
+     "ts": "2025-06-19T10:23:24"
+    }
+   ]
+  }
+ ]
+}

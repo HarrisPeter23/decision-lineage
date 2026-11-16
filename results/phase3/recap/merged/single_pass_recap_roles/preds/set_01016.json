@@ -1,0 +1,345 @@
+{
+ "set_id": "set_01016",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    27,
+    28,
+    29
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    31,
+    32
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    36,
+    37,
+    38
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    47,
+    48,
+    49
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    80,
+    81
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.95,
+   "decision": "Summit format for next year",
+   "option": "three one-day regional roadshows"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Tariq",
+   "confidence": 0.7,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Summit format for next year",
+   "option": "three regional roadshows"
+  }
+ ]
+}

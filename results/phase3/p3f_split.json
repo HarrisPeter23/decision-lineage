@@ -1,0 +1,22 @@
+{
+ "seed": 20261106,
+ "method": "per arc type (sorted), seeded shuffle, alternate assignment across the whole list",
+ "tune": [
+  "set_01000",
+  "set_01002",
+  "set_01003",
+  "set_01014",
+  "set_01019",
+  "set_01023",
+  "set_01030"
+ ],
+ "check": [
+  "set_01004",
+  "set_01006",
+  "set_01012",
+  "set_01013",
+  "set_01015",
+  "set_01016",
+  "set_01045"
+ ]
+}

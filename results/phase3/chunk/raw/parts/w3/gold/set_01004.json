@@ -1,0 +1,557 @@
+{
+ "set_id": "set_01004",
+ "meta": {
+  "arc_type": "re_reversal",
+  "domain": "SaaS product team",
+  "seed": 1004,
+  "n_meetings": 4,
+  "noise": [
+   {
+    "interruptions": "few",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 102
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 100
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 15,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 71
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 25,
+    "false_starts": "common",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 81
+   }
+  ],
+  "models": {
+   "generator": "claude-chat"
+  }
+ },
+ "topic": "the free-trial policy for the new subscription",
+ "options": {
+  "A": "14-day free trial with no credit card required",
+  "B": "7-day free trial with a credit card required up front"
+ },
+ "cast": [
+  {
+   "name": "Diego",
+   "slot": "manager",
+   "style": "quiet, speaks up rarely"
+  },
+  {
+   "name": "Omar",
+   "slot": "proposer",
+   "style": "talkative, drifts into tangents"
+  },
+  {
+   "name": "Sofia",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Nadia",
+   "slot": "supporter",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Marco",
+   "slot": "observer",
+   "style": "blunt and brief"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "14-day free trial with no credit card required"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": 4,
+   "option_text": "7-day free trial with a credit card required up front"
+  },
+  {
+   "version": 3,
+   "option": "A",
+   "valid_from": 4,
+   "valid_to": null,
+   "option_text": "14-day free trial with no credit card required"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Omar proposes a 14-day free trial with no credit card required.",
+   "version": 1,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    2
+   ],
+   "gist": "Omar says nobody wants to enter a card for a product they have not tried, so dropping it gets more teams in and should lift paid conversion.",
+   "version": 1,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    15
+   ],
+   "gist": "Diego decides to launch with a 14-day no-card free trial.",
+   "version": 1,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails.",
+   "version": 1,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "challenge",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "Sofia argues that no-card trials attract low-intent and abusive signups, costing about $1,100 a month in compute and polluting the funnel numbers, so a card up front is needed.",
+   "version": 1,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Sofia",
+   "utterance_idxs": [
+    14
+   ],
+   "gist": "Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value.",
+   "version": 2,
+   "option_key": "B",
+   "option": "7-day free trial with a credit card required up front",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    19
+   ],
+   "gist": "Diego decides to switch to a 7-day trial with a credit card required up front.",
+   "version": 2,
+   "option_key": "B",
+   "option": "7-day free trial with a credit card required up front",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B8",
+   "role": "evidence",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Nadia",
+   "utterance_idxs": [
+    1
+   ],
+   "gist": "Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step.",
+   "version": 2,
+   "option_key": "B",
+   "option": "7-day free trial with a credit card required up front",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B9",
+   "role": "challenge",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume.",
+   "version": 2,
+   "option_key": "B",
+   "option": "7-day free trial with a credit card required up front",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B10",
+   "role": "reconsideration",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    0
+   ],
+   "gist": "Diego says the signup drop and the abandoned enterprise prospects mean the trial policy should be reopened.",
+   "version": 2,
+   "option_key": "B",
+   "option": "7-day free trial with a credit card required up front",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B11",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Omar",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups.",
+   "version": 3,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B12",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    13
+   ],
+   "gist": "Diego decides to go back to the 14-day no-card free trial.",
+   "version": 3,
+   "option_key": "A",
+   "option": "14-day free trial with no credit card required",
+   "implicit": true,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  },
+  {
+   "from_version": 2,
+   "to_version": 3,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B8",
+    "B9",
+    "B10"
+   ],
+   "new_rationale": [
+    "B11"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_01004-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the free-trial policy for the new subscription?",
+   "answer_text": "14-day free trial with no credit card required",
+   "answer_facts": {
+    "option": "14-day free trial with no credit card required"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01004-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the free-trial policy for the new subscription?",
+   "answer_text": "meeting 1: Diego - Diego decides to launch with a 14-day no-card free trial.; meeting 2: Diego - Diego decides to switch to a 7-day trial with a credit card required up front.; meeting 4: Diego - Diego decides to go back to the 14-day no-card free trial.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "14-day free trial with no credit card required",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "7-day free trial with a credit card required up front",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "14-day free trial with no credit card required",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01004-q03",
+   "type": "as_of",
+   "question": "What was the decision about the free-trial policy for the new subscription as of the end of meeting 1?",
+   "answer_text": "14-day free trial with no credit card required",
+   "answer_facts": {
+    "as_of": 1,
+    "option": "14-day free trial with no credit card required"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "set_01004-q04",
+   "type": "as_of",
+   "question": "What was the decision about the free-trial policy for the new subscription as of the end of meeting 4?",
+   "answer_text": "14-day free trial with no credit card required",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "14-day free trial with no credit card required"
+   },
+   "supporting_links": [
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01004-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the free-trial policy for the new subscription change over time?",
+   "answer_text": "14-day free trial with no credit card required (from meeting 1) -> 7-day free trial with a credit card required up front (from meeting 2) -> 14-day free trial with no credit card required (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "14-day free trial with no credit card required",
+     "7-day free trial with a credit card required up front",
+     "14-day free trial with no credit card required"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B12",
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01004-q06",
+   "type": "why_changed",
+   "question": "Why did the decision about the free-trial policy for the new subscription change at meeting 2?",
+   "answer_text": "Before: 14-day free trial with no credit card required, because Omar says nobody wants to enter a card for a product they have not tried, so dropping it gets more teams in and should lift paid conversion. Triggered by: Marco (evidence): Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails. Sofia (challenge): Sofia argues that no-card trials attract low-intent and abusive signups, costing about $1,100 a month in compute and polluting the funnel numbers, so a card up front is needed. After: 7-day free trial with a credit card required up front, because Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_01004-q07",
+   "type": "why_changed",
+   "question": "Why did the decision about the free-trial policy for the new subscription change at meeting 4?",
+   "answer_text": "Before: 7-day free trial with a credit card required up front, because Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value. Triggered by: Nadia (evidence): Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step. Omar (challenge): Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume. Diego (reconsideration): Diego says the signup drop and the abandoned enterprise prospects mean the trial policy should be reopened. After: 14-day free trial with no credit card required, because Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups.",
+   "answer_facts": {
+    "from_version": 2,
+    "to_version": 3,
+    "triggers": [
+     "B8",
+     "B9",
+     "B10"
+    ]
+   },
+   "supporting_links": [
+    "B6",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01004-q08",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the free-trial policy for the new subscription?",
+   "answer_text": "Omar",
+   "answer_facts": {
+    "speaker": "Omar"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_01004-q09",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about the free-trial policy for the new subscription?",
+   "answer_text": "Marco (evidence): Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails. Sofia (challenge): Sofia argues that no-card trials attract low-intent and abusive signups, costing about $1,100 a month in compute and polluting the funnel numbers, so a card up front is needed. Nadia (evidence): Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step. Omar (challenge): Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume.",
+   "answer_facts": {
+    "evidence": [
+     "B4",
+     "B5",
+     "B8",
+     "B9"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5",
+    "B8",
+    "B9",
+    "B10"
+   ]
+  },
+  {
+   "qid": "set_01004-q10",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the free-trial policy for the new subscription?",
+   "answer_text": "meeting 1, meeting 2, meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  },
+  {
+   "qid": "set_01004-q11",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the free-trial policy for the new subscription from proposal to final outcome.",
+   "answer_text": "meeting 1 - Omar [proposal]: Omar proposes a 14-day free trial with no credit card required. | meeting 1 - Omar [rationale]: Omar says nobody wants to enter a card for a product they have not tried, so dropping it gets more teams in and should lift paid conversion. | meeting 1 - Diego [resolution]: Diego decides to launch with a 14-day no-card free trial. | meeting 2 - Marco [evidence]: Marco reports that in the first three weeks there were 1,900 trial signups, only 3.1 percent converted to paid, and about 40 percent of signups used fake or throwaway emails. | meeting 2 - Sofia [challenge]: Sofia argues that no-card trials attract low-intent and abusive signups, costing about $1,100 a month in compute and polluting the funnel numbers, so a card up front is needed. | meeting 2 - Sofia [rationale]: Sofia says a 7-day trial with a card required filters out non-serious users while still giving real teams enough time to see value. | meeting 2 - Diego [resolution]: Diego decides to switch to a 7-day trial with a credit card required up front. | meeting 3 - Nadia [evidence]: Nadia reports that since the change signups fell 62 percent and sales says four enterprise prospects, worth about $90,000 a year together, dropped out at the card step. | meeting 3 - Omar [challenge]: Omar argues the card requirement blocks exactly the serious teams who need approvals or a purchase order before entering a card, so the lost volume is the good volume. | meeting 4 - Diego [reconsideration]: Diego says the signup drop and the abandoned enterprise prospects mean the trial policy should be reopened. | meeting 4 - Omar [rationale]: Omar says the abuse costs about $1,100 a month in compute while the four stalled enterprise deals are worth about $90,000 a year, and email verification that went live this week should remove many of the fake signups. | meeting 4 - Diego [resolution]: Diego decides to go back to the 14-day no-card free trial.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7",
+     "B8",
+     "B9",
+     "B10",
+     "B11",
+     "B12"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+   ]
+  }
+ ]
+}

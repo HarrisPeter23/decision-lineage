@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01045",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, can you two sort that out offline?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Lena",
+   "quote": "Okay. So the other thing, and this one's got a clock on it, is the push thing. The contract with the provider runs out at the end of the month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, so we're renewing the push provider for the year at nine hundred a month.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Lena",
+   "quote": "Camila, the store listing screenshots, did those come back from design?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Lena",
+   "quote": "So I want to take the whole push question back off the shelf before anything else goes out to them.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Lena",
+   "quote": "Okay, so, on the push piece. I've heard enough. We're building our own sending service. Camila, can you sketch the plan with Pavel this week?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Pavel",
+   "quote": "Fine by me.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Sana",
+   "quote": "What's the other option, though? Building it ourselves? Because we said six weeks and that was-",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Lena",
+   "quote": "So that's a cleanup job. Is that in the skeleton?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Lena",
+   "quote": "Mm. Okay. Put a rough number next to it when you can.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Lena",
+   "quote": "Then fix it, as long as it doesn't move the date.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Lena",
+   "quote": "Good. Now, the offsite. I confirmed the date, it's the twentieth.",
+   "confidence": 0.9
+  }
+ ]
+}

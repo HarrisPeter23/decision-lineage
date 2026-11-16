@@ -1,0 +1,93 @@
+[{"stream_name":"stdout","time":13.540875272,"data":"13:39:32 $ apt-get update -qq \u0026\u0026 apt-get install -y -qq zstd rc 0 aring to unpack .../zstd_1.5.5+dfsg2-2build1.1_amd64.deb ...\n"}
+,{"stream_name":"stdout","time":13.540930696,"data":"Unpacking zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.540937298,"data":"Setting up zstd (1.5.5+dfsg2-2build1.1) ...\n"}
+,{"stream_name":"stdout","time":13.540941712,"data":"Processing triggers for man-db (2.12.0-4build2) ...\n"}
+,{"stream_name":"stdout","time":13.540945411,"data":" r details.\n"}
+,{"stream_name":"stdout","time":13.540949640000001,"data":"W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu noble InRelease' does not seem to provide it (sources.list entry misspelt?)\n"}
+,{"stream_name":"stdout","time":13.540954949,"data":"\n"}
+,{"stream_name":"stdout","time":26.056468547,"data":"13:39:45 $ curl -fsSL https://ollama.com/install.sh | sh rc 0 WARNING: systemd is not running\n"}
+,{"stream_name":"stdout","time":26.056492347,"data":"WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.\n"}
+,{"stream_name":"stdout","time":26.056499789,"data":" ...\n"}
+,{"stream_name":"stdout","time":26.056516043,"data":"\u003e\u003e\u003e Adding current user to ollama group...\n"}
+,{"stream_name":"stdout","time":26.056520531,"data":"\u003e\u003e\u003e Creating ollama systemd service...\n"}
+,{"stream_name":"stdout","time":26.056524144,"data":"\u003e\u003e\u003e The Ollama API is now available at 127.0.0.1:11434.\n"}
+,{"stream_name":"stdout","time":26.056528416,"data":"\u003e\u003e\u003e Install complete. Run \"ollama\" from the command line.\n"}
+,{"stream_name":"stdout","time":26.056532562,"data":"\n"}
+,{"stream_name":"stdout","time":91.592595007,"data":"13:40:51 $ OLLAMA_HOST=127.0.0.1:11434 ollama pull mistral-nemo:12b rc 0  ████ ▏ 7.1 GB/7.1 GB  4.2 MB/s      0s\u001b[K\n"}
+,{"stream_name":"stdout","time":91.59262867,"data":"pulling 65d37de20e59: 100% ▕██████████████████▏  486 B                         \u001b[K\n"}
+,{"stream_name":"stdout","time":91.592634408,"data":"verifying sha256 digest \u001b[K\n"}
+,{"stream_name":"stdout","time":91.592644879,"data":"writing manifest \u001b[K\n"}
+,{"stream_name":"stdout","time":91.592649409,"data":"success \u001b[K\u001b[?25h\u001b[?2026l\n"}
+,{"stream_name":"stdout","time":91.59265559,"data":"\n"}
+,{"stream_name":"stdout","time":152.259089165,"data":"/kaggle/work/w/specs/set_01061/m1.md\n"}
+,{"stream_name":"stdout","time":152.259121798,"data":"/kaggle/work/w/specs/set_01060/m1.md\n"}
+,{"stream_name":"stdout","time":313.011418931,"data":"13:44:32 set_01061 m1 try1 2 problems 160.8 s\n"}
+,{"stream_name":"stdout","time":385.194281521,"data":"13:45:44 set_01060 m1 try1 4 problems 232.9 s\n"}
+,{"stream_name":"stdout","time":440.513270949,"data":"13:46:39 set_01061 m1 try2 6 problems 127.5 s\n"}
+,{"stream_name":"stdout","time":535.372905387,"data":"13:48:14 set_01060 m1 try2 0 problems 150.2 s\n"}
+,{"stream_name":"stdout","time":535.374987425,"data":"/kaggle/work/w/specs/set_01060/m2.md\n"}
+,{"stream_name":"stdout","time":581.102734675,"data":"13:49:00 set_01061 m1 try3 6 problems 140.6 s\n"}
+,{"stream_name":"stdout","time":581.103822871,"data":"/kaggle/work/w/specs/set_01061/m2.md\n"}
+,{"stream_name":"stdout","time":727.185461322,"data":"13:51:26 set_01061 m2 try1 0 problems 146.1 s\n"}
+,{"stream_name":"stdout","time":727.188561324,"data":"/kaggle/work/w/specs/set_01061/m3.md\n"}
+,{"stream_name":"stdout","time":750.710071101,"data":"13:51:50 set_01060 m2 try1 4 problems 215.3 s\n"}
+,{"stream_name":"stdout","time":923.04082791,"data":"13:54:42 set_01061 m3 try1 0 problems 195.9 s\n"}
+,{"stream_name":"stdout","time":923.041050346,"data":"/kaggle/work/w/specs/set_01063/m1.md\n"}
+,{"stream_name":"stdout","time":1003.974842773,"data":"13:56:03 set_01060 m2 try2 3 problems 253.3 s\n"}
+,{"stream_name":"stdout","time":1074.975526232,"data":"13:57:14 set_01063 m1 try1 0 problems 151.9 s\n"}
+,{"stream_name":"stdout","time":1074.976881499,"data":"/kaggle/work/w/specs/set_01063/m2.md\n"}
+,{"stream_name":"stdout","time":1199.254951196,"data":"13:59:18 set_01063 m2 try1 0 problems 124.3 s\n"}
+,{"stream_name":"stdout","time":1199.256570491,"data":"/kaggle/work/w/specs/set_01063/m3.md\n"}
+,{"stream_name":"stdout","time":1283.742499323,"data":"14:00:43 set_01060 m2 try3 5 problems 279.8 s\n"}
+,{"stream_name":"stdout","time":1283.744076171,"data":"/kaggle/work/w/specs/set_01060/m3.md\n"}
+,{"stream_name":"stdout","time":1320.203912781,"data":"14:01:19 set_01063 m3 try1 0 problems 120.9 s\n"}
+,{"stream_name":"stdout","time":1320.20493876,"data":"/kaggle/work/w/specs/set_01065/m1.md\n"}
+,{"stream_name":"stdout","time":1446.51580681,"data":"14:03:25 set_01065 m1 try1 3 problems 126.3 s\n"}
+,{"stream_name":"stdout","time":1488.294974765,"data":"14:04:07 set_01060 m3 try1 7 problems 204.6 s\n"}
+,{"stream_name":"stdout","time":1557.433905312,"data":"14:05:16 set_01065 m1 try2 2 problems 110.9 s\n"}
+,{"stream_name":"stdout","time":1716.706881739,"data":"14:07:56 set_01065 m1 try3 2 problems 159.3 s\n"}
+,{"stream_name":"stdout","time":1716.706913131,"data":"/kaggle/work/w/specs/set_01065/m2.md\n"}
+,{"stream_name":"stdout","time":1750.157432983,"data":"14:08:29 set_01060 m3 try2 4 problems 261.9 s\n"}
+,{"stream_name":"stdout","time":1900.005106401,"data":"14:10:59 set_01065 m2 try1 7 problems 183.3 s\n"}
+,{"stream_name":"stdout","time":2073.892872838,"data":"14:13:53 set_01065 m2 try2 3 problems 173.9 s\n"}
+,{"stream_name":"stdout","time":2137.950776605,"data":"14:14:57 set_01060 m3 try3 7 problems 387.8 s\n"}
+,{"stream_name":"stdout","time":2137.952404136,"data":"/kaggle/work/w/specs/set_01062/m1.md\n"}
+,{"stream_name":"stdout","time":2234.916706098,"data":"14:16:34 set_01065 m2 try3 12 problems 161.0 s\n"}
+,{"stream_name":"stdout","time":2234.918570149,"data":"/kaggle/work/w/specs/set_01065/m3.md\n"}
+,{"stream_name":"stdout","time":2334.421891912,"data":"14:18:13 set_01062 m1 try1 4 problems 196.5 s\n"}
+,{"stream_name":"stdout","time":2470.487599884,"data":"14:20:29 set_01065 m3 try1 4 problems 235.6 s\n"}
+,{"stream_name":"stdout","time":2546.497947806,"data":"14:21:45 set_01062 m1 try2 1 problems 212.1 s\n"}
+,{"stream_name":"stdout","time":2603.514045041,"data":"14:22:42 set_01065 m3 try2 1 problems 133.0 s\n"}
+,{"stream_name":"stdout","time":2770.977909907,"data":"14:25:30 set_01062 m1 try3 5 problems 224.5 s\n"}
+,{"stream_name":"stdout","time":2770.981572667,"data":"/kaggle/work/w/specs/set_01062/m2.md\n"}
+,{"stream_name":"stdout","time":2802.133022498,"data":"14:26:01 set_01065 m3 try3 1 problems 198.6 s\n"}
+,{"stream_name":"stdout","time":3041.403062018,"data":"14:30:00 set_01062 m2 try1 9 problems 270.4 s\n"}
+,{"stream_name":"stdout","time":3237.841589196,"data":"14:33:17 set_01062 m2 try2 0 problems 196.4 s\n"}
+,{"stream_name":"stdout","time":3237.84317533,"data":"/kaggle/work/w/specs/set_01062/m3.md\n"}
+,{"stream_name":"stdout","time":3459.191995528,"data":"14:36:58 set_01062 m3 try1 6 problems 221.3 s\n"}
+,{"stream_name":"stdout","time":3768.711922889,"data":"14:42:08 set_01062 m3 try2 7 problems 309.5 s\n"}
+,{"stream_name":"stdout","time":4084.184291839,"data":"14:47:23 set_01062 m3 try3 14 problems 315.5 s\n"}
+,{"stream_name":"stdout","time":4084.186148749,"data":"/kaggle/work/w/specs/set_01064/m1.md\n"}
+,{"stream_name":"stdout","time":4278.351092928,"data":"14:50:37 set_01064 m1 try1 3 problems 194.2 s\n"}
+,{"stream_name":"stdout","time":4432.020252087,"data":"14:53:11 set_01064 m1 try2 4 problems 153.7 s\n"}
+,{"stream_name":"stdout","time":4539.664831882,"data":"14:54:59 set_01064 m1 try3 2 problems 107.6 s\n"}
+,{"stream_name":"stdout","time":4539.666231742,"data":"/kaggle/work/w/specs/set_01064/m2.md\n"}
+,{"stream_name":"stdout","time":4718.325442068,"data":"14:57:57 set_01064 m2 try1 7 problems 178.7 s\n"}
+,{"stream_name":"stdout","time":4899.521004437,"data":"15:00:58 set_01064 m2 try2 10 problems 181.2 s\n"}
+,{"stream_name":"stdout","time":5091.723983131,"data":"15:04:11 set_01064 m2 try3 8 problems 192.2 s\n"}
+,{"stream_name":"stdout","time":5091.725449519,"data":"/kaggle/work/w/specs/set_01064/m3.md\n"}
+,{"stream_name":"stdout","time":5303.103358791,"data":"15:07:42 set_01064 m3 try1 5 problems 211.4 s\n"}
+,{"stream_name":"stdout","time":5560.194485345,"data":"15:11:59 set_01064 m3 try2 3 problems 257.1 s\n"}
+,{"stream_name":"stdout","time":5725.372246785,"data":"15:14:44 set_01064 m3 try3 0 problems 165.2 s\n"}
+,{"stream_name":"stdout","time":5725.373855292,"data":"/kaggle/work/w/specs/set_01064/m4.md\n"}
+,{"stream_name":"stdout","time":5985.87080637,"data":"15:19:05 set_01064 m4 try1 4 problems 260.5 s\n"}
+,{"stream_name":"stdout","time":6232.543105668,"data":"15:23:11 set_01064 m4 try2 3 problems 246.7 s\n"}
+,{"stream_name":"stdout","time":6377.03340987,"data":"15:25:36 set_01064 m4 try3 0 problems 144.5 s\n"}
+,{"stream_name":"stdout","time":6377.034594285,"data":"15:25:36 DONE {'model': 'mistral-nemo:12b', 'digest': 'e7e06d107c6c86ed0cf45445f1790720b5092149c4c95f4d965844e9afbfdc89', 'ctx': 16384, 'servers': [11434, 11435], 'mode': 'chunked, about 25 lines per call', 'wall_s_total': 6225, 'per_server': [{'port': 11434, 'wall_s': 6225}, {'port': 11435, 'wall_s': 2650}]}\n"}
+,{"stream_name":"stderr","time":6379.883220264,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6379.883253216,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6380.269299739,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6380.269327946,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6382.432095887,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6383.518672226,"data":"[NbConvertApp] Writing 348147 bytes to __results__.html\n"}
+]

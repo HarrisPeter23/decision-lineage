@@ -1,0 +1,114 @@
+Meeting: m2
+Date: 2025-08-14
+Participants: Meera, Jonas, Yuki, Lena, Pavel
+
+Meera: Okay, is that all five? Jonas, you're on mute, I think.
+Jonas: I'm not on mute, I was just choosing not to talk.
+Pavel: Rare.
+Meera: SOC 2 first. It's due tomorrow, the fifteenth. We were at 48 of 62 last week and we're at 60 now.
+Yuki: Which two are left, because if it's the logging ones I already sent those to-
+Meera: Both are security's. I'm chasing them at two o'clock.
+Lena: Oh good, so I did have it right, it was this Friday.
+Jonas: You had last Friday.
+Lena: I had a Friday.
+Meera: Halden. Yuki, that's closed?
+Yuki: Closed, clean run on their full dataset, took about nine minutes, and their account manager got the note on-
+Pavel: Wednesday.
+Yuki: Thursday, actually, but yes, it went out.
+Meera: Fine. And did IT ever sort the calendar? They told me Monday.
+Jonas: They did not. My recurring one-on-one is now at seven in the morning.
+Yuki: Mine fixed itself and then it unfixed itself, I got three copies of the same review, and then one of them-
+Lena: I still like the colours.
+Jonas: The dentist has been rescheduled, by the way. By the calendar. Without me.
+Pavel: Good.
+Yuki: No, but who's actually got that ticket, because I raised it and it just says pending vendor, and I don't-
+Meera: Dana in IT. I'll ask her after this. Okay, Insights, because Pavel sent me something last night that I'd like everybody to hear.
+Lena: Is this the preview thing?
+Meera: The waitlist preview, yes. Marketing opened it last Thursday on the two-week terms, no card, so we've got seven days of real data. Pavel.
+Pavel: First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses. Compute is 1.80 dollars per trial account.
+Jonas: Sorry, 2.1?
+Pavel: 2.1.
+Meera: So 412 at 2.1, that's what, between eight and nine accounts. Call it nine.
+Yuki: Nine? Out of four hundred-
+Meera: And 31 percent is about 128 accounts on throwaway addresses.
+Lena: Hm. Okay. That's, um, that's not the picture I had in my head.
+Meera: Pavel, you told us four dollars last week and this says 1.80.
+Pavel: Backfill's capped in preview. Six months, not twelve.
+Yuki: So it goes up at launch.
+Pavel: Likely.
+Meera: At 1.80 that's 741 dollars and change for one week, and most of that for accounts nobody ever logged back into.
+Jonas: Okay, but it's a preview. Waitlist people are the curious ones, they sign up for everything, you can't-
+Yuki: They're not curious, Jonas, they're throwaway addresses, I went through the list this morning, one of them was literally-
+Jonas: I'm saying a week is a week.
+Yuki: We are paying to host junk accounts, that's what this is, and every one of them comes straight out of this quarter's infrastructure budget, which we are burning for nothing.
+Meera: How much of that budget is left, do we know? Dmitri will ask.
+Pavel: Not much. Storage overran in July.
+Yuki: Right, so-
+Lena: But isn't this, I mean, isn't this the price of being open? We said that was kind of the point of it.
+Yuki: The point was people trying it, nobody's trying it, that's nine-
+Jonas: Let me stick up for it anyway, since it was mine. I got the sheet from Tomas, like you asked.
+Meera: Base and domain split, go on.
+Jonas: Just under 9,400 visitors on each arm, 38 percent of signups on free mail, and the threefold holds up. Take that field away and you get three times the people. Put it back, you lose them.
+Pavel: Lose who, though?
+Jonas: Well, that's the question, yes.
+Yuki: Lose these guys, the 128, that's who you lose, and honestly-
+Jonas: You'd lose some real ones with them.
+Yuki: Not the ones who matter, because if you make it thirty days and take a card up front, the throwaways just don't bother, and anybody serious gets a proper month with it instead of two weeks.
+Lena: Thirty days, with the card, so that's the other thing that was floating around?
+Yuki: Reporting buyers need a month-end in there anyway, that's when they'd actually look at the-
+Jonas: Hang on, though, those people need a corporate card, I said that last week, and-
+Yuki: You said it and it was a fair point when we had no numbers.
+Jonas: It's still a fair point. Somebody in finance at a mid-size company isn't typing in a corporate card to look at a dashboard.
+Pavel: They'd pay for it. If they want it.
+Jonas: And double the window means double the hosting, doesn't it?
+Pavel: No. Backfill's the cost. One time.
+Meera: So the 1.80, or the four, gets spent once, on the first login, however long they stay.
+Pavel: Mostly.
+Jonas: Okay, then what about people who forget and get charged on day 31? That's a refund, that's an angry ticket, that's-
+Meera: Sandbox was 18 percent more tickets for three weeks, and that was with nothing to bill.
+Yuki: Six weeks.
+Meera: Three. And billing tickets are worse, you're not wrong, Jonas.
+Lena: We could maybe, I don't know, be really upfront about it? A reminder or something, so it doesn't feel like a trap.
+Jonas: That's the payment processor's dunning emails with a nicer hat on.
+Lena: I mean more the overall feeling of it.
+Yuki: Can I just- nine accounts. We can argue about how it feels, but nine accounts for 741 dollars is eighty-something dollars an activation.
+Meera: 82, if it's nine.
+Pavel: Before launch costs.
+Jonas: And if the card takes signups down to a third, you might get nine anyway. For a lot less. Hm. That's annoying, actually.
+Yuki: Thank you.
+Jonas: I didn't say you were right, I said it's annoying.
+Lena: It does sort of hurt, the no-strings thing. I liked that. But if it's mostly fake accounts then who's it really for, I guess.
+Meera: Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup.
+Jonas: Noted, under protest, for the record.
+Pavel: Fine.
+Yuki: Good. Sorry. Good.
+Meera: Pavel, does that move the 20th for the staging switch?
+Pavel: No. Card check's maybe a day extra.
+Meera: Then I rewrite the page copy today. Yuki, you still review it, and Ravi's team needs it by Monday at the latest because I'm out the 18th and 19th.
+Yuki: Do the event names change? Because I sent those over with the old-
+Pavel: One new one. Card added.
+Yuki: Okay, I'll send them that this afternoon.
+Meera: Priya has to see the terms by the 22nd regardless, and now there's a billing clause, so I'll get it to her tomorrow. Dmitri gets the new per-account figure too.
+Jonas: Tell him about Tomas's sheet while you're there, or I've carried it around for nothing.
+Meera: Send it to me. Lena, the launch email draft was due tomorrow, and it'll need to say thirty days and mention the card.
+Lena: Yep, I'd sort of gone big on the free angle, so, um, I'll rework that bit.
+Pavel: Short.
+Lena: Short-ish. Oh, while I've got you all, the other email. The release notes. Could that just go out monthly instead of every week?
+Jonas: Is anyone reading it either way?
+Lena: Well, that's kind of it. The weekly send sits at an 11 percent open rate, and the last four issues had almost nothing in them.
+Yuki: One of them was literally a tooltip fix, I remember because I-
+Lena: Yes, thank you, the tooltip one.
+Jonas: Devil's advocate, enterprise customers like Halden might want to see fixes when they ship.
+Pavel: Their account managers tell them.
+Jonas: True. Withdrawn.
+Meera: 11 percent and four empty issues, I can't defend that. Approved, the release-notes email goes monthly.
+Lena: Great, I'll let the content people know and tweak the footer.
+Meera: Thanks. Anything for sign-off gets to me by tomorrow, please, I mean it.
+Yuki: Does the copy count, or can that-
+Meera: The copy's coming from me, Yuki, you just review it.
+Yuki: Right, right.
+Jonas: And Dana in IT, about my seven a.m.
+Meera: I'll ask her.
+Pavel: Forty declines.
+Jonas: Forty-one now.
+Meera: Okay, thanks everybody.

@@ -1,0 +1,140 @@
+{
+ "pilot": [
+  1000,
+  1002,
+  1003,
+  1004,
+  1006,
+  1012
+ ],
+ "quota": {
+  "simple_reversal": 9,
+  "external_trigger": 7,
+  "no_reversal": 6,
+  "partial_override": 5,
+  "re_reversal": 5,
+  "deferred": 4
+ },
+ "new": [
+  {
+   "seed": 1013,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1014,
+   "arc": "re_reversal"
+  },
+  {
+   "seed": 1015,
+   "arc": "partial_override"
+  },
+  {
+   "seed": 1016,
+   "arc": "no_reversal"
+  },
+  {
+   "seed": 1017,
+   "arc": "external_trigger"
+  },
+  {
+   "seed": 1018,
+   "arc": "re_reversal"
+  },
+  {
+   "seed": 1019,
+   "arc": "deferred"
+  },
+  {
+   "seed": 1020,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1021,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1022,
+   "arc": "external_trigger"
+  },
+  {
+   "seed": 1023,
+   "arc": "external_trigger"
+  },
+  {
+   "seed": 1024,
+   "arc": "no_reversal"
+  },
+  {
+   "seed": 1025,
+   "arc": "external_trigger"
+  },
+  {
+   "seed": 1026,
+   "arc": "no_reversal"
+  },
+  {
+   "seed": 1027,
+   "arc": "re_reversal"
+  },
+  {
+   "seed": 1028,
+   "arc": "partial_override"
+  },
+  {
+   "seed": 1029,
+   "arc": "partial_override"
+  },
+  {
+   "seed": 1030,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1031,
+   "arc": "no_reversal"
+  },
+  {
+   "seed": 1032,
+   "arc": "partial_override"
+  },
+  {
+   "seed": 1033,
+   "arc": "no_reversal"
+  },
+  {
+   "seed": 1034,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1035,
+   "arc": "deferred"
+  },
+  {
+   "seed": 1036,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1037,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1038,
+   "arc": "external_trigger"
+  },
+  {
+   "seed": 1039,
+   "arc": "deferred"
+  },
+  {
+   "seed": 1041,
+   "arc": "simple_reversal"
+  },
+  {
+   "seed": 1043,
+   "arc": "re_reversal"
+  },
+  {
+   "seed": 1045,
+   "arc": "external_trigger"
+  }
+ ]
+}

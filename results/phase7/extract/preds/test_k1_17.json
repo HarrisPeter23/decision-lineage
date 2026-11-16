@@ -1,0 +1,370 @@
+{
+ "set_id": "test_k1_17",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Marco",
+   "confidence": 0.95,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Divide mid-market book into six postcode patches, each with one rep"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Six postcode patches"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Marco",
+   "confidence": 0.95,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.75,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Geography-based division"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Use head office address for boundary accounts"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Use head office address for boundary accounts"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.75,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Marco",
+   "confidence": 0.75,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Assign territories based on postcode strength"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Assign territories based on postcode strength"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "How to divide mid-market book into territories",
+   "option": "Divide mid-market book into six postcode patches, one rep each"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Divide mid-market book into territories",
+   "option": "Revisit the decision after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Divide mid-market book into territories",
+   "option": "Keep postcodes and tag accounts with industry"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Divide mid-market book into territories",
+   "option": "Keep postcodes and tag accounts with industry"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Divide mid-market book into territories",
+   "option": "Assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Which address to use for industry code",
+   "option": "Billing address"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Which address to use for industry code",
+   "option": "Billing address"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "How to handle old rep contact information",
+   "option": "For a transition period"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "How to handle expenses",
+   "option": "Approved"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "How long to give reps to check their accounts",
+   "option": "A day"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "How to handle open deals during reshuffle",
+   "option": "Stay with original rep until close"
+  }
+ ]
+}

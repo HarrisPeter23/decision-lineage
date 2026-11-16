@@ -1,0 +1,1520 @@
+[
+ {
+  "qid": "set_01020-q01",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b745d23-b56a-49e4-a747-8d938a10229c",
+    "name": "MODIFIED",
+    "fact": "Goran's team modified the staging job by moving a cleanup to two a.m. and forgetting it restarts the whole box.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "75f5d803-5e83-4253-b956-ab22bf497e13",
+    "name": "FOUND_OUT_CAUSED_BY",
+    "fact": "Hana found out that Goran's team changed the staging job by moving a cleanup to two a.m. and forgetting it restarts the whole box.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "05da3716-9be4-441b-bf63-8e2ec93c4ed9",
+    "name": "USED_DEFAULT_MODE",
+    "fact": "Hana used the default read mode on that store for the load test, without changing any settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q02",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f68bddd7-e879-477e-b1c0-b2a7d4e583e7",
+    "name": "OBTAINED_INFORMATION_FROM",
+    "fact": "Henrik obtained information from Anders about the opt-out policy.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "05da3716-9be4-441b-bf63-8e2ec93c4ed9",
+    "name": "USED_DEFAULT_MODE",
+    "fact": "Hana used the default read mode on that store for the load test, without changing any settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q03",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "087fa52a-f86e-4b56-b2bb-86555f0c11a3",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that a test user who unsubscribed right in the middle of the spike still got messages for up to two seconds afterwards.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc967da9-2c9c-4901-81a1-a76be437bdff",
+    "name": "CONFIRMED",
+    "fact": "Arjun confirmed that the venue got a number of eleven for the offsite headcount.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684067+00:00"
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1a1b8572-8e2f-4378-8db0-45246fc45698",
+    "name": "CONFIRMED",
+    "fact": "Tadeusz confirmed that the venue got a number of eleven for the offsite headcount.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684062+00:00"
+   },
+   {
+    "uuid": "1473ff81-c753-45bb-a283-1021311094c3",
+    "name": "ASSIGNED_TASK_TO",
+    "fact": "Arjun assigned the task of handling Davor again to Rohan.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "35180133-53cb-4380-a53e-5c230ade4305",
+    "name": "FOUND_ISSUE",
+    "fact": "Magnus found the issue with the cache in front of the consent flags thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q04",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "087fa52a-f86e-4b56-b2bb-86555f0c11a3",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that a test user who unsubscribed right in the middle of the spike still got messages for up to two seconds afterwards.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cc967da9-2c9c-4901-81a1-a76be437bdff",
+    "name": "CONFIRMED",
+    "fact": "Arjun confirmed that the venue got a number of eleven for the offsite headcount.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684067+00:00"
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1a1b8572-8e2f-4378-8db0-45246fc45698",
+    "name": "CONFIRMED",
+    "fact": "Tadeusz confirmed that the venue got a number of eleven for the offsite headcount.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684062+00:00"
+   },
+   {
+    "uuid": "35180133-53cb-4380-a53e-5c230ade4305",
+    "name": "FOUND_ISSUE",
+    "fact": "Magnus found the issue with the cache in front of the consent flags thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1473ff81-c753-45bb-a283-1021311094c3",
+    "name": "ASSIGNED_TASK_TO",
+    "fact": "Arjun assigned the task of handling Davor again to Rohan.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q05",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "efa1184f-531d-41ed-925f-eeff0a308720",
+    "name": "CONFIRMED_CHANGE_IMPLEMENTED",
+    "fact": "Rohan confirmed that the debug log change went in on Friday.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "d2eb57bd-88e7-411a-b94a-db7fdd2d21c4",
+    "name": "APPROVED_CHANGE",
+    "fact": "Arjun approved the change to cut the debug logs down from keeping them thirty days to fourteen.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684087+00:00"
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q06",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "75f5d803-5e83-4253-b956-ab22bf497e13",
+    "name": "FOUND_OUT_CAUSED_BY",
+    "fact": "Hana found out that Goran's team changed the staging job by moving a cleanup to two a.m. and forgetting it restarts the whole box.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "05da3716-9be4-441b-bf63-8e2ec93c4ed9",
+    "name": "USED_DEFAULT_MODE",
+    "fact": "Hana used the default read mode on that store for the load test, without changing any settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q07",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "087fa52a-f86e-4b56-b2bb-86555f0c11a3",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that a test user who unsubscribed right in the middle of the spike still got messages for up to two seconds afterwards.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f68bddd7-e879-477e-b1c0-b2a7d4e583e7",
+    "name": "OBTAINED_INFORMATION_FROM",
+    "fact": "Henrik obtained information from Anders about the opt-out policy.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "381f270f-f7d6-4fbc-b881-0d1740a29085",
+    "name": "PROPOSED_CHANGE",
+    "fact": "Rohan proposed to cut the debug logs down from keeping them thirty days to fourteen.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684083+00:00"
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "05da3716-9be4-441b-bf63-8e2ec93c4ed9",
+    "name": "USED_DEFAULT_MODE",
+    "fact": "Hana used the default read mode on that store for the load test, without changing any settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q08",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b745d23-b56a-49e4-a747-8d938a10229c",
+    "name": "MODIFIED",
+    "fact": "Goran's team modified the staging job by moving a cleanup to two a.m. and forgetting it restarts the whole box.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "75f5d803-5e83-4253-b956-ab22bf497e13",
+    "name": "FOUND_OUT_CAUSED_BY",
+    "fact": "Hana found out that Goran's team changed the staging job by moving a cleanup to two a.m. and forgetting it restarts the whole box.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "087fa52a-f86e-4b56-b2bb-86555f0c11a3",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that a test user who unsubscribed right in the middle of the spike still got messages for up to two seconds afterwards.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q09",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fc495f2c-caad-4fa7-ad0a-48fd92a45689",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Sven to close out the key-value ticket with Rui and open a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b7e3028-d193-4ea1-9899-35139743bea4",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Rohan planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684124+00:00"
+   },
+   {
+    "uuid": "dea1b61c-f532-4dd8-a99f-c41c5ae1b79b",
+    "name": "CLOSED",
+    "fact": "Sven closed the key-value ticket with Rui and opened a new one.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ac1bbb37-ee33-41ed-9888-c5da11dad5e3",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Hana to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q10",
+  "facts": [
+   {
+    "uuid": "885376cd-bc60-4845-be11-29eb442e2881",
+    "name": "MIGRATED_TO",
+    "fact": "Sven migrated the preferences service to the shared relational cluster with two extra read replicas.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "8402e0b0-87b9-4a8e-81e5-4f1655037cd7",
+    "name": "RAN_LOAD_TEST_ON",
+    "fact": "Sven ran a load test on the preferences service with both eventual and consistent read modes.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "4ec7905d-b8cd-43d6-8749-f28a473e5033",
+    "name": "RECEIVED_COMPLAINT_ABOUT",
+    "fact": "Sven received a complaint about the pager rotation from Goran's side, specifically from Magnus wanting to swap his first week.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b7e3028-d193-4ea1-9899-35139743bea4",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Rohan planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684124+00:00"
+   },
+   {
+    "uuid": "9d4a0dcf-eb96-4148-8add-46e5ec81af08",
+    "name": "MODIFIED_RETENTION_OF",
+    "fact": "Hana modified the retention of debug logs from thirty days to fourteen days.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4339b82a-dfe9-487f-bf1c-d9d5018633da",
+    "name": "EXPLAINED_ISSUE",
+    "fact": "Sven explained that the default read mode on that store is eventual, and that consistent reads cost double per request.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ac1bbb37-ee33-41ed-9888-c5da11dad5e3",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Hana to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f68bddd7-e879-477e-b1c0-b2a7d4e583e7",
+    "name": "OBTAINED_INFORMATION_FROM",
+    "fact": "Henrik obtained information from Anders about the opt-out policy.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01020-q11",
+  "facts": [
+   {
+    "uuid": "9d4a0dcf-eb96-4148-8add-46e5ec81af08",
+    "name": "MODIFIED_RETENTION_OF",
+    "fact": "Hana modified the retention of debug logs from thirty days to fourteen days.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6786f8fa-2760-45d6-a96d-1072084699ec",
+    "name": "NOTIFIED",
+    "fact": "Rohan notified Rui about the change to the debug logs retention settings.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f",
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "652439c3-f54a-44b2-a4bd-a0c9c64ff004",
+    "name": "CHANGED_RETENTION",
+    "fact": "Rohan changed the retention settings for debug logs to fourteen days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a2146c9-5ed9-48a3-8b41-04b99f84aa9a",
+    "name": "EXPLAINED_REASON",
+    "fact": "Rohan explained that the debug logs are the biggest chunk, at forty-one percent of the 5.2 terabytes a month, and that last quarter nobody looked at anything older than nine days.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "381f270f-f7d6-4fbc-b881-0d1740a29085",
+    "name": "PROPOSED_CHANGE",
+    "fact": "Rohan proposed to cut the debug logs down from keeping them thirty days to fourteen.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684083+00:00"
+   },
+   {
+    "uuid": "d2eb57bd-88e7-411a-b94a-db7fdd2d21c4",
+    "name": "APPROVED_CHANGE",
+    "fact": "Arjun approved the change to cut the debug logs down from keeping them thirty days to fourteen.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684087+00:00"
+   },
+   {
+    "uuid": "efa1184f-531d-41ed-925f-eeff0a308720",
+    "name": "CONFIRMED_CHANGE_IMPLEMENTED",
+    "fact": "Rohan confirmed that the debug log change went in on Friday.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0b7e3028-d193-4ea1-9899-35139743bea4",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Rohan planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684124+00:00"
+   },
+   {
+    "uuid": "899dcf43-e6b8-4693-b5f3-89b6d0df2ba2",
+    "name": "PLANNED_TO_PULL",
+    "fact": "Hana planned to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": "2025-06-26T00:00:00+00:00",
+    "expired_at": "2026-11-08T01:49:32.684119+00:00"
+   },
+   {
+    "uuid": "ac1bbb37-ee33-41ed-9888-c5da11dad5e3",
+    "name": "INSTRUCTED_TO",
+    "fact": "Arjun instructed Hana to pull the staging logs from last week for the restart thing.",
+    "episodes": [
+     "629bfb2b-56b0-42a1-9bf1-5e7731218fd0"
+    ],
+    "valid_at": "2025-06-26T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4082837-7703-4078-9d3c-cf2b7ba502cf",
+    "name": "MENTIONED_ISSUE",
+    "fact": "Hana mentioned that with the consent flags thing, there was a cache in front that served stale stuff for like a minute and nobody noticed for weeks.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbf600eb-ba5c-4cce-b894-f0162654a985",
+    "name": "OBSERVED_ISSUE",
+    "fact": "Hana observed that during the spike, about seven percent of the preference reads came back stale.",
+    "episodes": [
+     "83c242f4-4e30-453a-b048-87838f5dc72f"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

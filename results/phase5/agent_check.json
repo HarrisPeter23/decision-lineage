@@ -1,0 +1,23 @@
+{
+ "checker": "agent (Claude Opus 5.5), NOT a human",
+ "date": "2026-11-04",
+ "procedure": "blind to the NLI verdict; 'yes' iff every claim of the sentence is stated in, or directly implied by, the cited statements. Meeting numbers/dates are evidence metadata not shown on the sheet, so they are not judged. Topic references to the decision under discussion are accepted. Claims of absence ('was not discussed'), finality, or a change that the cited line does not state count as unsupported.",
+ "labels": {
+  "S01": "yes", "S02": "yes", "S03": "yes", "S04": "yes", "S05": "yes", "S06": "no", "S07": "yes", "S08": "no", "S09": "no", "S10": "no",
+  "S11": "no", "S12": "yes", "S13": "no", "S14": "yes", "S15": "yes", "S16": "no", "S17": "yes", "S18": "yes", "S19": "yes", "S20": "yes",
+  "S21": "no", "S22": "yes", "S23": "no", "S24": "yes", "S25": "yes", "S26": "yes", "S27": "no", "S28": "yes", "S29": "yes", "S30": "yes",
+  "S31": "yes", "S32": "no", "S33": "no", "S34": "no", "S35": "no", "S36": "yes", "S37": "yes", "S38": "no", "S39": "yes", "S40": "yes",
+  "S41": "no", "S42": "no", "S43": "yes", "S44": "yes", "S45": "yes", "S46": "yes", "S47": "yes", "S48": "yes", "S49": "yes", "S50": "no",
+  "S51": "yes", "S52": "yes"
+ },
+ "notes": {
+  "S06": "'per month' and the unchanged status beyond 'keeping' are not in the citation",
+  "S09": "'30-day trial policy' is not in the cited line",
+  "S13": "the line does not say the decision changed",
+  "S14": "'unfeasible' is an inference from 'eighteen thousand over budget'; accepted",
+  "S21": "'virtual platform' and 'sign-ups for the reception' misread the cited lines",
+  "S34": "the cited line is a resolution; 'proposed' gives the wrong argumentative act",
+  "S41": "contradicted by the citation",
+  "S49": "vague but true: Wei gave the reason"
+ }
+}

@@ -1,0 +1,1286 @@
+{
+ "set_id": "set_01014",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v2",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Notifying Halden Foods account manager about the export issue",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Notifying Halden Foods account manager about the export issue",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "SOC 2 questionnaire distribution",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Fourteen days, free trial"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": "Test in May showed signups went up threefold"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Different buyer, not the same as main plans"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Reporting people already have a budget"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "First touch should feel easy"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Signups aren't revenue"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Fills the top, what happens after is on us"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": "Insights backfills twelve months of reports on first login"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": "About four dollars per account"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": "Thirty dollars for large tenants"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Cheaper than two sales calls"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Has anyone actually tested it?"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Directionally, it has to be cheaper"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Directionally isn't a number"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "People will sign up with multiple emails"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Free-mail people can't be caught"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Free-mail people aren't buying Insights"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Trial for Insights",
+   "option": "Get sheet from Tomas by Monday"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Support for Insights",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Support for Insights",
+   "option": "Support queue will increase"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Support for Insights",
+   "option": "Tickets went up about 18 percent for three weeks"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Support for Insights",
+   "option": "Eighteen percent for three weeks is acceptable"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Support for Insights",
+   "option": "Eighteen percent for three weeks is acceptable"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Support for Insights",
+   "option": "That's survivable"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Trial for Insights",
+   "option": "Two weeks, nothing on file"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights entitlement switch in staging",
+   "option": "By the 20th"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Event names for Insights page changes",
+   "option": "Send over this week"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Legal review of terms page",
+   "option": "By the 22nd"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Launch email story",
+   "option": "Lena to take a first draft by the 15th"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Sign-off deadlines",
+   "option": "Before Friday the 15th"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "30-day trial with card required at signup"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights trial period and card requirement",
+   "option": "30-day trial with card required at signup"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Staging switch deadline",
+   "option": "No change to the 20th"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Page copy deadline",
+   "option": "Rewrite page copy today"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "Event names for Insights page changes",
+   "option": "Send over this afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Legal review of terms page",
+   "option": "By the 22nd"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Launch email story",
+   "option": "Lena to take a first draft by the 15th"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Release-notes email frequency",
+   "option": "Monthly instead of weekly"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Sign-off deadlines",
+   "option": "Before Friday the 15th"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+   ],
+   "speaker": "Lena",
+   "confidence": 0.95,
+   "decision": "Impact of card field on signups and activation",
+   "option": "Remove card field"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Impact of card field on signups and activation",
+   "option": "Remove card field"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Impact of card field on signups and activation",
+   "option": "Keep card field"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights trial period and card requirement",
+   "option": ""
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "challenge",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "evidence",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "confidence": 0.95,
+   "decision": "Insights trial period and card requirement",
+   "option": "14-day free trial with no card required"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Staging switch deadline",
+   "option": "No change to the 20th"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Page copy deadline",
+   "option": "Rewrite page copy today"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Legal review of terms page",
+   "option": "By the 22nd"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Launch email story",
+   "option": "Lena to take a first draft by the 15th"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Lena",
+   "confidence": 0.8,
+   "decision": "Notifying Halden Foods account manager about the export issue",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Notifying Halden Foods account manager about the export issue",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Trial for Insights (option: Test in May showed signups went up threefold)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Trial for Insights (option: Test in May showed signups went up threefold)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.7,
+   "decision": "Trial for Insights (option: Fourteen days, free trial)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Release-notes email frequency",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Lena",
+   "confidence": 0.9,
+   "decision": "Release-notes email frequency",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Release-notes email frequency",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Impact of card field on signups and activation (option: Keep card field)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Impact of card field on signups and activation (option: Remove card field)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "Impact of card field on signups and activation (option: Keep card field)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "Impact of card field on signups and activation (option: Remove card field)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement (option: 14-day free trial with no card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.7,
+   "decision": "Insights trial period and card requirement (option: 14-day free trial with no card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.6,
+   "decision": "Insights trial period and card requirement (option: 14-day free trial with no card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Insights trial period and card requirement (option: 14-day free trial with no card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Insights trial period and card requirement (option: 14-day free trial with no card required)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Staging switch deadline (option: No change to the 20th)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Meera",
+   "confidence": 0.9,
+   "decision": "Page copy deadline (option: Rewrite page copy today)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "Legal review of terms page (option: By the 22nd)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m4",
+   "role": "rationale",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Lena",
+   "confidence": 0.7,
+   "decision": "Launch email story (option: Lena to take a first draft by the 15th)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

@@ -1,0 +1,332 @@
+{
+ "set_id": "ami_ES2003",
+ "meta": {
+  "arc_type": "simple_reversal",
+  "n_meetings": 4,
+  "source": "ami",
+  "series": "ES2003",
+  "ami_meetings": [
+   "ES2003a",
+   "ES2003b",
+   "ES2003c",
+   "ES2003d"
+  ],
+  "drafted_by": "agent (claude-opus-5-5)",
+  "verification": "none",
+  "notes": "Summaries: c 'a case made of rubber', d 'made of plastic instead of rubber'. The meeting-d decision at d[164] is phrased as a question. The team also kept the LCD in the same exchange; that is a separate decision and not tagged. The prototype shown at d[19] already used a plastic casing."
+ },
+ "topic": "the material of the remote's case",
+ "options": {
+  "A": "a flexible spongy rubber case",
+  "B": "a solid plastic case with a single-curved design"
+ },
+ "cast": [
+  "PM",
+  "ME",
+  "UI",
+  "ID"
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "option_text": "a flexible spongy rubber case",
+   "valid_from": 3,
+   "valid_to": 4
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "option_text": "a solid plastic case with a single-curved design",
+   "valid_from": 4,
+   "valid_to": null
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "UI",
+   "utterance_idxs": [
+    125
+   ],
+   "gist": "The User Interface Designer proposes going straight for rubber.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a flexible spongy rubber case"
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "ME",
+   "utterance_idxs": [
+    191
+   ],
+   "gist": "The Marketing Expert argues that a spongy case can be dropped any number of times without breaking.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a flexible spongy rubber case"
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "PM",
+   "utterance_idxs": [
+    211
+   ],
+   "gist": "The Project Manager notes the team has pretty much decided on some kind of flexible rubber, possibly with an inner frame.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a flexible spongy rubber case"
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    89
+   ],
+   "gist": "The Project Manager reports the design is four Euros over budget, about half of it from the LCD and the chip it needs.",
+   "version": 1,
+   "option_key": "A",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a flexible spongy rubber case"
+  },
+  {
+   "link_id": "B5",
+   "role": "proposal",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    90
+   ],
+   "gist": "The Project Manager proposes changing to a solid plastic unit with a single-curved design, which brings the cost back within budget with 0.2 Euro to spare.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a solid plastic case with a single-curved design"
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    107
+   ],
+   "gist": "The Project Manager explains that plastic adds no cost while rubber costs two Euros per unit.",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a solid plastic case with a single-curved design"
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 4,
+   "meeting_id": "m4",
+   "speaker": "PM",
+   "utterance_idxs": [
+    164
+   ],
+   "gist": "The Project Manager asks the team to go ahead with a plastic solid case so the LCD can be kept (phrased as a question, accepted).",
+   "version": 2,
+   "option_key": "B",
+   "implicit": false,
+   "reaffirmation": false,
+   "option": "a solid plastic case with a single-curved design"
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 4,
+   "triggered_by": [
+    "B4"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "ami_ES2003-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the material of the remote's case?",
+   "answer_text": "a solid plastic case with a single-curved design",
+   "answer_facts": {
+    "option": "a solid plastic case with a single-curved design"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the material of the remote's case?",
+   "answer_text": "meeting 3: PM - The Project Manager notes the team has pretty much decided on some kind of flexible rubber, possibly with an inner frame.; meeting 4: PM - The Project Manager asks the team to go ahead with a plastic solid case so the LCD can be kept (phrased as a question, accepted).",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "a flexible spongy rubber case",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 4,
+      "option": "a solid plastic case with a single-curved design",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q03",
+   "type": "as_of",
+   "question": "What was the decision about the material of the remote's case as of the end of meeting 3?",
+   "answer_text": "a flexible spongy rubber case",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "a flexible spongy rubber case"
+   },
+   "supporting_links": [
+    "B3"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q04",
+   "type": "as_of",
+   "question": "What was the decision about the material of the remote's case as of the end of meeting 4?",
+   "answer_text": "a solid plastic case with a single-curved design",
+   "answer_facts": {
+    "as_of": 4,
+    "option": "a solid plastic case with a single-curved design"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the material of the remote's case change over time?",
+   "answer_text": "a flexible spongy rubber case (from meeting 3) -> a solid plastic case with a single-curved design (from meeting 4)",
+   "answer_facts": {
+    "sequence": [
+     "a flexible spongy rubber case",
+     "a solid plastic case with a single-curved design"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about the material of the remote's case changed?",
+   "answer_text": "Before: a flexible spongy rubber case, because The Marketing Expert argues that a spongy case can be dropped any number of times without breaking. Triggered by: PM (evidence): The Project Manager reports the design is four Euros over budget, about half of it from the LCD and the chip it needs. After: a solid plastic case with a single-curved design, because The Project Manager explains that plastic adds no cost while rubber costs two Euros per unit.",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about the material of the remote's case?",
+   "answer_text": "UI",
+   "answer_facts": {
+    "speaker": "UI"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q08",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the material of the remote's case?",
+   "answer_text": "meeting 3, meeting 4",
+   "answer_facts": {
+    "meetings": [
+     3,
+     4
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "ami_ES2003-q09",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the material of the remote's case from proposal to final outcome.",
+   "answer_text": "meeting 3 - UI [proposal]: The User Interface Designer proposes going straight for rubber. | meeting 3 - ME [rationale]: The Marketing Expert argues that a spongy case can be dropped any number of times without breaking. | meeting 3 - PM [resolution]: The Project Manager notes the team has pretty much decided on some kind of flexible rubber, possibly with an inner frame. | meeting 4 - PM [evidence]: The Project Manager reports the design is four Euros over budget, about half of it from the LCD and the chip it needs. | meeting 4 - PM [proposal]: The Project Manager proposes changing to a solid plastic unit with a single-curved design, which brings the cost back within budget with 0.2 Euro to spare. | meeting 4 - PM [rationale]: The Project Manager explains that plastic adds no cost while rubber costs two Euros per unit. | meeting 4 - PM [resolution]: The Project Manager asks the team to go ahead with a plastic solid case so the LCD can be kept (phrased as a question, accepted).",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

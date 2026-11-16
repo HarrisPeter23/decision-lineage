@@ -1,0 +1,369 @@
+{
+ "tag": "evowiki_style@ami",
+ "n": 50,
+ "parse_ok": 50,
+ "unknown_cites": 0,
+ "judge_unparsed": 0,
+ "n_sentences": 315,
+ "metrics": {
+  "headline": {
+   "correctness_flag": [
+    0.2,
+    [
+     0.077,
+     0.367
+    ],
+    15
+   ],
+   "correctness_drop": [
+    0.233,
+    [
+     0.1,
+     0.393
+    ],
+    15
+   ],
+   "supported_claim_rate": [
+    0.125,
+    [
+     0.027,
+     0.233
+    ],
+    15
+   ],
+   "citation_precision": [
+    0.112,
+    [
+     0.054,
+     0.173
+    ],
+    15
+   ],
+   "hallucination_rate": [
+    0.808,
+    [
+     0.717,
+     0.904
+    ],
+    15
+   ],
+   "lexical_ok": [
+    0.703,
+    [
+     0.542,
+     0.875
+    ],
+    15
+   ],
+   "uncited_share": [
+    0.175,
+    [
+     0.042,
+     0.365
+    ],
+    15
+   ],
+   "retrieval_completeness": [
+    0.192,
+    [
+     0.101,
+     0.316
+    ],
+    15
+   ],
+   "expl_completeness_flag": [
+    0.126,
+    [
+     0.076,
+     0.201
+    ],
+    15
+   ],
+   "expl_completeness_drop": [
+    0.022,
+    [
+     0.0,
+     0.067
+    ],
+    15
+   ]
+  },
+  "all": {
+   "correctness_flag": [
+    0.38,
+    [
+     0.269,
+     0.5
+    ],
+    50
+   ],
+   "correctness_drop": [
+    0.4,
+    [
+     0.288,
+     0.53
+    ],
+    50
+   ],
+   "supported_claim_rate": [
+    0.122,
+    [
+     0.01,
+     0.242
+    ],
+    50
+   ],
+   "citation_precision": [
+    0.104,
+    [
+     0.021,
+     0.213
+    ],
+    50
+   ],
+   "hallucination_rate": [
+    0.809,
+    [
+     0.703,
+     0.912
+    ],
+    50
+   ],
+   "lexical_ok": [
+    0.806,
+    [
+     0.729,
+     0.898
+    ],
+    50
+   ],
+   "uncited_share": [
+    0.08,
+    [
+     0.033,
+     0.125
+    ],
+    50
+   ],
+   "retrieval_completeness": [
+    0.218,
+    [
+     0.137,
+     0.317
+    ],
+    47
+   ],
+   "expl_completeness_flag": [
+    0.179,
+    [
+     0.088,
+     0.289
+    ],
+    47
+   ],
+   "expl_completeness_drop": [
+    0.042,
+    [
+     0.0,
+     0.114
+    ],
+    47
+   ]
+  }
+ },
+ "per_type": {
+  "as_of": {
+   "n": 10,
+   "correctness": [
+    0.4,
+    [
+     0.2,
+     0.5
+    ],
+    10
+   ],
+   "supported": [
+    0.1,
+    [
+     0.013,
+     0.212
+    ],
+    10
+   ]
+  },
+  "change_over_time": {
+   "n": 5,
+   "correctness": [
+    0.3,
+    [
+     0.1,
+     0.5
+    ],
+    5
+   ],
+   "supported": [
+    0.2,
+    [
+     0.0,
+     0.6
+    ],
+    5
+   ]
+  },
+  "decisions_about": {
+   "n": 5,
+   "correctness": [
+    0.4,
+    [
+     0.2,
+     0.5
+    ],
+    5
+   ],
+   "supported": [
+    0.1,
+    [
+     0.0,
+     0.2
+    ],
+    5
+   ]
+  },
+  "evidence_to_reconsider": {
+   "n": 4,
+   "correctness": [
+    0.125,
+    [
+     0.0,
+     0.375
+    ],
+    4
+   ],
+   "supported": [
+    0.062,
+    [
+     0.0,
+     0.125
+    ],
+    4
+   ]
+  },
+  "full_lineage": {
+   "n": 5,
+   "correctness": [
+    0.4,
+    [
+     0.2,
+     0.5
+    ],
+    5
+   ],
+   "supported": [
+    0.2,
+    [
+     0.025,
+     0.4
+    ],
+    5
+   ]
+  },
+  "lookup_final": {
+   "n": 5,
+   "correctness": [
+    1.0,
+    [
+     1.0,
+     1.0
+    ],
+    5
+   ],
+   "supported": [
+    0.15,
+    [
+     0.0,
+     0.375
+    ],
+    5
+   ]
+  },
+  "meetings_contributed": {
+   "n": 5,
+   "correctness": [
+    0.5,
+    [
+     0.5,
+     0.5
+    ],
+    5
+   ],
+   "supported": [
+    0.075,
+    [
+     0.0,
+     0.225
+    ],
+    5
+   ]
+  },
+  "who_proposed": {
+   "n": 5,
+   "correctness": [
+    0.2,
+    [
+     0.0,
+     0.6
+    ],
+    5
+   ],
+   "supported": [
+    0.125,
+    [
+     0.0,
+     0.375
+    ],
+    5
+   ]
+  },
+  "why_changed": {
+   "n": 6,
+   "correctness": [
+    0.083,
+    [
+     0.0,
+     0.3
+    ],
+    6
+   ],
+   "supported": [
+    0.104,
+    [
+     0.018,
+     0.225
+    ],
+    6
+   ]
+  }
+ },
+ "false_premise": {
+  "n": 1,
+  "regex_ok": 0,
+  "judge": [
+   0.0
+  ]
+ },
+ "policy": {
+  "rule": "drop iff it lowers neither expl. completeness nor correctness by more than 0.02 (headline and all)",
+  "deltas": {
+   "headline_correctness": 0.033,
+   "headline_completeness": -0.104,
+   "all_correctness": 0.02,
+   "all_completeness": -0.137
+  },
+  "chosen": "flag"
+ },
+ "latency": {
+  "mean_s": 25.55,
+  "mean_in": 2073,
+  "mean_out": 315
+ }
+}

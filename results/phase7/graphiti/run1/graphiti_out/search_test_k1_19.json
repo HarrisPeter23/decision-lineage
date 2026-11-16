@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01041-q01",
+  "facts": [
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "f6b978bd-60e7-4948-98b9-84b3c236735e",
+    "name": "will_build_validation_rule",
+    "fact": "Sione will build the validation rule for the CRM changes, as he did for the renewals form.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "3dffb072-f4b1-4301-8985-798c3cbbd559",
+    "name": "ASKED_TO_DEFINE",
+    "fact": "Kofi asked Sione to define the three fields for the close-won rules so he wouldn't guess.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85338d1-3c34-4f35-bcb1-f479bd1308e3",
+    "name": "MENTIONED_TO_LEAVE",
+    "fact": "Priya mentioned that she should leave the other five fields as columns in the report, even though they would be empty on new entries.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q02",
+  "facts": [
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0db52368-27ba-45e8-8f03-c851d9dc0df1",
+    "name": "MENTIONED_IMPROVEMENT",
+    "fact": "Meera mentioned that the champion name answers in the trial were even better than what they get now.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4268048c-2f73-4e8c-90cf-db44cbcce4f9",
+    "name": "PROPOSED",
+    "fact": "Kofi proposed that the close-won rules should be reduced to three fields: amount, close date, and product, plus a survey link.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3dffb072-f4b1-4301-8985-798c3cbbd559",
+    "name": "ASKED_TO_DEFINE",
+    "fact": "Kofi asked Sione to define the three fields for the close-won rules so he wouldn't guess.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q03",
+  "facts": [
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "5a279f6b-6d53-4bf7-886e-da6d0966dbf0",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya for a breakdown by field of the eight fields with junk data.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022619+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e35e7f49-fdc7-4c99-aad6-0573345248d3",
+    "name": "MENTIONED_HAVING",
+    "fact": "Meera mentioned that she brought a jacket, which was in her bag.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85338d1-3c34-4f35-bcb1-f479bd1308e3",
+    "name": "MENTIONED_TO_LEAVE",
+    "fact": "Priya mentioned that she should leave the other five fields as columns in the report, even though they would be empty on new entries.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q04",
+  "facts": [
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "5a279f6b-6d53-4bf7-886e-da6d0966dbf0",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya for a breakdown by field of the eight fields with junk data.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022619+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e35e7f49-fdc7-4c99-aad6-0573345248d3",
+    "name": "MENTIONED_HAVING",
+    "fact": "Meera mentioned that she brought a jacket, which was in her bag.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85338d1-3c34-4f35-bcb1-f479bd1308e3",
+    "name": "MENTIONED_TO_LEAVE",
+    "fact": "Priya mentioned that she should leave the other five fields as columns in the report, even though they would be empty on new entries.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q05",
+  "facts": [
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "f6b978bd-60e7-4948-98b9-84b3c236735e",
+    "name": "will_build_validation_rule",
+    "fact": "Sione will build the validation rule for the CRM changes, as he did for the renewals form.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "5d172402-6811-426f-8372-0b4a21d2fcde",
+    "name": "PARTICIPATED_IN",
+    "fact": "Zainab participated in the survey and was asked how she felt about the lunch.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b85338d1-3c34-4f35-bcb1-f479bd1308e3",
+    "name": "MENTIONED_TO_LEAVE",
+    "fact": "Priya mentioned that she should leave the other five fields as columns in the report, even though they would be empty on new entries.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q06",
+  "facts": [
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "e35e7f49-fdc7-4c99-aad6-0573345248d3",
+    "name": "MENTIONED_HAVING",
+    "fact": "Meera mentioned that she brought a jacket, which was in her bag.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "52e84585-033a-4542-8079-8639e4ee7389",
+    "name": "REFERRED_TO",
+    "fact": "Sven referred to Kofi regarding the CRM and feeling like it wasn't a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3dffb072-f4b1-4301-8985-798c3cbbd559",
+    "name": "ASKED_TO_DEFINE",
+    "fact": "Kofi asked Sione to define the three fields for the close-won rules so he wouldn't guess.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q07",
+  "facts": [
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "4268048c-2f73-4e8c-90cf-db44cbcce4f9",
+    "name": "PROPOSED",
+    "fact": "Kofi proposed that the close-won rules should be reduced to three fields: amount, close date, and product, plus a survey link.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "52e84585-033a-4542-8079-8639e4ee7389",
+    "name": "REFERRED_TO",
+    "fact": "Sven referred to Kofi regarding the CRM and feeling like it wasn't a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3dffb072-f4b1-4301-8985-798c3cbbd559",
+    "name": "ASKED_TO_DEFINE",
+    "fact": "Kofi asked Sione to define the three fields for the close-won rules so he wouldn't guess.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q08",
+  "facts": [
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "52e84585-033a-4542-8079-8639e4ee7389",
+    "name": "REFERRED_TO",
+    "fact": "Sven referred to Kofi regarding the CRM and feeling like it wasn't a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "50712612-dce9-435c-9386-d3fe1733695b",
+    "name": "INSTRUCTED",
+    "fact": "Kofi instructed Meera not to tell the reps anything yet, but to say it was being looked at if they asked.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "3dffb072-f4b1-4301-8985-798c3cbbd559",
+    "name": "ASKED_TO_DEFINE",
+    "fact": "Kofi asked Sione to define the three fields for the close-won rules so he wouldn't guess.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q09",
+  "facts": [
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "0cfa2682-1b91-4ab8-850d-1626d69ed9b9",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab about her being in three meetings with her eyes shut.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "e35e7f49-fdc7-4c99-aad6-0573345248d3",
+    "name": "MENTIONED_HAVING",
+    "fact": "Meera mentioned that she brought a jacket, which was in her bag.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1f7ddebd-185a-42aa-86b6-be6cc9027b42",
+    "name": "MENTIONED_IMPROVEMENT",
+    "fact": "Zainab mentioned that the survey was successful because it was sent two days after the close screen, allowing reps to remember who actually pushed the deal.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01041-q10",
+  "facts": [
+   {
+    "uuid": "f4fc5416-d335-4fbe-aa9d-6047043aad8f",
+    "name": "confirmed_crm_changes",
+    "fact": "Kofi confirmed that the CRM changes will be implemented, requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022603+00:00"
+   },
+   {
+    "uuid": "8e2c5992-e1f9-49af-b333-61d14f6d89bb",
+    "name": "DISCUSSED_CHANGES_TO",
+    "fact": "Kofi discussed changes to the close screen, including reducing the number of mandatory fields and implementing a survey.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ff5140c0-d2a3-4432-ac56-145033cb16be",
+    "name": "will_send_message_to_reps",
+    "fact": "Kofi will send a short message to the reps about the CRM changes.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-02T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:44:43.473446+00:00"
+   },
+   {
+    "uuid": "da22fbbc-be9a-4a03-a544-0e3312dd21bc",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Zainab, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022615+00:00"
+   },
+   {
+    "uuid": "23439aff-83ba-4552-a3ae-3b14c9670512",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Kofi, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022501+00:00"
+   },
+   {
+    "uuid": "6546700f-3e82-4f2c-ae4d-44b2b5ef5b43",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Meera, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022607+00:00"
+   },
+   {
+    "uuid": "68f32362-0e23-4355-9ea1-f9bc58268072",
+    "name": "discussed_crm_changes",
+    "fact": "Sven discussed changes to the CRM system with Priya, including requiring eight fields to be filled at close-won.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022611+00:00"
+   },
+   {
+    "uuid": "e9eee62d-2b1b-4e3e-aa3f-513a81f3d92b",
+    "name": "REPLIED_TO",
+    "fact": "Kofi replied to Zainab regarding the CRM not being a bad idea.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "4268048c-2f73-4e8c-90cf-db44cbcce4f9",
+    "name": "PROPOSED",
+    "fact": "Kofi proposed that the close-won rules should be reduced to three fields: amount, close date, and product, plus a survey link.",
+    "episodes": [
+     "1d26a823-bf0a-4d55-ba6d-e515e7737089"
+    ],
+    "valid_at": "2025-05-09T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe620df7-9729-48f5-add8-a39f7c6a8c52",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya about the time thing and whether it was every rep or a few.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f6b978bd-60e7-4948-98b9-84b3c236735e",
+    "name": "will_build_validation_rule",
+    "fact": "Sione will build the validation rule for the CRM changes, as he did for the renewals form.",
+    "episodes": [
+     "e508bf4f-e763-4e51-a240-70290ff8d48e"
+    ],
+    "valid_at": "2025-04-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5a279f6b-6d53-4bf7-886e-da6d0966dbf0",
+    "name": "ASKED_ABOUT",
+    "fact": "Kofi asked Priya for a breakdown by field of the eight fields with junk data.",
+    "episodes": [
+     "591f17e0-65c7-47f2-b180-dfd3c95f0439"
+    ],
+    "valid_at": "2025-05-02T00:00:00+00:00",
+    "invalid_at": "2025-05-09T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:54:21.022619+00:00"
+   }
+  ]
+ }
+]

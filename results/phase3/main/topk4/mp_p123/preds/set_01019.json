@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01019",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Priya",
+   "quote": "So, right now every engineering candidate gets a phone screen first, twenty or thirty minutes with one of us. What if we dropped that and just sent them a short exercise instead?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Priya",
+   "quote": "Look, last quarter I pulled the pass rates by recruiter. One of them was passing about 38 percent of people to the next stage.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Priya",
+   "quote": "A take-home gives everyone the identical task, so we're comparing like with like.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Priya",
+   "quote": "We could ask those in the application form.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Bashir",
+   "quote": "Good. That's one off the list.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Priya",
+   "quote": "Agreed. I'd just like both options in the sheet next to each other.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Bashir",
+   "quote": "Okay. Um. I'm fine with that. Ship the laptops to the new hires' homes the Friday before they start. Jonas, can you tell IT?",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "quote": "Can I - okay, so if the take-home loses that many people, what if we keep it a conversation, but make it, I don't know, properly structured?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Aisha",
+   "quote": "Can we do the interview thing first? I've got a hard stop at half past.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Bashir",
+   "quote": "The video screen, the forty-five minute one with two of us scoring on the shared rubric. That's the one for first-round engineering. The phone screen goes, and no take-home regarding the interview process.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Bashir",
+   "quote": "Yes. That's, um, that's what I wanted. We've been round it twice now.",
+   "confidence": 0.8
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Bashir",
+   "quote": "I'd like to be done with it today. Priya, you added the, the column?",
+   "confidence": 0.8
+  }
+ ]
+}

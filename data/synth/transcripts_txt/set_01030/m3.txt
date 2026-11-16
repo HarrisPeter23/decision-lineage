@@ -1,0 +1,96 @@
+Meeting: m3
+Date: 2025-04-13
+Participants: Pavel, Greta, Kofi, Marco, Aisha
+
+Pavel: Okay, ten past. Marco, Kofi, you both on?
+Marco: Here.
+Kofi: Yeah, sorry, um, one sec, I was on mute. Okay, here.
+Aisha: Morning.
+Greta: Hi, hi. Sorry, I was grabbing water.
+Pavel: Right. Aisha, the ticket count for this past week. Did you get it?
+Aisha: Yes. Fifty-five.
+Pavel: Fifty-five. So that's basically the fifty-eight again, give or take.
+Aisha: Same rate. Same people asking.
+Greta: Hm, I'd have guessed it would've dropped a bit by now.
+Aisha: It didn't.
+Marco: Same stuff. Bar charts, filters, date ranges.
+Pavel: And the keeping-things-running part, is that still around two days?
+Aisha: About that. Little under some days, little over others.
+Pavel: Okay. A second week at that level isn't a start-up bump anymore. So let's put the tool decision back on the table, properly this time, the Plotbench call included.
+Greta: Okay. Um. I mean, I'm fine looking again, it's just, we did spend a couple of weeks on it, you know?
+Pavel: We did. Marco's test copy is still up, nothing's been thrown away.
+Marco: Single sign-on's connected now. Hedda looked at it Friday.
+Pavel: Oh good, I hadn't heard that. Kofi, you had the SQL headcount?
+Kofi: Yeah, so, uh, from the access logs, I think maybe thirty-four people have run a query in the last quarter. Out of the sixty-two viewers, so, um, twenty-eight or so who never have.
+Pavel: Twenty-eight. Close to the thirty I guessed.
+Kofi: Yeah. Although a few of the thirty-four did, like, one query ever. So it's generous.
+Greta: So couldn't some of them just learn it?
+Aisha: Finance won't.
+Pavel: Aisha, who's actually asking, did you break that out?
+Aisha: Finance thirty-one. Ops twelve. Sales ops about nine. Rest scattered.
+Pavel: So fifty-two-ish in three teams, and the scatter makes up the rest.
+Aisha: Yes.
+Greta: Okay, so it's the same few groups, over and over.
+Marco: And the same five dashboards, mostly.
+Pavel: Kofi, last week you said the hours burned cost more than the licence would. Did you ever firm that up?
+Kofi: Um, kind of. So, I think maybe the thing is, the drag-and-drop builder in the paid one means finance and ops can just make their own charts. And when I went through the ticket list, that's about two and a half analyst-days a week that stop landing on us. It's hosted too, so nobody's babysitting a server. And, uh, Greta's worry was porting, so I ran the converter on twelve of the forty dashboards and the queries came across fine.
+Pavel: Twelve of forty. Okay.
+Greta: Hm. Two and a half days, that's a lot to hang on a ticket list.
+Aisha: It's real. I counted.
+Kofi: I mean, I could be off by half a day. Maybe.
+Pavel: Still more than one day. Quick sanity check on the price. Eighteen a viewer, sixty-two viewers, twelve months, that's, what, thirteen-four, yes.
+Greta: Right, thirteen four. And then the seven percent next year.
+Pavel: Seven, yes.
+Marco: The twelve that converted. Were they the hard ones?
+Kofi: Um, not really. I picked, like, a spread. Some of the joins were ugly, those worked.
+Marco: Okay. Good.
+Aisha: What about the other twenty-eight?
+Kofi: Haven't run them. I think maybe the date functions will bite on a couple. Greta had that.
+Greta: Yeah, that was one in three. Just the name of the function.
+Pavel: Fine. We'd find out as we go.
+Greta: Can I say something big picture? Part of me just feels like we're paying for something we could build ourselves.
+Aisha: We tried. Two days a week.
+Greta: Okay, okay, yeah.
+Pavel: Hold on, one side thing, and it's quick. Rosa needs everyone's offsite flights by Wednesday.
+Kofi: Oh, um, the twenty-second. My thing is in the afternoon, not morning, so I think maybe I'm fine.
+Pavel: Then tell Rosa that, not me.
+Kofi: Yes, will do. Sorry.
+Aisha: Where is it again? The venue.
+Greta: Some converted mill outside the city. Rosa sent photos.
+Aisha: Is there wifi?
+Greta: She said there's wifi. She also said it's a mill.
+Marco: Mills have wifi.
+Pavel: Take it up with her. Back to the thing. Marco, you'd be the one living with the self-hosted copy. How are you feeling?
+Marco: Honestly, relieved to not have it. The refresh jobs are enough.
+Pavel: That's a clear answer.
+Greta: Mm. And Bilal's team would be happy, I guess.
+Aisha: Bilal's been asking for a month.
+Pavel: I know. He pinged me twice.
+Kofi: And the, um, the notice date on the contract. Is that the thirtieth?
+Pavel: I looked it up. End of the month, yes. So we're not up against it, but procurement is slow, so it's not nothing either.
+Aisha: They're always slow.
+Greta: Stefan said last time it took them three weeks.
+Pavel: That was a software licence, this is a renewal. Should be quicker.
+Kofi: I think maybe they'll want the new quote though, since the old one's from March.
+Pavel: Probably. Okay. Is anyone sitting on an objection that we haven't heard?
+Greta: No. I'm fine. I wanted the free one, but the numbers aren't there.
+Aisha: No.
+Marco: No.
+Kofi: Um, no, I think maybe it's fine.
+Pavel: Right. Aisha, can you get procurement started on the paperwork today? Ask for a fresh quote with the same sixty-two seats, and copy me.
+Aisha: On it.
+Pavel: Thanks. And I'll message Bilal so he knows it's moving, but don't promise him dates.
+Aisha: Wasn't going to.
+Greta: While we're at it, should I tell the finance folks?
+Pavel: Let me do that first. Give me till tomorrow.
+Greta: Sure.
+Marco: What about the survey? I forgot to ask.
+Pavel: Oh, Sanne says we closed at forty-six of forty-eight. Two stragglers, not us.
+Greta: Good.
+Pavel: And the shared drive, Greta, did that get done?
+Greta: Yes. Mostly. There's a folder from two years ago I couldn't tell whose it was.
+Pavel: Ask Gabor, it's probably his team's.
+Greta: Okay.
+Aisha: I have to jump. Another call at half past.
+Pavel: Go. Thanks everyone. Marco, leave the test copy running for now.
+Marco: Okay.

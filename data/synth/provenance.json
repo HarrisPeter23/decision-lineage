@@ -1,0 +1,332 @@
+{
+ "set_01013": {
+  "writer": "claude-opus-5.5",
+  "prompt_version": "v1",
+  "seed": 1013,
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01014": {
+  "writer": "claude-opus-5.5",
+  "prompt_version": "v1",
+  "seed": 1014,
+  "arc_type": "re_reversal",
+  "domain": "SaaS product team",
+  "meetings": 4,
+  "verification": "none"
+ },
+ "set_01015": {
+  "writer": "claude-opus-5.5",
+  "prompt_version": "v1",
+  "seed": 1015,
+  "arc_type": "partial_override",
+  "domain": "corporate facilities team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01016": {
+  "writer": "claude-opus-5.5",
+  "prompt_version": "v1",
+  "seed": 1016,
+  "arc_type": "no_reversal",
+  "domain": "corporate events team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01017": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v2 (m1-2) + v3 (rest)",
+  "seed": 1017,
+  "arc_type": "external_trigger",
+  "domain": "sales operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01018": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v2 (m1-2) + v3 (rest)",
+  "seed": 1018,
+  "arc_type": "re_reversal",
+  "domain": "data and analytics team",
+  "meetings": 4,
+  "verification": "none"
+ },
+ "set_01019": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v2 (m1-2) + v3 (rest)",
+  "seed": 1019,
+  "arc_type": "deferred",
+  "domain": "HR team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01020": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1020,
+  "arc_type": "simple_reversal",
+  "domain": "backend engineering team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01021": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1021,
+  "arc_type": "simple_reversal",
+  "domain": "mobile app team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01022": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1022,
+  "arc_type": "external_trigger",
+  "domain": "marketing team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01023": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1023,
+  "arc_type": "external_trigger",
+  "domain": "finance team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01024": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1024,
+  "arc_type": "no_reversal",
+  "domain": "IT and security team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01025": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1025,
+  "arc_type": "external_trigger",
+  "domain": "supply chain and operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01026": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1026,
+  "arc_type": "no_reversal",
+  "domain": "SaaS product team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01027": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1027,
+  "arc_type": "re_reversal",
+  "domain": "corporate facilities team",
+  "meetings": 4,
+  "verification": "none"
+ },
+ "set_01028": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1028,
+  "arc_type": "partial_override",
+  "domain": "corporate events team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01029": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1029,
+  "arc_type": "partial_override",
+  "domain": "sales operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01030": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1030,
+  "arc_type": "simple_reversal",
+  "domain": "data and analytics team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01031": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1031,
+  "arc_type": "no_reversal",
+  "domain": "HR team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01032": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1032,
+  "arc_type": "partial_override",
+  "domain": "backend engineering team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01033": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1033,
+  "arc_type": "no_reversal",
+  "domain": "mobile app team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01034": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1034,
+  "arc_type": "simple_reversal",
+  "domain": "marketing team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01035": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1035,
+  "arc_type": "deferred",
+  "domain": "finance team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01036": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1036,
+  "arc_type": "simple_reversal",
+  "domain": "IT and security team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01037": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1037,
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01038": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1038,
+  "arc_type": "external_trigger",
+  "domain": "SaaS product team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01039": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1039,
+  "arc_type": "deferred",
+  "domain": "corporate facilities team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01041": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1041,
+  "arc_type": "simple_reversal",
+  "domain": "sales operations team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01043": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1043,
+  "arc_type": "re_reversal",
+  "domain": "HR team",
+  "meetings": 4,
+  "verification": "none"
+ },
+ "set_01045": {
+  "writer": "claude-sonnet-5.5",
+  "prompt_version": "v3",
+  "seed": 1045,
+  "arc_type": "external_trigger",
+  "domain": "mobile app team",
+  "meetings": 3,
+  "verification": "none"
+ },
+ "set_01000": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1000,
+  "arc_type": "no_reversal",
+  "domain": "SaaS product team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ },
+ "set_01002": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1002,
+  "arc_type": "external_trigger",
+  "domain": "corporate events team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ },
+ "set_01003": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1003,
+  "arc_type": "partial_override",
+  "domain": "corporate facilities team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ },
+ "set_01004": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1004,
+  "arc_type": "re_reversal",
+  "domain": "SaaS product team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ },
+ "set_01006": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1006,
+  "arc_type": "simple_reversal",
+  "domain": "supply chain and operations team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ },
+ "set_01012": {
+  "writer": "claude (earlier session, model not recorded)",
+  "prompt_version": "PROMPT_base",
+  "seed": 1012,
+  "arc_type": "deferred",
+  "domain": "supply chain and operations team",
+  "meetings": null,
+  "verification": "none",
+  "note": "pilot set, short meetings (25-38 utterances)"
+ }
+}

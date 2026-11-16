@@ -1,0 +1,393 @@
+{
+ "set_id": "set_05001",
+ "meta": {
+  "arc_type": "external_trigger",
+  "domain": "sales operations team",
+  "seed": 5001,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": true,
+    "digression": false,
+    "target_utterances": 105
+   },
+   {
+    "interruptions": "many",
+    "filler_talk_pct": 35,
+    "false_starts": "common",
+    "pronoun_heavy": true,
+    "digression": true,
+    "target_utterances": 79
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 93
+   }
+  ],
+  "models": {
+   "generator": "mock:None",
+   "temperature": 0.9
+  }
+ },
+ "topic": "mock topic for sales operations team",
+ "options": {
+  "A": "option a",
+  "B": "option b"
+ },
+ "cast": [
+  {
+   "name": "Oscar",
+   "slot": "manager",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Pavel",
+   "slot": "proposer",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Mei",
+   "slot": "challenger",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Tariq",
+   "slot": "supporter",
+   "style": "tends to interrupt others"
+  },
+  {
+   "name": "Sana",
+   "slot": "observer",
+   "style": "detail-oriented, quotes numbers"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "A",
+   "valid_from": 1,
+   "valid_to": 2,
+   "option_text": "option a"
+  },
+  {
+   "version": 2,
+   "option": "B",
+   "valid_from": 2,
+   "valid_to": null,
+   "option_text": "option b"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    6
+   ],
+   "gist": "proposal content, item a",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Pavel",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "rationale content, item b",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "resolution",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Oscar",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "resolution content, item c",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Oscar",
+   "utterance_idxs": [
+    5
+   ],
+   "gist": "evidence content, item d",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "reconsideration",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Oscar",
+   "utterance_idxs": [
+    7
+   ],
+   "gist": "reconsideration content, item e",
+   "version": 1,
+   "option_key": "A",
+   "option": "option a",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Tariq",
+   "utterance_idxs": [
+    8
+   ],
+   "gist": "rationale content, item f",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B7",
+   "role": "resolution",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Oscar",
+   "utterance_idxs": [
+    9
+   ],
+   "gist": "resolution content, item g",
+   "version": 2,
+   "option_key": "B",
+   "option": "option b",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [
+  {
+   "from_version": 1,
+   "to_version": 2,
+   "at_meeting": 2,
+   "triggered_by": [
+    "B4",
+    "B5"
+   ],
+   "new_rationale": [
+    "B6"
+   ]
+  }
+ ],
+ "distractor": null,
+ "questions": [
+  {
+   "qid": "set_05001-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about mock topic for sales operations team?",
+   "answer_text": "option b",
+   "answer_facts": {
+    "option": "option b"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about mock topic for sales operations team?",
+   "answer_text": "meeting 1: Oscar - resolution content, item c; meeting 2: Oscar - resolution content, item g",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 1,
+      "option": "option a",
+      "reaffirmation": false
+     },
+     {
+      "meeting": 2,
+      "option": "option b",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q03",
+   "type": "as_of",
+   "question": "What was the decision about mock topic for sales operations team as of the end of meeting 2?",
+   "answer_text": "option b",
+   "answer_facts": {
+    "as_of": 2,
+    "option": "option b"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q04",
+   "type": "as_of",
+   "question": "What was the decision about mock topic for sales operations team as of the end of meeting 3?",
+   "answer_text": "option b",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "option b"
+   },
+   "supporting_links": [
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about mock topic for sales operations team change over time?",
+   "answer_text": "option a (from meeting 1) -> option b (from meeting 2)",
+   "answer_facts": {
+    "sequence": [
+     "option a",
+     "option b"
+    ]
+   },
+   "supporting_links": [
+    "B3",
+    "B7",
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_05001-q06",
+   "type": "why_changed",
+   "question": "Why was the original decision about mock topic for sales operations team changed?",
+   "answer_text": "Before: option a, because rationale content, item b Triggered by: Oscar (evidence): evidence content, item d Oscar (reconsideration): reconsideration content, item e After: option b, because rationale content, item f",
+   "answer_facts": {
+    "from_version": 1,
+    "to_version": 2,
+    "triggers": [
+     "B4",
+     "B5"
+    ]
+   },
+   "supporting_links": [
+    "B2",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q07",
+   "type": "who_proposed",
+   "question": "Who proposed the original decision about mock topic for sales operations team?",
+   "answer_text": "Pavel",
+   "answer_facts": {
+    "speaker": "Pavel"
+   },
+   "supporting_links": [
+    "B1"
+   ]
+  },
+  {
+   "qid": "set_05001-q08",
+   "type": "evidence_to_reconsider",
+   "question": "What evidence caused the team to reconsider its decision about mock topic for sales operations team?",
+   "answer_text": "Oscar (evidence): evidence content, item d",
+   "answer_facts": {
+    "evidence": [
+     "B4"
+    ]
+   },
+   "supporting_links": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "qid": "set_05001-q09",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about mock topic for sales operations team?",
+   "answer_text": "meeting 1, meeting 2",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  },
+  {
+   "qid": "set_05001-q10",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about mock topic for sales operations team from proposal to final outcome.",
+   "answer_text": "meeting 1 - Pavel [proposal]: proposal content, item a | meeting 1 - Pavel [rationale]: rationale content, item b | meeting 1 - Oscar [resolution]: resolution content, item c | meeting 2 - Oscar [evidence]: evidence content, item d | meeting 2 - Oscar [reconsideration]: reconsideration content, item e | meeting 2 - Tariq [rationale]: rationale content, item f | meeting 2 - Oscar [resolution]: resolution content, item g",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7"
+   ]
+  }
+ ]
+}

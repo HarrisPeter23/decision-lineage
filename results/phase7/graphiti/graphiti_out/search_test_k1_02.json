@@ -1,0 +1,1510 @@
+[
+ {
+  "qid": "set_01024-q01",
+  "facts": [
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "49810780-97d9-49d2-85f6-9e05cdac9dbd",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the contractors had been asked about the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "125958a8-f1b5-4262-a926-094991a0a50f",
+    "name": "COMMENT",
+    "fact": "Camila commented that if they do this for the production people, the staging folks will ask.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q02",
+  "facts": [
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "17687af8-b183-454f-87a3-420e45dd3318",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that the two contractors were part of a data migration pair with a short contract.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bd78f51c-d9b5-4e3d-9db0-6844aef6edee",
+    "name": "RELATED_TO",
+    "fact": "Alejandra's agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q03",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "945a2bdb-3415-4466-b3e8-6638787bcd6a",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the unmanaged contractors would be cut off after receiving laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17687af8-b183-454f-87a3-420e45dd3318",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that the two contractors were part of a data migration pair with a short contract.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "361ff0a3-520b-4f4d-862d-c8cdae97ee43",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the contractor issue, with Zainab confirming that the discussion started in February.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a695eed0-e59b-47d8-825e-723575c2f27a",
+    "name": "ASK",
+    "fact": "Kwame asked Chloe what the thing was.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q04",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "945a2bdb-3415-4466-b3e8-6638787bcd6a",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the unmanaged contractors would be cut off after receiving laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17687af8-b183-454f-87a3-420e45dd3318",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that the two contractors were part of a data migration pair with a short contract.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "361ff0a3-520b-4f4d-862d-c8cdae97ee43",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the contractor issue, with Zainab confirming that the discussion started in February.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a695eed0-e59b-47d8-825e-723575c2f27a",
+    "name": "ASK",
+    "fact": "Kwame asked Chloe what the thing was.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q05",
+  "facts": [
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bd78f51c-d9b5-4e3d-9db0-6844aef6edee",
+    "name": "RELATED_TO",
+    "fact": "Alejandra's agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "42522c8b-4e19-4aec-8361-c262c72e5f33",
+    "name": "PROVIDED_INFORMATION_TO",
+    "fact": "The vendor provided information to Camila about a seven-week delivery time for thirty-eight laptops.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770744+00:00"
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "49810780-97d9-49d2-85f6-9e05cdac9dbd",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the contractors had been asked about the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "945a2bdb-3415-4466-b3e8-6638787bcd6a",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the unmanaged contractors would be cut off after receiving laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q06",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "71c83540-f98b-4d02-9d54-1fca4f2ba2f1",
+    "name": "RELATED_TO",
+    "fact": "Kwame asked Zainab why the block on unmanaged prod access starts in week two instead of week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bd78f51c-d9b5-4e3d-9db0-6844aef6edee",
+    "name": "RELATED_TO",
+    "fact": "Alejandra's agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "945a2bdb-3415-4466-b3e8-6638787bcd6a",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the unmanaged contractors would be cut off after receiving laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "49810780-97d9-49d2-85f6-9e05cdac9dbd",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the contractors had been asked about the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q07",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "49810780-97d9-49d2-85f6-9e05cdac9dbd",
+    "name": "ASK",
+    "fact": "Kwame asked Camila whether the contractors had been asked about the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "125958a8-f1b5-4262-a926-094991a0a50f",
+    "name": "COMMENT",
+    "fact": "Camila commented that if they do this for the production people, the staging folks will ask.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "361ff0a3-520b-4f4d-862d-c8cdae97ee43",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the contractor issue, with Zainab confirming that the discussion started in February.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q08",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "361ff0a3-520b-4f4d-862d-c8cdae97ee43",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the contractor issue, with Zainab confirming that the discussion started in February.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "cb9bcfdc-f7df-4fd6-9536-4d983cf4a412",
+    "name": "RESPOND",
+    "fact": "Zainab responded to Kwame, stating that the thirty-eight laptops are for the production list, not the staging-only list.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q09",
+  "facts": [
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "361ff0a3-520b-4f4d-862d-c8cdae97ee43",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the contractor issue, with Zainab confirming that the discussion started in February.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e59a65ff-041c-4f5d-b137-07ab550e11bf",
+    "name": "COMMUNICATED_WITH",
+    "fact": "Diego communicated with two agencies regarding the vendor's response.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q10",
+  "facts": [
+   {
+    "uuid": "cd7b8d16-df91-4fcd-a3c7-11a0ba7d5a0e",
+    "name": "PROPOSE",
+    "fact": "Zainab proposed buying thirty-eight managed laptops for all contractors with production data access.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fccf5280-c53a-495b-af75-3768315c0464",
+    "name": "DISCUSS",
+    "fact": "Camila and Zainab discussed the issue of contractors accessing production systems from their personal devices, which is not secure.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "227ad966-ab60-4e64-ab00-9e650c5a81db",
+    "name": "RESPOND",
+    "fact": "Camila responded to Kwame, stating that once contractors have a laptop, it becomes the access path.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f9159613-5fb1-4429-87a9-df043a7f4c50",
+    "name": "MENTION",
+    "fact": "Camila mentioned that Alejandra said a couple of contractors were okay with the laptops.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c1898534-4875-4c8c-925d-702e18182d92",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame's question, stating that a few contractors are using agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "096bb870-b2b9-433c-b2fd-15fb942737e8",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that some contractors use agency machines.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2dc79eec-eedb-4ab4-ac27-7fd2371d855a",
+    "name": "RELATED_TO",
+    "fact": "The data agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "0e75b746-9b75-41e6-961a-112864afce57",
+    "name": "RELATED_TO",
+    "fact": "Diego has the emails from the two agencies (Alejandra's and the data one) confirming they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "17687af8-b183-454f-87a3-420e45dd3318",
+    "name": "RESPOND",
+    "fact": "Diego responded to Kwame, stating that the two contractors were part of a data migration pair with a short contract.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bd78f51c-d9b5-4e3d-9db0-6844aef6edee",
+    "name": "RELATED_TO",
+    "fact": "Alejandra's agency wrote back that they are fine with switching off prod access from anything unmanaged starting in week two.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01024-q11",
+  "facts": [
+   {
+    "uuid": "71dde65b-aa40-466f-825a-a7d170bcb61b",
+    "name": "MENTIONED",
+    "fact": "Zainab mentioned that Tomasz did a review of the shared password vault last year.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "bb2bbf95-38a2-485b-9f40-0d83f456428a",
+    "name": "RAISED_CONCERN_TO",
+    "fact": "Kwame raised a concern to Camila about the shared password vault and the lack of regular reviews.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "ca0eb07a-9c8d-44e2-9045-87d1792b37c6",
+    "name": "ASSIGNED_TO",
+    "fact": "Camila assigned the quarterly review of the shared password vault to Kwame, with the first one in June.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f",
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a695eed0-e59b-47d8-825e-723575c2f27a",
+    "name": "ASK",
+    "fact": "Kwame asked Chloe what the thing was.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b905738b-e160-4a65-b822-2b59a0881e5a",
+    "name": "RELATED_TO",
+    "fact": "Zainab mentioned that the vendor's rental option for laptops is about thirty-eight dollars a unit a month, with six-month terms.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e95b9483-19fc-4cf2-90cf-0da5f9a37ac9",
+    "name": "CITE",
+    "fact": "Zainab cited an audit from last quarter, stating that twelve of the thirty-eight contractors were accessing production systems from their own machines, none of which had disk encryption.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770683+00:00"
+   },
+   {
+    "uuid": "370de169-0a83-49ab-9ad0-f1debef18907",
+    "name": "DISCUSS",
+    "fact": "Camila and Kwame discussed the contractor issue, with Kwame asking whether the discussion was about the access list or the devices.",
+    "episodes": [
+     "77d6b66a-cf35-403b-84b4-234abf225a4b"
+    ],
+    "valid_at": "2025-03-18T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "eabdfce1-853d-4ac0-9884-a91376238170",
+    "name": "RELATED_TO",
+    "fact": "Diego confirmed that the vendor put the lead time of seven weeks in writing through the portal.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "63febf1b-f493-4092-bfed-a0d42e9617b1",
+    "name": "RELATED_TO",
+    "fact": "Zainab explained that the block on unmanaged prod access starts in week two because contractors need time to set up in week one.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "42522c8b-4e19-4aec-8361-c262c72e5f33",
+    "name": "PROVIDED_INFORMATION_TO",
+    "fact": "The vendor provided information to Camila about a seven-week delivery time for thirty-eight laptops.",
+    "episodes": [
+     "288727d2-cbf7-4594-b157-1a5ae6f80e4f"
+    ],
+    "valid_at": "2025-03-25T00:00:00+00:00",
+    "invalid_at": "2025-04-01T00:00:00+00:00",
+    "expired_at": "2026-11-07T23:46:08.770744+00:00"
+   },
+   {
+    "uuid": "21c7a739-f91a-4bf0-8138-3aca3a0d2e6f",
+    "name": "RELATED_TO",
+    "fact": "Camila confirmed that Zainab is on call Sunday night and is available for the patch window.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f6887a46-6d1d-48b4-b459-cb3ef9f34267",
+    "name": "RELATED_TO",
+    "fact": "Zainab mentioned that the twelve contractors with no disk encryption would be covered once the block is on.",
+    "episodes": [
+     "0490168d-2f5b-45ef-acc4-e4769b9c8f06"
+    ],
+    "valid_at": "2025-04-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,722 @@
+{
+ "set_id": "test_k1_07",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.95,
+   "decision": "audit events storage solution",
+   "option": "store audit events in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "on-call swap",
+   "option": "Priya trades week of twenty-third with Kofi"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "on-call swap",
+   "option": "Priya trades week of twenty-third with Kofi"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "on-call swap",
+   "option": "Priya trades week of twenty-third with Kofi"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "on-call swap",
+   "option": "Priya trades week of twenty-third with Kofi"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.95,
+   "decision": "on-call swap for July week",
+   "option": "Priya covers the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "refresh load test environment seed data",
+   "option": "Pavel to ask Nikos"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "refresh load test environment seed data",
+   "option": "refresh"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "refresh load test environment seed data",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "audit event retention period",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Priya",
+   "confidence": 0.95,
+   "decision": "audit event retention period",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "audit event retention period",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "audit event retention period",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "audit event retention period",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "slow-query alert threshold",
+   "option": "increase to five hundred milliseconds"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.85,
+   "decision": "Thursday sync time change",
+   "option": "move to Friday at eleven"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "quarterly planning template",
+   "option": "submit top three priorities by end of next week"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.95,
+   "decision": "audit event storage solution",
+   "option": "keep the monthly-partitioned table in the database, only the last ninety days stay in it, and each night the closed partitions get exported out to object storag"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.85,
+   "decision": "audit event storage solution",
+   "option": "audit events stored in existing database as append-only table"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.85,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "audit event storage solution",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "update the design doc today"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "alert on export failure goes in the doc too"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Bashir",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "do the restore test"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "take the export job"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "send the doc to Sunita"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "tell Irina the backup plan may get smaller"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "audit event storage solution",
+   "option": "mention the backup plan change to Irina"
+  }
+ ]
+}

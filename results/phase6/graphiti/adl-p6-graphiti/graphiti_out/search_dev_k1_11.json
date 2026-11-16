@@ -1,0 +1,1372 @@
+[
+ {
+  "qid": "set_01006-q01",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "f484f72d-be8e-4c9e-bb01-89300fab03da",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167558+00:00"
+   },
+   {
+    "uuid": "76b04401-0c0b-4f4d-b212-22a264aaf6bc",
+    "name": "has",
+    "fact": "The start date of the contract with Swiftline Freight is the first of the month.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6aca7eb4-76ba-4b06-b437-a9178f949bb0",
+    "name": "RAISES_CONCERN_ABOUT",
+    "fact": "Aisha raises a concern that late shipments for promotions may lead to lost sales and customer dissatisfaction.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b826b0f9-a1d0-4db8-8fa1-a85dd7418d7d",
+    "name": "inquired_about_break_clause_in",
+    "fact": "Meera inquired about the break clause in the Swiftline contract.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q02",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "9b09db07-7199-4ff2-93d8-26a09b57f044",
+    "name": "made_case_for",
+    "fact": "Aisha made the case for Dalmar, citing a ninety-six percent on-time record and a tracking API.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "6aca7eb4-76ba-4b06-b437-a9178f949bb0",
+    "name": "RAISES_CONCERN_ABOUT",
+    "fact": "Aisha raises a concern that late shipments for promotions may lead to lost sales and customer dissatisfaction.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   },
+   {
+    "uuid": "379e4ec6-27c8-4673-a81b-5bde8f0e3c64",
+    "name": "involves",
+    "fact": "Elif mentions that the contract with Swiftline Freight is being handled by Legal.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b826b0f9-a1d0-4db8-8fa1-a85dd7418d7d",
+    "name": "inquired_about_break_clause_in",
+    "fact": "Meera inquired about the break clause in the Swiftline contract.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q03",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da824e9d-a1b5-40db-8377-f702e8f56e88",
+    "name": "considered_too_late_for",
+    "fact": "Meera considered the end of next month too late for the autumn promos.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "52cf867d-5783-4ee3-ad1d-81e0916328b1",
+    "name": "planned_addition_of_drivers_by",
+    "fact": "Swiftline plans to add drivers by the end of next month.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f484f72d-be8e-4c9e-bb01-89300fab03da",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167558+00:00"
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "76b04401-0c0b-4f4d-b212-22a264aaf6bc",
+    "name": "has",
+    "fact": "The start date of the contract with Swiftline Freight is the first of the month.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q04",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "da824e9d-a1b5-40db-8377-f702e8f56e88",
+    "name": "considered_too_late_for",
+    "fact": "Meera considered the end of next month too late for the autumn promos.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "52cf867d-5783-4ee3-ad1d-81e0916328b1",
+    "name": "planned_addition_of_drivers_by",
+    "fact": "Swiftline plans to add drivers by the end of next month.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "379e4ec6-27c8-4673-a81b-5bde8f0e3c64",
+    "name": "involves",
+    "fact": "Elif mentions that the contract with Swiftline Freight is being handled by Legal.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "76b04401-0c0b-4f4d-b212-22a264aaf6bc",
+    "name": "has",
+    "fact": "The start date of the contract with Swiftline Freight is the first of the month.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q05",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "f484f72d-be8e-4c9e-bb01-89300fab03da",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167558+00:00"
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "ef72d238-761a-4aad-a569-6af42be16c92",
+    "name": "preferred_savings_over_reliability",
+    "fact": "Elif preferred the savings over reliability but acknowledged the data.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q06",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "6aca7eb4-76ba-4b06-b437-a9178f949bb0",
+    "name": "RAISES_CONCERN_ABOUT",
+    "fact": "Aisha raises a concern that late shipments for promotions may lead to lost sales and customer dissatisfaction.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   },
+   {
+    "uuid": "b826b0f9-a1d0-4db8-8fa1-a85dd7418d7d",
+    "name": "inquired_about_break_clause_in",
+    "fact": "Meera inquired about the break clause in the Swiftline contract.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q07",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "379e4ec6-27c8-4673-a81b-5bde8f0e3c64",
+    "name": "involves",
+    "fact": "Elif mentions that the contract with Swiftline Freight is being handled by Legal.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "76b04401-0c0b-4f4d-b212-22a264aaf6bc",
+    "name": "has",
+    "fact": "The start date of the contract with Swiftline Freight is the first of the month.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q08",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "379e4ec6-27c8-4673-a81b-5bde8f0e3c64",
+    "name": "involves",
+    "fact": "Elif mentions that the contract with Swiftline Freight is being handled by Legal.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6aca7eb4-76ba-4b06-b437-a9178f949bb0",
+    "name": "RAISES_CONCERN_ABOUT",
+    "fact": "Aisha raises a concern that late shipments for promotions may lead to lost sales and customer dissatisfaction.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q09",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "6aca7eb4-76ba-4b06-b437-a9178f949bb0",
+    "name": "RAISES_CONCERN_ABOUT",
+    "fact": "Aisha raises a concern that late shipments for promotions may lead to lost sales and customer dissatisfaction.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f484f72d-be8e-4c9e-bb01-89300fab03da",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167558+00:00"
+   },
+   {
+    "uuid": "f63c7553-b500-4b9d-8821-cefafa95b36d",
+    "name": "annual_cost_of",
+    "fact": "Aisha estimated the annual cost of Dalmar's rate to be about one hundred forty thousand.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01006-q10",
+  "facts": [
+   {
+    "uuid": "dc90a129-b93a-49cf-9ca9-d8e31fc785e1",
+    "name": "recommends",
+    "fact": "Elif recommends Swiftline Freight as the replenishment vendor for the regions.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167643+00:00"
+   },
+   {
+    "uuid": "74ecbe4f-96ee-4560-9429-12f10a307e89",
+    "name": "obtains_references_from",
+    "fact": "Elif obtains references for Swiftline Freight from two regional grocery chains.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "020e64b3-3148-4d58-bad5-2ecbf527696a",
+    "name": "compares",
+    "fact": "Elif compares Swiftline Freight and Dalmar as potential replenishment vendors.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fbe7b77e-7bef-4cd9-9e29-927dfa122f1e",
+    "name": "approves",
+    "fact": "Tomas approves the decision to sign with Swiftline Freight.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167637+00:00"
+   },
+   {
+    "uuid": "b86da6ad-41ec-4f26-a3bb-0b6480e07839",
+    "name": "switched_to",
+    "fact": "Tomas switched to Dalmar Logistics.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e6f84413-db4d-446a-b598-2a06fbaa75fe",
+    "name": "serves",
+    "fact": "Swiftline Freight serves all twelve regional stores.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "067deebe-fb5e-45f2-b725-f40ad43532c0",
+    "name": "ASKS_TO_CONTACT",
+    "fact": "Tomas asks Elif to contact Swiftline Freight to find out what is going on with the deliveries.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "992f827c-9702-47fe-902f-5129e9a39b2d",
+    "name": "HAS_DELIVERY_ISSUES_DURING_PROMOTIONS",
+    "fact": "A bunch of the late shipments from Swiftline Freight landed on promotion items, leading to stockouts on nine promo items across five stores.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167573+00:00"
+   },
+   {
+    "uuid": "f217ab4a-41a3-41d9-b7dd-a8434e495a66",
+    "name": "reopened_decision_on",
+    "fact": "Tomas reopened the decision on Swiftline due to seventy-one percent on-time delivery and promotion stockouts.",
+    "episodes": [
+     "67ae57de-1ccf-4009-a3da-6a8e504c017b"
+    ],
+    "valid_at": "2025-02-04T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f484f72d-be8e-4c9e-bb01-89300fab03da",
+    "name": "HAS_DELIVERY_ON_TIME_PERCENTAGE",
+    "fact": "Swiftline Freight delivered seventy-one percent of shipments on time.",
+    "episodes": [
+     "d766c721-867a-4bca-92b4-34782c81ebec"
+    ],
+    "valid_at": "2025-01-28T00:00:00+00:00",
+    "invalid_at": "2025-02-04T00:00:00+00:00",
+    "expired_at": "2026-11-06T11:00:36.167558+00:00"
+   },
+   {
+    "uuid": "76b04401-0c0b-4f4d-b212-22a264aaf6bc",
+    "name": "has",
+    "fact": "The start date of the contract with Swiftline Freight is the first of the month.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-01T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b4faec7d-cc64-42fb-9f66-a2a22dbfe8da",
+    "name": "has",
+    "fact": "Swiftline Freight has a contract with penalties for on-time delivery targets of ninety-five percent.",
+    "episodes": [
+     "fda7bd2f-7a9b-4ffe-a738-ddfaa94f2773"
+    ],
+    "valid_at": "2025-01-21T00:00:00+00:00",
+    "invalid_at": "2025-01-28T00:00:00+00:00",
+    "expired_at": "2026-11-06T10:53:44.505874+00:00"
+   }
+  ]
+ }
+]

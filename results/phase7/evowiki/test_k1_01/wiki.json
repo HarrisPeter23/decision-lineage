@@ -1,0 +1,232 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Intranet banner for benefits webinar",
+   "attribute": "date",
+   "states": [
+    {
+     "value": "2025-06-12",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 1,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      8,
+      9,
+      10
+     ]
+    },
+    {
+     "value": "update date",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      6,
+      7
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Performance review cycle",
+   "attribute": "frequency",
+   "states": [
+    {
+     "value": "annual",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      22,
+      49,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Performance review cycle",
+   "attribute": "timing",
+   "states": [
+    {
+     "value": "December",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      17,
+      18,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Performance review cycle",
+   "attribute": "self-assessment due date",
+   "states": [
+    {
+     "value": "first week of December",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      18,
+      89
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Performance review cycle",
+   "attribute": "calibration dates",
+   "states": [
+    {
+     "value": "second to nineteenth of December",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      93
+     ]
+    },
+    {
+     "value": "Two rated review cycles a year (June and December)",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 2,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-12",
+     "evidence": [
+      72
+     ]
+    },
+    {
+     "value": "December only (for now)",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-06-12",
+     "evidence": [
+      82
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Budget sheet",
+   "attribute": "headcount numbers",
+   "states": [
+    {
+     "value": "due by Friday from Milan",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-06-05",
+     "evidence": [
+      105,
+      106,
+      107,
+      110
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Review structure",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "reopened",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-26",
+     "evidence": [
+      13,
+      14,
+      15,
+      16,
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "Review calendar",
+   "attribute": "action",
+   "states": [
+    {
+     "value": "send to managers",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2025-06-26",
+     "evidence": [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S0",
+   0,
+   1,
+   1
+  ],
+  [
+   "S4",
+   0,
+   1,
+   2
+  ],
+  [
+   "S4",
+   1,
+   2,
+   2
+  ]
+ ]
+}

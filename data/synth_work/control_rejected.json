@@ -1,0 +1,21 @@
+{
+ "set_01063": {
+  "reason": "control-writer set rejected: the tagged lines do not realize the planned events",
+  "gemini": {
+   "B1": "no",
+   "B2": "partial",
+   "B3": "partial",
+   "B4": "partial",
+   "B5": "partial",
+   "B6": "yes",
+   "B7": "no",
+   "B8": "no"
+  },
+  "agent": "agrees for B1 (not a proposal), B7 (does not argue for phone booths), B8 (not a decision); B2-B5 only partly realize their gist",
+  "granite": "not run (8 links; not worth a GPU session)",
+  "also_failed_validator": [
+   "set_01060 (events spoken by the wrong cast members: B1, B3, B7)"
+  ],
+  "note": "rejected sets are kept for the record only; gold was not edited"
+ }
+}

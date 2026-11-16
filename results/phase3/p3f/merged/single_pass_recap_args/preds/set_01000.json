@@ -1,0 +1,489 @@
+{
+ "set_id": "set_01000",
+ "method": "single_pass_recap_args",
+ "prompt_version": "args_v1",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Charge per seat at $12 per month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Per seat model is predictable"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Usage-based model caused support issues"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Usage-based model caused confusion"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Usage-based model caused confusion"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.6,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Unknown buyer size"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Revisit pricing if needed"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Per-seat pricing at $12 per month"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps",
+   "option": "Reduce from eleven to five steps"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Onboarding checklist steps",
+   "option": "Previously had seven steps"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps",
+   "option": "Steps grew over time"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.6,
+   "decision": "Onboarding checklist steps",
+   "option": "Which six steps?"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Onboarding checklist steps",
+   "option": "Shorten checklist and review"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Charge per seat at $12 per month"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Charge per seat at $12 per month"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Charge per seat at $12 per month"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Charge per seat at $12 per month"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Schedule for weekly demo",
+   "option": "Move weekly demo to Thursday afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Schedule for weekly demo",
+   "option": "Move weekly demo to Thursday afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Schedule for weekly demo",
+   "option": "Move weekly demo to Thursday afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Schedule for weekly demo",
+   "option": "Move weekly demo to Thursday afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "Schedule for weekly demo",
+   "option": "Move weekly demo to Thursday afternoon"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Revisit pricing if needed"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": ""
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Wei",
+   "confidence": 0.75,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Tiers"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Tiers"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "challenge",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Tiers"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Per-seat pricing at $12 per month"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.85,
+   "decision": "Pricing model for analytics add-on",
+   "option": "Monitor churn among accounts over forty"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "challenge",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on (option: Usage-based model caused support issues)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on (option: Revisit pricing if needed)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.8,
+   "decision": "Onboarding checklist steps (option: Reduce from eleven to five steps)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "rationale",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m2",
+   "role": "challenge",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.7,
+   "decision": "Pricing model for analytics add-on",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "Pricing model for analytics add-on (option: Per-seat pricing at $12 per month)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Pricing model for analytics add-on (option: Tiers)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Pricing model for analytics add-on (option: Per-seat pricing at $12 per month)",
+   "option": "",
+   "source": "args"
+  },
+  {
+   "meeting_id": "m3",
+   "role": "rationale",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "Pricing model for analytics add-on (option: Monitor churn among accounts over forty)",
+   "option": "",
+   "source": "args"
+  }
+ ]
+}

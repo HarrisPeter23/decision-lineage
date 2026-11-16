@@ -1,0 +1,5692 @@
+{
+ "set_id": "test_k10_01",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    20,
+    21,
+    22
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Ivan",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.5,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.6,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "flat cut across all departments"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Wei",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Wei",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "adjusting the manager-only expense limit",
+   "option": "increase to $1,000"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.95,
+   "decision": "adjusting the manager-only expense limit",
+   "option": "increase to $1,000"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "how to apply the eight percent budget cut",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Aisha",
+   "confidence": 0.95,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.85,
+   "decision": "how to apply the eight percent budget cut",
+   "option": "targeted cut"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaning contract renewal deadline",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.7,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaning contract renewal",
+   "option": "renew with Brightwash"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "printer lease",
+   "option": "cheaper quote with toner included"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "rationale",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "printer lease",
+   "option": "cheaper quote with toner included"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "printer lease",
+   "option": "cheaper quote with toner included"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "fire door sign-off",
+   "option": "Hedda unlocks on Thursday"
+  },
+  {
+   "meeting_id": "mtg_0004",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "fire door sign-off",
+   "option": "Hedda unlocks on Thursday"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "absorbing the badge reader cost",
+   "option": "absorb the fifty over the line"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "badge reader quote details",
+   "option": "fitted meaning they do the cabling too"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "printer lease",
+   "option": "cheaper quote with toner included"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "printer delivery",
+   "option": "courier brings the unit Thursday"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner rate lock",
+   "option": "rate lock is Friday the fourteenth"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "chase a couple of other firms"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "Kestrel Facilities at forty-one a year"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "forty-one thousand against forty-four"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "credits how"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "send the PDF"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "ranged three of their clients"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "none in how long"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "that's quite good"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "which kinds of clients"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "put it in the notes"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "proposal",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "move to Kestrel"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "look at it a bit more first"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "why"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "cheaper by three grand a year"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "cheaper by how much"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "forty-four less forty-one"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "three thousand"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "exit's ninety days"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "changeover"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "two weeks"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "disruption"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "less than three"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner contract",
+   "option": "two weeks and mean four"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "use the exit"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "not deciding it today"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner rate lock",
+   "option": "ask Brightwash to hold the rate lock"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner rate lock",
+   "option": "ask anyway"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "cleaner rate lock",
+   "option": "today"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "Northgate"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Tomas",
+   "confidence": 0.8,
+   "decision": "cleaner quotes",
+   "option": "don't know either"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "check"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "recycling bins",
+   "option": "roll the shared floor bins out"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "recycling bins",
+   "option": "next month, floor by floor"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "recycling bins",
+   "option": "email this week"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "recycling bins",
+   "option": "short and friendly"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner contract",
+   "option": "nothing's decided"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "cleaner rate lock",
+   "option": "ask about the rate lock"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "send the PDF"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "cleaner quotes",
+   "option": "write them down and send them"
+  },
+  {
+   "meeting_id": "mtg_0005",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "meeting time",
+   "option": "Tuesday"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "cleaner contract renewal",
+   "option": "Kestrel Facilities"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "notify Brightwash",
+   "option": "polite phone call"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "notify Brightwash",
+   "option": "phone call"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "recycling bin questions",
+   "option": "send to Diego"
+  },
+  {
+   "meeting_id": "mtg_0006",
+   "role": "resolution",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "recycling bin complaints",
+   "option": "reply politely"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.95,
+   "decision": "mandatory fields at close-won",
+   "option": "eight fields mandatory at close-won"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "communicating mandatory fields to reps",
+   "option": "Kofi sends a short message"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "communicating mandatory fields to reps",
+   "option": "include the list in the message"
+  },
+  {
+   "meeting_id": "mtg_0007",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "providing field list to Priya",
+   "option": "export field list as a spreadsheet"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    18,
+    19,
+    20
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "time to log a close",
+   "option": "11 minutes"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    21,
+    22
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "time to log a close",
+   "option": "11 minutes"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "time to log a close",
+   "option": "3 minutes was a guess"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    26,
+    30
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "late deal entries",
+   "option": "23 reps"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    31,
+    32
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "late deal entries",
+   "option": "batching on Friday"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    36,
+    37,
+    38
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "quality of data entry",
+   "option": "18% placeholders"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "evidence",
+   "utterance_idxs": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "quality of data entry",
+   "option": "6-7 champion name entries"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "mandatory fields at close-won",
+   "option": "eight fields stay as they are"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "time to log a close",
+   "option": "pick it up next week"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "pipeline review date",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Meera",
+   "confidence": 0.8,
+   "decision": "pipeline review data",
+   "option": "dashboard numbers"
+  },
+  {
+   "meeting_id": "mtg_0008",
+   "role": "resolution",
+   "utterance_idxs": [
+    91,
+    92
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "notify late reps",
+   "option": "send late list to Kofi"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "mandatory fields at close-won",
+   "option": "eight fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Meera",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "mandatory fields at close-won",
+   "option": "three fields"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "provide field list to Sven",
+   "option": "send list to Sione"
+  },
+  {
+   "meeting_id": "mtg_0009",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "report fields",
+   "option": "leave other five as columns"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "media plan booking",
+   "option": "get the media plan booked"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "media plan booking",
+   "option": "send it directly"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.8,
+   "decision": "retrospective scheduling",
+   "option": "put it on for next week"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.8,
+   "decision": "retrospective scheduling",
+   "option": "send the invite"
+  },
+  {
+   "meeting_id": "mtg_0010",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.8,
+   "decision": "plan details meeting",
+   "option": "ten o'clock"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "reopening the budget question",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "proposal",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "rationale",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Amara",
+   "confidence": 0.85,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "rationale",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "challenge",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Greta",
+   "confidence": 0.85,
+   "decision": "alternative marketing strategy",
+   "option": "partner webinars"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "alternative marketing strategy",
+   "option": "three partner webinars plus retargeting"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "alternative marketing strategy",
+   "option": "three partner webinars plus retargeting"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "newsletter sender name",
+   "option": "content lead's name"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.9,
+   "decision": "team lunch scheduling",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0011",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.95,
+   "decision": "documenting new plan",
+   "option": "write up new plan"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    1,
+    2
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    5,
+    6,
+    7
+   ],
+   "speaker": "Amara",
+   "confidence": 0.7,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    10,
+    11,
+    12
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.8,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "rationale",
+   "utterance_idxs": [
+    13,
+    14
+   ],
+   "speaker": "Greta",
+   "confidence": 0.8,
+   "decision": "number of partner webinars",
+   "option": "three"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "proposal",
+   "utterance_idxs": [
+    15,
+    16
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "landing page builder",
+   "option": "Mateo"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "landing page builder",
+   "option": "Mateo"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    18,
+    19,
+    20
+   ],
+   "speaker": "Mateo",
+   "confidence": 0.7,
+   "decision": "landing page builder",
+   "option": "Mateo"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "challenge",
+   "utterance_idxs": [
+    21,
+    22,
+    23,
+    24
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "payment terms for partner webinars",
+   "option": "half up front"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "speaker": "Greta",
+   "confidence": 0.9,
+   "decision": "retargeting budget",
+   "option": "thirty-six thousand"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "one-page plan",
+   "option": "send with blanks"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "all-hands attendance",
+   "option": "mandatory"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "newsletter sender name",
+   "option": "content lead's name"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "retro notes",
+   "option": "send to Greta"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "proposal",
+   "utterance_idxs": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "plan framing",
+   "option": "partner relationships"
+  },
+  {
+   "meeting_id": "mtg_0012",
+   "role": "resolution",
+   "utterance_idxs": [
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+   ],
+   "speaker": "Lakshmi",
+   "confidence": 0.9,
+   "decision": "team lunch scheduling",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "model deployment timeline",
+   "option": "weekly scoring job setup"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "Monday morning for first run"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "whatever's cleanest"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "Wednesday for feature query"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "tomorrow for feature query"
+  },
+  {
+   "meeting_id": "mtg_0013",
+   "role": "resolution",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.7,
+   "decision": "model deployment timeline",
+   "option": "sort of done"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Sven",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0014",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "checkout screen demo date",
+   "option": "Thursday"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "logistic regression model"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "packaging details",
+   "option": "drop contribution columns"
+  },
+  {
+   "meeting_id": "mtg_0015",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.9,
+   "decision": "data-quality review timing",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen demo date",
+   "option": "Thursday"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    9,
+    10
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "proposal",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "native implementation"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "evidence",
+   "utterance_idxs": [
+    14,
+    15
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": "native implementation"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "challenge",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "evidence",
+   "utterance_idxs": [
+    25,
+    26,
+    27
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "native implementation"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "evidence",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Sven",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Priya",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "release notes ownership",
+   "option": "product team"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "release notes ownership",
+   "option": "product team"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+   ],
+   "speaker": "Priya",
+   "confidence": 0.8,
+   "decision": "retro timing",
+   "option": "Thursday afternoon"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0016",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Elif",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.9,
+   "decision": "model deployment timeline",
+   "option": "send analysis tonight"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "include query in doc"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.7,
+   "decision": "model deployment timeline",
+   "option": "query in second tab"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "keep column as is"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "revisit next time"
+  },
+  {
+   "meeting_id": "mtg_0017",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.8,
+   "decision": "model deployment timeline",
+   "option": "bring split data next time"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "offsite headcount confirmation",
+   "option": "yes"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "fixed release schedule",
+   "option": "every two weeks, same day, freeze Wednesday before"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "crash dashboard review",
+   "option": "top ten crash screens"
+  },
+  {
+   "meeting_id": "mtg_0018",
+   "role": "resolution",
+   "utterance_idxs": [
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "offsite lunch vegetarian options",
+   "option": "no"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    21,
+    22,
+    23
+   ],
+   "speaker": "Priya",
+   "confidence": 0.9,
+   "decision": "checkout screen build approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "proposal",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Elif",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "native implementation"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "speaker": "Fatima",
+   "confidence": 0.95,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    37,
+    38,
+    39,
+    40
+   ],
+   "speaker": "Sven",
+   "confidence": 0.85,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "speaker": "Sven",
+   "confidence": 0.8,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "evidence",
+   "utterance_idxs": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "speaker": "Sven",
+   "confidence": 0.75,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "proposal",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "checkout screen build approach",
+   "option": "virtualised list in settings screen"
+  },
+  {
+   "meeting_id": "mtg_0019",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Priya",
+   "confidence": 0.95,
+   "decision": "checkout screen build approach",
+   "option": "shared framework"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    29
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    86
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    95
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "evidence",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.85,
+   "decision": "model deployment approach",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    100
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Diego",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    104
+   ],
+   "speaker": "Elif",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    105
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Henrik",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    107
+   ],
+   "speaker": "Rohan",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    108
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0020",
+   "role": "resolution",
+   "utterance_idxs": [
+    109
+   ],
+   "speaker": "Elif",
+   "confidence": 0.95,
+   "decision": "model deployment approach",
+   "option": "gradient-boosted model"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    65
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "alert threshold for paging on-call",
+   "option": "ninety-nine point two"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "proposal",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.85,
+   "decision": "alert threshold for paging on-call",
+   "option": "ninety-nine point two"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "rationale",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.8,
+   "decision": "alert threshold for paging on-call",
+   "option": "ninety-nine point two"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.75,
+   "decision": "alert threshold for paging on-call",
+   "option": "ninety-nine point two"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.7,
+   "decision": "alert threshold for paging on-call",
+   "option": "ninety-nine point two"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "alert dashboard line threshold",
+   "option": "ninety-nine five"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "sign-off from Klara's group for alert change",
+   "option": "no sign-off needed"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Mei",
+   "confidence": 0.9,
+   "decision": "sending support sheet",
+   "option": "send support sheet"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "documenting payment-screen numbers",
+   "option": "short note with top three or four devices"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Hana",
+   "confidence": 0.9,
+   "decision": "documenting New Year calendar entry",
+   "option": "document tonight"
+  },
+  {
+   "meeting_id": "mtg_0021",
+   "role": "resolution",
+   "utterance_idxs": [
+    96
+   ],
+   "speaker": "Hana",
+   "confidence": 0.85,
+   "decision": "hotfix path checklist",
+   "option": "link to short checklist"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Hana",
+   "confidence": 0.95,
+   "decision": "release schedule and rollout strategy",
+   "option": "weekly releases with staged rollout"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "release schedule and rollout strategy",
+   "option": "weekly releases with staged rollout"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.9,
+   "decision": "halt switch testing",
+   "option": "tested and functional"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Mei",
+   "confidence": 0.85,
+   "decision": "halt switch testing",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.9,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "proposal",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": "open the cadence question again"
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.85,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Hana",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Hana",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Jonas",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Mei",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Hana",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.8,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "rationale",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Yuki",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "challenge",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.75,
+   "decision": "release schedule and rollout strategy",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0022",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Nadia",
+   "confidence": 0.95,
+   "decision": "release schedule and rollout strategy",
+   "option": "weekly releases with staged rollout"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "autumn launch budget allocation",
+   "option": "forty-six thousand on the sponsorship at the Northern Logistics Expo"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "autumn launch budget allocation",
+   "option": "last year's stand scanned about three hundred and ten badges"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "autumn launch budget allocation",
+   "option": "twenty-four hundred buyers who look like our ideal customer"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "challenge",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "autumn launch budget allocation",
+   "option": "forty percent-ish on one event"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "autumn launch budget allocation",
+   "option": "last year's stand resulted in thirty-eight qualified meetings"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "autumn launch budget allocation",
+   "option": "last year resulted in four signed contracts"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "autumn launch budget allocation",
+   "option": "last year's event cost thirty-three thousand"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Amara",
+   "confidence": 0.8,
+   "decision": "autumn launch budget allocation",
+   "option": "stand build and travel would be eight, nine thousand"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "autumn launch budget allocation",
+   "option": "twenty-four hundred matching buyers, says who?"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "evidence",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "autumn launch budget allocation",
+   "option": "their registration data filters on job title and company size"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "autumn launch budget allocation",
+   "option": "push the deposit through finance this week"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "autumn launch budget allocation",
+   "option": "send invoice and sponsorship agreement"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "freeze newsletter template",
+   "option": "freeze it by next Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0023",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "complete offsite survey",
+   "option": "complete it tonight"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "evidence",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "fourteen fifty"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "twenty-four hundred"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "evidence",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "forty percent"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "forty-six thousand"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "fourteen hundred"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "top target list"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "fewer people"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "fewer leads"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "evidence",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Elif",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "projection"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "fee"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Wei",
+   "confidence": 0.7,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "show moved"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "ask for attendance number"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo attendance numbers",
+   "option": "ask for account list"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "Northern Logistics Expo budget allocation",
+   "option": "pause decision"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "evidence",
+   "utterance_idxs": [
+    45
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "nine days"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "evidence",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "six days"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "proposal",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Wei",
+   "confidence": 0.8,
+   "decision": "ad copy approval process",
+   "option": "legal reviews only performance claims"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "ad copy approval process",
+   "option": "claim definition"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "legal reviews only performance claims"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "starting with next batch"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "write checklist"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "ad copy approval process",
+   "option": "done by Monday"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "newsletter template freeze",
+   "option": "freeze Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    83
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "follow-up list",
+   "option": "end of next week"
+  },
+  {
+   "meeting_id": "mtg_0024",
+   "role": "resolution",
+   "utterance_idxs": [
+    88
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "offsite survey completion",
+   "option": "do it tonight"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Amara",
+   "confidence": 0.95,
+   "decision": "setup credit form with new wording",
+   "option": "Wei to set up form with Elif and brief sales on Monday"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Wei",
+   "confidence": 0.9,
+   "decision": "setup credit form with new wording",
+   "option": "Thursday afternoon for form setup"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Elif",
+   "confidence": 0.85,
+   "decision": "setup credit form with new wording",
+   "option": "block Thursday afternoon for form setup"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Amara",
+   "confidence": 0.9,
+   "decision": "submit offsite survey",
+   "option": "Diego to submit it tonight"
+  },
+  {
+   "meeting_id": "mtg_0025",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "submit offsite survey",
+   "option": "submit it tonight"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "six patches by postcode, one rep per patch"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "five or eight patches"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "Sanne's partial involvement until December"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "reducing duplicate outreach"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    12
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "22.8% duplicate outreach from data"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "same week not critical"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Marco",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "duplicate outreach is unprofessional"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "some duplicates from Hedda's accounts"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "postcode boundaries cause disputes"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "escalation handles disputes"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "escalation leads to Pavel's inbox"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "use head office address for boundary accounts"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "registered vs billing address discrepancy"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "calculate account count per patch"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "412 mid-market accounts"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "69 accounts per patch is manageable"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "uneven distribution in north-east postcodes"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "revisit after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "rep leaving causes postcode to go dark"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "current system also has issues with rep leaving"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "current system spreads accounts"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "current system makes handover easier"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "current system makes losing a block worse"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "compensation changes"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "CRM territory field",
+   "option": "add territory field to CRM"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "CRM territory field",
+   "option": "Marisol can add a dropdown"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "CRM territory field",
+   "option": "timing of dropdown addition"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "CRM territory field",
+   "option": "Diego to message Marisol"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "expense reports",
+   "option": "due by Friday"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "expense reports",
+   "option": "Friday as in this Friday"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "expense reports",
+   "option": "photos of receipts acceptable"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "expense reports",
+   "option": "tool rejects blurry photos"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "expense reports",
+   "option": "font on train tickets causes issues"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "weak postcode assignment"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "proposal",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "revisit after a quarter"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "weak postcode not in proposal"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "pipeline per postcode varies three to one"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "pipeline disparity"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "rationale",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "current disparity is four to one"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "six postcode territories, one rep each"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    89
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "rebuild account list over the weekend"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "handover emails tight deadline"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    93
+   ],
+   "speaker": "Marco",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "create email template for reps"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "reps inform customers directly"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "mid-market territory division",
+   "option": "head office address definition"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    99
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "flag head office address definition"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    101
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "team meeting scheduling",
+   "option": "next meeting on Monday"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    103
+   ],
+   "speaker": "Marco",
+   "confidence": 0.7,
+   "decision": "team meeting scheduling",
+   "option": "next meeting on Tuesday"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "team meeting scheduling",
+   "option": "next meeting on Monday"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "challenge",
+   "utterance_idxs": [
+    110
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.7,
+   "decision": "team meeting scheduling",
+   "option": "afternoon meeting"
+  },
+  {
+   "meeting_id": "mtg_0026",
+   "role": "resolution",
+   "utterance_idxs": [
+    111
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "team meeting scheduling",
+   "option": "meeting on Monday at original time"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "mid-market territory division",
+   "option": "named-account assignment across three verticals"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "proposal",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "mid-market territory division",
+   "option": "keep postcodes and tag accounts with industry"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "challenge",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Diego",
+   "confidence": 0.85,
+   "decision": "mid-market territory division",
+   "option": "tagging industry in CRM"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "proposal",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Ingrid",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "assign accounts by sector"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    59
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "rebuild account list"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "send list"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "CRM territory field",
+   "option": "ask Marisol to swap in sectors"
+  },
+  {
+   "meeting_id": "mtg_0027",
+   "role": "resolution",
+   "utterance_idxs": [
+    98
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "mid-market territory division",
+   "option": "rewrite email template"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "Implementing new lead distribution method",
+   "option": "run it for Monday"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    85
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Implementing new lead distribution method",
+   "option": "flip it Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "challenge",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.85,
+   "decision": "Implementing new lead distribution method",
+   "option": "flip it Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    87
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Implementing new lead distribution method",
+   "option": "email the group"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "proposal",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Implementing new lead distribution method",
+   "option": "round-robin distribution"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "evidence",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "Implementing new lead distribution method",
+   "option": "median wait time of five hours"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "evidence",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Implementing new lead distribution method",
+   "option": "first touch within half an hour"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.75,
+   "decision": "Implementing new lead distribution method",
+   "option": "assumes answering within half an hour"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "challenge",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Implementing new lead distribution method",
+   "option": "leads going cold after long wait"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "evidence",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.7,
+   "decision": "Implementing new lead distribution method",
+   "option": "conversion odds drop after first hour"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "challenge",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.7,
+   "decision": "Implementing new lead distribution method",
+   "option": "rotation doesn't consider account size"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Implementing new lead distribution method",
+   "option": "no objections"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Omar",
+   "confidence": 0.85,
+   "decision": "Implementing new lead distribution method",
+   "option": "message Marisol today"
+  },
+  {
+   "meeting_id": "mtg_0028",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Implementing new lead distribution method",
+   "option": "Marisol still sees queue"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.95,
+   "decision": "Choosing billing address over registered office",
+   "option": "billing"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Choosing billing address over registered office",
+   "option": "write it in the doc"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Marco",
+   "confidence": 0.85,
+   "decision": "Rewriting intro email for sectors",
+   "option": "rewrote the intro email"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Rewriting intro email for sectors",
+   "option": "send it round"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "Clarifying transition period for old rep contact",
+   "option": "change to transition period"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Ingrid to send sheet to Hedda",
+   "option": "send her the sheet"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Diego",
+   "confidence": 0.75,
+   "decision": "Approving expense reports",
+   "option": "approved Monday"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Setting deadline for expense reports",
+   "option": "Thursday night or Friday morning"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.9,
+   "decision": "Confirming offsite date",
+   "option": "moved to the twenty-second"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.85,
+   "decision": "Giving reps a day to check accounts",
+   "option": "a day"
+  },
+  {
+   "meeting_id": "mtg_0029",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Pavel",
+   "confidence": 0.8,
+   "decision": "Keeping rule for open deals",
+   "option": "keep the rule"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Quota sheet corrections deadline",
+   "option": "end of day tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Omar",
+   "confidence": 0.7,
+   "decision": "Quota sheet corrections deadline",
+   "option": "end of day tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Quota sheet corrections deadline",
+   "option": "end of day tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    7
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Quota sheet corrections deadline",
+   "option": "end of day tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Quota sheet corrections deadline",
+   "option": "end of day tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Analysis of lead data",
+   "option": "by Friday or Monday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Lead rotation system",
+   "option": "system not having a flag for existing customers"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    34
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "system not having a flag for existing customers"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "leave as is until Sofia's breakdown"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "leave as is until Sofia's breakdown"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    39
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "leave as is until Sofia's breakdown"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    40
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "leave as is until Sofia's breakdown"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Queue view speed issue",
+   "option": "pass to Sergei"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Queue view speed issue",
+   "option": "queue view is slow in the mornings"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Queue view speed issue",
+   "option": "queue view is slow in the mornings"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Webinar dry run attendance",
+   "option": "Omar to attend"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Webinar dry run attendance",
+   "option": "Omar to attend"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "proposal",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "evidence",
+   "utterance_idxs": [
+    55
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "rationale",
+   "utterance_idxs": [
+    56
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Omar",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "move to Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    62
+   ],
+   "speaker": "Kofi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    64
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Pipeline review meeting time",
+   "option": "Wednesday"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.8,
+   "decision": "Analysis of lead data",
+   "option": "send list tonight"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    72
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Analysis of lead data",
+   "option": "send list to the group"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Sofia",
+   "confidence": 0.9,
+   "decision": "Analysis of lead data",
+   "option": "send list to the group"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    74
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "check account owner field"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    75
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "check account owner field"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "check account owner field"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "discuss again next week"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    79
+   ],
+   "speaker": "Omar",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "discuss again next week"
+  },
+  {
+   "meeting_id": "mtg_0030",
+   "role": "resolution",
+   "utterance_idxs": [
+    80
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Lead rotation system",
+   "option": "discuss again next week"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "routing rule decision",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    71
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.95,
+   "decision": "routing rule decision",
+   "option": "new accounts stay in rotation, existing accounts go to owner"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    78
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "sending complaint account names",
+   "option": "send to group by tomorrow"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    81
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "informing accounts of changes",
+   "option": "Kofi answers his own forms"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    84
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "informing group of changes",
+   "option": "Ravi writes two lines to the group"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    94
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "laptop backup instructions",
+   "option": "Sergei sends instructions, don't back up yet"
+  },
+  {
+   "meeting_id": "mtg_0031",
+   "role": "resolution",
+   "utterance_idxs": [
+    97
+   ],
+   "speaker": "Ravi",
+   "confidence": 0.9,
+   "decision": "offsite dates",
+   "option": "Tuesday to Thursday"
+  }
+ ]
+}

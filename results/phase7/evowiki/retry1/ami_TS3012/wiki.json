@@ -1,0 +1,538 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Project",
+   "attribute": "name",
+   "states": [
+    {
+     "value": "remote control for television set",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Project",
+   "attribute": "goal",
+   "states": [
+    {
+     "value": "original, trendy and user-friendly",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Project",
+   "attribute": "inspiration",
+   "states": [
+    {
+     "value": "latest fashion, clothes and interior design",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      13
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Project",
+   "attribute": "tools",
+   "states": [
+    {
+     "value": "SMARTboards, PowerPoint presentations",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Project",
+   "attribute": "documentation",
+   "states": [
+    {
+     "value": "minutes of every meeting stored in the project folder",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Product",
+   "attribute": "price",
+   "states": [
+    {
+     "value": "selling price: 25 Euros, production price: 12.5 Euros",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      142
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Team",
+   "attribute": "members",
+   "states": [
+    {
+     "value": "Dirk Meinfeld (Marketing Expert), Nick Broer (User Interface Designer), Xavier Juergens (Industrial Designer), Mark (Project Manager)",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 2,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2004-10-26T09:00:00",
+     "evidence": [
+      4,
+      6,
+      8,
+      0
+     ]
+    },
+    {
+     "value": "implemented",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      193,
+      194,
+      195,
+      196,
+      197,
+      198
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2004-10-26T10:00:00",
+       "evidence": [
+        192,
+        193,
+        194,
+        195,
+        197,
+        198
+       ]
+      },
+      {
+       "meeting_id": "mtg_0002",
+       "meeting": 2,
+       "date": "2004-10-26T10:00:00",
+       "evidence": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "entity": "User Preferences for Remote Control",
+   "attribute": "LCD screen",
+   "states": [
+    {
+     "value": "discarded due to high power consumption and cost",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "entity": "User Preferences for Remote Control",
+   "attribute": "speech recognition",
+   "states": [
+    {
+     "value": "not implemented due to technical and market challenges",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      45,
+      50,
+      52,
+      53,
+      160,
+      163
+     ],
+     "reaffirmed": [
+      {
+       "meeting_id": "mtg_0004",
+       "meeting": 4,
+       "date": "2004-10-26T12:00:00",
+       "evidence": [
+        373
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "entity": "User Preferences for Remote Control",
+   "attribute": "teletext button",
+   "states": [
+    {
+     "value": "reduced in prominence, placed under a secondary option",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "entity": "User Preferences for Remote Control",
+   "attribute": "design",
+   "states": [
+    {
+     "value": "simplified with fewer buttons, larger buttons for important functions, and fade-proof symbols",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      45,
+      50,
+      52,
+      53,
+      160,
+      163
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "entity": "User Preferences for Remote Control",
+   "attribute": "target audience",
+   "states": [
+    {
+     "value": "young people under forty",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2004-10-26T10:00:00",
+     "evidence": [
+      131,
+      132,
+      133,
+      134,
+      135,
+      136
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "entity": "Remote control design",
+   "attribute": "target audience",
+   "states": [
+    {
+     "value": "young consumers",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      43,
+      155
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "entity": "Remote control design",
+   "attribute": "energy source",
+   "states": [
+    {
+     "value": "basic battery",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      73,
+      89,
+      93
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "entity": "Remote control design",
+   "attribute": "buttons",
+   "states": [
+    {
+     "value": "push-buttons",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      160,
+      174,
+      187,
+      190
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "entity": "Remote control design",
+   "attribute": "button shape",
+   "states": [
+    {
+     "value": "round",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      510,
+      511,
+      517,
+      537,
+      538,
+      540
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "entity": "Remote control design",
+   "attribute": "LCD screen placement",
+   "states": [
+    {
+     "value": "central",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      619,
+      629
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "entity": "Remote control design",
+   "attribute": "scroll-wheel",
+   "states": [
+    {
+     "value": "not included",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      770,
+      771,
+      772,
+      773,
+      774,
+      775
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "entity": "Scroll-wheel",
+   "attribute": "inclusion",
+   "states": [
+    {
+     "value": "excluded",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      790,
+      794,
+      795,
+      797,
+      798
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "entity": "Material",
+   "attribute": "type",
+   "states": [
+    {
+     "value": "rubber",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2004-10-26T11:00:00",
+     "evidence": [
+      808,
+      809,
+      810,
+      811,
+      812
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "entity": "Product Rating",
+   "attribute": "overall score",
+   "states": [
+    {
+     "value": "2 and 2/3",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-26T12:00:00",
+     "evidence": [
+      370
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "entity": "Product Design",
+   "attribute": "customizable covers",
+   "states": [
+    {
+     "value": "included as a trend feature",
+     "label": "Active",
+     "valid_from": 4,
+     "valid_to": null,
+     "meeting_id": "mtg_0004",
+     "meeting": 4,
+     "date": "2004-10-26T12:00:00",
+     "evidence": [
+      417
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S6",
+   0,
+   1,
+   2
+  ]
+ ]
+}

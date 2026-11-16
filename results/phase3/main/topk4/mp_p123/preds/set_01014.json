@@ -1,0 +1,166 @@
+{
+ "set_id": "set_01014",
+ "method": "multipass:1,2,3:verify=False+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Meera",
+   "quote": "First thing, the Halden Foods ticket. Open eleven days and they've escalated twice now.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Meera",
+   "quote": "Fine. Note to their account manager by noon tomorrow, please.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "quote": "Nine are theirs, five are ours. I'll send the list round.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m1",
+   "role": "resolution",
+   "utterance_idxs": [
+    60
+   ],
+   "speaker": "Jonas",
+   "quote": "Then give them one. It's still cheaper than the two sales calls we'd spend getting anybody to try it.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Meera",
+   "quote": "SOC 2 first. It's due tomorrow, the fifteenth.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Pavel",
+   "quote": "First week, 412 signups. 2.1 percent activated. 31 percent of accounts used disposable email addresses.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "proposal",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "quote": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "resolution",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Meera",
+   "quote": "Okay. I've got 25 days to launch, a page that has to be final, and a week of numbers that don't support what we picked. We're switching Insights to the 30-day trial with a card required at signup.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Jonas",
+   "quote": "I got invited to this twice, and one of them's tomorrow.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Pavel",
+   "quote": "Skip that one.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Pavel",
+   "quote": "Forty-one declines.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    9
+   ],
+   "speaker": "Jonas",
+   "quote": "Forty-two. Someone in Lisbon joined late.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Meera",
+   "quote": "So that puts the trial question back on the table today, properly, it's open.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Meera",
+   "quote": "Insights goes back to the 14-day free trial with no card required.",
+   "confidence": 0.95
+  },
+  {
+   "meeting_id": "m4",
+   "role": "proposal",
+   "utterance_idxs": [
+    44
+   ],
+   "speaker": "Jonas",
+   "quote": "so I'm saying back to the 14 days, free, no card.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m4",
+   "role": "resolution",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Pavel",
+   "quote": "Card added goes away.",
+   "confidence": 0.85
+  }
+ ]
+}

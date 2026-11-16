@@ -1,0 +1,1509 @@
+[
+ {
+  "qid": "set_01025-q01",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   },
+   {
+    "uuid": "aa7c26d2-b2d3-4281-afc9-5d281315ecfe",
+    "name": "supplies",
+    "fact": "Calder supplies corrugated and void-fill to the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781471+00:00"
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q02",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a570e126-00da-4d59-ba75-3e000ea2dc5f",
+    "name": "agrees_to_handle",
+    "fact": "Elif agrees to handle the Monday check for stock count.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q03",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c7f004f5-2e57-4341-b36d-90572808b921",
+    "name": "STOP_DATE",
+    "fact": "Calder will stop operations at the northern depot by the end of July.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "d7f4eca7-b099-4c78-ae18-39d2f40c23d4",
+    "name": "ACTION",
+    "fact": "Ingrid is responsible for completing the fire door signage with new stickers by the end of the month.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38e95326-9d16-4456-b22f-42e6d28045ea",
+    "name": "FIRST_DELIVERY_DATE",
+    "fact": "The first Fenmoor load must arrive before the end of July.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q04",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c7f004f5-2e57-4341-b36d-90572808b921",
+    "name": "STOP_DATE",
+    "fact": "Calder will stop operations at the northern depot by the end of July.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "d7f4eca7-b099-4c78-ae18-39d2f40c23d4",
+    "name": "ACTION",
+    "fact": "Ingrid is responsible for completing the fire door signage with new stickers by the end of the month.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "38e95326-9d16-4456-b22f-42e6d28045ea",
+    "name": "FIRST_DELIVERY_DATE",
+    "fact": "The first Fenmoor load must arrive before the end of July.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q05",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "93ff2a58-eb3c-425e-899c-e47cf32b9d34",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Elif will notify Bao about the change in the supply arrangement with Calder.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1483b86c-696b-45d4-ba4c-172a6db1b087",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Elif will notify Oksana about the change in the supply arrangement with Calder.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q06",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ee07357-44f7-4563-9ad4-4a45d420c733",
+    "name": "PALLET_POSITIONS",
+    "fact": "The northern warehouse will use ninety pallet positions for the Fenmoor bulk order.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a570e126-00da-4d59-ba75-3e000ea2dc5f",
+    "name": "agrees_to_handle",
+    "fact": "Elif agrees to handle the Monday check for stock count.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q07",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   },
+   {
+    "uuid": "2ee07357-44f7-4563-9ad4-4a45d420c733",
+    "name": "PALLET_POSITIONS",
+    "fact": "The northern warehouse will use ninety pallet positions for the Fenmoor bulk order.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa7c26d2-b2d3-4281-afc9-5d281315ecfe",
+    "name": "supplies",
+    "fact": "Calder supplies corrugated and void-fill to the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781471+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q08",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "aa7c26d2-b2d3-4281-afc9-5d281315ecfe",
+    "name": "supplies",
+    "fact": "Calder supplies corrugated and void-fill to the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781471+00:00"
+   },
+   {
+    "uuid": "a570e126-00da-4d59-ba75-3e000ea2dc5f",
+    "name": "agrees_to_handle",
+    "fact": "Elif agrees to handle the Monday check for stock count.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q09",
+  "facts": [
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "c90b2a26-879c-4267-83ee-c76d9e240485",
+    "name": "mentions_monday_check_for",
+    "fact": "Lena mentions that the stock count is on Mondays.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-02T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa7c26d2-b2d3-4281-afc9-5d281315ecfe",
+    "name": "supplies",
+    "fact": "Calder supplies corrugated and void-fill to the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781471+00:00"
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "a570e126-00da-4d59-ba75-3e000ea2dc5f",
+    "name": "agrees_to_handle",
+    "fact": "Elif agrees to handle the Monday check for stock count.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q10",
+  "facts": [
+   {
+    "uuid": "4f91e756-18ef-49a9-871c-9c191c01dea1",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will receive supplies from the Midlands after the closure of the northern depot.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e8fa2cfe-6048-406b-90d3-45ea8c3711de",
+    "name": "HAS_BUFFER",
+    "fact": "The northern warehouse will have a buffer of about three weeks of stock from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944294+00:00"
+   },
+   {
+    "uuid": "55e3a2bd-c25a-4868-ab9e-a5bf6b4ff1d4",
+    "name": "SUPPLY_FROM",
+    "fact": "The northern warehouse will move to a monthly bulk order from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b7c3dccd-bb49-4869-977c-e09ad5df455a",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives corrugated from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781476+00:00"
+   },
+   {
+    "uuid": "5765112c-4b26-4a24-9d1e-69b139f432f6",
+    "name": "SHUTTING_DOWN",
+    "fact": "Calder is shutting down the northern depot six weeks from now.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944284+00:00"
+   },
+   {
+    "uuid": "525d388c-b3f0-471e-9979-32709fd3caf4",
+    "name": "mentions_stock_coverage_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781480+00:00"
+   },
+   {
+    "uuid": "fe0a92c6-dc3a-4d5a-9ae4-0a008c89d542",
+    "name": "HAS_STORAGE_COST",
+    "fact": "The northern warehouse will have a storage cost of about a thousand a month for the buffer from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "fa481512-a344-4961-8726-d84f3c18e030",
+    "name": "SUPPLY_TO",
+    "fact": "Fenmoor will supply the northern warehouse with paper at a price eight percent under the tonne.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "7758a38e-a719-44bd-989d-b97da884b260",
+    "name": "receives_supplies_from",
+    "fact": "Northern warehouse receives void-fill from the weekly Calder standing order.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781487+00:00"
+   },
+   {
+    "uuid": "c9858013-e7c3-44ea-9bd0-71db37839a79",
+    "name": "mentions_stock_coverage_comparison_for",
+    "fact": "Lena mentions that the weekly standing order with Calder provides five days of stock coverage instead of three weeks at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781484+00:00"
+   },
+   {
+    "uuid": "2ee07357-44f7-4563-9ad4-4a45d420c733",
+    "name": "PALLET_POSITIONS",
+    "fact": "The northern warehouse will use ninety pallet positions for the Fenmoor bulk order.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "aa7c26d2-b2d3-4281-afc9-5d281315ecfe",
+    "name": "supplies",
+    "fact": "Calder supplies corrugated and void-fill to the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781471+00:00"
+   }
+  ]
+ },
+ {
+  "qid": "set_01025-q11",
+  "facts": [
+   {
+    "uuid": "ccde354c-912d-4322-8ea4-cee1573a8ad0",
+    "name": "PROPOSED_CHANGE",
+    "fact": "Ingrid proposed giving carriers two-hour appointment windows instead of the whole day.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": "2025-06-19T00:00:00+00:00",
+    "expired_at": "2026-11-08T05:00:15.944304+00:00"
+   },
+   {
+    "uuid": "886234b7-049f-4ad6-a6f2-2e1951e5955b",
+    "name": "NOTIFICATION",
+    "fact": "Ingrid has copied Bilal on the carrier note regarding two-hour appointment windows.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "32a0a891-1058-4a69-b971-c386e0338030",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Ingrid will notify Ines about the proposed change to the appointment windows for carriers.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "95211b9e-b1e8-4e96-831f-b50da54686b3",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Ingrid will notify Bilal about the proposed change to the appointment windows for carriers.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "f8320778-b304-4328-b8b5-2ea446631ab5",
+    "name": "IMPLEMENTATION",
+    "fact": "Ingrid is implementing two-hour appointment windows for carriers starting with the next booking round in July.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "b2ddf28d-c564-4e8c-a3fc-6b9cd27de12a",
+    "name": "discusses_with",
+    "fact": "Ingrid discusses the dock schedule with Zofia.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "5c269631-c24f-44e8-88d6-9b760a4c3eb7",
+    "name": "NOTIFY_ABOUT",
+    "fact": "Tomas notified Calder about the northern depot closure.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "2ee07357-44f7-4563-9ad4-4a45d420c733",
+    "name": "PALLET_POSITIONS",
+    "fact": "The northern warehouse will use ninety pallet positions for the Fenmoor bulk order.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "af4f564d-af15-4013-9143-6f613c2b781c",
+    "name": "mentions_pallet_positions_freed_for",
+    "fact": "Lena mentions that the weekly standing order with Calder frees up about a hundred and forty pallet positions at the Northern warehouse.",
+    "episodes": [
+     "598e47ff-8142-41b8-be5e-c44018baaac2"
+    ],
+    "valid_at": "2025-06-05T00:00:00+00:00",
+    "invalid_at": "2025-06-12T00:00:00+00:00",
+    "expired_at": "2026-11-08T04:51:26.781510+00:00"
+   },
+   {
+    "uuid": "78abb60b-60aa-4518-a405-7852801e501f",
+    "name": "NOTIFICATION",
+    "fact": "Tomas is notifying finance about the offsite event in September.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "1527b884-98e9-4384-bfc9-1b02f44b8d87",
+    "name": "LOCATION",
+    "fact": "The ninety pallet positions for the Fenmoor bulk order are located in aisles fourteen to seventeen.",
+    "episodes": [
+     "4192e775-9a1a-4f9f-b9cb-297da49b0386"
+    ],
+    "valid_at": "2025-06-19T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   },
+   {
+    "uuid": "e01f06ca-191b-46e7-b074-8a4a34530fff",
+    "name": "CONFIRMED_DELIVERY_DATE",
+    "fact": "Elif will ask about the first delivery date from Fenmoor.",
+    "episodes": [
+     "abbe14f0-a6ac-499c-8487-4af6106474c5"
+    ],
+    "valid_at": "2025-06-12T00:00:00+00:00",
+    "invalid_at": null,
+    "expired_at": null
+   }
+  ]
+ }
+]

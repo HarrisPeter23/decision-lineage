@@ -1,0 +1,374 @@
+{
+ "set_id": "set_01039",
+ "meta": {
+  "arc_type": "deferred",
+  "domain": "corporate facilities team",
+  "seed": 1039,
+  "n_meetings": 3,
+  "noise": [
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 104
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 35,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": false,
+    "target_utterances": 90
+   },
+   {
+    "interruptions": "some",
+    "filler_talk_pct": 25,
+    "false_starts": "rare",
+    "pronoun_heavy": false,
+    "digression": true,
+    "target_utterances": 115
+   }
+  ],
+  "models": {
+   "generator": "claude-sonnet-5.5"
+  }
+ },
+ "topic": "the cleaning vendor for the Leeds office",
+ "options": {
+  "A": "renew the incumbent, Brightwash, for two years at a 6 percent increase, 44,000 pounds a year",
+  "B": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause"
+ },
+ "cast": [
+  {
+   "name": "Hana",
+   "slot": "manager",
+   "style": "detail-oriented, quotes numbers"
+  },
+  {
+   "name": "Marco",
+   "slot": "proposer",
+   "style": "hedges a lot (\"I think maybe...\")"
+  },
+  {
+   "name": "Diego",
+   "slot": "challenger",
+   "style": "blunt and brief"
+  },
+  {
+   "name": "Tomas",
+   "slot": "supporter",
+   "style": "likes to play devil's advocate"
+  },
+  {
+   "name": "Elif",
+   "slot": "observer",
+   "style": "big-picture, vague on details"
+  }
+ ],
+ "versions": [
+  {
+   "version": 1,
+   "option": "B",
+   "valid_from": 3,
+   "valid_to": null,
+   "option_text": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause"
+  }
+ ],
+ "chain": [
+  {
+   "link_id": "B1",
+   "role": "proposal",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    20
+   ],
+   "gist": "Marco proposes renewing Brightwash for two years at a 6 percent increase, 44,000 pounds a year.",
+   "version": null,
+   "option_key": "A",
+   "option": "renew the incumbent, Brightwash, for two years at a 6 percent increase, 44,000 pounds a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B2",
+   "role": "rationale",
+   "meeting": 1,
+   "meeting_id": "m1",
+   "speaker": "Marco",
+   "utterance_idxs": [
+    32,
+    33
+   ],
+   "gist": "Marco argues that the complaints log shows only 11 issues in twelve months and a switch would cost about three weeks of disruption.",
+   "version": null,
+   "option_key": "A",
+   "option": "renew the incumbent, Brightwash, for two years at a 6 percent increase, 44,000 pounds a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B3",
+   "role": "evidence",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Elif",
+   "utterance_idxs": [
+    20,
+    22,
+    26
+   ],
+   "gist": "Elif reports that two competing quotes arrived, the lower from Kestrel Facilities at 41,000 pounds a year with credits for missed visits and a 90-day exit, and that reference checks with three of their clients found no missed visits.",
+   "version": null,
+   "option_key": "A",
+   "option": "renew the incumbent, Brightwash, for two years at a 6 percent increase, 44,000 pounds a year",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B4",
+   "role": "proposal",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    33
+   ],
+   "gist": "Diego proposes switching to Kestrel Facilities.",
+   "version": null,
+   "option_key": "B",
+   "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B5",
+   "role": "rationale",
+   "meeting": 2,
+   "meeting_id": "m2",
+   "speaker": "Diego",
+   "utterance_idxs": [
+    39,
+    41
+   ],
+   "gist": "Diego argues that it saves 3,000 pounds a year against the renewal, the 90-day exit clause removes the lock-in, and Kestrel's own team handles the transition in two weeks.",
+   "version": null,
+   "option_key": "B",
+   "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+   "implicit": false,
+   "reaffirmation": false
+  },
+  {
+   "link_id": "B6",
+   "role": "resolution",
+   "meeting": 3,
+   "meeting_id": "m3",
+   "speaker": "Hana",
+   "utterance_idxs": [
+    92
+   ],
+   "gist": "Hana picks Kestrel Facilities as the Leeds cleaning vendor.",
+   "version": 1,
+   "option_key": "B",
+   "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+   "implicit": false,
+   "reaffirmation": false
+  }
+ ],
+ "changes": [],
+ "distractor": {
+  "topic": "replacing the individual desk bins",
+  "option": "replace individual desk bins with shared floor-level recycling bins",
+  "chain": [
+   {
+    "link_id": "D1",
+    "role": "proposal",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Tomas",
+    "utterance_idxs": [
+     61
+    ],
+    "gist": "Tomas suggests replacing individual desk bins with shared floor-level recycling bins.",
+    "version": null,
+    "option_key": null,
+    "option": "replace individual desk bins with shared floor-level recycling bins",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D2",
+    "role": "rationale",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Tomas",
+    "utterance_idxs": [
+     65,
+     67
+    ],
+    "gist": "Tomas points out that cleaners spend 35 minutes a night emptying 120 desk bins and the pilot floor cut contamination from 31 percent to 12 percent.",
+    "version": null,
+    "option_key": null,
+    "option": "replace individual desk bins with shared floor-level recycling bins",
+    "implicit": false,
+    "reaffirmation": false
+   },
+   {
+    "link_id": "D3",
+    "role": "resolution",
+    "meeting": 2,
+    "meeting_id": "m2",
+    "speaker": "Hana",
+    "utterance_idxs": [
+     74
+    ],
+    "gist": "Hana approves shared floor-level recycling bins.",
+    "version": null,
+    "option_key": null,
+    "option": "replace individual desk bins with shared floor-level recycling bins",
+    "implicit": false,
+    "reaffirmation": false
+   }
+  ]
+ },
+ "questions": [
+  {
+   "qid": "set_01039-q01",
+   "type": "lookup_final",
+   "question": "What did the team finally decide about the cleaning vendor for the Leeds office?",
+   "answer_text": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+   "answer_facts": {
+    "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q02",
+   "type": "decisions_about",
+   "question": "What decisions were made about the cleaning vendor for the Leeds office?",
+   "answer_text": "meeting 3: Hana - Hana picks Kestrel Facilities as the Leeds cleaning vendor.",
+   "answer_facts": {
+    "decisions": [
+     {
+      "meeting": 3,
+      "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+      "reaffirmation": false
+     }
+    ]
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q03",
+   "type": "as_of",
+   "question": "What was the decision about the cleaning vendor for the Leeds office as of the end of meeting 1?",
+   "answer_text": "No decision had been made yet.",
+   "answer_facts": {
+    "as_of": 1,
+    "option": null
+   },
+   "supporting_links": []
+  },
+  {
+   "qid": "set_01039-q04",
+   "type": "as_of",
+   "question": "What was the decision about the cleaning vendor for the Leeds office as of the end of meeting 3?",
+   "answer_text": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause",
+   "answer_facts": {
+    "as_of": 3,
+    "option": "switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause"
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q05",
+   "type": "change_over_time",
+   "question": "How did the decision about the cleaning vendor for the Leeds office change over time?",
+   "answer_text": "Nothing was decided until meeting 3, when the team chose switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause.",
+   "answer_facts": {
+    "first_decision_meeting": 3
+   },
+   "supporting_links": [
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q06",
+   "type": "who_proposed",
+   "question": "Who proposed switch to Kestrel Facilities at 41,000 pounds a year with a 90-day exit clause?",
+   "answer_text": "Diego",
+   "answer_facts": {
+    "speaker": "Diego"
+   },
+   "supporting_links": [
+    "B4"
+   ]
+  },
+  {
+   "qid": "set_01039-q07",
+   "type": "meetings_contributed",
+   "question": "Which meetings contributed to the final decision about the cleaning vendor for the Leeds office?",
+   "answer_text": "meeting 1, meeting 2, meeting 3",
+   "answer_facts": {
+    "meetings": [
+     1,
+     2,
+     3
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q08",
+   "type": "full_lineage",
+   "question": "Show the complete lineage of the decision about the cleaning vendor for the Leeds office from proposal to final outcome.",
+   "answer_text": "meeting 1 - Marco [proposal]: Marco proposes renewing Brightwash for two years at a 6 percent increase, 44,000 pounds a year. | meeting 1 - Marco [rationale]: Marco argues that the complaints log shows only 11 issues in twelve months and a switch would cost about three weeks of disruption. | meeting 2 - Elif [evidence]: Elif reports that two competing quotes arrived, the lower from Kestrel Facilities at 41,000 pounds a year with credits for missed visits and a 90-day exit, and that reference checks with three of their clients found no missed visits. | meeting 2 - Diego [proposal]: Diego proposes switching to Kestrel Facilities. | meeting 2 - Diego [rationale]: Diego argues that it saves 3,000 pounds a year against the renewal, the 90-day exit clause removes the lock-in, and Kestrel's own team handles the transition in two weeks. | meeting 3 - Hana [resolution]: Hana picks Kestrel Facilities as the Leeds cleaning vendor.",
+   "answer_facts": {
+    "order": [
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "B5",
+     "B6"
+    ]
+   },
+   "supporting_links": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6"
+   ]
+  },
+  {
+   "qid": "set_01039-q09",
+   "type": "distractor",
+   "question": "What was decided about replacing the individual desk bins?",
+   "answer_text": "replace individual desk bins with shared floor-level recycling bins",
+   "answer_facts": {
+    "option": "replace individual desk bins with shared floor-level recycling bins"
+   },
+   "supporting_links": [
+    "D3"
+   ]
+  }
+ ]
+}

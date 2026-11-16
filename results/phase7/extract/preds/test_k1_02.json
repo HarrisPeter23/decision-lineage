@@ -1,0 +1,898 @@
+{
+ "set_id": "test_k1_02",
+ "method": "single_pass_recap_roles",
+ "prompt_version": "recap_roles_v1",
+ "links": [
+  {
+   "meeting_id": "mtg_0001",
+   "role": "proposal",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "evidence",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Diego",
+   "confidence": 0.7,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    27
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    35
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "rationale",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    69
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "challenge",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    90
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    91
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0001",
+   "role": "resolution",
+   "utterance_idxs": [
+    92
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Buy managed laptops for all 38 prod contractors"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Seven weeks door to door"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Three to four weeks"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Seven weeks"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.7,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Seven weeks"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Vendor timeline for managed laptops",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    22
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Split delivery"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.6,
+   "decision": "Split delivery for vendor laptops",
+   "option": "Monitors ordered in two lots"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    28
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Vendor timeline for managed laptops",
+   "option": "Park decision"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Patch window for audit follow-up",
+   "option": "Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "VPN gateway certificate",
+   "option": "Expires on the thirtieth"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.7,
+   "decision": "VPN gateway certificate",
+   "option": "Renewal requested"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "VPN gateway certificate",
+   "option": "Renewal requested"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    43
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "VPN gateway certificate",
+   "option": "Chase Milan"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Shared password vault access",
+   "option": "No regular reviews"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    49
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Shared password vault access",
+   "option": "Tomasz did one last year"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.7,
+   "decision": "Shared password vault access",
+   "option": "Alejandra was on the list"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "proposal",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Shared password vault access",
+   "option": "Quarterly review"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "Shared password vault access",
+   "option": "Quarterly review"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    53
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Shared password vault access",
+   "option": "Nine unexplained accounts"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    54
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Shared password vault access",
+   "option": "Quarterly review"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    61
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Shared password vault access",
+   "option": "Quarterly review"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    67
+   ],
+   "speaker": "Camila",
+   "confidence": 0.7,
+   "decision": "Hardware line budget",
+   "option": "Room available"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "challenge",
+   "utterance_idxs": [
+    68
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Hardware line budget",
+   "option": "Forty-odd thousand"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    70
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Hardware line budget",
+   "option": "No money, no laptops"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    73
+   ],
+   "speaker": "Camila",
+   "confidence": 0.8,
+   "decision": "Hardware line budget",
+   "option": "Audit follow-up open"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    76
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Hardware line budget",
+   "option": "Quote good for thirty days"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "evidence",
+   "utterance_idxs": [
+    77
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.7,
+   "decision": "Hardware line budget",
+   "option": "End of April"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    82
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Hardware line budget",
+   "option": "Send emails"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    102
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Hardware line budget",
+   "option": "Send emails"
+  },
+  {
+   "meeting_id": "mtg_0002",
+   "role": "resolution",
+   "utterance_idxs": [
+    106
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Meeting notes",
+   "option": "Take notes"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    4
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    6
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    8
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    13
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    14
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    16
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    17
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    18
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    19
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    20
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    21
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    23
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    24
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    25
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    26
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    30
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    31
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    32
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    33
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    36
+   ],
+   "speaker": "Diego",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "rationale",
+   "utterance_idxs": [
+    37
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "challenge",
+   "utterance_idxs": [
+    38
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.8,
+   "decision": "Contractor laptops for prod access",
+   "option": "Rental option"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    41
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Company-managed laptops for the contractors in prod"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    42
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Contractor laptops for prod access",
+   "option": "Company-managed laptops for the contractors in prod"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    46
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Patch window for audit follow-up",
+   "option": "Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    47
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "Patch window for audit follow-up",
+   "option": "Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    48
+   ],
+   "speaker": "Kwame",
+   "confidence": 0.9,
+   "decision": "Patch window for audit follow-up",
+   "option": "Sunday night"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "reconsideration",
+   "utterance_idxs": [
+    50
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "VPN gateway certificate",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    51
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "VPN gateway certificate",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "evidence",
+   "utterance_idxs": [
+    52
+   ],
+   "speaker": "Zainab",
+   "confidence": 0.9,
+   "decision": "VPN gateway certificate",
+   "option": ""
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    57
+   ],
+   "speaker": "Chloe",
+   "confidence": 0.9,
+   "decision": "VPN gateway certificate",
+   "option": "Chase Milan"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    58
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Sione's lunch",
+   "option": "Thursday, noon"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    63
+   ],
+   "speaker": "Diego",
+   "confidence": 0.9,
+   "decision": "Onboarding batch",
+   "option": "First week of April"
+  },
+  {
+   "meeting_id": "mtg_0003",
+   "role": "resolution",
+   "utterance_idxs": [
+    66
+   ],
+   "speaker": "Camila",
+   "confidence": 0.9,
+   "decision": "Meeting notes",
+   "option": "Send to usual list with vendor emails"
+  }
+ ]
+}

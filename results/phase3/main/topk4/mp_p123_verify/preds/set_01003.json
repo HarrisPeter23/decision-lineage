@@ -1,0 +1,126 @@
+{
+ "set_id": "set_01003",
+ "method": "multipass:1,2,3:verify=True+top4",
+ "links": [
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "quote": "Morning. Let's pick the flooring for the Level 4 fit-out today, plus the furniture delivery schedule.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "proposal",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Mateo",
+   "quote": "I, um, I've been looking at it. I think we go with luxury vinyl plank, from Norvik Supply.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Mateo",
+   "quote": "Vinyl plank's about twenty percent cheaper than the carpet tile, it's quick to replace when a section gets damaged, and Norvik can deliver in three weeks.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m1",
+   "role": "rationale",
+   "utterance_idxs": [
+    11
+   ],
+   "speaker": "Tariq",
+   "quote": "Big picture, finance wants the floor signed off before the lease incentive ends. So three weeks matters more than anything. Mateo, you're sure about the stock?",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    1
+   ],
+   "speaker": "Aisha",
+   "quote": "They came Thursday. So I did a mock-up of the pantry floor, laid planks with the seams as delivered, and had the cleaners mop it wet the way they do every night.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "quote": "I think this is a real problem. The pantry and the entrance, that's where the spills and the wet shoes are, every single day.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    5
+   ],
+   "speaker": "Elif",
+   "quote": "If seams are open there, I think the planks will lift, and from what I read the warranty won't cover moisture damage on unsealed seams in wet areas.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m2",
+   "role": "evidence",
+   "utterance_idxs": [
+    10
+   ],
+   "speaker": "Aisha",
+   "quote": "Honestly, if it's just a nightly mop, it's a worst case. But a dishwasher leaks, or it rains for a week and everyone tracks it in, then yes.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    0
+   ],
+   "speaker": "Tariq",
+   "quote": "Right. The flooring question again. With the mock-up result and what Elif found in the warranty, I think we need to look at this again before we order anything.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    2
+   ],
+   "speaker": "Mateo",
+   "quote": "I called Norvik. They said they can heat-weld the seams at the factory, it's a thing they do.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "proposal",
+   "utterance_idxs": [
+    3
+   ],
+   "speaker": "Sven",
+   "quote": "So, listen, we keep the vinyl plank, because it's cheaper and the delivery is fine, but we get the seams heat-sealed, and across the pantry and the entrance, the first stretch, we put ceramic tile instead of plank.",
+   "confidence": 0.9
+  },
+  {
+   "meeting_id": "m3",
+   "role": "resolution",
+   "utterance_idxs": [
+    15
+   ],
+   "speaker": "Tariq",
+   "quote": "Okay. I'm fine with that. So, we're keeping the Norvik vinyl plank, with heat-sealed seams and a ceramic tile band across the pantry and the entrance.",
+   "confidence": 0.9
+  }
+ ]
+}

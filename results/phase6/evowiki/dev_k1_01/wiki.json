@@ -1,0 +1,191 @@
+{
+ "slots": [
+  {
+   "id": "S0",
+   "entity": "Analytics add-on pricing model",
+   "attribute": "pricing structure",
+   "states": [
+    {
+     "value": "per seat, $12 per seat per month",
+     "label": "Overturned",
+     "valid_from": 1,
+     "valid_to": 3,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-09-13",
+     "evidence": [
+      5,
+      7,
+      8,
+      10,
+      11,
+      12
+     ]
+    },
+    {
+     "value": "per-seat at twelve",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-27",
+     "evidence": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "entity": "Analytics add-on pricing model",
+   "attribute": "basis",
+   "states": [
+    {
+     "value": "add-on to base plan",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-09-13",
+     "evidence": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "entity": "Onboarding checklist",
+   "attribute": "next action",
+   "states": [
+    {
+     "value": "Ingrid to send shorter list for Diego's review",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-09-13",
+     "evidence": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "entity": "Pilot export",
+   "attribute": "next action",
+   "states": [
+    {
+     "value": "Sven to go through it this week",
+     "label": "Active",
+     "valid_from": 1,
+     "valid_to": null,
+     "meeting_id": "mtg_0001",
+     "meeting": 1,
+     "date": "2025-09-13",
+     "evidence": [
+      31
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "entity": "Weekly demo",
+   "attribute": "calendar invites",
+   "states": [
+    {
+     "value": "Thursday afternoon",
+     "label": "Overturned",
+     "valid_from": 2,
+     "valid_to": 2,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-09-20",
+     "evidence": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+     ]
+    },
+    {
+     "value": "Wei",
+     "label": "Active",
+     "valid_from": 2,
+     "valid_to": null,
+     "meeting_id": "mtg_0002",
+     "meeting": 2,
+     "date": "2025-09-20",
+     "evidence": [
+      21,
+      22
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "entity": "Post-launch monitoring",
+   "attribute": "monitoring focus",
+   "states": [
+    {
+     "value": "churn among accounts over forty, after the first billing",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-27",
+     "evidence": [
+      15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "entity": "Post-launch monitoring",
+   "attribute": "dashboard implementation",
+   "states": [
+    {
+     "value": "add a filter to the dashboard",
+     "label": "Active",
+     "valid_from": 3,
+     "valid_to": null,
+     "meeting_id": "mtg_0003",
+     "meeting": 3,
+     "date": "2025-09-27",
+     "evidence": [
+      17
+     ]
+    }
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "S4",
+   0,
+   1,
+   2
+  ],
+  [
+   "S0",
+   0,
+   1,
+   3
+  ]
+ ]
+}

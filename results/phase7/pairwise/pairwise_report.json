@@ -1,0 +1,91 @@
+{
+ "split": "test",
+ "n_items": 160,
+ "judged": {
+  "gemini": 160,
+  "granite": 160
+ },
+ "results": {
+  "gemini": {
+   "evowiki_style/faithfulness": {
+    "n": 80,
+    "win": 44,
+    "tie": 4,
+    "loss": 32,
+    "unparsed": 0,
+    "position_bias": 0.25,
+    "n_order_pairs": 40
+   },
+   "evowiki_style/completeness": {
+    "n": 80,
+    "win": 44,
+    "tie": 8,
+    "loss": 28,
+    "unparsed": 0,
+    "position_bias": 0.3,
+    "n_order_pairs": 40
+   },
+   "graphiti/faithfulness": {
+    "n": 80,
+    "win": 32,
+    "tie": 1,
+    "loss": 47,
+    "unparsed": 0,
+    "position_bias": 0.25,
+    "n_order_pairs": 40
+   },
+   "graphiti/completeness": {
+    "n": 80,
+    "win": 31,
+    "tie": 12,
+    "loss": 37,
+    "unparsed": 0,
+    "position_bias": 0.35,
+    "n_order_pairs": 40
+   }
+  },
+  "granite": {
+   "evowiki_style/faithfulness": {
+    "n": 80,
+    "win": 19,
+    "tie": 48,
+    "loss": 13,
+    "unparsed": 0,
+    "position_bias": 0.425,
+    "n_order_pairs": 40
+   },
+   "evowiki_style/completeness": {
+    "n": 80,
+    "win": 20,
+    "tie": 45,
+    "loss": 15,
+    "unparsed": 0,
+    "position_bias": 0.4,
+    "n_order_pairs": 40
+   },
+   "graphiti/faithfulness": {
+    "n": 80,
+    "win": 28,
+    "tie": 30,
+    "loss": 22,
+    "unparsed": 0,
+    "position_bias": 0.325,
+    "n_order_pairs": 40
+   },
+   "graphiti/completeness": {
+    "n": 80,
+    "win": 30,
+    "tie": 29,
+    "loss": 21,
+    "unparsed": 0,
+    "position_bias": 0.25,
+    "n_order_pairs": 40
+   }
+  }
+ },
+ "inter_judge": {
+  "n": 320,
+  "observed": 0.5,
+  "kappa": 0.306
+ }
+}
