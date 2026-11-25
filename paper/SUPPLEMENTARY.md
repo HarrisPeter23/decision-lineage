@@ -29,7 +29,7 @@ The ablation rows are merged into the paper's per-system means table (`tables/te
 ## S6. Reproducibility details not in the paper
 - Frozen configuration: `reports/FREEZE.md` section 13 (model digests, thresholds, seeds).
 - Judge qualification table: FREEZE section 17.
-- Deviations log: `reports/deviations.md` (D-01 to D-40).
+- Deviations log: `reports/deviations.md` (D-01 to D-49).
 - Failure log: `results/phase7/failures.md`.
 - The evowiki_style simplifications, item by item: `baselines/evowiki_style/SIMPLIFICATIONS.md`.
 
@@ -126,7 +126,7 @@ Judge agreement 0.50 over 320 verdicts (kappa 0.31). Share of verdicts that flip
 
 ## Revision of 2026-11-10 (after CHECKPOINT 8)
 - **DEV F1 table** (`tables/dev_f1.tex`): moved here. DEV F1 per system is now a column of the paper's TEST means table, which shows the DEV-to-TEST drop.
-- **TEST secondary family** (`tables/test_secondary.tex`, 19 tests): here. The paper names the 5 tests that reject.
+- **TEST secondary family** (`tables/test_secondary.tex`, 19 tests): here. The paper names the 4 tests that reject.
 - **TEST ablations with every metric and paired differences:** `results/phase7/extra_table.md`. The paper gives the ablation rows in the means table and the key differences in the text.
 - **Extraction-level metrics** (six-role and the pre-registered four-class, TEST and DEV): `results/phase7/extract_eval.md`. The paper gives the headline numbers in the text.
 - **Failure analysis** (quantified, with quoted examples): `results/phase7/failure_analysis.md`. The paper gives three short examples.

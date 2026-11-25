@@ -171,3 +171,14 @@ Pool 10 is reported only where it is already complete (my system's pool-10 gener
 - References to the supplementary material now name `SUPPLEMENTARY.md` in the anonymous repository; the availability statement lists it.
 - `refs.bib`: "Proc. SIGdial Workshop" normalized to "Proc. SIGDIAL Workshop". No DOI added: Crossref returned none for lewis2020rag (NeurIPS 2020), wu2025longmemeval and he2023debertav3 (ICLR) or ushio2025meetingkg (CEUR-WS).
 - `paper.zip` no longer contains `paper/README.md` (`paper/build_release.py`); the file stays in the development repository.
+
+## D-49 (2026-11-25) Stale-statement fixes and two bibliography page fields (text only)
+- **Text and bibliography only.** No system, metric, test, prompt, sample, gold, number or result changes. The paper is not submitted anywhere and no venue is chosen (stated by the authors).
+- **Correction to FREEZE section 6 (FREEZE.md not edited).** Section 6 says `granite4.2:8b` "has not been tested" on the planted-negative links. That was true when it was written; Granite was later run on the same items (`results/judge_sensitivity/granite.jsonl`) and flagged 0 of 15 wrong roles (`reports/role_verification.md`), as the paper states. FREEZE.md is left byte-identical so that its SHA-256 (9044c6d215135645cfa7e2252ca4ef3aadb4236b3d27db2a4ca94fefb1fcbd2c, recorded in the release header) stays valid.
+- `paper/refs.bib`: `ushio2025meetingkg` gets back `pages = {326--331}` (ceur-ws.org/Vol-4085/ index, checked 2026-11-24); booktitle "Proc. ISWC 2025 Companion Volume". `reimers2019sbert` pages 3982--3992 (aclanthology.org/D19-1410). The 6-page paper still compiles to 6 pages with no overfull boxes (TinyTeX, 2026-11-25). `paper.zip` and `paper_overleaf_single.tex` rebuilt by `paper/build_release.py`.
+- Stale statements fixed:
+  - `paper/SUPPLEMENTARY.md`: "5 tests" to "4 tests" (see D-43), and the deviation range to D-01 to D-49;
+  - `results/phase7/failure_analysis.md`: the cap is the larger of the two upstream losses, but retrieval and generation lose more (D-45);
+  - `ARCHITECTURE_EXPLAINED.md`: top-4 cap per meeting; the cap is not the largest loss; H2 is exact match; the source of the gain is open;
+  - `paper_ieee_short/README.md`, `paper_ieee_8page/README.md`: "under review" to "not submitted"; `paper_springer/README.md`: the camera-ready to-do list marked done;
+  - `HANDOFF.md`: status note (not submitted; ICCIDS 2027 deadline passed); `paper/README.md`: compiles locally and on Overleaf, no placeholders remain, Sentence-BERT pages 3982-3992.

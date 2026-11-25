@@ -6,7 +6,7 @@ Script: `python -I eval/phase7_failure_analysis.py`. Extraction-level metrics: `
   - **232 (64%)** are among the extracted links kept by the top-4 cap.
   - **76 (21%)** were extracted but **cut by the top-4 cap**.
   - **57 (16%)** were **never extracted**.
-  So about 36% of the lineage is gone before retrieval starts. This bounds cited recall (0.362), and the cap is the larger loss.
+  So about 36% of the lineage is gone before retrieval starts. This bounds cited recall (0.362). Of these two upstream losses the cap is the larger; counting citations, retrieval and generation together lose more (25%, see the D-45 update under Reading).
 - **Extraction, TEST vs DEV** (tol 1):
   - localization recall 0.589 vs 0.762;
   - six-role F1 0.444 [0.41, 0.49] vs 0.554;
